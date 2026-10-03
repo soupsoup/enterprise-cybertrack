@@ -57,11 +57,18 @@
           "discover": "https://www.trendmicro.com/en_us/research.html"
         },
         {
-          "label": "Blog",
+          "label": "Cyberthreat news",
           "urls": [
-            "https://feeds.feedburner.com/TrendMicroSimplySecurity"
+            "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss"
           ],
-          "discover": "https://www.trendmicro.com/en_us/business.html"
+          "discover": "https://newsroom.trendmicro.com/cyberthreat"
+        },
+        {
+          "label": "News releases",
+          "urls": [
+            "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787"
+          ],
+          "discover": "https://newsroom.trendmicro.com/news-releases"
         }
       ]
     },
