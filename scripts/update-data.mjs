@@ -33,6 +33,13 @@ const CATEGORY_RULES = [
 ];
 const categorize = (s) => CATEGORY_RULES.find(([re]) => re.test(s))?.[1] ?? 'Application Platforms';
 
+// First sentence of the description, cut at a word boundary.
+const shorten = (desc, max = 110) => {
+  const first = desc.split(/(?<=\.)\s/)[0];
+  if (first.length <= max) return first;
+  return first.slice(0, max).replace(/\s+\S*$/, '') + '...';
+};
+
 // Collapse per-release product names ("windows 10 1607", "sql server 2017") into one product.
 const cleanProduct = (p) => p
   .replace(/^windows (10|11|server|\d).*$/, (m) => m.startsWith('windows server') ? 'windows server' : 'windows')
@@ -84,7 +91,7 @@ function normalize(c) {
   return {
     id: c.id, vendor: VENDORS[hit[3]], product, category: categorize(`${hit[3]} ${product}`),
     cvss: metric?.cvssData?.baseScore ?? null, kev: false, published: c.published.slice(0, 10),
-    title: desc.split(/(?<=\.)\s/)[0].slice(0, 110), summary: desc,
+    title: shorten(desc), summary: desc,
   };
 }
 
@@ -93,6 +100,7 @@ async function recategorize() {
   for (const v of j.cves) {
     v.product = cleanProduct(v.product.toLowerCase());
     v.category = categorize(`${v.vendor} ${v.product}`.toLowerCase());
+    if (v.summary) v.title = shorten(v.summary);
   }
   await writeFile(OUT, JSON.stringify(j, null, 1));
   console.log(`Recategorized ${j.cves.length} CVEs`);

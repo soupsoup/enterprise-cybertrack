@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Enterprise CyberTrack: GitLab</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/</link>
+<description>High and critical GitLab vulnerabilities.</description>
+<atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/gitlab.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>CVE-2026-89078 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89078</link>
+<guid isPermaLink="false">CVE-2026-89078</guid>
+<pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to execute arbitrary code on the GitLab server due to a double free issue when parsing a specially crafted regular expression in a CI/CD configuration. | CVSS 9.9 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-92470 GitLab gitlab: GitLab has remediated an issue in GitLab EE affecting all versions from 18.7 before 19.2.7, 19.3 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-92470</link>
+<guid isPermaLink="false">CVE-2026-92470</guid>
+<pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab EE affecting all versions from 18.7 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to access sensitive CI/CD variable values from debug-mode job traces through the Duo AI troubleshooting feature due to missing authorization checks. | CVSS 7.7 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-93577 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-93577</link>
+<guid isPermaLink="false">CVE-2026-93577</guid>
+<pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to execute arbitrary code on the GitLab server due to an integer overflow issue when compiling a specially crafted regular expression in a CI/CD configuration. | CVSS 9.9 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2025-14871 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.4.6 before 19.1.8, 19.2 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2025-14871</link>
+<guid isPermaLink="false">CVE-2025-14871</guid>
+<pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.4.6 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that under certain conditions could have allowed an unauthenticated user to cause denial of service due to improper resource allocation limits in the GraphQL complexity calculation logic. | CVSS 7.5 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-1168 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.4.6 before 19.1.8, 19.2 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-1168</link>
+<guid isPermaLink="false">CVE-2026-1168</guid>
+<pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.4.6 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that under certain conditions could have allowed an unauthenticated user to cause denial of service due to improper resource allocation limits in the GraphQL complexity calculation logic. | CVSS 7.5 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-78252 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 15.3 before 19.1.8, 19.2 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-78252</link>
+<guid isPermaLink="false">CVE-2026-78252</guid>
+<pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 15.3 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that, under certain conditions, an authenticated user could have induced a targeted user to perform unintended state-changing HTTP requests due to improper sanitization of user-controlled data in the Markdown JSON table renderer. | CVSS 8.2 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-79708 GitLab gitlab: GitLab has remediated an issue in GitLab EE affecting all versions from 19.0 before 19.1.8, 19.2 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-79708</link>
+<guid isPermaLink="false">CVE-2026-79708</guid>
+<pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab EE affecting all versions from 19.0 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that, under certain conditions could have allowed an authenticated user with developer permissions to execute a policy test pipeline on projects within their group and access protected CI/CD variables restricted to higher-privileged roles, due to insufficient scope validation. | CVSS 8.5 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-13210 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 15.7 before 19.1.8, 19.2 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-13210</link>
+<guid isPermaLink="false">CVE-2026-13210</guid>
+<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 15.7 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that under certain conditions could have allowed an authenticated user to access CI/CD variables outside their intended environment scope due to improper input validation in the environment scope pattern matcher. | CVSS 7.7 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-88765 GitLab gitlab: GitLab has remediated an issue in GitLab EE affecting all versions from 12.3 to 19.1.8, 19.2 before 19.2.6,...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88765</link>
+<guid isPermaLink="false">CVE-2026-88765</guid>
+<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab EE affecting all versions from 12.3 to 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 under certain conditions could allow an authenticated user to achieve remote code execution by importing a specially crafted Git project export to overflow the Unicode conversion buffer used in Advanced Search indexing. | CVSS 8.5 | EPSS 0.7%</description>
+</item>
+<item>
+<title>CVE-2026-85706 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 18.11.12, 19.0 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85706</link>
+<guid isPermaLink="false">CVE-2026-85706</guid>
+<pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 18.11.12, 19.0 before 19.0.9, 19.1 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that, under certain conditions, an unauthenticated user could have read arbitrary files from the GitLab server due to improper path confinement and missing authentication enforcement in the repository commits API. | CVSS 10 | Known exploited (CISA KEV, added 2026-09-11) | EPSS 93.0%</description>
+</item>
+<item>
+<title>CVE-2026-87719 GitLab gitlab: GitLab has remediated an issue in GitLab EE affecting all versions from 18.3 before 18.11.12, 19.0 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-87719</link>
+<guid isPermaLink="false">CVE-2026-87719</guid>
+<pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab EE affecting all versions from 18.3 before 18.11.12, 19.0 before 19.0.9, 19.1 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that under certain conditions could allow an authenticated user with Duo Chat access to obtain Advanced Search instance configurations and sensitive credentials using a specially crafted GraphQL subscription argument to bypass serialization and perform server object lookup. | CVSS 9.9 | EPSS 0.6%</description>
+</item>
+</channel>
+</rss>

@@ -34,3 +34,27 @@ dialog button{font:inherit;padding:6px 14px;border-radius:8px;border:1px solid v
 a{color:var(--accent)}
 .foot{color:var(--mut);font-size:13px;padding-bottom:32px}
 @media(max-width:520px){.item{grid-template-columns:52px 1fr}.score{width:48px}}
+
+.panel{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:10px 14px;margin:16px 0}
+.panel summary{cursor:pointer;font-weight:600}.hint{color:var(--mut);font-weight:400;font-size:13px}
+.plain{margin:10px 0;padding-left:18px}
+.warn{margin:10px 0;padding:8px 12px;border:1px solid var(--med);border-radius:8px;font-size:14px}
+.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;vertical-align:top;padding:8px 10px;border-top:1px solid var(--line)}th{color:var(--mut);font-weight:600}
+.charts{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:20px;margin-top:12px}
+.chart h4{margin:0 0 8px;font-size:14px}.chart h4 span{color:var(--mut);font-weight:400}
+.hbar{display:grid;grid-template-columns:160px 1fr 34px;gap:8px;align-items:center;width:100%;padding:2px 0;border:0;background:none;font:inherit;color:inherit;text-align:left;cursor:pointer}
+.hbar:hover .fill,.hbar:focus-visible .fill{opacity:.8}.hbar:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.hbar .lbl{font-size:13px;color:var(--fg);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.hbar .val{font-size:13px;color:var(--mut);text-align:right;font-variant-numeric:tabular-nums}
+.track{height:12px}.fill{display:block;height:100%;background:var(--accent);border-radius:0 4px 4px 0;min-width:2px}
+.vbars{display:flex;align-items:flex-end;gap:6px;height:130px;padding-top:16px}
+.vcol{flex:1;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;height:100%;min-width:0}
+.vcol .fill{width:100%;max-width:36px;border-radius:4px 4px 0 0}
+.vcol .num{font-size:12px;color:var(--mut);font-variant-numeric:tabular-nums}
+.vlbl{display:flex;gap:6px;font-size:11px;color:var(--mut)}.vlbl span{flex:1;text-align:center;overflow:hidden;white-space:nowrap}
+.empty{color:var(--mut);font-size:13px}
+.list{grid-template-columns:minmax(0,1fr)}
+.item>div:last-child{min-width:0}
+.item h3{overflow-wrap:anywhere}
+.pill{max-width:100%;overflow-wrap:anywhere}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Enterprise CyberTrack: ConnectWise</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/</link>
+<description>High and critical ConnectWise vulnerabilities.</description>
+<atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/connectwise.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>CVE-2026-84869 ConnectWise screenconnect: A condition in the ScreenConnect client may allow files to be transferred and executed through an active...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-84869</link>
+<guid isPermaLink="false">CVE-2026-84869</guid>
+<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+<category>Remote Management</category>
+<description>A condition in the ScreenConnect client may allow files to be transferred and executed through an active remote session without authorization or Host confirmation in certain circumstances. ScreenConnect servers are not impacted. | CVSS 9.9 | Known exploited (CISA KEV, added 2026-09-11) | EPSS 0.9%</description>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Enterprise CyberTrack: Citrix</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/</link>
+<description>High and critical Citrix vulnerabilities.</description>
+<atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/citrix.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>CVE-2026-88771 Citrix netscaler application delivery controller: Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88771</link>
+<guid isPermaLink="false">CVE-2026-88771</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+<category>Edge / VPN</category>
+<description>Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
+
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-27) | EPSS 1.1%</description>
+</item>
+<item>
+<title>CVE-2026-88772 Citrix netscaler application delivery controller: Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88772</link>
+<guid isPermaLink="false">CVE-2026-88772</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+<category>Edge / VPN</category>
+<description>Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
+
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to Remote Code Execution or Denial of Service | CVSS 8.1 | Known exploited (CISA KEV, added 2026-09-27) | EPSS 1.3%</description>
+</item>
+<item>
+<title>CVE-2026-88773 Citrix netscaler application delivery controller: Inconsistent interpretation of HTTP requests (&apos;HTTP Request/Response smuggling&apos;) vulnerability in Citrix...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88773</link>
+<guid isPermaLink="false">CVE-2026-88773</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+<category>Edge / VPN</category>
+<description>Inconsistent interpretation of HTTP requests (&apos;HTTP Request/Response smuggling&apos;) vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
+
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1-37.279 and NDcPP; Gateway: before 14.1-73.37 FIPS and before 13.1-64.23. | CVSS 10 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-88774 Citrix netscaler application delivery controller: Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88774</link>
+<guid isPermaLink="false">CVE-2026-88774</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+<category>Edge / VPN</category>
+<description>Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
+
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to a feature policy bypass due to improper HTTP URL based expression usage. | CVSS 7.2 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-88775 Citrix netscaler application delivery controller: Memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88775</link>
+<guid isPermaLink="false">CVE-2026-88775</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+<category>Edge / VPN</category>
+<description>Memory overflow vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
+
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading Memory overflow vulnerability leading to unpredictable or erroneous behavior or Denial of Service | CVSS 9.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-88776 Citrix netscaler application delivery controller: Memory overflow vulnerability vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88776</link>
+<guid isPermaLink="false">CVE-2026-88776</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+<category>Edge / VPN</category>
+<description>Memory overflow vulnerability vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23  leading to unpredictable or erroneous behavior or Denial of Service | CVSS 9.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-88777 Citrix netscaler application delivery controller: Memory overflow vulnerability vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88777</link>
+<guid isPermaLink="false">CVE-2026-88777</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+<category>Edge / VPN</category>
+<description>Memory overflow vulnerability vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
+
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23  leading to unpredictable or erroneous behavior or Denial of Service | CVSS 9.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-88778 Citrix netscaler application delivery controller: Predictable exact value from previous values vulnerability in Citrix NetScaler ADC and Citrix NetScaler...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88778</link>
+<guid isPermaLink="false">CVE-2026-88778</guid>
+<pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
+<category>Edge / VPN</category>
+<description>Predictable exact value from previous values vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
+
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23. | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+</channel>
+</rss>

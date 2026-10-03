@@ -24,7 +24,7 @@ jobs:
         with: { ref: main }
       - run: |
           mkdir _site
-          cp -r index.html app.js styles.css data _site/
+          cp -r index.html app.js styles.css data feeds _site/
       - uses: actions/upload-pages-artifact@v3
         with: { path: _site }
       - id: deployment

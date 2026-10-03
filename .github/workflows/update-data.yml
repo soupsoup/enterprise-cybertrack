@@ -19,8 +19,11 @@ jobs:
       - run: node scripts/update-data.mjs ${{ inputs.days || 30 }}
         env:
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
+      - run: node scripts/build-feeds.mjs
+        env:
+          SITE_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}
       - run: |
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add data/cves.json
+          git add data feeds
           git diff --staged --quiet || (git commit -m "Update vulnerability data" && git push)

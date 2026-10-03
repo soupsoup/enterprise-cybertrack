@@ -10,6 +10,7 @@
 <meta property="og:description" content="Track exploited and high-severity vulnerabilities in enterprise infrastructure, ranked by exploitation risk.">
 <meta property="og:type" content="website">
 <meta name="twitter:card" content="summary">
+<link rel="alternate" type="application/rss+xml" title="Known exploited" href="feeds/exploited.xml">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,6 +23,10 @@
 <main class="wrap">
   <div id="banner" class="banner" hidden></div>
   <section class="stats" id="stats" aria-label="Summary"></section>
+  <details class="panel" id="charts" open>
+    <summary>Overview <span class="hint">reflects the current filters; click a bar to filter</span></summary>
+    <div class="charts" id="chartGrid"></div>
+  </details>
   <section class="controls" aria-label="Filters">
     <input id="q" type="search" placeholder="Search CVE, vendor, product, description" aria-label="Search">
     <select id="category" aria-label="Category"><option value="">All categories</option></select>
@@ -43,6 +48,29 @@
   <p class="count"><a href="data/cves.json">Download data (JSON)</a></p>
 </main>
 <dialog id="detail"></dialog>
+<section class="wrap">
+  <details class="panel" id="feeds">
+    <summary>RSS feeds</summary>
+    <ul class="plain">
+      <li><a href="feeds/exploited.xml">Known exploited</a> (new CISA KEV additions)</li>
+      <li><a href="feeds/critical.xml">Critical</a> (CVSS 9.0 and above)</li>
+    </ul>
+    <p class="hint">Per vendor: <select id="vendorFeed" aria-label="Vendor feed"><option value="">Choose a vendor</option></select>
+      <a id="vendorFeedLink" href="#" hidden>Open feed</a></p>
+  </details>
+  <details class="panel" id="sources">
+    <summary>Sources and how far to trust them</summary>
+    <p class="warn">Collected and parsed automatically by scripts. It can be wrong or incomplete. Check the linked NVD record and the vendor advisory before acting on anything here. Not affiliated with any vendor listed.</p>
+    <div class="scroll"><table>
+      <thead><tr><th>Source</th><th>Used for</th><th>Trust</th></tr></thead>
+      <tbody>
+        <tr><td><a href="https://nvd.nist.gov/">NVD</a></td><td>CVE id, description, publication date, CVSS base score (3.1 first, then 4.0 or 3.0), and affected product listings.</td><td>As published by NVD. Recent CVEs may have no score yet, and the product label shown is the first matching vendor product, not always the only one affected.</td></tr>
+        <tr><td><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV</a></td><td>The "Known exploited" flag and the date added.</td><td>Primary. The date is when CISA listed it, not when attacks began, which can be earlier.</td></tr>
+        <tr><td><a href="https://www.first.org/epss/">FIRST EPSS</a></td><td>Estimated probability of exploitation in the next 30 days.</td><td>A statistical model, not a fact. Refreshed daily.</td></tr>
+        <tr><td>This project</td><td>Vendor list, categories, the risk score (CVSS + 3 if known exploited + up to 2 from EPSS), and the cut-off to High and Critical.</td><td>Heuristic and hand-tuned. It is not an official rating and the vendor list is not complete.</td></tr>
+      </tbody></table></div>
+  </details>
+</section>
 <footer class="wrap foot">
   <span id="updated"></span>Sources: NVD, CISA Known Exploited Vulnerabilities, FIRST EPSS. Risk score is a local heuristic, not an official rating.
 </footer>

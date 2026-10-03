@@ -32,6 +32,65 @@
     for (const v of [...new Set(values)].sort()) sel.add(new Option(v, v));
   }
 
+
+  // ---- charts: plain HTML bars in one accent hue, values labelled, click to filter ----
+  const weekStart = (iso) => {
+    const d = new Date(iso + 'T00:00:00Z');
+    d.setUTCDate(d.getUTCDate() - ((d.getUTCDay() + 6) % 7)); // Monday
+    return d.toISOString().slice(0, 10);
+  };
+  const countBy = (rows, f) => {
+    const m = new Map();
+    for (const v of rows) { const k = f(v); if (k != null) m.set(k, (m.get(k) || 0) + 1); }
+    return [...m.entries()];
+  };
+  function hbars(title, entries, field, limit = 8) {
+    const top = entries.sort((a, b) => b[1] - a[1]).slice(0, limit);
+    if (!top.length) return `<div class="chart"><h4>${title}</h4><p class="empty">No data</p></div>`;
+    const max = top[0][1];
+    return `<div class="chart"><h4>${title}</h4>` + top.map(([k, n]) => `
+      <button class="hbar" data-field="${field}" data-value="${esc(k)}" title="${esc(k)}: ${n}">
+        <span class="lbl">${esc(k)}</span><span class="track"><span class="fill" style="width:${(n / max) * 100}%"></span></span><span class="val">${n}</span>
+      </button>`).join('') + '</div>';
+  }
+  function vbars(title, entries, weeks) {
+    const m = new Map(entries);
+    const vals = weeks.map((w) => m.get(w) || 0), max = Math.max(1, ...vals);
+    return `<div class="chart"><h4>${title}</h4><div class="vbars">` + weeks.map((w, i) => `
+      <div class="vcol" title="Week of ${w}: ${vals[i]}"><span class="num">${vals[i]}</span><span class="fill" style="height:${(vals[i] / max) * 100}%"></span></div>`).join('') +
+      '</div><div class="vlbl">' + weeks.map((w) => `<span>${w.slice(5)}</span>`).join('') + '</div></div>';
+  }
+  function charts(rows) {
+    // Last 6 weeks ending at the newest date in the data, so a stale file still draws a useful chart.
+    const latest = rows.reduce((m, v) => (v.published > m ? v.published : m), '1970-01-01');
+    const weeks = [];
+    for (let i = 5, d = new Date(weekStart(latest) + 'T00:00:00Z'); i >= 0; i--) {
+      const w = new Date(d); w.setUTCDate(w.getUTCDate() - 7 * i); weeks.push(w.toISOString().slice(0, 10));
+    }
+    const sevName = { critical: 'Critical (9.0+)', high: 'High (7.0-8.9)', medium: 'Medium and below', none: 'Unscored' };
+    $('chartGrid').innerHTML =
+      vbars('New CVEs per week <span>by publication date</span>', countBy(rows, (v) => weekStart(v.published)), weeks) +
+      vbars('Added to CISA KEV per week', countBy(rows, (v) => v.kevAdded && weekStart(v.kevAdded)), weeks) +
+      hbars('Top vendors', countBy(rows, (v) => v.vendor), 'vendor') +
+      hbars('By category', countBy(rows, (v) => v.category), 'category') +
+      hbars('By severity', countBy(rows, (v) => { const s = sev(v.cvss); return s === 'low' ? 'medium' : s; }).map(([k, n]) => [sevName[k], n, k]).map(([l, n]) => [l, n]), 'severity', 4);
+  }
+  $('chartGrid').addEventListener('click', (e) => {
+    const b = e.target.closest('.hbar'); if (!b) return;
+    const { field, value } = b.dataset;
+    const sevKey = { 'Critical (9.0+)': 'critical', 'High (7.0-8.9)': 'high', 'Medium and below': 'medium' }[value];
+    const el = $(field);
+    if (field === 'severity' && !sevKey) return;
+    el.value = field === 'severity' ? sevKey : value;
+    if (field === 'category' && value === HIDDEN) $('win').checked = true;
+    el.dispatchEvent(new Event('input'));
+  });
+  fetch('feeds/vendors.json').then((r) => r.json()).then((list) => {
+    const sel = $('vendorFeed'), link = $('vendorFeedLink');
+    for (const v of list) sel.add(new Option(v.name, v.file));
+    sel.addEventListener('change', () => { link.hidden = !sel.value; link.href = sel.value; });
+  }).catch(() => {});
+
   function render() {
     const q = $('q').value.trim().toLowerCase();
     const cat = $('category').value, ven = $('vendor').value, sv = $('severity').value;
@@ -46,6 +105,7 @@
     rows.sort((a, b) => key[sort](b) - key[sort](a));
     const hidden = all.filter((v) => v.category === HIDDEN).length;
     saveState();
+    charts(rows);
     $('count').textContent = `${rows.length} of ${all.length} vulnerabilities` + (win || cat === HIDDEN ? '' : ` (${hidden} Windows & Endpoint hidden)`);
     $('list').innerHTML = rows.map((v) => `
       <li><button class="item" data-id="${esc(v.id)}">
