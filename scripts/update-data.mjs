@@ -1,0 +1,104 @@
+// Refreshes data/cves.json from NVD, CISA KEV and FIRST EPSS.
+// Usage: node scripts/update-data.mjs [days=30]   (set NVD_API_KEY for higher rate limits)
+import { readFile, writeFile } from 'node:fs/promises';
+
+const DAYS = Number(process.argv[2] || 30);
+const OUT = new URL('../data/cves.json', import.meta.url);
+const KEV_URL = 'https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json';
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+
+// CPE vendor -> display name. Only vendors listed here are tracked.
+const VENDORS = {
+  microsoft: 'Microsoft', cisco: 'Cisco', fortinet: 'Fortinet', paloaltonetworks: 'Palo Alto Networks',
+  ivanti: 'Ivanti', citrix: 'Citrix', vmware: 'VMware', broadcom: 'Broadcom', f5: 'F5', sonicwall: 'SonicWall',
+  juniper: 'Juniper', checkpoint: 'Check Point', atlassian: 'Atlassian', progress: 'Progress', veeam: 'Veeam',
+  sap: 'SAP', oracle: 'Oracle', jetbrains: 'JetBrains', connectwise: 'ConnectWise', gitlab: 'GitLab',
+  barracuda: 'Barracuda', zyxel: 'Zyxel', apache: 'Apache', netapp: 'NetApp', okta: 'Okta', crowdstrike: 'CrowdStrike',
+};
+
+// First matching rule wins; checked against "vendor product" lowercased.
+const CATEGORY_RULES = [
+  [/vpn|gateway|netscaler|globalprotect|forti(os|gate|proxy)|connect secure|asa|firepower|sonicos|big-ip|adc/, 'Edge / VPN'],
+  [/exchange|outlook|sharepoint|confluence|teams|email|mail/, 'Email & Collaboration'],
+  [/active directory|entra|okta|ldap|kerberos|print spooler|netlogon|adfs/, 'Identity & Directory'],
+  [/esxi|vcenter|hyper-v|vsphere|proxmox/, 'Virtualization'],
+  [/veeam|backup|commvault|veritas/, 'Backup & Storage'],
+  [/moveit|goanywhere|file transfer|accellion/, 'File Transfer'],
+  [/screenconnect|anydesk|teamviewer|rmm|kaseya/, 'Remote Management'],
+  [/gitlab|jenkins|teamcity|jira|bitbucket|bamboo/, 'DevOps & Collaboration'],
+  [/sap|oracle|peoplesoft|netweaver|e-business/, 'ERP & Business Apps'],
+  [/ios|nx-os|junos|switch|router|openssh|firewall/, 'Network Infrastructure'],
+];
+const categorize = (s) => CATEGORY_RULES.find(([re]) => re.test(s))?.[1] ?? 'Application Platforms';
+
+async function getJson(url, headers = {}, tries = 4) {
+  for (let i = 0; i < tries; i++) {
+    const r = await fetch(url, { headers });
+    if (r.ok) return r.json();
+    if (![403, 429, 503].includes(r.status)) throw new Error(`${r.status} ${url}`);
+    await sleep(6000 * (i + 1));
+  }
+  throw new Error(`gave up on ${url}`);
+}
+
+async function fetchNvd() {
+  const end = new Date(), start = new Date(end - DAYS * 864e5);
+  const headers = process.env.NVD_API_KEY ? { apiKey: process.env.NVD_API_KEY } : {};
+  const delay = process.env.NVD_API_KEY ? 700 : 6500;
+  const found = [];
+  for (let idx = 0; ; ) {
+    const qs = new URLSearchParams({
+      pubStartDate: start.toISOString(), pubEndDate: end.toISOString(),
+      resultsPerPage: '2000', startIndex: String(idx),
+    });
+    const j = await getJson(`https://services.nvd.nist.gov/rest/json/cves/2.0?${qs}`, headers);
+    found.push(...j.vulnerabilities.map((x) => x.cve));
+    idx += j.resultsPerPage;
+    if (idx >= j.totalResults) break;
+    await sleep(delay);
+  }
+  return found;
+}
+
+function normalize(c) {
+  const cpes = (c.configurations ?? []).flatMap((cfg) => cfg.nodes ?? []).flatMap((n) => n.cpeMatch ?? [])
+    .map((m) => m.criteria.split(':'));            // cpe:2.3:a:vendor:product:...
+  const hit = cpes.find((p) => VENDORS[p[3]]);
+  if (!hit) return null;
+  const m = c.metrics ?? {};
+  const metric = (m.cvssMetricV31 ?? m.cvssMetricV40 ?? m.cvssMetricV30 ?? [])[0];
+  const product = hit[4].replace(/_/g, ' ');
+  const desc = c.descriptions?.find((d) => d.lang === 'en')?.value ?? '';
+  return {
+    id: c.id, vendor: VENDORS[hit[3]], product, category: categorize(`${hit[3]} ${product}`),
+    cvss: metric?.cvssData?.baseScore ?? null, kev: false, published: c.published.slice(0, 10),
+    title: desc.split(/(?<=\.)\s/)[0].slice(0, 110), summary: desc,
+  };
+}
+
+async function main() {
+  const prev = JSON.parse(await readFile(OUT, 'utf8').catch(() => '{"cves":[]}'));
+  const byId = new Map(prev.seed ? [] : prev.cves.map((v) => [v.id, v]));
+
+  console.log(`NVD: last ${DAYS} days`);
+  for (const c of await fetchNvd()) {
+    const v = normalize(c);
+    if (v && (v.cvss == null || v.cvss >= 7)) byId.set(v.id, { ...byId.get(v.id), ...v });
+  }
+
+  console.log('CISA KEV');
+  const kev = new Set((await getJson(KEV_URL)).vulnerabilities.map((v) => v.cveID));
+  for (const v of byId.values()) v.kev = kev.has(v.id);
+
+  console.log('EPSS');
+  const ids = [...byId.keys()];
+  for (let i = 0; i < ids.length; i += 100) {
+    const j = await getJson(`https://api.first.org/data/v1/epss?cve=${ids.slice(i, i + 100).join(',')}`);
+    for (const e of j.data) byId.get(e.cve).epss = Number(e.epss);
+  }
+
+  const cves = [...byId.values()].sort((a, b) => b.published.localeCompare(a.published));
+  await writeFile(OUT, JSON.stringify({ generated: new Date().toISOString(), cves }, null, 1));
+  console.log(`Wrote ${cves.length} CVEs`);
+}
+main().catch((e) => { console.error(e); process.exit(1); });
