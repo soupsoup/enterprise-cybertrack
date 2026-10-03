@@ -14,7 +14,7 @@ export function toText(raw, max = 280) {
   let s = String(raw).replace(/<!\[CDATA\[([\s\S]*?)\]\]>/g, '$1');
   s = decode(s);                                   // &lt;p&gt; -> <p>
   s = s.replace(/<(script|style)[\s\S]*?<\/\1>/gi, ' ').replace(/<[^>]*>/g, ' ');
-  s = decode(s).replace(/\s+/g, ' ').trim();       // decode again: &amp;amp; and friends
+  s = decode(s).replace(/\[email(?:\s|\u00a0)+protected\]/gi, '').replace(/\s+/g, ' ').trim();   // decode again; drop Cloudflare's masked-address placeholder
   return s.length > max ? s.slice(0, max).replace(/\s+\S*$/, '') + '...' : s;
 }
 

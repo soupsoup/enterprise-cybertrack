@@ -48,7 +48,9 @@ async function pool(tasks, n) {
 async function main() {
   const { companies } = JSON.parse(await readFile(new URL('data/companies.json', ROOT), 'utf8'));
   const prev = JSON.parse(await readFile(OUT, 'utf8').catch(() => '{"items":[]}'));
-  const byLink = new Map(prev.items.map((i) => [i.link, i]));
+  // Drop old items whose company or feed was removed from companies.json.
+  const live = new Set(companies.flatMap((c) => c.feeds.map((f) => c.id + '|' + f.label)));
+  const byLink = new Map(prev.items.filter((i) => live.has(i.company + '|' + i.feed)).map((i) => [i.link, i]));
   const now = new Date().toISOString();
   const status = [];
 
@@ -57,7 +59,9 @@ async function main() {
     try {
       const { url, items } = await loadFeed(f);
       s.ok = true; s.url = url; s.count = items.length;
-      for (const it of items.slice(0, PER_FEED)) byLink.set(it.link, { company: c.id, feed: f.label, ...it });
+      // Feeds are not always newest-first (some run to thousands of items), so sort before trimming.
+      const newest = [...items].sort((a, b) => (b.date || '').localeCompare(a.date || '')).slice(0, PER_FEED);
+      for (const it of newest) byLink.set(it.link, { company: c.id, feed: f.label, ...it });
     } catch (e) { s.error = e.message; }
     status.push(s);
     console.log(`${s.ok ? 'ok  ' : 'FAIL'} ${c.name} / ${f.label}${s.ok ? ` (${s.count})` : ': ' + s.error.slice(0, 120)}`);

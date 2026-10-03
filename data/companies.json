@@ -51,7 +51,7 @@
         {
           "label": "Research",
           "urls": [
-            "https://feeds.trendmicro.com/TrendMicroResearch"
+            "https://feeds.feedburner.com/TrendMicroResearch"
           ],
           "discover": "https://www.trendmicro.com/en_us/research.html"
         },
@@ -70,11 +70,18 @@
       "site": "https://www.fortinet.com/",
       "feeds": [
         {
-          "label": "Threat research",
+          "label": "Outbreak alerts",
           "urls": [
-            "https://feeds.feedburner.com/fortinet/blog/threat-research"
+            "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml"
           ],
-          "discover": "https://www.fortinet.com/blog/threat-research"
+          "discover": "https://www.fortiguard.com/outbreak-alerts"
+        },
+        {
+          "label": "Threat signals",
+          "urls": [
+            "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml"
+          ],
+          "discover": "https://www.fortiguard.com/threat-signal-report"
         },
         {
           "label": "Security advisories",
@@ -96,13 +103,6 @@
             "https://www.microsoft.com/en-us/security/blog/feed/"
           ],
           "discover": "https://www.microsoft.com/en-us/security/blog/"
-        },
-        {
-          "label": "MSRC blog",
-          "urls": [
-            "https://msrc.microsoft.com/blog/feed/"
-          ],
-          "discover": "https://msrc.microsoft.com/blog/"
         },
         {
           "label": "Security advisories",
@@ -180,13 +180,6 @@
             "https://research.checkpoint.com/feed/"
           ],
           "discover": "https://research.checkpoint.com/"
-        },
-        {
-          "label": "Blog",
-          "urls": [
-            "https://blog.checkpoint.com/feed/"
-          ],
-          "discover": "https://blog.checkpoint.com/"
         }
       ]
     },
@@ -203,20 +196,6 @@
             "https://www.mandiant.com/resources/blog/rss.xml"
           ],
           "discover": "https://cloud.google.com/blog/topics/threat-intelligence"
-        }
-      ]
-    },
-    {
-      "id": "okta",
-      "name": "Okta",
-      "site": "https://www.okta.com/",
-      "feeds": [
-        {
-          "label": "Blog",
-          "urls": [
-            "https://www.okta.com/blog/feed/"
-          ],
-          "discover": "https://www.okta.com/blog/"
         }
       ]
     },
@@ -269,11 +248,11 @@
       "site": "https://www.sophos.com/",
       "feeds": [
         {
-          "label": "News and research",
+          "label": "Blog",
           "urls": [
-            "https://news.sophos.com/en-us/feed/"
+            "https://www.sophos.com/en-us/blog/feed"
           ],
-          "discover": "https://news.sophos.com/en-us/"
+          "discover": "https://www.sophos.com/en-us/blog"
         }
       ]
     },
@@ -341,9 +320,9 @@
         {
           "label": "Blog",
           "urls": [
-            "https://darktrace.com/blog/rss.xml"
+            "https://www.darktrace.com/blog/rss.xml"
           ],
-          "discover": "https://darktrace.com/blog"
+          "discover": "https://www.darktrace.com/blog"
         }
       ]
     }

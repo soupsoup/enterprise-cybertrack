@@ -38,6 +38,10 @@ test('Atom: prefers rel=alternate and published date', () => {
   assert.equal(e.summary, 'Short & sweet');
 });
 
+test('toText drops masked email placeholders', () => {
+  assert.equal(toText('Hi [email\u00a0protected] there [email protected].'), 'Hi there .');
+});
+
 test('toText truncates at a word boundary and drops scripts', () => {
   const t = toText('<script>alert(1)</script>' + 'word '.repeat(100), 50);
   assert.ok(t.length <= 53 && t.endsWith('...') && !t.includes('alert'));
