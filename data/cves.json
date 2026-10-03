@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T15:18:56.007Z",
+ "generated": "2026-10-03T15:35:18.779Z",
  "cves": [
   {
    "id": "CVE-2026-103493",
@@ -71,7 +71,8 @@
    "published": "2026-10-01",
    "title": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet Fo",
    "summary": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2.0 through 7.2.9 may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
-   "epss": 0.02201
+   "epss": 0.02201,
+   "kevAdded": "2026-10-01"
   },
   {
    "id": "CVE-2026-85532",
@@ -107,7 +108,8 @@
    "published": "2026-09-30",
    "title": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allo",
    "summary": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user.\r\n\r\nThis vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of the affected system. A successful exploit could allow the attacker to bypass authentication and gain access to the API as the admin user.",
-   "epss": 0.01575
+   "epss": 0.01575,
+   "kevAdded": "2026-09-30"
   },
   {
    "id": "CVE-2026-100255",
@@ -215,7 +217,8 @@
    "published": "2026-09-27",
    "title": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
    "summary": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
-   "epss": 0.01063
+   "epss": 0.01063,
+   "kevAdded": "2026-09-27"
   },
   {
    "id": "CVE-2026-88772",
@@ -227,7 +230,8 @@
    "published": "2026-09-27",
    "title": "Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
    "summary": "Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to Remote Code Execution or Denial of Service",
-   "epss": 0.01301
+   "epss": 0.01301,
+   "kevAdded": "2026-09-27"
   },
   {
    "id": "CVE-2026-88773",
@@ -371,7 +375,8 @@
    "published": "2026-09-22",
    "title": "A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute a",
    "summary": "A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute arbitrary scripts on Check Point Management Server.",
-   "epss": 0.19654
+   "epss": 0.19654,
+   "kevAdded": "2026-09-22"
   },
   {
    "id": "CVE-2026-94127",
@@ -383,7 +388,8 @@
    "published": "2026-09-22",
    "title": "When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious tr",
    "summary": "When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious traffic can lead to remote code execution (RCE). This vulnerability is only present when BIG-IP APM is configured as an OAuth Authorization Server. Deployments using APM strictly as an OAuth Client / Resource Server (without OAuth authorization server profiles configured) are not affected by this vulnerability.\n\nImpact:\nThis vulnerability allows an unauthenticated attacker to perform remote code execution. The BIG-IP system in Appliance mode is also vulnerable. This is a data plane issue; there is no control plane exposure.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
-   "epss": 0.02226
+   "epss": 0.02226,
+   "kevAdded": "2026-09-22"
   },
   {
    "id": "CVE-2026-73369",
@@ -1235,7 +1241,8 @@
    "published": "2026-09-16",
    "title": "A vulnerability in an API of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attac",
    "summary": "A vulnerability in an API of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to bypass authentication.\r\n\r\nThis vulnerability is due to insufficient authentication control on an API endpoint. An attacker could exploit this vulnerability by sending a crafted request to an affected API endpoint. A successful exploit could allow the attacker to gain unauthorized access to the affected device by bypassing the web-based management interface.",
-   "epss": 0.14026
+   "epss": 0.14026,
+   "kevAdded": "2026-09-16"
   },
   {
    "id": "CVE-2026-13210",
@@ -4247,7 +4254,8 @@
    "published": "2026-09-14",
    "title": "A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an u",
    "summary": "A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.\r\n\r\nThis vulnerability is due to insufficient validation in the email parsing logic. An attacker could exploit this vulnerability by sending a crafted email message that contains malicious SQL statements through an affected device. A successful exploit could allow the attacker to execute arbitrary SQL statements, leading to command execution with root privileges on the underlying operating system.",
-   "epss": 0.28269
+   "epss": 0.28269,
+   "kevAdded": "2026-09-14"
   },
   {
    "id": "CVE-2026-85892",
@@ -4283,7 +4291,8 @@
    "published": "2026-09-12",
    "title": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 18.11.12, 19.0 before 1",
    "summary": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 18.11.12, 19.0 before 19.0.9, 19.1 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that, under certain conditions, an unauthenticated user could have read arbitrary files from the GitLab server due to improper path confinement and missing authentication enforcement in the repository commits API.",
-   "epss": 0.92956
+   "epss": 0.92956,
+   "kevAdded": "2026-09-11"
   },
   {
    "id": "CVE-2026-87719",
@@ -4739,7 +4748,8 @@
    "published": "2026-09-09",
    "title": "Improper certificate trust validation during VPN negotiation in Check Point Quantum Security Gateway may allow",
    "summary": "Improper certificate trust validation during VPN negotiation in Check Point Quantum Security Gateway may allow an unauthenticated remote attacker to execute arbitrary code on the Gateway.",
-   "epss": 0.07546
+   "epss": 0.07546,
+   "kevAdded": "2026-09-22"
   },
   {
    "id": "CVE-2026-77101",
@@ -12923,7 +12933,8 @@
    "published": "2026-09-08",
    "title": "Improper link resolution before file access ('link following') in Windows Update Stack allows an authorized at",
    "summary": "Improper link resolution before file access ('link following') in Windows Update Stack allows an authorized attacker to elevate privileges locally.",
-   "epss": 0.00393
+   "epss": 0.00393,
+   "kevAdded": "2026-09-08"
   },
   {
    "id": "CVE-2026-83498",
@@ -13451,7 +13462,8 @@
    "published": "2026-09-08",
    "title": "Heap-based buffer overflow in Windows ALPC allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Windows ALPC allows an authorized attacker to elevate privileges locally.",
-   "epss": 0.03616
+   "epss": 0.03616,
+   "kevAdded": "2026-09-08"
   },
   {
    "id": "CVE-2026-66302",
@@ -13667,7 +13679,8 @@
    "published": "2026-09-08",
    "title": "A condition in the ScreenConnect client may allow files to be transferred and executed through an active remot",
    "summary": "A condition in the ScreenConnect client may allow files to be transferred and executed through an active remote session without authorization or Host confirmation in certain circumstances. ScreenConnect servers are not impacted.",
-   "epss": 0.00924
+   "epss": 0.00924,
+   "kevAdded": "2026-09-11"
   },
   {
    "id": "CVE-2026-79907",
