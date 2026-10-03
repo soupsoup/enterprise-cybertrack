@@ -2,7 +2,7 @@
 // Usage: node scripts/update-data.mjs [days=30]   (set NVD_API_KEY for higher rate limits)
 import { readFile, writeFile } from 'node:fs/promises';
 
-const DAYS = Number(process.argv[2] || 30);
+const DAYS = Number(process.argv.find((a) => /^\d+$/.test(a)) || 30);
 const OUT = new URL('../data/cves.json', import.meta.url);
 const KEV_URL = 'https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json';
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -18,18 +18,25 @@ const VENDORS = {
 
 // First matching rule wins; checked against "vendor product" lowercased.
 const CATEGORY_RULES = [
-  [/vpn|gateway|netscaler|globalprotect|forti(os|gate|proxy)|connect secure|asa|firepower|sonicos|big-ip|adc/, 'Edge / VPN'],
-  [/exchange|outlook|sharepoint|confluence|teams|email|mail/, 'Email & Collaboration'],
-  [/active directory|entra|okta|ldap|kerberos|print spooler|netlogon|adfs/, 'Identity & Directory'],
-  [/esxi|vcenter|hyper-v|vsphere|proxmox/, 'Virtualization'],
+  [/vpn|gateway|netscaler|globalprotect|forti(os|gate|proxy|web|manager)|connect secure|policy secure|\basa\b|firepower|sonicos|big-ip|\badc\b|pan-os/, 'Edge / VPN'],
+  [/exchange|outlook|sharepoint|confluence|skype|teams|email|mail/, 'Email & Collaboration'],
+  [/active directory|entra|okta|ldap|kerberos|print spooler|netlogon|adfs|access manager|identity (manager|services)|internet directory|identity/, 'Identity & Directory'],
+  [/esxi|vcenter|hyper-v|vsphere|proxmox|virtualbox/, 'Virtualization'],
   [/veeam|backup|commvault|veritas/, 'Backup & Storage'],
   [/moveit|goanywhere|file transfer|accellion/, 'File Transfer'],
-  [/screenconnect|anydesk|teamviewer|rmm|kaseya/, 'Remote Management'],
-  [/gitlab|jenkins|teamcity|jira|bitbucket|bamboo/, 'DevOps & Collaboration'],
-  [/sap|oracle|peoplesoft|netweaver|e-business/, 'ERP & Business Apps'],
+  [/screenconnect|anydesk|teamviewer|rmm|kaseya|remote desktop/, 'Remote Management'],
+  [/gitlab|jenkins|teamcity|jira|bitbucket|bamboo|youtrack|visual studio/, 'DevOps & Collaboration'],
+  [/hyperion|peoplesoft|siebel|netweaver|e-business|webcenter|product hub|purchasing|agile product|\bsap\b/, 'ERP & Business Apps'],
+  [/sql server|mysql|weblogic|coherence|helidon|oracle forms|\bforms\b|zookeeper|artemis|nifi/, 'Databases & Middleware'],
+  [/^microsoft windows|365 apps|office|edge chromium/, 'Windows & Endpoint'],
   [/ios|nx-os|junos|switch|router|openssh|firewall/, 'Network Infrastructure'],
 ];
 const categorize = (s) => CATEGORY_RULES.find(([re]) => re.test(s))?.[1] ?? 'Application Platforms';
+
+// Collapse per-release product names ("windows 10 1607", "sql server 2017") into one product.
+const cleanProduct = (p) => p
+  .replace(/^windows (10|11|server|\d).*$/, (m) => m.startsWith('windows server') ? 'windows server' : 'windows')
+  .replace(/^sql server \d+$/, 'sql server');
 
 async function getJson(url, headers = {}, tries = 4) {
   for (let i = 0; i < tries; i++) {
@@ -67,7 +74,7 @@ function normalize(c) {
   if (!hit) return null;
   const m = c.metrics ?? {};
   const metric = (m.cvssMetricV31 ?? m.cvssMetricV40 ?? m.cvssMetricV30 ?? [])[0];
-  const product = hit[4].replace(/_/g, ' ');
+  const product = cleanProduct(hit[4].replace(/_/g, ' '));
   const desc = c.descriptions?.find((d) => d.lang === 'en')?.value ?? '';
   return {
     id: c.id, vendor: VENDORS[hit[3]], product, category: categorize(`${hit[3]} ${product}`),
@@ -76,7 +83,18 @@ function normalize(c) {
   };
 }
 
+async function recategorize() {
+  const j = JSON.parse(await readFile(OUT, 'utf8'));
+  for (const v of j.cves) {
+    v.product = cleanProduct(v.product.toLowerCase());
+    v.category = categorize(`${v.vendor} ${v.product}`.toLowerCase());
+  }
+  await writeFile(OUT, JSON.stringify(j, null, 1));
+  console.log(`Recategorized ${j.cves.length} CVEs`);
+}
+
 async function main() {
+  if (process.argv.includes('--recategorize')) return recategorize();
   const prev = JSON.parse(await readFile(OUT, 'utf8').catch(() => '{"cves":[]}'));
   const byId = new Map(prev.seed ? [] : prev.cves.map((v) => [v.id, v]));
 
