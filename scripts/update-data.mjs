@@ -83,6 +83,28 @@ async function fetchNvd() {
   return found;
 }
 
+// Every vulnerable product and version range NVD lists for the CVE (the "Am I affected?" data).
+// Windows builds are skipped: their versions are encoded in the product name, not a range.
+function affects(c) {
+  const out = new Map();
+  const matches = (c.configurations ?? []).flatMap((cfg) => cfg.nodes ?? []).flatMap((n) => n.cpeMatch ?? []);
+  for (const m of matches) {
+    if (!m.vulnerable) continue;
+    const p = m.criteria.split(':');                 // cpe:2.3:a:vendor:product:version:...
+    if (!VENDORS[p[3]]) continue;
+    const product = cleanProduct(p[4].replace(/_/g, ' '));
+    if (product === 'windows' || product === 'windows server') continue;
+    const e = { vendor: VENDORS[p[3]], product };
+    if (m.versionStartIncluding) e.from = m.versionStartIncluding;
+    if (m.versionStartExcluding) e.fromExcl = m.versionStartExcluding;
+    if (m.versionEndIncluding) e.to = m.versionEndIncluding;
+    if (m.versionEndExcluding) e.toExcl = m.versionEndExcluding;
+    if (!['*', '-'].includes(p[5]) && p[5]) e.version = p[5];
+    out.set(JSON.stringify(e), e);                   // editions (fips etc.) collapse into one range
+  }
+  return [...out.values()].slice(0, 24);
+}
+
 function normalize(c) {
   const cpes = (c.configurations ?? []).flatMap((cfg) => cfg.nodes ?? []).flatMap((n) => n.cpeMatch ?? [])
     .map((m) => m.criteria.split(':'));            // cpe:2.3:a:vendor:product:...
@@ -95,7 +117,7 @@ function normalize(c) {
   return {
     id: c.id, vendor: VENDORS[hit[3]], product, category: categorize(`${VENDORS[hit[3]]} ${product}`),
     cvss: metric?.cvssData?.baseScore ?? null, kev: false, published: c.published.slice(0, 10),
-    title: shorten(desc), summary: desc,
+    title: shorten(desc), summary: desc, affects: affects(c),
   };
 }
 

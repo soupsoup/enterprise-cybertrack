@@ -8,12 +8,13 @@
 
   const HIDDEN = 'Windows & Endpoint'; // high-volume patch noise, hidden unless opted in or picked as a category
   let all = [];
-  const FIELDS = { q: 'q', category: 'category', vendor: 'vendor', severity: 'severity', sort: 'sort' };
+  const FIELDS = { q: 'q', category: 'category', vendor: 'vendor', severity: 'severity', sort: 'sort', cv: 'cvendor', cp: 'cproduct', cver: 'cversion' };
+  const V = window.CT_VERSION;
 
   // Filters and the open CVE live in the URL hash so any view can be shared as a link.
   function saveState(cve) {
     const p = new URLSearchParams();
-    for (const id of Object.keys(FIELDS)) if ($(id).value && !(id === 'sort' && $(id).value === 'risk')) p.set(id, $(id).value);
+    for (const [k, id] of Object.entries(FIELDS)) if ($(id).value && !(id === 'sort' && $(id).value === 'risk')) p.set(k, $(id).value);
     if ($('kev').checked) p.set('kev', '1');
     if ($('win').checked) p.set('win', '1');
     if (cve) p.set('cve', cve);
@@ -22,7 +23,7 @@
   }
   function loadState() {
     const p = new URLSearchParams(location.hash.slice(1));
-    for (const id of Object.keys(FIELDS)) if (p.has(id)) $(id).value = p.get(id);
+    for (const [k, id] of Object.entries(FIELDS)) if (p.has(k)) $(id).value = p.get(k);
     $('kev').checked = p.get('kev') === '1';
     $('win').checked = p.get('win') === '1';
     return p.get('cve');
@@ -96,6 +97,67 @@
     });
   }).catch(() => {});
 
+  // ---- "Am I affected?" ----
+  let productIndex = new Map(); // vendor -> Map(product -> CVE count)
+  function indexProducts() {
+    for (const v of all) for (const e of v.affects || []) {
+      if (!productIndex.has(e.vendor)) productIndex.set(e.vendor, new Map());
+      const m = productIndex.get(e.vendor);
+      if (!m.has(e.product)) m.set(e.product, new Set());
+      m.get(e.product).add(v.id);
+    }
+    fill($('cvendor'), [...productIndex.keys()]);
+  }
+  function fillProducts(keep) {
+    const sel = $('cproduct'), vendor = $('cvendor').value;
+    keep = keep ?? sel.value;
+    sel.length = 1;
+    const m = productIndex.get(vendor);
+    if (m) for (const [p, ids] of [...m.entries()].sort()) sel.add(new Option(`${p} (${ids.size})`, p));
+    sel.disabled = !m;
+    sel.value = m && m.has(keep) ? keep : '';
+    $('cversion').disabled = !sel.value;
+  }
+  let showAllMatches = false;
+  function checkAffected() {
+    const vendor = $('cvendor').value, product = $('cproduct').value, version = $('cversion').value.trim(), out = $('cresult');
+    $('cversion').disabled = !product;
+    if (!vendor || !product) { out.innerHTML = ''; return; }
+    const hits = all.map((v) => ({ v, r: V.check(v, vendor, product, version) })).filter((x) => x.r)
+      .sort((a, b) => risk(b.v) - risk(a.v));
+    const name = `${vendor} ${product}${version ? ' ' + version : ''}`;
+    if (!hits.length) {
+      out.innerHTML = `<div class="summary ok"><b>No loaded CVEs match ${esc(name)}.</b> Only recent High and Critical CVEs are loaded, so check the vendor advisory too.</div>`;
+      return;
+    }
+    const exploited = hits.filter((x) => x.v.kev).length;
+    const noFix = hits.filter((x) => !x.r.fixedIn).length;
+    const fixes = hits.map((x) => x.r.fixedIn).filter(Boolean).sort(V.compare);
+    const upgrade = fixes.length ? fixes[fixes.length - 1] : null;
+    const lead = version
+      ? `<b>${esc(name)} is affected by ${hits.length} CVE${hits.length > 1 ? 's' : ''}</b>${exploited ? `, ${exploited} known exploited` : ''}.`
+      : `<b>${hits.length} CVE${hits.length > 1 ? 's' : ''} affect some versions of ${esc(name)}</b>${exploited ? `, ${exploited} known exploited` : ''}. Enter your version to narrow it down.`;
+    const advice = version && upgrade
+      ? ` Upgrade to <b>${esc(upgrade)}</b> or later${noFix ? `. ${noFix} of these list no fixed version, so check the advisories` : ' to clear all of them'}.`
+      : version && noFix ? ' None list a fixed version, so check the vendor advisory.' : '';
+    const shown = showAllMatches ? hits : hits.slice(0, 15);
+    out.innerHTML = `<div class="summary bad">${lead}${advice}</div><ul class="list">` + shown.map(({ v, r }) => `
+      <li><button class="item" data-id="${esc(v.id)}">
+        <div class="score s-${sev(v.cvss)}">${v.cvss != null ? v.cvss.toFixed(1) : 'n/a'}</div>
+        <div><h3><span class="id">${esc(v.id)}</span>${esc(v.title)}</h3>
+          <div class="meta">${v.kev ? '<span class="pill kev">Known exploited' + (v.kevAdded ? ' ' + esc(v.kevAdded) : '') + '</span>' : ''}
+            ${v.epss != null ? `<span class="pill">EPSS ${(v.epss * 100).toFixed(1)}%</span>` : ''}
+            <span class="fix">${r.fixedIn ? 'Fixed in ' + esc(r.fixedIn) : 'No fixed version listed'}</span></div></div></button></li>`).join('') + '</ul>' +
+      (hits.length > 15 && !showAllMatches ? `<button class="more" id="showAll">Show all ${hits.length}</button>` : '');
+  }
+  $('cvendor').addEventListener('input', () => { showAllMatches = false; fillProducts(); checkAffected(); saveState(); });
+  $('cproduct').addEventListener('input', () => { showAllMatches = false; checkAffected(); saveState(); });
+  $('cversion').addEventListener('input', () => { showAllMatches = false; checkAffected(); saveState(); });
+  $('cresult').addEventListener('click', (e) => {
+    if (e.target.id === 'showAll') { showAllMatches = true; checkAffected(); return; }
+    const b = e.target.closest('.item'); if (b) detail(b.dataset.id);
+  });
+
   function render() {
     const q = $('q').value.trim().toLowerCase();
     const cat = $('category').value, ven = $('vendor').value, sv = $('severity').value;
@@ -146,6 +208,7 @@
       ${v.kevAdded ? `<dt>First known exploited</dt><dd>${esc(v.kevAdded)} (date added to CISA KEV)</dd>` : ''}
       <dt>Published</dt><dd>${esc(v.published)}</dd>
       <dt>Risk score</dt><dd>${risk(v).toFixed(1)}</dd></dl>
+      ${(v.affects || []).length ? `<p><b>Affected versions</b></p><ul>${v.affects.map((e) => `<li>${esc(e.vendor)} ${esc(e.product)}: ${esc(V.describe(e))}</li>`).join('')}</ul>` : ''}
       <p><a href="https://nvd.nist.gov/vuln/detail/${encodeURIComponent(v.id)}" target="_blank" rel="noopener">NVD record</a></p>
       <button id="close">Close</button>`;
     d.showModal();
@@ -164,7 +227,10 @@
     fill($('category'), all.map((v) => v.category));
     fill($('vendor'), all.map((v) => v.vendor));
     stats();
+    indexProducts();
     const open = loadState();
+    fillProducts(new URLSearchParams(location.hash.slice(1)).get('cp'));
+    checkAffected();
     render();
     if (open && all.some((v) => v.id === open)) detail(open);
     if (j.generated && !j.seed) $('updated').textContent = 'Data updated ' + new Date(j.generated).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' }) + '. ';

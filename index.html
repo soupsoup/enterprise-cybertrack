@@ -23,6 +23,16 @@
 <main class="wrap">
   <div id="banner" class="banner" hidden></div>
   <section class="stats" id="stats" aria-label="Summary"></section>
+  <details class="panel" id="check" open>
+    <summary>Am I affected? <span class="hint">check a product and version you run</span></summary>
+    <div class="checkform">
+      <select id="cvendor" aria-label="Vendor"><option value="">Vendor</option></select>
+      <select id="cproduct" aria-label="Product" disabled><option value="">Product</option></select>
+      <input id="cversion" type="text" placeholder="Version, e.g. 14.1-60.52" aria-label="Version you run" autocomplete="off" disabled>
+    </div>
+    <div id="cresult" aria-live="polite"></div>
+    <p class="hint">Uses the affected version ranges NVD lists, for the CVEs loaded here only (recent High and Critical, tracked vendors). No match does not mean you are safe. Confirm against the vendor advisory.</p>
+  </details>
   <details class="panel" id="charts" open>
     <summary>Overview <span class="hint">reflects the current filters; click a bar to filter</span></summary>
     <div class="charts" id="chartGrid"></div>
@@ -74,6 +84,7 @@
 <footer class="wrap foot">
   <span id="updated"></span>Sources: NVD, CISA Known Exploited Vulnerabilities, FIRST EPSS. Risk score is a local heuristic, not an official rating.
 </footer>
+<script src="version.js"></script>
 <script src="app.js"></script>
 </body>
 </html>
