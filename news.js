@@ -48,6 +48,7 @@
   function render() {
     const rows = filtered(), names = byId(), sort = $('sort').value;
     save();
+    $('reset').hidden = !($('q').value || $('company').value || $('feed').value || $('range').value);
     const hiddenAdv = advisoryVisible() ? 0 : items.filter(isAdvisory).length;
     $('count').textContent = `${rows.length} of ${items.length - hiddenAdv} items` + (hiddenAdv ? ` (${hiddenAdv} security advisories hidden)` : '');
     const counts = new Map();
@@ -102,5 +103,6 @@
     load(); health(); render();
   }).catch(() => { $('count').textContent = 'Could not load the news data. Serve this folder over HTTP.'; });
 
+  $('reset').addEventListener('click', () => { for (const id of ['q', 'company', 'feed', 'range']) $(id).value = ''; render(); });
   for (const id of ['q', 'company', 'feed', 'range', 'sort', 'adv']) $(id).addEventListener('input', render);
 })();

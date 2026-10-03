@@ -86,8 +86,9 @@
     const sevKey = { 'Critical (9.0+)': 'critical', 'High (7.0-8.9)': 'high', 'Medium and below': 'medium' }[value];
     const el = $(field);
     if (field === 'severity' && !sevKey) return;
-    el.value = field === 'severity' ? sevKey : value;
-    if (field === 'category' && value === HIDDEN) $('win').checked = true;
+    const next = field === 'severity' ? sevKey : value;
+    el.value = el.value === next ? '' : next;          // clicking the active bar again clears it
+    if (field === 'category' && value === HIDDEN && el.value) $('win').checked = true;
     el.dispatchEvent(new Event('input'));
   });
   fetch('feeds/vendors.json', { cache: 'no-cache' }).then((r) => r.json()).then((list) => {
@@ -204,6 +205,33 @@
   });
   $('prodClear').addEventListener('click', () => { prodFilter = ''; render(); });
 
+  // ---- active filter tags: every narrowing is visible and can be undone ----
+  function renderActive(cat, ven, sv, q, kev) {
+    const tags = [];
+    if (cat) tags.push(['category', 'Category: ' + cat]);
+    if (ven) tags.push(['vendor', 'Vendor: ' + ven]);
+    if (sv) tags.push(['severity', 'Severity: ' + { critical: 'Critical', high: 'High', medium: 'Medium and below' }[sv]]);
+    if (kev) tags.push(['kev', 'Known exploited only']);
+    if (q) tags.push(['q', 'Search: ' + q]);
+    if (prodFilter) tags.push(['prod', 'Product: ' + prodFilter.split('|').map((s, i) => (i ? pretty(s) : s)).join(' ')]);
+    const bar = $('active');
+    bar.hidden = !tags.length;
+    bar.innerHTML = tags.map(([k, l]) => `<button class="tagx" type="button" data-clear="${k}" title="Remove this filter">${esc(l)} &times;</button>`).join('') +
+      (tags.length > 1 ? '<button class="more reset" type="button" data-clear="all">Reset all filters</button>' : '');
+  }
+  function clearFilter(k) {
+    const all_ = k === 'all';
+    if (all_ || k === 'category') $('category').value = '';
+    if (all_ || k === 'vendor') $('vendor').value = '';
+    if (all_ || k === 'severity') $('severity').value = '';
+    if (all_ || k === 'q') $('q').value = '';
+    if (all_ || k === 'kev') $('kev').checked = false;
+    if (all_ || k === 'prod' || k === 'category' || k === 'vendor') prodFilter = '';
+    if (all_) showAllProducts = false;
+    render();
+  }
+  $('active').addEventListener('click', (e) => { const b = e.target.closest('[data-clear]'); if (b) clearFilter(b.dataset.clear); });
+
   function render() {
     const q = $('q').value.trim().toLowerCase();
     const cat = $('category').value, ven = $('vendor').value, sv = $('severity').value;
@@ -221,6 +249,7 @@
     saveState();
     charts(rows);
     products(base, cat);
+    renderActive(cat, ven, sv, $('q').value.trim(), kev);
     $('prodTag').hidden = !prodFilter;
     if (prodFilter) $('prodName').textContent = prodFilter.split('|').map((s, i) => (i ? pretty(s) : s)).join(' ');
     $('count').textContent = `${rows.length} of ${all.length} vulnerabilities` + (win || cat === HIDDEN ? '' : ` (${hidden} Windows & Endpoint hidden)`);
