@@ -8,6 +8,8 @@
 
   const HIDDEN = 'Windows & Endpoint'; // high-volume patch noise, hidden unless opted in or picked as a category
   let all = [];
+  let prodFilter = '';        // "vendor|product" picked from the Most impacted products table
+  let productSort = 'risk', showAllProducts = false;
   const FIELDS = { q: 'q', category: 'category', vendor: 'vendor', severity: 'severity', sort: 'sort', cv: 'cvendor', cp: 'cproduct', cver: 'cversion' };
   const V = window.CT_VERSION;
 
@@ -16,6 +18,7 @@
     const p = new URLSearchParams();
     for (const [k, id] of Object.entries(FIELDS)) if ($(id).value && !(id === 'sort' && $(id).value === 'risk')) p.set(k, $(id).value);
     if ($('kev').checked) p.set('kev', '1');
+    if (prodFilter) p.set('prod', prodFilter);
     if ($('win').checked) p.set('win', '1');
     if (cve) p.set('cve', cve);
     const h = p.toString();
@@ -25,6 +28,7 @@
     const p = new URLSearchParams(location.hash.slice(1));
     for (const [k, id] of Object.entries(FIELDS)) if (p.has(k)) $(id).value = p.get(k);
     $('kev').checked = p.get('kev') === '1';
+    prodFilter = p.get('prod') || '';
     $('win').checked = p.get('win') === '1';
     return p.get('cve');
   }
@@ -158,14 +162,57 @@
     const b = e.target.closest('.item'); if (b) detail(b.dataset.id);
   });
 
+  // ---- Most impacted products: rank products inside the current filters ----
+  const ACRONYMS = new Set(['sql', 'sap', 'crm', 'itsm', 'vpn', 'adc', 'ios', 'xe', 'ise', 'vm', 'plm', 'ldap', 'gui', 'api', 'ai', 'ssl', 'xml', 'sd-wan', 'http', 'ui', 'adfs', 'nx-os', 'asa']);
+  const BRANDS = { netweaver: 'NetWeaver', peoplesoft: 'PeopleSoft', peopletools: 'PeopleTools', webcenter: 'WebCenter', irecruitment: 'iRecruitment', 's/4hana': 'S/4HANA',
+    weblogic: 'WebLogic', sharepoint: 'SharePoint', netscaler: 'NetScaler', screenconnect: 'ScreenConnect', gitlab: 'GitLab', teamcity: 'TeamCity', youtrack: 'YouTrack',
+    virtualbox: 'VirtualBox', businessobjects: 'BusinessObjects', fortimail: 'FortiMail', fortios: 'FortiOS', activemq: 'ActiveMQ', 'big-ip': 'BIG-IP', asyncos: 'AsyncOS' };
+  const pretty = (p) => p.split(' ').map((w) => BRANDS[w] || (ACRONYMS.has(w) ? w.toUpperCase() : w.charAt(0).toUpperCase() + w.slice(1))).join(' ');
+  const PCOLS = [['risk', 'Risk'], ['n', 'CVEs'], ['crit', 'Critical'], ['kev', 'Exploited'], ['epss', 'Top EPSS'], ['latest', 'Latest']];
+
+  function products(base, cat) {
+    const m = new Map();
+    for (const v of base) {
+      const k = v.vendor + '|' + v.product;
+      let r = m.get(k);
+      if (!r) m.set(k, r = { key: k, vendor: v.vendor, product: v.product, n: 0, crit: 0, kev: 0, epss: -1, latest: '', risk: 0 });
+      r.n++; r.risk += risk(v);
+      if ((v.cvss ?? 0) >= 9) r.crit++;
+      if (v.kev) r.kev++;
+      if (v.epss != null) r.epss = Math.max(r.epss, v.epss);
+      if (v.published > r.latest) r.latest = v.published;
+    }
+    $('ptitle').textContent = cat ? `Most impacted products in ${cat}` : 'Most impacted products';
+    const rows = [...m.values()].sort((a, b) => (b[productSort] > a[productSort] ? 1 : b[productSort] < a[productSort] ? -1 : 0) || b.risk - a.risk || a.product.localeCompare(b.product));
+    if (!rows.length) { $('ptable').innerHTML = '<p class="empty">No products match these filters.</p>'; return; }
+    const maxRisk = Math.max(...rows.map((r) => r.risk));
+    const shown = showAllProducts ? rows : rows.slice(0, 10);
+    $('ptable').innerHTML = `<div class="scroll"><table class="ptable"><thead><tr><th>Product</th>` +
+      PCOLS.map(([k, l]) => `<th class="${k === 'latest' ? '' : 'num'}"><button class="sorth" data-sort="${k}" aria-pressed="${productSort === k}" title="Sort by ${l}">${l}</button></th>`).join('') +
+      `</tr></thead><tbody>` + shown.map((r) => `<tr aria-selected="${r.key === prodFilter}">
+        <td><button class="pbtn" data-key="${esc(r.key)}">${esc(pretty(r.product))}<small>${esc(r.vendor)}</small></button></td>
+        <td class="num"><span class="rcell" title="Total risk: sum over CVEs of CVSS, +3 if known exploited, +2 x EPSS"><span class="rbar" style="width:${Math.max(2, (r.risk / maxRisk) * 90)}px"></span>${r.risk.toFixed(0)}</span></td>
+        <td class="num">${r.n}</td><td class="num">${r.crit || ''}</td><td class="num ${r.kev ? 'kevn' : ''}">${r.kev || ''}</td>
+        <td class="num">${r.epss >= 0 ? (r.epss * 100).toFixed(1) + '%' : ''}</td><td>${esc(r.latest)}</td></tr>`).join('') +
+      `</tbody></table></div>` + (rows.length > 10 && !showAllProducts ? `<button class="more" id="pmore" type="button">Show all ${rows.length} products</button>` : '');
+  }
+  $('ptable').addEventListener('click', (e) => {
+    const s = e.target.closest('.sorth'), b = e.target.closest('.pbtn');
+    if (s) { productSort = s.dataset.sort; render(); }
+    else if (b) { prodFilter = prodFilter === b.dataset.key ? '' : b.dataset.key; render(); if (prodFilter) $('count').scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+    else if (e.target.id === 'pmore') { showAllProducts = true; render(); }
+  });
+  $('prodClear').addEventListener('click', () => { prodFilter = ''; render(); });
+
   function render() {
     const q = $('q').value.trim().toLowerCase();
     const cat = $('category').value, ven = $('vendor').value, sv = $('severity').value;
     const kev = $('kev').checked, sort = $('sort').value, win = $('win').checked;
-    let rows = all.filter((v) =>
+    const base = all.filter((v) =>
       (!cat || v.category === cat) && (win || cat === HIDDEN || v.category !== HIDDEN) && (!ven || v.vendor === ven) && (!kev || v.kev) &&
       (!sv || (sv === 'medium' ? sev(v.cvss) !== 'critical' && sev(v.cvss) !== 'high' : sev(v.cvss) === sv)) &&
       (!q || [v.id, v.vendor, v.product, v.title, v.summary].join(' ').toLowerCase().includes(q)));
+    const rows = prodFilter ? base.filter((v) => v.vendor + '|' + v.product === prodFilter) : base;
     const key = { risk, cvss: (v) => v.cvss ?? 0, epss: (v) => v.epss ?? -1, date: (v) => Date.parse(v.published),
       // Date CISA added the CVE to KEV; CVEs with no known exploitation sort last.
       exploited: (v) => v.kevAdded ? Date.parse(v.kevAdded) : -Infinity };
@@ -173,6 +220,9 @@
     const hidden = all.filter((v) => v.category === HIDDEN).length;
     saveState();
     charts(rows);
+    products(base, cat);
+    $('prodTag').hidden = !prodFilter;
+    if (prodFilter) $('prodName').textContent = prodFilter.split('|').map((s, i) => (i ? pretty(s) : s)).join(' ');
     $('count').textContent = `${rows.length} of ${all.length} vulnerabilities` + (win || cat === HIDDEN ? '' : ` (${hidden} Windows & Endpoint hidden)`);
     $('list').innerHTML = rows.map((v) => `
       <li><button class="item" data-id="${esc(v.id)}">
@@ -236,6 +286,7 @@
     if (j.generated && !j.seed) $('updated').textContent = 'Data updated ' + new Date(j.generated).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' }) + '. ';
   }).catch(() => { $('count').textContent = 'Could not load data/cves.json. Serve this folder over HTTP.'; });
 
+  for (const id of ['category', 'vendor']) $(id).addEventListener('input', () => { prodFilter = ''; showAllProducts = false; });   // runs before render below
   for (const id of ['q', 'category', 'vendor', 'severity', 'sort', 'kev', 'win']) $(id).addEventListener('input', render);
   $('list').addEventListener('click', (e) => { const b = e.target.closest('.item'); if (b) detail(b.dataset.id); });
 })();

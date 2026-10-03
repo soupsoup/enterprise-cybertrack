@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Enterprise CyberTrack: SAP</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/sap.html</link>
+<description>High and critical SAP vulnerabilities.</description>
+<atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/sap.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>CVE-2026-58240 SAP netweaver: SAP NetWeaver Message Server does not sufficiently validate the authenticity of internal application server...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-58240</link>
+<guid isPermaLink="false">CVE-2026-58240</guid>
+<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+<category>ERP &amp; Business Apps</category>
+<description>SAP NetWeaver Message Server does not sufficiently validate the authenticity of internal application server components during registration. An unauthenticated attacker with network access to the affected service could exploit this weakness to register an unauthorized component and potentially perform unauthorized actions within the application environment, resulting in a high impact on the confidentiality, integrity, and availability of the affected system. | CVSS 9.8 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-66767 SAP netweaver: SAP NetWeaver Application Server for ABAP and ABAP Platform allows an unauthenticated user to send a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-66767</link>
+<guid isPermaLink="false">CVE-2026-66767</guid>
+<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+<category>ERP &amp; Business Apps</category>
+<description>SAP NetWeaver Application Server for ABAP and ABAP Platform allows an unauthenticated user to send a specially crafted packet that triggers reprocessing of a previously buffered user request, potentially hijacking another user&apos;s session under narrow timing conditions. Successful exploitation could result in high impact on confidentiality and integrity, with low impact on availability of the application. | CVSS 7.7 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-66768 SAP gui: SAP GUI for Java does not correctly enforce the trust level policy for certain functions invoked from a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-66768</link>
+<guid isPermaLink="false">CVE-2026-66768</guid>
+<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+<category>ERP &amp; Business Apps</category>
+<description>SAP GUI for Java does not correctly enforce the trust level policy for certain functions invoked from a connected backend system. A low-privileged attacker could exploit this weakness by manipulating a connected backend system to trigger affected functionality. This could allow arbitrary command execution on the victim&apos;s machine, leading to a high impact on the confidentiality, integrity, and availability of the affected system. | CVSS 9 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-76958 SAP integration suite: SAP Integration Suite does not sufficiently validate XML documents accepted from untrusted sources in certain...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-76958</link>
+<guid isPermaLink="false">CVE-2026-76958</guid>
+<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+<category>ERP &amp; Business Apps</category>
+<description>SAP Integration Suite does not sufficiently validate XML documents accepted from untrusted sources in certain internal components. An attacker with low privileges could submit specially crafted XML payloads containing malicious external entity declarations. Successful exploitation could allow the attacker to read sensitive file contents from the server and expose them through monitoring or logging output, resulting in a high impact on confidentiality. It could also lead to resource exhaustion, causing a low impact on availability. There is no impact on integrity. | CVSS 8.5 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-76967 SAP netweaver: SAP NetWeaver Business Client does not perform sufficient validation when processing certain locally stored...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-76967</link>
+<guid isPermaLink="false">CVE-2026-76967</guid>
+<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+<category>ERP &amp; Business Apps</category>
+<description>SAP NetWeaver Business Client does not perform sufficient validation when processing certain locally stored data during application startup. An attacker with low privileges on the local system could replace this data with specially crafted content. When the application is next launched, the crafted content is processed and could lead to arbitrary code execution in the context of the user. This results in a high impact on confidentiality, integrity and availability of the application. | CVSS 7.8 | EPSS 0.4%</description>
+</item>
+</channel>
+</rss>

@@ -105,17 +105,32 @@ function affects(c) {
   return [...out.values()].slice(0, 24);
 }
 
+// Some vendors (SAP) publish CVEs with no CPE data in NVD, so the CPE lookup finds nothing.
+// For those, take the vendor and product from the description, which names them first:
+// "SAP NetWeaver Message Server does not sufficiently validate ..."
+const DESC_STOP = /\s+(allows|does|did|is|are|has|have|contains|enables|exposes|fails|uses|lets|permits|may|could|can|will|provides|stores|lacks|doesn't|doesn\u2019t|due|improperly|incorrectly|insufficiently)\b/i;
+function fromDescription(desc) {
+  const m = desc.match(/^\s*SAP\s+(.+)/);
+  if (!m) return null;
+  let name = m[1].split(DESC_STOP)[0].replace(/\s*\([^)]*\)?/g, '').trim().toLowerCase();   // drop "(component)" detail
+  name = name.replace(/^(netweaver|s\/4hana|business ?one|businessobjects|business warehouse|solution manager|commerce|fiori|integration suite|process integration|gui)\b.*$/, '$1');
+  if (!name || name.split(' ').length > 5) name = m[1].split(' ').slice(0, 2).join(' ').toLowerCase();
+  return { vendor: 'SAP', product: name };
+}
+
 function normalize(c) {
   const cpes = (c.configurations ?? []).flatMap((cfg) => cfg.nodes ?? []).flatMap((n) => n.cpeMatch ?? [])
     .map((m) => m.criteria.split(':'));            // cpe:2.3:a:vendor:product:...
   const hit = cpes.find((p) => VENDORS[p[3]]);
-  if (!hit) return null;
+  const desc = c.descriptions?.find((d) => d.lang === 'en')?.value ?? '';
+  const guess = hit ? null : fromDescription(desc);
+  if (!hit && !guess) return null;
   const m = c.metrics ?? {};
   const metric = (m.cvssMetricV31 ?? m.cvssMetricV40 ?? m.cvssMetricV30 ?? [])[0];
-  const product = cleanProduct(hit[4].replace(/_/g, ' '));
-  const desc = c.descriptions?.find((d) => d.lang === 'en')?.value ?? '';
+  const vendor = hit ? VENDORS[hit[3]] : guess.vendor;
+  const product = hit ? cleanProduct(hit[4].replace(/_/g, ' ')) : guess.product;
   return {
-    id: c.id, vendor: VENDORS[hit[3]], product, category: categorize(`${VENDORS[hit[3]]} ${product}`),
+    id: c.id, vendor, product, category: categorize(`${vendor} ${product}`),
     cvss: metric?.cvssData?.baseScore ?? null, kev: false, published: c.published.slice(0, 10),
     title: shorten(desc), summary: desc, affects: affects(c),
   };

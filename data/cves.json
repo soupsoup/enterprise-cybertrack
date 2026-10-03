@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-03T16:21:32.487Z",
+ "generated": "2026-10-03T16:34:01.196Z",
  "cves": [
   {
    "id": "CVE-2026-103493",
@@ -22350,6 +22350,71 @@
    "summary": "Acrobat Reader is affected by an Incorrect Authorization vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access. Exploitation of this issue does not require user interaction. Scope is changed.",
    "epss": 0.00238,
    "affects": []
+  },
+  {
+   "id": "CVE-2026-58240",
+   "vendor": "SAP",
+   "product": "netweaver",
+   "category": "ERP & Business Apps",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-09-08",
+   "title": "SAP NetWeaver Message Server does not sufficiently validate the authenticity of internal application server...",
+   "summary": "SAP NetWeaver Message Server does not sufficiently validate the authenticity of internal application server components during registration. An unauthenticated attacker with network access to the affected service could exploit this weakness to register an unauthorized component and potentially perform unauthorized actions within the application environment, resulting in a high impact on the confidentiality, integrity, and availability of the affected system.",
+   "affects": [],
+   "epss": 0.00528
+  },
+  {
+   "id": "CVE-2026-66767",
+   "vendor": "SAP",
+   "product": "netweaver",
+   "category": "ERP & Business Apps",
+   "cvss": 7.7,
+   "kev": false,
+   "published": "2026-09-08",
+   "title": "SAP NetWeaver Application Server for ABAP and ABAP Platform allows an unauthenticated user to send a...",
+   "summary": "SAP NetWeaver Application Server for ABAP and ABAP Platform allows an unauthenticated user to send a specially crafted packet that triggers reprocessing of a previously buffered user request, potentially hijacking another user's session under narrow timing conditions. Successful exploitation could result in high impact on confidentiality and integrity, with low impact on availability of the application.",
+   "affects": [],
+   "epss": 0.00427
+  },
+  {
+   "id": "CVE-2026-66768",
+   "vendor": "SAP",
+   "product": "gui",
+   "category": "ERP & Business Apps",
+   "cvss": 9,
+   "kev": false,
+   "published": "2026-09-08",
+   "title": "SAP GUI for Java does not correctly enforce the trust level policy for certain functions invoked from a...",
+   "summary": "SAP GUI for Java does not correctly enforce the trust level policy for certain functions invoked from a connected backend system. A low-privileged attacker could exploit this weakness by manipulating a connected backend system to trigger affected functionality. This could allow arbitrary command execution on the victim's machine, leading to a high impact on the confidentiality, integrity, and availability of the affected system.",
+   "affects": [],
+   "epss": 0.00614
+  },
+  {
+   "id": "CVE-2026-76958",
+   "vendor": "SAP",
+   "product": "integration suite",
+   "category": "ERP & Business Apps",
+   "cvss": 8.5,
+   "kev": false,
+   "published": "2026-09-08",
+   "title": "SAP Integration Suite does not sufficiently validate XML documents accepted from untrusted sources in certain...",
+   "summary": "SAP Integration Suite does not sufficiently validate XML documents accepted from untrusted sources in certain internal components. An attacker with low privileges could submit specially crafted XML payloads containing malicious external entity declarations. Successful exploitation could allow the attacker to read sensitive file contents from the server and expose them through monitoring or logging output, resulting in a high impact on confidentiality. It could also lead to resource exhaustion, causing a low impact on availability. There is no impact on integrity.",
+   "affects": [],
+   "epss": 0.00378
+  },
+  {
+   "id": "CVE-2026-76967",
+   "vendor": "SAP",
+   "product": "netweaver",
+   "category": "ERP & Business Apps",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-08",
+   "title": "SAP NetWeaver Business Client does not perform sufficient validation when processing certain locally stored...",
+   "summary": "SAP NetWeaver Business Client does not perform sufficient validation when processing certain locally stored data during application startup. An attacker with low privileges on the local system could replace this data with specially crafted content. When the application is next launched, the crafted content is processed and could lead to arbitrary code execution in the context of the user. This results in a high impact on confidentiality, integrity and availability of the application.",
+   "affects": [],
+   "epss": 0.0036
   },
   {
    "id": "CVE-2026-78254",

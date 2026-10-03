@@ -38,6 +38,10 @@
     <summary>Overview <span class="hint">reflects the current filters; click a bar to filter</span></summary>
     <div class="charts" id="chartGrid"></div>
   </details>
+  <details class="panel" id="products" open>
+    <summary><span id="ptitle">Most impacted products</span> <span class="hint">ranked within the current filters; click a product to list its CVEs</span></summary>
+    <div id="ptable"></div>
+  </details>
   <section class="controls" aria-label="Filters">
     <input id="q" type="search" placeholder="Search CVE, vendor, product, description" aria-label="Search">
     <select id="category" aria-label="Category"><option value="">All categories</option></select>
@@ -55,6 +59,7 @@
     <label class="chk"><input id="win" type="checkbox"> Include Windows &amp; Endpoint</label>
   </section>
   <p id="count" class="count" aria-live="polite"></p>
+  <p id="prodTag" class="count" hidden>Showing only <b id="prodName"></b> <button class="more" id="prodClear" type="button">Show all products</button></p>
   <ul id="list" class="list"></ul>
   <p class="count"><a href="data/cves.json">Download data (JSON)</a></p>
 </main>
