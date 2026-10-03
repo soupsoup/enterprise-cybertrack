@@ -40,7 +40,9 @@
       (!cat || v.category === cat) && (win || cat === HIDDEN || v.category !== HIDDEN) && (!ven || v.vendor === ven) && (!kev || v.kev) &&
       (!sv || (sv === 'medium' ? sev(v.cvss) !== 'critical' && sev(v.cvss) !== 'high' : sev(v.cvss) === sv)) &&
       (!q || [v.id, v.vendor, v.product, v.title, v.summary].join(' ').toLowerCase().includes(q)));
-    const key = { risk, cvss: (v) => v.cvss ?? 0, epss: (v) => v.epss ?? -1, date: (v) => Date.parse(v.published) };
+    const key = { risk, cvss: (v) => v.cvss ?? 0, epss: (v) => v.epss ?? -1, date: (v) => Date.parse(v.published),
+      // Date CISA added the CVE to KEV; CVEs with no known exploitation sort last.
+      exploited: (v) => v.kevAdded ? Date.parse(v.kevAdded) : -Infinity };
     rows.sort((a, b) => key[sort](b) - key[sort](a));
     const hidden = all.filter((v) => v.category === HIDDEN).length;
     saveState();
@@ -52,7 +54,7 @@
           <div class="meta">
             <span class="pill">${esc(v.vendor)} ${esc(v.product)}</span>
             <span class="pill">${esc(v.category)}</span>
-            ${v.kev ? '<span class="pill kev">Known exploited</span>' : ''}
+            ${v.kev ? `<span class="pill kev">Known exploited${v.kevAdded ? ' ' + esc(v.kevAdded) : ''}</span>` : ''}
             ${v.epss != null ? `<span class="pill">EPSS ${(v.epss * 100).toFixed(1)}%</span>` : ''}
             <span class="pill">${esc(v.published)}</span>
           </div></div></button></li>`).join('');
@@ -76,6 +78,7 @@
       <dt>CVSS</dt><dd>${v.cvss ?? 'n/a'} (${sev(v.cvss)})</dd>
       <dt>EPSS</dt><dd>${v.epss != null ? (v.epss * 100).toFixed(2) + '%' : 'not loaded'}</dd>
       <dt>Known exploited</dt><dd>${v.kev ? 'Yes, listed in CISA KEV' : 'Not listed'}</dd>
+      ${v.kevAdded ? `<dt>First known exploited</dt><dd>${esc(v.kevAdded)} (date added to CISA KEV)</dd>` : ''}
       <dt>Published</dt><dd>${esc(v.published)}</dd>
       <dt>Risk score</dt><dd>${risk(v).toFixed(1)}</dd></dl>
       <p><a href="https://nvd.nist.gov/vuln/detail/${encodeURIComponent(v.id)}" target="_blank" rel="noopener">NVD record</a></p>

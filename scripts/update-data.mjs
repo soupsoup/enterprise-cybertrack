@@ -105,8 +105,11 @@ async function main() {
   }
 
   console.log('CISA KEV');
-  const kev = new Set((await getJson(KEV_URL)).vulnerabilities.map((v) => v.cveID));
-  for (const v of byId.values()) v.kev = kev.has(v.id);
+  const kev = new Map((await getJson(KEV_URL)).vulnerabilities.map((v) => [v.cveID, v.dateAdded]));
+  for (const v of byId.values()) {
+    v.kev = kev.has(v.id);
+    if (v.kev) v.kevAdded = kev.get(v.id); // date CISA confirmed exploitation in the wild
+  }
 
   console.log('EPSS');
   const ids = [...byId.keys()];
