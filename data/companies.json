@@ -39,7 +39,8 @@
           "urls": [
             "https://security.paloaltonetworks.com/rss.xml"
           ],
-          "discover": "https://security.paloaltonetworks.com/"
+          "discover": "https://security.paloaltonetworks.com/",
+          "advisory": true
         }
       ]
     },
@@ -88,7 +89,8 @@
           "urls": [
             "https://filestore.fortinet.com/fortiguard/rss/ir.xml"
           ],
-          "discover": "https://www.fortiguard.com/psirt"
+          "discover": "https://www.fortiguard.com/psirt",
+          "advisory": true
         }
       ]
     },
@@ -109,7 +111,8 @@
           "urls": [
             "https://api.msrc.microsoft.com/update-guide/rss"
           ],
-          "discover": "https://msrc.microsoft.com/update-guide"
+          "discover": "https://msrc.microsoft.com/update-guide",
+          "advisory": true
         }
       ]
     },
@@ -130,7 +133,8 @@
           "urls": [
             "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml"
           ],
-          "discover": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x"
+          "discover": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
+          "advisory": true
         }
       ]
     },

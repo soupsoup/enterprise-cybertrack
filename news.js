@@ -5,26 +5,34 @@
   const fmt = (d) => (d ? new Date(d).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric', timeZone: 'UTC' }) : 'Undated');
 
   let companies = [], items = [], status = [];
+  let advisory = new Set();   // "company|feed label" pairs that are advisory firehoses, hidden unless asked for
   const byId = () => new Map(companies.map((c) => [c.id, c]));
   const FIELDS = { q: 'q', co: 'company', type: 'feed', days: 'range', sort: 'sort' };
 
   function save() {
     const p = new URLSearchParams();
     for (const [k, id] of Object.entries(FIELDS)) if ($(id).value && !(id === 'sort' && $(id).value === 'date')) p.set(k, $(id).value);
+    if ($('adv').checked) p.set('adv', '1');
     const h = p.toString();
     history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
   }
   function load() {
     const p = new URLSearchParams(location.hash.slice(1));
     for (const [k, id] of Object.entries(FIELDS)) if (p.has(k)) $(id).value = p.get(k);
+    $('adv').checked = p.get('adv') === '1';
   }
 
   const newest = (a, b) => (b.date || '').localeCompare(a.date || '');
 
+  const isAdvisory = (i) => advisory.has(i.company + '|' + i.feed);
+  // Advisories show when the box is ticked, or when the Type filter asks for that feed by name.
+  const advisoryVisible = () => $('adv').checked || [...advisory].some((k) => k.split('|')[1] === $('feed').value);
+
   function filtered() {
     const q = $('q').value.trim().toLowerCase(), co = $('company').value, ty = $('feed').value, days = Number($('range').value);
     const since = days ? Date.now() - days * 864e5 : 0;
-    return items.filter((i) => (!co || i.company === co) && (!ty || i.feed === ty) &&
+    const showAdv = advisoryVisible();
+    return items.filter((i) => (showAdv || !isAdvisory(i)) && (!co || i.company === co) && (!ty || i.feed === ty) &&
       (!since || (i.date && Date.parse(i.date) >= since)) &&
       (!q || (i.title + ' ' + i.summary).toLowerCase().includes(q))).sort(newest);   // never trust file order
   }
@@ -40,7 +48,11 @@
   function render() {
     const rows = filtered(), names = byId(), sort = $('sort').value;
     save();
-    $('count').textContent = `${rows.length} of ${items.length} items`;
+    const hiddenAdv = advisoryVisible() ? 0 : items.filter(isAdvisory).length;
+    $('count').textContent = `${rows.length} of ${items.length - hiddenAdv} items` + (hiddenAdv ? ` (${hiddenAdv} security advisories hidden)` : '');
+    const counts = new Map();
+    for (const i of items) if (advisoryVisible() || !isAdvisory(i)) counts.set(i.company, (counts.get(i.company) || 0) + 1);
+    document.querySelectorAll('.chip span').forEach((s) => { s.textContent = counts.get(s.parentElement.dataset.id) || 0; });
     document.querySelectorAll('.chip').forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.id === $('company').value)));
     if (!rows.length) { $('results').innerHTML = '<p class="empty">Nothing matches these filters.</p>'; return; }
     if (sort === 'date') { $('results').innerHTML = `<div class="news">${rows.map((i) => card(i, names, true)).join('')}</div>`; return; }
@@ -74,6 +86,7 @@
 
   Promise.all([fetch('data/companies.json').then((r) => r.json()), fetch('data/news.json').then((r) => r.json())]).then(([c, n]) => {
     companies = c.companies; items = n.items || []; status = n.status || [];
+    advisory = new Set(companies.flatMap((co) => co.feeds.filter((f) => f.advisory).map((f) => co.id + '|' + f.label)));
     const counts = new Map();
     for (const i of items) counts.set(i.company, (counts.get(i.company) || 0) + 1);
     for (const co of [...companies].sort((a, b) => a.name.localeCompare(b.name))) {
@@ -89,5 +102,5 @@
     load(); health(); render();
   }).catch(() => { $('count').textContent = 'Could not load the news data. Serve this folder over HTTP.'; });
 
-  for (const id of ['q', 'company', 'feed', 'range', 'sort']) $(id).addEventListener('input', render);
+  for (const id of ['q', 'company', 'feed', 'range', 'sort', 'adv']) $(id).addEventListener('input', render);
 })();
