@@ -76,3 +76,9 @@ th,td{text-align:left;vertical-align:top;padding:8px 10px;border-top:1px solid v
 #cresult .list{margin:8px 0}
 .fix{color:var(--mut);font-size:12px}
 .more{margin:6px 0;font:inherit;padding:6px 12px;border-radius:8px;border:1px solid var(--line);background:var(--bg);color:var(--fg);cursor:pointer}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0 4px}
+.chip{font:inherit;font-size:13px;padding:4px 10px;border:1px solid var(--line);border-radius:99px;background:var(--card);color:var(--fg);cursor:pointer}
+.chip span{color:var(--mut);margin-left:4px}.chip[aria-pressed=true]{border-color:var(--accent);color:var(--accent)}
+.group{margin:22px 0}.group h2{margin:0;font-size:19px}.links{margin:2px 0 0;font-size:13px}.links a{margin-right:10px}
+.news h3{margin:2px 0 4px;font-size:16px;line-height:1.35}.news h3 a{color:var(--fg);text-decoration:none}.news h3 a:hover{color:var(--accent)}
+.bad{color:var(--crit);font-weight:600}

@@ -3,7 +3,7 @@
   "private": true,
   "type": "commonjs",
   "scripts": {
-    "test": "node --test test/version.test.cjs",
+    "test": "node --test test/version.test.cjs test/feed-parser.test.mjs",
     "update": "node scripts/update-data.mjs 30",
     "feeds": "node scripts/build-feeds.mjs"
   }

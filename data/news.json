@@ -1,0 +1,319 @@
+{
+ "generated": "2026-10-03T16:16:08.469Z",
+ "status": [
+  {
+   "company": "checkpoint",
+   "label": "Blog",
+   "url": "https://blog.checkpoint.com/feed/",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://blog.checkpoint.com/feed/: fetch failed | https://blog.checkpoint.com/: fetch failed"
+  },
+  {
+   "company": "checkpoint",
+   "label": "Research",
+   "url": "https://research.checkpoint.com/feed/",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://research.checkpoint.com/feed/: fetch failed | https://research.checkpoint.com/: fetch failed"
+  },
+  {
+   "company": "crowdstrike",
+   "label": "Blog",
+   "url": "https://www.crowdstrike.com/en-us/blog/feed",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://www.crowdstrike.com/en-us/blog/feed: fetch failed | https://www.crowdstrike.com/blog/feed/: fetch failed | https://www.crowdstrike.com/en-us/blog/: fetch failed"
+  },
+  {
+   "company": "cyberark",
+   "label": "Blog",
+   "url": "https://www.cyberark.com/resources/blog/feed",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://www.cyberark.com/resources/blog/feed: fetch failed | https://www.cyberark.com/resources/blog: fetch failed"
+  },
+  {
+   "company": "darktrace",
+   "label": "Blog",
+   "url": "https://darktrace.com/blog/rss.xml",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://darktrace.com/blog/rss.xml: fetch failed | https://darktrace.com/blog: fetch failed"
+  },
+  {
+   "company": "eset",
+   "label": "WeLiveSecurity",
+   "url": "https://www.welivesecurity.com/en/rss/feed/",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://www.welivesecurity.com/en/rss/feed/: fetch failed | https://www.welivesecurity.com/: fetch failed"
+  },
+  {
+   "company": "fortinet",
+   "label": "Security advisories",
+   "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://filestore.fortinet.com/fortiguard/rss/ir.xml: fetch failed | https://www.fortiguard.com/psirt: fetch failed"
+  },
+  {
+   "company": "fortinet",
+   "label": "Threat research",
+   "url": "https://feeds.feedburner.com/fortinet/blog/threat-research",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://feeds.feedburner.com/fortinet/blog/threat-research: fetch failed | https://www.fortinet.com/blog/threat-research: fetch failed"
+  },
+  {
+   "company": "google",
+   "label": "Threat intelligence blog",
+   "url": "https://cloud.google.com/blog/topics/threat-intelligence/rss/",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://cloud.google.com/blog/topics/threat-intelligence/rss/: not a feed"
+  },
+  {
+   "company": "microsoft",
+   "label": "MSRC blog",
+   "url": "https://msrc.microsoft.com/blog/feed/",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://msrc.microsoft.com/blog/feed/: fetch failed | https://msrc.microsoft.com/blog/: fetch failed"
+  },
+  {
+   "company": "microsoft",
+   "label": "Security advisories",
+   "url": "https://api.msrc.microsoft.com/update-guide/rss",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://api.msrc.microsoft.com/update-guide/rss: fetch failed | https://msrc.microsoft.com/update-guide: fetch failed"
+  },
+  {
+   "company": "microsoft",
+   "label": "Security blog",
+   "url": "https://www.microsoft.com/en-us/security/blog/feed/",
+   "ok": true,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "count": 10
+  },
+  {
+   "company": "okta",
+   "label": "Blog",
+   "url": "https://www.okta.com/blog/feed/",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://www.okta.com/blog/feed/: fetch failed | https://www.okta.com/blog/: fetch failed"
+  },
+  {
+   "company": "paloalto",
+   "label": "Blog",
+   "url": "https://www.paloaltonetworks.com/blog/feed/",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://www.paloaltonetworks.com/blog/feed/: fetch failed | https://www.paloaltonetworks.com/blog/: fetch failed"
+  },
+  {
+   "company": "paloalto",
+   "label": "Security advisories",
+   "url": "https://security.paloaltonetworks.com/rss.xml",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://security.paloaltonetworks.com/rss.xml: fetch failed | https://security.paloaltonetworks.com/: fetch failed"
+  },
+  {
+   "company": "paloalto",
+   "label": "Unit 42 research",
+   "url": "https://unit42.paloaltonetworks.com/feed/",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://unit42.paloaltonetworks.com/feed/: fetch failed | https://unit42.paloaltonetworks.com/: fetch failed"
+  },
+  {
+   "company": "proofpoint",
+   "label": "Blog",
+   "url": "https://www.proofpoint.com/us/rss.xml",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://www.proofpoint.com/us/rss.xml: fetch failed | https://www.proofpoint.com/us/blog: fetch failed"
+  },
+  {
+   "company": "qualys",
+   "label": "Blog",
+   "url": "https://blog.qualys.com/feed",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://blog.qualys.com/feed: fetch failed | https://blog.qualys.com/: fetch failed"
+  },
+  {
+   "company": "rapid7",
+   "label": "Blog",
+   "url": "https://www.rapid7.com/blog/rss/",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://www.rapid7.com/blog/rss/: fetch failed | https://blog.rapid7.com/rss/: fetch failed | https://www.rapid7.com/blog/: fetch failed"
+  },
+  {
+   "company": "sentinelone",
+   "label": "Blog",
+   "url": "https://www.sentinelone.com/blog/feed/",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://www.sentinelone.com/blog/feed/: fetch failed | https://www.sentinelone.com/blog/: fetch failed"
+  },
+  {
+   "company": "sentinelone",
+   "label": "SentinelLabs research",
+   "url": "https://www.sentinelone.com/labs/feed/",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://www.sentinelone.com/labs/feed/: fetch failed | https://www.sentinelone.com/labs/: fetch failed"
+  },
+  {
+   "company": "sophos",
+   "label": "News and research",
+   "url": "https://news.sophos.com/en-us/feed/",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://news.sophos.com/en-us/feed/: fetch failed | https://news.sophos.com/en-us/: fetch failed"
+  },
+  {
+   "company": "talos",
+   "label": "Security advisories",
+   "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml: fetch failed | https://sec.cloudapps.cisco.com/security/center/publicationListing.x: fetch failed"
+  },
+  {
+   "company": "talos",
+   "label": "Threat research",
+   "url": "https://blog.talosintelligence.com/rss/",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://blog.talosintelligence.com/rss/: fetch failed | https://blog.talosintelligence.com/: fetch failed"
+  },
+  {
+   "company": "tenable",
+   "label": "Blog",
+   "url": "https://www.tenable.com/blog/feed",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://www.tenable.com/blog/feed: fetch failed | https://www.tenable.com/blog: fetch failed"
+  },
+  {
+   "company": "trendai",
+   "label": "Blog",
+   "url": "https://feeds.feedburner.com/TrendMicroSimplySecurity",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://feeds.feedburner.com/TrendMicroSimplySecurity: fetch failed | https://www.trendmicro.com/en_us/business.html: fetch failed"
+  },
+  {
+   "company": "trendai",
+   "label": "Research",
+   "url": "https://feeds.trendmicro.com/TrendMicroResearch",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://feeds.trendmicro.com/TrendMicroResearch: fetch failed | https://www.trendmicro.com/en_us/research.html: fetch failed"
+  },
+  {
+   "company": "wiz",
+   "label": "Blog",
+   "url": "https://www.wiz.io/feed/rss.xml",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://www.wiz.io/feed/rss.xml: fetch failed | https://www.wiz.io/blog: fetch failed"
+  },
+  {
+   "company": "zscaler",
+   "label": "ThreatLabz research",
+   "url": "https://www.zscaler.com/blogs/feeds/security-research",
+   "ok": false,
+   "checked": "2026-10-03T16:16:08.469Z",
+   "error": "https://www.zscaler.com/blogs/feeds/security-research: fetch failed | https://www.zscaler.com/blogs/security-research: fetch failed"
+  }
+ ],
+ "items": [
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "Preparing governments for an era of interconnected cyber risk",
+   "link": "https://blogs.microsoft.com/on-the-issues/2026/10/01/preparing-governments-for-an-era-of-interconnected-cyber-risk/",
+   "date": "2026-10-01T14:00:00.000Z",
+   "summary": "According to this year’s Microsoft Digital Defense Report, government agencies and services were the sector most impacted by cyber threats in 2026, accounting for 27% of observed activity, up from 17% in 2025. The post Preparing governments for an era of interconnected cyber..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "Insights from the 2026 Microsoft Digital Defense Report",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/",
+   "date": "2026-10-01T14:00:00.000Z",
+   "summary": "Read highlights from the 2026 Microsoft Digital Defense Report, which reflects a security environment that continues to grow more interconnected. The post Insights from the 2026 Microsoft Digital Defense Report appeared first on Microsoft Security Blog ."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/",
+   "date": "2026-09-30T19:31:00.000Z",
+   "summary": "This year at Microsoft Ignite, we spotlight our AI-first, end-to-end security platform designed to protect identities, devices, data, applications, clouds, infrastructure, and the AI agents now working alongside your teams. The post ​​Secure what’s next: Your guide to Microsoft..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
+   "date": "2026-09-30T14:00:00.000Z",
+   "summary": "Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance. The post Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570 appeared first on..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "Phishing Abuses RMM Tools for Persistent Access",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
+   "date": "2026-09-29T21:39:27.000Z",
+   "summary": "Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog ."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "​​Beyond source code: A path to the keys to the kingdom",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/beyond-source-code-a-path-to-the-keys-to-the-kingdom/",
+   "date": "2026-09-29T16:00:00.000Z",
+   "summary": "Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure. The post ​​Beyond source code: A path to the keys to the kingdom appeared first on Microsoft..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
+   "date": "2026-09-29T15:00:00.000Z",
+   "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
+   "date": "2026-09-28T15:00:00.000Z",
+   "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "Storm-3168: Agentic-driven cloud attacks using compromised service principals",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/25/storm-3168-agentic-driven-cloud-attacks-using-compromised-service-principals/",
+   "date": "2026-09-25T15:35:08.000Z",
+   "summary": "Microsoft details JADEPUFFER-linked Azure reconnaissance, resource deletion, and credential access using compromised service principals, identifying the activity as associated with Storm-3168 and providing guidance for defenders. The post Storm-3168: Agentic-driven cloud attacks..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "Beyond the ransomware: Tracking Storm-2570’s consistent tradecraft across deployments",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/24/beyond-ransomware-tracking-storm-2570-consistent-tradecraft-across-deployments/",
+   "date": "2026-09-24T16:00:00.000Z",
+   "summary": "Storm-2570 is a ransomware affiliate that uses consistent post-compromise tools and techniques across deployments involving Qilin, DragonForce, Anubis, and BERT ransomware, and provides guidance to help defenders detect and disrupt this activity before ransomware deployment. The..."
+  }
+ ]
+}

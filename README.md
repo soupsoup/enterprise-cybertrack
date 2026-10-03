@@ -19,3 +19,7 @@ The script pulls the last N days from NVD, keeps High/Critical CVEs for the vend
 Pick a vendor, product and version to list the loaded CVEs that apply, with the version that fixes each. It uses the affected version ranges NVD publishes (`affects` in `data/cves.json`), and `version.js` does the matching (`npm test` runs its tests). Windows is left out because its versions are part of the product name. Only the CVEs in the data file are checked, so a longer history (`node scripts/update-data.mjs 365`) makes it more useful.
 
 In a sandbox that routes traffic through a proxy, run the update script with `NODE_USE_ENV_PROXY=1`.
+
+## Vendor news
+
+`news.html` lists recent posts and advisories from leading security companies, sortable by company, type and date. `data/companies.json` holds each company's candidate feed URLs plus a page to auto-discover the feed from. `node scripts/update-news.mjs` fetches them into `data/news.json` (a feed that fails keeps its old items and shows as "Failed" under Feed status). `npm test` covers the feed parser.

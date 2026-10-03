@@ -1,0 +1,351 @@
+{
+  "companies": [
+    {
+      "id": "crowdstrike",
+      "name": "CrowdStrike",
+      "site": "https://www.crowdstrike.com/",
+      "feeds": [
+        {
+          "label": "Blog",
+          "urls": [
+            "https://www.crowdstrike.com/en-us/blog/feed",
+            "https://www.crowdstrike.com/blog/feed/"
+          ],
+          "discover": "https://www.crowdstrike.com/en-us/blog/"
+        }
+      ]
+    },
+    {
+      "id": "paloalto",
+      "name": "Palo Alto Networks",
+      "site": "https://www.paloaltonetworks.com/",
+      "feeds": [
+        {
+          "label": "Unit 42 research",
+          "urls": [
+            "https://unit42.paloaltonetworks.com/feed/"
+          ],
+          "discover": "https://unit42.paloaltonetworks.com/"
+        },
+        {
+          "label": "Blog",
+          "urls": [
+            "https://www.paloaltonetworks.com/blog/feed/"
+          ],
+          "discover": "https://www.paloaltonetworks.com/blog/"
+        },
+        {
+          "label": "Security advisories",
+          "urls": [
+            "https://security.paloaltonetworks.com/rss.xml"
+          ],
+          "discover": "https://security.paloaltonetworks.com/"
+        }
+      ]
+    },
+    {
+      "id": "trendai",
+      "name": "TrendAI (Trend Micro)",
+      "site": "https://www.trendmicro.com/",
+      "feeds": [
+        {
+          "label": "Research",
+          "urls": [
+            "https://feeds.trendmicro.com/TrendMicroResearch"
+          ],
+          "discover": "https://www.trendmicro.com/en_us/research.html"
+        },
+        {
+          "label": "Blog",
+          "urls": [
+            "https://feeds.feedburner.com/TrendMicroSimplySecurity"
+          ],
+          "discover": "https://www.trendmicro.com/en_us/business.html"
+        }
+      ]
+    },
+    {
+      "id": "fortinet",
+      "name": "Fortinet",
+      "site": "https://www.fortinet.com/",
+      "feeds": [
+        {
+          "label": "Threat research",
+          "urls": [
+            "https://feeds.feedburner.com/fortinet/blog/threat-research"
+          ],
+          "discover": "https://www.fortinet.com/blog/threat-research"
+        },
+        {
+          "label": "Security advisories",
+          "urls": [
+            "https://filestore.fortinet.com/fortiguard/rss/ir.xml"
+          ],
+          "discover": "https://www.fortiguard.com/psirt"
+        }
+      ]
+    },
+    {
+      "id": "microsoft",
+      "name": "Microsoft Security",
+      "site": "https://www.microsoft.com/en-us/security/",
+      "feeds": [
+        {
+          "label": "Security blog",
+          "urls": [
+            "https://www.microsoft.com/en-us/security/blog/feed/"
+          ],
+          "discover": "https://www.microsoft.com/en-us/security/blog/"
+        },
+        {
+          "label": "MSRC blog",
+          "urls": [
+            "https://msrc.microsoft.com/blog/feed/"
+          ],
+          "discover": "https://msrc.microsoft.com/blog/"
+        },
+        {
+          "label": "Security advisories",
+          "urls": [
+            "https://api.msrc.microsoft.com/update-guide/rss"
+          ],
+          "discover": "https://msrc.microsoft.com/update-guide"
+        }
+      ]
+    },
+    {
+      "id": "talos",
+      "name": "Cisco Talos",
+      "site": "https://blog.talosintelligence.com/",
+      "feeds": [
+        {
+          "label": "Threat research",
+          "urls": [
+            "https://blog.talosintelligence.com/rss/"
+          ],
+          "discover": "https://blog.talosintelligence.com/"
+        },
+        {
+          "label": "Security advisories",
+          "urls": [
+            "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml"
+          ],
+          "discover": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x"
+        }
+      ]
+    },
+    {
+      "id": "sentinelone",
+      "name": "SentinelOne",
+      "site": "https://www.sentinelone.com/",
+      "feeds": [
+        {
+          "label": "SentinelLabs research",
+          "urls": [
+            "https://www.sentinelone.com/labs/feed/"
+          ],
+          "discover": "https://www.sentinelone.com/labs/"
+        },
+        {
+          "label": "Blog",
+          "urls": [
+            "https://www.sentinelone.com/blog/feed/"
+          ],
+          "discover": "https://www.sentinelone.com/blog/"
+        }
+      ]
+    },
+    {
+      "id": "zscaler",
+      "name": "Zscaler",
+      "site": "https://www.zscaler.com/",
+      "feeds": [
+        {
+          "label": "ThreatLabz research",
+          "urls": [
+            "https://www.zscaler.com/blogs/feeds/security-research"
+          ],
+          "discover": "https://www.zscaler.com/blogs/security-research"
+        }
+      ]
+    },
+    {
+      "id": "checkpoint",
+      "name": "Check Point",
+      "site": "https://www.checkpoint.com/",
+      "feeds": [
+        {
+          "label": "Research",
+          "urls": [
+            "https://research.checkpoint.com/feed/"
+          ],
+          "discover": "https://research.checkpoint.com/"
+        },
+        {
+          "label": "Blog",
+          "urls": [
+            "https://blog.checkpoint.com/feed/"
+          ],
+          "discover": "https://blog.checkpoint.com/"
+        }
+      ]
+    },
+    {
+      "id": "google",
+      "name": "Google Threat Intelligence (Mandiant)",
+      "site": "https://cloud.google.com/security/",
+      "feeds": [
+        {
+          "label": "Threat intelligence blog",
+          "urls": [
+            "https://cloud.google.com/blog/topics/threat-intelligence/rss/",
+            "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
+            "https://www.mandiant.com/resources/blog/rss.xml"
+          ],
+          "discover": "https://cloud.google.com/blog/topics/threat-intelligence"
+        }
+      ]
+    },
+    {
+      "id": "okta",
+      "name": "Okta",
+      "site": "https://www.okta.com/",
+      "feeds": [
+        {
+          "label": "Blog",
+          "urls": [
+            "https://www.okta.com/blog/feed/"
+          ],
+          "discover": "https://www.okta.com/blog/"
+        }
+      ]
+    },
+    {
+      "id": "rapid7",
+      "name": "Rapid7",
+      "site": "https://www.rapid7.com/",
+      "feeds": [
+        {
+          "label": "Blog",
+          "urls": [
+            "https://www.rapid7.com/blog/rss/",
+            "https://blog.rapid7.com/rss/"
+          ],
+          "discover": "https://www.rapid7.com/blog/"
+        }
+      ]
+    },
+    {
+      "id": "tenable",
+      "name": "Tenable",
+      "site": "https://www.tenable.com/",
+      "feeds": [
+        {
+          "label": "Blog",
+          "urls": [
+            "https://www.tenable.com/blog/feed"
+          ],
+          "discover": "https://www.tenable.com/blog"
+        }
+      ]
+    },
+    {
+      "id": "qualys",
+      "name": "Qualys",
+      "site": "https://www.qualys.com/",
+      "feeds": [
+        {
+          "label": "Blog",
+          "urls": [
+            "https://blog.qualys.com/feed"
+          ],
+          "discover": "https://blog.qualys.com/"
+        }
+      ]
+    },
+    {
+      "id": "sophos",
+      "name": "Sophos",
+      "site": "https://www.sophos.com/",
+      "feeds": [
+        {
+          "label": "News and research",
+          "urls": [
+            "https://news.sophos.com/en-us/feed/"
+          ],
+          "discover": "https://news.sophos.com/en-us/"
+        }
+      ]
+    },
+    {
+      "id": "proofpoint",
+      "name": "Proofpoint",
+      "site": "https://www.proofpoint.com/",
+      "feeds": [
+        {
+          "label": "Blog",
+          "urls": [
+            "https://www.proofpoint.com/us/rss.xml"
+          ],
+          "discover": "https://www.proofpoint.com/us/blog"
+        }
+      ]
+    },
+    {
+      "id": "wiz",
+      "name": "Wiz",
+      "site": "https://www.wiz.io/",
+      "feeds": [
+        {
+          "label": "Blog",
+          "urls": [
+            "https://www.wiz.io/feed/rss.xml"
+          ],
+          "discover": "https://www.wiz.io/blog"
+        }
+      ]
+    },
+    {
+      "id": "cyberark",
+      "name": "CyberArk",
+      "site": "https://www.cyberark.com/",
+      "feeds": [
+        {
+          "label": "Blog",
+          "urls": [
+            "https://www.cyberark.com/resources/blog/feed"
+          ],
+          "discover": "https://www.cyberark.com/resources/blog"
+        }
+      ]
+    },
+    {
+      "id": "eset",
+      "name": "ESET",
+      "site": "https://www.eset.com/",
+      "feeds": [
+        {
+          "label": "WeLiveSecurity",
+          "urls": [
+            "https://www.welivesecurity.com/en/rss/feed/"
+          ],
+          "discover": "https://www.welivesecurity.com/"
+        }
+      ]
+    },
+    {
+      "id": "darktrace",
+      "name": "Darktrace",
+      "site": "https://darktrace.com/",
+      "feeds": [
+        {
+          "label": "Blog",
+          "urls": [
+            "https://darktrace.com/blog/rss.xml"
+          ],
+          "discover": "https://darktrace.com/blog"
+        }
+      ]
+    }
+  ]
+}
