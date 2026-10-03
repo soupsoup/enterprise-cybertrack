@@ -8,6 +8,25 @@
 
   const HIDDEN = 'Windows & Endpoint'; // high-volume patch noise, hidden unless opted in or picked as a category
   let all = [];
+  const FIELDS = { q: 'q', category: 'category', vendor: 'vendor', severity: 'severity', sort: 'sort' };
+
+  // Filters and the open CVE live in the URL hash so any view can be shared as a link.
+  function saveState(cve) {
+    const p = new URLSearchParams();
+    for (const id of Object.keys(FIELDS)) if ($(id).value && !(id === 'sort' && $(id).value === 'risk')) p.set(id, $(id).value);
+    if ($('kev').checked) p.set('kev', '1');
+    if ($('win').checked) p.set('win', '1');
+    if (cve) p.set('cve', cve);
+    const h = p.toString();
+    history.replaceState(null, '', h ? '#' + h : location.pathname + location.search);
+  }
+  function loadState() {
+    const p = new URLSearchParams(location.hash.slice(1));
+    for (const id of Object.keys(FIELDS)) if (p.has(id)) $(id).value = p.get(id);
+    $('kev').checked = p.get('kev') === '1';
+    $('win').checked = p.get('win') === '1';
+    return p.get('cve');
+  }
 
   function fill(sel, values) {
     for (const v of [...new Set(values)].sort()) sel.add(new Option(v, v));
@@ -24,6 +43,7 @@
     const key = { risk, cvss: (v) => v.cvss ?? 0, epss: (v) => v.epss ?? -1, date: (v) => Date.parse(v.published) };
     rows.sort((a, b) => key[sort](b) - key[sort](a));
     const hidden = all.filter((v) => v.category === HIDDEN).length;
+    saveState();
     $('count').textContent = `${rows.length} of ${all.length} vulnerabilities` + (win || cat === HIDDEN ? '' : ` (${hidden} Windows & Endpoint hidden)`);
     $('list').innerHTML = rows.map((v) => `
       <li><button class="item" data-id="${esc(v.id)}">
@@ -61,7 +81,9 @@
       <p><a href="https://nvd.nist.gov/vuln/detail/${encodeURIComponent(v.id)}" target="_blank" rel="noopener">NVD record</a></p>
       <button id="close">Close</button>`;
     d.showModal();
+    saveState(id);
     $('close').onclick = () => d.close();
+    d.onclose = () => saveState();
   }
 
   fetch('data/cves.json').then((r) => r.json()).then((j) => {
@@ -74,7 +96,10 @@
     fill($('category'), all.map((v) => v.category));
     fill($('vendor'), all.map((v) => v.vendor));
     stats();
+    const open = loadState();
     render();
+    if (open && all.some((v) => v.id === open)) detail(open);
+    if (j.generated && !j.seed) $('updated').textContent = 'Data updated ' + new Date(j.generated).toLocaleString(undefined, { dateStyle: 'medium', timeStyle: 'short' }) + '. ';
   }).catch(() => { $('count').textContent = 'Could not load data/cves.json. Serve this folder over HTTP.'; });
 
   for (const id of ['q', 'category', 'vendor', 'severity', 'sort', 'kev', 'win']) $(id).addEventListener('input', render);
