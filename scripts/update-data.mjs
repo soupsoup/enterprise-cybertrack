@@ -16,22 +16,26 @@ const VENDORS = {
   barracuda: 'Barracuda', zyxel: 'Zyxel', apache: 'Apache', netapp: 'NetApp', okta: 'Okta', crowdstrike: 'CrowdStrike',
 };
 
-// First matching rule wins; checked against "vendor product" lowercased.
+// First matching rule wins; checked against "vendor product" lowercased (vendor is the display name).
 const CATEGORY_RULES = [
-  [/vpn|gateway|netscaler|globalprotect|forti(os|gate|proxy|web|manager)|connect secure|policy secure|\basa\b|firepower|sonicos|big-ip|\badc\b|pan-os/, 'Edge / VPN'],
-  [/exchange|outlook|sharepoint|confluence|skype|teams|email|mail/, 'Email & Collaboration'],
-  [/active directory|entra|okta|ldap|kerberos|print spooler|netlogon|adfs|access manager|identity (manager|services)|internet directory|identity/, 'Identity & Directory'],
+  [/spring cloud|msal|diagnostics\.runtime|neethi|wss4j|opennlp|freemarker|\bant\b|parquet|intellij|\.net|visual studio|apache-airflow-providers/, 'Developer Tools & Libraries'],
+  [/asyncos|secure email|exchange|outlook|sharepoint|confluence|skype|teams|email|mail/, 'Email & Collaboration'],
+  [/vpn|gateway|netscaler|globalprotect|forti(os|gate|proxy|web|manager)|connect secure|policy secure|\basa\b|firepower|sonicos|big-ip|\badc\b|pan-os|check point|gaia/, 'Edge / VPN'],
+  [/active directory|entra|okta|ldap|kerberos|print spooler|netlogon|adfs|access manager|identity (manager|services)|internet directory|identity|authenticator/, 'Identity & Directory'],
   [/esxi|vcenter|hyper-v|vsphere|proxmox|virtualbox/, 'Virtualization'],
   [/veeam|backup|commvault|veritas/, 'Backup & Storage'],
   [/moveit|goanywhere|file transfer|accellion/, 'File Transfer'],
-  [/screenconnect|anydesk|teamviewer|rmm|kaseya|remote desktop/, 'Remote Management'],
-  [/gitlab|jenkins|teamcity|jira|bitbucket|bamboo|youtrack|visual studio/, 'DevOps & Collaboration'],
-  [/hyperion|peoplesoft|siebel|netweaver|e-business|webcenter|product hub|purchasing|agile product|\bsap\b/, 'ERP & Business Apps'],
-  [/sql server|mysql|weblogic|coherence|helidon|oracle forms|\bforms\b|zookeeper|artemis|nifi/, 'Databases & Middleware'],
-  [/^microsoft windows|365 apps|office|edge chromium/, 'Windows & Endpoint'],
-  [/ios|nx-os|junos|switch|router|openssh|firewall/, 'Network Infrastructure'],
+  [/screenconnect|anydesk|teamviewer|rmm|kaseya|remote desktop|endpoint manager|neurons|itsm/, 'IT & Remote Management'],
+  [/gitlab|jenkins|teamcity|jira|bitbucket|bamboo|jetbrains/, 'DevOps & Collaboration'],
+  [/hyperion|peoplesoft|siebel|netweaver|e-business|webcenter|product hub|purchasing|agile product|irecruitment|dynamics|\bsap\b/, 'ERP & Business Apps'],
+  [/airflow|nifi|kafka|impala|camel|activemq|artemis|zookeeper|nutch/, 'Data & Messaging'],
+  [/http server|httpd|tomcat|nginx|jboss|wildfly|jetty|websphere/, 'Web & Application Servers'],
+  [/sql server|mysql|weblogic|coherence|helidon|oracle forms|\bforms\b/, 'Databases & Middleware'],
+  [/azure|copilot|foundry|dataverse|power platform|power automate|\bfabric\b|cosmos|hdinsight|cyclecloud|vm repair/, 'Cloud & AI Services'],
+  [/^microsoft windows|365 apps|office|edge chromium|image extension|video extensions|media extensions|xbox/, 'Windows & Endpoint'],
+  [/ios|nx-os|junos|switch|router|openssh|firewall|sd-wan|catalyst/, 'Network Infrastructure'],
 ];
-const categorize = (s) => CATEGORY_RULES.find(([re]) => re.test(s))?.[1] ?? 'Application Platforms';
+const categorize = (s) => CATEGORY_RULES.find(([re]) => re.test(s.toLowerCase()))?.[1] ?? 'Application Platforms';
 
 // First sentence of the description, cut at a word boundary.
 const shorten = (desc, max = 110) => {
@@ -89,7 +93,7 @@ function normalize(c) {
   const product = cleanProduct(hit[4].replace(/_/g, ' '));
   const desc = c.descriptions?.find((d) => d.lang === 'en')?.value ?? '';
   return {
-    id: c.id, vendor: VENDORS[hit[3]], product, category: categorize(`${hit[3]} ${product}`),
+    id: c.id, vendor: VENDORS[hit[3]], product, category: categorize(`${VENDORS[hit[3]]} ${product}`),
     cvss: metric?.cvssData?.baseScore ?? null, kev: false, published: c.published.slice(0, 10),
     title: shorten(desc), summary: desc,
   };

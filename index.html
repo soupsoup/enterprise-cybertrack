@@ -50,13 +50,13 @@
 <dialog id="detail"></dialog>
 <section class="wrap">
   <details class="panel" id="feeds">
-    <summary>RSS feeds</summary>
+    <summary>News pages and RSS feeds</summary>
     <ul class="plain">
-      <li><a href="feeds/exploited.xml">Known exploited</a> (new CISA KEV additions)</li>
-      <li><a href="feeds/critical.xml">Critical</a> (CVSS 9.0 and above)</li>
+      <li><a href="feeds/exploited.html">Known exploited</a> (new CISA KEV additions) <a class="rss" href="feeds/exploited.xml">RSS</a></li>
+      <li><a href="feeds/critical.html">Critical</a> (CVSS 9.0 and above) <a class="rss" href="feeds/critical.xml">RSS</a></li>
     </ul>
     <p class="hint">Per vendor: <select id="vendorFeed" aria-label="Vendor feed"><option value="">Choose a vendor</option></select>
-      <a id="vendorFeedLink" href="#" hidden>Open feed</a></p>
+      <a id="vendorFeedLink" href="#" hidden>Read</a> <a id="vendorFeedRss" class="rss" href="#" hidden>RSS</a></p>
   </details>
   <details class="panel" id="sources">
     <summary>Sources and how far to trust them</summary>

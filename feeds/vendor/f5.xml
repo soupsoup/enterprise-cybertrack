@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Enterprise CyberTrack: F5</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/</link>
+<link>https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/f5.html</link>
 <description>High and critical F5 vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/f5.xml" rel="self" type="application/rss+xml"/>
 <item>

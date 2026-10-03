@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enterprise CyberTrack: Okta</title>
+<meta name="description" content="High and critical Okta vulnerabilities.">
+<link rel="alternate" type="application/rss+xml" title="Enterprise CyberTrack: Okta" href="okta.xml">
+<link rel="stylesheet" href="../../styles.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+<p class="crumb"><a href="../../">Enterprise CyberTrack</a> / feeds</p>
+<h1>Enterprise CyberTrack: Okta</h1>
+<p class="tag">High and critical Okta vulnerabilities.</p>
+<p class="tag"><a href="okta.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 4.</p>
+</div></header>
+<main class="wrap news">
+<article>
+<time datetime="2026-09-08">September 8, 2026</time>
+<h2><a href="../../#cve=CVE-2026-78574">CVE-2026-78574: The Okta Hyperdrive Integration plugin resolves a required assembly using a registry path within the current...</a></h2>
+<p class="who">Okta hyperdrive</p>
+<p>The Okta Hyperdrive Integration plugin resolves a required assembly using a registry path within the current user&apos;s hive without integrity verification. The referenced path is loaded via Assembly.LoadFrom without signature validation, resulting in an unverified assembly executing within the context of the host process or elevated installer.</p>
+<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.1%</span> <span class="pill">Identity &amp; Directory</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-78574" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-09-08">September 8, 2026</time>
+<h2><a href="../../#cve=CVE-2026-78623">CVE-2026-78623: The Okta Access Gateway does not sanitize SAML assertion values before interpolating them into database...</a></h2>
+<p class="who">Okta access gateway</p>
+<p>The Okta Access Gateway does not sanitize SAML assertion values before interpolating them into database queries in the advanced mode datastore configuration. The unsanitized values are substituted directly into the query string prior to preparation, resulting in unintended SQL execution against the configured backend database.</p>
+<div class="meta"><span class="pill">CVSS 7.7</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Edge / VPN</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-78623" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-09-08">September 8, 2026</time>
+<h2><a href="../../#cve=CVE-2026-78626">CVE-2026-78626: The Okta Access Gateway improperly handles input sanitization and regular expression evaluation within its...</a></h2>
+<p class="who">Okta access gateway</p>
+<p>The Okta Access Gateway improperly handles input sanitization and regular expression evaluation within its Protected Rule authorization check, resulting in an authorization bypass when an administrator has explicitly configured a Protected Rule policy on one or more application resources.</p>
+<div class="meta"><span class="pill">CVSS 8.1</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Edge / VPN</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-78626" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-09-08">September 8, 2026</time>
+<h2><a href="../../#cve=CVE-2026-78627">CVE-2026-78627: The Okta Hyperdrive Integration installer does not mask the OAuth client secret when passed as an MSI...</a></h2>
+<p class="who">Okta hyperdrive</p>
+<p>The Okta Hyperdrive Integration installer does not mask the OAuth client secret when passed as an MSI property. The credential is recorded in plaintext in the installer log, the Application Event Log, and the process command line, all of which are readable by an authenticated local user on the workstation.</p>
+<div class="meta"><span class="pill">CVSS 7.3</span>  <span class="pill">EPSS 0.1%</span> <span class="pill">Identity &amp; Directory</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-78627" rel="noopener">NVD record</a></div>
+</article>
+</main>
+<footer class="wrap foot">Generated 2026-10-03 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+</body>
+</html>

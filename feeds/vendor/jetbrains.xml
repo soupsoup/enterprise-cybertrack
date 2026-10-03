@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Enterprise CyberTrack: JetBrains</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/</link>
+<link>https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/jetbrains.html</link>
 <description>High and critical JetBrains vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/jetbrains.xml" rel="self" type="application/rss+xml"/>
 <item>
@@ -30,7 +30,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-100256</link>
 <guid isPermaLink="false">CVE-2026-100256</guid>
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Developer Tools &amp; Libraries</category>
 <description>In JetBrains IntelliJ IDEA before 2026.2.3 rCE via Structural Search script constraints was possible in untrusted projects | CVSS 7.8 | EPSS 0.1%</description>
 </item>
 <item>
@@ -46,7 +46,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-100266</link>
 <guid isPermaLink="false">CVE-2026-100266</guid>
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>DevOps &amp; Collaboration</category>
 <description>In JetBrains Hub before 2026.2.52366 missing authorisation allowed authenticated users to send arbitrary emails from the server&apos;s trusted address | CVSS 7.7 | EPSS 0.2%</description>
 </item>
 <item>

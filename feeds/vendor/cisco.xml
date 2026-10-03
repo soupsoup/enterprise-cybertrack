@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Enterprise CyberTrack: Cisco</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/</link>
+<link>https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/cisco.html</link>
 <description>High and critical Cisco vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/cisco.xml" rel="self" type="application/rss+xml"/>
 <item>
@@ -10,7 +10,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-76504</link>
 <guid isPermaLink="false">CVE-2026-76504</guid>
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Network Infrastructure</category>
 <description>A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user.
 
 This vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of the affected system. A successful exploit could allow the attacker to bypass authentication and gain access to the API as the admin user. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-30) | EPSS 1.6%</description>
@@ -80,7 +80,7 @@ This vulnerability is due to insufficient authentication control on an API endpo
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-76461</link>
 <guid isPermaLink="false">CVE-2026-76461</guid>
 <pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Email &amp; Collaboration</category>
 <description>A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.
 
 This vulnerability is due to insufficient validation in the email parsing logic. An attacker could exploit this vulnerability by sending a crafted email message that contains malicious SQL statements through an affected device. A successful exploit could allow the attacker to execute arbitrary SQL statements, leading to command execution with root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-14) | EPSS 28.3%</description>

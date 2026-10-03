@@ -87,8 +87,13 @@
   });
   fetch('feeds/vendors.json').then((r) => r.json()).then((list) => {
     const sel = $('vendorFeed'), link = $('vendorFeedLink');
-    for (const v of list) sel.add(new Option(v.name, v.file));
-    sel.addEventListener('change', () => { link.hidden = !sel.value; link.href = sel.value; });
+    const rss = $('vendorFeedRss');
+    for (const v of list) sel.add(new Option(v.name, v.page));
+    sel.addEventListener('change', () => {
+      const v = list.find((x) => x.page === sel.value);
+      link.hidden = rss.hidden = !v;
+      if (v) { link.href = v.page; rss.href = v.rss; }
+    });
   }).catch(() => {});
 
   function render() {

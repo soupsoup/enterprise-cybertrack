@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 <channel>
 <title>Enterprise CyberTrack: Microsoft</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/</link>
+<link>https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/microsoft.html</link>
 <description>High and critical Microsoft vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/microsoft.xml" rel="self" type="application/rss+xml"/>
 <item>
@@ -234,7 +234,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-69843</link>
 <guid isPermaLink="false">CVE-2026-69843</guid>
 <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Authentication bypass by spoofing in Microsoft Fabric allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 0.9%</description>
 </item>
 <item>
@@ -242,7 +242,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83946</link>
 <guid isPermaLink="false">CVE-2026-83946</guid>
 <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Improper neutralization of input during web page generation (&apos;cross-site scripting&apos;) in Azure Portal allows an unauthorized attacker to perform spoofing over a network. | CVSS 8.2 | EPSS 0.3%</description>
 </item>
 <item>
@@ -250,7 +250,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85878</link>
 <guid isPermaLink="false">CVE-2026-85878</guid>
 <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Improper authorization in Azure Database for PostgreSQL allows an authorized attacker to elevate privileges over a network. | CVSS 9.9 | EPSS 0.8%</description>
 </item>
 <item>
@@ -258,7 +258,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85887</link>
 <guid isPermaLink="false">CVE-2026-85887</guid>
 <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Incorrect permission assignment for critical resource in M365 Copilot allows an authorized attacker to disclose information over a network. | CVSS 7.7 | EPSS 0.8%</description>
 </item>
 <item>
@@ -290,7 +290,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-68791</link>
 <guid isPermaLink="false">CVE-2026-68791</guid>
 <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Incorrect authorization in Azure Machine Learning allows an unauthorized attacker to disclose information over a network. | CVSS 8.6 | EPSS 0.5%</description>
 </item>
 <item>
@@ -298,7 +298,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-69399</link>
 <guid isPermaLink="false">CVE-2026-69399</guid>
 <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Azure Arc Elevation of Privilege Vulnerability | CVSS 10 | EPSS 0.5%</description>
 </item>
 <item>
@@ -306,7 +306,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-69865</link>
 <guid isPermaLink="false">CVE-2026-69865</guid>
 <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Authorization bypass through user-controlled key in Microsoft Container Registry allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 0.8%</description>
 </item>
 <item>
@@ -314,7 +314,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-70009</link>
 <guid isPermaLink="false">CVE-2026-70009</guid>
 <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) in Azure Arc allows an unauthorized attacker to elevate privileges over a network. | CVSS 9.3 | EPSS 0.5%</description>
 </item>
 <item>
@@ -322,7 +322,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-70200</link>
 <guid isPermaLink="false">CVE-2026-70200</guid>
 <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) in Azure Logic Apps allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 0.6%</description>
 </item>
 <item>
@@ -330,7 +330,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-77903</link>
 <guid isPermaLink="false">CVE-2026-77903</guid>
 <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Authentication bypass by spoofing in Microsoft Dataverse allows an unauthorized attacker to elevate privileges over a network. | CVSS 9 | EPSS 0.4%</description>
 </item>
 <item>
@@ -338,7 +338,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83944</link>
 <guid isPermaLink="false">CVE-2026-83944</guid>
 <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Improper access control in Azure Logic Apps allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 0.4%</description>
 </item>
 <item>
@@ -346,7 +346,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85885</link>
 <guid isPermaLink="false">CVE-2026-85885</guid>
 <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Improper neutralization of special elements used in a command (&apos;command injection&apos;) in M365 Copilot allows an authorized attacker to elevate privileges over a network. | CVSS 9.9 | EPSS 0.7%</description>
 </item>
 <item>
@@ -354,7 +354,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85889</link>
 <guid isPermaLink="false">CVE-2026-85889</guid>
 <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 0.7%</description>
 </item>
 <item>
@@ -362,7 +362,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85917</link>
 <guid isPermaLink="false">CVE-2026-85917</guid>
 <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Server-side request forgery (ssrf) in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network. | CVSS 7.5 | EPSS 1.0%</description>
 </item>
 <item>
@@ -370,7 +370,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-87701</link>
 <guid isPermaLink="false">CVE-2026-87701</guid>
 <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Cloud &amp; AI Services</category>
 <description>Improper neutralization of special elements in output used by a downstream component (&apos;injection&apos;) in Azure Cosmos DB allows an authorized attacker to elevate privileges over a network. | CVSS 9.6 | EPSS 0.8%</description>
 </item>
 <item>
@@ -634,7 +634,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-57098</link>
 <guid isPermaLink="false">CVE-2026-57098</guid>
 <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Remote Management</category>
+<category>IT &amp; Remote Management</category>
 <description>Improper verification of cryptographic signature in Windows RDP Client allows an unauthorized attacker to disclose information over a network. | CVSS 7.5 | EPSS 0.6%</description>
 </item>
 <item>
@@ -642,7 +642,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-58599</link>
 <guid isPermaLink="false">CVE-2026-58599</guid>
 <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Windows &amp; Endpoint</category>
 <description>Heap-based buffer overflow in Microsoft Windows Codecs Library allows an unauthorized attacker to execute code locally. | CVSS 7.8 | EPSS 0.5%</description>
 </item>
 <item>
@@ -650,7 +650,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-58600</link>
 <guid isPermaLink="false">CVE-2026-58600</guid>
 <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Windows &amp; Endpoint</category>
 <description>Heap-based buffer overflow in Microsoft Windows Codecs Library allows an unauthorized attacker to elevate privileges locally. | CVSS 7.8 | EPSS 0.5%</description>
 </item>
 <item>
@@ -658,7 +658,7 @@
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-58611</link>
 <guid isPermaLink="false">CVE-2026-58611</guid>
 <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Windows &amp; Endpoint</category>
 <description>Improper authorization in XBox Gaming Services allows an authorized attacker to elevate privileges locally. | CVSS 7.8 | EPSS 0.3%</description>
 </item>
 <item>
