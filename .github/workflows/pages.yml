@@ -23,7 +23,7 @@ jobs:
       - uses: actions/checkout@v4
         with: { ref: main }
       - run: |
-          mkdir _site
+          rm -rf _site && mkdir _site
           cp -r index.html news.html app.js news.js version.js styles.css data feeds _site/
           # Version the script and style URLs so browsers never pair a new page with a cached old script.
           V=${GITHUB_SHA::8}
