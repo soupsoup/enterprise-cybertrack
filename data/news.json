@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-03T16:23:22.480Z",
+ "generated": "2026-10-03T16:24:40.624Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 10
   },
   {
@@ -22,23 +22,23 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 10
   },
   {
    "company": "darktrace",
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
-   "ok": false,
-   "checked": "2026-10-03T16:23:22.480Z",
-   "error": "https://www.darktrace.com/blog/rss.xml: fetch failed | https://www.darktrace.com/blog: fetch failed"
+   "ok": true,
+   "checked": "2026-10-03T16:24:40.624Z",
+   "count": 100
   },
   {
    "company": "eset",
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 20
   },
   {
@@ -78,7 +78,7 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 4222
   },
   {
@@ -86,7 +86,7 @@
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Blog",
    "url": "https://feeds.feedburner.com/TrendMicroSimplySecurity",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 50
   },
   {
@@ -198,7 +198,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 100
   },
   {
@@ -206,7 +206,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 694
   },
   {
@@ -214,7 +214,7 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-03T16:23:22.480Z",
+   "checked": "2026-10-03T16:24:40.624Z",
    "count": 50
   }
  ],
@@ -1013,7 +1013,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "AI Agents Can Be Secured. We Can Do It.",
    "link": "https://www.trendmicro.com/en_us/research/26/i/safely-securing-ai-agents.html",
    "date": "2026-09-25T00:00:00.000Z",
@@ -1034,6 +1034,14 @@
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multiauth-bypass-sgD2HbL4?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Identity%20Services%20Engine%20Authentication%20Bypass%20Vulnerabilities%26vs_k=1",
    "date": "2026-09-24T17:16:37.000Z",
    "summary": "Multiple vulnerabilities in Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) could allow a remote attacker to access or manipulate data, obtain sensitive information, or cause a reload of certificate and key material on an affected device...."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Darktrace / SECURE AI: Behavioral Security for the AI enterprise",
+   "link": "https://www.darktrace.com/blog/darktrace-secure-ai-extending-behavioral-security-for-the-age-of-agentic-ai",
+   "date": "2026-09-24T16:51:00.000Z",
+   "summary": "Discover how Darktrace / SECURE AI applies behavioral security to AI usage, prompts, agents, and development to help organizations adopt AI securely."
   },
   {
    "company": "wiz",
@@ -1092,6 +1100,14 @@
    "summary": ""
   },
   {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Agent Hijacks: How Conversation History Poisoning Can Turn AI Agents Into Attackers",
+   "link": "https://www.darktrace.com/blog/hijacking-agentic-harnesses-to-attack-an-organization",
+   "date": "2026-09-23T16:52:00.000Z",
+   "summary": "Darktrace researchers demonstrate how conversation history poisoning can hijack agentic harnesses, convincing AI agents to perform offensive cyber operations with little to no human interaction."
+  },
+  {
    "company": "qualys",
    "feed": "Blog",
    "title": "CISA BOD 26-04 Timelines for Three Linux Kernel CVEs",
@@ -1138,6 +1154,14 @@
    "link": "https://www.sophos.com/en-us/blog/the-rising-threat-of-deepfakes-why-organizations-must-rethink-trust",
    "date": "2026-09-23T00:00:00.000Z",
    "summary": "For decades, we believed that if could hear someone’s voice on a phone call or see them on a video call, they were who they said they were. What if that’s no longer true?"
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Detecting Rogue AI Agents: When Enterprise Agents Turn to Hacking",
+   "link": "https://www.darktrace.com/blog/detecting-rogue-agent-behavior-in-the-enterprise",
+   "date": "2026-09-22T16:53:00.000Z",
+   "summary": "Darktrace researchers found that AI agents tasked with solving impossible challenges frequently resorted to hacking techniques. Learn how Darktrace detects and disrupts rogue agent behavior in real time."
   },
   {
    "company": "wiz",
@@ -1202,6 +1226,14 @@
    "link": "https://research.checkpoint.com/2026/21st-september-threat-intelligence-report/",
    "date": "2026-09-21T23:13:07.000Z",
    "summary": "For the latest discoveries in cyber research for the week of 21st September, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Japan’s Digital Agency, which operates the Government Solution Service used by multiple ministries, has confirmed a data breach..."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Human Judgement in the Agentic AI Age | Darktrace",
+   "link": "https://www.darktrace.com/blog/the-problem-of-re-defining-human-value-in-the-agentic-age",
+   "date": "2026-09-21T16:54:00.000Z",
+   "summary": "As AI agents take on more decisions, human judgement becomes critical. Explore the challenges of AI governance and how behavioral security can help."
   },
   {
    "company": "zscaler",
@@ -2492,6 +2524,14 @@
    "summary": "Discover how early-stage AI yields rapid SOC returns, driving platform consolidation and reducing analyst burnout in this blog post."
   },
   {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Why Trust is the New Attack Surface: Mid-Year Threat Update 2026",
+   "link": "https://www.darktrace.com/blog/why-trust-is-the-new-attack-surface-darktraces-mid-year-threat-update-2026",
+   "date": "2026-08-25T13:42:00.000Z",
+   "summary": "Darktrace’s analysis of the first half of 2026 shows attackers increasingly exploiting trust rather than bypassing security controls. For defenders, context and behavioral analysis remain essential foundations of security."
+  },
+  {
    "company": "paloalto",
    "feed": "Unit 42 research",
    "title": "The State of AI-Enabled Malware August 2026: From Brand Abuse to Agentic Execution",
@@ -2514,6 +2554,22 @@
    "link": "https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/",
    "date": "2026-08-24T14:07:53.000Z",
    "summary": "For the latest discoveries in cyber research for the week of 24th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Latvia’s Road Traffic Safety Directorate (CSDD) has confirmed a breach affecting payment records of more than 1.2 million people –..."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Securing AI Agents: What NCSC Guidance Means for Security Teams",
+   "link": "https://www.darktrace.com/blog/ai-agents-securing-the-path-from-intent-to-action",
+   "date": "2026-08-24T13:45:00.000Z",
+   "summary": "NCSC guidance highlights the need to secure agentic AI. Discover why continuous monitoring and behavioral analytics are critical to securing AI agents."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "When AI Becomes the Lure: A Fake Gemini Installer Delivers Vidar",
+   "link": "https://www.darktrace.com/blog/when-ai-becomes-the-lure-a-fake-gemini-installer-delivers-vidar",
+   "date": "2026-08-23T13:46:00.000Z",
+   "summary": "Attackers are turning growing interest in AI into a new malware lure, disguising Vidar as a Google Gemini installer hosted through a trusted platform. Explore how Darktrace uncovered the campaign and detected the threat through behavioral anomalies."
   },
   {
    "company": "sentinelone",
@@ -2925,7 +2981,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Why the Open Secure AI Alliance Matters: Open Frontier Models, Open Deployment Flexibility",
    "link": "https://www.trendmicro.com/en_us/research/26/g/open-secure-ai-alliance.html",
    "date": "2026-07-30T00:00:00.000Z",
@@ -2933,7 +2989,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Tracking Over 35,000 Fake Sites in the 2026 World Cup Scam Wave",
    "link": "https://www.trendmicro.com/en_us/research/26/g/tracking-fake-sites-in-the-2026-world-cup-scam-wave.html",
    "date": "2026-07-29T00:00:00.000Z",
@@ -2948,12 +3004,44 @@
    "summary": "What is the Attack? A critical unauthenticated remote code execution (RCE) vulnerability affecting PTC Windchill PDMlink and PTC FlexPLM is being actively exploited by Cl0p ransomware affiliates. The attackers are targeting vulnerable Internet-facing Product Lifecycle Management..."
   },
   {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "What the OpenAI and Hugging Face Incident Means for Defenders",
+   "link": "https://www.darktrace.com/blog/when-ai-agents-go-off-script-what-the-openai-and-hugging-face-incident-means-for-defenders",
+   "date": "2026-07-28T13:30:00.000Z",
+   "summary": "As AI agents become more autonomous, understanding behavior is becoming even more important. The OpenAI and Hugging Face incident highlights why behavioral security is foundational to securely deploying AI in the enterprise."
+  },
+  {
    "company": "zscaler",
    "feed": "ThreatLabz research",
    "title": "Helpdesk Hijackers: Teams Vishing, Quick Assist, and GoGRPC Backdoor",
    "link": "https://www.zscaler.com/blogs/security-research/helpdesk-hijackers-teams-vishing-quick-assist-and-gogrpc-backdoor",
    "date": "2026-07-27T14:51:56.000Z",
    "summary": "IntroductionZscaler ThreatLabz has been tracking attacks from a threat actor that is likely an initial access broker for ransomware attacks since January 2026. The threat actor targets organizations by leveraging vishing techniques through Microsoft Teams and deploying a variety..."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "When Guardrails Break: Why Securing AI Requires Behavioral Detection and Autonomous Containment",
+   "link": "https://www.darktrace.com/blog/when-guardrails-break-why-securing-ai-requires-behavioral-detection-and-autonomous-containment",
+   "date": "2026-07-27T13:32:00.000Z",
+   "summary": "Traditional security controls were built for predictable systems. AI is different. This blog explores why behavioral detection and explainable autonomous containment are essential security layers for managing AI risk without slowing innovation."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Uncovering a Multi-Stage Ransomware Attack Through Behavioral Detection",
+   "link": "https://www.darktrace.com/blog/hiding-in-plain-sight-uncovering-a-multi-stage-ransomware-attack-through-behavioral-detection",
+   "date": "2026-07-26T13:33:00.000Z",
+   "summary": "This analysis highlights how behavioral detection exposed attacker activity using legitimate tools and infrastructure, providing multiple opportunities for early intervention and containment."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "When AI Infrastructure Becomes Part of the Attack Surface",
+   "link": "https://www.darktrace.com/blog/when-ai-infrastructure-becomes-part-of-the-attack-surface",
+   "date": "2026-07-25T13:35:00.000Z",
+   "summary": "Darktrace investigates a compromised AI gateway connected to Amazon Bedrock services that was later observed communicating with cryptomining infrastructure."
   },
   {
    "company": "google",
@@ -2965,7 +3053,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "The Signs Were There: What the First Autonomous Ransomware Case Confirms",
    "link": "https://www.trendmicro.com/en_us/research/26/g/autonomous-ransomware.html",
    "date": "2026-07-24T00:00:00.000Z",
@@ -2973,7 +3061,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "13M+ Emails Sent in Tech Support Scam Targeting Users, Organizations in Japan",
    "link": "https://www.trendmicro.com/en_us/research/26/g/tech-support-scams-targeting-japan.html",
    "date": "2026-07-23T00:00:00.000Z",
@@ -2981,7 +3069,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Inside the OpenAI – Hugging Face Incident: The AI Breach With No Human Attacker Behind It",
    "link": "https://www.trendmicro.com/en_us/research/26/g/inside-the-openai-hugging-face-incident.html",
    "date": "2026-07-23T00:00:00.000Z",
@@ -2989,7 +3077,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Federal Agencies Warn of Ongoing PLC Exploitation Against Critical U.S. Infrastructure",
    "link": "https://www.trendmicro.com/en_us/research/26/g/plc-exploitation.html",
    "date": "2026-07-23T00:00:00.000Z",
@@ -3005,7 +3093,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Device Code Phishing: Turning a Convenience Feature Into an MFA Bypass",
    "link": "https://www.trendmicro.com/en_us/research/26/g/device-code-phishing.html",
    "date": "2026-07-22T00:00:00.000Z",
@@ -3029,7 +3117,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Volume Is Not Risk: Making Sense of the 'Vulnpocalypse'",
    "link": "https://www.trendmicro.com/en_us/research/26/g/making-sense-of-the-vulnpocalypse.html",
    "date": "2026-07-21T00:00:00.000Z",
@@ -3173,7 +3261,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Six Minutes to Compromise: How ‘Patriot Bait’ Actor Used AI to Build and Deploy a C&C Botnet",
    "link": "https://www.trendmicro.com/en_us/research/26/g/actor-behind-patriot-bait-used-ai-to-deploy-c2-botnet.html",
    "date": "2026-07-14T00:00:00.000Z",
@@ -3276,12 +3364,28 @@
    "summary": "Three-day patching deadlines, exposed fuel-tank systems, scams costing billions of dollars, and social media bans for children all gave Tony plenty to unpack in June 2026"
   },
   {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Cybersecurity for the Sports Sector: The Threats Facing a Digitized Industry in 2026",
+   "link": "https://www.darktrace.com/blog/cybersecurity-for-the-sports-sector-the-threats-facing-a-digitized-industry-in-2026",
+   "date": "2026-06-30T08:59:00.000Z",
+   "summary": "84% of sports organizations had a cyber incident in the past 12 months. Here is what the data and our analysis tells us about why sport has become such a target."
+  },
+  {
    "company": "google",
    "feed": "Threat intelligence blog",
    "title": "The Bear Necessities: A Look at the Drivers, Dynamics, and Applications of the Pro-Russia Influence Ecosystem",
    "link": "https://cloud.google.com/blog/topics/threat-intelligence/pro-russia-influence-ecosystem/",
    "date": "2026-06-29T14:00:00.000Z",
    "summary": "Written by: James Sadowski, Alden Wahlstrom Introduction Four years into Russia’s full-scale invasion of Ukraine, the pro-Russia influence ecosystem has evolved from a tool of war back into a global strategic asset. Since the mobilization of this ecosystem to support frontline..."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Protecting Stadiums & Events with AI",
+   "link": "https://www.darktrace.com/blog/protecting-global-stadiums-and-events-with-self-learning-ai",
+   "date": "2026-06-29T09:00:00.000Z",
+   "summary": "Discover how Self-Learning AI tackles event security challenges like the 'access paradox' and IT/OT convergence with speed and precision."
   },
   {
    "company": "eset",
@@ -3293,11 +3397,27 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "TONResolver RAT Abuses TON Blockchain to Target Japan's Hotel Industry",
    "link": "https://www.trendmicro.com/en_us/research/26/f/tonresolver.html",
    "date": "2026-06-29T00:00:00.000Z",
    "summary": "In this blog entry, TrendAI™ Research examines a wave of phishing emails observed in May 2026 that targeted Japanese accommodation facilities using Booking.com, detailing the victims, attack techniques used, and characteristics of the malware involved."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "The Curious Case of Prompt Language Analysis",
+   "link": "https://www.darktrace.com/blog/a-new-security-challenge-the-curious-case-of-prompt-language-analysis",
+   "date": "2026-06-28T09:01:00.000Z",
+   "summary": "Prompt analysis is reshaping AI security. Learn why prompts are behavioral signals, not just text, and why context is critical to identifying real enterprise risk."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Shadow AI Detection: The First Step Toward Securing AI",
+   "link": "https://www.darktrace.com/blog/shadow-ai-detection-the-first-step-toward-securing-ai",
+   "date": "2026-06-27T09:04:00.000Z",
+   "summary": "Learn how to detect, govern, and reduce Shadow AI risk with enterprise-wide visibility, behavioral analysis, and AI security best practices."
   },
   {
    "company": "zscaler",
@@ -3365,7 +3485,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "From Langflow to Monero: Inside CVE-2026-33017 Cryptominer",
    "link": "https://www.trendmicro.com/en_us/research/26/f/from-langflow-to-monero-inside-cve-2026-33017-cryptominer.html",
    "date": "2026-06-23T00:00:00.000Z",
@@ -3389,7 +3509,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "PeopleSoft PeopleTools Pre-Authentication RCE: A PSIGW SSRF Chain That Executes Inside the JVM",
    "link": "https://www.trendmicro.com/en_us/research/26/f/PeopleTools.html",
    "date": "2026-06-18T00:00:00.000Z",
@@ -3405,7 +3525,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Threat Actors Abuse claude.ai Shared Chat for ClickFix Malvertising Campaign",
    "link": "https://www.trendmicro.com/en_us/research/26/f/claudeai-shared-chat-abused-in-malvertising.html",
    "date": "2026-06-17T00:00:00.000Z",
@@ -3429,7 +3549,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Governing Claude Enterprise in Environments Where Inline Controls Can't Go",
    "link": "https://www.trendmicro.com/en_us/research/26/f/governing-claude-enterprise.html",
    "date": "2026-06-12T00:00:00.000Z",
@@ -3461,7 +3581,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "GenAI Is Both Hunter and Hunted at Pwn2Own Berlin 2026",
    "link": "https://www.trendmicro.com/en_us/research/26/f/pwn2own-genai.html",
    "date": "2026-06-10T00:00:00.000Z",
@@ -3477,7 +3597,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Old WinRAR Flaw Fuels Attacks on Ukraine: How Unmanaged Software Keeps the Door Open",
    "link": "https://www.trendmicro.com/en_us/research/26/f/old-winrar-flaw-fuels-attacks-on-ukraine.html",
    "date": "2026-06-08T00:00:00.000Z",
@@ -3493,11 +3613,19 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Pwn2Own Berlin 2026: On the Ground With TrendAI™ ZDI's Biggest AI Showdown Yet",
    "link": "https://www.trendmicro.com/en_us/research/26/f/pwn2own-berlin-2026.html",
    "date": "2026-06-01T00:00:00.000Z",
    "summary": "47 zero-days fell at Pwn2Own Berlin 2026 for US$1,298,250 in payouts. TrendAI™ was on the ground all three days — here's what we saw."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "How to Evaluate AI Vendors: 5 Key categories for AI Adoption",
+   "link": "https://www.darktrace.com/blog/how-to-evaluate-ai-vendors-5-key-categories-for-ai-adoption",
+   "date": "2026-05-28T10:33:00.000Z",
+   "summary": "Learn how to evaluate AI cybersecurity vendors using five key assessment categories, including governance, transparency, model validation, and AI explainability, to support safer AI adoption and stronger security outcomes."
   },
   {
    "company": "fortinet",
@@ -3508,12 +3636,36 @@
    "summary": "Exploitation activity targeting vulnerable Citrix NetScaler ADC and Gateway appliances remains persistent and widespread, with FortiGuard Labs telemetry continuously observing attack attempts from global sources probing exposed NetScaler SAML endpoints for vulnerable..."
   },
   {
-   "company": "trendai",
+   "company": "darktrace",
    "feed": "Blog",
+   "title": "How Multi-Layered AI Detects Email Threats | Darktrace / EMAIL",
+   "link": "https://www.darktrace.com/blog/how-multi-layered-ai-works-in-darktrace-email",
+   "date": "2026-05-27T10:34:00.000Z",
+   "summary": "Follow a malicious email through Darktrace / EMAIL’s multi-layered AI system to see how AI detects threats, understands intent, and autonomously responds in real time."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "77% of security stacks include AI, but trust is lagging",
+   "link": "https://www.darktrace.com/blog/state-of-ai-cybersecurity-2026-77-of-security-stacks-include-ai-but-trust-is-lagging",
+   "date": "2026-05-26T10:34:00.000Z",
+   "summary": "The State of AI Cybersecurity 2026 reveals 77% of security stacks now use AI, but trust, transparency, and understanding still lag behind."
+  },
+  {
+   "company": "trendai",
+   "feed": "Research",
    "title": "Smart Contracts for C&C: How ClearFake Hid in Plain Sight on BSC Testnet",
    "link": "https://www.trendmicro.com/en_us/research/26/e/smart-contracts-for-command-and-control.html",
    "date": "2026-05-26T00:00:00.000Z",
    "summary": "TrendAI™ Research analyzed an intrusion where threat actors used the EtherHiding technique to route ClearFake payload delivery through smart contracts on the BNB Smart Chain testnet. The attack chain ended with two simultaneously deployed stealers, SectopRAT and ACRStealer..."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Chinese APT Campaign Targets Entities with Updated FDMTP Backdoor",
+   "link": "https://www.darktrace.com/blog/chinese-apt-campaign-targets-entities-with-updated-fdmtp-backdoor",
+   "date": "2026-05-24T10:36:00.000Z",
+   "summary": "Darktrace researchers identified a Twill Typhoon–linked China‑nexus campaign targeting APJ customers. The activity observed includes CDN impersonation, legitimate binaries, and DLL sideloading to deploy a modular .NET RAT."
   },
   {
    "company": "zscaler",
@@ -3525,7 +3677,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Analyzing Void Dokkaebi’s Cython-Compiled InvisibleFerret Malware",
    "link": "https://www.trendmicro.com/en_us/research/26/e/analyzing-void-dokkaebi-invisibleferret-malware.html",
    "date": "2026-05-22T00:00:00.000Z",
@@ -3533,7 +3685,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "One Man, One AI, One Fake Persona: Inside the 5-Year Influence and Fraud ‘Patriot Bait’ Campaign",
    "link": "https://www.trendmicro.com/en_us/research/26/e/inside-the-influence-and-fraud-patriot-bait-campaign.html",
    "date": "2026-05-21T00:00:00.000Z",
@@ -3541,7 +3693,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Inside SHADOW-WATER-063’s Banana RAT: From Build Server to Banking Fraud",
    "link": "https://www.trendmicro.com/en_us/research/26/e/banana-rat.html",
    "date": "2026-05-19T00:00:00.000Z",
@@ -3549,7 +3701,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Agentic Governance: Why It Matters Now",
    "link": "https://www.trendmicro.com/en_us/research/26/e/agentic-governance-why-it-matters-now.html",
    "date": "2026-05-18T00:00:00.000Z",
@@ -3565,7 +3717,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Analyzing TeamPCP’s Supply Chain Attacks: Checkmarx KICS and elementary-data in CI/CD Credential Theft",
    "link": "https://www.trendmicro.com/en_us/research/26/e/analyzing-teampcp-supply-chain-attacks.html",
    "date": "2026-05-13T00:00:00.000Z",
@@ -3573,7 +3725,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Vibe Hacking: Two AI-Augmented Campaigns Target Government and Financial Sectors in Latin America",
    "link": "https://www.trendmicro.com/en_us/research/26/e/vibe-hacking-two-ai-augmented-campaigns-target-government-and-financial-sectors-in-latin-america.html",
    "date": "2026-05-11T00:00:00.000Z",
@@ -3581,7 +3733,7 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "What Is the Instructure Canvas Breach? Impact, Risks, and What Institutions Should Do",
    "link": "https://www.trendmicro.com/en_us/research/26/e/What-Is-the-Instructure-Canvas-Breach.html",
    "date": "2026-05-10T00:00:00.000Z",
@@ -3589,11 +3741,19 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "Supporting the National Cyber Strategy: How TrendAI™ Helps",
    "link": "https://www.trendmicro.com/en_us/research/26/e/national-cyber-strategy.html",
    "date": "2026-05-06T00:00:00.000Z",
    "summary": "A deeper look at the first three pillars and outlining how our capabilities directly support government agencies working to bring this strategy to life."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Why behavioral AI is the answer to Mythos",
+   "link": "https://www.darktrace.com/blog/why-behavioral-ai-is-the-answer-to-mythos",
+   "date": "2026-05-05T16:31:00.000Z",
+   "summary": "This blog explores why prevention-first security can no longer keep up with AI-driven threats, in light of the risks posed by supercharged AI models and their ability to expose flaws in IT systems at machine speed."
   },
   {
    "company": "zscaler",
@@ -3605,23 +3765,47 @@
   },
   {
    "company": "trendai",
-   "feed": "Blog",
+   "feed": "Research",
    "title": "InstallFix and Claude Code: How Fake Install Pages Lead to Real Compromise",
    "link": "https://www.trendmicro.com/en_us/research/26/e/installfix-and-claude-code.html",
    "date": "2026-05-05T00:00:00.000Z",
    "summary": "Targeting multiple industries worldwide, the InstallFix campaign uses fake Claude AI installer pages to trick users into running malware that collects system information, disables security features, achieves persistence, and connects to attacker-controlled C&C servers for..."
   },
   {
-   "company": "trendai",
+   "company": "darktrace",
    "feed": "Blog",
+   "title": "Anthropic’s Mythos and what it means for security teams",
+   "link": "https://www.darktrace.com/blog/mythos-vs-ethos-defending-in-an-era-of-ai-accelerated-vulnerability-discovery",
+   "date": "2026-05-04T16:32:00.000Z",
+   "summary": "AI is accelerating vulnerability discovery beyond disclosure timelines. Learn why behavioral detection, not patching, is becoming the foundation of modern defense."
+  },
+  {
+   "company": "trendai",
+   "feed": "Research",
    "title": "Quasar Linux (QLNX) – A Silent Foothold in the Supply Chain: Inside a Full-Featured Linux RAT With Rootkit, PAM Backdoor, Credential Harvesting Capabilities",
    "link": "https://www.trendmicro.com/en_us/research/26/e/quasar-linux-qlnx-a-silent-foothold-in-the-software-supply-chain.html",
    "date": "2026-05-04T00:00:00.000Z",
    "summary": "TrendAI™ Research breaks down Quasar Linux (QLNX), a previously undocumented sophisticated Linux RAT with low detection rates. In this blog, we examine a full-featured Linux threat incorporating a rootkit, a PAM backdoor, credential harvesting, and more, revealing how this..."
   },
   {
-   "company": "trendai",
+   "company": "darktrace",
    "feed": "Blog",
+   "title": "87% of security professionals are seeing more AI-driven threats, but few feel prepared to stop them",
+   "link": "https://www.darktrace.com/blog/state-of-ai-cybersecurity-2026-87-of-security-professionals-are-seeing-more-ai-driven-threats-but-few-feel-ready-to-stop-them",
+   "date": "2026-05-03T16:33:00.000Z",
+   "summary": "The State of AI Cybersecurity 2026 report reveals a surge in the volume and impact of AI-driven attacks, focusing the need for reliable, scalable AI defense."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Email prompt injection attacks on enterprise AI explained: Risks & impact",
+   "link": "https://www.darktrace.com/blog/how-email-delivered-prompt-injection-attacks-can-target-enterprise-ai-and-why-it-matters",
+   "date": "2026-05-02T16:33:00.000Z",
+   "summary": "Discover how email prompt injection attacks target enterprise systems and what it means for security in the age of agentic AI."
+  },
+  {
+   "company": "trendai",
+   "feed": "Research",
    "title": "Inside Shadow-Earth-053: A China-Aligned Cyberespionage Campaign Against Government and Defense Sectors in Asia",
    "link": "https://www.trendmicro.com/en_us/research/26/d/inside-shadow-earth-053.html",
    "date": "2026-04-30T00:00:00.000Z",
@@ -3684,12 +3868,44 @@
    "summary": "React2Shell is a critical unauthenticated remote code execution (RCE) vulnerability affecting React Server Components (RSC) and frameworks that implement the Flight protocol, including specific vulnerable versions of Next.js. A remote attacker can craft a malicious RSC request..."
   },
   {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "92% of Security Pros Concerned About AI Agents",
+   "link": "https://www.darktrace.com/blog/state-of-ai-cybersecurity-2026-92-of-security-professionals-concerned-about-the-impact-of-ai-agents",
+   "date": "2026-03-31T11:23:00.000Z",
+   "summary": "The State of AI Cybersecurity 2026 report reveals growing concern among security professionals as AI adoption accelerates, highlighting the urgent need for scalable strategies to secure AI systems."
+  },
+  {
    "company": "fortinet",
    "feed": "Outbreak alerts",
    "title": "Iran-linked Cyber Attacks",
    "link": "https://fortiguard.fortinet.com/outbreak-alert/iran-linked-cyber-attacks",
    "date": "2026-03-31T07:00:00.000Z",
    "summary": "This report provides an overview of ongoing Iran-linked cyber operations, highlighting activity attributed to state-aligned proxies and hacktivist groups. The vulnerabilities listed are suspected to be exploited by actors associated with Iran in real-world campaigns, consistent..."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "NetSupport RAT: Why Legitimate Tools Are as Damaging as Malware",
+   "link": "https://www.darktrace.com/blog/netsupport-rat-how-legitimate-tools-can-be-as-damaging-as-malware",
+   "date": "2026-03-30T11:23:00.000Z",
+   "summary": "NetSupport RAT is the malicious abuse of the legitimate NetSupport Manager remote administration tool, used to gain unauthorized system access, exfiltrate data, and deploy malware or info‑stealers – turning trusted functionality into a dangerous attack vector."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Darktrace Identifies Encryption in a World Leaks Ransomware Attack",
+   "link": "https://www.darktrace.com/blog/when-reality-diverges-from-the-playbook-darktrace-identifies-encryption-in-a-world-leaks-ransomware-attack",
+   "date": "2026-03-29T11:24:00.000Z",
+   "summary": "Darktrace detected a World Leaks compromise where a ransomware payload was deployed, and customer data was encrypted."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "Darktrace Launches Unified Security Awareness Training and Messaging Security",
+   "link": "https://www.darktrace.com/blog/darktrace-unites-human-behavior-and-threat-detection-across-email-slack-teams-and-zoom",
+   "date": "2026-03-28T11:25:00.000Z",
+   "summary": "Darktrace introduces adaptive email security that unifies human behavior, threat detection, and collaboration tools to stop phishing and strengthen resilience."
   },
   {
    "company": "fortinet",
@@ -3706,6 +3922,30 @@
    "link": "https://fortiguard.fortinet.com/outbreak-alert/annual-report-2025",
    "date": "2026-03-09T17:00:00.000Z",
    "summary": "In 2025, the FortiGuard Labs team processed and blocked 3.8 trillion vulnerability exploitation attempts, preventing 2.71 billion malware deliveries, and blocking 257 million newly seen malware variants worldwide to protect its customers from cyber threats. Through the outbreak..."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "What the Darktrace Annual Threat Report 2026 Means for Security Leaders",
+   "link": "https://www.darktrace.com/blog/what-the-darktrace-annual-threat-report-2026-means-for-security-leaders",
+   "date": "2026-03-02T17:04:00.000Z",
+   "summary": "Darktrace CISO Mike Beck shares his views on the global trends shaping cyber risk in 2026, as highlighted in our Annual Threat Report."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "AppleScript Abuse: Unpacking a macOS Phishing Campaign",
+   "link": "https://www.darktrace.com/blog/applescript-abuse-unpacking-a-macos-phishing-campaign",
+   "date": "2026-03-01T17:04:00.000Z",
+   "summary": "A macOS phishing campaign using social engineering, AppleScript loaders, and TCC abuse – highlighting the growing shift toward exploiting user trust over software vulnerabilities."
+  },
+  {
+   "company": "darktrace",
+   "feed": "Blog",
+   "title": "CVE-2026-1731: How Darktrace Sees the BeyondTrust Exploitation Wave Unfolding",
+   "link": "https://www.darktrace.com/blog/cve-2026-1731-how-darktrace-sees-the-beyondtrust-exploitation-wave-unfolding",
+   "date": "2026-02-28T17:05:00.000Z",
+   "summary": "A new exploitation wave targeting BeyondTrust after CVE-2026-1731 disclosure, with early malicious activity observed in the wild highlighting a clear need for proactive defense."
   },
   {
    "company": "fortinet",
