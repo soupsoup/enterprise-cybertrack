@@ -54,18 +54,29 @@ async function main() {
   const now = new Date().toISOString();
   const status = [];
 
-  await pool(companies.flatMap((c) => c.feeds.map((f) => async () => {
+  // Fetch in parallel, but apply results in config order so an item that appears in two feeds
+  // always gets the label of the first one listed.
+  const jobs = companies.flatMap((c) => c.feeds.map((f) => ({ c, f })));
+  const results = new Array(jobs.length);
+  await pool(jobs.map(({ c, f }, idx) => async () => {
     const s = { company: c.id, label: f.label, url: f.urls[0], ok: false, checked: now };
     try {
       const { url, items } = await loadFeed(f);
       s.ok = true; s.url = url; s.count = items.length;
       // Feeds are not always newest-first (some run to thousands of items), so sort before trimming.
-      const newest = [...items].sort((a, b) => (b.date || '').localeCompare(a.date || '')).slice(0, PER_FEED);
-      for (const it of newest) byLink.set(it.link, { company: c.id, feed: f.label, ...it });
+      results[idx] = [...items].sort((a, b) => (b.date || '').localeCompare(a.date || '')).slice(0, PER_FEED);
     } catch (e) { s.error = e.message; }
     status.push(s);
     console.log(`${s.ok ? 'ok  ' : 'FAIL'} ${c.name} / ${f.label}${s.ok ? ` (${s.count})` : ': ' + s.error.slice(0, 120)}`);
-  })), 6);
+  }), 6);
+  const claimed = new Set();
+  jobs.forEach(({ c, f }, idx) => {
+    for (const it of results[idx] || []) {
+      if (claimed.has(it.link)) continue;
+      claimed.add(it.link);
+      byLink.set(it.link, { company: c.id, feed: f.label, ...it });
+    }
+  });
 
   // Keep the newest PER_FEED items per company+feed so the file stays small.
   const groups = new Map();

@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-03T16:24:40.624Z",
+ "generated": "2026-10-03T22:39:07.884Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 20
   },
   {
@@ -78,7 +78,7 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 4222
   },
   {
@@ -86,7 +86,7 @@
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 15
   },
   {
@@ -182,23 +182,31 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 10
   },
   {
    "company": "trendai",
-   "label": "Blog",
-   "url": "https://feeds.feedburner.com/TrendMicroSimplySecurity",
+   "label": "Cyberthreat news",
+   "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
-   "count": 50
+   "checked": "2026-10-03T22:39:07.884Z",
+   "count": 25
+  },
+  {
+   "company": "trendai",
+   "label": "News releases",
+   "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
+   "ok": true,
+   "checked": "2026-10-03T22:39:07.884Z",
+   "count": 25
   },
   {
    "company": "trendai",
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 100
   },
   {
@@ -206,7 +214,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 694
   },
   {
@@ -214,7 +222,7 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-03T16:24:40.624Z",
+   "checked": "2026-10-03T22:39:07.884Z",
    "count": 50
   }
  ],
@@ -316,7 +324,7 @@
    "summary": "Read highlights from the 2026 Microsoft Digital Defense Report, which reflects a security environment that continues to grow more interconnected. The post Insights from the 2026 Microsoft Digital Defense Report appeared first on Microsoft Security Blog ."
   },
   {
-   "company": "cyberark",
+   "company": "paloalto",
    "feed": "Blog",
    "title": "Observability’s AI Moment",
    "link": "https://www.paloaltonetworks.com/blog/2026/10/observabilitys-ai-moment-introducing-cortex-xcor-ai-driven-observability-for-autonomous-response-with-ai-sre/",
@@ -604,7 +612,7 @@
    "summary": ""
   },
   {
-   "company": "cyberark",
+   "company": "paloalto",
    "feed": "Blog",
    "title": "“SASE Gateway” provided by KDDI : How SP Interconnect Simplifies Closed Network Zero Trust",
    "link": "https://www.paloaltonetworks.com/blog/2026/09/sase-gateway-provided-by-kddi-how-sp-interconnect-simplifies-closed-network-zero-trust/",
@@ -636,7 +644,7 @@
    "summary": "Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog ."
   },
   {
-   "company": "cyberark",
+   "company": "paloalto",
    "feed": "Blog",
    "title": "Introducing CLARA Agent: Instant Cloud & AI Risk Insights Available on Google Cloud Gemini Enterprise",
    "link": "https://www.paloaltonetworks.com/blog/2026/09/introducing-clara-agent-instant-cloud-ai-risk-insights-available-on-google-cloud-gemini-enterprise/",
@@ -764,6 +772,14 @@
    "summary": "Introduction In late September 2026, Mandiant Consulting and Google Threat Intelligence Group (GTIG) identified active, in-the-wild exploitation of a zero-day vulnerability (CVE-2026-88772) affecting Citrix NetScaler ADC and NetScaler Gateway appliances. We have observed..."
   },
   {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Introducing TrendAI™ Autonomous Vulnerability Discovery: Next-Generation Threat Remediation at Machine Speed",
+   "link": "https://newsroom.trendmicro.com/2026-09-29-Introducing-TrendAI-TM-Autonomous-Vulnerability-Discovery-Next-Generation-Threat-Remediation-at-Machine-Speed",
+   "date": "2026-09-29T13:00:00.000Z",
+   "summary": ""
+  },
+  {
    "company": "wiz",
    "feed": "Blog",
    "title": "The Blue Agent POV: Investigating Multi-Platform Data Exfiltration Across AWS and GitHub",
@@ -804,7 +820,7 @@
    "summary": "How reliability scoring keeps risky patches out of zero-touch jobs, and how one blocking rule stops a paused update across your environment. Executive Summary Microsoft has paused the rollout of KB5002907, an optional Microsoft 365 Apps update that left some Office 2016 and..."
   },
   {
-   "company": "cyberark",
+   "company": "paloalto",
    "feed": "Blog",
    "title": "Why OT Resilience Is Now a Boardroom Imperative",
    "link": "https://www.paloaltonetworks.com/blog/2026/09/why-ot-resilience-is-now-a-boardroom-imperative/",
@@ -884,7 +900,7 @@
    "summary": "Overview On September 27, 2026, Citrix disclosed eight new vulnerabilities affecting NetScaler ADC and NetScaler Gateway, including two critical remote code execution (RCE) vulnerabilities: CVE-2026-88771 and CVE-2026-88772 . Both of these RCE vulnerabilities carry a critical..."
   },
   {
-   "company": "cyberark",
+   "company": "paloalto",
    "feed": "Blog",
    "title": "Securing AI Agents at Scale with NVIDIA",
    "link": "https://www.paloaltonetworks.com/blog/2026/09/securing-ai-agents-at-scale-with-nvidia/",
@@ -1172,7 +1188,7 @@
    "summary": "WINning AI with AI: How the Wiz MCP for WIN partners accelerates a connected ecosystem"
   },
   {
-   "company": "cyberark",
+   "company": "paloalto",
    "feed": "Blog",
    "title": "Introducing Unit 42 Continuous Frontier AI Defense",
    "link": "https://www.paloaltonetworks.com/blog/2026/09/introducing-unit-42-continuous-frontier-ai-defense/",
@@ -1348,7 +1364,7 @@
    "summary": "Whether you’re a victim, the parent of a victim, or just concerned, here’s what you can do about fake nude images"
   },
   {
-   "company": "cyberark",
+   "company": "paloalto",
    "feed": "Blog",
    "title": "Defining the Standard for AI Security",
    "link": "https://www.paloaltonetworks.com/blog/2026/09/defining-the-standard-for-ai-security/",
@@ -1724,7 +1740,7 @@
    "summary": "Evaluate the buy, build-with, and DIY spectrum for AI in the SOC to balance operational control with ongoing maintenance needs."
   },
   {
-   "company": "cyberark",
+   "company": "paloalto",
    "feed": "Blog",
    "title": "FedRAMP Moderate Authorization for Palo Alto Networks Quantum-Safe Security",
    "link": "https://www.paloaltonetworks.com/blog/2026/09/fedramp-moderate-authorization-for-palo-alto-networks-quantum-safe-security/",
@@ -1836,7 +1852,7 @@
    "summary": "Wiz Research has identified active, in-the-wild exploitation of three critical and high-severity vulnerabilities impacting JFrog Artifactory (CVE-2026-42016, CVE-2026-42018 & CVE-2026-82329). Attackers are chaining these vulnerabilities to bypass authentication and gain..."
   },
   {
-   "company": "cyberark",
+   "company": "paloalto",
    "feed": "Blog",
    "title": "Palo Alto Networks Named a Leader in the 2026 Gartner® Magic Quadrant™ for Hybrid Mesh Firewall",
    "link": "https://www.paloaltonetworks.com/blog/2026/09/palo-alto-networks-named-a-leader-in-the-2026-gartner-magic-quadrant-for-hybrid-mesh-firewall-securing-every-environment-at-the-speed-of-frontier-ai/",
@@ -1868,7 +1884,7 @@
    "summary": "Executive Summary In this research we introduce a prompt-crafting technique for bypassing quick LLM-based policy checks — using plain English (no emojis, base64, invisible formatting, etc.) A policy-violating payload (e.g. ”encrypt files in ~/Documents”, “give me a biohazard..."
   },
   {
-   "company": "cyberark",
+   "company": "paloalto",
    "feed": "Blog",
    "title": "Secure AI Coding: Governing every agent, artifact, and identity",
    "link": "https://www.paloaltonetworks.com/blog/2026/09/secure-ai-coding-governing-every-agent-artifact-and-identity/",
@@ -2508,6 +2524,14 @@
    "summary": "Wiz Research telemetry reveals why the majority of high-severity findings lack a path to compromise"
   },
   {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "TrendAI™ Ranks First on CyberGym Agentic AI Security Benchmark",
+   "link": "https://newsroom.trendmicro.com/2026-08-26-TrendAI-TM-Ranks-First-on-CyberGym-Agentic-AI-Security-Benchmark",
+   "date": "2026-08-26T14:00:00.000Z",
+   "summary": ""
+  },
+  {
    "company": "sentinelone",
    "feed": "Blog",
    "title": "Edge Infrastructure Under Siege: What Two Independent Datasets Reveal About Who's Exploiting Your Perimeter",
@@ -2989,6 +3013,14 @@
   },
   {
    "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "TrendAI™ Reports Nation-State Activity in H1 2026 APT Activity Roundup",
+   "link": "https://newsroom.trendmicro.com/2026-07-29-TrendAI-TM-Reports-Nation-State-Activity-in-H1-2026-APT-Activity-Roundup",
+   "date": "2026-07-29T13:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
    "feed": "Research",
    "title": "Tracking Over 35,000 Fake Sites in the 2026 World Cup Scam Wave",
    "link": "https://www.trendmicro.com/en_us/research/26/g/tracking-fake-sites-in-the-2026-world-cup-scam-wave.html",
@@ -3042,6 +3074,14 @@
    "link": "https://www.darktrace.com/blog/when-ai-infrastructure-becomes-part-of-the-attack-surface",
    "date": "2026-07-25T13:35:00.000Z",
    "summary": "Darktrace investigates a compromised AI gateway connected to Amazon Bedrock services that was later observed communicating with cryptomining infrastructure."
+  },
+  {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "TrendAI™ Adopts Claude Opus 5 to Advance Vulnerability Prioritization and Virtual Patching",
+   "link": "https://newsroom.trendmicro.com/2026-07-24-TrendAI-TM-Adopts-Claude-Opus-5-to-Advance-Vulnerability-Prioritization-and-Virtual-Patching",
+   "date": "2026-07-24T19:41:00.000Z",
+   "summary": ""
   },
   {
    "company": "google",
@@ -3492,6 +3532,14 @@
    "summary": "We tracked a cryptocurrency-mining campaign exploiting CVE-2026-33017, which revealed how threat actors are now scanning exposed AI application infrastructure for their next foothold."
   },
   {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "TrendAI™ Named Trusted Partner in the OpenAI Daybreak Cyber Partner Program",
+   "link": "https://newsroom.trendmicro.com/2026-06-22-TrendAI-TM-Named-Trusted-Partner-in-the-OpenAI-Daybreak-Cyber-Partner-Program",
+   "date": "2026-06-22T17:03:00.000Z",
+   "summary": ""
+  },
+  {
    "company": "fortinet",
    "feed": "Outbreak alerts",
    "title": "HTTP/2 Bomb Denial-of-Service Vulnerability",
@@ -3546,6 +3594,14 @@
    "link": "https://www.zscaler.com/blogs/security-research/shai-hulud-campaign-evolution-miasma-hades-and-ai-scanner-evasion",
    "date": "2026-06-12T21:14:52.000Z",
    "summary": "IntroductionSince Zscaler ThreatLabz published its analysis of Shai-Hulud V2 in November 2025, the campaign has continued to evolve in ways that distinguish it from more typical software supply chain attacks. Over the last six months, the activity expanded beyond npm into the..."
+  },
+  {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "TrendAI™ Integrates Claude Compliance API Into TrendAI Vision One™",
+   "link": "https://newsroom.trendmicro.com/2026-06-12-TrendAI-TM-Integrates-Claude-Compliance-API-Into-TrendAI-Vision-One-TM",
+   "date": "2026-06-12T16:26:00.000Z",
+   "summary": ""
   },
   {
    "company": "trendai",
@@ -3604,6 +3660,14 @@
    "summary": "Two separate Russia-aligned campaigns are still exploiting the WinRAR flaw CVE-2025-8088 against Ukrainian organizations nearly a year after it was patched, showing how unmanaged software keeps an exploited entry point open long after the fix ships."
   },
   {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "TrendAI™ Joins Anthropic's Project Glasswing",
+   "link": "https://newsroom.trendmicro.com/2026-06-03-TrendAI-TM-Joins-Anthropics-Project-Glasswing",
+   "date": "2026-06-04T01:06:00.000Z",
+   "summary": ""
+  },
+  {
    "company": "sentinelone",
    "feed": "SentinelLabs research",
    "title": "LABScon25 Replay | Gamaredon x Turla: Unveiling a 2025 Espionage Alliance Targeting Ukraine",
@@ -3618,6 +3682,14 @@
    "link": "https://www.trendmicro.com/en_us/research/26/f/pwn2own-berlin-2026.html",
    "date": "2026-06-01T00:00:00.000Z",
    "summary": "47 zero-days fell at Pwn2Own Berlin 2026 for US$1,298,250 in payouts. TrendAI™ was on the ground all three days — here's what we saw."
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "TrendAI™ Deploys Claude Opus 4.8 to Advance Vulnerability Detection and Risk Mitigation",
+   "link": "https://newsroom.trendmicro.com/2026-05-28-TrendAI-TM-Opus-4-8",
+   "date": "2026-05-28T20:43:00.000Z",
+   "summary": ""
   },
   {
    "company": "darktrace",
@@ -3698,6 +3770,14 @@
    "link": "https://www.trendmicro.com/en_us/research/26/e/banana-rat.html",
    "date": "2026-05-19T00:00:00.000Z",
    "summary": "In this blog entry, researchers from the TrendAI™ MDR team discuss how they mapped the full end-to-end operation of SHADOW-WATER-063’s Banana RAT banking malware by analyzing server-side artifacts and victim-side data."
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "TrendAI™ Zero Day Initiative™ Leads Industry Remediation at Pwn2Own Berlin",
+   "link": "https://newsroom.trendmicro.com/2026-05-18-TrendAI-TM-Zero-Day-Initiative-Leads-Industry-Remediation-at-Pwn2Own-Berlin",
+   "date": "2026-05-18T21:21:00.000Z",
+   "summary": ""
   },
   {
    "company": "trendai",
@@ -3805,6 +3885,14 @@
   },
   {
    "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "TrendAI™ and Anthropic Advance AI-Powered Vulnerability Detection and Risk Mitigation with Claude Opus 4.7",
+   "link": "https://newsroom.trendmicro.com/2026-04-30-TrendAI-TM-and-Anthropic-Advance-AI-Powered-Vulnerability-Detection-and-Risk-Mitigation-with-Claude-Opus-4-7",
+   "date": "2026-04-30T17:19:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
    "feed": "Research",
    "title": "Inside Shadow-Earth-053: A China-Aligned Cyberespionage Campaign Against Government and Defense Sectors in Asia",
    "link": "https://www.trendmicro.com/en_us/research/26/d/inside-shadow-earth-053.html",
@@ -3908,6 +3996,14 @@
    "summary": "Darktrace introduces adaptive email security that unifies human behavior, threat detection, and collaboration tools to stop phishing and strengthen resilience."
   },
   {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Organizations Overlook AI Risk as Governance Fails to Keep Up",
+   "link": "https://newsroom.trendmicro.com/2026-03-25-Organizations-Overlook-AI-Risk-as-Governance-Fails-to-Keep-Up,1",
+   "date": "2026-03-25T12:00:00.000Z",
+   "summary": ""
+  },
+  {
    "company": "fortinet",
    "feed": "Outbreak alerts",
    "title": "Interlock Ransomware Attack",
@@ -3956,12 +4052,36 @@
    "summary": "Multiple critical security vulnerabilities in the Versa Concerto network security and SD-WAN orchestration platform. When chained, these flaws could allow remote attackers to bypass authentication, escape Docker containers, and fully compromise both the application and the..."
   },
   {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "Trend Micro Predicts 2026 as the Year Scams Become AI-Driven, AI-Scaled, and Emotion-Engineered",
+   "link": "https://newsroom.trendmicro.com/2025-12-03-Trend-Micro-Predicts-2026-as-the-Year-Scams-Become-AI-Driven,-AI-Scaled,-and-Emotion-Engineered",
+   "date": "2025-12-03T22:18:00.000Z",
+   "summary": ""
+  },
+  {
    "company": "fortinet",
    "feed": "Outbreak alerts",
    "title": "UNC1549 Critical Infrastructure Espionage Attack",
    "link": "https://fortiguard.fortinet.com/outbreak-alert/unc1549-espionage-attack",
    "date": "2025-12-02T08:00:00.000Z",
    "summary": "A suspected Iran-linked espionage group tracked as UNC1549 is actively targeting aerospace, defense, and telecommunications organizations across Europe and other regions. The threat actor employs a combination of highly tailored spear-phishing, credential theft from third-party..."
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro Predicts 2026 as the Year Cybercrime Becomes Fully Industrialized",
+   "link": "https://newsroom.trendmicro.com/2025-11-25-Trend-Micro-Predicts-2026-as-the-Year-Cybercrime-Becomes-Fully-Industrialized",
+   "date": "2025-11-25T13:01:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "New Trend Micro Survey Shows Economic Strain and Overconfidence put Holiday Shoppers at Greater Risk of Online Scams",
+   "link": "https://newsroom.trendmicro.com/2025-11-19-New-Trend-Micro-Survey-Shows-Economic-Strain-and-Overconfidence-put-Holiday-Shoppers-at-Greater-Risk-of-Online-Scams",
+   "date": "2025-11-19T13:00:00.000Z",
+   "summary": ""
   },
   {
    "company": "fortinet",
@@ -3972,12 +4092,236 @@
    "summary": "FortiGuard Labs continue to observe detections in the wild related to the Akira ransomware group. According to the new report by CISA it has targeted over 250 organizations since the past year, affecting numerous businesses and critical infrastructure entities across North..."
   },
   {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "Trend Micro Awards Over $1,000,000 to Ethical Hackers",
+   "link": "https://newsroom.trendmicro.com/2025-10-27-Trend-Micro-Awards-Over-1,000,000-to-Ethical-Hackers",
+   "date": "2025-10-27T12:01:00.000Z",
+   "summary": ""
+  },
+  {
    "company": "fortinet",
    "feed": "Outbreak alerts",
    "title": "Oracle E-Business Suite RCE Zero-day",
    "link": "https://fortiguard.fortinet.com/outbreak-alert/oracle-e-business-suite-rce",
    "date": "2025-10-08T07:00:00.000Z",
    "summary": "Actively exploited as a zero-day in data theft and extortion campaigns, with activity linked to the Cl0p ransomware group. Successful exploitation enables complete takeover of Oracle Concurrent Processing, opening the door to lateral movement, sensitive data exfiltration, and..."
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro Unmasks Global \"Task Scam\" Industry",
+   "link": "https://newsroom.trendmicro.com/2025-08-19-Trend-Micro-Unmasks-Global-Task-Scam-Industry",
+   "date": "2025-08-19T12:02:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro Launches Agentic SIEM to Herald New Era of Proactive Security",
+   "link": "https://newsroom.trendmicro.com/2025-08-12-Trend-Micro-Launches-Agentic-SIEM-to-Herald-New-Era-of-Proactive-Security",
+   "date": "2025-08-12T12:01:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Zero Day Initiative™ Celebrates 20 Years of Industry Leadership",
+   "link": "https://newsroom.trendmicro.com/2025-08-07-Trend-Micros-Zero-Day-Initiative-Celebrates-20-Years-of-Industry-Leadership",
+   "date": "2025-08-07T22:10:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro Reinvents Proactive Security with Digital Twin Technology",
+   "link": "https://newsroom.trendmicro.com/2025-07-31-Trend-Micro-Reinvents-Proactive-Security-with-Digital-Twin-Technology",
+   "date": "2025-07-31T12:02:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "Trend Micro Warns of Thousands of Exposed AI Servers",
+   "link": "https://newsroom.trendmicro.com/2025-07-29-Trend-Micro-Warns-of-Thousands-of-Exposed-AI-Servers",
+   "date": "2025-07-29T12:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "AI-Generated Media Drives Real-World Fraud, Identity Theft, and Business Compromise",
+   "link": "https://newsroom.trendmicro.com/2025-07-09-AI-Generated-Media-Drives-Real-World-Fraud,-Identity-Theft,-and-Business-Compromise",
+   "date": "2025-07-09T12:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "AI on the Frontline: Global Firms Back Innovation, Brace for New Cyber Threats",
+   "link": "https://newsroom.trendmicro.com/2025-07-01-AI-on-the-Frontline-Global-Firms-Back-Innovation,-Brace-for-New-Cyber-Threats",
+   "date": "2025-07-01T18:55:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "New Research Reveals Three Quarters of Cybersecurity Incidents Occur Due to Unmanaged Assets",
+   "link": "https://newsroom.trendmicro.com/2025-04-29-New-Research-Reveals-Three-Quarters-of-Cybersecurity-Incidents-Occur-Due-to-Unmanaged-Assets",
+   "date": "2025-04-29T11:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "Trend Micro Customers Lower Cyber Risk Scores Through Proactive Security",
+   "link": "https://newsroom.trendmicro.com/2025-03-25-Trend-Micro-Customers-Lower-Cyber-Risk-Scores-Through-Proactive-Security",
+   "date": "2025-03-25T12:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro Leads the Fight Against Scams on Safer Internet Day",
+   "link": "https://newsroom.trendmicro.com/2025-02-11-Trend-Micro-Leads-the-Fight-Against-Scams-on-Safer-Internet-Day",
+   "date": "2025-02-11T13:01:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro and Intel Innovate to Weed Out Covert Threats",
+   "link": "https://newsroom.trendmicro.com/2025-01-07-Trend-Micro-and-Intel-Innovate-to-Weed-Out-Covert-Threats",
+   "date": "2025-01-07T15:44:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro Predicts Emergence of Deepfake-Powered Malicious Digital Twins",
+   "link": "https://newsroom.trendmicro.com/2024-12-16-Trend-Micro-Predicts-Emergence-of-Deepfake-Powered-Malicious-Digital-Twins",
+   "date": "2024-12-16T13:02:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro Achieves 100% Coverage Rate in MITRE ATT&CK® Evaluations",
+   "link": "https://newsroom.trendmicro.com/2024-12-11-Trend-Micro-Achieves-100-Coverage-Rate-in-MITRE-ATT-CK-R-Evaluations",
+   "date": "2024-12-11T16:55:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro ZDI Hosts Hacking Contest for Vulnerabilities in AI-Enabled Devices",
+   "link": "https://newsroom.trendmicro.com/2024-10-22-Trend-Micro-ZDI-Hosts-Hacking-Contest-for-Vulnerabilities-in-AI-Enabled-Devices",
+   "date": "2024-10-22T12:02:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro Warns Devices and Accounts are Highest-Risk Assets",
+   "link": "https://newsroom.trendmicro.com/2024-09-25-Trend-Micro-Warns-Devices-and-Accounts-are-Highest-Risk-Assets",
+   "date": "2024-09-25T12:03:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "Only One Third of Organizations Run Round-the-Clock Cybersecurity",
+   "link": "https://newsroom.trendmicro.com/2024-09-19-Only-One-Third-of-Organizations-Run-Round-the-Clock-Cybersecurity",
+   "date": "2024-09-19T12:02:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro Stops Deepfakes and AI-Based Cyberattacks for Consumers and Enterprises",
+   "link": "https://newsroom.trendmicro.com/2024-07-30-Trend-Micro-Stops-Deepfakes-and-AI-Based-Cyberattacks-for-Consumers-and-Enterprises",
+   "date": "2024-07-30T12:02:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "Trend Micro #1 in Vulnerability Disclosure, Helping Prevent Breaches and Save Businesses Millions",
+   "link": "https://newsroom.trendmicro.com/2024-06-25-Trend-Micro-1-in-Vulnerability-Disclosure,-Helping-Prevent-Breaches-and-Save-Businesses-Millions",
+   "date": "2024-06-25T12:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro Scores 100% on Attack Visibility in Latest MITRE Engenuity ATT&CK® Evaluations",
+   "link": "https://newsroom.trendmicro.com/2024-06-18-Trend-Micro-Scores-100-on-Attack-Visibility-in-Latest-MITRE-Engenuity-ATT-CK-R-Evaluations,1",
+   "date": "2024-06-18T14:54:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "IT Security Leaders Are Failing to Close a Boardroom Credibility Gap",
+   "link": "https://newsroom.trendmicro.com/2024-05-21-IT-Security-Leaders-Are-Failing-to-Close-a-Boardroom-Credibility-Gap",
+   "date": "2024-05-21T15:30:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro Discloses Criminal Insights Following LockBit Disruption, Leaving No Shadow for Threat Actors",
+   "link": "https://newsroom.trendmicro.com/2024-04-03-Trend-Micro-Discloses-Criminal-Insights-Following-LockBit-Disruption,-Leaving-No-Shadow-for-Threat-Actors",
+   "date": "2024-04-03T12:01:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro Zero Day Initiative™ Sheds Light on Software Vulnerabilities: Customers Protected up to 70 Days Before Patches",
+   "link": "https://newsroom.trendmicro.com/2024-04-02-Trend-Micro-Zero-Day-Initiative-TM-Sheds-Light-on-Software-Vulnerabilities-Customers-Protected-up-to-70-Days-Before-Patches",
+   "date": "2024-04-02T12:02:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "Cyber Threat Surge: Trend Micro Blocks 160 billion Incidents in 2023",
+   "link": "https://newsroom.trendmicro.com/2024-03-06-Cyber-Threat-Surge-Trend-Micro-Blocks-160-billion-Incidents-in-2023",
+   "date": "2024-03-06T19:57:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "Global Law Enforcers Seek Trend Micro's Help in Taking Down Top Ransomware Threat Group LockBit",
+   "link": "https://newsroom.trendmicro.com/2024-02-22-Global-Law-Enforcers-Seek-Trend-Micros-Help-in-Taking-Down-Top-Ransomware-Threat-Group-LockBit",
+   "date": "2024-02-22T11:12:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "Trend Micro Discovers Actively Exploited Vulnerability Affecting Millions of Users: Customers Already Protected",
+   "link": "https://newsroom.trendmicro.com/2024-02-13-Trend-Micro-Discovers-Actively-Exploited-Vulnerability-Affecting-Millions-of-Users-Customers-Already-Protected",
+   "date": "2024-02-13T19:28:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "\"Pwn2Own Automotive 2024\" - VicOne & ZDI lead first hackathon to uncover cyber vulnerabilities in connected vehicles to a great success",
+   "link": "https://newsroom.trendmicro.com/2024-01-31-Pwn2Own-Automotive-2024-VicOne-ZDI-lead-first-hackathon-to-uncover-cyber-vulnerabilities-in-connected-vehicles-to-a-great-success",
+   "date": "2024-01-31T13:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "News releases",
+   "title": "Trend Micro Named a Leader in Endpoint Security",
+   "link": "https://newsroom.trendmicro.com/2023-10-19-Trend-Micro-Named-a-Leader-in-Endpoint-Security",
+   "date": "2023-10-19T16:23:00.000Z",
+   "summary": ""
   }
  ]
 }
