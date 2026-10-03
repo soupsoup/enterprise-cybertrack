@@ -75,3 +75,41 @@ export function discoverFeeds(html, base) {
 }
 
 export const looksLikeFeed = (text) => /<(rss|feed|rdf:RDF)[\s>]/i.test(text.slice(0, 4000));
+
+// Sitemap <url> entries: [{ loc, lastmod }]. Used for sites that publish no RSS but do publish a sitemap.
+export function parseSitemap(xml) {
+  const out = [];
+  for (const m of xml.matchAll(/<url>([\s\S]*?)<\/url>/gi)) {
+    const loc = m[1].match(/<loc>\s*([^<\s]+)\s*<\/loc>/i)?.[1];
+    const lastmod = m[1].match(/<lastmod>\s*([^<\s]+)\s*<\/lastmod>/i)?.[1];
+    const url = loc && safeUrl(decode(loc));
+    const t = Date.parse(lastmod || '');
+    if (url) out.push({ loc: url, lastmod: Number.isNaN(t) ? null : new Date(t).toISOString() });
+  }
+  return out;
+}
+
+// Open Graph title and description from an article page, with a trailing " | Site name" removed.
+export function parseMeta(html) {
+  const meta = (prop) => {
+    for (const m of html.matchAll(/<meta\b[^>]*>/gi)) {
+      const t = m[0];
+      if (new RegExp(`(?:property|name)=["']${prop}["']`, 'i').test(t)) return t.match(/content=(["'])([\s\S]*?)\1/i)?.[2] ?? null;   // match the opening quote, so an apostrophe inside "..." is kept
+    }
+    return null;
+  };
+  const title = toText(meta('og:title') ?? html.match(/<title>([\s\S]*?)<\/title>/i)?.[1], 200).replace(/\s*\|\s*[^|]*$/, '');
+  return { title, summary: toText(meta('og:description') ?? meta('description') ?? '') };
+}
+
+// Article links on a listing page, in page order, de-duplicated. `prefix` is the absolute URL
+// that article links start with; links deeper than one path segment (pagination, tags) are ignored.
+export function listingLinks(html, base, prefix) {
+  const out = [];
+  for (const m of html.matchAll(/href=["']([^"'#?]+)/gi)) {
+    let u;
+    try { u = new URL(decode(m[1]), base).href; } catch { continue; }
+    if (u.startsWith(prefix) && u.length > prefix.length && !u.slice(prefix.length).includes('/') && !out.includes(u)) out.push(u);
+  }
+  return out;
+}

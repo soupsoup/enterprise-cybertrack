@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-03T22:39:07.884Z",
+ "generated": "2026-10-03T22:43:22.964Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 20
   },
   {
@@ -78,7 +78,7 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 4222
   },
   {
@@ -86,7 +86,7 @@
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 25
   },
   {
@@ -206,15 +206,25 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 100
+  },
+  {
+   "company": "trendai",
+   "label": "Security blog",
+   "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
+   "ok": true,
+   "checked": "2026-10-03T22:43:22.964Z",
+   "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
+   "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
+   "count": 20
   },
   {
    "company": "wiz",
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 694
   },
   {
@@ -222,7 +232,7 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-03T22:39:07.884Z",
+   "checked": "2026-10-03T22:43:22.964Z",
    "count": 50
   }
  ],
@@ -300,6 +310,14 @@
    "summary": "Sophos has been named a Leader in the IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises 2026, recognizing the strength of our prevention-first approach and stopping AI-era threats as early as possible."
   },
   {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Assess Your AI Security Maturity Through Visibility, Observability, Ownership, and Governance",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/assess-ai-security-maturity-visibility-observability-ownership-governance",
+   "date": "2026-10-02T00:00:00.000Z",
+   "summary": "Three questions can help reveal your AI security maturity. Hear expert perspectives and explore the pathway to governance in a series of short video conversations."
+  },
+  {
    "company": "talos",
    "feed": "Threat research",
    "title": "Give yourself room to be human",
@@ -370,6 +388,22 @@
    "link": "https://www.sophos.com/en-us/blog/ciso-advantage-ga",
    "date": "2026-10-01T00:00:00.000Z",
    "summary": "Take control of your security outcomes."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "ShinyHunters Returns to PeopleSoft With a One-Character WAF Bypass",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/shinyhunters-peoplesoft-one-character-waf-bypass",
+   "date": "2026-10-01T00:00:00.000Z",
+   "summary": "ShinyHunters is once again exploiting a previously patched vulnerability in PeopleSoft, which we analyzed in June 2026."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Beyond Model Alignment: Securing Every Layer of the AI Agent",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/beyond-model-alignment-securing-every-layer-of-the-ai-agent",
+   "date": "2026-10-01T00:00:00.000Z",
+   "summary": "Alignment makes a model well-intentioned, but it can’t secure the harness, tools, and data an agent touches in production. Real agent security means governing every layer with enforcement the agent itself can’t switch off."
   },
   {
    "company": "paloalto",
@@ -948,6 +982,14 @@
    "summary": ""
   },
   {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "When Trust in AI Becomes an Attack Surface: Analyzing Prompt Injection, Model Theft, and Pipeline Poisoning",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/when-trust-in-ai-becomes-an-attack-surface-analyzing-prompt-injection-model-theft-and-pipeline-poisoning",
+   "date": "2026-09-28T00:00:00.000Z",
+   "summary": "Our analysis shows how AI attacks are moving beyond malicious prompts into the tools, models, and pipelines organizations already trust, and the controls organizations can put in place to reduce their exposure."
+  },
+  {
    "company": "tenable",
    "feed": "Blog",
    "title": "Frequently asked questions about reported Citrix NetScaler zero-day vulnerabilities",
@@ -1034,6 +1076,46 @@
    "link": "https://www.trendmicro.com/en_us/research/26/i/safely-securing-ai-agents.html",
    "date": "2026-09-25T00:00:00.000Z",
    "summary": "Learn of the benefits of safely securing AI agents."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Why AI Defenders Can't Afford to Slow Down",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/ai-defenders-cannot-slow-down",
+   "date": "2026-09-25T00:00:00.000Z",
+   "summary": "While frontier labs debate slowing AI innovation, defenders must accelerate. Explore why agentic AI threats demand faster security responses and governance strategies."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Global Public Sector Under Siege: Threat Intelligence for Q2 2026",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/global-public-sector-under-siege-threat-intelligence-for-q2-2026",
+   "date": "2026-09-25T00:00:00.000Z",
+   "summary": "In the second quarter of 2026, threats to the public sector have become increasingly persistent: from AI-generated ransomware, nation-state espionage, supply chain attacks, and many more, critical institutions face a rapidly growing range of risks."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Zero Breaches Out of 50: TrendAI Vision One™ Endpoint Security Essentials Earns AV-Comparatives Certified Leader Status",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/zero-breaches-out-of-50-trendaitm-vision-onetm-endpoint-security-essentials-earns-av-comparatives-certified-leader-status",
+   "date": "2026-09-25T00:00:00.000Z",
+   "summary": "The page you requested could not be found."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "The Boardroom Debate: How Cyber Risk Hits Your Bottom Line",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/the-boardroom-debate-how-cyber-risk-hits-your-bottom-line",
+   "date": "2026-09-25T00:00:00.000Z",
+   "summary": "You don’t need to be an expert to use cyber risk quantification. TrendAI™ automates data collection to deliver real-time financial risk insights and clear next steps for remediation."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "TrendAI™ Brings OpenAI's GPT Cyber Models Into the Race to Shrink Exposure Time to Zero",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/trendai-brings-openai-daybreak-models-into-the-race-to-shrink-exposure-time-to-zero",
+   "date": "2026-09-25T00:00:00.000Z",
+   "summary": "OpenAI’s GPT cyber models help TrendAI™ close the exposure window, from vulnerability to fix, faster than ever."
   },
   {
    "company": "talos",
@@ -1666,6 +1748,14 @@
    "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-accelerates-real-time-data-classification-with-on-device-ai/",
    "date": "2026-09-16T05:00:00.000Z",
    "summary": ""
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "ATF Reports Breach After Qilin Leak Site Appearance: Insights from TrendAI™",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/atf-reports-breach-after-qilin-leak-site-appearance-insights-from-trendaitm",
+   "date": "2026-09-16T00:00:00.000Z",
+   "summary": "The U.S. Bureau of Alcohol, Tobacco, Firearms and Explosives (ATF) has reportedly appeared on the Qilin ransomware group’s leak site. Explore how Qilin operates and what organizations can learn from its past tactics."
   },
   {
    "company": "tenable",
@@ -2380,6 +2470,14 @@
    "summary": "Detect exposure to new vulnerabilities the moment they are published with Wiz CVA"
   },
   {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Inside SHADOW-WATER-084: A Steganographic Loader-as-a-Service Delivering Remcos, LXBASE, and More",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/inside-shadow-water-084-a-steganographic-loader-as-a-service-delivering-remcos-lxbase-and-more",
+   "date": "2026-09-01T00:00:00.000Z",
+   "summary": "TrendAI™ Research tracked three campaigns that ship completely different decoy applications and unrelated payloads, all riding one shared toolkit. This analysis covers the full chain, from the pixel data that hides the first stage, through a flexible shared loader to deliver..."
+  },
+  {
    "company": "checkpoint",
    "feed": "Research",
    "title": "Breaking the Seal: Static Deobfuscation of JSCeal’s Compiled V8 Bytecode",
@@ -2508,6 +2606,38 @@
    "summary": ""
   },
   {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Ranked First on CyberGym: TrendAI™ Agentic Exploit-Remediation Engine Scores 97% on the Top Exploit Benchmark",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/trendai-first-on-cybergym-top-exploit-benchmark",
+   "date": "2026-08-27T00:00:00.000Z",
+   "summary": "The TrendAI™ agentic exploit-remediation engine, code name AESIR, ranks first on CyberGym at 97% — more than 12 points ahead of both GPT-5.6 Sol and Claude Mythos 5. AI system architecture beats raw model capability."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "TrendAI™ Advances Threat Hunting to Dynamic, Real-World Exploitation of AI Infrastructure",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/trendai-advances-threat-hunting-to-dynamic-real-world-exploitation-of-ai-infrastructure",
+   "date": "2026-08-27T00:00:00.000Z",
+   "summary": "The new threat hunting component of the TrendAI™ agentic exploit-remediation engine, code name AESIR, extends visibility beyond vulnerability disclosure. Its first published investigation links over a year of honeypot data to the LF3 loader framework."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "UK Power Facility Cyberattack Shutdown: What Critical-Infrastructure Operators and Defenders Need to Know",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/uk-power-facility-cyberattack-shutdown-what-critical-infrastructure-operators-and-defenders-need-to-know",
+   "date": "2026-08-27T00:00:00.000Z",
+   "summary": "A reported cyberattack on a UK power-generation facility in July 2026 shows that even disruptions at a single site can raise broader questions about critical infrastructure resilience."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "The Architecture Behind $1B: How Customers Run TrendAI Vision One™ on AWS, and Secure Their AI Workloads",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/the-architecture-behind-a-billion-dollars-how-customers-run-trendai-vision-one-on-aws-and-secure-their-ai-workloads",
+   "date": "2026-08-27T00:00:00.000Z",
+   "summary": "The page you requested could not be found."
+  },
+  {
    "company": "wiz",
    "feed": "Blog",
    "title": "Democratizing FinOps with Wiz: Driving Cost Attribution with the Wiz Service Catalog",
@@ -2572,6 +2702,14 @@
    "summary": "What is the Vulnerability? FortiGuard Labs is tracking an exploitation risk associated with CVE-2026-42533, a heap-based buffer overflow vulnerability affecting NGINX Open Source and NGINX Plus. The flaw occurs when the map directive uses regex matching and capture variables in..."
   },
   {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Prompting the Payload: How an npm Supply Chain Attack Delivers the RedC2 AI-Powered Linux Implant",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/redc2-ai-powered-linux-implant",
+   "date": "2026-08-25T00:00:00.000Z",
+   "summary": "TrendAI™ Research provides a comprehensive analysis of the RedC2 Linux Implant, a sophisticated threat recently discovered in the npm open-source ecosystem."
+  },
+  {
    "company": "checkpoint",
    "feed": "Research",
    "title": "24th August – Threat Intelligence Report",
@@ -2586,6 +2724,38 @@
    "link": "https://www.darktrace.com/blog/ai-agents-securing-the-path-from-intent-to-action",
    "date": "2026-08-24T13:45:00.000Z",
    "summary": "NCSC guidance highlights the need to secure agentic AI. Discover why continuous monitoring and behavioral analytics are critical to securing AI agents."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Living Off Trusted Software: ScreenConnect Abuse Across Phishing, Search, and RMM Chains",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/screenconnect-abuse",
+   "date": "2026-08-24T00:00:00.000Z",
+   "summary": "In this blog entry, researchers at TrendAI Vision One™ Services – Managed Detection and Response (MDR) walk through how attackers deliver, install, and operate a reconfigured ScreenConnect client, and why it slips past defenses built to catch conventional malware."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "How AiTM Phishing Bypassed MFA to Hijack a Microsoft 365 Mailbox in BEC Scheme",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/how-aitm-phishing-bypassed-mfa-to-hijack-a-microsoft-365-mailbox-in-bec-scheme",
+   "date": "2026-08-24T00:00:00.000Z",
+   "summary": "One click on a targeted lure handed an attacker live Microsoft 365 session tokens, enough to impersonate a vendor and reroute payments. TrendAI Vision One™ Services – Managed Detection and Response (MDR) tracks the attack to its root cause."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Our CISA KEV Commitment in AI-Era Vulnerability Management",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/cisa-kev-commitment-ai-vulnerability-management",
+   "date": "2026-08-24T00:00:00.000Z",
+   "summary": "AI is changing vulnerability discovery speed. See how TrendAI's CISA KEV focus and virtual patching keep enterprises protected before patches ship."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "How TrendAI™ Research Helped Close an Open Redirect in Dify's Post-Login Flow",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/how-trendai-research-helped-close-an-open-redirect-in-difys-post-login-flow",
+   "date": "2026-08-24T00:00:00.000Z",
+   "summary": "TrendAI™ Research uncovered an open redirect in Dify's post-login flow that could have handed a freshly authenticated session, token and all, to an attacker, and worked with the vendor to close it across every sign-in path before the details went public."
   },
   {
    "company": "darktrace",

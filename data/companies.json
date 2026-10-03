@@ -69,6 +69,20 @@
             "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787"
           ],
           "discover": "https://newsroom.trendmicro.com/news-releases"
+        },
+        {
+          "label": "Security blog",
+          "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
+          "sitemap": {
+            "url": "https://www.trendaisecurity.com/en-us/sitemap.xml",
+            "prefix": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/",
+            "limit": 20
+          },
+          "listing": {
+            "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
+            "pages": 2
+          },
+          "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date."
         }
       ]
     },

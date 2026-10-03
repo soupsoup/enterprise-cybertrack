@@ -2,7 +2,7 @@
 // Usage: node scripts/update-news.mjs   (behind a proxy: NODE_USE_ENV_PROXY=1 NODE_EXTRA_CA_CERTS=...)
 // A feed that fails keeps its previous items, so one outage never empties a company.
 import { readFile, writeFile } from 'node:fs/promises';
-import { parseFeed, discoverFeeds, looksLikeFeed } from './feed-parser.mjs';
+import { parseFeed, discoverFeeds, looksLikeFeed, parseSitemap, parseMeta, listingLinks } from './feed-parser.mjs';
 
 const ROOT = new URL('../', import.meta.url);
 const OUT = new URL('data/news.json', ROOT);
@@ -16,8 +16,43 @@ async function get(url) {
   return r.text();
 }
 
+// For sites with no RSS. The listing pages say which articles are newest and in what order; the
+// sitemap supplies a date for each; each new article's own page supplies its title and description.
+// The site shows no publication dates, and the sitemap's last-modified time is bumped when old posts are
+// re-published, so a date is capped at the date of the article listed above it: an estimate, never earlier
+// articles looking newer than later ones. Articles we already have are reused, so a normal run fetches
+// only the new ones.
+async function loadSitemap(feed, known) {
+  const { url, prefix, limit = 30 } = feed.sitemap;
+  const mod = new Map(parseSitemap(await get(url)).filter((e) => e.loc.startsWith(prefix) && e.lastmod).map((e) => [e.loc, e.lastmod]));
+  let order = [];
+  if (feed.listing) {
+    for (let p = 1; p <= (feed.listing.pages || 1) && order.length < limit; p++) {
+      const fresh = listingLinks(await get(`${feed.listing.url}?page=${p}`), feed.listing.url, prefix).filter((l) => !order.includes(l));
+      if (!fresh.length) break;
+      order.push(...fresh);
+    }
+  } else order = [...mod.keys()].sort((a, b) => mod.get(b).localeCompare(mod.get(a)));
+  order = order.filter((l) => mod.has(l)).slice(0, limit);
+  if (!order.length) throw new Error(`no articles under ${prefix}`);
+  let cap = null;
+  const dated = order.map((loc) => { let date = mod.get(loc); if (cap && date > cap) date = cap; cap = date; return { loc, date }; });
+  const items = [];
+  await pool(dated.map((e) => async () => {
+    const old = known.get(e.loc);
+    if (old?.title) { items.push({ title: old.title, link: e.loc, date: e.date, summary: old.summary || '' }); return; }
+    try {
+      const m = parseMeta(await get(e.loc));
+      if (m.title) items.push({ title: m.title, link: e.loc, date: e.date, summary: m.summary });
+    } catch { /* skip an article that will not load; it is retried next run */ }
+  }), 4);
+  if (!items.length) throw new Error('could not read any article titles');
+  return { url: feed.page || url, items };
+}
+
 // Try the known URLs, then any feed the company's page advertises. Returns { url, items }.
-async function loadFeed(feed) {
+async function loadFeed(feed, known) {
+  if (feed.sitemap) return loadSitemap(feed, known);
   const errors = [];
   const tryUrl = async (url) => {
     try {
@@ -28,11 +63,11 @@ async function loadFeed(feed) {
       return { url, items };
     } catch (e) { errors.push(`${url}: ${e.cause?.code || e.message}`); return null; }
   };
-  for (const u of feed.urls) { const r = await tryUrl(u); if (r) return r; }
+  for (const u of feed.urls || []) { const r = await tryUrl(u); if (r) return r; }
   if (feed.discover) {
     try {
       for (const u of discoverFeeds(await get(feed.discover), feed.discover)) {
-        if (feed.urls.includes(u)) continue;
+        if ((feed.urls || []).includes(u)) continue;
         const r = await tryUrl(u); if (r) return r;
       }
     } catch (e) { errors.push(`${feed.discover}: ${e.cause?.code || e.message}`); }
@@ -59,9 +94,11 @@ async function main() {
   const jobs = companies.flatMap((c) => c.feeds.map((f) => ({ c, f })));
   const results = new Array(jobs.length);
   await pool(jobs.map(({ c, f }, idx) => async () => {
-    const s = { company: c.id, label: f.label, url: f.urls[0], ok: false, checked: now };
+    const s = { company: c.id, label: f.label, url: f.page || f.urls?.[0], ok: false, checked: now };
+    if (f.sitemap) s.page = f.page;      // a web page, not an RSS feed
+    if (f.note) s.note = f.note;
     try {
-      const { url, items } = await loadFeed(f);
+      const { url, items } = await loadFeed(f, byLink);
       s.ok = true; s.url = url; s.count = items.length;
       // Feeds are not always newest-first (some run to thousands of items), so sort before trimming.
       results[idx] = [...items].sort((a, b) => (b.date || '').localeCompare(a.date || '')).slice(0, PER_FEED);
@@ -71,6 +108,9 @@ async function main() {
   }), 6);
   const claimed = new Set();
   jobs.forEach(({ c, f }, idx) => {
+    // A listing-based feed is re-ranked from scratch each run (its dates are estimates), so replace
+    // what we stored for it rather than merging into it. RSS feeds keep accumulating history.
+    if (f.sitemap && results[idx]) for (const [k, v] of byLink) if (v.company === c.id && v.feed === f.label) byLink.delete(k);
     for (const it of results[idx] || []) {
       if (claimed.has(it.link)) continue;
       claimed.add(it.link);

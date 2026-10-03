@@ -66,7 +66,7 @@
       : (names.get(a)?.name || a).localeCompare(names.get(b)?.name || b));
     $('results').innerHTML = order.map((id) => {
       const c = names.get(id) || { name: id }, g = groups.get(id);
-      const feeds = status.filter((s) => s.company === id && s.ok).map((s) => `<a class="rss" href="${esc(safe(s.url))}" rel="noopener">${esc(s.label)} RSS</a>`).join(' ');
+      const feeds = status.filter((s) => s.company === id && s.ok).map((s) => `<a class="rss" href="${esc(safe(s.url))}" rel="noopener">${esc(s.label)} ${s.page ? 'page' : 'RSS'}</a>`).join(' ');
       return `<section class="group"><h2>${esc(c.name)} <span class="hint">${g.length} item${g.length > 1 ? 's' : ''}</span></h2>
         <p class="links">${c.site ? `<a href="${esc(safe(c.site))}" target="_blank" rel="noopener">Website</a>` : ''} ${feeds}</p>
         <div class="news">${g.map((i) => card(i, names, false)).join('')}</div></section>`;
@@ -76,7 +76,7 @@
   function health() {
     const names = byId();
     $('healthRows').innerHTML = status.map((s) => `<tr><td>${esc(names.get(s.company)?.name || s.company)}</td><td>${esc(s.label)}</td>
-      <td>${s.ok ? `Loaded ${s.count} items` : `<span class="bad">Failed</span> <span class="hint">${esc((s.error || '').slice(0, 160))}</span>`}</td></tr>`).join('');
+      <td>${s.ok ? `Loaded ${s.count} items` : `<span class="bad">Failed</span> <span class="hint">${esc((s.error || '').slice(0, 160))}</span>`}${s.note ? `<br><span class="hint">${esc(s.note)}</span>` : ''}</td></tr>`).join('');
     const ok = status.filter((s) => s.ok).length, b = $('banner');
     if (!status.length || ok === status.length) return;
     b.hidden = false;
