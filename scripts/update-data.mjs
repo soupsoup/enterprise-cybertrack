@@ -49,19 +49,24 @@ async function getJson(url, headers = {}, tries = 4) {
 }
 
 async function fetchNvd() {
-  const end = new Date(), start = new Date(end - DAYS * 864e5);
   const headers = process.env.NVD_API_KEY ? { apiKey: process.env.NVD_API_KEY } : {};
   const delay = process.env.NVD_API_KEY ? 700 : 6500;
   const found = [];
-  for (let idx = 0; ; ) {
-    const qs = new URLSearchParams({
-      pubStartDate: start.toISOString(), pubEndDate: end.toISOString(),
-      resultsPerPage: '2000', startIndex: String(idx),
-    });
-    const j = await getJson(`https://services.nvd.nist.gov/rest/json/cves/2.0?${qs}`, headers);
-    found.push(...j.vulnerabilities.map((x) => x.cve));
-    idx += j.resultsPerPage;
-    if (idx >= j.totalResults) break;
+  const MAX_SPAN = 120 * 864e5; // NVD rejects publication-date ranges longer than 120 days
+  const now = Date.now();
+  for (let from = now - DAYS * 864e5; from < now; from += MAX_SPAN) {
+    const to = Math.min(from + MAX_SPAN, now);
+    for (let idx = 0; ; ) {
+      const qs = new URLSearchParams({
+        pubStartDate: new Date(from).toISOString(), pubEndDate: new Date(to).toISOString(),
+        resultsPerPage: '2000', startIndex: String(idx),
+      });
+      const j = await getJson(`https://services.nvd.nist.gov/rest/json/cves/2.0?${qs}`, headers);
+      found.push(...j.vulnerabilities.map((x) => x.cve));
+      idx += j.resultsPerPage;
+      if (idx >= j.totalResults) break;
+      await sleep(delay);
+    }
     await sleep(delay);
   }
   return found;

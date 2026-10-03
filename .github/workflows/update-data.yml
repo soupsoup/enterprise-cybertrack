@@ -2,16 +2,21 @@ name: Update vulnerability data
 on:
   schedule: [{ cron: '17 5 * * *' }]
   workflow_dispatch:
+    inputs:
+      days:
+        description: Days of history to fetch from NVD (use 365 to backfill a year)
+        default: '30'
 permissions:
   contents: write
 jobs:
   update:
     runs-on: ubuntu-latest
+    timeout-minutes: 120
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with: { node-version: 22 }
-      - run: node scripts/update-data.mjs 30
+      - run: node scripts/update-data.mjs ${{ inputs.days || 30 }}
         env:
           NVD_API_KEY: ${{ secrets.NVD_API_KEY }}
       - run: |
