@@ -6,6 +6,7 @@
   // Heuristic: CVSS base, +3 if on the CISA KEV list, up to +2 from EPSS.
   const risk = (v) => (v.cvss ?? 0) + (v.kev ? 3 : 0) + (v.epss != null ? v.epss * 2 : 0);
 
+  const HIDDEN = 'Windows & Endpoint'; // high-volume patch noise, hidden unless opted in or picked as a category
   let all = [];
 
   function fill(sel, values) {
@@ -15,14 +16,15 @@
   function render() {
     const q = $('q').value.trim().toLowerCase();
     const cat = $('category').value, ven = $('vendor').value, sv = $('severity').value;
-    const kev = $('kev').checked, sort = $('sort').value;
+    const kev = $('kev').checked, sort = $('sort').value, win = $('win').checked;
     let rows = all.filter((v) =>
-      (!cat || v.category === cat) && (!ven || v.vendor === ven) && (!kev || v.kev) &&
+      (!cat || v.category === cat) && (win || cat === HIDDEN || v.category !== HIDDEN) && (!ven || v.vendor === ven) && (!kev || v.kev) &&
       (!sv || (sv === 'medium' ? sev(v.cvss) !== 'critical' && sev(v.cvss) !== 'high' : sev(v.cvss) === sv)) &&
       (!q || [v.id, v.vendor, v.product, v.title, v.summary].join(' ').toLowerCase().includes(q)));
     const key = { risk, cvss: (v) => v.cvss ?? 0, epss: (v) => v.epss ?? -1, date: (v) => Date.parse(v.published) };
     rows.sort((a, b) => key[sort](b) - key[sort](a));
-    $('count').textContent = `${rows.length} of ${all.length} vulnerabilities`;
+    const hidden = all.filter((v) => v.category === HIDDEN).length;
+    $('count').textContent = `${rows.length} of ${all.length} vulnerabilities` + (win || cat === HIDDEN ? '' : ` (${hidden} Windows & Endpoint hidden)`);
     $('list').innerHTML = rows.map((v) => `
       <li><button class="item" data-id="${esc(v.id)}">
         <div class="score s-${sev(v.cvss)}" title="CVSS base score">${v.cvss != null ? v.cvss.toFixed(1) : 'n/a'}</div>
@@ -75,6 +77,6 @@
     render();
   }).catch(() => { $('count').textContent = 'Could not load data/cves.json. Serve this folder over HTTP.'; });
 
-  for (const id of ['q', 'category', 'vendor', 'severity', 'sort', 'kev']) $(id).addEventListener('input', render);
+  for (const id of ['q', 'category', 'vendor', 'severity', 'sort', 'kev', 'win']) $(id).addEventListener('input', render);
   $('list').addEventListener('click', (e) => { const b = e.target.closest('.item'); if (b) detail(b.dataset.id); });
 })();
