@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Enterprise CyberTrack: Cisco</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/cisco.html</link>
+<description>High and critical Cisco vulnerabilities.</description>
+<atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/cisco.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>CVE-2026-76504 Cisco catalyst sd-wan manager: A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-76504</link>
+<guid isPermaLink="false">CVE-2026-76504</guid>
+<pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+<category>Network Infrastructure</category>
+<description>A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user.
+
+This vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of the affected system. A successful exploit could allow the attacker to bypass authentication and gain access to the API as the admin user. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-30) | EPSS 1.6%</description>
+</item>
+<item>
+<title>CVE-2026-20234 Cisco identity services engine: As part of Cisco&apos;s ongoing commitment to proactive security and product quality, the Cisco Identity Services...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-20234</link>
+<guid isPermaLink="false">CVE-2026-20234</guid>
+<pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+<category>Identity &amp; Directory</category>
+<description>As part of Cisco&apos;s ongoing commitment to proactive security and product quality, the Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) engineering teams have conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabilities.
+
+The vulnerabilities tracked by CVE-2026-20234 are related to insufficiently protected credentials issues that are grouped under the Common Weakness Enumeration (CWE) Pillar CWE-522. | CVSS 9.9 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-20130 Cisco identity services engine: As part of Cisco&apos;s ongoing commitment to proactive security and product quality, the Cisco Identity Services...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-20130</link>
+<guid isPermaLink="false">CVE-2026-20130</guid>
+<pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+<category>Identity &amp; Directory</category>
+<description>As part of Cisco&apos;s ongoing commitment to proactive security and product quality, the Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC), engineering teams have conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabilities.
+
+The vulnerabilities tracked by CVE-2026-20130 are related to improper neutralization of special elements issues that are grouped under the Common Weakness Enumeration (CWE) Pillar CWE-74. | CVSS 10 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-20192 Cisco identity services engine: As part of Cisco&apos;s ongoing commitment to proactive security and product quality, the Cisco Identity Services...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-20192</link>
+<guid isPermaLink="false">CVE-2026-20192</guid>
+<pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+<category>Identity &amp; Directory</category>
+<description>As part of Cisco&apos;s ongoing commitment to proactive security and product quality, the Cisco Identity Services Engine (ISE) and Cisco ISE Passive Identity Connector (ISE-PIC) engineering teams have conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabilities.
+
+The vulnerabilities tracked by CVE-2026-20192 are related to improper access control issues that are grouped under the Common Weakness Enumeration (CWE) Pillar CWE-284. | CVSS 10 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-76424 Cisco identity services engine: A vulnerability in the REST API of Cisco ISE could allow an authenticated, remote attacker to upload or copy...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-76424</link>
+<guid isPermaLink="false">CVE-2026-76424</guid>
+<pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+<category>Identity &amp; Directory</category>
+<description>A vulnerability in the REST API of Cisco ISE could allow an authenticated, remote attacker to upload or copy arbitrary files on an affected device.
+
+This vulnerability is due to insufficient validation in file operations. An attacker could exploit this vulnerability by uploading a file with a crafted path. A successful exploit could allow the attacker to upload files to arbitrary locations and execute arbitrary commands as root on the affected device.&amp;nbsp;To exploit this vulnerability, the attacker must have valid administrative credentials. | CVSS 7.2 | EPSS 0.9%</description>
+</item>
+<item>
+<title>CVE-2026-76425 Cisco identity services engine: A vulnerability in the APIs of Cisco ISE could allow an authenticated, remote attacker to conduct SQL...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-76425</link>
+<guid isPermaLink="false">CVE-2026-76425</guid>
+<pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+<category>Identity &amp; Directory</category>
+<description>A vulnerability in the APIs of Cisco ISE could allow an authenticated, remote attacker to conduct SQL injection attacks against the backend database.
+
+This vulnerability is due to insufficient validation of certain parameters that are concatenated directly into an SQL query. An attacker could exploit this vulnerability by sending a crafted request that contains SQL statements to an affected endpoint. A successful exploit could allow the attacker to read arbitrary content from the SQL database and conduct server-side request forgery (SSRF) attacks. To exploit this vulnerability, the attacker must have valid administrative credentials. | CVSS 7.6 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-76460 Cisco identity services engine: A vulnerability in an API of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-76460</link>
+<guid isPermaLink="false">CVE-2026-76460</guid>
+<pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
+<category>Identity &amp; Directory</category>
+<description>A vulnerability in an API of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to bypass authentication.
+
+This vulnerability is due to insufficient authentication control on an API endpoint. An attacker could exploit this vulnerability by sending a crafted request to an affected API endpoint. A successful exploit could allow the attacker to gain unauthorized access to the affected device by bypassing the web-based management interface. | CVSS 10 | Known exploited (CISA KEV, added 2026-09-16) | EPSS 14.0%</description>
+</item>
+<item>
+<title>CVE-2026-76461 Cisco asyncos: A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-76461</link>
+<guid isPermaLink="false">CVE-2026-76461</guid>
+<pubDate>Mon, 14 Sep 2026 00:00:00 GMT</pubDate>
+<category>Email &amp; Collaboration</category>
+<description>A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.
+
+This vulnerability is due to insufficient validation in the email parsing logic. An attacker could exploit this vulnerability by sending a crafted email message that contains malicious SQL statements through an affected device. A successful exploit could allow the attacker to execute arbitrary SQL statements, leading to command execution with root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-14) | EPSS 28.3%</description>
+</item>
+</channel>
+</rss>

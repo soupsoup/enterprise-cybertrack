@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Enterprise CyberTrack: Okta</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/okta.html</link>
+<description>High and critical Okta vulnerabilities.</description>
+<atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/okta.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>CVE-2026-78574 Okta hyperdrive: The Okta Hyperdrive Integration plugin resolves a required assembly using a registry path within the current...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-78574</link>
+<guid isPermaLink="false">CVE-2026-78574</guid>
+<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+<category>Identity &amp; Directory</category>
+<description>The Okta Hyperdrive Integration plugin resolves a required assembly using a registry path within the current user&apos;s hive without integrity verification. The referenced path is loaded via Assembly.LoadFrom without signature validation, resulting in an unverified assembly executing within the context of the host process or elevated installer. | CVSS 7.5 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-78623 Okta access gateway: The Okta Access Gateway does not sanitize SAML assertion values before interpolating them into database...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-78623</link>
+<guid isPermaLink="false">CVE-2026-78623</guid>
+<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+<category>Edge / VPN</category>
+<description>The Okta Access Gateway does not sanitize SAML assertion values before interpolating them into database queries in the advanced mode datastore configuration. The unsanitized values are substituted directly into the query string prior to preparation, resulting in unintended SQL execution against the configured backend database. | CVSS 7.7 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-78626 Okta access gateway: The Okta Access Gateway improperly handles input sanitization and regular expression evaluation within its...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-78626</link>
+<guid isPermaLink="false">CVE-2026-78626</guid>
+<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+<category>Edge / VPN</category>
+<description>The Okta Access Gateway improperly handles input sanitization and regular expression evaluation within its Protected Rule authorization check, resulting in an authorization bypass when an administrator has explicitly configured a Protected Rule policy on one or more application resources. | CVSS 8.1 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-78627 Okta hyperdrive: The Okta Hyperdrive Integration installer does not mask the OAuth client secret when passed as an MSI...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-78627</link>
+<guid isPermaLink="false">CVE-2026-78627</guid>
+<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
+<category>Identity &amp; Directory</category>
+<description>The Okta Hyperdrive Integration installer does not mask the OAuth client secret when passed as an MSI property. The credential is recorded in plaintext in the installer log, the Application Event Log, and the process command line, all of which are readable by an authenticated local user on the workstation. | CVSS 7.3 | EPSS 0.1%</description>
+</item>
+</channel>
+</rss>

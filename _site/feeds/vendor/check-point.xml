@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Enterprise CyberTrack: Check Point</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/check-point.html</link>
+<description>High and critical Check Point vulnerabilities.</description>
+<atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/check-point.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>CVE-2026-93616 Check Point multi-domain security management: A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-93616</link>
+<guid isPermaLink="false">CVE-2026-93616</guid>
+<pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
+<category>Edge / VPN</category>
+<description>A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute arbitrary scripts on Check Point Management Server. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-22) | EPSS 19.7%</description>
+</item>
+<item>
+<title>CVE-2026-85102 Check Point gaia embedded: Improper certificate trust validation during VPN negotiation in Check Point Quantum Security Gateway may...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85102</link>
+<guid isPermaLink="false">CVE-2026-85102</guid>
+<pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
+<category>Edge / VPN</category>
+<description>Improper certificate trust validation during VPN negotiation in Check Point Quantum Security Gateway may allow an unauthenticated remote attacker to execute arbitrary code on the Gateway. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-22) | EPSS 7.5%</description>
+</item>
+</channel>
+</rss>

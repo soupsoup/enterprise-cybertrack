@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enterprise CyberTrack</title>
+<meta name="description" content="Vulnerabilities that threaten enterprise infrastructure: edge devices, identity, email, backup and DevOps platforms.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d4ed8'/%3E%3Cpath d='M16 6l8 3v6c0 5-3.5 9-8 11-4.5-2-8-6-8-11V9z' fill='none' stroke='%23fff' stroke-width='2.2'/%3E%3C/svg%3E">
+<meta property="og:title" content="Enterprise CyberTrack">
+<meta property="og:description" content="Track exploited and high-severity vulnerabilities in enterprise infrastructure, ranked by exploitation risk.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary">
+<link rel="alternate" type="application/rss+xml" title="Known exploited" href="feeds/exploited.xml">
+<link rel="stylesheet" href="styles.css?v=01234567">
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <h1>Enterprise <span>CyberTrack</span></h1>
+    <p class="tag">Vulnerabilities in the systems enterprises run, ranked by how likely they are to be exploited.</p>
+    <p class="tag"><a href="news.html">Security vendor news &rarr;</a></p>
+  </div>
+</header>
+<main class="wrap">
+  <div id="banner" class="banner" hidden></div>
+  <section class="stats" id="stats" aria-label="Summary"></section>
+  <details class="panel" id="check" open>
+    <summary>Am I affected? <span class="hint">check a product and version you run</span></summary>
+    <div class="checkform">
+      <select id="cvendor" aria-label="Vendor"><option value="">Vendor</option></select>
+      <select id="cproduct" aria-label="Product" disabled><option value="">Product</option></select>
+      <input id="cversion" type="text" placeholder="Version, e.g. 14.1-60.52" aria-label="Version you run" autocomplete="off" disabled>
+    </div>
+    <div id="cresult" aria-live="polite"></div>
+    <p class="hint">Uses the affected version ranges NVD lists, for the CVEs loaded here only (recent High and Critical, tracked vendors). No match does not mean you are safe. Confirm against the vendor advisory.</p>
+  </details>
+  <details class="panel" id="charts" open>
+    <summary>Overview <span class="hint">reflects the current filters; click a bar to filter</span></summary>
+    <div class="charts" id="chartGrid"></div>
+  </details>
+  <details class="panel" id="products" open>
+    <summary><span id="ptitle">Most impacted products</span> <span class="hint">ranked within the current filters; click a product to list its CVEs</span></summary>
+    <div id="ptable"></div>
+  </details>
+  <section class="controls" aria-label="Filters">
+    <input id="q" type="search" placeholder="Search CVE, vendor, product, description" aria-label="Search">
+    <select id="category" aria-label="Category"><option value="">All categories</option></select>
+    <select id="vendor" aria-label="Vendor"><option value="">All vendors</option></select>
+    <select id="severity" aria-label="Severity">
+      <option value="">Any severity</option><option value="critical">Critical (9.0+)</option>
+      <option value="high">High (7.0-8.9)</option><option value="medium">Medium and below</option>
+    </select>
+    <select id="sort" aria-label="Sort">
+      <option value="risk">Sort: risk score</option><option value="date">Sort: newest</option>
+      <option value="exploited">Sort: first known exploited</option>
+      <option value="cvss">Sort: CVSS</option><option value="epss">Sort: EPSS</option>
+    </select>
+    <label class="chk"><input id="kev" type="checkbox"> Known exploited only</label>
+    <label class="chk"><input id="win" type="checkbox"> Include Windows &amp; Endpoint</label>
+  </section>
+  <p id="count" class="count" aria-live="polite"></p>
+  <p id="prodTag" class="count" hidden>Showing only <b id="prodName"></b> <button class="more" id="prodClear" type="button">Show all products</button></p>
+  <ul id="list" class="list"></ul>
+  <p class="count"><a href="data/cves.json">Download data (JSON)</a></p>
+</main>
+<dialog id="detail"></dialog>
+<section class="wrap">
+  <details class="panel" id="feeds">
+    <summary>News pages and RSS feeds</summary>
+    <ul class="plain">
+      <li><a href="feeds/exploited.html">Known exploited</a> (new CISA KEV additions) <a class="rss" href="feeds/exploited.xml">RSS</a></li>
+      <li><a href="feeds/critical.html">Critical</a> (CVSS 9.0 and above) <a class="rss" href="feeds/critical.xml">RSS</a></li>
+    </ul>
+    <p class="hint">Per vendor: <select id="vendorFeed" aria-label="Vendor feed"><option value="">Choose a vendor</option></select>
+      <a id="vendorFeedLink" href="#" hidden>Read</a> <a id="vendorFeedRss" class="rss" href="#" hidden>RSS</a></p>
+  </details>
+  <details class="panel" id="sources">
+    <summary>Sources and how far to trust them</summary>
+    <p class="warn">Collected and parsed automatically by scripts. It can be wrong or incomplete. Check the linked NVD record and the vendor advisory before acting on anything here. Not affiliated with any vendor listed.</p>
+    <div class="scroll"><table>
+      <thead><tr><th>Source</th><th>Used for</th><th>Trust</th></tr></thead>
+      <tbody>
+        <tr><td><a href="https://nvd.nist.gov/">NVD</a></td><td>CVE id, description, publication date, CVSS base score (3.1 first, then 4.0 or 3.0), and affected product listings.</td><td>As published by NVD. Recent CVEs may have no score yet, and the product label shown is the first matching vendor product, not always the only one affected.</td></tr>
+        <tr><td><a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog">CISA KEV</a></td><td>The "Known exploited" flag and the date added.</td><td>Primary. The date is when CISA listed it, not when attacks began, which can be earlier.</td></tr>
+        <tr><td><a href="https://www.first.org/epss/">FIRST EPSS</a></td><td>Estimated probability of exploitation in the next 30 days.</td><td>A statistical model, not a fact. Refreshed daily.</td></tr>
+        <tr><td>This project</td><td>Vendor list, categories, the risk score (CVSS + 3 if known exploited + up to 2 from EPSS), and the cut-off to High and Critical.</td><td>Heuristic and hand-tuned. It is not an official rating and the vendor list is not complete.</td></tr>
+      </tbody></table></div>
+  </details>
+</section>
+<footer class="wrap foot">
+  <span id="updated"></span>Sources: NVD, CISA Known Exploited Vulnerabilities, FIRST EPSS. Risk score is a local heuristic, not an official rating.
+</footer>
+<script src="version.js?v=01234567"></script>
+<script src="app.js?v=01234567"></script>
+</body>
+</html>

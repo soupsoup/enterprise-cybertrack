@@ -25,6 +25,9 @@ jobs:
       - run: |
           mkdir _site
           cp -r index.html news.html app.js news.js version.js styles.css data feeds _site/
+          # Version the script and style URLs so browsers never pair a new page with a cached old script.
+          V=${GITHUB_SHA::8}
+          find _site -name '*.html' -exec sed -i -E "s#(app\.js|news\.js|version\.js|styles\.css)\"#\1?v=$V\"#g" {} +
       - uses: actions/upload-pages-artifact@v3
         with: { path: _site }
       - id: deployment
