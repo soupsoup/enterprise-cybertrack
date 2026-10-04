@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-03T22:43:22.964Z",
+ "generated": "2026-10-04T11:09:33.328Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 20
   },
   {
@@ -78,15 +78,15 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
-   "count": 4222
+   "checked": "2026-10-04T11:09:33.328Z",
+   "count": 4224
   },
   {
    "company": "microsoft",
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,7 +224,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 694
   },
   {
@@ -232,11 +232,27 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-03T22:43:22.964Z",
+   "checked": "2026-10-04T11:09:33.328Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2025-2137 Out of bounds read in V8",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-2137",
+   "date": "2026-10-04T09:13:35.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2025-1920 Type Confusion in V8",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1920",
+   "date": "2026-10-04T09:13:15.000Z",
+   "summary": "Information published."
+  },
   {
    "company": "microsoft",
    "feed": "Security advisories",
@@ -778,22 +794,6 @@
    "feed": "Security advisories",
    "title": "CVE-2026-50332 Windows Kernel Elevation of Privilege Vulnerability",
    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50332",
-   "date": "2026-09-29T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-50400 Windows App Package Installer Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50400",
-   "date": "2026-09-29T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-50357 Windows Resilient File System (ReFS) Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50357",
    "date": "2026-09-29T14:00:00.000Z",
    "summary": "Updated an acknowledgement. This is an informational change only."
   },
@@ -2608,18 +2608,18 @@
   {
    "company": "trendai",
    "feed": "Security blog",
-   "title": "Ranked First on CyberGym: TrendAI™ Agentic Exploit-Remediation Engine Scores 97% on the Top Exploit Benchmark",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/trendai-first-on-cybergym-top-exploit-benchmark",
-   "date": "2026-08-27T00:00:00.000Z",
-   "summary": "The TrendAI™ agentic exploit-remediation engine, code name AESIR, ranks first on CyberGym at 97% — more than 12 points ahead of both GPT-5.6 Sol and Claude Mythos 5. AI system architecture beats raw model capability."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
    "title": "TrendAI™ Advances Threat Hunting to Dynamic, Real-World Exploitation of AI Infrastructure",
    "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/trendai-advances-threat-hunting-to-dynamic-real-world-exploitation-of-ai-infrastructure",
    "date": "2026-08-27T00:00:00.000Z",
    "summary": "The new threat hunting component of the TrendAI™ agentic exploit-remediation engine, code name AESIR, extends visibility beyond vulnerability disclosure. Its first published investigation links over a year of honeypot data to the LF3 loader framework."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Ranked First on CyberGym: TrendAI™ Agentic Exploit-Remediation Engine Scores 97% on the Top Exploit Benchmark",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/trendai-first-on-cybergym-top-exploit-benchmark",
+   "date": "2026-08-27T00:00:00.000Z",
+   "summary": "The TrendAI™ agentic exploit-remediation engine, code name AESIR, ranks first on CyberGym at 97% — more than 12 points ahead of both GPT-5.6 Sol and Claude Mythos 5. AI system architecture beats raw model capability."
   },
   {
    "company": "trendai",
