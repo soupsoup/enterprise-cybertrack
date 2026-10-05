@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-04T11:09:33.328Z",
+ "generated": "2026-10-05T12:22:00.822Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 20
   },
   {
@@ -78,7 +78,7 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 4224
   },
   {
@@ -86,7 +86,7 @@
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,7 +224,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 694
   },
   {
@@ -232,11 +232,19 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-04T11:09:33.328Z",
+   "checked": "2026-10-05T12:22:00.822Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "AI and the Evolving Threat Landscape: What Public Sector CISOs Need to Know Now",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/ai-evolving-threat-landscape-what-public-sector-cisos-need-to-know-now",
+   "date": "2026-10-05T00:00:00.000Z",
+   "summary": "Public sector CISOs need to grapple with challenges brought about by AI threats: up to 3,600 AI CVEs in 2026, autonomous ransomware, and critical infrastructure risk."
+  },
   {
    "company": "microsoft",
    "feed": "Security advisories",
@@ -252,6 +260,14 @@
    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-1920",
    "date": "2026-10-04T09:13:15.000Z",
    "summary": "Information published."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Assess Your AI Security Maturity Through Visibility, Observability, Ownership, and Governance",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/assess-ai-security-maturity-visibility-observability-ownership-governance",
+   "date": "2026-10-04T00:00:00.000Z",
+   "summary": "Three questions can help reveal your AI security maturity. Hear expert perspectives and explore the pathway to governance in a series of short video conversations."
   },
   {
    "company": "microsoft",
@@ -324,14 +340,6 @@
    "link": "https://www.sophos.com/en-us/blog/sophos-idc-marketscape-endpoint-security",
    "date": "2026-10-02T00:00:00.000Z",
    "summary": "Sophos has been named a Leader in the IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises 2026, recognizing the strength of our prevention-first approach and stopping AI-era threats as early as possible."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "Assess Your AI Security Maturity Through Visibility, Observability, Ownership, and Governance",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/assess-ai-security-maturity-visibility-observability-ownership-governance",
-   "date": "2026-10-02T00:00:00.000Z",
-   "summary": "Three questions can help reveal your AI security maturity. Hear expert perspectives and explore the pathway to governance in a series of short video conversations."
   },
   {
    "company": "talos",
@@ -995,7 +1003,7 @@
    "title": "Frequently asked questions about reported Citrix NetScaler zero-day vulnerabilities",
    "link": "https://www.tenable.com/blog/frequently-asked-questions-about-reported-citrix-netscaler-zero-day-vulnerabilities",
    "date": "2026-09-27T09:35:21.000Z",
-   "summary": "CVE-2026-88771 and CVE-2026-88772, two zero-day vulnerabilities in Citrix NetScaler, have been confirmed as exploited in the wild. Citrix released patches on September 27, 2026. Change log Update September 27: Citrix published security bulletin CTX697096, confirming..."
+   "summary": "CVE-2026-88771 and CVE-2026-88772, two zero-day vulnerabilities in Citrix NetScaler, have been confirmed as exploited in the wild. Citrix released patches on September 27, 2026. On October 3, Citrix disclosed CVE-2026-88779, an exploited denial of service flaw affecting SAML..."
   },
   {
    "company": "fortinet",
@@ -2748,14 +2756,6 @@
    "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/cisa-kev-commitment-ai-vulnerability-management",
    "date": "2026-08-24T00:00:00.000Z",
    "summary": "AI is changing vulnerability discovery speed. See how TrendAI's CISA KEV focus and virtual patching keep enterprises protected before patches ship."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "How TrendAI™ Research Helped Close an Open Redirect in Dify's Post-Login Flow",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/how-trendai-research-helped-close-an-open-redirect-in-difys-post-login-flow",
-   "date": "2026-08-24T00:00:00.000Z",
-   "summary": "TrendAI™ Research uncovered an open redirect in Dify's post-login flow that could have handed a freshly authenticated session, token and all, to an attacker, and worked with the vendor to close it across every sign-in path before the details went public."
   },
   {
    "company": "darktrace",
