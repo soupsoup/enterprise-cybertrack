@@ -1,6 +1,83 @@
 {
- "generated": "2026-10-05T12:22:00.748Z",
+ "generated": "2026-10-06T12:07:17.957Z",
  "cves": [
+  {
+   "id": "CVE-2026-88779",
+   "vendor": "Citrix",
+   "product": "netscaler application delivery controller",
+   "category": "Edge / VPN",
+   "cvss": 7.5,
+   "kev": true,
+   "published": "2026-10-04",
+   "title": "Vulnerability in NetScaler ADC and NetScaler Gateway.",
+   "summary": "Vulnerability in NetScaler ADC and NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.41, before 13.1-64.28, before 14.1-73.41 FIPS, and before 13.1-37.282; Gateway: before 14.1-73.41 and before 13.1-64.28.",
+   "affects": [
+    {
+     "vendor": "Citrix",
+     "product": "netscaler application delivery controller",
+     "from": "13.1",
+     "toExcl": "13.1-37.282"
+    },
+    {
+     "vendor": "Citrix",
+     "product": "netscaler application delivery controller",
+     "from": "13.1",
+     "toExcl": "13.1-64.28"
+    },
+    {
+     "vendor": "Citrix",
+     "product": "netscaler application delivery controller",
+     "from": "14.1",
+     "toExcl": "14.1-73.41"
+    },
+    {
+     "vendor": "Citrix",
+     "product": "netscaler application delivery controller",
+     "from": "14.1-66.68",
+     "to": "14.1-73.41"
+    },
+    {
+     "vendor": "Citrix",
+     "product": "netscaler gateway",
+     "from": "13.1",
+     "toExcl": "13.1-64.28"
+    },
+    {
+     "vendor": "Citrix",
+     "product": "netscaler gateway",
+     "from": "14.1",
+     "toExcl": "14.1-73.41"
+    }
+   ],
+   "kevAdded": "2026-10-04",
+   "epss": 0.00534
+  },
+  {
+   "id": "CVE-2026-103624",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.3,
+   "kev": false,
+   "published": "2026-10-02",
+   "title": "Use after free in Contextual Tasks in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...",
+   "summary": "Use after free in Contextual Tasks in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "affects": [],
+   "epss": 0.00276
+  },
+  {
+   "id": "CVE-2026-103626",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 9.6,
+   "kev": false,
+   "published": "2026-10-02",
+   "title": "Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...",
+   "summary": "Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "affects": [],
+   "epss": 0.00288
+  },
   {
    "id": "CVE-2026-103493",
    "vendor": "JetBrains",
@@ -132,6 +209,263 @@
      "to": "8.0.1"
     }
    ]
+  },
+  {
+   "id": "CVE-2026-103488",
+   "vendor": "JetBrains",
+   "product": "youtrack",
+   "category": "DevOps & Collaboration",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-10-01",
+   "title": "In JetBrains YouTrack before 2026.2.19422 missing authorisation allowed authenticated users to add themselves...",
+   "summary": "In JetBrains YouTrack before 2026.2.19422 missing authorisation allowed authenticated users to add themselves to project teams and access restricted issues",
+   "affects": [
+    {
+     "vendor": "JetBrains",
+     "product": "youtrack",
+     "toExcl": "2026.2.19422"
+    }
+   ],
+   "epss": 0.00278
+  },
+  {
+   "id": "CVE-2026-103490",
+   "vendor": "JetBrains",
+   "product": "youtrack",
+   "category": "DevOps & Collaboration",
+   "cvss": 7.2,
+   "kev": false,
+   "published": "2026-10-01",
+   "title": "In JetBrains YouTrack before 2026.2.19422 privilege escalation was possible via user group links",
+   "summary": "In JetBrains YouTrack before 2026.2.19422 privilege escalation was possible via user group links",
+   "affects": [
+    {
+     "vendor": "JetBrains",
+     "product": "youtrack",
+     "toExcl": "2026.2.19422"
+    }
+   ],
+   "epss": 0.0043
+  },
+  {
+   "id": "CVE-2026-56154",
+   "vendor": "Apache",
+   "product": "http server",
+   "category": "Web & Application Servers",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-01",
+   "title": "Use After Free vulnerability in Apache HTTP Server's mod_rewrite when using lookahead (%{LA-U:HTTP:...})...",
+   "summary": "Use After Free vulnerability in Apache HTTP Server's mod_rewrite when using lookahead (%{LA-U:HTTP:...})\n\n\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.68.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "http server",
+     "from": "2.4.0",
+     "toExcl": "2.4.69"
+    }
+   ],
+   "epss": 0.00416
+  },
+  {
+   "id": "CVE-2026-56449",
+   "vendor": "Apache",
+   "product": "http server",
+   "category": "Web & Application Servers",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-01",
+   "title": "Out-of-bounds Write vulnerability in Apache HTTP Server's mod_proxy_html with crafted HTTP response bodies.",
+   "summary": "Out-of-bounds Write vulnerability in Apache HTTP Server's mod_proxy_html with crafted HTTP response bodies.\n\n\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.68.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "http server",
+     "from": "2.4.0",
+     "toExcl": "2.4.69"
+    }
+   ],
+   "epss": 0.00418
+  },
+  {
+   "id": "CVE-2026-57941",
+   "vendor": "Apache",
+   "product": "http server",
+   "category": "Web & Application Servers",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-01",
+   "title": "Use After Free vulnerability in Apache HTTP Server's mod_http2 via shared session->bbtmp re-entrancy\n\n\n\nThis...",
+   "summary": "Use After Free vulnerability in Apache HTTP Server's mod_http2 via shared session->bbtmp re-entrancy\n\n\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.68.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "http server",
+     "from": "2.4.0",
+     "toExcl": "2.4.69"
+    }
+   ],
+   "epss": 0.00444
+  },
+  {
+   "id": "CVE-2026-59685",
+   "vendor": "Apache",
+   "product": "http server",
+   "category": "Web & Application Servers",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-01",
+   "title": "Out-of-bounds Write vulnerability in Apache HTTP Server on Windows while processing paths with 8.3 names that...",
+   "summary": "Out-of-bounds Write vulnerability in Apache HTTP Server on Windows while processing paths with 8.3 names that may grow when expanded.\n\n\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.68.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "http server",
+     "from": "2.4.0",
+     "toExcl": "2.4.69"
+    }
+   ],
+   "epss": 0.00345
+  },
+  {
+   "id": "CVE-2026-59797",
+   "vendor": "Apache",
+   "product": "http server",
+   "category": "Web & Application Servers",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-01",
+   "title": "Improper Privilege Management vulnerability in Apache HTTP Server's mod_ssl via SSLRequire and file-related...",
+   "summary": "Improper Privilege Management vulnerability in Apache HTTP Server's mod_ssl via SSLRequire and file-related expressions.\n\n\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.68.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "http server",
+     "from": "2.4.0",
+     "toExcl": "2.4.69"
+    }
+   ],
+   "epss": 0.00385
+  },
+  {
+   "id": "CVE-2026-63045",
+   "vendor": "Apache",
+   "product": "http server",
+   "category": "Web & Application Servers",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-01",
+   "title": "Improper validation of FTP PASV reply address in mod_proxy_ftp in Apache Software Foundation Apache HTTP...",
+   "summary": "Improper validation of FTP PASV reply address in mod_proxy_ftp in Apache Software Foundation Apache HTTP Server through 2.4.68 on all platforms allows, in forward proxy configurations, an untrusted FTP server to cause the proxy to open a data connection to an arbitrary third-party host via a crafted PASV response.\n\nUsers are recommended to upgrade to version 2.4.69, which fixes this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "http server",
+     "from": "2.4.0",
+     "toExcl": "2.4.69"
+    }
+   ],
+   "epss": 0.00327
+  },
+  {
+   "id": "CVE-2026-63292",
+   "vendor": "Apache",
+   "product": "http server",
+   "category": "Web & Application Servers",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-01",
+   "title": "Stack-based buffer overflow in mod_vhost_alias in Apache Software Foundation Apache HTTP Server through...",
+   "summary": "Stack-based buffer overflow in mod_vhost_alias in Apache Software Foundation Apache HTTP Server through 2.4.68 on all platforms allows a remote client to cause a denial of service or potentially execute arbitrary code via an HTTP request with a Host header exceeding 8192 bytes when VirtualDocumentRoot uses a hostname format specifier and LimitRequestFieldSize is raised above the default.\n\nUsers are recommended to upgrade to version 2.4.69, which fixes this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "http server",
+     "from": "2.4.0",
+     "toExcl": "2.4.69"
+    }
+   ],
+   "epss": 0.0058
+  },
+  {
+   "id": "CVE-2026-63686",
+   "vendor": "Apache",
+   "product": "http server",
+   "category": "Web & Application Servers",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-01",
+   "title": "A NULL pointer dereference in mod_xml2enc in Apache Software Foundation Apache HTTP Server before 2.4.69 on...",
+   "summary": "A NULL pointer dereference in mod_xml2enc in Apache Software Foundation Apache HTTP Server before 2.4.69 on all platforms allows an untrusted backend server to cause a denial of service via a proxied response with a charset whose conversion partially succeeds then fails.\n\nUsers are recommended to upgrade to version 2.4.69, which fixes this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "http server",
+     "from": "2.4.0",
+     "toExcl": "2.4.69"
+    }
+   ],
+   "epss": 0.00329
+  },
+  {
+   "id": "CVE-2026-73636",
+   "vendor": "Apache",
+   "product": "http server",
+   "category": "Web & Application Servers",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-01",
+   "title": "Authentication bypass by capture-replay in mod_auth_digest in Apache Software Foundation Apache HTTP Server...",
+   "summary": "Authentication bypass by capture-replay in mod_auth_digest in Apache Software Foundation Apache HTTP Server 2.4.x on all platforms allows a man-in-the-middle (MITM) attacker to replay captured digest authentication credentials via crafted requests that trigger garbage collection of the client's shared memory entry when AuthDigestNonceLifetime is set to 0.\n\nUsers are recommended to upgrade to version 2.4.69, which fixes this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "http server",
+     "from": "2.4.0",
+     "toExcl": "2.4.69"
+    }
+   ],
+   "epss": 0.00368
+  },
+  {
+   "id": "CVE-2026-73637",
+   "vendor": "Apache",
+   "product": "http server",
+   "category": "Web & Application Servers",
+   "cvss": 7.3,
+   "kev": false,
+   "published": "2026-10-01",
+   "title": "Use after free in mod_auth_digest in Apache Software Foundation Apache HTTP Server before 2.4.69 on all...",
+   "summary": "Use after free in mod_auth_digest in Apache Software Foundation Apache HTTP Server before 2.4.69 on all platforms allows an unauthenticated remote client to cause authentication state corruption via concurrent Digest authentication requests when AuthDigestNcCheck is enabled or AuthDigestNonceLifetime is set to 0.\n\nUsers are recommended to upgrade to version 2.4.69, which fixes this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "http server",
+     "from": "2.4.0",
+     "toExcl": "2.4.69"
+    }
+   ],
+   "epss": 0.00264
+  },
+  {
+   "id": "CVE-2026-93546",
+   "vendor": "Apache",
+   "product": "http server",
+   "category": "Web & Application Servers",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-01",
+   "title": "Integer overflow in mod_dav_fs in Apache HTTP Server through 2.4.68 allows an authenticated WebDAV client...",
+   "summary": "Integer overflow in mod_dav_fs in Apache HTTP Server through 2.4.68 allows an authenticated WebDAV client with write access to crash worker processes and persistently corrupt a directory's property database via PROPPATCH requests declaring many XML namespaces.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "http server",
+     "toExcl": "2.4.69"
+    }
+   ],
+   "epss": 0.00342
   },
   {
    "id": "CVE-2026-85532",
@@ -397,6 +731,37 @@
    "affects": []
   },
   {
+   "id": "CVE-2026-84739",
+   "vendor": "GitLab",
+   "product": "gitlab",
+   "category": "DevOps & Collaboration",
+   "cvss": 8.7,
+   "kev": false,
+   "published": "2026-09-29",
+   "title": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 13.11 before 19.2.7, 19.3 before...",
+   "summary": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 13.11 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to execute arbitrary JavaScript in the context of another user's browser session due to improper sanitization of path components in the merge request diff viewer.",
+   "affects": [
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "13.11.0",
+     "toExcl": "19.2.7"
+    },
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.3.0",
+     "toExcl": "19.3.3"
+    },
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "version": "19.4.0"
+    }
+   ],
+   "epss": 0.00457
+  },
+  {
    "id": "CVE-2026-88771",
    "vendor": "Citrix",
    "product": "netscaler application delivery controller",
@@ -406,7 +771,7 @@
    "published": "2026-09-27",
    "title": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
    "summary": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
-   "epss": 0.01063,
+   "epss": 0.01083,
    "kevAdded": "2026-09-27",
    "affects": [
     {
@@ -799,6 +1164,101 @@
    ]
   },
   {
+   "id": "CVE-2026-92608",
+   "vendor": "Apache",
+   "product": "qpid broker-j",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-09-25",
+   "title": "Improper handling of property-encoding exceptions in AMQP 1.0-to-AMQP 0-10 message conversion allows...",
+   "summary": "Improper handling of property-encoding exceptions in AMQP 1.0-to-AMQP 0-10 message conversion allows authenticated message producers to disrupt delivery to AMQP 0-10 consumers via message properties that the target encoder does not handle correctly.\n\nThis issue affects Apache Qpid Broker-J: through 10.1.0.\n\nUsers are recommended to upgrade to version 10.1.1, which fixes the issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "qpid broker-j",
+     "toExcl": "10.1.1"
+    }
+   ],
+   "epss": 0.00322
+  },
+  {
+   "id": "CVE-2026-92609",
+   "vendor": "Apache",
+   "product": "qpid broker-j",
+   "category": "Application Platforms",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-09-25",
+   "title": "Session fixation in HTTP management authentication allows remote attackers to gain unauthorized access to an...",
+   "summary": "Session fixation in HTTP management authentication allows remote attackers to gain unauthorized access to an authenticated management session via reuse of a session identifier retained across successful authentication.\n\nThis issue affects Apache Qpid Broker-J: through 10.1.0.\n\nUsers are recommended to upgrade to version 10.1.1, which fixes the issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "qpid broker-j",
+     "toExcl": "10.1.1"
+    }
+   ],
+   "epss": 0.00379
+  },
+  {
+   "id": "CVE-2026-92550",
+   "vendor": "Apache",
+   "product": "qpid broker-j",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-09-25",
+   "title": "A pre-authentication attacker could leverage type size/count handling to cause excessive allocation leading...",
+   "summary": "A pre-authentication attacker could leverage type size/count handling to cause excessive allocation leading to potential denial of service.\n\nThis issue affects Apache Qpid Broker-J: through 10.1.0.\n\nUsers are recommended to upgrade to version 10.1.1, which fixes the issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "qpid broker-j",
+     "toExcl": "10.1.1"
+    }
+   ],
+   "epss": 0.00367
+  },
+  {
+   "id": "CVE-2026-92560",
+   "vendor": "Apache",
+   "product": "qpid broker-j",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-09-25",
+   "title": "A pre-authentication attacker could leverage type size/count handling to cause excessive allocation leading...",
+   "summary": "A pre-authentication attacker could leverage type size/count handling to cause excessive allocation leading to potential denial of service.\n\nThis issue affects Apache Qpid Broker-J: through 10.1.0.\n\nUsers are recommended to upgrade to version 10.1.1, which fixes the issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "qpid broker-j",
+     "toExcl": "10.1.1"
+    }
+   ],
+   "epss": 0.00367
+  },
+  {
+   "id": "CVE-2026-92564",
+   "vendor": "Apache",
+   "product": "qpid broker-j",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-09-25",
+   "title": "A pre-authentication attacker could leverage type nesting to cause a StackOverflowError potentially leading...",
+   "summary": "A pre-authentication attacker could leverage type nesting to cause a StackOverflowError potentially leading to denial of service.\n\nThis issue affects Apache Qpid Broker-J: through 10.1.0.\n\nUsers are recommended to upgrade to version 10.1.1, which fixes the issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "qpid broker-j",
+     "toExcl": "10.1.1"
+    }
+   ],
+   "epss": 0.00367
+  },
+  {
    "id": "CVE-2026-89078",
    "vendor": "GitLab",
    "product": "gitlab",
@@ -890,6 +1350,32 @@
      "version": "19.4.0"
     }
    ]
+  },
+  {
+   "id": "CVE-2026-70125",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "Microsoft Office Outlook Remote Code Execution Vulnerability",
+   "summary": "Microsoft Office Outlook Remote Code Execution Vulnerability",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00442
   },
   {
    "id": "CVE-2026-25264",
@@ -22415,6 +22901,49 @@
    "summary": "SAP NetWeaver Business Client does not perform sufficient validation when processing certain locally stored data during application startup. An attacker with low privileges on the local system could replace this data with specially crafted content. When the application is next launched, the crafted content is processed and could lead to arbitrary code execution in the context of the user. This results in a high impact on confidentiality, integrity and availability of the application.",
    "affects": [],
    "epss": 0.0036
+  },
+  {
+   "id": "CVE-2026-55007",
+   "vendor": "Microsoft",
+   "product": "exchange server",
+   "category": "Email & Collaboration",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-09-08",
+   "title": "Double free in Microsoft Exchange Server allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Microsoft Exchange Server allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "exchange server",
+     "version": "2019"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "exchange server subscription edition",
+     "toExcl": "15.02.2562.049"
+    }
+   ],
+   "epss": 0.00723
+  },
+  {
+   "id": "CVE-2026-57099",
+   "vendor": "Microsoft",
+   "product": "asp.net core odata",
+   "category": "Developer Tools & Libraries",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-09-08",
+   "title": "Allocation of resources without limits or throttling in ASP.NET Core allows an unauthorized attacker to deny...",
+   "summary": "Allocation of resources without limits or throttling in ASP.NET Core allows an unauthorized attacker to deny service over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "asp.net core odata",
+     "toExcl": "7.8.1"
+    }
+   ],
+   "epss": 0.012
   },
   {
    "id": "CVE-2026-78254",

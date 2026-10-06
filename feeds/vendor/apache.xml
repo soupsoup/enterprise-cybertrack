@@ -59,6 +59,128 @@ Users are recommended to upgrade to version 2.4.69, which fixes this issue. | CV
 This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 7.5 | EPSS 0.5%</description>
 </item>
 <item>
+<title>CVE-2026-56154 Apache http server: Use After Free vulnerability in Apache HTTP Server&apos;s mod_rewrite when using lookahead (%{LA-U:HTTP:...})...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-56154</link>
+<guid isPermaLink="false">CVE-2026-56154</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>Use After Free vulnerability in Apache HTTP Server&apos;s mod_rewrite when using lookahead (%{LA-U:HTTP:...})
+
+
+
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-56449 Apache http server: Out-of-bounds Write vulnerability in Apache HTTP Server&apos;s mod_proxy_html with crafted HTTP response bodies.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-56449</link>
+<guid isPermaLink="false">CVE-2026-56449</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>Out-of-bounds Write vulnerability in Apache HTTP Server&apos;s mod_proxy_html with crafted HTTP response bodies.
+
+
+
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-57941 Apache http server: Use After Free vulnerability in Apache HTTP Server&apos;s mod_http2 via shared session-&gt;bbtmp re-entrancy
+
+
+
+This...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-57941</link>
+<guid isPermaLink="false">CVE-2026-57941</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>Use After Free vulnerability in Apache HTTP Server&apos;s mod_http2 via shared session-&gt;bbtmp re-entrancy
+
+
+
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-59685 Apache http server: Out-of-bounds Write vulnerability in Apache HTTP Server on Windows while processing paths with 8.3 names that...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-59685</link>
+<guid isPermaLink="false">CVE-2026-59685</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>Out-of-bounds Write vulnerability in Apache HTTP Server on Windows while processing paths with 8.3 names that may grow when expanded.
+
+
+
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-59797 Apache http server: Improper Privilege Management vulnerability in Apache HTTP Server&apos;s mod_ssl via SSLRequire and file-related...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-59797</link>
+<guid isPermaLink="false">CVE-2026-59797</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>Improper Privilege Management vulnerability in Apache HTTP Server&apos;s mod_ssl via SSLRequire and file-related expressions.
+
+
+
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-63045 Apache http server: Improper validation of FTP PASV reply address in mod_proxy_ftp in Apache Software Foundation Apache HTTP...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-63045</link>
+<guid isPermaLink="false">CVE-2026-63045</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>Improper validation of FTP PASV reply address in mod_proxy_ftp in Apache Software Foundation Apache HTTP Server through 2.4.68 on all platforms allows, in forward proxy configurations, an untrusted FTP server to cause the proxy to open a data connection to an arbitrary third-party host via a crafted PASV response.
+
+Users are recommended to upgrade to version 2.4.69, which fixes this issue. | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-63292 Apache http server: Stack-based buffer overflow in mod_vhost_alias in Apache Software Foundation Apache HTTP Server through...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-63292</link>
+<guid isPermaLink="false">CVE-2026-63292</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>Stack-based buffer overflow in mod_vhost_alias in Apache Software Foundation Apache HTTP Server through 2.4.68 on all platforms allows a remote client to cause a denial of service or potentially execute arbitrary code via an HTTP request with a Host header exceeding 8192 bytes when VirtualDocumentRoot uses a hostname format specifier and LimitRequestFieldSize is raised above the default.
+
+Users are recommended to upgrade to version 2.4.69, which fixes this issue. | CVSS 7.5 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-63686 Apache http server: A NULL pointer dereference in mod_xml2enc in Apache Software Foundation Apache HTTP Server before 2.4.69 on...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-63686</link>
+<guid isPermaLink="false">CVE-2026-63686</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>A NULL pointer dereference in mod_xml2enc in Apache Software Foundation Apache HTTP Server before 2.4.69 on all platforms allows an untrusted backend server to cause a denial of service via a proxied response with a charset whose conversion partially succeeds then fails.
+
+Users are recommended to upgrade to version 2.4.69, which fixes this issue. | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-73636 Apache http server: Authentication bypass by capture-replay in mod_auth_digest in Apache Software Foundation Apache HTTP Server...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73636</link>
+<guid isPermaLink="false">CVE-2026-73636</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>Authentication bypass by capture-replay in mod_auth_digest in Apache Software Foundation Apache HTTP Server 2.4.x on all platforms allows a man-in-the-middle (MITM) attacker to replay captured digest authentication credentials via crafted requests that trigger garbage collection of the client&apos;s shared memory entry when AuthDigestNonceLifetime is set to 0.
+
+Users are recommended to upgrade to version 2.4.69, which fixes this issue. | CVSS 8.1 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-73637 Apache http server: Use after free in mod_auth_digest in Apache Software Foundation Apache HTTP Server before 2.4.69 on all...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73637</link>
+<guid isPermaLink="false">CVE-2026-73637</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>Use after free in mod_auth_digest in Apache Software Foundation Apache HTTP Server before 2.4.69 on all platforms allows an unauthenticated remote client to cause authentication state corruption via concurrent Digest authentication requests when AuthDigestNcCheck is enabled or AuthDigestNonceLifetime is set to 0.
+
+Users are recommended to upgrade to version 2.4.69, which fixes this issue. | CVSS 7.3 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-93546 Apache http server: Integer overflow in mod_dav_fs in Apache HTTP Server through 2.4.68 allows an authenticated WebDAV client...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-93546</link>
+<guid isPermaLink="false">CVE-2026-93546</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>Integer overflow in mod_dav_fs in Apache HTTP Server through 2.4.68 allows an authenticated WebDAV client with write access to crash worker processes and persistently corrupt a directory&apos;s property database via PROPPATCH requests declaring many XML namespaces. | CVSS 8.8 | EPSS 0.3%</description>
+</item>
+<item>
 <title>CVE-2026-85532 Apache wss4j: Apache WSS4J accepted attacker-controlled derived-key lengths and offsets without adequate bounds.</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85532</link>
 <guid isPermaLink="false">CVE-2026-85532</guid>
@@ -76,6 +198,66 @@ Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix 
 <description>An authentication bypass in the DOM security processor in Apache WSS4J allows unauthenticated remote attackers to forge authenticated SOAP messages via a crafted unsigned SAML sender-vouches assertion containing an attacker-controlled key.
 
 Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue. | CVSS 9.8 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-92608 Apache qpid broker-j: Improper handling of property-encoding exceptions in AMQP 1.0-to-AMQP 0-10 message conversion allows...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-92608</link>
+<guid isPermaLink="false">CVE-2026-92608</guid>
+<pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Improper handling of property-encoding exceptions in AMQP 1.0-to-AMQP 0-10 message conversion allows authenticated message producers to disrupt delivery to AMQP 0-10 consumers via message properties that the target encoder does not handle correctly.
+
+This issue affects Apache Qpid Broker-J: through 10.1.0.
+
+Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-92609 Apache qpid broker-j: Session fixation in HTTP management authentication allows remote attackers to gain unauthorized access to an...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-92609</link>
+<guid isPermaLink="false">CVE-2026-92609</guid>
+<pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Session fixation in HTTP management authentication allows remote attackers to gain unauthorized access to an authenticated management session via reuse of a session identifier retained across successful authentication.
+
+This issue affects Apache Qpid Broker-J: through 10.1.0.
+
+Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 9.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-92550 Apache qpid broker-j: A pre-authentication attacker could leverage type size/count handling to cause excessive allocation leading...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-92550</link>
+<guid isPermaLink="false">CVE-2026-92550</guid>
+<pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>A pre-authentication attacker could leverage type size/count handling to cause excessive allocation leading to potential denial of service.
+
+This issue affects Apache Qpid Broker-J: through 10.1.0.
+
+Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-92560 Apache qpid broker-j: A pre-authentication attacker could leverage type size/count handling to cause excessive allocation leading...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-92560</link>
+<guid isPermaLink="false">CVE-2026-92560</guid>
+<pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>A pre-authentication attacker could leverage type size/count handling to cause excessive allocation leading to potential denial of service.
+
+This issue affects Apache Qpid Broker-J: through 10.1.0.
+
+Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-92564 Apache qpid broker-j: A pre-authentication attacker could leverage type nesting to cause a StackOverflowError potentially leading...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-92564</link>
+<guid isPermaLink="false">CVE-2026-92564</guid>
+<pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>A pre-authentication attacker could leverage type nesting to cause a StackOverflowError potentially leading to denial of service.
+
+This issue affects Apache Qpid Broker-J: through 10.1.0.
+
+Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 7.5 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-91863 Apache neethi: A specially crafted WS-Policy document with deeply nested policy elements can bypass Neethi&apos;s nesting-depth...</title>

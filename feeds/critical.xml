@@ -6,12 +6,60 @@
 <description>Newly published critical (CVSS 9.0+) enterprise vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/critical.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-103626 Microsoft windows: Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-103626</link>
+<guid isPermaLink="false">CVE-2026-103626</guid>
+<pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.3%</description>
+</item>
+<item>
 <title>CVE-2026-104286 Fortinet fortimail: An improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) vulnerability in Fortinet...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-104286</link>
 <guid isPermaLink="false">CVE-2026-104286</guid>
 <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
 <category>Email &amp; Collaboration</category>
 <description>An improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2.0 through 7.2.9 may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-01) | EPSS 2.2%</description>
+</item>
+<item>
+<title>CVE-2026-56154 Apache http server: Use After Free vulnerability in Apache HTTP Server&apos;s mod_rewrite when using lookahead (%{LA-U:HTTP:...})...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-56154</link>
+<guid isPermaLink="false">CVE-2026-56154</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>Use After Free vulnerability in Apache HTTP Server&apos;s mod_rewrite when using lookahead (%{LA-U:HTTP:...})
+
+
+
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-57941 Apache http server: Use After Free vulnerability in Apache HTTP Server&apos;s mod_http2 via shared session-&gt;bbtmp re-entrancy
+
+
+
+This...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-57941</link>
+<guid isPermaLink="false">CVE-2026-57941</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>Use After Free vulnerability in Apache HTTP Server&apos;s mod_http2 via shared session-&gt;bbtmp re-entrancy
+
+
+
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-59797 Apache http server: Improper Privilege Management vulnerability in Apache HTTP Server&apos;s mod_ssl via SSLRequire and file-related...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-59797</link>
+<guid isPermaLink="false">CVE-2026-59797</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>Improper Privilege Management vulnerability in Apache HTTP Server&apos;s mod_ssl via SSLRequire and file-related expressions.
+
+
+
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-88920 Apache wss4j: An authentication bypass in the DOM security processor in Apache WSS4J allows unauthenticated remote...</title>
@@ -81,6 +129,18 @@ This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 
 <description>Memory overflow vulnerability vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
 
 This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23  leading to unpredictable or erroneous behavior or Denial of Service | CVSS 9.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-92609 Apache qpid broker-j: Session fixation in HTTP management authentication allows remote attackers to gain unauthorized access to an...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-92609</link>
+<guid isPermaLink="false">CVE-2026-92609</guid>
+<pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Session fixation in HTTP management authentication allows remote attackers to gain unauthorized access to an authenticated management session via reuse of a session identifier retained across successful authentication.
+
+This issue affects Apache Qpid Broker-J: through 10.1.0.
+
+Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 9.8 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-89078 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before...</title>
@@ -815,46 +875,6 @@ This vulnerability is due to insufficient authentication control on an API endpo
 <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
 <category>Databases &amp; Middleware</category>
 <description>Vulnerability in the Oracle Forms product of Oracle Fusion Middleware (component: Forms Services, C/S, Charmode).  Supported versions that are affected are 12.2.1.19.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Forms.  While the vulnerability is in Oracle Forms, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle Forms. CVSS 3.1 Base Score 10.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H). | CVSS 10 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-83100 Oracle forms: Vulnerability in the Oracle Forms product of Oracle Fusion Middleware (component: Forms Services, C/S,...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83100</link>
-<guid isPermaLink="false">CVE-2026-83100</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Vulnerability in the Oracle Forms product of Oracle Fusion Middleware (component: Forms Services, C/S, Charmode).  Supported versions that are affected are 12.2.1.19.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Forms.  Successful attacks of this vulnerability can result in takeover of Oracle Forms. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-83104 Oracle forms: Vulnerability in the Oracle Forms product of Oracle Fusion Middleware (component: Forms Services, C/S,...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83104</link>
-<guid isPermaLink="false">CVE-2026-83104</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Vulnerability in the Oracle Forms product of Oracle Fusion Middleware (component: Forms Services, C/S, Charmode).  Supported versions that are affected are 12.2.1.19.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via TCP to compromise Oracle Forms.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Forms accessible data as well as  unauthorized access to critical data or complete access to all Oracle Forms accessible data. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N). | CVSS 9.1 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-83108 Oracle forms: Vulnerability in the Oracle Forms product of Oracle Fusion Middleware (component: Forms Services, C/S,...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83108</link>
-<guid isPermaLink="false">CVE-2026-83108</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Vulnerability in the Oracle Forms product of Oracle Fusion Middleware (component: Forms Services, C/S, Charmode).  Supported versions that are affected are 12.2.1.19.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Forms.  Successful attacks of this vulnerability can result in takeover of Oracle Forms. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-83154 Oracle siebel crm: Vulnerability in the Siebel CRM End User product of Oracle Siebel CRM (component: Open UI).</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83154</link>
-<guid isPermaLink="false">CVE-2026-83154</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Siebel CRM End User product of Oracle Siebel CRM (component: Open UI).  Supported versions that are affected are 17.0-26.7. Easily exploitable vulnerability allows unauthenticated attacker with network access via SOAP to compromise Siebel CRM End User.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Siebel CRM End User accessible data as well as  unauthorized access to critical data or complete access to all Siebel CRM End User accessible data. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N). | CVSS 9.1 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-83201 Oracle siebel crm: Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83201</link>
-<guid isPermaLink="false">CVE-2026-83201</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).  Supported versions that are affected are 17.0-26.7. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Siebel CRM Deployment.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Siebel CRM Deployment accessible data as well as  unauthorized access to critical data or complete access to all Siebel CRM Deployment accessible data. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N). | CVSS 9.1 | EPSS 0.4%</description>
 </item>
 </channel>
 </rss>

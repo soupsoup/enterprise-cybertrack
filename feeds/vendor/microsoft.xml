@@ -6,12 +6,36 @@
 <description>High and critical Microsoft vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/microsoft.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-103624 Microsoft windows: Use after free in Contextual Tasks in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-103624</link>
+<guid isPermaLink="false">CVE-2026-103624</guid>
+<pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Contextual Tasks in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.3 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-103626 Microsoft windows: Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-103626</link>
+<guid isPermaLink="false">CVE-2026-103626</guid>
+<pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.3%</description>
+</item>
+<item>
 <title>CVE-2026-102317 Microsoft windows: Improper privilege management in Mojo in Google Chrome on on Windows prior to 154.0.8037.92 allowed a local...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102317</link>
 <guid isPermaLink="false">CVE-2026-102317</guid>
 <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Improper privilege management in Mojo in Google Chrome on on Windows prior to 154.0.8037.92 allowed a local attacker to potentially execute arbitrary code outside the sandbox via a local program. (Chromium security severity: High) | CVSS 8.6 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-70125 Microsoft 365 apps: Microsoft Office Outlook Remote Code Execution Vulnerability</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-70125</link>
+<guid isPermaLink="false">CVE-2026-70125</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Microsoft Office Outlook Remote Code Execution Vulnerability | CVSS 8.8 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-25264 Microsoft windows: Privilege escalation due to weak configuration during package extraction process.</title>
@@ -780,30 +804,6 @@
 <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
 <category>Databases &amp; Middleware</category>
 <description>Heap-based buffer overflow in SQL Server allows an authorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-67376 Microsoft sql server: Integer overflow or wraparound in SQL Server allows an unauthorized attacker to deny service over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-67376</link>
-<guid isPermaLink="false">CVE-2026-67376</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Integer overflow or wraparound in SQL Server allows an unauthorized attacker to deny service over a network. | CVSS 7.5 | EPSS 1.2%</description>
-</item>
-<item>
-<title>CVE-2026-67378 Microsoft sql server: Untrusted pointer dereference in SQL Server allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-67378</link>
-<guid isPermaLink="false">CVE-2026-67378</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Untrusted pointer dereference in SQL Server allows an unauthorized attacker to execute code over a network. | CVSS 9 | EPSS 0.7%</description>
-</item>
-<item>
-<title>CVE-2026-67379 Microsoft sql server: Stack-based buffer overflow in SQL Server allows an authorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-67379</link>
-<guid isPermaLink="false">CVE-2026-67379</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Stack-based buffer overflow in SQL Server allows an authorized attacker to execute code over a network. | CVSS 8.5 | EPSS 0.7%</description>
 </item>
 </channel>
 </rss>

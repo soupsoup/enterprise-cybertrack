@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-05T12:22:00.822Z",
+ "generated": "2026-10-06T12:07:18.021Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 20
   },
   {
@@ -54,23 +54,23 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 50
   },
   {
    "company": "fortinet",
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
-   "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
-   "count": 10
+   "ok": false,
+   "checked": "2026-10-06T12:07:18.021Z",
+   "error": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml: UND_ERR_SOCKET"
   },
   {
    "company": "google",
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 20
   },
   {
@@ -78,15 +78,15 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
-   "count": 4224
+   "checked": "2026-10-06T12:07:18.021Z",
+   "count": 4225
   },
   {
    "company": "microsoft",
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 100
   },
   {
@@ -214,29 +214,93 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
-   "count": 20
+   "count": 19
   },
   {
    "company": "wiz",
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
-   "count": 694
+   "checked": "2026-10-06T12:07:18.021Z",
+   "count": 695
   },
   {
    "company": "zscaler",
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-05T12:22:00.822Z",
+   "checked": "2026-10-06T12:07:18.021Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "paloalto",
+   "feed": "Unit 42 research",
+   "title": "Blinder Tunnel Campaign Targets Iraqi Infrastructure",
+   "link": "https://unit42.paloaltonetworks.com/blinder-tunnel-targets-critical-infrastructure/",
+   "date": "2026-10-06T10:00:33.000Z",
+   "summary": "Analysis of Blinder Tunnel, an Iran-nexus campaign using fake Dubai Airports recruitment lures and GitHub C2 malware to target critical infrastructure. The post Blinder Tunnel Campaign Targets Iraqi Infrastructure appeared first on Unit 42 ."
+  },
+  {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "Secure Your Mission-Critical Application Estate: Qualys TotalAppSec is Now FedRAMP High Authorized (FedRAMP Certified Class D)",
+   "link": "https://blog.qualys.com/product-tech/2026/10/05/totalappsec-fedramp-high-federal-application-security",
+   "date": "2026-10-05T16:29:39.000Z",
+   "summary": "Key Takeaways Qualys TotalAppSec is now FedRAMP High Authorized on the Qualys Government Platform (FedRAMP Certified Class D, package FR2231052341). Federal AI use cases more than doubled in a year (3,611 use cases across 56 agencies), and most AI interactions are delivered..."
+  },
+  {
+   "company": "wiz",
+   "feed": "Blog",
+   "title": "What’s New in Wiz Service Catalog: Smarter Discovery, Governance, and Service-Level Context",
+   "link": "https://www.wiz.io/blog/wiz-service-catalog-updates",
+   "date": "2026-10-05T16:00:00.000Z",
+   "summary": "Build your Service Catalog faster, keep service context current, and give teams a clearer path from cloud risk to accountability"
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69267 Windows Connected User Experiences and Telemetry Information Disclosure Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69267",
+   "date": "2026-10-05T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "checkpoint",
+   "feed": "Research",
+   "title": "5th October – Threat Intelligence Report",
+   "link": "https://research.checkpoint.com/2026/5th-october-threat-intelligence-report/",
+   "date": "2026-10-05T13:57:30.000Z",
+   "summary": "For the latest discoveries in cyber research for the week of 5th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Arizona’s state court system has suffered a phishing-led cyberattack after an employee clicked a malicious link. Attackers copied..."
+  },
+  {
+   "company": "crowdstrike",
+   "feed": "Blog",
+   "title": "Falcon Data Security for SaaS Secures Sensitive Data in Microsoft 365",
+   "link": "https://www.crowdstrike.com/en-us/blog/falcon-data-security-for-saas-secures-sensitive-data/",
+   "date": "2026-10-05T05:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "crowdstrike",
+   "feed": "Blog",
+   "title": "New in Falcon Cloud Security: Third-Party App Insights and AI-Enhanced Remediation",
+   "link": "https://www.crowdstrike.com/en-us/blog/falcon-cloud-security-third-party-app-insights-ai-enhanced-remedation/",
+   "date": "2026-10-05T05:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "Citrix NetScaler vulnerability (CVE-2026-88779) in active exploitation",
+   "link": "https://www.sophos.com/en-us/blog/citrix-netscaler-vulnerability-cve-2026-88779-in-active-exploitation",
+   "date": "2026-10-05T00:00:00.000Z",
+   "summary": ""
+  },
   {
    "company": "trendai",
    "feed": "Security blog",
@@ -794,14 +858,6 @@
    "feed": "Security advisories",
    "title": "CVE-2026-62755 Windows DHCP Client Elevation of Privilege Vulnerability",
    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62755",
-   "date": "2026-09-29T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-50332 Windows Kernel Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50332",
    "date": "2026-09-29T14:00:00.000Z",
    "summary": "Updated an acknowledgement. This is an informational change only."
   },
@@ -1460,6 +1516,14 @@
    "link": "https://www.paloaltonetworks.com/blog/2026/09/defining-the-standard-for-ai-security/",
    "date": "2026-09-18T01:02:58.000Z",
    "summary": "Palo Alto Networks Named a Market Shaper in 2026 September Gartner® Emerging Market Quadrant for AI Application Security — Established Vendors. When we set out to solve AI security, we knew it … The post Defining the Standard for AI Security appeared first on Palo Alto Networks..."
+  },
+  {
+   "company": "sentinelone",
+   "feed": "Blog",
+   "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 38 (2026)",
+   "link": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-38-8/",
+   "date": "2026-09-18T00:00:00.000Z",
+   "summary": "U.S. law enforcement extradites Black Axe leaders, emerging AI safety risks concern Frontier AI leaders, and autonomous OpenAI agents deploy proxy relays."
   },
   {
    "company": "qualys",
@@ -2750,14 +2814,6 @@
    "summary": "One click on a targeted lure handed an attacker live Microsoft 365 session tokens, enough to impersonate a vendor and reroute payments. TrendAI Vision One™ Services – Managed Detection and Response (MDR) tracks the attack to its root cause."
   },
   {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "Our CISA KEV Commitment in AI-Era Vulnerability Management",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/cisa-kev-commitment-ai-vulnerability-management",
-   "date": "2026-08-24T00:00:00.000Z",
-   "summary": "AI is changing vulnerability discovery speed. See how TrendAI's CISA KEV focus and virtual patching keep enterprises protected before patches ship."
-  },
-  {
    "company": "darktrace",
    "feed": "Blog",
    "title": "When AI Becomes the Lure: A Fake Gemini Installer Delivers Vidar",
@@ -2908,14 +2964,6 @@
    "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-vulnerability-discovery-decline-ai-era/",
    "date": "2026-08-13T14:30:00.000Z",
    "summary": "And will today’s surge in AI-driven vulnerability discovery eventually make tomorrow’s software safer?"
-  },
-  {
-   "company": "wiz",
-   "feed": "Blog",
-   "title": "Closing the Blind Spot: Securing Personal Repositories in the Software Supply Chain",
-   "link": "https://www.wiz.io/blog/securing-personal-repositories",
-   "date": "2026-08-13T13:48:56.000Z",
-   "summary": "Personal repositories are where corporate secrets quietly escape. Wiz correlates them to your developers, validates the real risk, and drives the fix."
   },
   {
    "company": "sentinelone",

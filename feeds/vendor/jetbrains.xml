@@ -14,6 +14,22 @@
 <description>In JetBrains YouTrack before 2026.2.19422 stored XSS via Mermaid and LaTeX content was possible | CVSS 8.1 | EPSS 0.2%</description>
 </item>
 <item>
+<title>CVE-2026-103488 JetBrains youtrack: In JetBrains YouTrack before 2026.2.19422 missing authorisation allowed authenticated users to add themselves...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-103488</link>
+<guid isPermaLink="false">CVE-2026-103488</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains YouTrack before 2026.2.19422 missing authorisation allowed authenticated users to add themselves to project teams and access restricted issues | CVSS 7.1 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-103490 JetBrains youtrack: In JetBrains YouTrack before 2026.2.19422 privilege escalation was possible via user group links</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-103490</link>
+<guid isPermaLink="false">CVE-2026-103490</guid>
+<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains YouTrack before 2026.2.19422 privilege escalation was possible via user group links | CVSS 7.2 | EPSS 0.4%</description>
+</item>
+<item>
 <title>CVE-2026-100255 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 
 2026.1.4, 
 2025.11.8 administrator account takeover was possible via...</title>
