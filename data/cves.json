@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-06T12:07:17.957Z",
+ "generated": "2026-10-07T11:52:18.448Z",
  "cves": [
   {
    "id": "CVE-2026-88779",
@@ -50,7 +50,7 @@
     }
    ],
    "kevAdded": "2026-10-04",
-   "epss": 0.00534
+   "epss": 0.00592
   },
   {
    "id": "CVE-2026-103624",
@@ -63,7 +63,7 @@
    "title": "Use after free in Contextual Tasks in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...",
    "summary": "Use after free in Contextual Tasks in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00276
+   "epss": 0.00284
   },
   {
    "id": "CVE-2026-103626",
@@ -76,7 +76,7 @@
    "title": "Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...",
    "summary": "Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00288
+   "epss": 0.00325
   },
   {
    "id": "CVE-2026-103493",
@@ -266,7 +266,7 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.00416
+   "epss": 0.00562
   },
   {
    "id": "CVE-2026-56449",
@@ -286,7 +286,7 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.00418
+   "epss": 0.00612
   },
   {
    "id": "CVE-2026-57941",
@@ -306,7 +306,7 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.00444
+   "epss": 0.006
   },
   {
    "id": "CVE-2026-59685",
@@ -326,7 +326,7 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.00345
+   "epss": 0.00498
   },
   {
    "id": "CVE-2026-59797",
@@ -346,7 +346,7 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.00385
+   "epss": 0.0052
   },
   {
    "id": "CVE-2026-63045",
@@ -366,7 +366,7 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.00327
+   "epss": 0.00472
   },
   {
    "id": "CVE-2026-63292",
@@ -386,7 +386,7 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.0058
+   "epss": 0.00876
   },
   {
    "id": "CVE-2026-63686",
@@ -406,7 +406,7 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.00329
+   "epss": 0.00478
   },
   {
    "id": "CVE-2026-73636",
@@ -426,7 +426,7 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.00368
+   "epss": 0.00412
   },
   {
    "id": "CVE-2026-73637",
@@ -446,7 +446,7 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.00264
+   "epss": 0.00484
   },
   {
    "id": "CVE-2026-93546",
@@ -465,7 +465,27 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.00342
+   "epss": 0.00436
+  },
+  {
+   "id": "CVE-2026-63718",
+   "vendor": "Apache",
+   "product": "http server",
+   "category": "Web & Application Servers",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-01",
+   "title": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') response smuggling...",
+   "summary": "Inconsistent Interpretation of HTTP Requests ('HTTP Request/Response Smuggling') response smuggling vulnerability in Apache HTTP Server via mod_proxy_uwsgi and a crafted uwsgi response with Transfer-Encoding.\n\n\n\nThis issue affects Apache HTTP Server: from 2.4.30 through 2.4.68.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "http server",
+     "from": "2.4.30",
+     "toExcl": "2.4.69"
+    }
+   ],
+   "epss": 0.00318
   },
   {
    "id": "CVE-2026-85532",
@@ -539,7 +559,7 @@
    "published": "2026-09-30",
    "title": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could...",
    "summary": "A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user.\r\n\r\nThis vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of the affected system. A successful exploit could allow the attacker to bypass authentication and gain access to the API as the admin user.",
-   "epss": 0.01575,
+   "epss": 0.01819,
    "kevAdded": "2026-09-30",
    "affects": [
     {
@@ -718,6 +738,180 @@
    ]
   },
   {
+   "id": "CVE-2026-87830",
+   "vendor": "Apache",
+   "product": "wss4j",
+   "category": "Developer Tools & Libraries",
+   "cvss": 9.1,
+   "kev": false,
+   "published": "2026-09-30",
+   "title": "In the StAX streaming WS-SecurityPolicy validator, certain relative or unsupported XPath expressions can be...",
+   "summary": "In the StAX streaming WS-SecurityPolicy validator, certain relative or unsupported XPath expressions can be converted into paths that never match the actual XML element path. A remote SOAP peer may therefore send a required element without the expected signature or encryption.\nUsers are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "wss4j",
+     "toExcl": "2.4.4"
+    },
+    {
+     "vendor": "Apache",
+     "product": "wss4j",
+     "from": "3.0.0",
+     "toExcl": "3.0.6"
+    },
+    {
+     "vendor": "Apache",
+     "product": "wss4j",
+     "from": "4.0.0",
+     "toExcl": "4.0.2"
+    }
+   ],
+   "epss": 0.00184
+  },
+  {
+   "id": "CVE-2026-89238",
+   "vendor": "Apache",
+   "product": "wss4j",
+   "category": "Developer Tools & Libraries",
+   "cvss": 9.1,
+   "kev": false,
+   "published": "2026-09-30",
+   "title": "WSS4J EncryptedHeader child confusion could promote an attacker-controlled plaintext element as the decrypted...",
+   "summary": "WSS4J EncryptedHeader child confusion could promote an attacker-controlled plaintext element as the decrypted header, leading to incorrect confidentiality coverage and possible policy bypass.\nUsers are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "wss4j",
+     "toExcl": "2.4.4"
+    },
+    {
+     "vendor": "Apache",
+     "product": "wss4j",
+     "from": "3.0.0",
+     "toExcl": "3.0.6"
+    },
+    {
+     "vendor": "Apache",
+     "product": "wss4j",
+     "from": "4.0.0",
+     "toExcl": "4.0.2"
+    }
+   ],
+   "epss": 0.00214
+  },
+  {
+   "id": "CVE-2026-92121",
+   "vendor": "Apache",
+   "product": "wss4j",
+   "category": "Developer Tools & Libraries",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-09-30",
+   "title": "In the WSS4J streaming (StAX) code, a signature reference using the WS-Security STR-Transform leaves an...",
+   "summary": "In the WSS4J streaming (StAX) code, a signature reference using the WS-Security STR-Transform leaves an internal \"inside signed content\" flag permanently set. The WS-SecurityPolicy enforcer uses that flag to decide whether an element needs checking, so it stops evaluating SignedParts and SignedElements for the rest of the message. A policy requiring the SOAP Body to be signed is then satisfied even when the Body carries no signature, removing the protection against XML Signature Wrapping. Signature verification itself is unaffected. The DOM code is not affected. \nUsers are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4 which fix this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "wss4j",
+     "toExcl": "2.4.4"
+    },
+    {
+     "vendor": "Apache",
+     "product": "wss4j",
+     "from": "3.0.0",
+     "toExcl": "3.0.6"
+    },
+    {
+     "vendor": "Apache",
+     "product": "wss4j",
+     "from": "4.0.0",
+     "toExcl": "4.0.2"
+    }
+   ],
+   "epss": 0.00349
+  },
+  {
+   "id": "CVE-2026-95616",
+   "vendor": "Apache",
+   "product": "wss4j",
+   "category": "Developer Tools & Libraries",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-09-30",
+   "title": "An integer overflow in WSS4J's DER bounds check lets an oversized allocation pass validation.",
+   "summary": "An integer overflow in WSS4J's DER bounds check lets an oversized allocation pass validation. An unauthenticated attacker can send a SOAP message carrying an X.509 certificate whose SubjectKeyIdentifier extension declares a length of 0x7FFFFFFF; WSS4J decodes this while resolving the signature's key reference, before the message is authenticated, so an eleven-byte extension triggers a 2 GB allocation. Repeated requests exhaust server memory.\nUsers are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "wss4j",
+     "toExcl": "2.4.4"
+    },
+    {
+     "vendor": "Apache",
+     "product": "wss4j",
+     "from": "3.0.0",
+     "toExcl": "3.0.6"
+    },
+    {
+     "vendor": "Apache",
+     "product": "wss4j",
+     "from": "4.0.0",
+     "toExcl": "4.0.2"
+    }
+   ],
+   "epss": 0.00292
+  },
+  {
+   "id": "CVE-2026-100253",
+   "vendor": "JetBrains",
+   "product": "teamcity",
+   "category": "DevOps & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-09-30",
+   "title": "In JetBrains TeamCity before 2026.2, \n2026.1.4, \n2025.11.8 sandbox escape leading to code execution was...",
+   "summary": "In JetBrains TeamCity before 2026.2, \n2026.1.4, \n2025.11.8 sandbox escape leading to code execution was possible via the versioned settings Kotlin DSL",
+   "affects": [
+    {
+     "vendor": "JetBrains",
+     "product": "teamcity",
+     "toExcl": "2025.11.8"
+    },
+    {
+     "vendor": "JetBrains",
+     "product": "teamcity",
+     "from": "2026.1",
+     "toExcl": "2026.1.4"
+    }
+   ],
+   "epss": 0.00434
+  },
+  {
+   "id": "CVE-2026-100254",
+   "vendor": "JetBrains",
+   "product": "teamcity",
+   "category": "DevOps & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-09-30",
+   "title": "In JetBrains TeamCity before 2026.2, \n2026.1.4, \n2025.11.8 authenticated users could execute commands on...",
+   "summary": "In JetBrains TeamCity before 2026.2, \n2026.1.4, \n2025.11.8 authenticated users could execute commands on Windows servers via CRLF injection in Pipeline Git connection settings",
+   "affects": [
+    {
+     "vendor": "JetBrains",
+     "product": "teamcity",
+     "toExcl": "2025.11.8"
+    },
+    {
+     "vendor": "JetBrains",
+     "product": "teamcity",
+     "from": "2026.1",
+     "toExcl": "2026.1.4"
+    }
+   ],
+   "epss": 0.00461
+  },
+  {
    "id": "CVE-2026-102317",
    "vendor": "Microsoft",
    "product": "windows",
@@ -759,7 +953,64 @@
      "version": "19.4.0"
     }
    ],
-   "epss": 0.00457
+   "epss": 0.00467
+  },
+  {
+   "id": "CVE-2026-102495",
+   "vendor": "Apache",
+   "product": "xmlschema",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-09-29",
+   "title": "Apache XmlSchema doesn't limit how deeply schema imports and includes can be nested, so a malicious schema...",
+   "summary": "Apache XmlSchema doesn't limit how deeply schema imports and includes can be nested, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "xmlschema",
+     "toExcl": "2.3.3"
+    }
+   ],
+   "epss": 0.00363
+  },
+  {
+   "id": "CVE-2026-102496",
+   "vendor": "Apache",
+   "product": "xmlschema",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-09-29",
+   "title": "Apache XmlSchema doesn't limit how deeply schema structures can be nested when it builds its schema model, so...",
+   "summary": "Apache XmlSchema doesn't limit how deeply schema structures can be nested when it builds its schema model, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "xmlschema",
+     "toExcl": "2.3.3"
+    }
+   ],
+   "epss": 0.00363
+  },
+  {
+   "id": "CVE-2026-102497",
+   "vendor": "Apache",
+   "product": "xmlschema",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-09-29",
+   "title": "The Apache XmlSchema walker (xmlschema-walker) doesn't detect cycles in type derivation, substitution groups,...",
+   "summary": "The Apache XmlSchema walker (xmlschema-walker) doesn't detect cycles in type derivation, substitution groups, model groups or attribute groups. A malicious schema with such a cycle can make the walker recurse until the stack overflows, causing a denial of service.\n\nUsers are recommended to upgrade to version 2.3.3, which fixes this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "xmlschema",
+     "toExcl": "2.3.3"
+    }
+   ],
+   "epss": 0.00363
   },
   {
    "id": "CVE-2026-88771",
@@ -1180,7 +1431,7 @@
      "toExcl": "10.1.1"
     }
    ],
-   "epss": 0.00322
+   "epss": 0.00468
   },
   {
    "id": "CVE-2026-92609",
@@ -1199,7 +1450,7 @@
      "toExcl": "10.1.1"
     }
    ],
-   "epss": 0.00379
+   "epss": 0.00443
   },
   {
    "id": "CVE-2026-92550",
@@ -1218,7 +1469,7 @@
      "toExcl": "10.1.1"
     }
    ],
-   "epss": 0.00367
+   "epss": 0.00483
   },
   {
    "id": "CVE-2026-92560",
@@ -1237,7 +1488,7 @@
      "toExcl": "10.1.1"
     }
    ],
-   "epss": 0.00367
+   "epss": 0.00483
   },
   {
    "id": "CVE-2026-92564",
@@ -1256,7 +1507,7 @@
      "toExcl": "10.1.1"
     }
    ],
-   "epss": 0.00367
+   "epss": 0.00483
   },
   {
    "id": "CVE-2026-89078",
@@ -1375,7 +1626,104 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00442
+   "epss": 0.00432
+  },
+  {
+   "id": "CVE-2026-94243",
+   "vendor": "Apache",
+   "product": "sling security",
+   "category": "Application Platforms",
+   "cvss": 7.3,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "A vulnerability in Apache Sling Security Bundle: the ReferrerFilter accepts weaker-than-orgin evidence.",
+   "summary": "A vulnerability in Apache Sling Security Bundle: the ReferrerFilter accepts weaker-than-orgin evidence.\n\n\n\nThis issue affects Apache Sling Security Bundle: before 1.3.2.\n\n\n\nUsers are recommended to upgrade to version 1.3.2, which fixes the issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "sling security",
+     "toExcl": "1.3.2"
+    }
+   ],
+   "epss": 0.00131
+  },
+  {
+   "id": "CVE-2026-86243",
+   "vendor": "Apache",
+   "product": "tomcat native",
+   "category": "Web & Application Servers",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "Buffer over-read vulnerability in Apache Tomcat Native during the TLS handshake permits a malicious user to...",
+   "summary": "Buffer over-read vulnerability in Apache Tomcat Native during the TLS handshake permits a malicious user to trigger a DoS via a JVM crash.\n\n\n\nThis issue affects Apache Tomcat Native: from 2.0.0 through 2.0.15, from 1.3.0 through 1.3.8. Earlier, unsupported versions may also be affected.\n\n\n\nUsers are recommended to upgrade to version 1.3.9 or 2.0.16, which fix the issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "tomcat native",
+     "from": "1.3.0",
+     "toExcl": "1.3.9"
+    },
+    {
+     "vendor": "Apache",
+     "product": "tomcat native",
+     "from": "2.0.0",
+     "toExcl": "2.0.16"
+    }
+   ],
+   "epss": 0.00398
+  },
+  {
+   "id": "CVE-2026-86246",
+   "vendor": "Apache",
+   "product": "tomcat native",
+   "category": "Web & Application Servers",
+   "cvss": 9.1,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "Initialization of a resource with an insecure default vulnerability in Apache Tomcat Native enabled insecure...",
+   "summary": "Initialization of a resource with an insecure default vulnerability in Apache Tomcat Native enabled insecure options by default  including ALLOW_CLIENT_RENEGOTIATION, NO_EXTENDED_MASTER_SECRET, IGNORE_UNEXPECTED_EOF and ALLOW_NO_DHE_KEX.\n\n\n\nThis issue affects Apache Tomcat Native: from 2.0.0 through 2.0.15, from 1.3.0 through 1.3.8. Earlier unsupported versions may also be affected.\n\n\n\nUsers are recommended to upgrade to version 2.0.16 or 1.3.9, which fix the issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "tomcat native",
+     "from": "1.3.0",
+     "toExcl": "1.3.9"
+    },
+    {
+     "vendor": "Apache",
+     "product": "tomcat native",
+     "from": "2.0.0",
+     "toExcl": "2.0.16"
+    }
+   ],
+   "epss": 0.0028
+  },
+  {
+   "id": "CVE-2026-86247",
+   "vendor": "Apache",
+   "product": "tomcat native",
+   "category": "Web & Application Servers",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "Race condition within a thread vulnerability in Apache Tomcat Native allowed client certificate verification...",
+   "summary": "Race condition within a thread vulnerability in Apache Tomcat Native allowed client certificate verification requirements to be down-graded for some configurations.\n\n\n\nThis issue affects Apache Tomcat Native: from 2.0.0 through 2.0.15, from 1.3.0 through 1.3.8. Unsupported versions may also be affected.\n\n\n\nUsers are recommended to upgrade to version 2.0.16 or 1.3.9, which fixes the issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "tomcat native",
+     "from": "1.3.0",
+     "toExcl": "1.3.9"
+    },
+    {
+     "vendor": "Apache",
+     "product": "tomcat native",
+     "from": "2.0.0",
+     "toExcl": "2.0.16"
+    }
+   ],
+   "epss": 0.00179
   },
   {
    "id": "CVE-2026-25264",
@@ -8466,6 +8814,34 @@
      "version": "3.0.0"
     }
    ]
+  },
+  {
+   "id": "CVE-2026-70341",
+   "vendor": "Microsoft",
+   "product": "edge",
+   "category": "Application Platforms",
+   "cvss": 8.5,
+   "kev": false,
+   "published": "2026-09-11",
+   "title": "Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to execute code over a...",
+   "summary": "Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "edge"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "edge",
+     "toExcl": "152.0.4191.52"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "edge chromium",
+     "toExcl": "152.0.4191.52"
+    }
+   ],
+   "epss": 0.00663
   },
   {
    "id": "CVE-2026-49362",
@@ -22924,7 +23300,7 @@
      "toExcl": "15.02.2562.049"
     }
    ],
-   "epss": 0.00723
+   "epss": 0.00707
   },
   {
    "id": "CVE-2026-57099",
@@ -22943,7 +23319,7 @@
      "toExcl": "7.8.1"
     }
    ],
-   "epss": 0.012
+   "epss": 0.01174
   },
   {
    "id": "CVE-2026-78254",

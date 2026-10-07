@@ -89,5 +89,29 @@
 <category>DevOps &amp; Collaboration</category>
 <description>In JetBrains YouTrack before 2026.2.19197 account takeover was possible by replaying a notification signature | CVSS 8.9 | EPSS 0.3%</description>
 </item>
+<item>
+<title>CVE-2026-100253 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 
+2026.1.4, 
+2025.11.8 sandbox escape leading to code execution was...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-100253</link>
+<guid isPermaLink="false">CVE-2026-100253</guid>
+<pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 
+2026.1.4, 
+2025.11.8 sandbox escape leading to code execution was possible via the versioned settings Kotlin DSL | CVSS 8.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-100254 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 
+2026.1.4, 
+2025.11.8 authenticated users could execute commands on...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-100254</link>
+<guid isPermaLink="false">CVE-2026-100254</guid>
+<pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 
+2026.1.4, 
+2025.11.8 authenticated users could execute commands on Windows servers via CRLF injection in Pipeline Git connection settings | CVSS 8.8 | EPSS 0.5%</description>
+</item>
 </channel>
 </rss>

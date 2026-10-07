@@ -13,7 +13,7 @@
 <category>Network Infrastructure</category>
 <description>A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user.
 
-This vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of the affected system. A successful exploit could allow the attacker to bypass authentication and gain access to the API as the admin user. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-30) | EPSS 1.6%</description>
+This vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of the affected system. A successful exploit could allow the attacker to bypass authentication and gain access to the API as the admin user. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-30) | EPSS 1.8%</description>
 </item>
 <item>
 <title>CVE-2026-20234 Cisco identity services engine: As part of Cisco&apos;s ongoing commitment to proactive security and product quality, the Cisco Identity Services...</title>

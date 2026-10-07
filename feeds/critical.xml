@@ -31,7 +31,7 @@
 
 
 
-This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.4%</description>
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-57941 Apache http server: Use After Free vulnerability in Apache HTTP Server&apos;s mod_http2 via shared session-&gt;bbtmp re-entrancy
@@ -47,7 +47,7 @@ This...</title>
 
 
 
-This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.4%</description>
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-59797 Apache http server: Improper Privilege Management vulnerability in Apache HTTP Server&apos;s mod_ssl via SSLRequire and file-related...</title>
@@ -59,7 +59,7 @@ This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | E
 
 
 
-This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.4%</description>
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-88920 Apache wss4j: An authentication bypass in the DOM security processor in Apache WSS4J allows unauthenticated remote...</title>
@@ -79,7 +79,25 @@ Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix 
 <category>Network Infrastructure</category>
 <description>A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user.
 
-This vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of the affected system. A successful exploit could allow the attacker to bypass authentication and gain access to the API as the admin user. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-30) | EPSS 1.6%</description>
+This vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of the affected system. A successful exploit could allow the attacker to bypass authentication and gain access to the API as the admin user. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-30) | EPSS 1.8%</description>
+</item>
+<item>
+<title>CVE-2026-87830 Apache wss4j: In the StAX streaming WS-SecurityPolicy validator, certain relative or unsupported XPath expressions can be...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-87830</link>
+<guid isPermaLink="false">CVE-2026-87830</guid>
+<pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>In the StAX streaming WS-SecurityPolicy validator, certain relative or unsupported XPath expressions can be converted into paths that never match the actual XML element path. A remote SOAP peer may therefore send a required element without the expected signature or encryption.
+Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue. | CVSS 9.1 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-89238 Apache wss4j: WSS4J EncryptedHeader child confusion could promote an attacker-controlled plaintext element as the decrypted...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89238</link>
+<guid isPermaLink="false">CVE-2026-89238</guid>
+<pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>WSS4J EncryptedHeader child confusion could promote an attacker-controlled plaintext element as the decrypted header, leading to incorrect confidentiality coverage and possible policy bypass.
+Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue. | CVSS 9.1 | EPSS 0.2%</description>
 </item>
 <item>
 <title>CVE-2026-88771 Citrix netscaler application delivery controller: Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.</title>
@@ -157,6 +175,22 @@ Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVS
 <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
 <description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to execute arbitrary code on the GitLab server due to an integer overflow issue when compiling a specially crafted regular expression in a CI/CD configuration. | CVSS 9.9 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-86246 Apache tomcat native: Initialization of a resource with an insecure default vulnerability in Apache Tomcat Native enabled insecure...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-86246</link>
+<guid isPermaLink="false">CVE-2026-86246</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Web &amp; Application Servers</category>
+<description>Initialization of a resource with an insecure default vulnerability in Apache Tomcat Native enabled insecure options by default  including ALLOW_CLIENT_RENEGOTIATION, NO_EXTENDED_MASTER_SECRET, IGNORE_UNEXPECTED_EOF and ALLOW_NO_DHE_KEX.
+
+
+
+This issue affects Apache Tomcat Native: from 2.0.0 through 2.0.15, from 1.3.0 through 1.3.8. Earlier unsupported versions may also be affected.
+
+
+
+Users are recommended to upgrade to version 2.0.16 or 1.3.9, which fix the issue. | CVSS 9.1 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-93616 Check Point multi-domain security management: A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute...</title>
@@ -851,30 +885,6 @@ This vulnerability is due to insufficient authentication control on an API endpo
 <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
 <category>Databases &amp; Middleware</category>
 <description>Vulnerability in the Oracle Forms product of Oracle Fusion Middleware (component: Forms Services, C/S, Charmode).  Supported versions that are affected are 12.2.1.19.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Forms.  Successful attacks of this vulnerability can result in takeover of Oracle Forms. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-83095 Oracle forms: Vulnerability in the Oracle Forms product of Oracle Fusion Middleware (component: Forms Services, C/S,...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83095</link>
-<guid isPermaLink="false">CVE-2026-83095</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Vulnerability in the Oracle Forms product of Oracle Fusion Middleware (component: Forms Services, C/S, Charmode).  Supported versions that are affected are 12.2.1.19.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Forms.  Successful attacks of this vulnerability can result in takeover of Oracle Forms. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-83098 Oracle forms: Vulnerability in the Oracle Forms product of Oracle Fusion Middleware (component: Forms Services, C/S,...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83098</link>
-<guid isPermaLink="false">CVE-2026-83098</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Vulnerability in the Oracle Forms product of Oracle Fusion Middleware (component: Forms Services, C/S, Charmode).  Supported versions that are affected are 12.2.1.19.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Forms.  Successful attacks of this vulnerability can result in takeover of Oracle Forms. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-83099 Oracle forms: Vulnerability in the Oracle Forms product of Oracle Fusion Middleware (component: Forms Services, C/S,...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83099</link>
-<guid isPermaLink="false">CVE-2026-83099</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Vulnerability in the Oracle Forms product of Oracle Fusion Middleware (component: Forms Services, C/S, Charmode).  Supported versions that are affected are 12.2.1.19.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Forms.  While the vulnerability is in Oracle Forms, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle Forms. CVSS 3.1 Base Score 10.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H). | CVSS 10 | EPSS 0.5%</description>
 </item>
 </channel>
 </rss>

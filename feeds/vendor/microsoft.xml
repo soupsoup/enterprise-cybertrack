@@ -438,6 +438,14 @@
 <description>Double free in Windows Secure Kernel Mode allows an authorized attacker to elevate privileges locally. | CVSS 8.2 | EPSS 0.3%</description>
 </item>
 <item>
+<title>CVE-2026-70341 Microsoft edge: Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-70341</link>
+<guid isPermaLink="false">CVE-2026-70341</guid>
+<pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to execute code over a network. | CVSS 8.5 | EPSS 0.7%</description>
+</item>
+<item>
 <title>CVE-2026-75624 Microsoft windows: IBM App Connect Enterprise 13.0.1.0 through 13.0.8.1, and 12.0.1.0 through 12.0.12.27 could allow a remote...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-75624</link>
 <guid isPermaLink="false">CVE-2026-75624</guid>
@@ -796,14 +804,6 @@
 <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
 <category>Databases &amp; Middleware</category>
 <description>Improper neutralization of special elements used in an sql command (&apos;sql injection&apos;) in SQL Server allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 1.0%</description>
-</item>
-<item>
-<title>CVE-2026-67373 Microsoft sql server: Heap-based buffer overflow in SQL Server allows an authorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-67373</link>
-<guid isPermaLink="false">CVE-2026-67373</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Heap-based buffer overflow in SQL Server allows an authorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 </channel>
 </rss>
