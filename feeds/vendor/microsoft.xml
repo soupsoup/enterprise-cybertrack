@@ -6,6 +6,14 @@
 <description>High and critical Microsoft vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/microsoft.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-106373 Microsoft windows: Use after free in Fonts in Google Chrome on on Windows prior to 155.0.8059.39 allowed a remote attacker to...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-106373</link>
+<guid isPermaLink="false">CVE-2026-106373</guid>
+<pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Fonts in Google Chrome on on Windows prior to 155.0.8059.39 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium) | CVSS 8.8 | EPSS 0.3%</description>
+</item>
+<item>
 <title>CVE-2026-103624 Microsoft windows: Use after free in Contextual Tasks in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-103624</link>
 <guid isPermaLink="false">CVE-2026-103624</guid>
@@ -294,6 +302,14 @@
 <description>Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges locally. | CVSS 8.1 | EPSS 0.3%</description>
 </item>
 <item>
+<title>CVE-2026-62874 Microsoft azure billing: Insufficient verification of data authenticity in Azure Billing allows an unauthorized attacker to elevate...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-62874</link>
+<guid isPermaLink="false">CVE-2026-62874</guid>
+<pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
+<category>Cloud &amp; AI Services</category>
+<description>Insufficient verification of data authenticity in Azure Billing allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 0.4%</description>
+</item>
+<item>
 <title>CVE-2026-93375 Microsoft windows: Incorrect reference resolution in Tracing in Google Chrome on on Windows prior to 153.0.8010.52 allowed a...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-93375</link>
 <guid isPermaLink="false">CVE-2026-93375</guid>
@@ -398,6 +414,14 @@
 <description>Improper neutralization of special elements in output used by a downstream component (&apos;injection&apos;) in Azure Cosmos DB allows an authorized attacker to elevate privileges over a network. | CVSS 9.6 | EPSS 0.8%</description>
 </item>
 <item>
+<title>CVE-2026-78501 Microsoft 365 copilot chat: Improper neutralization of special elements used in a command (&apos;command injection&apos;) in Microsoft 365...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-78501</link>
+<guid isPermaLink="false">CVE-2026-78501</guid>
+<pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
+<category>Cloud &amp; AI Services</category>
+<description>Improper neutralization of special elements used in a command (&apos;command injection&apos;) in Microsoft 365 Copilot&apos;s Business Chat allows an unauthorized attacker to disclose information over a network. | CVSS 7.4 | EPSS 0.9%</description>
+</item>
+<item>
 <title>CVE-2026-91734 Microsoft windows: Incorrect authorization in Core in Google Chrome on on Windows prior to 153.0.8010.47 allowed a local...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91734</link>
 <guid isPermaLink="false">CVE-2026-91734</guid>
@@ -443,7 +467,7 @@
 <guid isPermaLink="false">CVE-2026-70341</guid>
 <pubDate>Fri, 11 Sep 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to execute code over a network. | CVSS 8.5 | EPSS 0.7%</description>
+<description>Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to execute code over a network. | CVSS 8.5 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-75624 Microsoft windows: IBM App Connect Enterprise 13.0.1.0 through 13.0.8.1, and 12.0.1.0 through 12.0.12.27 could allow a remote...</title>
@@ -777,30 +801,6 @@
 <title>CVE-2026-66819 Microsoft sql server: Improper neutralization of special elements used in an sql command (&apos;sql injection&apos;) in SQL Server allows an...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-66819</link>
 <guid isPermaLink="false">CVE-2026-66819</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Improper neutralization of special elements used in an sql command (&apos;sql injection&apos;) in SQL Server allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 1.0%</description>
-</item>
-<item>
-<title>CVE-2026-66820 Microsoft sql server: Improper neutralization of special elements used in an sql command (&apos;sql injection&apos;) in SQL Server allows an...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-66820</link>
-<guid isPermaLink="false">CVE-2026-66820</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Improper neutralization of special elements used in an sql command (&apos;sql injection&apos;) in SQL Server allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 1.0%</description>
-</item>
-<item>
-<title>CVE-2026-67368 Microsoft sql server: Improper link resolution before file access (&apos;link following&apos;) in SQL Server allows an authorized attacker to...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-67368</link>
-<guid isPermaLink="false">CVE-2026-67368</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Improper link resolution before file access (&apos;link following&apos;) in SQL Server allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 1.0%</description>
-</item>
-<item>
-<title>CVE-2026-67370 Microsoft sql server: Improper neutralization of special elements used in an sql command (&apos;sql injection&apos;) in SQL Server allows an...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-67370</link>
-<guid isPermaLink="false">CVE-2026-67370</guid>
 <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
 <category>Databases &amp; Middleware</category>
 <description>Improper neutralization of special elements used in an sql command (&apos;sql injection&apos;) in SQL Server allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 1.0%</description>
