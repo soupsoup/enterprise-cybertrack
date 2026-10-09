@@ -6,6 +6,42 @@
 <description>High and critical Apache vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/apache.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-104711 Apache struts: Improper neutralization of special elements used in an expression language statement (&apos;Expression Language...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-104711</link>
+<guid isPermaLink="false">CVE-2026-104711</guid>
+<pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Improper neutralization of special elements used in an expression language statement (&apos;Expression Language Injection&apos;) vulnerability in Apache Struts. If the application is configured to use the legacy RESTful action mapper, a crafted request can inject an OGNL expression that may lead to remote code execution. Struts 7 is affected only when the OGNL allowlist is disabled; it is enabled by default. Applications using the default action mapper, the restful2 mapper, or the Struts REST plugin are not affected.
+
+This issue affects Apache Struts: from 2.0.0 through 2.3.37, from 2.5.0 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.
+
+Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 9.8 | EPSS 0.9%</description>
+</item>
+<item>
+<title>CVE-2026-104712 Apache struts: Asymmetric resource consumption (amplification) vulnerability in Apache Struts.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-104712</link>
+<guid isPermaLink="false">CVE-2026-104712</guid>
+<pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Asymmetric resource consumption (amplification) vulnerability in Apache Struts. When a request parameter is bound to an arbitrary-precision decimal (java.math.BigDecimal) property that is then rendered through the Struts tag library, the framework can produce a response many orders of magnitude larger than the request, allowing an unauthenticated remote attacker to exhaust server CPU and outbound network capacity with sustained low-volume traffic. Applications that do not bind request parameters to BigDecimal properties, or never render such a property through the Struts tag library, are not affected.
+
+This issue affects Apache Struts: from 2.5.14 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.
+
+Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 7.5 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-104714 Apache struts: Concurrent execution using shared resource with improper synchronization (&apos;race condition&apos;) vulnerability in...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-104714</link>
+<guid isPermaLink="false">CVE-2026-104714</guid>
+<pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Concurrent execution using shared resource with improper synchronization (&apos;race condition&apos;) vulnerability in Apache Struts. Where a localized message formats a date or time argument, the formatter retained for that message by the application-wide text provider is used by concurrently served requests without isolation, so a value belonging to one user can appear in another user&apos;s response, or the rendering can fail and surface as a server error. Applications whose localized messages format no date or time arguments are not affected.
+
+This issue affects Apache Struts: from 2.0.0 through 2.3.37, from 2.5.0 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.
+
+Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 8.8 | EPSS 0.5%</description>
+</item>
+<item>
 <title>CVE-2026-46729 Apache http server: NULL Pointer Dereference vulnerability in Apache HTTP Servers mod_heartmonitor over unicast listener.</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-46729</link>
 <guid isPermaLink="false">CVE-2026-46729</guid>
@@ -298,7 +334,7 @@ Both code paths are reachable by any caller holding the &quot;manager&quot; role
 
 
 
-ConfigMBeanImpl.install() and the config:install shell command already guarded the equivalent risk on their own code path with a finalname.contains(&quot;..&quot;) string check, but that check does not stop absolute paths or symlink-based escapes, and it was never applied to ConfigRepositoryImpl.update() / createFactoryConfiguration() at all. | CVSS 9.8 | EPSS 0.5%</description>
+ConfigMBeanImpl.install() and the config:install shell command already guarded the equivalent risk on their own code path with a finalname.contains(&quot;..&quot;) string check, but that check does not stop absolute paths or symlink-based escapes, and it was never applied to ConfigRepositoryImpl.update() / createFactoryConfiguration() at all. | CVSS 9.8 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-91048 Apache karaf: The jdbc shell command scope shipped no org.apache.karaf.command.acl.jdbc.cfg.</title>
@@ -309,7 +345,7 @@ ConfigMBeanImpl.install() and the config:install shell command already guarde
 <description>The jdbc shell command scope shipped no org.apache.karaf.command.acl.jdbc.cfg. Karaf&apos;s command guard (SecuredSessionFactoryImpl) treats a command with no matching ACL rule as allowed, so any authenticated shell session (including one holding only the viewer role) could run every jdbc:* command. jdbc:ds-create stores a fully attacker-controlled JDBC URL into a pax-jdbc-config factory Configuration with no validation. pax-jdbc-config reactively turns that into a live DataSource. Several JDBC drivers run code or SQL at connection time based on URL parameters (e.g. H2 INIT=RUNSCRIPT), so a viewer-level shell user could reach arbitrary code execution, bypassing the admin-role gate that already protects shell:exec. This is a privilege-escalation-to-RCE chain, not merely an &quot;admin misconfiguration&quot;.
 
 
-The same applies to jms:* shell commands. | CVSS 9.8 | EPSS 0.4%</description>
+The same applies to jms:* shell commands. | CVSS 9.8 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-92142 Apache karaf: Apache Karaf exposes a JMX MBeanServer guarded by KarafMBeanServerGuard, which enforces role-based access...</title>
@@ -354,7 +390,47 @@ createMBean(java.lang.String)[/javax\.management\.loading\..*/] = admin
 
 
 
-Apache Karaf users should upgrade to 4.4.12 or 4.5.0 or later, once released, as soon as possible. Until an upgrade is available, restrict network access to the JMX RMI registry/server ports (1099/44444) to trusted hosts, or avoid issuing any non-&quot;admin&quot; JMX credentiels. | CVSS 8.8 | EPSS 0.5%</description>
+Apache Karaf users should upgrade to 4.4.12 or 4.5.0 or later, once released, as soon as possible. Until an upgrade is available, restrict network access to the JMX RMI registry/server ports (1099/44444) to trusted hosts, or avoid issuing any non-&quot;admin&quot; JMX credentiels. | CVSS 8.8 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-90979 Apache karaf: LDAPCache and LDAPBackingEngine build LDAP search filters for user lookup and role lookup by textually...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-90979</link>
+<guid isPermaLink="false">CVE-2026-90979</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>LDAPCache and LDAPBackingEngine build LDAP search filters for user lookup and role lookup by textually substituting the placeholders %u, %dn, and %fqdn (drawn from the login name, the resolved user DN, and its fully qualified namespace form) into administrator-configured filter templates (userFilter, roleFilter). Before the fix, the only sanitization applied to the substituted value was double backslashed:
+
+filter = filter.replaceAll(Pattern.quote(&quot;%u&quot;), Matcher.quoteReplacement(user));
+
+filter = filter.replace(&quot;\\&quot;, &quot;\\\\&quot;);
+
+
+
+
+This does not escape the other characters RFC 4515 requires escaping in an LDAP search filter: *, (, ), and NUL. A login name containing any of these can change the structure of the resulting filter rather than being matched as a literal value (e.g. a crafted username can turn an equality match into a wildcard match, or close/reopen filter clauses), widening what the search returns and potentially causing a login or role lookup to match an LDAP entry other than the intended one, over-granting roles, and depending on deployment-specific filter templates, potentially affecting which account a login resolved to.
+
+
+
+
+It&apos;s not exploitable through every entry points: LDAPLoginModule and LDAPPubkeyLoginModule both called Util.doRFC2254Encoding() (correct RFC 4515 escaping) on the login name before handing it to LDAPCache, which masked the missing escaping in LDAPCache for those two call paths. Using LDAPCache directly (bypassing the login modules) does not reproduce through the normal LDAPLoginModule/LDAPPubkeyLoginModule authentication flow for this reason. It does reproduce through two other call paths that reach LDAPCache/LDAPBackingEngine without any prior escaping:
+
+  *  GSSAPILdapLoginModule passes the NameCallback name straight through, unescaped.
+  *  LDAPBackingEngine (listRoles) passes principal.getName() straight through, unescaped. | CVSS 7.3 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-91006 Apache karaf: Apache Karaf&apos;s instance-management service (InstanceServiceImpl) builds the command line used to launch a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91006</link>
+<guid isPermaLink="false">CVE-2026-91006</guid>
+<pubDate>Mon, 28 Sep 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Apache Karaf&apos;s instance-management service (InstanceServiceImpl) builds the command line used to launch a child Karaf JVM by string concatenation, then executes it through /bin/sh (Unix) or cscript (Windows). The caller-supplied javaOpts value is spliced into that string unquoted. A javaOpts value containing shell metacharacters (;, |, `, $(...)) is interpreted by the shell instead of being passed to the JVM as an option, giving arbitrary OS command execution as the Karaf process user.
+
+
+Reachable via the shell commands instance:create, instance:start, instance:restart, instance:change-opts, and the equivalent InstanceMBean JMX operations (createInstance, startInstance, changeJavaOpts, cloneInstance).
+
+Mitigation   *  Set karaf.secured.command.compulsory.roles=admin in etc/system.properties to close the fail-open gap for all unconfigured command scopes.
+  *  Restrict which principals can reach instance:* commands and InstancesMBean via etc/users.properties role assignments.
+  *  Treat javaOpts passed to instance:create/instance:start/instance:change-opts/InstancesMBean as untrusted input only from fully-trusted operators. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
 <title>CVE-2026-92608 Apache qpid broker-j: Improper handling of property-encoding exceptions in AMQP 1.0-to-AMQP 0-10 message conversion allows...</title>

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-08T12:09:11.555Z",
+ "generated": "2026-10-09T12:05:06.287Z",
  "cves": [
   {
    "id": "CVE-2026-106373",
@@ -12,7 +12,153 @@
    "title": "Use after free in Fonts in Google Chrome on on Windows prior to 155.0.8059.39 allowed a remote attacker to...",
    "summary": "Use after free in Fonts in Google Chrome on on Windows prior to 155.0.8059.39 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
    "affects": [],
-   "epss": 0.00292
+   "epss": 0.00331
+  },
+  {
+   "id": "CVE-2026-106218",
+   "vendor": "JetBrains",
+   "product": "teamcity",
+   "category": "DevOps & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-06",
+   "title": "In JetBrains TeamCity before 2026.1.3\n2025.11.7 kotlin DSL sandbox escape leading to RCE on the server was...",
+   "summary": "In JetBrains TeamCity before 2026.1.3\n2025.11.7 kotlin DSL sandbox escape leading to RCE on the server was possible",
+   "affects": [
+    {
+     "vendor": "JetBrains",
+     "product": "teamcity",
+     "toExcl": "2025.11.7"
+    },
+    {
+     "vendor": "JetBrains",
+     "product": "teamcity",
+     "from": "2026.1.1",
+     "toExcl": "2026.1.3"
+    }
+   ],
+   "epss": 0.00272
+  },
+  {
+   "id": "CVE-2026-106186",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.6,
+   "kev": false,
+   "published": "2026-10-06",
+   "title": "Uncontrolled search path element in CredentialProvider in Google Chrome on on Windows prior to 155.0.8059.39...",
+   "summary": "Uncontrolled search path element in CredentialProvider in Google Chrome on on Windows prior to 155.0.8059.39 allowed a local attacker to potentially execute arbitrary code outside the sandbox via a local program. (Chromium security severity: Low)",
+   "affects": [],
+   "epss": 0.00126
+  },
+  {
+   "id": "CVE-2026-104711",
+   "vendor": "Apache",
+   "product": "struts",
+   "category": "Application Platforms",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-05",
+   "title": "Improper neutralization of special elements used in an expression language statement ('Expression Language...",
+   "summary": "Improper neutralization of special elements used in an expression language statement ('Expression Language Injection') vulnerability in Apache Struts. If the application is configured to use the legacy RESTful action mapper, a crafted request can inject an OGNL expression that may lead to remote code execution. Struts 7 is affected only when the OGNL allowlist is disabled; it is enabled by default. Applications using the default action mapper, the restful2 mapper, or the Struts REST plugin are not affected.\n\nThis issue affects Apache Struts: from 2.0.0 through 2.3.37, from 2.5.0 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.\n\nUsers are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "struts",
+     "from": "2.0.0",
+     "to": "2.3.37"
+    },
+    {
+     "vendor": "Apache",
+     "product": "struts",
+     "from": "2.5.0",
+     "to": "2.5.33"
+    },
+    {
+     "vendor": "Apache",
+     "product": "struts",
+     "from": "6.0.0",
+     "toExcl": "6.12.0"
+    },
+    {
+     "vendor": "Apache",
+     "product": "struts",
+     "from": "7.0.0",
+     "toExcl": "7.4.0"
+    }
+   ],
+   "epss": 0.00863
+  },
+  {
+   "id": "CVE-2026-104712",
+   "vendor": "Apache",
+   "product": "struts",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-05",
+   "title": "Asymmetric resource consumption (amplification) vulnerability in Apache Struts.",
+   "summary": "Asymmetric resource consumption (amplification) vulnerability in Apache Struts. When a request parameter is bound to an arbitrary-precision decimal (java.math.BigDecimal) property that is then rendered through the Struts tag library, the framework can produce a response many orders of magnitude larger than the request, allowing an unauthenticated remote attacker to exhaust server CPU and outbound network capacity with sustained low-volume traffic. Applications that do not bind request parameters to BigDecimal properties, or never render such a property through the Struts tag library, are not affected.\n\nThis issue affects Apache Struts: from 2.5.14 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.\n\nUsers are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "struts",
+     "from": "2.5.14",
+     "to": "2.5.33"
+    },
+    {
+     "vendor": "Apache",
+     "product": "struts",
+     "from": "6.0.0",
+     "toExcl": "6.12.0"
+    },
+    {
+     "vendor": "Apache",
+     "product": "struts",
+     "from": "7.0.0",
+     "toExcl": "7.4.0"
+    }
+   ],
+   "epss": 0.00582
+  },
+  {
+   "id": "CVE-2026-104714",
+   "vendor": "Apache",
+   "product": "struts",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-05",
+   "title": "Concurrent execution using shared resource with improper synchronization ('race condition') vulnerability in...",
+   "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') vulnerability in Apache Struts. Where a localized message formats a date or time argument, the formatter retained for that message by the application-wide text provider is used by concurrently served requests without isolation, so a value belonging to one user can appear in another user's response, or the rendering can fail and surface as a server error. Applications whose localized messages format no date or time arguments are not affected.\n\nThis issue affects Apache Struts: from 2.0.0 through 2.3.37, from 2.5.0 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.\n\nUsers are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "struts",
+     "from": "2.0.0",
+     "to": "2.3.37"
+    },
+    {
+     "vendor": "Apache",
+     "product": "struts",
+     "from": "2.5.0",
+     "to": "2.5.33"
+    },
+    {
+     "vendor": "Apache",
+     "product": "struts",
+     "from": "6.0.0",
+     "toExcl": "6.12.0"
+    },
+    {
+     "vendor": "Apache",
+     "product": "struts",
+     "from": "7.0.0",
+     "toExcl": "7.4.0"
+    }
+   ],
+   "epss": 0.00489
   },
   {
    "id": "CVE-2026-88779",
@@ -1042,7 +1188,7 @@
      "toExcl": "4.4.12"
     }
    ],
-   "epss": 0.00453
+   "epss": 0.00628
   },
   {
    "id": "CVE-2026-91048",
@@ -1061,7 +1207,7 @@
      "toExcl": "4.4.12"
     }
    ],
-   "epss": 0.00444
+   "epss": 0.00544
   },
   {
    "id": "CVE-2026-92142",
@@ -1080,7 +1226,45 @@
      "toExcl": "4.4.12"
     }
    ],
-   "epss": 0.00518
+   "epss": 0.00604
+  },
+  {
+   "id": "CVE-2026-90979",
+   "vendor": "Apache",
+   "product": "karaf",
+   "category": "Application Platforms",
+   "cvss": 7.3,
+   "kev": false,
+   "published": "2026-09-28",
+   "title": "LDAPCache and LDAPBackingEngine build LDAP search filters for user lookup and role lookup by textually...",
+   "summary": "LDAPCache and LDAPBackingEngine build LDAP search filters for user lookup and role lookup by textually substituting the placeholders %u, %dn, and %fqdn (drawn from the login name, the resolved user DN, and its fully qualified namespace form) into administrator-configured filter templates (userFilter, roleFilter). Before the fix, the only sanitization applied to the substituted value was double backslashed:\n\nfilter = filter.replaceAll(Pattern.quote(\"%u\"), Matcher.quoteReplacement(user));\n\nfilter = filter.replace(\"\\\\\", \"\\\\\\\\\");\n\n\n\n\nThis does not escape the other characters RFC 4515 requires escaping in an LDAP search filter: *, (, ), and NUL. A login name containing any of these can change the structure of the resulting filter rather than being matched as a literal value (e.g. a crafted username can turn an equality match into a wildcard match, or close/reopen filter clauses), widening what the search returns and potentially causing a login or role lookup to match an LDAP entry other than the intended one, over-granting roles, and depending on deployment-specific filter templates, potentially affecting which account a login resolved to.\n\n\n\n\nIt's not exploitable through every entry points: LDAPLoginModule and LDAPPubkeyLoginModule both called Util.doRFC2254Encoding() (correct RFC 4515 escaping) on the login name before handing it to LDAPCache, which masked the missing escaping in LDAPCache for those two call paths. Using LDAPCache directly (bypassing the login modules) does not reproduce through the normal LDAPLoginModule/LDAPPubkeyLoginModule authentication flow for this reason. It does reproduce through two other call paths that reach LDAPCache/LDAPBackingEngine without any prior escaping:\n\n  *  GSSAPILdapLoginModule passes the NameCallback name straight through, unescaped.\n  *  LDAPBackingEngine (listRoles) passes principal.getName() straight through, unescaped.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "karaf",
+     "toExcl": "4.4.12"
+    }
+   ],
+   "epss": 0.00274
+  },
+  {
+   "id": "CVE-2026-91006",
+   "vendor": "Apache",
+   "product": "karaf",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-09-28",
+   "title": "Apache Karaf's instance-management service (InstanceServiceImpl) builds the command line used to launch a...",
+   "summary": "Apache Karaf's instance-management service (InstanceServiceImpl) builds the command line used to launch a child Karaf JVM by string concatenation, then executes it through /bin/sh (Unix) or cscript (Windows). The caller-supplied javaOpts value is spliced into that string unquoted. A javaOpts value containing shell metacharacters (;, |, `, $(...)) is interpreted by the shell instead of being passed to the JVM as an option, giving arbitrary OS command execution as the Karaf process user.\n\n\nReachable via the shell commands instance:create, instance:start, instance:restart, instance:change-opts, and the equivalent InstanceMBean JMX operations (createInstance, startInstance, changeJavaOpts, cloneInstance).\n\nMitigation   *  Set karaf.secured.command.compulsory.roles=admin in etc/system.properties to close the fail-open gap for all unconfigured command scopes.\n  *  Restrict which principals can reach instance:* commands and InstancesMBean via etc/users.properties role assignments.\n  *  Treat javaOpts passed to instance:create/instance:start/instance:change-opts/InstancesMBean as untrusted input only from fully-trusted operators.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "karaf",
+     "toExcl": "4.4.12"
+    }
+   ],
+   "epss": 0.009
   },
   {
    "id": "CVE-2026-88771",
@@ -1580,6 +1764,120 @@
    "epss": 0.00483
   },
   {
+   "id": "CVE-2026-67410",
+   "vendor": "Broadcom",
+   "product": "rabbitmq server",
+   "category": "Application Platforms",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-09-25",
+   "title": "RabbitMQ is a messaging and streaming broker.",
+   "summary": "RabbitMQ is a messaging and streaming broker. From 4.2.0 until 4.3.3 and 4.2.9, OAuth2 Client Secret Exposed via Unauthenticated JavaScript Endpoint (CWE-200). when OAuth2 authentication is enabled for the RabbitMQ Management UI and the configured flow, IDP use a client secret, the oauthclientsecret configuration value is included in the JavaScript served by the unauthenticated endpoint /js/oidc-oauth/bootstrap.js. Any user who can reach the management UI port can retrieve the OAuth2 client secret without Files: deps/rabbitmqmanagement/src/rabbitmgmtwmauth.erl, line 186 deps/rabbitmqmanagement/src/rabbitmgmtoauthbootstrap.erl, lines 35-50 deps/rabbitmqmanagement/src/rabbitmgmtdispatcher.erl, lines 45-49 (route registration) Code Path: 1. The route /js/oidc-oauth/bootstrap.js is registered as a plain Cowboy handler (rabbitmgmtdispatcher.erl:46): Credential exposure for the affected configuration: OAuth2 client secret is accessible without any authentication Token theft: Attacker can complete the authorization code flow using stolen authorization codes Client impersonation: Attacker can make requests. Any RabbitMQ deployment with: This issue is fixed in versions 4.3.3 and 4.2.9.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.2.0",
+     "toExcl": "4.2.9"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.3.0",
+     "toExcl": "4.3.3"
+    }
+   ],
+   "epss": 0.00401
+  },
+  {
+   "id": "CVE-2026-67411",
+   "vendor": "Broadcom",
+   "product": "rabbitmq server",
+   "category": "Application Platforms",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-09-25",
+   "title": "RabbitMQ is a messaging and streaming broker.",
+   "summary": "RabbitMQ is a messaging and streaming broker. From 3.13.0 until 3.13.18, 4.0.23, 4.1.14, 4.2.9, and 4.3.3, native MQTT and MQTT over WebSocket behind a trusted PROXY Protocol frontend could lose the proxy-derived client address before the MQTT authentication path checked loopback_users, causing the frontend-to-broker address to be treated as loopback. An attacker who can reach the trusted frontend and has valid credentials for a loopback-restricted account can therefore bypass the source-address restriction; the issue does not bypass password authentication. This issue is fixed in versions 3.13.18, 4.0.23, 4.1.14, 4.2.9, and 4.3.3.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "3.13.0",
+     "toExcl": "3.13.18"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.0.0",
+     "toExcl": "4.0.23"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.1.0",
+     "toExcl": "4.1.14"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.2.0",
+     "toExcl": "4.2.9"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.3.0",
+     "toExcl": "4.3.3"
+    }
+   ],
+   "epss": 0.00393
+  },
+  {
+   "id": "CVE-2026-67412",
+   "vendor": "Broadcom",
+   "product": "rabbitmq server",
+   "category": "Application Platforms",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-09-25",
+   "title": "RabbitMQ is a messaging and streaming broker.",
+   "summary": "RabbitMQ is a messaging and streaming broker. From 3.13.0 until 4.3.3, 4.2.9 , 4.1.14, 4.0.24, and 3.13.18, Federation upstream in RabbitMQ skips vhost authorization allowing cross-vhost message access. what the bug lets you do. A policymaker on one vhost reads and drains messages out of another vhost it has no permission on. With the default ack-mode the source messages are consumed (deleted), not copied. Why that should not 1. Federation validates the upstream URI without any vhost-access Cross-vhost message read/drain from a per-vhost policymaker, breaking vhost tenancy This issue is fixed in versions 4.3.3, 4.2.9 , 4.1.14, 4.0.24, and 3.13.18.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "3.13.0",
+     "toExcl": "3.13.18"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.0.0",
+     "toExcl": "4.0.24"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.1.0",
+     "toExcl": "4.1.14"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.2.0",
+     "toExcl": "4.2.9"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.3.0",
+     "toExcl": "4.3.3"
+    }
+   ],
+   "epss": 0.00302
+  },
+  {
    "id": "CVE-2026-89078",
    "vendor": "GitLab",
    "product": "gitlab",
@@ -1794,6 +2092,266 @@
     }
    ],
    "epss": 0.00216
+  },
+  {
+   "id": "CVE-2026-91789",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "Foxit PDF Editor/Reader’s U3D/GIF texture decoding path contained insufficient validation of image dimensions...",
+   "summary": "Foxit PDF Editor/Reader’s U3D/GIF texture decoding path contained insufficient validation of image dimensions and related size information. Under certain conditions, this could lead to an incorrectly sized memory allocation and a subsequent out-of-bounds write during pixel processing, potentially resulting in remote code execution.",
+   "affects": [],
+   "epss": 0.00162
+  },
+  {
+   "id": "CVE-2026-91790",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "When rendering the page image, Foxit PDF Editor/Reader fails to perform validation on image objects whose...",
+   "summary": "When rendering the page image, Foxit PDF Editor/Reader fails to perform validation on image objects whose optional content attributes are malformed. As a result, the program may access an already-freed internal data structure, triggering a crash due to UAF.",
+   "affects": [],
+   "epss": 0.00125
+  },
+  {
+   "id": "CVE-2026-91791",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "When processing a specially crafted PDF file, Foxit PDF Editor/Reader may encounter a reentrant execution...",
+   "summary": "When processing a specially crafted PDF file, Foxit PDF Editor/Reader may encounter a reentrant execution condition involving JavaScript triggered by page-visibility events. This can cause the application to access a released page-view object while calculating annotation boundaries, resulting in an invalid memory read and application crash.",
+   "affects": [],
+   "epss": 0.00136
+  },
+  {
+   "id": "CVE-2026-91792",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "When processing a specially crafted PDF, Foxit PDF Editor/Reader may perform reentrant zoom and layout...",
+   "summary": "When processing a specially crafted PDF, Foxit PDF Editor/Reader may perform reentrant zoom and layout operations through page- and annotation-related JavaScript actions. This can cause the application to access page objects after they have been released, resulting in a use-after-free condition and an application crash.",
+   "affects": [],
+   "epss": 0.00125
+  },
+  {
+   "id": "CVE-2026-91793",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "When opening a specially crafted PDF, Foxit PDF Editor/Reader executes scripts that modify annotation...",
+   "summary": "When opening a specially crafted PDF, Foxit PDF Editor/Reader executes scripts that modify annotation rich-text attributes containing malformed font data. During subsequent annotation appearance reconstruction, it accesses an object after it has been released, resulting in a use-after-free condition and an application crash.",
+   "affects": [],
+   "epss": 0.00125
+  },
+  {
+   "id": "CVE-2026-91795",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "Foxit PDF Editor/Reader's FileOpen plugin did not adequately validate certain encryption metadata in...",
+   "summary": "Foxit PDF Editor/Reader's FileOpen plugin did not adequately validate certain encryption metadata in specially crafted PDF files. This could leave an internal pointer in an invalid state, resulting in chained read and write access violations and potentially enabling arbitrary code execution.",
+   "affects": [],
+   "epss": 0.00085
+  },
+  {
+   "id": "CVE-2026-91797",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "Foxit PDF Editor/Reader failed to validate the directory traversal path in the attachment file name,...",
+   "summary": "Foxit PDF Editor/Reader failed to validate the directory traversal path in the attachment file name, resulting in malicious attachments being able to be written to directories outside the expected secure area when the PDF is opened.",
+   "affects": [],
+   "epss": 0.00215
+  },
+  {
+   "id": "CVE-2026-91799",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of JavaScript array objects.",
+   "summary": "A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of JavaScript array objects. A specially crafted PDF may cause the application to access a released object during array processing, potentially resulting in application crashes or arbitrary code execution.",
+   "affects": [],
+   "epss": 0.00134
+  },
+  {
+   "id": "CVE-2026-91801",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "A path traversal vulnerability exists in Foxit PDF Editor/Reader's handling of embedded PDF resources.",
+   "summary": "A path traversal vulnerability exists in Foxit PDF Editor/Reader's handling of embedded PDF resources. Insufficient validation of resource file paths may allow files to be written outside their intended locations, potentially enabling arbitrary code execution.",
+   "affects": [],
+   "epss": 0.00154
+  },
+  {
+   "id": "CVE-2026-91802",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "A heap-based out-of-bounds write vulnerability exists in Foxit PDF Editor/Reader’s WebP image decoding due to...",
+   "summary": "A heap-based out-of-bounds write vulnerability exists in Foxit PDF Editor/Reader’s WebP image decoding due to improper handling of bitmap stride and target buffer formats. Successful exploitation could result in an application crash.",
+   "affects": [],
+   "epss": 0.00116
+  },
+  {
+   "id": "CVE-2026-91803",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "A local privilege escalation vulnerability exists in the updater of Foxit PDF Editor/Reader due to unsafe...",
+   "summary": "A local privilege escalation vulnerability exists in the updater of Foxit PDF Editor/Reader due to unsafe loading of dynamic-link libraries from a user-writable directory during high-privilege operations. A local attacker could exploit this issue to execute code with elevated privileges.",
+   "affects": [],
+   "epss": 0.00116
+  },
+  {
+   "id": "CVE-2026-91804",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "A heap-based out-of-bounds write vulnerability exists in Foxit PDF Editor/Reader’s rendering of Circle...",
+   "summary": "A heap-based out-of-bounds write vulnerability exists in Foxit PDF Editor/Reader’s rendering of Circle annotations with malformed Cloudy appearance streams in specially crafted PDF files. Insufficient validation of the appearance geometry can result in memory corruption and application crashes.",
+   "affects": [],
+   "epss": 0.00116
+  },
+  {
+   "id": "CVE-2026-91805",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s PDF page-tree handling.",
+   "summary": "A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s PDF page-tree handling. A specially crafted PDF can trigger page-structure changes during rendering, causing the application to access released page objects and resulting in memory corruption and an application crash.",
+   "affects": [],
+   "epss": 0.00116
+  },
+  {
+   "id": "CVE-2026-91806",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of PDF form fields.",
+   "summary": "A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of PDF form fields. Embedded JavaScript may access form-field references after the corresponding fields have been released, resulting in an application crash.",
+   "affects": [],
+   "epss": 0.00116
+  },
+  {
+   "id": "CVE-2026-91809",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of malformed PDF form fields.",
+   "summary": "A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of malformed PDF form fields. Improper validation during field-name traversal may cause the application to access a released object, resulting in an application crash.",
+   "affects": [],
+   "epss": 0.00116
+  },
+  {
+   "id": "CVE-2026-91812",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.9,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "A vulnerability in Foxit PDF Editor/Reader’s update mechanism allows man-in-the-middle attackers to bypass...",
+   "summary": "A vulnerability in Foxit PDF Editor/Reader’s update mechanism allows man-in-the-middle attackers to bypass certificate validation and package integrity checks, potentially enabling arbitrary code execution with system privileges.",
+   "affects": [],
+   "epss": 0.00082
+  },
+  {
+   "id": "CVE-2026-91813",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "A vulnerability in Foxit PDF Editor/Reader’s update mechanism allows an update package to be replaced between...",
+   "summary": "A vulnerability in Foxit PDF Editor/Reader’s update mechanism allows an update package to be replaced between download and high-privilege extraction due to insufficient file locking and integrity validation. This could enable local attackers to execute arbitrary code with elevated privileges.",
+   "affects": [],
+   "epss": 0.00091
+  },
+  {
+   "id": "CVE-2026-91815",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "Foxit PDF Editor/Reader does not perform sufficient verification of the JPEG2000 image metadata in the PDF...",
+   "summary": "Foxit PDF Editor/Reader does not perform sufficient verification of the JPEG2000 image metadata in the PDF file, which leads to out-of-bounds write in the heap buffer during decoding, potentially causing the program to crash and introducing the risk of arbitrary code execution.",
+   "affects": [],
+   "epss": 0.00126
+  },
+  {
+   "id": "CVE-2026-91816",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of PDF annotations.",
+   "summary": "A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of PDF annotations. Reentrant annotation deletion triggered by embedded JavaScript can cause the application to access an annotation object after it has been released, resulting in a use-after-free condition and application crash.",
+   "affects": [],
+   "epss": 0.00116
+  },
+  {
+   "id": "CVE-2026-91818",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s JavaScript handling of PDF annotations.",
+   "summary": "A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s JavaScript handling of PDF annotations. Reentrant page-event processing during annotation enumeration may release the associated page object, which is subsequently accessed, resulting in an application crash.",
+   "affects": [],
+   "epss": 0.00116
   },
   {
    "id": "CVE-2026-25264",
@@ -2458,7 +3016,7 @@
      "product": "azure billing"
     }
    ],
-   "epss": 0.00428
+   "epss": 0.00325
   },
   {
    "id": "CVE-2026-93375",
@@ -2700,7 +3258,7 @@
      "product": "365 copilot chat"
     }
    ],
-   "epss": 0.00893
+   "epss": 0.00477
   },
   {
    "id": "CVE-2025-14871",
@@ -8723,6 +9281,201 @@
      "toExcl": "153.0.4234.32"
     }
    ]
+  },
+  {
+   "id": "CVE-2026-83430",
+   "vendor": "Oracle",
+   "product": "product workbench",
+   "category": "Application Platforms",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-09-15",
+   "title": "Vulnerability in the Oracle Product Workbench product of Oracle E-Business Suite (component: Internal...",
+   "summary": "Vulnerability in the Oracle Product Workbench product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Product Workbench.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Product Workbench accessible data as well as  unauthorized access to critical data or complete access to all Oracle Product Workbench accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "product workbench"
+    }
+   ],
+   "epss": 0.0035
+  },
+  {
+   "id": "CVE-2026-83434",
+   "vendor": "Oracle",
+   "product": "product workbench",
+   "category": "Application Platforms",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-09-15",
+   "title": "Vulnerability in the Oracle Product Workbench product of Oracle E-Business Suite (component: Internal...",
+   "summary": "Vulnerability in the Oracle Product Workbench product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Product Workbench.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Product Workbench accessible data as well as  unauthorized access to critical data or complete access to all Oracle Product Workbench accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "product workbench"
+    }
+   ],
+   "epss": 0.0035
+  },
+  {
+   "id": "CVE-2026-83452",
+   "vendor": "Oracle",
+   "product": "document management and collaboration",
+   "category": "Application Platforms",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-09-15",
+   "title": "Vulnerability in the Oracle Document Management and Collaboration product of Oracle E-Business Suite...",
+   "summary": "Vulnerability in the Oracle Document Management and Collaboration product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Document Management and Collaboration.  Successful attacks of this vulnerability can result in takeover of Oracle Document Management and Collaboration. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "document management and collaboration",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00483
+  },
+  {
+   "id": "CVE-2026-83453",
+   "vendor": "Oracle",
+   "product": "document management and collaboration",
+   "category": "Application Platforms",
+   "cvss": 7.2,
+   "kev": false,
+   "published": "2026-09-15",
+   "title": "Vulnerability in the Oracle Document Management and Collaboration product of Oracle E-Business Suite...",
+   "summary": "Vulnerability in the Oracle Document Management and Collaboration product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle Document Management and Collaboration.  Successful attacks of this vulnerability can result in takeover of Oracle Document Management and Collaboration. CVSS 3.1 Base Score 7.2 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "document management and collaboration",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00462
+  },
+  {
+   "id": "CVE-2026-83454",
+   "vendor": "Oracle",
+   "product": "document management and collaboration",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-09-15",
+   "title": "Vulnerability in the Oracle Document Management and Collaboration product of Oracle E-Business Suite...",
+   "summary": "Vulnerability in the Oracle Document Management and Collaboration product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Document Management and Collaboration.  Successful attacks of this vulnerability can result in takeover of Oracle Document Management and Collaboration. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "document management and collaboration",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00417
+  },
+  {
+   "id": "CVE-2026-83482",
+   "vendor": "Oracle",
+   "product": "e-business suite",
+   "category": "ERP & Business Apps",
+   "cvss": 7.2,
+   "kev": false,
+   "published": "2026-09-15",
+   "title": "Vulnerability in the Oracle Contracts product of Oracle E-Business Suite (component: Internal Operations).",
+   "summary": "Vulnerability in the Oracle Contracts product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.14-12.2.15. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle Contracts.  Successful attacks of this vulnerability can result in takeover of Oracle Contracts. CVSS 3.1 Base Score 7.2 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "e-business suite",
+     "from": "12.2.14",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00462
+  },
+  {
+   "id": "CVE-2026-87150",
+   "vendor": "Oracle",
+   "product": "bills of material",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-09-15",
+   "title": "Vulnerability in the Oracle Bills of Material product of Oracle E-Business Suite (component: Setup Workbench).",
+   "summary": "Vulnerability in the Oracle Bills of Material product of Oracle E-Business Suite (component: Setup Workbench).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Bills of Material.  Successful attacks of this vulnerability can result in takeover of Oracle Bills of Material. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "bills of material",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00417
+  },
+  {
+   "id": "CVE-2026-87151",
+   "vendor": "Oracle",
+   "product": "bills of material",
+   "category": "Application Platforms",
+   "cvss": 7.7,
+   "kev": false,
+   "published": "2026-09-15",
+   "title": "Vulnerability in the Oracle Bills of Material product of Oracle E-Business Suite (component: Setup Workbench).",
+   "summary": "Vulnerability in the Oracle Bills of Material product of Oracle E-Business Suite (component: Setup Workbench).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Bills of Material.  While the vulnerability is in Oracle Bills of Material, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Bills of Material accessible data. CVSS 3.1 Base Score 7.7 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "bills of material",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.0034
+  },
+  {
+   "id": "CVE-2026-87157",
+   "vendor": "Oracle",
+   "product": "order management enterprise command center",
+   "category": "Application Platforms",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-09-15",
+   "title": "Vulnerability in the Oracle Order Management product of Oracle E-Business Suite (component: Product...",
+   "summary": "Vulnerability in the Oracle Order Management product of Oracle E-Business Suite (component: Product Diagnostic Tools).  Supported versions that are affected are 12.2.4-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Order Management.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Order Management accessible data as well as  unauthorized access to critical data or complete access to all Oracle Order Management accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "order management enterprise command center",
+     "from": "12.2.4",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.0035
+  },
+  {
+   "id": "CVE-2026-87158",
+   "vendor": "Oracle",
+   "product": "order management enterprise command center",
+   "category": "Application Platforms",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-09-15",
+   "title": "Vulnerability in the Oracle Order Management product of Oracle E-Business Suite (component: Enterprise...",
+   "summary": "Vulnerability in the Oracle Order Management product of Oracle E-Business Suite (component: Enterprise Command Center).   The supported version that is affected is V16. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Order Management.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Order Management accessible data as well as  unauthorized update, insert or delete access to some of Oracle Order Management accessible data. CVSS 3.1 Base Score 7.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "order management enterprise command center",
+     "version": "16.0"
+    }
+   ],
+   "epss": 0.0029
   },
   {
    "id": "CVE-2026-76461",
@@ -19217,7 +19970,7 @@
    "published": "2026-09-08",
    "title": "Animate is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could...",
    "summary": "Animate is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue requires user interaction in that a victim must open a malicious file. Scope is changed.",
-   "epss": 0.00329,
+   "epss": 0.00242,
    "affects": []
   },
   {
@@ -23445,7 +24198,7 @@
      "toExcl": "22.8.2"
     }
    ],
-   "epss": 0.00882
+   "epss": 0.00863
   },
   {
    "id": "CVE-2026-65772",
@@ -23465,7 +24218,7 @@
      "toExcl": "9.1.0046.0006"
     }
    ],
-   "epss": 0.01693
+   "epss": 0.01694
   },
   {
    "id": "CVE-2026-78446",
@@ -23478,7 +24231,7 @@
    "title": "Use after free in Windows Distributed File System (DFS) allows an authorized attacker to execute code over a...",
    "summary": "Use after free in Windows Distributed File System (DFS) allows an authorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00828
+   "epss": 0.00476
   },
   {
    "id": "CVE-2026-78254",

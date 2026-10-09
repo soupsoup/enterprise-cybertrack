@@ -6,6 +6,16 @@
 <description>High and critical JetBrains vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/jetbrains.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-106218 JetBrains teamcity: In JetBrains TeamCity before 2026.1.3
+2025.11.7 kotlin DSL sandbox escape leading to RCE on the server was...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-106218</link>
+<guid isPermaLink="false">CVE-2026-106218</guid>
+<pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.1.3
+2025.11.7 kotlin DSL sandbox escape leading to RCE on the server was possible | CVSS 8.8 | EPSS 0.3%</description>
+</item>
+<item>
 <title>CVE-2026-103493 JetBrains youtrack: In JetBrains YouTrack before 2026.2.19422 stored XSS via Mermaid and LaTeX content was possible</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-103493</link>
 <guid isPermaLink="false">CVE-2026-103493</guid>

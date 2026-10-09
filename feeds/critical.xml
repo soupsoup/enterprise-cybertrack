@@ -6,6 +6,18 @@
 <description>Newly published critical (CVSS 9.0+) enterprise vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/critical.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-104711 Apache struts: Improper neutralization of special elements used in an expression language statement (&apos;Expression Language...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-104711</link>
+<guid isPermaLink="false">CVE-2026-104711</guid>
+<pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Improper neutralization of special elements used in an expression language statement (&apos;Expression Language Injection&apos;) vulnerability in Apache Struts. If the application is configured to use the legacy RESTful action mapper, a crafted request can inject an OGNL expression that may lead to remote code execution. Struts 7 is affected only when the OGNL allowlist is disabled; it is enabled by default. Applications using the default action mapper, the restful2 mapper, or the Struts REST plugin are not affected.
+
+This issue affects Apache Struts: from 2.0.0 through 2.3.37, from 2.5.0 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.
+
+Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 9.8 | EPSS 0.9%</description>
+</item>
+<item>
 <title>CVE-2026-103626 Microsoft windows: Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-103626</link>
 <guid isPermaLink="false">CVE-2026-103626</guid>
@@ -122,7 +134,7 @@ Both code paths are reachable by any caller holding the &quot;manager&quot; role
 
 
 
-ConfigMBeanImpl.install() and the config:install shell command already guarded the equivalent risk on their own code path with a finalname.contains(&quot;..&quot;) string check, but that check does not stop absolute paths or symlink-based escapes, and it was never applied to ConfigRepositoryImpl.update() / createFactoryConfiguration() at all. | CVSS 9.8 | EPSS 0.5%</description>
+ConfigMBeanImpl.install() and the config:install shell command already guarded the equivalent risk on their own code path with a finalname.contains(&quot;..&quot;) string check, but that check does not stop absolute paths or symlink-based escapes, and it was never applied to ConfigRepositoryImpl.update() / createFactoryConfiguration() at all. | CVSS 9.8 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-91048 Apache karaf: The jdbc shell command scope shipped no org.apache.karaf.command.acl.jdbc.cfg.</title>
@@ -133,7 +145,7 @@ ConfigMBeanImpl.install() and the config:install shell command already guarde
 <description>The jdbc shell command scope shipped no org.apache.karaf.command.acl.jdbc.cfg. Karaf&apos;s command guard (SecuredSessionFactoryImpl) treats a command with no matching ACL rule as allowed, so any authenticated shell session (including one holding only the viewer role) could run every jdbc:* command. jdbc:ds-create stores a fully attacker-controlled JDBC URL into a pax-jdbc-config factory Configuration with no validation. pax-jdbc-config reactively turns that into a live DataSource. Several JDBC drivers run code or SQL at connection time based on URL parameters (e.g. H2 INIT=RUNSCRIPT), so a viewer-level shell user could reach arbitrary code execution, bypassing the admin-role gate that already protects shell:exec. This is a privilege-escalation-to-RCE chain, not merely an &quot;admin misconfiguration&quot;.
 
 
-The same applies to jms:* shell commands. | CVSS 9.8 | EPSS 0.4%</description>
+The same applies to jms:* shell commands. | CVSS 9.8 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-88771 Citrix netscaler application delivery controller: Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.</title>
@@ -462,7 +474,7 @@ Users of apache-airflow are recommended to upgrade to apache-airflow version 3.3
 <guid isPermaLink="false">CVE-2026-62874</guid>
 <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
 <category>Cloud &amp; AI Services</category>
-<description>Insufficient verification of data authenticity in Azure Billing allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 0.4%</description>
+<description>Insufficient verification of data authenticity in Azure Billing allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-69399 Microsoft azure arc: Azure Arc Elevation of Privilege Vulnerability</title>
@@ -894,14 +906,6 @@ This vulnerability is due to insufficient authentication control on an API endpo
 <title>CVE-2026-83060 Oracle internet directory: Vulnerability in the Oracle Internet Directory product of Oracle Fusion Middleware (component: OID LDAP...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83060</link>
 <guid isPermaLink="false">CVE-2026-83060</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Identity &amp; Directory</category>
-<description>Vulnerability in the Oracle Internet Directory product of Oracle Fusion Middleware (component: OID LDAP Server).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via LDAP to compromise Oracle Internet Directory.  Successful attacks of this vulnerability can result in takeover of Oracle Internet Directory. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-83061 Oracle internet directory: Vulnerability in the Oracle Internet Directory product of Oracle Fusion Middleware (component: OID LDAP...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83061</link>
-<guid isPermaLink="false">CVE-2026-83061</guid>
 <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
 <category>Identity &amp; Directory</category>
 <description>Vulnerability in the Oracle Internet Directory product of Oracle Fusion Middleware (component: OID LDAP Server).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via LDAP to compromise Oracle Internet Directory.  Successful attacks of this vulnerability can result in takeover of Oracle Internet Directory. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>

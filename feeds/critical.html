@@ -17,6 +17,17 @@
 </div></header>
 <main class="wrap news">
 <article>
+<time datetime="2026-10-05">October 5, 2026</time>
+<h2><a href="../#cve=CVE-2026-104711">CVE-2026-104711: Improper neutralization of special elements used in an expression language statement (&apos;Expression Language...</a></h2>
+<p class="who">Apache struts</p>
+<p>Improper neutralization of special elements used in an expression language statement (&apos;Expression Language Injection&apos;) vulnerability in Apache Struts. If the application is configured to use the legacy RESTful action mapper, a crafted request can inject an OGNL expression that may lead to remote code execution. Struts 7 is affected only when the OGNL allowlist is disabled; it is enabled by default. Applications using the default action mapper, the restful2 mapper, or the Struts REST plugin are not affected.
+
+This issue affects Apache Struts: from 2.0.0 through 2.3.37, from 2.5.0 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.
+
+Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.9%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-104711" rel="noopener">NVD record</a></div>
+</article>
+<article>
 <time datetime="2026-10-02">October 2, 2026</time>
 <h2><a href="../#cve=CVE-2026-103626">CVE-2026-103626: Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...</a></h2>
 <p class="who">Microsoft windows</p>
@@ -123,7 +134,7 @@ Both code paths are reachable by any caller holding the &quot;manager&quot; role
 
 
 ConfigMBeanImpl.install() and the config:install shell command already guarded the equivalent risk on their own code path with a finalname.contains(&quot;..&quot;) string check, but that check does not stop absolute paths or symlink-based escapes, and it was never applied to ConfigRepositoryImpl.update() / createFactoryConfiguration() at all.</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.5%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-91012" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.6%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-91012" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-09-29">September 29, 2026</time>
@@ -133,7 +144,7 @@ ConfigMBeanImpl.install() and the config:install shell command already guarde
 
 
 The same applies to jms:* shell commands.</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-91048" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.5%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-91048" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-09-27">September 27, 2026</time>
@@ -425,7 +436,7 @@ Users of apache-airflow are recommended to upgrade to apache-airflow version 3.3
 <h2><a href="../#cve=CVE-2026-62874">CVE-2026-62874: Insufficient verification of data authenticity in Azure Billing allows an unauthorized attacker to elevate...</a></h2>
 <p class="who">Microsoft azure billing</p>
 <p>Insufficient verification of data authenticity in Azure Billing allows an unauthorized attacker to elevate privileges over a network.</p>
-<div class="meta"><span class="pill">CVSS 10</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-62874" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 10</span>  <span class="pill">EPSS 0.3%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-62874" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-09-17">September 17, 2026</time>
@@ -810,14 +821,7 @@ This vulnerability is due to insufficient authentication control on an API endpo
 <p>Vulnerability in the Oracle Internet Directory product of Oracle Fusion Middleware (component: OID LDAP Server).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via LDAP to compromise Oracle Internet Directory.  Successful attacks of this vulnerability can result in takeover of Oracle Internet Directory. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).</p>
 <div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.5%</span> <span class="pill">Identity &amp; Directory</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-83060" rel="noopener">NVD record</a></div>
 </article>
-<article>
-<time datetime="2026-09-15">September 15, 2026</time>
-<h2><a href="../#cve=CVE-2026-83061">CVE-2026-83061: Vulnerability in the Oracle Internet Directory product of Oracle Fusion Middleware (component: OID LDAP...</a></h2>
-<p class="who">Oracle internet directory</p>
-<p>Vulnerability in the Oracle Internet Directory product of Oracle Fusion Middleware (component: OID LDAP Server).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via LDAP to compromise Oracle Internet Directory.  Successful attacks of this vulnerability can result in takeover of Oracle Internet Directory. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.5%</span> <span class="pill">Identity &amp; Directory</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-83061" rel="noopener">NVD record</a></div>
-</article>
 </main>
-<footer class="wrap foot">Generated 2026-10-08 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-10-09 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>

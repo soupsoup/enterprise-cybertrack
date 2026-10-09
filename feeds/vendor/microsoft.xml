@@ -14,6 +14,14 @@
 <description>Use after free in Fonts in Google Chrome on on Windows prior to 155.0.8059.39 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium) | CVSS 8.8 | EPSS 0.3%</description>
 </item>
 <item>
+<title>CVE-2026-106186 Microsoft windows: Uncontrolled search path element in CredentialProvider in Google Chrome on on Windows prior to 155.0.8059.39...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-106186</link>
+<guid isPermaLink="false">CVE-2026-106186</guid>
+<pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Uncontrolled search path element in CredentialProvider in Google Chrome on on Windows prior to 155.0.8059.39 allowed a local attacker to potentially execute arbitrary code outside the sandbox via a local program. (Chromium security severity: Low) | CVSS 8.6 | EPSS 0.1%</description>
+</item>
+<item>
 <title>CVE-2026-103624 Microsoft windows: Use after free in Contextual Tasks in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-103624</link>
 <guid isPermaLink="false">CVE-2026-103624</guid>
@@ -44,6 +52,166 @@
 <pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Microsoft Office Outlook Remote Code Execution Vulnerability | CVSS 8.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-91789 Microsoft windows: Foxit PDF Editor/Reader’s U3D/GIF texture decoding path contained insufficient validation of image dimensions...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91789</link>
+<guid isPermaLink="false">CVE-2026-91789</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Foxit PDF Editor/Reader’s U3D/GIF texture decoding path contained insufficient validation of image dimensions and related size information. Under certain conditions, this could lead to an incorrectly sized memory allocation and a subsequent out-of-bounds write during pixel processing, potentially resulting in remote code execution. | CVSS 7.8 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-91790 Microsoft windows: When rendering the page image, Foxit PDF Editor/Reader fails to perform validation on image objects whose...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91790</link>
+<guid isPermaLink="false">CVE-2026-91790</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>When rendering the page image, Foxit PDF Editor/Reader fails to perform validation on image objects whose optional content attributes are malformed. As a result, the program may access an already-freed internal data structure, triggering a crash due to UAF. | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91791 Microsoft windows: When processing a specially crafted PDF file, Foxit PDF Editor/Reader may encounter a reentrant execution...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91791</link>
+<guid isPermaLink="false">CVE-2026-91791</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>When processing a specially crafted PDF file, Foxit PDF Editor/Reader may encounter a reentrant execution condition involving JavaScript triggered by page-visibility events. This can cause the application to access a released page-view object while calculating annotation boundaries, resulting in an invalid memory read and application crash. | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91792 Microsoft windows: When processing a specially crafted PDF, Foxit PDF Editor/Reader may perform reentrant zoom and layout...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91792</link>
+<guid isPermaLink="false">CVE-2026-91792</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>When processing a specially crafted PDF, Foxit PDF Editor/Reader may perform reentrant zoom and layout operations through page- and annotation-related JavaScript actions. This can cause the application to access page objects after they have been released, resulting in a use-after-free condition and an application crash. | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91793 Microsoft windows: When opening a specially crafted PDF, Foxit PDF Editor/Reader executes scripts that modify annotation...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91793</link>
+<guid isPermaLink="false">CVE-2026-91793</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>When opening a specially crafted PDF, Foxit PDF Editor/Reader executes scripts that modify annotation rich-text attributes containing malformed font data. During subsequent annotation appearance reconstruction, it accesses an object after it has been released, resulting in a use-after-free condition and an application crash. | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91795 Microsoft windows: Foxit PDF Editor/Reader&apos;s FileOpen plugin did not adequately validate certain encryption metadata in...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91795</link>
+<guid isPermaLink="false">CVE-2026-91795</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Foxit PDF Editor/Reader&apos;s FileOpen plugin did not adequately validate certain encryption metadata in specially crafted PDF files. This could leave an internal pointer in an invalid state, resulting in chained read and write access violations and potentially enabling arbitrary code execution. | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91797 Microsoft windows: Foxit PDF Editor/Reader failed to validate the directory traversal path in the attachment file name,...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91797</link>
+<guid isPermaLink="false">CVE-2026-91797</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Foxit PDF Editor/Reader failed to validate the directory traversal path in the attachment file name, resulting in malicious attachments being able to be written to directories outside the expected secure area when the PDF is opened. | CVSS 7.8 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-91799 Microsoft windows: A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of JavaScript array objects.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91799</link>
+<guid isPermaLink="false">CVE-2026-91799</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of JavaScript array objects. A specially crafted PDF may cause the application to access a released object during array processing, potentially resulting in application crashes or arbitrary code execution. | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91801 Microsoft windows: A path traversal vulnerability exists in Foxit PDF Editor/Reader&apos;s handling of embedded PDF resources.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91801</link>
+<guid isPermaLink="false">CVE-2026-91801</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>A path traversal vulnerability exists in Foxit PDF Editor/Reader&apos;s handling of embedded PDF resources. Insufficient validation of resource file paths may allow files to be written outside their intended locations, potentially enabling arbitrary code execution. | CVSS 7.8 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-91802 Microsoft windows: A heap-based out-of-bounds write vulnerability exists in Foxit PDF Editor/Reader’s WebP image decoding due to...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91802</link>
+<guid isPermaLink="false">CVE-2026-91802</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>A heap-based out-of-bounds write vulnerability exists in Foxit PDF Editor/Reader’s WebP image decoding due to improper handling of bitmap stride and target buffer formats. Successful exploitation could result in an application crash. | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91803 Microsoft windows: A local privilege escalation vulnerability exists in the updater of Foxit PDF Editor/Reader due to unsafe...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91803</link>
+<guid isPermaLink="false">CVE-2026-91803</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>A local privilege escalation vulnerability exists in the updater of Foxit PDF Editor/Reader due to unsafe loading of dynamic-link libraries from a user-writable directory during high-privilege operations. A local attacker could exploit this issue to execute code with elevated privileges. | CVSS 8.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91804 Microsoft windows: A heap-based out-of-bounds write vulnerability exists in Foxit PDF Editor/Reader’s rendering of Circle...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91804</link>
+<guid isPermaLink="false">CVE-2026-91804</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>A heap-based out-of-bounds write vulnerability exists in Foxit PDF Editor/Reader’s rendering of Circle annotations with malformed Cloudy appearance streams in specially crafted PDF files. Insufficient validation of the appearance geometry can result in memory corruption and application crashes. | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91805 Microsoft windows: A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s PDF page-tree handling.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91805</link>
+<guid isPermaLink="false">CVE-2026-91805</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s PDF page-tree handling. A specially crafted PDF can trigger page-structure changes during rendering, causing the application to access released page objects and resulting in memory corruption and an application crash. | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91806 Microsoft windows: A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of PDF form fields.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91806</link>
+<guid isPermaLink="false">CVE-2026-91806</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of PDF form fields. Embedded JavaScript may access form-field references after the corresponding fields have been released, resulting in an application crash. | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91809 Microsoft windows: A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of malformed PDF form fields.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91809</link>
+<guid isPermaLink="false">CVE-2026-91809</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of malformed PDF form fields. Improper validation during field-name traversal may cause the application to access a released object, resulting in an application crash. | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91812 Microsoft windows: A vulnerability in Foxit PDF Editor/Reader’s update mechanism allows man-in-the-middle attackers to bypass...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91812</link>
+<guid isPermaLink="false">CVE-2026-91812</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>A vulnerability in Foxit PDF Editor/Reader’s update mechanism allows man-in-the-middle attackers to bypass certificate validation and package integrity checks, potentially enabling arbitrary code execution with system privileges. | CVSS 7.9 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91813 Microsoft windows: A vulnerability in Foxit PDF Editor/Reader’s update mechanism allows an update package to be replaced between...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91813</link>
+<guid isPermaLink="false">CVE-2026-91813</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>A vulnerability in Foxit PDF Editor/Reader’s update mechanism allows an update package to be replaced between download and high-privilege extraction due to insufficient file locking and integrity validation. This could enable local attackers to execute arbitrary code with elevated privileges. | CVSS 8.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91815 Microsoft windows: Foxit PDF Editor/Reader does not perform sufficient verification of the JPEG2000 image metadata in the PDF...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91815</link>
+<guid isPermaLink="false">CVE-2026-91815</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Foxit PDF Editor/Reader does not perform sufficient verification of the JPEG2000 image metadata in the PDF file, which leads to out-of-bounds write in the heap buffer during decoding, potentially causing the program to crash and introducing the risk of arbitrary code execution. | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91816 Microsoft windows: A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of PDF annotations.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91816</link>
+<guid isPermaLink="false">CVE-2026-91816</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s handling of PDF annotations. Reentrant annotation deletion triggered by embedded JavaScript can cause the application to access an annotation object after it has been released, resulting in a use-after-free condition and application crash. | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91818 Microsoft windows: A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s JavaScript handling of PDF annotations.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91818</link>
+<guid isPermaLink="false">CVE-2026-91818</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>A use-after-free vulnerability exists in Foxit PDF Editor/Reader’s JavaScript handling of PDF annotations. Reentrant page-event processing during annotation enumeration may release the associated page object, which is subsequently accessed, resulting in an application crash. | CVSS 7.8 | EPSS 0.1%</description>
 </item>
 <item>
 <title>CVE-2026-25264 Microsoft windows: Privilege escalation due to weak configuration during package extraction process.</title>
@@ -307,7 +475,7 @@
 <guid isPermaLink="false">CVE-2026-62874</guid>
 <pubDate>Fri, 18 Sep 2026 00:00:00 GMT</pubDate>
 <category>Cloud &amp; AI Services</category>
-<description>Insufficient verification of data authenticity in Azure Billing allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 0.4%</description>
+<description>Insufficient verification of data authenticity in Azure Billing allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-93375 Microsoft windows: Incorrect reference resolution in Tracing in Google Chrome on on Windows prior to 153.0.8010.52 allowed a...</title>
@@ -419,7 +587,7 @@
 <guid isPermaLink="false">CVE-2026-78501</guid>
 <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
 <category>Cloud &amp; AI Services</category>
-<description>Improper neutralization of special elements used in a command (&apos;command injection&apos;) in Microsoft 365 Copilot&apos;s Business Chat allows an unauthorized attacker to disclose information over a network. | CVSS 7.4 | EPSS 0.9%</description>
+<description>Improper neutralization of special elements used in a command (&apos;command injection&apos;) in Microsoft 365 Copilot&apos;s Business Chat allows an unauthorized attacker to disclose information over a network. | CVSS 7.4 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-91734 Microsoft windows: Incorrect authorization in Core in Google Chrome on on Windows prior to 153.0.8010.47 allowed a local...</title>
@@ -636,174 +804,6 @@
 <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>CommServe contained a path traversal issue affecting information disclosure. Software customers upgrade to resolved maintenance release. Update CommServe. | CVSS 7.5 | EPSS 0.6%</description>
-</item>
-<item>
-<title>CVE-2026-77105 Microsoft windows: CommServe contained a cryptographic signature verification issue affecting privilege management.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-77105</link>
-<guid isPermaLink="false">CVE-2026-77105</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>CommServe contained a cryptographic signature verification issue affecting privilege management. Software customers upgrade to resolved maintenance release. Update CommServe and Web Server. | CVSS 8.8 | EPSS 0.3%</description>
-</item>
-<item>
-<title>CVE-2026-47297 Microsoft sql server: Deserialization of untrusted data in SQL Server allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-47297</link>
-<guid isPermaLink="false">CVE-2026-47297</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Deserialization of untrusted data in SQL Server allows an unauthorized attacker to execute code over a network. | CVSS 8.1 | EPSS 1.1%</description>
-</item>
-<item>
-<title>CVE-2026-50349 Microsoft windows: Concurrent execution using shared resource with improper synchronization (&apos;race condition&apos;) in Windows...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-50349</link>
-<guid isPermaLink="false">CVE-2026-50349</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Concurrent execution using shared resource with improper synchronization (&apos;race condition&apos;) in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally. | CVSS 7 | EPSS 0.2%</description>
-</item>
-<item>
-<title>CVE-2026-56172 Microsoft windows: Use after free in Windows VHD miniport driver allows an authorized attacker to elevate privileges locally.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-56172</link>
-<guid isPermaLink="false">CVE-2026-56172</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Windows VHD miniport driver allows an authorized attacker to elevate privileges locally. | CVSS 7.8 | EPSS 0.3%</description>
-</item>
-<item>
-<title>CVE-2026-56177 Microsoft windows: Use after free in Windows Server allows an authorized attacker to elevate privileges locally.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-56177</link>
-<guid isPermaLink="false">CVE-2026-56177</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Windows Server allows an authorized attacker to elevate privileges locally. | CVSS 7.8 | EPSS 0.3%</description>
-</item>
-<item>
-<title>CVE-2026-56198 Microsoft windows: Out-of-bounds read in Microsoft Trace Data Helper allows an authorized attacker to elevate privileges locally.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-56198</link>
-<guid isPermaLink="false">CVE-2026-56198</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Out-of-bounds read in Microsoft Trace Data Helper allows an authorized attacker to elevate privileges locally. | CVSS 7.8 | EPSS 0.3%</description>
-</item>
-<item>
-<title>CVE-2026-57098 Microsoft remote desktop client: Improper verification of cryptographic signature in Windows RDP Client allows an unauthorized attacker to...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-57098</link>
-<guid isPermaLink="false">CVE-2026-57098</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>IT &amp; Remote Management</category>
-<description>Improper verification of cryptographic signature in Windows RDP Client allows an unauthorized attacker to disclose information over a network. | CVSS 7.5 | EPSS 0.6%</description>
-</item>
-<item>
-<title>CVE-2026-58599 Microsoft hevc video extensions: Heap-based buffer overflow in Microsoft Windows Codecs Library allows an unauthorized attacker to execute...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-58599</link>
-<guid isPermaLink="false">CVE-2026-58599</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Windows Codecs Library allows an unauthorized attacker to execute code locally. | CVSS 7.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-58600 Microsoft hevc video extensions: Heap-based buffer overflow in Microsoft Windows Codecs Library allows an unauthorized attacker to elevate...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-58600</link>
-<guid isPermaLink="false">CVE-2026-58600</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Windows Codecs Library allows an unauthorized attacker to elevate privileges locally. | CVSS 7.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-58611 Microsoft xbox gaming services: Improper authorization in XBox Gaming Services allows an authorized attacker to elevate privileges locally.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-58611</link>
-<guid isPermaLink="false">CVE-2026-58611</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Improper authorization in XBox Gaming Services allows an authorized attacker to elevate privileges locally. | CVSS 7.8 | EPSS 0.3%</description>
-</item>
-<item>
-<title>CVE-2026-62694 Microsoft windows: Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-62694</link>
-<guid isPermaLink="false">CVE-2026-62694</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Windows Installer allows an authorized attacker to elevate privileges locally. | CVSS 7 | EPSS 0.3%</description>
-</item>
-<item>
-<title>CVE-2026-62697 Microsoft windows: Use after free in Windows Push Notifications allows an authorized attacker to elevate privileges locally.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-62697</link>
-<guid isPermaLink="false">CVE-2026-62697</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Windows Push Notifications allows an authorized attacker to elevate privileges locally. | CVSS 7.8 | EPSS 0.3%</description>
-</item>
-<item>
-<title>CVE-2026-62706 Microsoft windows: Out-of-bounds read in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-62706</link>
-<guid isPermaLink="false">CVE-2026-62706</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Out-of-bounds read in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-62744 Microsoft windows: Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-62744</link>
-<guid isPermaLink="false">CVE-2026-62744</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-62759 Microsoft windows: Authentication bypass by spoofing in Windows Netlogon allows an unauthorized attacker to perform spoofing...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-62759</link>
-<guid isPermaLink="false">CVE-2026-62759</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Authentication bypass by spoofing in Windows Netlogon allows an unauthorized attacker to perform spoofing over an adjacent network. | CVSS 7.5 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-62804 Microsoft 365 apps: External control of file name or path in Microsoft Office Word allows an unauthorized attacker to execute...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-62804</link>
-<guid isPermaLink="false">CVE-2026-62804</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>External control of file name or path in Microsoft Office Word allows an unauthorized attacker to execute code locally. | CVSS 7.8 | EPSS 0.6%</description>
-</item>
-<item>
-<title>CVE-2026-62810 Microsoft windows: Heap-based buffer overflow in Active Directory Certificate Services (AD CS) allows an authorized attacker to...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-62810</link>
-<guid isPermaLink="false">CVE-2026-62810</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Active Directory Certificate Services (AD CS) allows an authorized attacker to elevate privileges locally. | CVSS 7.8 | EPSS 0.3%</description>
-</item>
-<item>
-<title>CVE-2026-62813 Microsoft windows: Use after free in Active Directory Domain Services allows an authorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-62813</link>
-<guid isPermaLink="false">CVE-2026-62813</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Active Directory Domain Services allows an authorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.7%</description>
-</item>
-<item>
-<title>CVE-2026-66814 Microsoft sql server: Insufficient granularity of access control in SQL Server allows an authorized attacker to elevate privileges...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-66814</link>
-<guid isPermaLink="false">CVE-2026-66814</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Insufficient granularity of access control in SQL Server allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-66818 Microsoft sql server: Improper privilege management in SQL Server allows an authorized attacker to elevate privileges over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-66818</link>
-<guid isPermaLink="false">CVE-2026-66818</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Improper privilege management in SQL Server allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-66819 Microsoft sql server: Improper neutralization of special elements used in an sql command (&apos;sql injection&apos;) in SQL Server allows an...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-66819</link>
-<guid isPermaLink="false">CVE-2026-66819</guid>
-<pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
-<category>Databases &amp; Middleware</category>
-<description>Improper neutralization of special elements used in an sql command (&apos;sql injection&apos;) in SQL Server allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 1.0%</description>
 </item>
 </channel>
 </rss>
