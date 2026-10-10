@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-09T12:05:06.351Z",
+ "generated": "2026-10-10T11:13:27.158Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 20
   },
   {
@@ -78,15 +78,15 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
-   "count": 4178
+   "checked": "2026-10-10T11:13:27.158Z",
+   "count": 4214
   },
   {
    "company": "microsoft",
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": false,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "error": "https://blog.qualys.com/feed: HTTP 403 | https://blog.qualys.com/: HTTP 403"
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,7 +224,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 697
   },
   {
@@ -232,11 +232,251 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-09T12:05:06.351Z",
+   "checked": "2026-10-10T11:13:27.158Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69582 Windows Volume Manager Extension Driver Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69582",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-61936 Windows Defender Firewall Service Security Feature Bypass Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61936",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-62744 Microsoft Windows Media Foundation Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62744",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-68875 Windows NTFS Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68875",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-68878 Windows Fast FAT Driver Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68878",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69281 Windows License Manager Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69281",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69337 Windows Registry Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69337",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69451 Windows Management Instrumentation Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69451",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69693 Windows Device Association Broker Service Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69693",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69732 Windows Link Layer Topology Discovery Protocol Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69732",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-72979 Windows DHCP Server Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72979",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-72982 Windows Netlogon Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72982",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-68880 Windows Win32k Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68880",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69277 Microsoft Local Security Authority (LSA) Server Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69277",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69301 Windows Win32k Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69301",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69322 Microsoft Windows Search Component Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69322",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69324 Windows Performance Monitor Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69324",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69340 Windows NTFS Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69340",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69385 Windows TCP/IP Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69385",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69433 Windows Error Reporting Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69433",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69571 Windows USB Audio Class driver (usbaudio.sys) Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69571",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69566 Windows NTFS Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69566",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69688 Windows Encrypting File System (EFS) Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69688",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-72987 Windows DNS Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72987",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-73006 DirectWrite Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-73006",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-69598 Windows iSCSI Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69598",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-59124 Microsoft High Performance Computing (HPC) Pack Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59124",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-59127 Windows Installer Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-59127",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-62688 Windows MIDI Service Module Elevation of Privileges Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62688",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-62747 Windows Device Association Service Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62747",
+   "date": "2026-10-09T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
   {
    "company": "rapid7",
    "feed": "Blog",
@@ -252,6 +492,14 @@
    "link": "https://fortiguard.fortinet.com/threat-signal-report/6533",
    "date": "2026-10-09T02:00:03.000Z",
    "summary": "What is the Attack? Threat actors are actively exploiting two critical remote code execution vulnerabilities, CVE-2026-88771 and CVE-2026-88772, affecting Citrix NetScaler ADC and NetScaler Gateway appliances. Citrix confirmed that both vulnerabilities were exploited in the wild..."
+  },
+  {
+   "company": "paloalto",
+   "feed": "Blog",
+   "title": "The Mango Strategy: A CEO’s Guide to AI Cybersecurity",
+   "link": "https://www.paloaltonetworks.com/blog/2026/10/the-mango-strategy-a-ceos-guide-to-ai-cybersecurity/",
+   "date": "2026-10-08T21:30:47.000Z",
+   "summary": "Hope is not a strategy. Neither is nostalgia. Mark Carney, Prime Minister of Canada Business leaders cannot respond to AI-era cyber risk by longing for a simpler technology stack, slower decision-making … The post The Mango Strategy: A CEO’s Guide to AI Cybersecurity appeared..."
   },
   {
    "company": "microsoft",
@@ -278,108 +526,20 @@
    "summary": "Pierre's debut newsletter explores the messy, real-world side of risk management and how to keep vital systems running when a perfect patch isn't an option."
   },
   {
+   "company": "paloalto",
+   "feed": "Blog",
+   "title": "Driven by Innovation: Our Latest Analyst Wins and Product Momentum in Network & AI Security",
+   "link": "https://www.paloaltonetworks.com/blog/2026/10/driven-by-innovation-our-latest-analyst-wins-and-product-momentum-in-network-ai-security/",
+   "date": "2026-10-08T15:59:25.000Z",
+   "summary": "Market leadership comes down to two things: the vision to anticipate and solve customer problems and proven engineering execution. Across AI Security, Network Security, SASE, and critical infrastructure protection the industry’s top … The post Driven by Innovation: Our Latest..."
+  },
+  {
    "company": "talos",
    "feed": "Security advisories",
    "title": "Cisco NX-OS Software NX-API Remote Code Execution Vulnerability",
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-napi-rce-r2shwu2j?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20NX-OS%20Software%20NX-API%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
    "date": "2026-10-08T14:11:23.000Z",
    "summary": "A vulnerability in the NX-API feature of Cisco NX-OS Software could allow an unauthenticated, remote attacker to execute arbitrary code with root privileges or cause a denial of service (DoS) condition on an affected device. The vulnerability is due to insufficient input..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-69435 Azure SRE Agent Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69435",
-   "date": "2026-10-08T14:00:00.000Z",
-   "summary": "Missing authorization in Azure SRE Agent allows an authorized attacker to elevate privileges over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-77900 Azure App Service Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-77900",
-   "date": "2026-10-08T14:00:00.000Z",
-   "summary": "Missing authentication for critical function in Azure App Service allows an unauthorized attacker to execute code over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-83943 Azure API Center Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83943",
-   "date": "2026-10-08T14:00:00.000Z",
-   "summary": "Exposure of sensitive information to an unauthorized actor in Azure API Center allows an unauthorized attacker to disclose information over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-83947 Azure Event Grid Spoofing Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83947",
-   "date": "2026-10-08T14:00:00.000Z",
-   "summary": "Missing authorization in Azure Event Grid allows an authorized attacker to perform spoofing over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-88131 Microsoft Dataverse Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88131",
-   "date": "2026-10-08T14:00:00.000Z",
-   "summary": "Deserialization of untrusted data in Microsoft Dataverse allows an unauthorized attacker to execute code over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-94510 Microsoft Bookings Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-94510",
-   "date": "2026-10-08T14:00:00.000Z",
-   "summary": "Authorization bypass through user-controlled key in Microsoft Bookings allows an unauthorized attacker to elevate privileges over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-96207 Microsoft Partner Center Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96207",
-   "date": "2026-10-08T14:00:00.000Z",
-   "summary": "Improper certificate validation in Microsoft Partner Center allows an unauthorized attacker to elevate privileges over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-50441 Windows Resilient File System (ReFS) Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50441",
-   "date": "2026-10-08T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-58528 Windows USB Audio Class Driver Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-58528",
-   "date": "2026-10-08T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-69581 Windows Device Association Service Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69581",
-   "date": "2026-10-08T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-69270 Windows USB Audio Class driver (usbaudio.sys) Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69270",
-   "date": "2026-10-08T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-77904 Windows Volume Manager Extension Driver Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-77904",
-   "date": "2026-10-08T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
   },
   {
    "company": "tenable",
@@ -404,22 +564,6 @@
    "link": "https://blog.talosintelligence.com/ignore-all-instructions-and-read-this-blog-the-state-of-ai-analysis-evasion-in-malware/",
    "date": "2026-10-08T10:00:14.000Z",
    "summary": "“AI-analysis evasion” encapsulates the real-world techniques malware authors are developing in attempt to obstruct or defeat any layers of automated AI analysis."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2025-11215 Off by one error in V8",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-11215",
-   "date": "2026-10-08T08:51:10.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2025-11219 Use after free in V8",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-11219",
-   "date": "2026-10-08T08:50:46.000Z",
-   "summary": "Information published."
   },
   {
    "company": "eset",
@@ -484,6 +628,14 @@
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-fBn58ELx?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%207,%202026,%20Security%20Advisories%26vs_k=1",
    "date": "2026-10-07T16:00:41.000Z",
    "summary": "On October 7, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the advisories that are listed in the following tables. To remediate the vulnerabilities that were disclosed on October 7, 2026, Cisco strongly recommends that customers upgrade to the fixed..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "3 lessons from frontier AI vulnerability research",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+   "date": "2026-10-07T16:00:00.000Z",
+   "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog ."
   },
   {
    "company": "talos",
@@ -582,28 +734,12 @@
    "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco NX-OS Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered..."
   },
   {
-   "company": "microsoft",
-   "feed": "Security blog",
-   "title": "3 lessons from frontier AI vulnerability research",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
-   "date": "2026-10-07T16:00:00.000Z",
-   "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog ."
-  },
-  {
    "company": "wiz",
    "feed": "Blog",
    "title": "How the Wiz Red Agent caught a Fortune 500 firm’s data exposure (that other tools missed)",
    "link": "https://www.wiz.io/blog/red-agent-financial-services-data-exposure",
    "date": "2026-10-07T14:53:27.000Z",
    "summary": "Traditional DSPM and classification tools scan from the inside out. Thinking like an attacker, the Red Agent found a public page exposing sensitive data in minutes."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-69436 Windows State Repository Service Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69436",
-   "date": "2026-10-07T14:00:00.000Z",
-   "summary": "Updated CVE title. This is an informational change only."
   },
   {
    "company": "rapid7",
@@ -636,14 +772,6 @@
    "link": "https://www.welivesecurity.com/en/social-media/brand-deal-scam-targeting-youtube-creators/",
    "date": "2026-10-07T09:00:00.000Z",
    "summary": "A plausible-sounding sponsorship offer could mask an attempt to compromise your Google account"
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2025-0611 Object corruption in V8",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-0612",
-   "date": "2026-10-07T08:48:07.000Z",
-   "summary": "Information published."
   },
   {
    "company": "crowdstrike",
@@ -692,110 +820,6 @@
    "link": "https://www.rapid7.com/blog/post/ai-securing-agent-to-agent-communication-next-identity-frontier",
    "date": "2026-10-06T14:11:03.000Z",
    "summary": "As organizations deploy autonomous AI agents, security teams face a significant shift as non-human non-human entities making decisions, invoking tools, and delegating tasks to other agents without human intervention. Security architectures built around human users, static APIs,..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-69582 Windows Volume Manager Extension Driver Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69582",
-   "date": "2026-10-06T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-71343 Windows Remote Access Connection Manager Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-71343",
-   "date": "2026-10-06T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-78501 Microsoft 365 Copilot Business Chat Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-78501",
-   "date": "2026-10-06T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-69265 Windows NTFS Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69265",
-   "date": "2026-10-06T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-68894 Windows Error Reporting Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-68894",
-   "date": "2026-10-06T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-69844 Windows Win32k Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69844",
-   "date": "2026-10-06T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-72999 Windows USB Hub Driver Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-72999",
-   "date": "2026-10-06T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-73009 Windows Secure Socket Tunneling Protocol (SSTP) Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-73009",
-   "date": "2026-10-06T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-61927 Windows Bind Filter Driver Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61927",
-   "date": "2026-10-06T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-61936 Windows Defender Firewall Service Security Feature Bypass Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-61936",
-   "date": "2026-10-06T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-62698 Microsoft Digest Authentication Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62698",
-   "date": "2026-10-06T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-50387 Windows GDI Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-50387",
-   "date": "2026-10-06T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-54128 Windows DHCP Client Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-54128",
-   "date": "2026-10-06T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
   },
   {
    "company": "wiz",
@@ -860,14 +884,6 @@
    "link": "https://www.wiz.io/blog/wiz-service-catalog-updates",
    "date": "2026-10-05T16:00:00.000Z",
    "summary": "Build your Service Catalog faster, keep service context current, and give teams a clearer path from cloud risk to accountability"
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-69267 Windows Connected User Experiences and Telemetry Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69267",
-   "date": "2026-10-05T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
   },
   {
    "company": "checkpoint",
@@ -1068,6 +1084,14 @@
    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/secure-whats-next-your-guide-to-microsoft-security-at-microsoft-ignite-2026/",
    "date": "2026-09-30T19:31:00.000Z",
    "summary": "This year at Microsoft Ignite, we spotlight our AI-first, end-to-end security platform designed to protect identities, devices, data, applications, clouds, infrastructure, and the AI agents now working alongside your teams. The post ​​Secure what’s next: Your guide to Microsoft..."
+  },
+  {
+   "company": "proofpoint",
+   "feed": "Blog",
+   "title": "Proofpoint on Why AI Security Must Focus on Intent",
+   "link": "https://www.proofpoint.com/us/newsroom/news/proofpoint-why-ai-security-must-focus-intent",
+   "date": "2026-09-30T16:11:21.000Z",
+   "summary": ""
   },
   {
    "company": "wiz",
@@ -1558,6 +1582,30 @@
    "summary": "Discover how Darktrace / SECURE AI applies behavioral security to AI usage, prompts, agents, and development to help organizations adopt AI securely."
   },
   {
+   "company": "proofpoint",
+   "feed": "Blog",
+   "title": "TeamFiltration Campaign Compromises Seven Microsoft 365 Accounts Using Default Passwords",
+   "link": "https://www.proofpoint.com/us/newsroom/news/teamfiltration-campaign-compromises-seven-microsoft-365-accounts-using-default",
+   "date": "2026-09-24T16:16:23.000Z",
+   "summary": ""
+  },
+  {
+   "company": "proofpoint",
+   "feed": "Blog",
+   "title": "Ghost Service Accounts Enable M365 Data Theft in Chile",
+   "link": "https://www.proofpoint.com/us/newsroom/news/ghost-service-accounts-enable-m365-data-theft-chile",
+   "date": "2026-09-24T16:14:45.000Z",
+   "summary": ""
+  },
+  {
+   "company": "proofpoint",
+   "feed": "Blog",
+   "title": "Proofpoint Banks on Intent‑Based Detection",
+   "link": "https://www.proofpoint.com/us/newsroom/news/proofpoint-banks-intent-based-detection",
+   "date": "2026-09-24T16:13:20.000Z",
+   "summary": ""
+  },
+  {
    "company": "wiz",
    "feed": "Blog",
    "title": "Wiz Named a Leader in The Forrester Wave™: Proactive Security Platforms, Q3 2026",
@@ -1676,6 +1724,14 @@
    "link": "https://www.darktrace.com/blog/detecting-rogue-agent-behavior-in-the-enterprise",
    "date": "2026-09-22T16:53:00.000Z",
    "summary": "Darktrace researchers found that AI agents tasked with solving impossible challenges frequently resorted to hacking techniques. Learn how Darktrace detects and disrupts rogue agent behavior in real time."
+  },
+  {
+   "company": "proofpoint",
+   "feed": "Blog",
+   "title": "Sumit Dhawan | theCUBE + NYSE Wired - Proofpoint Protect 2026",
+   "link": "https://www.proofpoint.com/us/newsroom/news/sumit-dhawan-thecube-nyse-wired-proofpoint-protect-2026",
+   "date": "2026-09-22T16:17:42.000Z",
+   "summary": ""
   },
   {
    "company": "wiz",

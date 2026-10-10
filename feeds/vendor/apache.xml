@@ -15,7 +15,7 @@
 
 This issue affects Apache Struts: from 2.0.0 through 2.3.37, from 2.5.0 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.
 
-Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 9.8 | EPSS 0.9%</description>
+Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 9.8 | EPSS 1.2%</description>
 </item>
 <item>
 <title>CVE-2026-104712 Apache struts: Asymmetric resource consumption (amplification) vulnerability in Apache Struts.</title>
@@ -27,7 +27,7 @@ Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the iss
 
 This issue affects Apache Struts: from 2.5.14 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.
 
-Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 7.5 | EPSS 0.6%</description>
+Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 7.5 | EPSS 0.9%</description>
 </item>
 <item>
 <title>CVE-2026-104714 Apache struts: Concurrent execution using shared resource with improper synchronization (&apos;race condition&apos;) vulnerability in...</title>
@@ -39,7 +39,7 @@ Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the iss
 
 This issue affects Apache Struts: from 2.0.0 through 2.3.37, from 2.5.0 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.
 
-Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 8.8 | EPSS 0.5%</description>
+Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 8.8 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-46729 Apache http server: NULL Pointer Dereference vulnerability in Apache HTTP Servers mod_heartmonitor over unicast listener.</title>
@@ -415,7 +415,7 @@ This does not escape the other characters RFC 4515 requires escaping in an LDAP 
 It&apos;s not exploitable through every entry points: LDAPLoginModule and LDAPPubkeyLoginModule both called Util.doRFC2254Encoding() (correct RFC 4515 escaping) on the login name before handing it to LDAPCache, which masked the missing escaping in LDAPCache for those two call paths. Using LDAPCache directly (bypassing the login modules) does not reproduce through the normal LDAPLoginModule/LDAPPubkeyLoginModule authentication flow for this reason. It does reproduce through two other call paths that reach LDAPCache/LDAPBackingEngine without any prior escaping:
 
   *  GSSAPILdapLoginModule passes the NameCallback name straight through, unescaped.
-  *  LDAPBackingEngine (listRoles) passes principal.getName() straight through, unescaped. | CVSS 7.3 | EPSS 0.3%</description>
+  *  LDAPBackingEngine (listRoles) passes principal.getName() straight through, unescaped. | CVSS 7.3 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-91006 Apache karaf: Apache Karaf&apos;s instance-management service (InstanceServiceImpl) builds the command line used to launch a...</title>
@@ -430,7 +430,7 @@ Reachable via the shell commands instance:create, instance:start, instance:re
 
 Mitigation   *  Set karaf.secured.command.compulsory.roles=admin in etc/system.properties to close the fail-open gap for all unconfigured command scopes.
   *  Restrict which principals can reach instance:* commands and InstancesMBean via etc/users.properties role assignments.
-  *  Treat javaOpts passed to instance:create/instance:start/instance:change-opts/InstancesMBean as untrusted input only from fully-trusted operators. | CVSS 8.8 | EPSS 0.9%</description>
+  *  Treat javaOpts passed to instance:create/instance:start/instance:change-opts/InstancesMBean as untrusted input only from fully-trusted operators. | CVSS 8.8 | EPSS 1.1%</description>
 </item>
 <item>
 <title>CVE-2026-92608 Apache qpid broker-j: Improper handling of property-encoding exceptions in AMQP 1.0-to-AMQP 0-10 message conversion allows...</title>

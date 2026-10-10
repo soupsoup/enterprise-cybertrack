@@ -15,7 +15,7 @@
 
 This issue affects Apache Struts: from 2.0.0 through 2.3.37, from 2.5.0 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.
 
-Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 9.8 | EPSS 0.9%</description>
+Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 9.8 | EPSS 1.2%</description>
 </item>
 <item>
 <title>CVE-2026-103626 Microsoft windows: Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...</title>

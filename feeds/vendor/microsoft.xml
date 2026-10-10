@@ -19,7 +19,7 @@
 <guid isPermaLink="false">CVE-2026-106186</guid>
 <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Uncontrolled search path element in CredentialProvider in Google Chrome on on Windows prior to 155.0.8059.39 allowed a local attacker to potentially execute arbitrary code outside the sandbox via a local program. (Chromium security severity: Low) | CVSS 8.6 | EPSS 0.1%</description>
+<description>Uncontrolled search path element in CredentialProvider in Google Chrome on on Windows prior to 155.0.8059.39 allowed a local attacker to potentially execute arbitrary code outside the sandbox via a local program. (Chromium security severity: Low) | CVSS 8.6 | EPSS 0.2%</description>
 </item>
 <item>
 <title>CVE-2026-103624 Microsoft windows: Use after free in Contextual Tasks in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...</title>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Enterprise CyberTrack: VMware</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/vmware.html</link>
+<description>High and critical VMware vulnerabilities.</description>
+<atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/vmware.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>CVE-2026-106122 VMware rabbitmq java client: The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact with...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-106122</link>
+<guid isPermaLink="false">CVE-2026-106122</guid>
+<pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact with RabbitMQ nodes. Prior to 5.36.0, ValueReader.readShortstr decodes malformed UTF-8 bytes into replacement characters that can re-encode beyond the AMQP shortstr limit enforced by ValueWriter.writeShortstr. An attacker who can submit an RPC message with a malformed echoed property can cause reply publication in RpcServer.mainloop() or tutorial-style consumers to throw an unchecked exception before acknowledgement. The broker requeues the message, allowing the same message to disable replacement consumers until the queue is purged. This issue is fixed in version 5.36.0. | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+</channel>
+</rss>
