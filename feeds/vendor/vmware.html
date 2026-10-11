@@ -21,9 +21,9 @@
 <h2><a href="../../#cve=CVE-2026-106122">CVE-2026-106122: The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact with...</a></h2>
 <p class="who">VMware rabbitmq java client</p>
 <p>The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact with RabbitMQ nodes. Prior to 5.36.0, ValueReader.readShortstr decodes malformed UTF-8 bytes into replacement characters that can re-encode beyond the AMQP shortstr limit enforced by ValueWriter.writeShortstr. An attacker who can submit an RPC message with a malformed echoed property can cause reply publication in RpcServer.mainloop() or tutorial-style consumers to throw an unchecked exception before acknowledgement. The broker requeues the message, allowing the same message to disable replacement consumers until the queue is purged. This issue is fixed in version 5.36.0.</p>
-<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106122" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.5%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-106122" rel="noopener">NVD record</a></div>
 </article>
 </main>
-<footer class="wrap foot">Generated 2026-10-10 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-10-11 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>

@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-10T11:13:27.082Z",
+ "generated": "2026-10-11T11:27:07.331Z",
  "cves": [
   {
    "id": "CVE-2026-106373",
@@ -69,7 +69,7 @@
      "toExcl": "5.36.0"
     }
    ],
-   "epss": 0.00409
+   "epss": 0.00478
   },
   {
    "id": "CVE-2026-104711",
@@ -9514,7 +9514,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.0035
+   "epss": 0.00362
   },
   {
    "id": "CVE-2026-83429",
@@ -9534,7 +9534,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.0035
+   "epss": 0.00362
   },
   {
    "id": "CVE-2026-83432",
@@ -9554,7 +9554,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.0035
+   "epss": 0.00362
   },
   {
    "id": "CVE-2026-83435",
@@ -9574,7 +9574,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00279
+   "epss": 0.00289
   },
   {
    "id": "CVE-2026-83437",
@@ -9594,7 +9594,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00371
+   "epss": 0.00393
   },
   {
    "id": "CVE-2026-83438",
@@ -9614,7 +9614,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00279
+   "epss": 0.00289
   },
   {
    "id": "CVE-2026-83447",
@@ -9634,7 +9634,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.0035
+   "epss": 0.00362
   },
   {
    "id": "CVE-2026-83448",
@@ -9654,7 +9654,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.0035
+   "epss": 0.00362
   },
   {
    "id": "CVE-2026-83449",
@@ -9674,7 +9674,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00364
+   "epss": 0.00376
   },
   {
    "id": "CVE-2026-83450",
@@ -9694,7 +9694,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00357
+   "epss": 0.00375
   },
   {
    "id": "CVE-2026-83451",
@@ -9712,7 +9712,7 @@
      "product": "product workbench"
     }
    ],
-   "epss": 0.00323
+   "epss": 0.00334
   },
   {
    "id": "CVE-2026-83455",
@@ -9732,7 +9732,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.0035
+   "epss": 0.00362
   },
   {
    "id": "CVE-2026-83456",
@@ -9752,7 +9752,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00417
+   "epss": 0.00432
   },
   {
    "id": "CVE-2026-83457",
@@ -9772,7 +9772,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00434
+   "epss": 0.00446
   },
   {
    "id": "CVE-2026-83461",
@@ -9792,7 +9792,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00421
+   "epss": 0.00443
   },
   {
    "id": "CVE-2026-83462",
@@ -9812,7 +9812,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00483
+   "epss": 0.00508
   },
   {
    "id": "CVE-2026-83463",
@@ -9832,7 +9832,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00235
+   "epss": 0.00331
   },
   {
    "id": "CVE-2026-83464",
@@ -9852,7 +9852,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00373
+   "epss": 0.00392
   },
   {
    "id": "CVE-2026-83465",
@@ -9872,7 +9872,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00309
+   "epss": 0.00316
   },
   {
    "id": "CVE-2026-83479",
@@ -9892,7 +9892,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00417
+   "epss": 0.00432
   },
   {
    "id": "CVE-2026-83481",
@@ -9912,7 +9912,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00462
+   "epss": 0.00486
   },
   {
    "id": "CVE-2026-76461",
@@ -10227,7 +10227,7 @@
    "published": "2026-09-10",
    "title": "An unauthenticated remote attacker can craft a CORE protocol SESSION_REATTACH packet to steal an existing...",
    "summary": "An unauthenticated remote attacker can craft a CORE protocol SESSION_REATTACH packet to steal an existing session and assume ongoing execution of the previously authenticated session.\n\n\n\nThis issue affects Apache Artemis: from 2.50.0 through 2.56.0; Apache ActiveMQ Artemis: from 1.0.0 through 2.44.0.\n\n\n\nUsers are recommended to upgrade to version 2.57.0, which fixes the issue.",
-   "epss": 0.01073,
+   "epss": 0.01468,
    "affects": [
     {
      "vendor": "Apache",

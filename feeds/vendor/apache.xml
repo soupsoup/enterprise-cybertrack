@@ -901,7 +901,7 @@ This issue affects Apache Artemis: from 2.50.0 through 2.56.0; Apache ActiveMQ A
 
 
 
-Users are recommended to upgrade to version 2.57.0, which fixes the issue. | CVSS 9.8 | EPSS 1.1%</description>
+Users are recommended to upgrade to version 2.57.0, which fixes the issue. | CVSS 9.8 | EPSS 1.5%</description>
 </item>
 <item>
 <title>CVE-2026-67593 Apache artemis: A remote attacker can craft an Openwire RemoveSubscriptionInfo command to cause the deletion of a queue on...</title>
