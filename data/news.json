@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-12T13:15:12.535Z",
+ "generated": "2026-10-13T12:48:49.517Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 20
   },
   {
@@ -78,7 +78,7 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 4037
   },
   {
@@ -86,7 +86,7 @@
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": false,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "error": "https://blog.qualys.com/feed: HTTP 403 | https://blog.qualys.com/: HTTP 403"
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,7 +224,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 697
   },
   {
@@ -232,11 +232,43 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-12T13:15:12.535Z",
+   "checked": "2026-10-13T12:48:49.517Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "proofpoint",
+   "feed": "Blog",
+   "title": "Healthcare Sees No Relief from Cyberattacks Disrupting Patient Care",
+   "link": "https://www.proofpoint.com/us/newsroom/press-releases/cyber-insecurity-in-healthcare-report-2026",
+   "date": "2026-10-13T16:03:59.000Z",
+   "summary": ""
+  },
+  {
+   "company": "rapid7",
+   "feed": "Blog",
+   "title": "CVE-2026-97229: Critical Unauthenticated Remote Code Execution in GitLab",
+   "link": "https://www.rapid7.com/blog/post/etr-cve-2026-97229-critical-unauthenticated-remote-code-execution-in-gitlab",
+   "date": "2026-10-13T11:29:03.000Z",
+   "summary": "Overview On October 12, 2026, GitLab published a critical patch release for CVE-2026-97229 , an integer overflow or wraparound ( CWE-190 ) in the CI/CD regular expression compiler affecting GitLab Community Edition (CE) and Enterprise Edition (EE). GitLab assigned the..."
+  },
+  {
+   "company": "trendai",
+   "feed": "Cyberthreat news",
+   "title": "TrendAI™ Research Reinforces Japan's Urgent Cybersecurity Warning as Incidents Surge in 2026",
+   "link": "https://newsroom.trendmicro.com/2026-10-12-TrendAI-TM-Research-Reinforces-Japans-Urgent-Cybersecurity-Warning-as-Incidents-Surge-in-2026",
+   "date": "2026-10-13T02:55:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "checkpoint",
+   "feed": "Research",
+   "title": "12th October – Threat Intelligence Report",
+   "link": "https://research.checkpoint.com/2026/12th-october-threat-intelligence-report/",
+   "date": "2026-10-12T14:51:31.000Z",
+   "summary": "For the latest discoveries in cyber research for the week of 12th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Denmark’s government has disclosed a breach involving its Central Register of Persons after unauthorized individuals exploited..."
+  },
   {
    "company": "microsoft",
    "feed": "Security advisories",
@@ -260,6 +292,14 @@
    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2025-12727",
    "date": "2026-10-12T09:24:36.000Z",
    "summary": "Information published."
+  },
+  {
+   "company": "eset",
+   "feed": "WeLiveSecurity",
+   "title": "What to do when a data breach notice doesn't say much",
+   "link": "https://www.welivesecurity.com/en/how-to/what-to-do-when-a-data-breach-notice-tells-you-almost-nothing/",
+   "date": "2026-10-12T09:00:00.000Z",
+   "summary": "Data breach notifications are telling victims less than ever. What the company leaves out can still shape what you do next."
   },
   {
    "company": "microsoft",
@@ -2659,7 +2699,7 @@
    "title": "Arbitrary process termination from exposed minifilter communication port",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-165",
    "date": "2026-09-08T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 4.7 An Unverified Ownership Vulnerability [CWE-283] in FortiClient Windows fortimon3 driver may allow an authenticated attacker to terminate arbitrary processes via an exposed minifilter communication port. Revised on 2026-09-08 00:00:00"
+   "summary": "CVSSv3 Score: 5.1 An Unverified Ownership Vulnerability [CWE-283] in FortiClient Windows fortimon3 driver may allow an authenticated attacker to terminate arbitrary processes via an exposed minifilter communication port. Revised on 2026-09-08 00:00:00"
   },
   {
    "company": "fortinet",
@@ -2667,7 +2707,7 @@
    "title": "Broken Access control on Websocket streams",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-164",
    "date": "2026-09-08T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 4.9 An Improper Access control vulnerability [CWE-284] in FortiSOAR may allow an authenticated attacker with zero permissions to subscribe to websocket streams and topics and to inject broadcast messages to the stream via crafted websocket requests Revised on..."
+   "summary": "CVSSv3 Score: 5.4 An Improper Access control vulnerability [CWE-284] in FortiSOAR may allow an authenticated attacker with zero permissions to subscribe to websocket streams and topics and to inject broadcast messages to the stream via crafted websocket requests Revised on..."
   },
   {
    "company": "fortinet",
@@ -2675,7 +2715,7 @@
    "title": "Cron Job Injection in Remote Backup",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-167",
    "date": "2026-09-08T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 6.7 An Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability [CWE-77] in FortiSandbox may allow a privileged attacker to execute unauthorized code or commands via crafted HTTP requests. Revised on 2026-09-08 00:00:00"
+   "summary": "CVSSv3 Score: 7.2 An Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability [CWE-77] in FortiSandbox may allow a privileged attacker to execute unauthorized code or commands via crafted HTTP requests. Revised on 2026-09-08 00:00:00"
   },
   {
    "company": "fortinet",
@@ -2683,7 +2723,7 @@
    "title": "Improper Authentication of FortiPAM Server",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-168",
    "date": "2026-09-08T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 9.1 An improper authentication vulnerability [CWE-287] in the Fortinet Privileged Access Agent Chrome Extension may allow a remote unauthenticated attacker to proxy a user's browser traffic through attacker controlled servers if the user visits a malicious website...."
+   "summary": "CVSSv3 Score: 9.6 An improper authentication vulnerability [CWE-287] in the Fortinet Privileged Access Agent Chrome Extension may allow a remote unauthenticated attacker to proxy a user's browser traffic through attacker controlled servers if the user visits a malicious website...."
   },
   {
    "company": "fortinet",
@@ -2691,7 +2731,7 @@
    "title": "JWT used for authentication in web GUI signed with static key",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-170",
    "date": "2026-09-08T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 9.6 An Inclusion of Sensitive Information in Source Code vulnerability [CWE-540] in FortiMonitorOnSight web portal may allow a remote unauthenticated attacker to bypass authentication via forged or reused JWT Revised on 2026-09-08 00:00:00"
+   "summary": "CVSSv3 Score: 9.8 An Inclusion of Sensitive Information in Source Code vulnerability [CWE-540] in FortiMonitorOnSight web portal may allow a remote unauthenticated attacker to bypass authentication via forged or reused JWT Revised on 2026-09-08 00:00:00"
   },
   {
    "company": "fortinet",
@@ -2699,7 +2739,7 @@
    "title": "Null Pointer Dereference in Log Report",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-173",
    "date": "2026-09-08T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 2.5 A NULL Pointer Dereference vulnerability [CWE-476] in FortiOS, FortiProxy and FortiPAM may allow an authenticated attacker to crash the httpsd daemon via crafted HTTP requests. Revised on 2026-09-08 00:00:00"
+   "summary": "CVSSv3 Score: 2.7 A NULL Pointer Dereference vulnerability [CWE-476] in FortiOS, FortiProxy and FortiPAM may allow an authenticated attacker to crash the httpsd daemon via crafted HTTP requests. Revised on 2026-09-08 00:00:00"
   },
   {
    "company": "fortinet",
@@ -2707,7 +2747,7 @@
    "title": "Open Redirect on FortiSIEM",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-169",
    "date": "2026-09-08T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 2.8 An URL redirection to untrusted site ('open redirect') [CWE-601] vulnerability in FortiSIEM may allow an authenticated attacker to cause a redirection to any website via specially crafted HTTP requests Revised on 2026-09-08 00:00:00"
+   "summary": "CVSSv3 Score: 3.1 An URL redirection to untrusted site ('open redirect') [CWE-601] vulnerability in FortiSIEM may allow an authenticated attacker to cause a redirection to any website via specially crafted HTTP requests Revised on 2026-09-08 00:00:00"
   },
   {
    "company": "fortinet",
@@ -2715,7 +2755,7 @@
    "title": "Unauthenticated Control of NAT Rules Leading to Exposure of Sensitive Information",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-166",
    "date": "2026-09-08T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 8.9 An improper access control vulnerability [CWE-284] in FortiSandbox, FortiSandbox Cloud and FortiSandbox PaaS WEB UI may allow an unauthenticated attacker to access sensitive information via crafted HTTP requests. Revised on 2026-09-08 00:00:00"
+   "summary": "CVSSv3 Score: 9.9 An improper access control vulnerability [CWE-284] in FortiSandbox, FortiSandbox Cloud and FortiSandbox PaaS WEB UI may allow an unauthenticated attacker to access sensitive information via crafted HTTP requests. Revised on 2026-09-08 00:00:00"
   },
   {
    "company": "fortinet",
@@ -2723,7 +2763,7 @@
    "title": "Uncontrolled Resource Consumption in SNMP",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-172",
    "date": "2026-09-08T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 5.9 A Use of Uninitialized Variable [CWE-457] vulnerability in Fortinet FortiAnalyzer SNMP daemon may allow a remote authenticated attacker with user permission to cause a denial of service via SNMP GETBULK requests. Revised on 2026-09-08 00:00:00"
+   "summary": "CVSSv3 Score: 6.5 A Use of Uninitialized Variable [CWE-457] vulnerability in Fortinet FortiAnalyzer SNMP daemon may allow a remote authenticated attacker with user permission to cause a denial of service via SNMP GETBULK requests. Revised on 2026-09-08 00:00:00"
   },
   {
    "company": "fortinet",
@@ -2731,7 +2771,7 @@
    "title": "Workflow session email approval process bypass",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-171",
    "date": "2026-09-08T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 4.7 An improper access control vulnerability [CWE-284] in FortiManager may allow an administrator to bypass the approval process for workflow sessions via crafted HTTP or HTTPs requests. Revised on 2026-09-08 00:00:00"
+   "summary": "CVSSv3 Score: 4.9 An improper access control vulnerability [CWE-284] in FortiManager may allow an administrator to bypass the approval process for workflow sessions via crafted HTTP or HTTPs requests. Revised on 2026-09-08 00:00:00"
   },
   {
    "company": "fortinet",
@@ -2739,7 +2779,7 @@
    "title": "ZTNA Portal Improper Certificate Validation",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-174",
    "date": "2026-09-08T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 7.3 An improper certificate validation vulnerability [CWE-295] in FortiOS and FortiProxy Agentless ZTNA portal may allow a remote and unauthenticated attacker to perform a Man-in-the-Middle attack on the communication channel between the ZTNA portal and the backend..."
+   "summary": "CVSSv3 Score: 8.1 An improper certificate validation vulnerability [CWE-295] in FortiOS and FortiProxy Agentless ZTNA portal may allow a remote and unauthenticated attacker to perform a Man-in-the-Middle attack on the communication channel between the ZTNA portal and the backend..."
   },
   {
    "company": "crowdstrike",
@@ -3339,7 +3379,7 @@
    "title": "Broken access control in the RADIUS type admin group",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-158",
    "date": "2026-08-12T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 8.8 An Improper Authentication vulnerability [CWE-287] in the FortiWeb Remote Radius Type Admin Authentication configured with specific, non-default settings may allow a remote unauthenticated attacker to login into the Fortiweb GUI/CLI with a random username and..."
+   "summary": "CVSSv3 Score: 9.8 An Improper Authentication vulnerability [CWE-287] in the FortiWeb Remote Radius Type Admin Authentication configured with specific, non-default settings may allow a remote unauthenticated attacker to login into the Fortiweb GUI/CLI with a random username and..."
   },
   {
    "company": "fortinet",
@@ -3347,7 +3387,7 @@
    "title": "Content-Encoding WAF Evasion",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-157",
    "date": "2026-08-12T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 4.8 An incomplete list of disallowed inputs [CWE-184] in FortiWeb WAF may allow an unauthenticated attacker to bypass policies via specifically crafted requests. Revised on 2026-08-12 00:00:00"
+   "summary": "CVSSv3 Score: 5.3 An incomplete list of disallowed inputs [CWE-184] in FortiWeb WAF may allow an unauthenticated attacker to bypass policies via specifically crafted requests. Revised on 2026-08-12 00:00:00"
   },
   {
    "company": "fortinet",
@@ -3355,7 +3395,7 @@
    "title": "FGFM Authentication Weakening via CLI Configuration",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-160",
    "date": "2026-08-12T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 7.3 An Authentication Bypass Using an Alternate Path or Channel [CWE-288] vulnerability in FortiManager and FortiManager Cloud may allow a remote unauthenticated attacker to impersonate any FortiGate managed by the FortiManager with a specific CLI option set via..."
+   "summary": "CVSSv3 Score: 8.1 An Authentication Bypass Using an Alternate Path or Channel [CWE-288] vulnerability in FortiManager and FortiManager Cloud may allow a remote unauthenticated attacker to impersonate any FortiGate managed by the FortiManager with a specific CLI option set via..."
   },
   {
    "company": "fortinet",
@@ -3363,7 +3403,7 @@
    "title": "Heap overflow in kernel driver due to missing size validation",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-156",
    "date": "2026-08-12T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 7.3 A buffer copy without checking size of input vulnerability [CWE-120] in FortiClient Windows may allow an unauthenticated attacker in a position to alter or craft DNS responses to the targeted host to execute arbitrary code via malicious packets. Revised on..."
+   "summary": "CVSSv3 Score: 8.1 A buffer copy without checking size of input vulnerability [CWE-120] in FortiClient Windows may allow an unauthenticated attacker in a position to alter or craft DNS responses to the targeted host to execute arbitrary code via malicious packets. Revised on..."
   },
   {
    "company": "fortinet",
@@ -3371,7 +3411,7 @@
    "title": "Server-Side Request Forgery (SSRF)",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-159",
    "date": "2026-08-12T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 3.4 A Server-Side request forgery (SSRF) [CWE-918] vulnerability in FortiSIEM GUI may allow an authenticated attacker to send HTTP requests originating from the targeted device via specially crafted HTTP requests Revised on 2026-08-12 00:00:00"
+   "summary": "CVSSv3 Score: 3.8 A Server-Side request forgery (SSRF) [CWE-918] vulnerability in FortiSIEM GUI may allow an authenticated attacker to send HTTP requests originating from the targeted device via specially crafted HTTP requests Revised on 2026-08-12 00:00:00"
   },
   {
    "company": "fortinet",
@@ -3379,7 +3419,7 @@
    "title": "Stack buffer overflow in WAD",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-161",
    "date": "2026-08-12T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 5.1 A Stack-based Buffer Overflow vulnerability [CWE-121] in FortiOS explicit proxy may allow an unauthenticated attacker who can bypass stack protection and ASLR to execute arbitrary code or commands in the context of the WAD daemon via crafted sockets, only if..."
+   "summary": "CVSSv3 Score: 5.6 A Stack-based Buffer Overflow vulnerability [CWE-121] in FortiOS explicit proxy may allow an unauthenticated attacker who can bypass stack protection and ASLR to execute arbitrary code or commands in the context of the WAD daemon via crafted sockets, only if..."
   },
   {
    "company": "fortinet",
@@ -3387,7 +3427,7 @@
    "title": "UI DoS attack",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-162",
    "date": "2026-08-12T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 5.0 An Allocation of Resources Without Limits or Throttling vulnerability [CWE-770] in FortiOS may allow an unauthenticated attacker to perform a slow HTTP DoS attack on the web interface via crafted HTTP requests. Revised on 2026-08-12 00:00:00"
+   "summary": "CVSSv3 Score: 5.3 An Allocation of Resources Without Limits or Throttling vulnerability [CWE-770] in FortiOS may allow an unauthenticated attacker to perform a slow HTTP DoS attack on the web interface via crafted HTTP requests. Revised on 2026-08-12 00:00:00"
   },
   {
    "company": "zscaler",
@@ -3723,7 +3763,7 @@
    "title": "Buffer overread in authd and wad daemon",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-154",
    "date": "2026-07-14T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 4.1 A buffer over-read vulnerability [CWE-126] in FortiOS, FortiProxy, and FortiSASE may allow an authenticated remote attacker to return a portion of device memory in the redirect response via submitting a specially crafted request. Revised on 2026-07-14 00:00:00"
+   "summary": "CVSSv3 Score: 4.3 A buffer over-read vulnerability [CWE-126] in FortiOS, FortiProxy, and FortiSASE may allow an authenticated remote attacker to return a portion of device memory in the redirect response via submitting a specially crafted request. Revised on 2026-07-14 00:00:00"
   },
   {
    "company": "fortinet",
@@ -3731,7 +3771,7 @@
    "title": "Cross-Site Scripting in Domain parameter",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-149",
    "date": "2026-07-14T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 5.3 An Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability [CWE-80] in FortiSIEM may allow a privileged administrator to execute unauthorized commands via crafted requests. Revised on 2026-07-14 00:00:00"
+   "summary": "CVSSv3 Score: 5.9 An Improper Neutralization of Script-Related HTML Tags in a Web Page (Basic XSS) vulnerability [CWE-80] in FortiSIEM may allow a privileged administrator to execute unauthorized commands via crafted requests. Revised on 2026-07-14 00:00:00"
   },
   {
    "company": "fortinet",
@@ -3755,7 +3795,7 @@
    "title": "Missed certificate verification in AD Connector communication with FortiClient EMS",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-147",
    "date": "2026-07-14T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 6.7 An Improper Certificate Validation vulnerability [CWE-295] in FortiClient EMS may allow a remote unauthenticated attacker to impersonate an AD Connector via a valid API Key. Revised on 2026-07-14 00:00:00"
+   "summary": "CVSSv3 Score: 7.5 An Improper Certificate Validation vulnerability [CWE-295] in FortiClient EMS may allow a remote unauthenticated attacker to impersonate an AD Connector via a valid API Key. Revised on 2026-07-14 00:00:00"
   },
   {
    "company": "fortinet",
@@ -3763,7 +3803,7 @@
    "title": "Out of bounds read in GUI",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-146",
    "date": "2026-07-14T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 7.0 An out of bounds read [CWE-125] vulnerability in FortiAuthenticator may allow a remote unauthenticated attacker to retrieve sensitive information via a specially crafted request. Revised on 2026-07-14 00:00:00"
+   "summary": "CVSSv3 Score: 7.5 An out of bounds read [CWE-125] vulnerability in FortiAuthenticator may allow a remote unauthenticated attacker to retrieve sensitive information via a specially crafted request. Revised on 2026-07-14 00:00:00"
   },
   {
    "company": "fortinet",
@@ -3771,7 +3811,7 @@
    "title": "Path traversal in CLI command allows deletion of root file system",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-151",
    "date": "2026-07-14T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 5.0 An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability [CWE-22] in FortiOS, FortiPAM, FortiProxy and FortiSwitch Manager may allow a privileged authenticated attacker with physical access to the device to delete the file..."
+   "summary": "CVSSv3 Score: 5.5 An Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability [CWE-22] in FortiOS, FortiPAM, FortiProxy and FortiSwitch Manager may allow a privileged authenticated attacker with physical access to the device to delete the file..."
   },
   {
    "company": "fortinet",
@@ -3787,7 +3827,7 @@
    "title": "Stack Buffer Overflow in Log Report",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-148",
    "date": "2026-07-14T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 5.9 A Stack-based Buffer Overflow vulnerability [CWE-121] in FortiOS, FortiProxy and FortiPAM may allow a privileged authenticated attacker who can bypass stack protection and ASLR to execute arbitrary code or commands via crafted HTTP requests. Revised on..."
+   "summary": "CVSSv3 Score: 6.6 A Stack-based Buffer Overflow vulnerability [CWE-121] in FortiOS, FortiProxy and FortiPAM may allow a privileged authenticated attacker who can bypass stack protection and ASLR to execute arbitrary code or commands via crafted HTTP requests. Revised on..."
   },
   {
    "company": "fortinet",
@@ -3795,7 +3835,7 @@
    "title": "Supers override fails to properly override supervisor address",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-155",
    "date": "2026-07-14T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 6.9 An Improper Restriction of Communication Channel to Intended Endpoints [CWE-923] vulnerability in FortiSIEM Windows Agent may allow an unauthorized attacker on the same local network to execute arbitrary code via spoofing the supervisors hostname when the..."
+   "summary": "CVSSv3 Score: 7.5 An Improper Restriction of Communication Channel to Intended Endpoints [CWE-923] vulnerability in FortiSIEM Windows Agent may allow an unauthorized attacker on the same local network to execute arbitrary code via spoofing the supervisors hostname when the..."
   },
   {
    "company": "trendai",
@@ -3924,14 +3964,6 @@
    "link": "https://www.darktrace.com/blog/protecting-global-stadiums-and-events-with-self-learning-ai",
    "date": "2026-06-29T09:00:00.000Z",
    "summary": "Discover how Self-Learning AI tackles event security challenges like the 'access paradox' and IT/OT convergence with speed and precision."
-  },
-  {
-   "company": "eset",
-   "feed": "WeLiveSecurity",
-   "title": "Inside the inbox: Why cybercriminals want to break into your email account",
-   "link": "https://www.welivesecurity.com/en/cybersecurity/inside-inbox-cybercriminals-want-break-email-account/",
-   "date": "2026-06-29T08:50:00.000Z",
-   "summary": "Your inbox is an identity system all of its own: whoever owns it may own a lot more"
   },
   {
    "company": "trendai",

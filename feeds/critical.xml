@@ -6,6 +6,30 @@
 <description>Newly published critical (CVSS 9.0+) enterprise vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/critical.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-89107 SAP s/4hana: SAP S/4HANA (Manage Substitution/Validation Rules) does not sufficiently validate input processed by rule...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89107</link>
+<guid isPermaLink="false">CVE-2026-89107</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>ERP &amp; Business Apps</category>
+<description>SAP S/4HANA (Manage Substitution/Validation Rules) does not sufficiently validate input processed by rule definition functionality that utilizes a domain-specific scripting language. An authenticated attacker with specific business privileges could submit specially crafted input, which is interpreted as executable ABAP code by the rule processing logic. Successful exploitation could allow the attacker to execute ABAP arbitrary code into the system, resulting in full compromise of the affected system and high impact on confidentiality, integrity, and availability of the system. | CVSS 9.9</description>
+</item>
+<item>
+<title>CVE-2026-89108 SAP manufacturing integration and intelligence: SAP Manufacturing Integration and Intelligence does not sufficiently enforce authorization boundaries within...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89108</link>
+<guid isPermaLink="false">CVE-2026-89108</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>ERP &amp; Business Apps</category>
+<description>SAP Manufacturing Integration and Intelligence does not sufficiently enforce authorization boundaries within certain administrative functionality. An attacker with MII administrator privileges could submit a specially crafted request to provision an account with elevated privileges on the underlying Java application server. Successful exploitation could allow the attacker to gain administrative control over the underlying system, extending the impact beyond the vulnerable application. This results in a high impact on confidentiality, integrity and availability. | CVSS 9.1</description>
+</item>
+<item>
+<title>CVE-2026-89110 SAP netweaver: SAP NetWeaver Visual Composer does not perform sufficient authorization checks in certain portal...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89110</link>
+<guid isPermaLink="false">CVE-2026-89110</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>ERP &amp; Business Apps</category>
+<description>SAP NetWeaver Visual Composer does not perform sufficient authorization checks in certain portal functionality. An attacker with low privileges could invoke internal operations on a preconfigured remote system. Depending on the remote connection configuration, this could lead to a full compromise of the remote system. This results in a high impact on confidentiality, integrity and availability. | CVSS 9.9</description>
+</item>
+<item>
 <title>CVE-2026-104711 Apache struts: Improper neutralization of special elements used in an expression language statement (&apos;Expression Language...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-104711</link>
 <guid isPermaLink="false">CVE-2026-104711</guid>
@@ -885,30 +909,6 @@ This vulnerability is due to insufficient authentication control on an API endpo
 <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
 <category>ERP &amp; Business Apps</category>
 <description>Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Composer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebCenter Portal.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle WebCenter Portal, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Portal. CVSS 3.1 Base Score 9.6 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H). | CVSS 9.6 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-83054 Oracle internet directory: Vulnerability in the Oracle Internet Directory product of Oracle Fusion Middleware (component: OID LDAP...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83054</link>
-<guid isPermaLink="false">CVE-2026-83054</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Identity &amp; Directory</category>
-<description>Vulnerability in the Oracle Internet Directory product of Oracle Fusion Middleware (component: OID LDAP Server).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via LDAP to compromise Oracle Internet Directory.  Successful attacks of this vulnerability can result in takeover of Oracle Internet Directory. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-83059 Oracle internet directory: Vulnerability in the Oracle Internet Directory product of Oracle Fusion Middleware (component: OID LDAP...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83059</link>
-<guid isPermaLink="false">CVE-2026-83059</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Identity &amp; Directory</category>
-<description>Vulnerability in the Oracle Internet Directory product of Oracle Fusion Middleware (component: OID LDAP Server).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via LDAP to compromise Oracle Internet Directory.  While the vulnerability is in Oracle Internet Directory, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle Internet Directory. CVSS 3.1 Base Score 10.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H). | CVSS 10 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-83060 Oracle internet directory: Vulnerability in the Oracle Internet Directory product of Oracle Fusion Middleware (component: OID LDAP...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83060</link>
-<guid isPermaLink="false">CVE-2026-83060</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Identity &amp; Directory</category>
-<description>Vulnerability in the Oracle Internet Directory product of Oracle Fusion Middleware (component: OID LDAP Server).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via LDAP to compromise Oracle Internet Directory.  Successful attacks of this vulnerability can result in takeover of Oracle Internet Directory. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
 </item>
 </channel>
 </rss>
