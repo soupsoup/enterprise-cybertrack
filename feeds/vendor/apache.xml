@@ -6,6 +6,37 @@
 <description>High and critical Apache vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/apache.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-92414 Apache jackrabbit: : Session Fixation / Session Reuse across Users vulnerability in Apache Jackrabbit.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-92414</link>
+<guid isPermaLink="false">CVE-2026-92414</guid>
+<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>: Session Fixation / Session Reuse across Users vulnerability in Apache Jackrabbit.
+
+
+
+Jackrabbit WebDAV server attaches a cached authenticated session on any Lock-Token/TransactionId/SubscriptionId/If-header field token match with
+
+no credential check.
+
+
+
+This issue affects Apache Jackrabbit: from 2.23.0 through 2.23.5, from 2.22.0 through 2.22.4, from 2.20.0 through 2.20.17.
+
+
+
+
+
+
+
+
+
+
+
+
+Users are recommended to upgrade to versions 2.23.6, 2.22.5, or 2.20.18 which fix the issue. | CVSS 9.1 | EPSS 0.6%</description>
+</item>
+<item>
 <title>CVE-2026-104711 Apache struts: Improper neutralization of special elements used in an expression language statement (&apos;Expression Language...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-104711</link>
 <guid isPermaLink="false">CVE-2026-104711</guid>

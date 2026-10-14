@@ -6,6 +6,62 @@
 <description>High and critical Broadcom vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/broadcom.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-87679 Broadcom fabric operating system: When Brocade Fabric OS versions before 10.0.1 processes trunk configuration operations, the application...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-87679</link>
+<guid isPermaLink="false">CVE-2026-87679</guid>
+<pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+<category>Cloud &amp; AI Services</category>
+<description>When Brocade Fabric OS versions before 10.0.1 processes trunk configuration operations, the application parses user-supplied list strings into dynamically allocated heap arrays without enforcing boundary checks on the maximum allowable number of elements. An authenticated administrator can exploit this vulnerability via crafted REST API requests containing an excessive number of list delimiters, causing heap corruption that can result in service crash or arbitrary code execution. | CVSS 7.2 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-87680 Broadcom fabric operating system: A command injection vulnerability in the REST API management interface of Brocade Fabric OS versions before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-87680</link>
+<guid isPermaLink="false">CVE-2026-87680</guid>
+<pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+<category>Cloud &amp; AI Services</category>
+<description>A command injection vulnerability in the REST API management interface of Brocade Fabric OS versions before 10.0.1 allows an authenticated user to execute arbitrary system commands via crafted input parameters. | CVSS 8.8 | EPSS 1.0%</description>
+</item>
+<item>
+<title>CVE-2026-87682 Broadcom fabric operating system: Multiple OS Command Injection vulnerabilities exist in the management interface and session processing...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-87682</link>
+<guid isPermaLink="false">CVE-2026-87682</guid>
+<pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+<category>Cloud &amp; AI Services</category>
+<description>Multiple OS Command Injection vulnerabilities exist in the management interface and session processing routines of Brocade Fabric OS versions before 10.0.1. Input processing flaws during remote management connection validation and session verification for directory-based user accounts allow untrusted input containing shell metacharacters to reach internal system execution wrappers. An authenticated user or a compromised directory service account can exploit these vulnerabilities to execute arbitrary operating system commands with elevated privileges on the target device. | CVSS 8.8 | EPSS 0.9%</description>
+</item>
+<item>
+<title>CVE-2026-87683 Broadcom fabric operating system: Multiple stack-based buffer overflow vulnerabilities exist in the REST API management component of Brocade...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-87683</link>
+<guid isPermaLink="false">CVE-2026-87683</guid>
+<pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+<category>Cloud &amp; AI Services</category>
+<description>Multiple stack-based buffer overflow vulnerabilities exist in the REST API management component of Brocade Fabric OS versions prior to 10.0.1. When processing API request payloads (such as device configuration attributes or port mapping requests) the REST API service fails to properly validate incoming array counts and string lengths against internal buffer capacities. An authenticated attacker with REST API access can transmit crafted, oversized request parameters to induce memory corruption on the execution stack. This may result in a denial-of-service condition (daemon crash) or potential arbitrary code execution within the management process context. | CVSS 8.8 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-87659 Broadcom fabric operating system: A critical authorization bypass vulnerability exists in the Management Server handling of Brocade Fabric OS...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-87659</link>
+<guid isPermaLink="false">CVE-2026-87659</guid>
+<pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+<category>Cloud &amp; AI Services</category>
+<description>A critical authorization bypass vulnerability exists in the Management Server handling of Brocade Fabric OS versions before 10.0.1. A compromised switch connected to the fabric can transmit crafted inband Fibre Channel vendor-unique CT (Common Transport) management requests to bypass administrative authentication. Successful exploitation allows an unauthorized peer switch to execute administrative actions on the target device, including resetting administrative passwords, initiating system reboots, and triggering firmware downloads. | CVSS 9.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-87665 Broadcom fabric operating system: A stack-based buffer overflow vulnerability exists in the Internet Key Exchange (IKEv2) protocol handler on...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-87665</link>
+<guid isPermaLink="false">CVE-2026-87665</guid>
+<pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+<category>Cloud &amp; AI Services</category>
+<description>A stack-based buffer overflow vulnerability exists in the Internet Key Exchange (IKEv2) protocol handler on Brocade Fabric OS versions before 10.0.1. The vulnerability occurs when processing initial IKE key exchange requests on extension switches or blades running IPsec-enabled Fibre Channel over IP (FCIP) circuits. An unauthenticated remote attacker can exploit this vulnerability by sending a single, specifically crafted UDP packet (Port 500) containing an oversized Nonce payload. Successful exploitation results in a denial of service (data-plane process crash) | CVSS 7.5 | EPSS 0.8%</description>
+</item>
+<item>
+<title>CVE-2026-87671 Broadcom fabric operating system: An out-of-bounds memory read vulnerability exists in the web management daemon of Brocade Fabric OS versions...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-87671</link>
+<guid isPermaLink="false">CVE-2026-87671</guid>
+<pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
+<category>Cloud &amp; AI Services</category>
+<description>An out-of-bounds memory read vulnerability exists in the web management daemon of Brocade Fabric OS versions before 10.0.1. Unauthenticated HTTP endpoints process specific URL query parameters without validating array index boundaries or performing numerical range checks. An unauthenticated remote attacker can exploit this issue by sending a single, crafted HTTP request containing extreme numerical values in the query string. This causes an invalid memory dereference, resulting in a crash of the web management process (Denial of Service) and potential temporary management-plane disruption. | CVSS 7.5 | EPSS 0.2%</description>
+</item>
+<item>
 <title>CVE-2026-67410 Broadcom rabbitmq server: RabbitMQ is a messaging and streaming broker.</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-67410</link>
 <guid isPermaLink="false">CVE-2026-67410</guid>

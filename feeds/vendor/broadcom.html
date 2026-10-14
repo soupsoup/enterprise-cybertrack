@@ -13,9 +13,58 @@
 <p class="crumb"><a href="../../">Enterprise CyberTrack</a> / feeds</p>
 <h1>Enterprise CyberTrack: Broadcom</h1>
 <p class="tag">High and critical Broadcom vulnerabilities.</p>
-<p class="tag"><a href="broadcom.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 3.</p>
+<p class="tag"><a href="broadcom.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 10.</p>
 </div></header>
 <main class="wrap news">
+<article>
+<time datetime="2026-10-08">October 8, 2026</time>
+<h2><a href="../../#cve=CVE-2026-87679">CVE-2026-87679: When Brocade Fabric OS versions before 10.0.1 processes trunk configuration operations, the application...</a></h2>
+<p class="who">Broadcom fabric operating system</p>
+<p>When Brocade Fabric OS versions before 10.0.1 processes trunk configuration operations, the application parses user-supplied list strings into dynamically allocated heap arrays without enforcing boundary checks on the maximum allowable number of elements. An authenticated administrator can exploit this vulnerability via crafted REST API requests containing an excessive number of list delimiters, causing heap corruption that can result in service crash or arbitrary code execution.</p>
+<div class="meta"><span class="pill">CVSS 7.2</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87679" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-08">October 8, 2026</time>
+<h2><a href="../../#cve=CVE-2026-87680">CVE-2026-87680: A command injection vulnerability in the REST API management interface of Brocade Fabric OS versions before...</a></h2>
+<p class="who">Broadcom fabric operating system</p>
+<p>A command injection vulnerability in the REST API management interface of Brocade Fabric OS versions before 10.0.1 allows an authenticated user to execute arbitrary system commands via crafted input parameters.</p>
+<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 1.0%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87680" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-08">October 8, 2026</time>
+<h2><a href="../../#cve=CVE-2026-87682">CVE-2026-87682: Multiple OS Command Injection vulnerabilities exist in the management interface and session processing...</a></h2>
+<p class="who">Broadcom fabric operating system</p>
+<p>Multiple OS Command Injection vulnerabilities exist in the management interface and session processing routines of Brocade Fabric OS versions before 10.0.1. Input processing flaws during remote management connection validation and session verification for directory-based user accounts allow untrusted input containing shell metacharacters to reach internal system execution wrappers. An authenticated user or a compromised directory service account can exploit these vulnerabilities to execute arbitrary operating system commands with elevated privileges on the target device.</p>
+<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.9%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87682" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-08">October 8, 2026</time>
+<h2><a href="../../#cve=CVE-2026-87683">CVE-2026-87683: Multiple stack-based buffer overflow vulnerabilities exist in the REST API management component of Brocade...</a></h2>
+<p class="who">Broadcom fabric operating system</p>
+<p>Multiple stack-based buffer overflow vulnerabilities exist in the REST API management component of Brocade Fabric OS versions prior to 10.0.1. When processing API request payloads (such as device configuration attributes or port mapping requests) the REST API service fails to properly validate incoming array counts and string lengths against internal buffer capacities. An authenticated attacker with REST API access can transmit crafted, oversized request parameters to induce memory corruption on the execution stack. This may result in a denial-of-service condition (daemon crash) or potential arbitrary code execution within the management process context.</p>
+<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87683" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-08">October 8, 2026</time>
+<h2><a href="../../#cve=CVE-2026-87659">CVE-2026-87659: A critical authorization bypass vulnerability exists in the Management Server handling of Brocade Fabric OS...</a></h2>
+<p class="who">Broadcom fabric operating system</p>
+<p>A critical authorization bypass vulnerability exists in the Management Server handling of Brocade Fabric OS versions before 10.0.1. A compromised switch connected to the fabric can transmit crafted inband Fibre Channel vendor-unique CT (Common Transport) management requests to bypass administrative authentication. Successful exploitation allows an unauthorized peer switch to execute administrative actions on the target device, including resetting administrative passwords, initiating system reboots, and triggering firmware downloads.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.1%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87659" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-08">October 8, 2026</time>
+<h2><a href="../../#cve=CVE-2026-87665">CVE-2026-87665: A stack-based buffer overflow vulnerability exists in the Internet Key Exchange (IKEv2) protocol handler on...</a></h2>
+<p class="who">Broadcom fabric operating system</p>
+<p>A stack-based buffer overflow vulnerability exists in the Internet Key Exchange (IKEv2) protocol handler on Brocade Fabric OS versions before 10.0.1. The vulnerability occurs when processing initial IKE key exchange requests on extension switches or blades running IPsec-enabled Fibre Channel over IP (FCIP) circuits. An unauthenticated remote attacker can exploit this vulnerability by sending a single, specifically crafted UDP packet (Port 500) containing an oversized Nonce payload. Successful exploitation results in a denial of service (data-plane process crash)</p>
+<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.8%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87665" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-08">October 8, 2026</time>
+<h2><a href="../../#cve=CVE-2026-87671">CVE-2026-87671: An out-of-bounds memory read vulnerability exists in the web management daemon of Brocade Fabric OS versions...</a></h2>
+<p class="who">Broadcom fabric operating system</p>
+<p>An out-of-bounds memory read vulnerability exists in the web management daemon of Brocade Fabric OS versions before 10.0.1. Unauthenticated HTTP endpoints process specific URL query parameters without validating array index boundaries or performing numerical range checks. An unauthenticated remote attacker can exploit this issue by sending a single, crafted HTTP request containing extreme numerical values in the query string. This causes an invalid memory dereference, resulting in a crash of the web management process (Denial of Service) and potential temporary management-plane disruption.</p>
+<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87671" rel="noopener">NVD record</a></div>
+</article>
 <article>
 <time datetime="2026-09-25">September 25, 2026</time>
 <h2><a href="../../#cve=CVE-2026-67410">CVE-2026-67410: RabbitMQ is a messaging and streaming broker.</a></h2>
@@ -38,6 +87,6 @@
 <div class="meta"><span class="pill">CVSS 7.1</span>  <span class="pill">EPSS 0.3%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-67412" rel="noopener">NVD record</a></div>
 </article>
 </main>
-<footer class="wrap foot">Generated 2026-10-13 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-10-14 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>
