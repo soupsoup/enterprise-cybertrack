@@ -34,7 +34,7 @@ This issue affects Apache Jackrabbit: from 2.23.0 through 2.23.5, from 2.22.0 th
 
 
 
-Users are recommended to upgrade to versions 2.23.6, 2.22.5, or 2.20.18 which fix the issue. | CVSS 9.1 | EPSS 0.6%</description>
+Users are recommended to upgrade to versions 2.23.6, 2.22.5, or 2.20.18 which fix the issue. | CVSS 9.1 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-104711 Apache struts: Improper neutralization of special elements used in an expression language statement (&apos;Expression Language...</title>

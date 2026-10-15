@@ -6,6 +6,54 @@
 <description>High and critical GitLab vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/gitlab.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-14814 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions before 19.2.8, 19.3 before 19.3.5, and...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-14814</link>
+<guid isPermaLink="false">CVE-2026-14814</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed a user to poison cached responses for raw repository files, causing targeted users&apos; CI/CD pipelines to execute specially crafted content and potentially exposing protected environment variables, due to improper validation of repository references. | CVSS 8.2 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-16301 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 19.2.8, 19.3 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-16301</link>
+<guid isPermaLink="false">CVE-2026-16301</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an authenticated user with Developer role to execute CI/CD pipelines on protected branches without authorization due to improper authorization checks in the downstream pipeline creation service. | CVSS 8.5 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-81839 GitLab gitlab: GitLab has remediated an issue in GitLab EE affecting all versions from 18.1 before 19.2.8, 19.3 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-81839</link>
+<guid isPermaLink="false">CVE-2026-81839</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab EE affecting all versions from 18.1 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an authenticated user to execute arbitrary CI/CD pipelines in a transferred project with the new group&apos;s privileges due to improper cleanup of scheduled pipeline execution policy records. | CVSS 7.7 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-92883 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.1 before 19.2.8, 19.3 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-92883</link>
+<guid isPermaLink="false">CVE-2026-92883</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.1 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2  that, under certain conditions, could have allowed an authenticated user to execute arbitrary JavaScript in the context of other users&apos; browser sessions via a specially crafted repository, due to improper sanitization of HTML attributes in syntax-highlighted output. | CVSS 8.7 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-96893 GitLab gitlab: GitLab has remediated an issue in GitLab EE affecting all versions from 19.1 before 19.2.8, 19.3 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96893</link>
+<guid isPermaLink="false">CVE-2026-96893</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab EE affecting all versions from 19.1 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an authenticated user to inject specially crafted content into AI agent instructions, potentially causing unintended command execution attributed to other users, due to improper neutralization of special elements in AI conversation context construction. | CVSS 7.3 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-97229 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97229</link>
+<guid isPermaLink="false">CVE-2026-97229</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation. | CVSS 10 | EPSS 0.6%</description>
+</item>
+<item>
 <title>CVE-2026-84739 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 13.11 before 19.2.7, 19.3 before...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-84739</link>
 <guid isPermaLink="false">CVE-2026-84739</guid>

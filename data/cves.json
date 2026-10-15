@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-14T10:30:08.655Z",
+ "generated": "2026-10-15T10:07:28.183Z",
  "cves": [
   {
    "id": "CVE-2026-58249",
@@ -95,7 +95,2819 @@
      "version": "22.8"
     }
    ],
-   "kevAdded": "2026-10-13"
+   "kevAdded": "2026-10-13",
+   "epss": 0.25982
+  },
+  {
+   "id": "CVE-2026-14814",
+   "vendor": "GitLab",
+   "product": "gitlab",
+   "category": "DevOps & Collaboration",
+   "cvss": 8.2,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "GitLab has remediated an issue in GitLab CE/EE affecting all versions before 19.2.8, 19.3 before 19.3.5, and...",
+   "summary": "GitLab has remediated an issue in GitLab CE/EE affecting all versions before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed a user to poison cached responses for raw repository files, causing targeted users' CI/CD pipelines to execute specially crafted content and potentially exposing protected environment variables, due to improper validation of repository references.",
+   "affects": [
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "toExcl": "19.2.8"
+    },
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.3.0",
+     "toExcl": "19.3.5"
+    },
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.4.0",
+     "toExcl": "19.4.2"
+    }
+   ],
+   "epss": 0.00244
+  },
+  {
+   "id": "CVE-2026-16301",
+   "vendor": "GitLab",
+   "product": "gitlab",
+   "category": "DevOps & Collaboration",
+   "cvss": 8.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 19.2.8, 19.3 before...",
+   "summary": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an authenticated user with Developer role to execute CI/CD pipelines on protected branches without authorization due to improper authorization checks in the downstream pipeline creation service.",
+   "affects": [
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "18.7.0",
+     "toExcl": "19.2.8"
+    },
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.3.0",
+     "toExcl": "19.3.5"
+    },
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.4.0",
+     "toExcl": "19.4.2"
+    }
+   ],
+   "epss": 0.00225
+  },
+  {
+   "id": "CVE-2026-81839",
+   "vendor": "GitLab",
+   "product": "gitlab",
+   "category": "DevOps & Collaboration",
+   "cvss": 7.7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "GitLab has remediated an issue in GitLab EE affecting all versions from 18.1 before 19.2.8, 19.3 before...",
+   "summary": "GitLab has remediated an issue in GitLab EE affecting all versions from 18.1 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an authenticated user to execute arbitrary CI/CD pipelines in a transferred project with the new group's privileges due to improper cleanup of scheduled pipeline execution policy records.",
+   "affects": [
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "18.1.0",
+     "toExcl": "19.2.8"
+    },
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.3.0",
+     "toExcl": "19.3.5"
+    },
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.4.0",
+     "toExcl": "19.4.2"
+    }
+   ],
+   "epss": 0.00231
+  },
+  {
+   "id": "CVE-2026-92883",
+   "vendor": "GitLab",
+   "product": "gitlab",
+   "category": "DevOps & Collaboration",
+   "cvss": 8.7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.1 before 19.2.8, 19.3 before...",
+   "summary": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.1 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2  that, under certain conditions, could have allowed an authenticated user to execute arbitrary JavaScript in the context of other users' browser sessions via a specially crafted repository, due to improper sanitization of HTML attributes in syntax-highlighted output.",
+   "affects": [
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.1.0",
+     "toExcl": "19.2.8"
+    },
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.3.0",
+     "toExcl": "19.3.5"
+    },
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.4.0",
+     "toExcl": "19.4.2"
+    }
+   ],
+   "epss": 0.00275
+  },
+  {
+   "id": "CVE-2026-96893",
+   "vendor": "GitLab",
+   "product": "gitlab",
+   "category": "DevOps & Collaboration",
+   "cvss": 7.3,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "GitLab has remediated an issue in GitLab EE affecting all versions from 19.1 before 19.2.8, 19.3 before...",
+   "summary": "GitLab has remediated an issue in GitLab EE affecting all versions from 19.1 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an authenticated user to inject specially crafted content into AI agent instructions, potentially causing unintended command execution attributed to other users, due to improper neutralization of special elements in AI conversation context construction.",
+   "affects": [
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.1.0",
+     "toExcl": "19.2.8"
+    },
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.3.0",
+     "toExcl": "19.3.5"
+    },
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.4.0",
+     "toExcl": "19.4.2"
+    }
+   ],
+   "epss": 0.00545
+  },
+  {
+   "id": "CVE-2026-97229",
+   "vendor": "GitLab",
+   "product": "gitlab",
+   "category": "DevOps & Collaboration",
+   "cvss": 10,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before...",
+   "summary": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation.",
+   "affects": [
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.2.0",
+     "toExcl": "19.2.8"
+    },
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.3.0",
+     "toExcl": "19.3.5"
+    },
+    {
+     "vendor": "GitLab",
+     "product": "gitlab",
+     "from": "19.4.0",
+     "toExcl": "19.4.2"
+    }
+   ],
+   "epss": 0.00559
+  },
+  {
+   "id": "CVE-2026-100209",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00839
+  },
+  {
+   "id": "CVE-2026-100210",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00839
+  },
+  {
+   "id": "CVE-2026-100211",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00839
+  },
+  {
+   "id": "CVE-2026-100212",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00805
+  },
+  {
+   "id": "CVE-2026-102860",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper access control in Microsoft Office SharePoint allows an authorized attacker to elevate privileges...",
+   "summary": "Improper access control in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00713
+  },
+  {
+   "id": "CVE-2026-102861",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Missing authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over...",
+   "summary": "Missing authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00713
+  },
+  {
+   "id": "CVE-2026-102862",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges...",
+   "summary": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00713
+  },
+  {
+   "id": "CVE-2026-102863",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper control of generation of code ('code injection') in Microsoft Office SharePoint allows an authorized...",
+   "summary": "Improper control of generation of code ('code injection') in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00885
+  },
+  {
+   "id": "CVE-2026-102866",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper verification of cryptographic signature in Microsoft Office SharePoint allows an unauthorized...",
+   "summary": "Improper verification of cryptographic signature in Microsoft Office SharePoint allows an unauthorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00551
+  },
+  {
+   "id": "CVE-2026-105013",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute...",
+   "summary": "Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00839
+  },
+  {
+   "id": "CVE-2026-105715",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Integer overflow or wraparound in Microsoft Office Word allows an unauthorized attacker to execute code over...",
+   "summary": "Integer overflow or wraparound in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00548
+  },
+  {
+   "id": "CVE-2026-105718",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00838
+  },
+  {
+   "id": "CVE-2026-69943",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint...",
+   "summary": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "version": "2016"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "version": "2019"
+    }
+   ],
+   "epss": 0.00809
+  },
+  {
+   "id": "CVE-2026-70202",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Server-side request forgery (ssrf) in Microsoft Office SharePoint allows an authorized attacker to elevate...",
+   "summary": "Server-side request forgery (ssrf) in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00517
+  },
+  {
+   "id": "CVE-2026-70220",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00427
+  },
+  {
+   "id": "CVE-2026-70246",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges...",
+   "summary": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00765
+  },
+  {
+   "id": "CVE-2026-70251",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Server-side request forgery (ssrf) in Microsoft Office SharePoint allows an authorized attacker to elevate...",
+   "summary": "Server-side request forgery (ssrf) in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00555
+  },
+  {
+   "id": "CVE-2026-70254",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00805
+  },
+  {
+   "id": "CVE-2026-70266",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper neutralization of special elements used in an sql command ('sql injection') in Microsoft Office...",
+   "summary": "Improper neutralization of special elements used in an sql command ('sql injection') in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-70267",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 7.2,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Inclusion of functionality from untrusted control sphere in Microsoft Office SharePoint allows an authorized...",
+   "summary": "Inclusion of functionality from untrusted control sphere in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00916
+  },
+  {
+   "id": "CVE-2026-70268",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00805
+  },
+  {
+   "id": "CVE-2026-70269",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00711
+  },
+  {
+   "id": "CVE-2026-70287",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00805
+  },
+  {
+   "id": "CVE-2026-70300",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Untrusted pointer dereference in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Untrusted pointer dereference in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00997
+  },
+  {
+   "id": "CVE-2026-70301",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00805
+  },
+  {
+   "id": "CVE-2026-70302",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00805
+  },
+  {
+   "id": "CVE-2026-77902",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00805
+  },
+  {
+   "id": "CVE-2026-83891",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00774
+  },
+  {
+   "id": "CVE-2026-85900",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute...",
+   "summary": "Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.01518
+  },
+  {
+   "id": "CVE-2026-88145",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-88150",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use of uninitialized resource in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Use of uninitialized resource in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-88155",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office SharePoint allows an authorized attacker to execute code over...",
+   "summary": "Heap-based buffer overflow in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00819
+  },
+  {
+   "id": "CVE-2026-88163",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Integer overflow or wraparound in Microsoft Office SharePoint allows an authorized attacker to execute code...",
+   "summary": "Integer overflow or wraparound in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00819
+  },
+  {
+   "id": "CVE-2026-88166",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Integer overflow or wraparound in Microsoft Office SharePoint allows an authorized attacker to execute code...",
+   "summary": "Integer overflow or wraparound in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00819
+  },
+  {
+   "id": "CVE-2026-88185",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00688
+  },
+  {
+   "id": "CVE-2026-88186",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-88198",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Missing authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over...",
+   "summary": "Missing authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00713
+  },
+  {
+   "id": "CVE-2026-88200",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Privilege context switching error in Microsoft Office SharePoint allows an authorized attacker to elevate...",
+   "summary": "Privilege context switching error in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00713
+  },
+  {
+   "id": "CVE-2026-88202",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-88204",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 7.3,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office...",
+   "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00624
+  },
+  {
+   "id": "CVE-2026-88206",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Server-side request forgery (ssrf) in Microsoft Office SharePoint allows an authorized attacker to elevate...",
+   "summary": "Server-side request forgery (ssrf) in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00517
+  },
+  {
+   "id": "CVE-2026-88210",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Reliance on untrusted inputs in a security decision in Microsoft Office Word allows an unauthorized attacker...",
+   "summary": "Reliance on untrusted inputs in a security decision in Microsoft Office Word allows an unauthorized attacker to bypass a security feature locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00427
+  },
+  {
+   "id": "CVE-2026-96044",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "No cwe for this issue in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over...",
+   "summary": "No cwe for this issue in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00713
+  },
+  {
+   "id": "CVE-2026-96951",
+   "vendor": "Microsoft",
+   "product": "outlook web",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": true,
+   "published": "2026-10-13",
+   "title": "Improper neutralization of special elements used in a command ('command injection') in Windows Shell allows...",
+   "summary": "Improper neutralization of special elements used in a command ('command injection') in Windows Shell allows an unauthorized attacker to bypass a security feature over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "outlook web"
+    }
+   ],
+   "kevAdded": "2026-10-13",
+   "epss": 0.01506
+  },
+  {
+   "id": "CVE-2026-97003",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97004",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97007",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97008",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Buffer underwrite ('buffer underflow') in Microsoft Office Excel allows an unauthorized attacker to execute...",
+   "summary": "Buffer underwrite ('buffer underflow') in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97009",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code locally.",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.0033
+  },
+  {
+   "id": "CVE-2026-97010",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97011",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use of uninitialized resource in Microsoft Office Excel allows an unauthorized attacker to execute code over...",
+   "summary": "Use of uninitialized resource in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97017",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97738",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97739",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute...",
+   "summary": "Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-97741",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-97742",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-97745",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-97746",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute...",
+   "summary": "Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97747",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97748",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97750",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97751",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00535
+  },
+  {
+   "id": "CVE-2026-97752",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97753",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-97754",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97755",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-97756",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-97757",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97758",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00601
+  },
+  {
+   "id": "CVE-2026-97759",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-97761",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-97762",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds write in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Out-of-bounds write in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97763",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97765",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-97766",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97767",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Double free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00601
+  },
+  {
+   "id": "CVE-2026-97768",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97769",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00774
+  },
+  {
+   "id": "CVE-2026-97770",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97771",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97772",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Double free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97773",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97775",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97776",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-97777",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97778",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Integer overflow or wraparound in Microsoft Office Excel allows an unauthorized attacker to execute code over...",
+   "summary": "Integer overflow or wraparound in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00601
+  },
+  {
+   "id": "CVE-2026-97780",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-97783",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office...",
+   "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an unauthorized attacker to perform spoofing over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "version": "2019"
+    }
+   ],
+   "epss": 0.00695
+  },
+  {
+   "id": "CVE-2026-97830",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Double free in Windows Internet Information Services allows an unauthorized attacker to deny service over a...",
+   "summary": "Double free in Windows Internet Information Services allows an unauthorized attacker to deny service over a network.",
+   "affects": [],
+   "epss": 0.00887
+  },
+  {
+   "id": "CVE-2026-110144",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.6,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Incorrect authorization in Mojo in Google Chrome on on Windows prior to 155.0.8059.79 allowed a local...",
+   "summary": "Incorrect authorization in Mojo in Google Chrome on on Windows prior to 155.0.8059.79 allowed a local attacker to potentially execute arbitrary code outside the sandbox via a local program. (Chromium security severity: High)",
+   "affects": [],
+   "epss": 0.00118
   },
   {
    "id": "CVE-2026-87679",
@@ -114,7 +2926,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00161
+   "epss": 0.00358
   },
   {
    "id": "CVE-2026-87680",
@@ -133,7 +2945,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.01022
+   "epss": 0.01913
   },
   {
    "id": "CVE-2026-87682",
@@ -152,7 +2964,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00865
+   "epss": 0.01666
   },
   {
    "id": "CVE-2026-87683",
@@ -171,7 +2983,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00175
+   "epss": 0.00481
   },
   {
    "id": "CVE-2026-87659",
@@ -190,7 +3002,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00144
+   "epss": 0.00241
   },
   {
    "id": "CVE-2026-87665",
@@ -209,7 +3021,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00849
+   "epss": 0.00789
   },
   {
    "id": "CVE-2026-87671",
@@ -228,7 +3040,517 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00225
+   "epss": 0.00398
+  },
+  {
+   "id": "CVE-2026-87684",
+   "vendor": "Broadcom",
+   "product": "fabric operating system",
+   "category": "Cloud & AI Services",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "A stack-based buffer overflow vulnerability exists in the SNMP daemon request handling of Brocade Fabric...",
+   "summary": "A stack-based buffer overflow vulnerability exists in the SNMP daemon request handling of Brocade Fabric versions before 10.0.1. When processing an incoming SNMPv3 packet, an internal statistics gathering handler copies user-supplied context name data into a fixed-size buffer without properly validating the length of the string. A remote, unauthenticated attacker (under default configuration) can exploit this vulnerability by sending a specially crafted SNMPv3 packet, leading to memory corruption, daemon crash (Denial of Service), or potential arbitrary code execution.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "toExcl": "10.0.1"
+    }
+   ],
+   "epss": 0.00229
+  },
+  {
+   "id": "CVE-2026-94578",
+   "vendor": "Broadcom",
+   "product": "fabric operating system",
+   "category": "Cloud & AI Services",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "Brocade Fabric OS versions before 10.0.1 contain an authorization logic vulnerability in the AAA...",
+   "summary": "Brocade Fabric OS versions before 10.0.1 contain an authorization logic vulnerability in the AAA (Authentication, Authorization, and Accounting) integration framework allows remote authenticated users to gain root-equivalent chassis access controls. By returning specific, crafted Vendor-Specific Attributes (VSAs) or directory claims from an external identity provider (such as RADIUS, LDAP, TACACS+, or Federated IDP), an account can bypass administrative role restriction checks during session establishment.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "toExcl": "10.0.1"
+    }
+   ],
+   "epss": 0.00236
+  },
+  {
+   "id": "CVE-2026-94582",
+   "vendor": "Broadcom",
+   "product": "fabric operating system",
+   "category": "Cloud & AI Services",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "A memory buffer overflow vulnerability exists in the internal diagnostic and route validation routines used...",
+   "summary": "A memory buffer overflow vulnerability exists in the internal diagnostic and route validation routines used by the Fabric Shortest Path First (FSPF) protocol component of Brocade Fabric OS versions before 10.0.1. While this code path is part of internal diagnostic functionality and is not directly accessible via standard user interfaces or CLI management commands, an input processing flaw allows incoming or internally routed diagnostic state payloads to exceed allocated memory boundaries. An attacker that is able to chain or link other vulnerabilities to exploit this internal diagnostic could cause a heap- or stack-based memory overrun, resulting in a daemon crash (Denial of Service) or potential arbitrary code execution within the context of the routing daemon.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "toExcl": "10.0.1"
+    }
+   ],
+   "epss": 0.00127
+  },
+  {
+   "id": "CVE-2026-87660",
+   "vendor": "Broadcom",
+   "product": "fabric operating system",
+   "category": "Cloud & AI Services",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "An improper file permission and missing authorization vulnerability exists in the diagnostic kernel module...",
+   "summary": "An improper file permission and missing authorization vulnerability exists in the diagnostic kernel module subsystem of Brocade Fabric OS versions before 9.2.2d and 10.0.0 through 10.0.0a1. An unprivileged local user can invoke privileged hardware tests, force system error conditions, reset hardware blades, or disrupt storage fabric operations.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "toExcl": "9.2.2d"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "from": "10.0.0",
+     "toExcl": "10.0.1"
+    }
+   ],
+   "epss": 0.00128
+  },
+  {
+   "id": "CVE-2026-87666",
+   "vendor": "Broadcom",
+   "product": "fabric operating system",
+   "category": "Cloud & AI Services",
+   "cvss": 8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "An OS command injection vulnerability exists in the time and zone management subsystem of Brocade Fabric OS...",
+   "summary": "An OS command injection vulnerability exists in the time and zone management subsystem of Brocade Fabric OS versions before 9.2.2d and 10.0.0 through 10.0.0a1. When updating system timezone settings via the REST API or configuration download routines, the system fails to sanitize input values before processing them in underlying shell execution routines. An authenticated user with low-privilege administrative access can exploit this vulnerability by submitting a crafted timezone string containing shell metacharacters. Successful exploitation allows the attacker to escape the restricted management environment and execute arbitrary shell commands with elevated privileges.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "toExcl": "9.2.2d"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "from": "10.0.0",
+     "toExcl": "10.0.1"
+    }
+   ],
+   "epss": 0.01847
+  },
+  {
+   "id": "CVE-2026-87673",
+   "vendor": "Broadcom",
+   "product": "fabric operating system",
+   "category": "Cloud & AI Services",
+   "cvss": 7.2,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "An OS command injection vulnerability exists in maintenance command-line diagnostic utilities on Brocade...",
+   "summary": "An OS command injection vulnerability exists in maintenance command-line diagnostic utilities on Brocade Fabric OS versions before 9.2.2d and 10.0.0 through 10.0.0a1. The binary fails to sanitize user-supplied input options when invoking underlying system commands through a shell interpreter. A privileged user with maintenance account access can exploit this issue by supplying crafted parameters, which results in arbitrary OS command execution with root privileges.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "toExcl": "9.2.2d"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "from": "10.0.0",
+     "toExcl": "10.0.1"
+    }
+   ],
+   "epss": 0.00899
+  },
+  {
+   "id": "CVE-2026-87674",
+   "vendor": "Broadcom",
+   "product": "fabric operating system",
+   "category": "Cloud & AI Services",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "A local privilege escalation vulnerability exists in the system logging daemon of Brocade Fabric OS versions...",
+   "summary": "A local privilege escalation vulnerability exists in the system logging daemon of Brocade Fabric OS versions before 9.2.2d and 10.0.0 through 10.0.0a1. Insufficient access controls on internal inter-process communication (IPC) channels allow an unprivileged local user to submit malformed logging configurations. Due to improper input sanitization during configuration file generation, an attacker can inject arbitrary directives that execute with elevated privileges when the logging service reloads, leading to local privilege escalation.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "toExcl": "9.2.2d"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "from": "10.0.0",
+     "toExcl": "10.0.1"
+    }
+   ],
+   "epss": 0.00108
+  },
+  {
+   "id": "CVE-2026-87687",
+   "vendor": "Broadcom",
+   "product": "fabric operating system",
+   "category": "Cloud & AI Services",
+   "cvss": 7.3,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "An authorization and input validation vulnerability exists in Brocade Fabric OS versions before 9.2.2d and...",
+   "summary": "An authorization and input validation vulnerability exists in Brocade Fabric OS versions before 9.2.2d and 10.0.0 through 10.0.0a1. An authenticated user with restricted privileges in one Virtual Fabric can exploit this issue by submitting a specially crafted request containing an arbitrary fabric identifier. This allows the user to perform unauthorized cross-fabric operations and view configuration details within tenants/Virtual Fabrics to which they have not been granted access.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "toExcl": "9.2.2d"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "from": "10.0.0",
+     "toExcl": "10.0.1"
+    }
+   ],
+   "epss": 0.0019
+  },
+  {
+   "id": "CVE-2026-87664",
+   "vendor": "Broadcom",
+   "product": "fabric operating system",
+   "category": "Cloud & AI Services",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "A session context forgery vulnerability exists in the web management daemon of Brocade Fabric OS versions...",
+   "summary": "A session context forgery vulnerability exists in the web management daemon of Brocade Fabric OS versions 9.2.2d and 10.0.0 through 10.0.0a1. When processing local inter-process communication (IPC) storage callbacks, the service accepts and registers session structures including administrative role permissions, user identifiers, and authorization flags—without verifying the identity or authenticity of the sending process. An attacker can obtain elevated administrative privileges on the web management interface without legitimate authentication.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "toExcl": "9.2.2d"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "from": "10.0.0",
+     "toExcl": "10.0.1"
+    }
+   ],
+   "epss": 0.00123
+  },
+  {
+   "id": "CVE-2026-94576",
+   "vendor": "Broadcom",
+   "product": "fabric operating system",
+   "category": "Cloud & AI Services",
+   "cvss": 8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "An authentication logic and privilege escalation vulnerability exists in the account management interface of...",
+   "summary": "An authentication logic and privilege escalation vulnerability exists in the account management interface of Brocade Fabric OS versions before 9.2.2d and 10.0.0 through 10.0.0a1. Under specific conditions, an authenticated user can bypass authorization restrictions intended to prevent modifying another account's access privileges. Exploitation allows a lower-privileged user to assign administrative roles to a target account, leading to localized privilege escalation.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "toExcl": "9.2.2d"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "from": "10.0.0",
+     "toExcl": "10.0.1"
+    }
+   ],
+   "epss": 0.00359
+  },
+  {
+   "id": "CVE-2026-94577",
+   "vendor": "Broadcom",
+   "product": "fabric operating system",
+   "category": "Cloud & AI Services",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "A privilege escalation vulnerability exists in the internal Command-Line Interface (CLI) authorization...",
+   "summary": "A privilege escalation vulnerability exists in the internal Command-Line Interface (CLI) authorization handling mechanism of Brocade Fabric OS versions before 9.2.2d and 10.0.0 through 10.0.0a1. An authenticated user or local process that can manipulate the process execution environment can bypass Role-Based Access Control (RBAC) validation checks. Successful exploitation allows an attacker to elevate privileges to root",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "toExcl": "9.2.2d"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "from": "10.0.0",
+     "toExcl": "10.0.1"
+    }
+   ],
+   "epss": 0.00102
+  },
+  {
+   "id": "CVE-2026-94579",
+   "vendor": "Broadcom",
+   "product": "fabric operating system",
+   "category": "Cloud & AI Services",
+   "cvss": 8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "An OS command injection vulnerability exists in the PAM (Pluggable Authentication Module) session cleanup...",
+   "summary": "An OS command injection vulnerability exists in the PAM (Pluggable Authentication Module) session cleanup routines during SSH session termination on Brocade Fabric OS versions before 9.2.2d and 10.0.0 through 10.0.0a1. An authenticated user authenticating via an external directory or AAA service whose username or profile identifier contains shell metacharacters can trigger arbitrary command execution with root privileges when their remote SSH session closes.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "toExcl": "9.2.2d"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "from": "10.0.0",
+     "toExcl": "10.0.1"
+    }
+   ],
+   "epss": 0.0265
+  },
+  {
+   "id": "CVE-2026-94585",
+   "vendor": "Broadcom",
+   "product": "fabric operating system",
+   "category": "Cloud & AI Services",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "An authentication bypass vulnerability exists in the web management interface of Brocade Fabric OS versions...",
+   "summary": "An authentication bypass vulnerability exists in the web management interface of Brocade Fabric OS versions before 9.2.2d running on the MXG610 platform. An unauthenticated, network-adjacent attacker can exploit an unauthenticated endpoint within the Single Sign-On (SSO) workflow to gain administrative access to the device management interface.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "fabric operating system",
+     "toExcl": "9.2.2d"
+    }
+   ],
+   "epss": 0.00167
+  },
+  {
+   "id": "CVE-2026-5048",
+   "vendor": "Broadcom",
+   "product": "brocade sannav",
+   "category": "Application Platforms",
+   "cvss": 8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "In Brocade SANnav before 3.0.0a, an SQL Injection vulnerability in various external API inventories have a...",
+   "summary": "In Brocade SANnav before 3.0.0a, an SQL Injection vulnerability in various external API inventories have a vulnerability that allows an authenticated attacker to inject malicious data into some of the REST API -query parameters.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "brocade sannav",
+     "toExcl": "3.0.0a"
+    }
+   ],
+   "epss": 0.00186
+  },
+  {
+   "id": "CVE-2026-85421",
+   "vendor": "Broadcom",
+   "product": "brocade active support connectivity gateway",
+   "category": "Edge / VPN",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "A critical security vulnerability has been identified in Brocade ASCG versions before 3.5.0.",
+   "summary": "A critical security vulnerability has been identified in Brocade ASCG versions before 3.5.0. The HTTPS service fails to properly enforce authentication or access control checks on incoming requests. An unauthenticated attacker with network access can issue control commands, alter cluster states, and modify system configurations, leading to a complete compromise of the streaming service control plane.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "brocade active support connectivity gateway",
+     "toExcl": "3.5.0"
+    }
+   ],
+   "epss": 0.00194
+  },
+  {
+   "id": "CVE-2026-85422",
+   "vendor": "Broadcom",
+   "product": "brocade active support connectivity gateway",
+   "category": "Edge / VPN",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "A vulnerability in Brocade ASCG version before 3.5.0 could allow an attacker to obtain a static cryptographic...",
+   "summary": "A vulnerability in Brocade ASCG version before 3.5.0 could allow an attacker to obtain a static cryptographic key hardcoded into the software binaries to secure sensitive data at rest and to protect inter-node communication protocols. An attacker who extracts this key can decrypt stored management credentials or craft forged administrative synchronization messages.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "brocade active support connectivity gateway",
+     "toExcl": "3.5.0"
+    }
+   ],
+   "epss": 0.00106
+  },
+  {
+   "id": "CVE-2026-85423",
+   "vendor": "Broadcom",
+   "product": "brocade active support connectivity gateway",
+   "category": "Edge / VPN",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "A vulnerability has been identified in the data collection service of Brocade ASCG versions before 3.5.0.",
+   "summary": "A vulnerability has been identified in the data collection service of Brocade ASCG versions before 3.5.0. An API endpoint within the data collector service fails to perform authentication or authorization checks on incoming requests. An attacker with network access to the service can instruct the application to establish SSH connections to arbitrary hosts and execute arbitrary system commands, effectively turning the appliance into an unauthenticated proxy or execution vector.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "brocade active support connectivity gateway",
+     "toExcl": "3.5.0"
+    }
+   ],
+   "epss": 0.00207
+  },
+  {
+   "id": "CVE-2026-85486",
+   "vendor": "Broadcom",
+   "product": "brocade active support connectivity gateway",
+   "category": "Edge / VPN",
+   "cvss": 8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "Brocade ASCG before 3.5.0 improperly processes user input by evaluating form data prior to validation.",
+   "summary": "Brocade ASCG before 3.5.0 improperly processes user input by evaluating form data prior to validation. When an authenticated user submits a configuration form, the submitted text could immediately be processed. A malicious actor with basic access can supply crafted input to execute arbitrary code on the server and take control of the application.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "brocade active support connectivity gateway",
+     "toExcl": "3.5.0"
+    }
+   ],
+   "epss": 0.00228
+  },
+  {
+   "id": "CVE-2026-85487",
+   "vendor": "Broadcom",
+   "product": "brocade active support connectivity gateway",
+   "category": "Edge / VPN",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "A path traversal vulnerability exists in the HTTP service component of Brocade ASCG versions before 3.5.0.",
+   "summary": "A path traversal vulnerability exists in the HTTP service component of Brocade ASCG versions before 3.5.0. An unauthenticated attacker on the local network could send a manipulated API request to the service endpoint bypassing path restrictions to arbitrary file read, file write, or file deletion operations.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "brocade active support connectivity gateway",
+     "toExcl": "3.5.0"
+    }
+   ],
+   "epss": 0.00205
+  },
+  {
+   "id": "CVE-2026-85488",
+   "vendor": "Broadcom",
+   "product": "brocade active support connectivity gateway",
+   "category": "Edge / VPN",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "Brocade ASCG before 3.5.0 has a well-known Brocade default password embedded in a script distributed to every...",
+   "summary": "Brocade ASCG before 3.5.0 has a well-known Brocade default password embedded in a script distributed to every customer. Any local authenticated user with read access to the installation path can discover this credential and perform privilege escalation on affected Open Virtual Appliance (OVA) deployments, where default configuration settings remain in place.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "brocade active support connectivity gateway",
+     "toExcl": "3.5.0"
+    }
+   ],
+   "epss": 0.00091
+  },
+  {
+   "id": "CVE-2026-85489",
+   "vendor": "Broadcom",
+   "product": "brocade active support connectivity gateway",
+   "category": "Edge / VPN",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "An authentication flaw exists in the Brocade ASCG administrative management service component.",
+   "summary": "An authentication flaw exists in the Brocade ASCG administrative management service component. An unauthenticated network user can issue direct API requests to perform privileged actions, including accessing sensitive system configuration mapping data, modifying managed device inventories, and altering operational settings. This vulnerability affects all versions of Brocade ASCG before 3.5.0.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "brocade active support connectivity gateway",
+     "toExcl": "3.5.0"
+    }
+   ],
+   "epss": 0.00188
+  },
+  {
+   "id": "CVE-2026-85490",
+   "vendor": "Broadcom",
+   "product": "brocade active support connectivity gateway",
+   "category": "Edge / VPN",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "When Brocade ASCG before 3.5.0 processes support bundle archives ingested from remote compromised endpoints,...",
+   "summary": "When Brocade ASCG before 3.5.0 processes support bundle archives ingested from remote compromised endpoints, the application fails to sanitize path traversal sequences contained within archive entries prior to extraction. An unauthenticated remote attacker capable of sending or intercepting ingested archive files can leverage this flaw to write arbitrary files to restricted locations on the underlying host, potentially leading to remote code execution.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "brocade active support connectivity gateway",
+     "toExcl": "3.5.0"
+    }
+   ],
+   "epss": 0.00273
+  },
+  {
+   "id": "CVE-2026-87424",
+   "vendor": "Broadcom",
+   "product": "brocade active support connectivity gateway",
+   "category": "Edge / VPN",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "A vulnerability in the SupportLink API authentication component of Brocade ASCG versions prior to 3.5.0...",
+   "summary": "A vulnerability in the SupportLink API authentication component of Brocade ASCG versions prior to 3.5.0 allows an attacker to bypass authentication across deployments due to the use of a hard coded cryptographic key.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "brocade active support connectivity gateway",
+     "toExcl": "3.5.0"
+    }
+   ],
+   "epss": 0.00172
+  },
+  {
+   "id": "CVE-2026-87428",
+   "vendor": "Broadcom",
+   "product": "brocade active support connectivity gateway",
+   "category": "Edge / VPN",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "In Brocade ASCG before 3.5.0, a  local unauthorized user on the ASCG VM who can issue a request to the SANnav...",
+   "summary": "In Brocade ASCG before 3.5.0, a  local unauthorized user on the ASCG VM who can issue a request to the SANnav host network namespace can extract stored management credentials for onboarded SANnav instances and compromise connected Brocade SANnav servers or managed Brocade Fibre Channel switches.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "brocade active support connectivity gateway",
+     "toExcl": "3.5.0"
+    }
+   ],
+   "epss": 0.00096
   },
   {
    "id": "CVE-2026-92414",
@@ -260,7 +3582,7 @@
      "toExcl": "2.23.6"
     }
    ],
-   "epss": 0.0062
+   "epss": 0.00725
   },
   {
    "id": "CVE-2026-106373",
@@ -516,6 +3838,35 @@
    "summary": "Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
    "epss": 0.00325
+  },
+  {
+   "id": "CVE-2026-96940",
+   "vendor": "Microsoft",
+   "product": "exchange server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-02",
+   "title": "Weak authentication in Microsoft Exchange Server allows an authorized attacker to elevate privileges over a...",
+   "summary": "Weak authentication in Microsoft Exchange Server allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "exchange server",
+     "version": "2016"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "exchange server",
+     "version": "2019"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "exchange server subscription edition",
+     "toExcl": "15.02.2562.053"
+    }
+   ],
+   "epss": 0.00496
   },
   {
    "id": "CVE-2026-103493",
@@ -3527,7 +6878,7 @@
    "vendor": "Microsoft",
    "product": "365 copilot chat",
    "category": "Cloud & AI Services",
-   "cvss": 7.4,
+   "cvss": 8.6,
    "kev": false,
    "published": "2026-09-17",
    "title": "Improper neutralization of special elements used in a command ('command injection') in Microsoft 365...",
