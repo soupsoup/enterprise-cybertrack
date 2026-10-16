@@ -75,7 +75,7 @@
 <guid isPermaLink="false">CVE-2026-102866</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Email &amp; Collaboration</category>
-<description>Improper verification of cryptographic signature in Microsoft Office SharePoint allows an unauthorized attacker to elevate privileges over a network. | CVSS 8.1 | EPSS 0.6%</description>
+<description>Improper verification of cryptographic signature in Microsoft Office SharePoint allows an unauthorized attacker to elevate privileges over a network. | CVSS 8.1 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-105013 Microsoft sharepoint server: Deserialization of untrusted data in Microsoft Office SharePoint allows an authorized attacker to execute...</title>
@@ -131,7 +131,7 @@
 <guid isPermaLink="false">CVE-2026-70246</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Email &amp; Collaboration</category>
-<description>Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.8%</description>
+<description>Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-70251 Microsoft sharepoint server: Server-side request forgery (ssrf) in Microsoft Office SharePoint allows an authorized attacker to elevate...</title>
@@ -139,7 +139,7 @@
 <guid isPermaLink="false">CVE-2026-70251</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Email &amp; Collaboration</category>
-<description>Server-side request forgery (ssrf) in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network. | CVSS 7.5 | EPSS 0.6%</description>
+<description>Server-side request forgery (ssrf) in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network. | CVSS 7.5 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-70254 Microsoft 365 apps: Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
@@ -707,7 +707,7 @@
 <guid isPermaLink="false">CVE-2026-97783</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Email &amp; Collaboration</category>
-<description>Improper neutralization of input during web page generation (&apos;cross-site scripting&apos;) in Microsoft Office SharePoint allows an unauthorized attacker to perform spoofing over a network. | CVSS 8.1 | EPSS 0.7%</description>
+<description>Improper neutralization of input during web page generation (&apos;cross-site scripting&apos;) in Microsoft Office SharePoint allows an unauthorized attacker to perform spoofing over a network. | CVSS 8.1 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-97830 Microsoft windows: Double free in Windows Internet Information Services allows an unauthorized attacker to deny service over a...</title>
@@ -723,87 +723,87 @@
 <guid isPermaLink="false">CVE-2026-110144</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Incorrect authorization in Mojo in Google Chrome on on Windows prior to 155.0.8059.79 allowed a local attacker to potentially execute arbitrary code outside the sandbox via a local program. (Chromium security severity: High) | CVSS 8.6 | EPSS 0.1%</description>
+<description>Incorrect authorization in Mojo in Google Chrome on on Windows prior to 155.0.8059.79 allowed a local attacker to potentially execute arbitrary code outside the sandbox via a local program. (Chromium security severity: High) | CVSS 8.6 | EPSS 0.2%</description>
 </item>
 <item>
-<title>CVE-2026-106373 Microsoft windows: Use after free in Fonts in Google Chrome on on Windows prior to 155.0.8059.39 allowed a remote attacker to...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-106373</link>
-<guid isPermaLink="false">CVE-2026-106373</guid>
-<pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-102849 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102849</link>
+<guid isPermaLink="false">CVE-2026-102849</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Fonts in Google Chrome on on Windows prior to 155.0.8059.39 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium) | CVSS 8.8 | EPSS 0.3%</description>
+<description>Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
 </item>
 <item>
-<title>CVE-2026-106186 Microsoft windows: Uncontrolled search path element in CredentialProvider in Google Chrome on on Windows prior to 155.0.8059.39...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-106186</link>
-<guid isPermaLink="false">CVE-2026-106186</guid>
-<pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-102850 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102850</link>
+<guid isPermaLink="false">CVE-2026-102850</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Uncontrolled search path element in CredentialProvider in Google Chrome on on Windows prior to 155.0.8059.39 allowed a local attacker to potentially execute arbitrary code outside the sandbox via a local program. (Chromium security severity: Low) | CVSS 8.6 | EPSS 0.2%</description>
+<description>Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
 </item>
 <item>
-<title>CVE-2026-103624 Microsoft windows: Use after free in Contextual Tasks in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-103624</link>
-<guid isPermaLink="false">CVE-2026-103624</guid>
-<pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-102856 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102856</link>
+<guid isPermaLink="false">CVE-2026-102856</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Contextual Tasks in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote attacker who had compromised the renderer process to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.3 | EPSS 0.3%</description>
+<description>Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
 </item>
 <item>
-<title>CVE-2026-103626 Microsoft windows: Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-103626</link>
-<guid isPermaLink="false">CVE-2026-103626</guid>
-<pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-102857 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102857</link>
+<guid isPermaLink="false">CVE-2026-102857</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.3%</description>
+<description>Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
 </item>
 <item>
-<title>CVE-2026-96940 Microsoft exchange server: Weak authentication in Microsoft Exchange Server allows an authorized attacker to elevate privileges over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96940</link>
-<guid isPermaLink="false">CVE-2026-96940</guid>
-<pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
-<category>Email &amp; Collaboration</category>
-<description>Weak authentication in Microsoft Exchange Server allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.5%</description>
+<title>CVE-2026-102858 Microsoft microsoft 365: Heap-based buffer overflow in Microsoft Office OneNote allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102858</link>
+<guid isPermaLink="false">CVE-2026-102858</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Heap-based buffer overflow in Microsoft Office OneNote allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
 </item>
 <item>
-<title>CVE-2026-102317 Microsoft windows: Improper privilege management in Mojo in Google Chrome on on Windows prior to 154.0.8037.92 allowed a local...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102317</link>
-<guid isPermaLink="false">CVE-2026-102317</guid>
-<pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-105591 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-105591</link>
+<guid isPermaLink="false">CVE-2026-105591</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Improper privilege management in Mojo in Google Chrome on on Windows prior to 154.0.8037.92 allowed a local attacker to potentially execute arbitrary code outside the sandbox via a local program. (Chromium security severity: High) | CVSS 8.6 | EPSS 0.1%</description>
+<description>Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
 </item>
 <item>
-<title>CVE-2026-70125 Microsoft 365 apps: Microsoft Office Outlook Remote Code Execution Vulnerability</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-70125</link>
-<guid isPermaLink="false">CVE-2026-70125</guid>
-<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-105592 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-105592</link>
+<guid isPermaLink="false">CVE-2026-105592</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Microsoft Office Outlook Remote Code Execution Vulnerability | CVSS 8.8 | EPSS 0.4%</description>
+<description>Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.5%</description>
 </item>
 <item>
-<title>CVE-2026-91789 Microsoft windows: Foxit PDF Editor/Reader’s U3D/GIF texture decoding path contained insufficient validation of image dimensions...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91789</link>
-<guid isPermaLink="false">CVE-2026-91789</guid>
-<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-105593 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-105593</link>
+<guid isPermaLink="false">CVE-2026-105593</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Foxit PDF Editor/Reader’s U3D/GIF texture decoding path contained insufficient validation of image dimensions and related size information. Under certain conditions, this could lead to an incorrectly sized memory allocation and a subsequent out-of-bounds write during pixel processing, potentially resulting in remote code execution. | CVSS 7.8 | EPSS 0.2%</description>
+<description>Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
 </item>
 <item>
-<title>CVE-2026-91790 Microsoft windows: When rendering the page image, Foxit PDF Editor/Reader fails to perform validation on image objects whose...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91790</link>
-<guid isPermaLink="false">CVE-2026-91790</guid>
-<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-105595 Microsoft 365 apps: Out-of-bounds read in Microsoft Office Access allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-105595</link>
+<guid isPermaLink="false">CVE-2026-105595</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>When rendering the page image, Foxit PDF Editor/Reader fails to perform validation on image objects whose optional content attributes are malformed. As a result, the program may access an already-freed internal data structure, triggering a crash due to UAF. | CVSS 7.8 | EPSS 0.1%</description>
+<description>Out-of-bounds read in Microsoft Office Access allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
 </item>
 <item>
-<title>CVE-2026-91791 Microsoft windows: When processing a specially crafted PDF file, Foxit PDF Editor/Reader may encounter a reentrant execution...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91791</link>
-<guid isPermaLink="false">CVE-2026-91791</guid>
-<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-105596 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-105596</link>
+<guid isPermaLink="false">CVE-2026-105596</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>When processing a specially crafted PDF file, Foxit PDF Editor/Reader may encounter a reentrant execution condition involving JavaScript triggered by page-visibility events. This can cause the application to access a released page-view object while calculating annotation boundaries, resulting in an invalid memory read and application crash. | CVSS 7.8 | EPSS 0.1%</description>
+<description>Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
 </item>
 </channel>
 </rss>

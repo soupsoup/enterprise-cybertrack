@@ -1,6 +1,169 @@
 {
- "generated": "2026-10-15T10:07:28.183Z",
+ "generated": "2026-10-16T09:56:16.053Z",
  "cves": [
+  {
+   "id": "CVE-2026-76519",
+   "vendor": "Cisco",
+   "product": "asyncos",
+   "category": "Email & Collaboration",
+   "cvss": 9.8,
+   "kev": true,
+   "published": "2026-10-14",
+   "title": "A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an...",
+   "summary": "A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.\r\n\r\nThis vulnerability is due to improper handling of email attachments when the file reputation service is enabled. An attacker could exploit this vulnerability by sending an email that contains a crafted attachment through an affected device. A successful exploit could allow the attacker to write arbitrary files and execute commands with&nbsp;root privileges on the underlying operating system.",
+   "affects": [
+    {
+     "vendor": "Cisco",
+     "product": "asyncos",
+     "from": "15.0",
+     "toExcl": "15.5.5-014"
+    },
+    {
+     "vendor": "Cisco",
+     "product": "asyncos",
+     "from": "16.0",
+     "toExcl": "16.5.0-780"
+    }
+   ],
+   "kevAdded": "2026-10-14",
+   "epss": 0.01743
+  },
+  {
+   "id": "CVE-2026-0322",
+   "vendor": "Palo Alto Networks",
+   "product": "pan-os",
+   "category": "Edge / VPN",
+   "cvss": 7.2,
+   "kev": true,
+   "published": "2026-10-14",
+   "title": "A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS®...",
+   "summary": "A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS® software enables an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.\n\n\n\nThe security risk posed by this issue is minimized by restricting access to the management interface to only trusted internal IP addresses according to our recommended  best practice deployment guidelines https://live.paloaltonetworks.com/t5/community-blogs/tips-amp-tricks-how-to-secure-the-management-access-of-your-palo/ba-p/464431 .\n\n\n\nThis issue is applicable to PAN-OS software on PA-Series and VM-Series firewalls and on Panorama (virtual and M-Series).\n\n\n\nCloud NGFW and Prisma® Access are not impacted by this vulnerability.",
+   "affects": [
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "toExcl": "10.2.0"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "from": "12.2.0",
+     "toExcl": "12.2.4"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "10.2.7"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "10.2.8"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "10.2.9"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "10.2.10"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "10.2.11"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "10.2.12"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "10.2.13"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "10.2.14"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "10.2.15"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "10.2.16"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "10.2.17"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "10.2.18"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "11.1.0"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "11.1.1"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "11.1.2"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "11.1.3"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "11.1.4"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "11.1.5"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "11.1.6"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "11.1.7"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "11.1.8"
+    },
+    {
+     "vendor": "Palo Alto Networks",
+     "product": "pan-os",
+     "version": "11.1.9"
+    }
+   ],
+   "kevAdded": "2026-10-14",
+   "epss": 0.01076
+  },
   {
    "id": "CVE-2026-58249",
    "vendor": "SAP",
@@ -127,7 +290,7 @@
      "toExcl": "19.4.2"
     }
    ],
-   "epss": 0.00244
+   "epss": 0.00247
   },
   {
    "id": "CVE-2026-16301",
@@ -159,7 +322,7 @@
      "toExcl": "19.4.2"
     }
    ],
-   "epss": 0.00225
+   "epss": 0.00216
   },
   {
    "id": "CVE-2026-81839",
@@ -191,7 +354,7 @@
      "toExcl": "19.4.2"
     }
    ],
-   "epss": 0.00231
+   "epss": 0.00229
   },
   {
    "id": "CVE-2026-92883",
@@ -223,7 +386,7 @@
      "toExcl": "19.4.2"
     }
    ],
-   "epss": 0.00275
+   "epss": 0.00269
   },
   {
    "id": "CVE-2026-96893",
@@ -255,7 +418,7 @@
      "toExcl": "19.4.2"
     }
    ],
-   "epss": 0.00545
+   "epss": 0.00531
   },
   {
    "id": "CVE-2026-97229",
@@ -287,7 +450,7 @@
      "toExcl": "19.4.2"
     }
    ],
-   "epss": 0.00559
+   "epss": 0.00547
   },
   {
    "id": "CVE-2026-100209",
@@ -317,7 +480,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00839
+   "epss": 0.00821
   },
   {
    "id": "CVE-2026-100210",
@@ -352,7 +515,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00839
+   "epss": 0.00821
   },
   {
    "id": "CVE-2026-100211",
@@ -382,7 +545,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00839
+   "epss": 0.00821
   },
   {
    "id": "CVE-2026-100212",
@@ -417,7 +580,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00805
+   "epss": 0.00788
   },
   {
    "id": "CVE-2026-102860",
@@ -436,7 +599,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00713
+   "epss": 0.00698
   },
   {
    "id": "CVE-2026-102861",
@@ -455,7 +618,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00713
+   "epss": 0.00698
   },
   {
    "id": "CVE-2026-102862",
@@ -474,7 +637,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00713
+   "epss": 0.00698
   },
   {
    "id": "CVE-2026-102863",
@@ -512,7 +675,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00551
+   "epss": 0.0054
   },
   {
    "id": "CVE-2026-105013",
@@ -531,7 +694,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00839
+   "epss": 0.0084
   },
   {
    "id": "CVE-2026-105715",
@@ -561,7 +724,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00548
+   "epss": 0.00536
   },
   {
    "id": "CVE-2026-105718",
@@ -596,7 +759,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00838
+   "epss": 0.0082
   },
   {
    "id": "CVE-2026-69943",
@@ -644,7 +807,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00517
+   "epss": 0.00506
   },
   {
    "id": "CVE-2026-70220",
@@ -674,7 +837,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00427
+   "epss": 0.00418
   },
   {
    "id": "CVE-2026-70246",
@@ -693,7 +856,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00765
+   "epss": 0.00748
   },
   {
    "id": "CVE-2026-70251",
@@ -712,7 +875,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00555
+   "epss": 0.00543
   },
   {
    "id": "CVE-2026-70254",
@@ -742,7 +905,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00805
+   "epss": 0.00788
   },
   {
    "id": "CVE-2026-70266",
@@ -761,7 +924,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00949
+   "epss": 0.0095
   },
   {
    "id": "CVE-2026-70267",
@@ -780,7 +943,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00916
+   "epss": 0.00897
   },
   {
    "id": "CVE-2026-70268",
@@ -810,7 +973,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00805
+   "epss": 0.00788
   },
   {
    "id": "CVE-2026-70269",
@@ -840,7 +1003,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00711
+   "epss": 0.00696
   },
   {
    "id": "CVE-2026-70287",
@@ -870,7 +1033,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00805
+   "epss": 0.00788
   },
   {
    "id": "CVE-2026-70300",
@@ -896,7 +1059,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00997
+   "epss": 0.00976
   },
   {
    "id": "CVE-2026-70301",
@@ -926,7 +1089,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00805
+   "epss": 0.00788
   },
   {
    "id": "CVE-2026-70302",
@@ -956,7 +1119,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00805
+   "epss": 0.00788
   },
   {
    "id": "CVE-2026-77902",
@@ -986,7 +1149,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00805
+   "epss": 0.00788
   },
   {
    "id": "CVE-2026-83891",
@@ -1016,7 +1179,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00774
+   "epss": 0.00757
   },
   {
    "id": "CVE-2026-85900",
@@ -1035,7 +1198,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.01518
+   "epss": 0.01519
   },
   {
    "id": "CVE-2026-88145",
@@ -1065,7 +1228,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-88150",
@@ -1095,7 +1258,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-88155",
@@ -1182,7 +1345,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00688
+   "epss": 0.00674
   },
   {
    "id": "CVE-2026-88186",
@@ -1212,7 +1375,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-88198",
@@ -1231,7 +1394,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00713
+   "epss": 0.00698
   },
   {
    "id": "CVE-2026-88200",
@@ -1250,7 +1413,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00713
+   "epss": 0.00698
   },
   {
    "id": "CVE-2026-88202",
@@ -1280,7 +1443,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-88204",
@@ -1299,7 +1462,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00624
+   "epss": 0.00625
   },
   {
    "id": "CVE-2026-88206",
@@ -1318,7 +1481,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00517
+   "epss": 0.00506
   },
   {
    "id": "CVE-2026-88210",
@@ -1348,7 +1511,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00427
+   "epss": 0.00418
   },
   {
    "id": "CVE-2026-96044",
@@ -1367,7 +1530,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00713
+   "epss": 0.00698
   },
   {
    "id": "CVE-2026-96951",
@@ -1386,7 +1549,7 @@
     }
    ],
    "kevAdded": "2026-10-13",
-   "epss": 0.01506
+   "epss": 0.01512
   },
   {
    "id": "CVE-2026-97003",
@@ -1421,7 +1584,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97004",
@@ -1456,7 +1619,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97007",
@@ -1491,7 +1654,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97008",
@@ -1526,7 +1689,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97009",
@@ -1552,7 +1715,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.0033
+   "epss": 0.00323
   },
   {
    "id": "CVE-2026-97010",
@@ -1587,7 +1750,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97011",
@@ -1617,7 +1780,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97017",
@@ -1652,7 +1815,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97738",
@@ -1687,7 +1850,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97739",
@@ -1722,7 +1885,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00798
+   "epss": 0.00781
   },
   {
    "id": "CVE-2026-97741",
@@ -1752,7 +1915,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00798
+   "epss": 0.00781
   },
   {
    "id": "CVE-2026-97742",
@@ -1787,7 +1950,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00798
+   "epss": 0.00781
   },
   {
    "id": "CVE-2026-97745",
@@ -1817,7 +1980,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00798
+   "epss": 0.00781
   },
   {
    "id": "CVE-2026-97746",
@@ -1852,7 +2015,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97747",
@@ -1887,7 +2050,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97748",
@@ -1922,7 +2085,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97750",
@@ -1957,7 +2120,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97751",
@@ -1992,7 +2155,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00535
+   "epss": 0.00524
   },
   {
    "id": "CVE-2026-97752",
@@ -2027,7 +2190,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97753",
@@ -2062,7 +2225,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00798
+   "epss": 0.00781
   },
   {
    "id": "CVE-2026-97754",
@@ -2097,7 +2260,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97755",
@@ -2137,7 +2300,7 @@
      "toExcl": "16.0.20326.20190"
     }
    ],
-   "epss": 0.00798
+   "epss": 0.00781
   },
   {
    "id": "CVE-2026-97756",
@@ -2172,7 +2335,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00798
+   "epss": 0.00781
   },
   {
    "id": "CVE-2026-97757",
@@ -2207,7 +2370,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97758",
@@ -2242,7 +2405,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00601
+   "epss": 0.00589
   },
   {
    "id": "CVE-2026-97759",
@@ -2272,7 +2435,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00798
+   "epss": 0.00781
   },
   {
    "id": "CVE-2026-97761",
@@ -2302,7 +2465,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00798
+   "epss": 0.00781
   },
   {
    "id": "CVE-2026-97762",
@@ -2337,7 +2500,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97763",
@@ -2372,7 +2535,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97765",
@@ -2407,7 +2570,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00798
+   "epss": 0.00781
   },
   {
    "id": "CVE-2026-97766",
@@ -2442,7 +2605,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97767",
@@ -2477,7 +2640,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00601
+   "epss": 0.00589
   },
   {
    "id": "CVE-2026-97768",
@@ -2512,7 +2675,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97769",
@@ -2547,7 +2710,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00774
+   "epss": 0.00757
   },
   {
    "id": "CVE-2026-97770",
@@ -2582,7 +2745,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97771",
@@ -2617,7 +2780,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97772",
@@ -2652,7 +2815,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97773",
@@ -2687,7 +2850,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97775",
@@ -2722,7 +2885,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97776",
@@ -2757,7 +2920,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00798
+   "epss": 0.00781
   },
   {
    "id": "CVE-2026-97777",
@@ -2792,7 +2955,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00738
+   "epss": 0.00722
   },
   {
    "id": "CVE-2026-97778",
@@ -2827,7 +2990,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00601
+   "epss": 0.00589
   },
   {
    "id": "CVE-2026-97780",
@@ -2862,7 +3025,7 @@
      "toExcl": "16.0.10417.20228"
     }
    ],
-   "epss": 0.00798
+   "epss": 0.00781
   },
   {
    "id": "CVE-2026-97783",
@@ -2881,7 +3044,7 @@
      "version": "2019"
     }
    ],
-   "epss": 0.00695
+   "epss": 0.00419
   },
   {
    "id": "CVE-2026-97830",
@@ -2894,7 +3057,7 @@
    "title": "Double free in Windows Internet Information Services allows an unauthorized attacker to deny service over a...",
    "summary": "Double free in Windows Internet Information Services allows an unauthorized attacker to deny service over a network.",
    "affects": [],
-   "epss": 0.00887
+   "epss": 0.00868
   },
   {
    "id": "CVE-2026-110144",
@@ -2907,7 +3070,1118 @@
    "title": "Incorrect authorization in Mojo in Google Chrome on on Windows prior to 155.0.8059.79 allowed a local...",
    "summary": "Incorrect authorization in Mojo in Google Chrome on on Windows prior to 155.0.8059.79 allowed a local attacker to potentially execute arbitrary code outside the sandbox via a local program. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00118
+   "epss": 0.00207
+  },
+  {
+   "id": "CVE-2026-102849",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00639
+  },
+  {
+   "id": "CVE-2026-102850",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00639
+  },
+  {
+   "id": "CVE-2026-102856",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-102857",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-102858",
+   "vendor": "Microsoft",
+   "product": "microsoft 365",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office OneNote allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office OneNote allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-105591",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-105592",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00548
+  },
+  {
+   "id": "CVE-2026-105593",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-105595",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
+   "summary": "Out-of-bounds read in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-105596",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-105597",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-105598",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-105599",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office PowerPoint allows an unauthorized attacker to execute code...",
+   "summary": "Heap-based buffer overflow in Microsoft Office PowerPoint allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00548
+  },
+  {
+   "id": "CVE-2026-105714",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00548
+  },
+  {
+   "id": "CVE-2026-105716",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-105717",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00774
+  },
+  {
+   "id": "CVE-2026-70215",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office PowerPoint allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office PowerPoint allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-70242",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.01031
+  },
+  {
+   "id": "CVE-2026-70256",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00805
+  },
+  {
+   "id": "CVE-2026-70257",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00805
+  },
+  {
+   "id": "CVE-2026-70276",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Click-To-Run allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Microsoft Office Click-To-Run allows an authorized attacker to elevate privileges locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.0026
+  },
+  {
+   "id": "CVE-2026-70281",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Microsoft Office Outlook allows an unauthorized attacker to disclose information over a...",
+   "summary": "Out-of-bounds read in Microsoft Office Outlook allows an unauthorized attacker to disclose information over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.01009
+  },
+  {
+   "id": "CVE-2026-70282",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00805
+  },
+  {
+   "id": "CVE-2026-70291",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.01031
+  },
+  {
+   "id": "CVE-2026-85340",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Click-To-Run allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Microsoft Office Click-To-Run allows an authorized attacker to elevate privileges locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00328
+  },
+  {
+   "id": "CVE-2026-88109",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office Click-To-Run allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Microsoft Office Click-To-Run allows an authorized attacker to elevate privileges locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00306
+  },
+  {
+   "id": "CVE-2026-88144",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office PowerPoint allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office PowerPoint allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-88156",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Stack-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00998
+  },
+  {
+   "id": "CVE-2026-88178",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office PowerPoint allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office PowerPoint allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00966
+  },
+  {
+   "id": "CVE-2026-88196",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code over a network.",
+   "summary": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-88197",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code over a network.",
+   "summary": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00535
+  },
+  {
+   "id": "CVE-2026-88207",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office PowerPoint allows an unauthorized attacker to execute code...",
+   "summary": "Heap-based buffer overflow in Microsoft Office PowerPoint allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00465
+  },
+  {
+   "id": "CVE-2026-96995",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Stack-based buffer overflow in Microsoft Office Word allows an authorized attacker to elevate privileges...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Word allows an authorized attacker to elevate privileges locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00306
+  },
+  {
+   "id": "CVE-2026-96996",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.0033
+  },
+  {
+   "id": "CVE-2026-96997",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Office OneNote allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Microsoft Office OneNote allows an authorized attacker to elevate privileges locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00306
+  },
+  {
+   "id": "CVE-2026-97001",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00427
+  },
+  {
+   "id": "CVE-2026-97012",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Stack-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00738
+  },
+  {
+   "id": "CVE-2026-97016",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00998
+  },
+  {
+   "id": "CVE-2026-97749",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Double free in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00998
+  },
+  {
+   "id": "CVE-2026-97774",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Time-of-check time-of-use (toctou) race condition in Microsoft Office Click-To-Run allows an authorized...",
+   "summary": "Time-of-check time-of-use (toctou) race condition in Microsoft Office Click-To-Run allows an authorized attacker to elevate privileges locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    }
+   ],
+   "epss": 0.00186
+  },
+  {
+   "id": "CVE-2026-97781",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Office...",
+   "summary": "Improper neutralization of special elements used in a command ('command injection') in Microsoft Office OneNote allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    }
+   ],
+   "epss": 0.00778
+  },
+  {
+   "id": "CVE-2026-103821",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Substance3D - Designer is affected by an out-of-bounds write vulnerability that could result in arbitrary...",
+   "summary": "Substance3D - Designer is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+   "affects": [],
+   "epss": 0.00148
   },
   {
    "id": "CVE-2026-87679",
@@ -3059,7 +4333,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00229
+   "epss": 0.00577
   },
   {
    "id": "CVE-2026-94578",
@@ -3078,7 +4352,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00236
+   "epss": 0.00394
   },
   {
    "id": "CVE-2026-94582",
@@ -3097,7 +4371,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00127
+   "epss": 0.00143
   },
   {
    "id": "CVE-2026-87660",
@@ -3122,7 +4396,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00128
+   "epss": 0.0011
   },
   {
    "id": "CVE-2026-87666",
@@ -3147,7 +4421,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.01847
+   "epss": 0.02572
   },
   {
    "id": "CVE-2026-87673",
@@ -3172,7 +4446,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00899
+   "epss": 0.01789
   },
   {
    "id": "CVE-2026-87674",
@@ -3197,7 +4471,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00108
+   "epss": 0.00119
   },
   {
    "id": "CVE-2026-87687",
@@ -3222,7 +4496,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.0019
+   "epss": 0.00209
   },
   {
    "id": "CVE-2026-87664",
@@ -3247,7 +4521,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00123
+   "epss": 0.00118
   },
   {
    "id": "CVE-2026-94576",
@@ -3272,7 +4546,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00359
+   "epss": 0.00433
   },
   {
    "id": "CVE-2026-94577",
@@ -3297,7 +4571,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.00102
+   "epss": 0.00101
   },
   {
    "id": "CVE-2026-94579",
@@ -3322,7 +4596,7 @@
      "toExcl": "10.0.1"
     }
    ],
-   "epss": 0.0265
+   "epss": 0.03105
   },
   {
    "id": "CVE-2026-94585",
@@ -3341,7 +4615,7 @@
      "toExcl": "9.2.2d"
     }
    ],
-   "epss": 0.00167
+   "epss": 0.00186
   },
   {
    "id": "CVE-2026-5048",
@@ -3360,7 +4634,7 @@
      "toExcl": "3.0.0a"
     }
    ],
-   "epss": 0.00186
+   "epss": 0.00231
   },
   {
    "id": "CVE-2026-85421",
@@ -3379,7 +4653,7 @@
      "toExcl": "3.5.0"
     }
    ],
-   "epss": 0.00194
+   "epss": 0.00222
   },
   {
    "id": "CVE-2026-85422",
@@ -3398,7 +4672,7 @@
      "toExcl": "3.5.0"
     }
    ],
-   "epss": 0.00106
+   "epss": 0.001
   },
   {
    "id": "CVE-2026-85423",
@@ -3417,7 +4691,7 @@
      "toExcl": "3.5.0"
     }
    ],
-   "epss": 0.00207
+   "epss": 0.00235
   },
   {
    "id": "CVE-2026-85486",
@@ -3436,7 +4710,7 @@
      "toExcl": "3.5.0"
     }
    ],
-   "epss": 0.00228
+   "epss": 0.00293
   },
   {
    "id": "CVE-2026-85487",
@@ -3455,7 +4729,7 @@
      "toExcl": "3.5.0"
     }
    ],
-   "epss": 0.00205
+   "epss": 0.00244
   },
   {
    "id": "CVE-2026-85488",
@@ -3474,7 +4748,7 @@
      "toExcl": "3.5.0"
     }
    ],
-   "epss": 0.00091
+   "epss": 0.00093
   },
   {
    "id": "CVE-2026-85489",
@@ -3493,7 +4767,7 @@
      "toExcl": "3.5.0"
     }
    ],
-   "epss": 0.00188
+   "epss": 0.00215
   },
   {
    "id": "CVE-2026-85490",
@@ -3512,7 +4786,7 @@
      "toExcl": "3.5.0"
     }
    ],
-   "epss": 0.00273
+   "epss": 0.00314
   },
   {
    "id": "CVE-2026-87424",
@@ -3531,7 +4805,7 @@
      "toExcl": "3.5.0"
     }
    ],
-   "epss": 0.00172
+   "epss": 0.0019
   },
   {
    "id": "CVE-2026-87428",
@@ -3550,7 +4824,79 @@
      "toExcl": "3.5.0"
     }
    ],
-   "epss": 0.00096
+   "epss": 0.00098
+  },
+  {
+   "id": "CVE-2026-69435",
+   "vendor": "Microsoft",
+   "product": "azure sre agent",
+   "category": "Cloud & AI Services",
+   "cvss": 9.6,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "Missing authorization in Azure SRE Agent allows an authorized attacker to elevate privileges over a network.",
+   "summary": "Missing authorization in Azure SRE Agent allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "azure sre agent"
+    }
+   ],
+   "epss": 0.0039
+  },
+  {
+   "id": "CVE-2026-83947",
+   "vendor": "Microsoft",
+   "product": "azure event grid",
+   "category": "Cloud & AI Services",
+   "cvss": 7.7,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "Missing authorization in Azure Event Grid allows an authorized attacker to perform spoofing over a network.",
+   "summary": "Missing authorization in Azure Event Grid allows an authorized attacker to perform spoofing over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "azure event grid"
+    }
+   ],
+   "epss": 0.0037
+  },
+  {
+   "id": "CVE-2026-88131",
+   "vendor": "Microsoft",
+   "product": "dataverse",
+   "category": "Cloud & AI Services",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "Deserialization of untrusted data in Microsoft Dataverse allows an unauthorized attacker to execute code over...",
+   "summary": "Deserialization of untrusted data in Microsoft Dataverse allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "dataverse"
+    }
+   ],
+   "epss": 0.00841
+  },
+  {
+   "id": "CVE-2026-96207",
+   "vendor": "Microsoft",
+   "product": "partner center",
+   "category": "Application Platforms",
+   "cvss": 10,
+   "kev": false,
+   "published": "2026-10-08",
+   "title": "Improper certificate validation in Microsoft Partner Center allows an unauthorized attacker to elevate...",
+   "summary": "Improper certificate validation in Microsoft Partner Center allows an unauthorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "partner center"
+    }
+   ],
+   "epss": 0.00477
   },
   {
    "id": "CVE-2026-92414",
@@ -3763,6 +5109,139 @@
    "epss": 0.00684
   },
   {
+   "id": "CVE-2026-21589",
+   "vendor": "Atlassian",
+   "product": "bitbucket data center",
+   "category": "DevOps & Collaboration",
+   "cvss": 7.5,
+   "kev": true,
+   "published": "2026-10-05",
+   "title": "This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management Data...",
+   "summary": "This is a vulnerability in Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center. Crowd Data Center, Crucible and Fisheye. This Arbitrary File Access vulnerability allows an unauthenticated attacker to access specific files within the web application root directory in affected versions. Exploitation requires prior knowledge of the target file's exact name and path; this vulnerability does not allow attackers to enumerate or list directory contents. In some configurations, there may be some sensitive files that make this highly severe. This vulnerability allows an unauthenticated remote attacker to access specific files within the web application root directory in affected versions. The vulnerability must be addressed for affected versions of: -- Bitbucket Data Center, introduced in version >= 4.6.0, fix versions: 9.4.26, 10.2.8, 10.5.1 -- Confluence Data Center, introduced in version >= 5.10.0, fix versions 9.2.26, 10.2.19 -- Crowd Data Center, introduced in version >= 2.11.0, fix versions 6.3.7, 7.0.3, 7.1.7, 7.2.4 -- Jira Software Data Center, introduced in version >= 7.1.0, fix versions 9.12.40, 10.3.26, 11.3.12 -- Jira Service Management Data Center, introduced in version >= 3.1.0, fix versions 5.12.40, 10.3.26, 11.3.12 -- Bamboo Data Center >= 7.0.1, fix versions 10.2.24, 12.1.12 -- Crucible, fix versions 4.9.15 -- Fisheye, fix version 4.9.15 -- Exploitation requires prior knowledge of the target file's exact name and path. The vulnerability does not include the capability to enumerate or list directory contents.",
+   "affects": [
+    {
+     "vendor": "Atlassian",
+     "product": "bitbucket data center",
+     "from": "7.17.0",
+     "toExcl": "9.4.26"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "bitbucket data center",
+     "from": "9.5.0",
+     "toExcl": "10.2.8"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "bitbucket data center",
+     "from": "10.3.0",
+     "toExcl": "10.5.1"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "bitbucket server",
+     "from": "4.6.0",
+     "to": "8.14.6"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "confluence data center",
+     "from": "5.10.0",
+     "toExcl": "9.2.26"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "confluence data center",
+     "from": "9.3.0",
+     "toExcl": "10.2.19"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "crowd",
+     "from": "2.11.0",
+     "toExcl": "6.3.7"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "crowd",
+     "from": "7.0.0",
+     "toExcl": "7.0.3"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "crowd",
+     "from": "7.1.0",
+     "toExcl": "7.1.7"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "crowd",
+     "from": "7.2.0",
+     "toExcl": "7.2.4"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "jira data center",
+     "from": "7.1.0",
+     "toExcl": "9.12.40"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "jira data center",
+     "from": "9.13.0",
+     "toExcl": "10.3.26"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "jira data center",
+     "from": "10.4.0",
+     "toExcl": "11.3.12"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "jira service management",
+     "from": "3.1.0",
+     "toExcl": "5.12.40"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "jira service management",
+     "from": "5.13.0",
+     "toExcl": "10.3.26"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "jira service management",
+     "from": "10.4.0",
+     "toExcl": "11.3.12"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "bamboo",
+     "from": "7.0.1",
+     "toExcl": "10.2.24"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "bamboo",
+     "from": "11.0.0",
+     "toExcl": "12.1.12"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "crucible",
+     "toExcl": "4.9.15"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "fisheye",
+     "toExcl": "4.9.15"
+    }
+   ],
+   "kevAdded": "2026-10-15",
+   "epss": 0.02777
+  },
+  {
    "id": "CVE-2026-88779",
    "vendor": "Citrix",
    "product": "netscaler application delivery controller",
@@ -3866,7 +5345,7 @@
      "toExcl": "15.02.2562.053"
     }
    ],
-   "epss": 0.00496
+   "epss": 0.00485
   },
   {
    "id": "CVE-2026-103493",
@@ -5509,6 +6988,50 @@
    "epss": 0.00263
   },
   {
+   "id": "CVE-2026-67223",
+   "vendor": "Broadcom",
+   "product": "rabbitmq server",
+   "category": "Application Platforms",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-09-25",
+   "title": "RabbitMQ is a messaging and streaming broker.",
+   "summary": "RabbitMQ is a messaging and streaming broker. The advisory establishes affected 3.13, 4.0, 4.1, 4.2, and 4.3 maintenance lines but contains conflicting first-fixed versions for the 3.13, 4.0, and 4.1 lines. fill/2 substitutes ${username} into user_dn_pattern without RFC 4514 DN escaping, allowing a crafted username to alter the LDAP bind DN and potentially select a different directory entry. Exploitation requires rabbitmq_auth_backend_ldap with a user_dn_pattern containing ${username}, a directory layout in which the injected suffix resolves usefully, and a password valid for the resulting DN. The advisory body identifies 3.13.15, 4.0.20, 4.1.11, 4.2.9, and 4.3.3 as fixed, while structured metadata identifies 3.13.18, 4.0.23, 4.1.14, 4.2.9, and 4.3.3. No fixed-version assertion is certifiable until a curator resolves this conflict.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "3.13.0",
+     "toExcl": "3.13.18"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.0.0",
+     "toExcl": "4.0.23"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.1.0",
+     "toExcl": "4.1.14"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.2.0",
+     "toExcl": "4.2.9"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.3.0",
+     "toExcl": "4.3.3"
+    }
+   ],
+   "epss": 0.0035
+  },
+  {
    "id": "CVE-2026-89078",
    "vendor": "GitLab",
    "product": "gitlab",
@@ -5985,6 +7508,19 @@
    "epss": 0.00109
   },
   {
+   "id": "CVE-2026-91811",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "A heap-based out-of-bounds write vulnerability exists in Foxit PDF Editor/Reader’s PRC parser due to...",
+   "summary": "A heap-based out-of-bounds write vulnerability exists in Foxit PDF Editor/Reader’s PRC parser due to insufficient validation of vertex indices in triangular fan texture meshes. Successful exploitation could result in memory corruption and an application crash.",
+   "affects": [],
+   "epss": 0.00116
+  },
+  {
    "id": "CVE-2026-25264",
    "vendor": "Microsoft",
    "product": "windows",
@@ -6020,7 +7556,7 @@
    "published": "2026-09-22",
    "title": "A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute...",
    "summary": "A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute arbitrary scripts on Check Point Management Server.",
-   "epss": 0.19654,
+   "epss": 0.75872,
    "kevAdded": "2026-09-22",
    "affects": [
     {
@@ -6889,7 +8425,7 @@
      "product": "365 copilot chat"
     }
    ],
-   "epss": 0.00477
+   "epss": 0.0054
   },
   {
    "id": "CVE-2025-14871",
@@ -14397,7 +15933,7 @@
    "published": "2026-09-09",
    "title": "Improper certificate trust validation during VPN negotiation in Check Point Quantum Security Gateway may...",
    "summary": "Improper certificate trust validation during VPN negotiation in Check Point Quantum Security Gateway may allow an unauthenticated remote attacker to execute arbitrary code on the Gateway.",
-   "epss": 0.07546,
+   "epss": 0.504,
    "kevAdded": "2026-09-22",
    "affects": [
     {

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Enterprise CyberTrack: Palo Alto Networks</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/palo-alto-networks.html</link>
+<description>High and critical Palo Alto Networks vulnerabilities.</description>
+<atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/palo-alto-networks.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>CVE-2026-0322 Palo Alto Networks pan-os: A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS®...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-0322</link>
+<guid isPermaLink="false">CVE-2026-0322</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>Edge / VPN</category>
+<description>A remote code execution (RCE) vulnerability in the management interface of Palo Alto Networks PAN-OS® software enables an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.
+
+
+
+The security risk posed by this issue is minimized by restricting access to the management interface to only trusted internal IP addresses according to our recommended  best practice deployment guidelines https://live.paloaltonetworks.com/t5/community-blogs/tips-amp-tricks-how-to-secure-the-management-access-of-your-palo/ba-p/464431 .
+
+
+
+This issue is applicable to PAN-OS software on PA-Series and VM-Series firewalls and on Panorama (virtual and M-Series).
+
+
+
+Cloud NGFW and Prisma® Access are not impacted by this vulnerability. | CVSS 7.2 | Known exploited (CISA KEV, added 2026-10-14) | EPSS 1.1%</description>
+</item>
+</channel>
+</rss>

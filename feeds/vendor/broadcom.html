@@ -13,7 +13,7 @@
 <p class="crumb"><a href="../../">Enterprise CyberTrack</a> / feeds</p>
 <h1>Enterprise CyberTrack: Broadcom</h1>
 <p class="tag">High and critical Broadcom vulnerabilities.</p>
-<p class="tag"><a href="broadcom.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 34.</p>
+<p class="tag"><a href="broadcom.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 35.</p>
 </div></header>
 <main class="wrap news">
 <article>
@@ -70,14 +70,14 @@
 <h2><a href="../../#cve=CVE-2026-87684">CVE-2026-87684: A stack-based buffer overflow vulnerability exists in the SNMP daemon request handling of Brocade Fabric...</a></h2>
 <p class="who">Broadcom fabric operating system</p>
 <p>A stack-based buffer overflow vulnerability exists in the SNMP daemon request handling of Brocade Fabric versions before 10.0.1. When processing an incoming SNMPv3 packet, an internal statistics gathering handler copies user-supplied context name data into a fixed-size buffer without properly validating the length of the string. A remote, unauthenticated attacker (under default configuration) can exploit this vulnerability by sending a specially crafted SNMPv3 packet, leading to memory corruption, daemon crash (Denial of Service), or potential arbitrary code execution.</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87684" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.6%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87684" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-10-08">October 8, 2026</time>
 <h2><a href="../../#cve=CVE-2026-94578">CVE-2026-94578: Brocade Fabric OS versions before 10.0.1 contain an authorization logic vulnerability in the AAA...</a></h2>
 <p class="who">Broadcom fabric operating system</p>
 <p>Brocade Fabric OS versions before 10.0.1 contain an authorization logic vulnerability in the AAA (Authentication, Authorization, and Accounting) integration framework allows remote authenticated users to gain root-equivalent chassis access controls. By returning specific, crafted Vendor-Specific Attributes (VSAs) or directory claims from an external identity provider (such as RADIUS, LDAP, TACACS+, or Federated IDP), an account can bypass administrative role restriction checks during session establishment.</p>
-<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-94578" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-94578" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-10-08">October 8, 2026</time>
@@ -98,14 +98,14 @@
 <h2><a href="../../#cve=CVE-2026-87666">CVE-2026-87666: An OS command injection vulnerability exists in the time and zone management subsystem of Brocade Fabric OS...</a></h2>
 <p class="who">Broadcom fabric operating system</p>
 <p>An OS command injection vulnerability exists in the time and zone management subsystem of Brocade Fabric OS versions before 9.2.2d and 10.0.0 through 10.0.0a1. When updating system timezone settings via the REST API or configuration download routines, the system fails to sanitize input values before processing them in underlying shell execution routines. An authenticated user with low-privilege administrative access can exploit this vulnerability by submitting a crafted timezone string containing shell metacharacters. Successful exploitation allows the attacker to escape the restricted management environment and execute arbitrary shell commands with elevated privileges.</p>
-<div class="meta"><span class="pill">CVSS 8</span>  <span class="pill">EPSS 1.8%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87666" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 8</span>  <span class="pill">EPSS 2.6%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87666" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-10-08">October 8, 2026</time>
 <h2><a href="../../#cve=CVE-2026-87673">CVE-2026-87673: An OS command injection vulnerability exists in maintenance command-line diagnostic utilities on Brocade...</a></h2>
 <p class="who">Broadcom fabric operating system</p>
 <p>An OS command injection vulnerability exists in maintenance command-line diagnostic utilities on Brocade Fabric OS versions before 9.2.2d and 10.0.0 through 10.0.0a1. The binary fails to sanitize user-supplied input options when invoking underlying system commands through a shell interpreter. A privileged user with maintenance account access can exploit this issue by supplying crafted parameters, which results in arbitrary OS command execution with root privileges.</p>
-<div class="meta"><span class="pill">CVSS 7.2</span>  <span class="pill">EPSS 0.9%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87673" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 7.2</span>  <span class="pill">EPSS 1.8%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87673" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-10-08">October 8, 2026</time>
@@ -147,7 +147,7 @@
 <h2><a href="../../#cve=CVE-2026-94579">CVE-2026-94579: An OS command injection vulnerability exists in the PAM (Pluggable Authentication Module) session cleanup...</a></h2>
 <p class="who">Broadcom fabric operating system</p>
 <p>An OS command injection vulnerability exists in the PAM (Pluggable Authentication Module) session cleanup routines during SSH session termination on Brocade Fabric OS versions before 9.2.2d and 10.0.0 through 10.0.0a1. An authenticated user authenticating via an external directory or AAA service whose username or profile identifier contains shell metacharacters can trigger arbitrary command execution with root privileges when their remote SSH session closes.</p>
-<div class="meta"><span class="pill">CVSS 8</span>  <span class="pill">EPSS 2.6%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-94579" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 8</span>  <span class="pill">EPSS 3.1%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-94579" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-10-08">October 8, 2026</time>
@@ -189,7 +189,7 @@
 <h2><a href="../../#cve=CVE-2026-85486">CVE-2026-85486: Brocade ASCG before 3.5.0 improperly processes user input by evaluating form data prior to validation.</a></h2>
 <p class="who">Broadcom brocade active support connectivity gateway</p>
 <p>Brocade ASCG before 3.5.0 improperly processes user input by evaluating form data prior to validation. When an authenticated user submits a configuration form, the submitted text could immediately be processed. A malicious actor with basic access can supply crafted input to execute arbitrary code on the server and take control of the application.</p>
-<div class="meta"><span class="pill">CVSS 8</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Edge / VPN</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-85486" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 8</span>  <span class="pill">EPSS 0.3%</span> <span class="pill">Edge / VPN</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-85486" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-10-08">October 8, 2026</time>
@@ -254,7 +254,14 @@
 <p>RabbitMQ is a messaging and streaming broker. From 3.13.0 until 4.3.3, 4.2.9 , 4.1.14, 4.0.24, and 3.13.18, Federation upstream in RabbitMQ skips vhost authorization allowing cross-vhost message access. what the bug lets you do. A policymaker on one vhost reads and drains messages out of another vhost it has no permission on. With the default ack-mode the source messages are consumed (deleted), not copied. Why that should not 1. Federation validates the upstream URI without any vhost-access Cross-vhost message read/drain from a per-vhost policymaker, breaking vhost tenancy This issue is fixed in versions 4.3.3, 4.2.9 , 4.1.14, 4.0.24, and 3.13.18.</p>
 <div class="meta"><span class="pill">CVSS 7.1</span>  <span class="pill">EPSS 0.3%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-67412" rel="noopener">NVD record</a></div>
 </article>
+<article>
+<time datetime="2026-09-25">September 25, 2026</time>
+<h2><a href="../../#cve=CVE-2026-67223">CVE-2026-67223: RabbitMQ is a messaging and streaming broker.</a></h2>
+<p class="who">Broadcom rabbitmq server</p>
+<p>RabbitMQ is a messaging and streaming broker. The advisory establishes affected 3.13, 4.0, 4.1, 4.2, and 4.3 maintenance lines but contains conflicting first-fixed versions for the 3.13, 4.0, and 4.1 lines. fill/2 substitutes ${username} into user_dn_pattern without RFC 4514 DN escaping, allowing a crafted username to alter the LDAP bind DN and potentially select a different directory entry. Exploitation requires rabbitmq_auth_backend_ldap with a user_dn_pattern containing ${username}, a directory layout in which the injected suffix resolves usefully, and a password valid for the resulting DN. The advisory body identifies 3.13.15, 4.0.20, 4.1.11, 4.2.9, and 4.3.3 as fixed, while structured metadata identifies 3.13.18, 4.0.23, 4.1.14, 4.2.9, and 4.3.3. No fixed-version assertion is certifiable until a curator resolves this conflict.</p>
+<div class="meta"><span class="pill">CVSS 7.1</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-67223" rel="noopener">NVD record</a></div>
+</article>
 </main>
-<footer class="wrap foot">Generated 2026-10-15 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-10-16 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>

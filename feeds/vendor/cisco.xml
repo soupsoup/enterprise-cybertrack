@@ -6,6 +6,16 @@
 <description>High and critical Cisco vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/cisco.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-76519 Cisco asyncos: A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-76519</link>
+<guid isPermaLink="false">CVE-2026-76519</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>Email &amp; Collaboration</category>
+<description>A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.
+
+This vulnerability is due to improper handling of email attachments when the file reputation service is enabled. An attacker could exploit this vulnerability by sending an email that contains a crafted attachment through an affected device. A successful exploit could allow the attacker to write arbitrary files and execute commands with&amp;nbsp;root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-14) | EPSS 1.7%</description>
+</item>
+<item>
 <title>CVE-2026-76504 Cisco catalyst sd-wan manager: A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-76504</link>
 <guid isPermaLink="false">CVE-2026-76504</guid>
