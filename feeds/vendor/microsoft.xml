@@ -107,7 +107,7 @@
 <guid isPermaLink="false">CVE-2026-69943</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Email &amp; Collaboration</category>
-<description>Improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) in Microsoft Office SharePoint allows an authorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
+<description>Improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) in Microsoft Office SharePoint allows an authorized attacker to execute code over a network. | CVSS 8.8 | EPSS 1.0%</description>
 </item>
 <item>
 <title>CVE-2026-70202 Microsoft sharepoint server: Server-side request forgery (ssrf) in Microsoft Office SharePoint allows an authorized attacker to elevate...</title>

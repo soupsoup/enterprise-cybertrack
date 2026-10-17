@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-16T09:56:16.141Z",
+ "generated": "2026-10-17T09:26:32.076Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 20
   },
   {
@@ -78,15 +78,15 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
-   "count": 5003
+   "checked": "2026-10-17T09:26:32.076Z",
+   "count": 5280
   },
   {
    "company": "microsoft",
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": false,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "error": "https://blog.qualys.com/feed: HTTP 403 | https://blog.qualys.com/: HTTP 403"
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,7 +224,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 699
   },
   {
@@ -232,11 +232,347 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-16T09:56:16.141Z",
+   "checked": "2026-10-17T09:26:32.076Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "paloalto",
+   "feed": "Security advisories",
+   "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
+   "date": "2026-10-17T00:55:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "zscaler",
+   "feed": "ThreatLabz research",
+   "title": "Ransomware at Machine Speed: How GenAI Shrinks the Path after Initial Access",
+   "link": "https://www.zscaler.com/blogs/security-research/ransomware-machine-speed-how-genai-shrinks-path-after-initial-access",
+   "date": "2026-10-16T22:48:36.000Z",
+   "summary": "Artificial Intelligence technologies have made a huge impact on the security industry. But as with any public technology, adversaries have access to AI as well. They’re wasting no time incorporating AI into their malicious workflows and ransomware operators have been able to..."
+  },
+  {
+   "company": "zscaler",
+   "feed": "ThreatLabz research",
+   "title": "CVE-2026-88771: Inside the Exploitation of a Critical NetScaler RCE Vulnerability",
+   "link": "https://www.zscaler.com/blogs/security-research/cve-2026-88771-inside-exploitation-critical-netscaler-rce-vulnerability",
+   "date": "2026-10-16T21:28:21.000Z",
+   "summary": "IntroductionOn September 27, 2026, Citrix disclosed CVE-2026-88771, a critical remote code execution (RCE) vulnerability affecting NetScaler Application Delivery Controller (ADC) and NetScaler Gateway. The vulnerability carries a CVSS v3.1 score of 9.8 according to NVD and a..."
+  },
+  {
+   "company": "sentinelone",
+   "feed": "Blog",
+   "title": "How SentinelOne Blocked APT29's CaptiveCrunch Campaign",
+   "link": "https://www.sentinelone.com/blog/how-sentinelone-blocked-apt29-s-captivecrunch-campaign/",
+   "date": "2026-10-16T18:01:06.000Z",
+   "summary": "Learn how SentinelOne's Static AI blocked APT29's CaptiveCrunch campaign on the endpoint, stopping local DNS poisoning and captive portal network lures."
+  },
+  {
+   "company": "paloalto",
+   "feed": "Unit 42 research",
+   "title": "Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026",
+   "link": "https://unit42.paloaltonetworks.com/top-5-initial-access-vectors-september-2026/",
+   "date": "2026-10-16T17:47:54.000Z",
+   "summary": "Unit 42 details the top initial access vectors adversaries use to breach organizations, led by edge exploits, credential abuse and phishing The post Top 5 Initial Access Threat Vectors Observed by Unit 42 in September 2026 appeared first on Unit 42 ."
+  },
+  {
+   "company": "sentinelone",
+   "feed": "Blog",
+   "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 42 (2026)",
+   "link": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-42-8",
+   "date": "2026-10-16T17:31:01.000Z",
+   "summary": "Authorities arrest cyber exec for extortion, cellular implant in Ledger wallets leaks seed phrases, and hackers heat French supermarket fridges to 50°C."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "Managing open-weight model risk in enterprise deployments",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/16/managing-open-weight-model-risk-in-enterprise-deployments/",
+   "date": "2026-10-16T16:00:00.000Z",
+   "summary": "New whitepaper from Microsoft and NVIDIA helps enterprises manage open-weight AI model risks with a shared taxonomy, evaluations, and controls. The post Managing open-weight model risk in enterprise deployments appeared first on Microsoft Security Blog ."
+  },
+  {
+   "company": "proofpoint",
+   "feed": "Blog",
+   "title": "Proofpoint CEO Sumit Dhawan On ‘Market-Changing’ $6.3B Varonis Deal, IPO Goal",
+   "link": "https://www.proofpoint.com/us/newsroom/news/proofpoint-ceo-sumit-dhawan-market-changing-63b-varonis-deal-ipo-goal",
+   "date": "2026-10-16T15:46:15.000Z",
+   "summary": ""
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106258: Uninitialized resource",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106258",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106263: Improper input validation",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106263",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106264: Missing authorization",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106264",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106268: Use after free",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106268",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106270: Incorrect authorization",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106270",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106271: Missing authorization",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106271",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106273: Uninitialized resource",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106273",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106274: Incorrect reference resolution",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106274",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106276: UI misrepresentation",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106276",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106278: Use after free",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106278",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-103572 Visual Studio Tools for Applications and SQL Server Management Studio Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-103572",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "Updated the Security Updates table to add download and KB article links for Microsoft Visual Studio. This is an informational change only; the fixed builds are unchanged."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-108465 Windows Update Delivery Optimization Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108465",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-83831 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83831",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-85890 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85890",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-85897 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85897",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-85898 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-85898",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-96198 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96198",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-96199 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96199",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106287: Information loss",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106287",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106288: Missing authorization",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106288",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106289: Missing authorization",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106289",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106291: Use after free",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106291",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106292: Buffer overflow",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106292",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106412: Race condition",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106412",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106293: Type confusion",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106293",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106413: Race condition",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106413",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106294: Incomplete cleanup",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106294",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106415: Information leak",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106415",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106295: Incorrect authorization",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106295",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-106416: Code injection",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106416",
+   "date": "2026-10-16T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "proofpoint",
+   "feed": "Blog",
+   "title": "Proofpoint CEO on acquiring Varonis for $6.3B: ‘Opportunities like this don’t come every day’",
+   "link": "https://www.proofpoint.com/us/newsroom/news/proofpoint-ceo-acquiring-varonis-63b-opportunities-dont-come-every-day",
+   "date": "2026-10-16T13:50:08.000Z",
+   "summary": ""
+  },
+  {
+   "company": "rapid7",
+   "feed": "Blog",
+   "title": "Rapid7 Analysis: GitLab CI/CD Regex Integer Overflow (CVE-2026-97229)",
+   "link": "https://www.rapid7.com/blog/post/ra-gitlab-ci-cd-regex-integer-overflow-technical-analysis-cve-2026-97229",
+   "date": "2026-10-16T13:31:56.000Z",
+   "summary": "Overview On October 12, 2026, GitLab released 19.4.2 , 19.3.5 , and 19.2.8 to fix CVE-2026-97229 , an integer overflow in its CI/CD regular-expression handling. The issue was reported through HackerOne by joaxcar . GitLab assigned it a CVSS score of 10.0 and described possible..."
+  },
+  {
+   "company": "rapid7",
+   "feed": "Blog",
+   "title": "Rapid7 Intelligence Wins the 2026 Péter Szőr Award for Outstanding Research",
+   "link": "https://www.rapid7.com/blog/post/tr-rapid7-intelligence-wins-2026-peter-szor-award-outstanding-research",
+   "date": "2026-10-16T13:00:00.000Z",
+   "summary": "Some awards you're happy to receive, while others make you stop for a moment. Receiving the 2026 Péter Szőr Award this week at Virus Bulletin in Seville for our research, BPFdoor in Telecom Networks: Sleeper Cells in the Backbone , was of the latter kind. Virus Bulletin created..."
+  },
+  {
+   "company": "eset",
+   "feed": "WeLiveSecurity",
+   "title": "Inbox flooded with sign-up messages? Email bombing explained",
+   "link": "https://www.welivesecurity.com/en/cybersecurity/inbox-flooded-signup-messages-email-bombing/",
+   "date": "2026-10-16T09:00:00.000Z",
+   "summary": "If you’re suddenly being overwhelmed with sign-up emails, it could very well be a sign of something more serious"
+  },
   {
    "company": "fortinet",
    "feed": "Threat signals",
@@ -326,246 +662,6 @@
    "summary": ""
   },
   {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-102858 Microsoft Office OneNote Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102858",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-105599 Microsoft Office PowerPoint Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105599",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-105715 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105715",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-105718 Microsoft Excel Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105718",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Microsoft is announcing the availability of the security updates for Microsoft Office for Mac. Customers running affected Mac software should install the update for their product to be protected from this vulnerability. Customers running other Microsoft Office software do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108426 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108426",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108427 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108427",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108428 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108428",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108429 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108429",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108430 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108430",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108431 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108431",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108432 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108432",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108433 Microsoft Office Word Security Feature Bypass Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108433",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108434 Microsoft Office Word Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108434",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108435 Microsoft Office Word Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108435",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108436 Microsoft Office Word Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108436",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108437 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108437",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108438 Microsoft Office Word Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108438",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108439 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108439",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108440 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108440",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108441 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108441",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108442 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108442",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108443 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108443",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108444 Microsoft Office Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108444",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108445 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108445",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108446 Microsoft Office Excel Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108446",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108447 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108447",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108448 Microsoft Office Outlook Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108448",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108449 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108449",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108450 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108450",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108451 Microsoft Office Word Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108451",
-   "date": "2026-10-15T14:00:00.000Z",
-   "summary": "Information published. This CVE was addressed by updates that were released in October 2026, but the CVE was inadvertently omitted from the October 2026 Security Updates. This is an informational change only. Customers who have already installed the October 2026 updates do not..."
-  },
-  {
    "company": "google",
    "feed": "Threat intelligence blog",
    "title": "ARMORY CASTLE Exploits BeyondTrust",
@@ -580,6 +676,14 @@
    "link": "https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-acquire-varonis-creating-global-leader-data-and-ai-security",
    "date": "2026-10-15T13:15:00.000Z",
    "summary": ""
+  },
+  {
+   "company": "google",
+   "feed": "Threat intelligence blog",
+   "title": "Investigating Ephemeral Supply Chain Tampering",
+   "link": "https://cloud.google.com/blog/topics/threat-intelligence/investigating-ephemeral-supply-chain-tampering/",
+   "date": "2026-10-15T11:00:00.000Z",
+   "summary": "Written by: Tyler McLellan Introduction Google Threat Intelligence Group (GTIG) and Mandiant investigated a software supply chain compromise campaign targeting the update infrastructure belonging to AOMEI Technology between April 2026 and July 2026. The threat actor conducted..."
   },
   {
    "company": "sophos",
@@ -756,6 +860,14 @@
    "link": "https://www.welivesecurity.com/en/scams/medicare-open-enrollment-season-scams/",
    "date": "2026-10-14T09:00:00.000Z",
    "summary": "Open Enrollment is peak season for Medicare fraud – here’s how to tell real outreach from fakes and keep your details safe"
+  },
+  {
+   "company": "paloalto",
+   "feed": "Blog",
+   "title": "The Blind Spot in Orbit: Why Space Could Be the Next Infrastructure Crisis",
+   "link": "https://www.paloaltonetworks.com/blog/2026/10/the-blind-spot-in-orbit-why-space-could-be-the-next-infrastructure-crisis/",
+   "date": "2026-10-14T08:29:55.000Z",
+   "summary": "Are organisations becoming so reliant on third party space assets that they would face severe disruption if the assets were impacted by a cyber attack? When most people think of space technology, … The post The Blind Spot in Orbit: Why Space Could Be the Next Infrastructure..."
   },
   {
    "company": "sophos",
@@ -1710,20 +1822,20 @@
    "summary": "Higher education faces a difficult security equation. Universities hold large volumes of sensitive student, financial, health, and research data while supporting open networks, distributed users, legacy infrastructure, and increasingly complex cloud environments. Attackers have..."
   },
   {
-   "company": "microsoft",
-   "feed": "Security blog",
-   "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
-   "date": "2026-09-30T14:00:00.000Z",
-   "summary": "Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance. The post Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570 appeared first on..."
-  },
-  {
    "company": "google",
    "feed": "Threat intelligence blog",
    "title": "Vulnerability Discovery and Exploitation Trends in the AI Era",
    "link": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/",
    "date": "2026-09-30T14:00:00.000Z",
    "summary": "Written by: Robin Grunewald, Supriya Mazumdar, Kelli Vanderlee Introduction Google Threat Intelligence Group (GTIG) examines vulnerability disclosure and exploitation statistics to evaluate the impact of artificial intelligence (AI) on the vulnerability threat landscape. We..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
+   "date": "2026-09-30T14:00:00.000Z",
+   "summary": "Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance. The post Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570 appeared first on..."
   },
   {
    "company": "talos",
@@ -1748,14 +1860,6 @@
    "link": "https://www.zscaler.com/blogs/security-research/ransomware-leverage-growing-terabyte-takeaways-threatlabz-2026-ransomware",
    "date": "2026-09-30T07:01:00.000Z",
    "summary": "Ransomware is no longer defined only by how many organizations get hit. The most important shifts are happening beneath the headline victim counts; in how attackers gain access, who they target first, and how much data they steal once they’re in.The newly released Zscaler..."
-  },
-  {
-   "company": "paloalto",
-   "feed": "Security advisories",
-   "title": "CVE-2026-0307 GlobalProtect App: Local Privilege Escalation Vulnerabilities (Severity: MEDIUM)",
-   "link": "https://security.paloaltonetworks.com/CVE-2026-0307",
-   "date": "2026-09-30T06:15:00.000Z",
-   "summary": ""
   },
   {
    "company": "paloalto",
@@ -3326,14 +3430,6 @@
    "summary": "For the latest discoveries in cyber research for the week of 7th Setpember, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Thomson Reuters, a global information and technology company, has disclosed a breach of its C-Track court case-management..."
   },
   {
-   "company": "rapid7",
-   "feed": "Blog",
-   "title": "DPRK APTs: Ted backdoor and curlRAT target South Korean media and automotive sectors",
-   "link": "https://www.rapid7.com/blog/post/tr-dprk-apts-ted-backdoor-curlrat-target-south-korean-media-automotive-sectors",
-   "date": "2026-09-04T12:00:00.000Z",
-   "summary": "Overview A new Linux toolkit, identified by Rapid7 Labs, has been targeting organizations across South Korea’s automotive and media industries with minimal detection. The campaign made use of a HAProxy instance named “ted backdoor”, alongside trojanized versions of crond,..."
-  },
-  {
    "company": "paloalto",
    "feed": "Unit 42 research",
    "title": "Attackers Expose Ongoing AI Tool Use Targeting Organizations in Latin America",
@@ -3348,14 +3444,6 @@
    "link": "https://www.wiz.io/blog/prevent-production-risk-at-code-stage",
    "date": "2026-09-03T00:31:46.000Z",
    "summary": "Fixing security vulnerabilities in code takes seconds, while patching in production creates high operational costs and risk. Discover how empowering developers as your first line of defense eliminates exposure across every phase of your software pipeline."
-  },
-  {
-   "company": "rapid7",
-   "feed": "Blog",
-   "title": "Critical SonicWall SMA1000 Vulnerabilities CVE-2026-83548, CVE-2026-83549 Exploited in the Wild",
-   "link": "https://www.rapid7.com/blog/post/etr-critical-sonicwall-sma1000-vulnerabilities-cve-2026-83548-cve-2026-83549-exploited-in-the-wild",
-   "date": "2026-09-02T16:58:45.000Z",
-   "summary": "Overview On September 1, 2026, SonicWall disclosed two vulnerabilities affecting SonicWall SMA1000 appliances that the vendor says are being actively exploited in the wild. The vulnerabilities, CVE-2026-83548 and CVE-2026-83549 , can be chained to achieve unauthenticated remote..."
   },
   {
    "company": "eset",
@@ -4246,14 +4334,6 @@
    "summary": "FortiGuard Labs has observed a significant uptick in attacks targeting Langflow, leveraging a recently discovered authentication bypass vulnerability that allows unauthenticated remote attackers to fully compromise affected servers."
   },
   {
-   "company": "eset",
-   "feed": "WeLiveSecurity",
-   "title": "Cyber readiness for SMBs: Getting the basics right",
-   "link": "https://www.welivesecurity.com/en/business-security/cyber-readiness-smbs-getting-basics-right/",
-   "date": "2026-07-03T12:36:41.000Z",
-   "summary": "AI is changing cybercrime, but SMB cyber readiness still largely depends on closing the familiar gaps"
-  },
-  {
    "company": "zscaler",
    "feed": "ThreatLabz research",
    "title": "Indirect Prompt Injection in Web Content Targets AI Agents",
@@ -4748,22 +4828,6 @@
    "link": "https://fortiguard.fortinet.com/outbreak-alert/cisco-asa-and-ftd-firewall-zero-day",
    "date": "2026-04-27T07:00:00.000Z",
    "summary": "Critical zero-day vulnerabilities affecting Cisco Secure Firewall Adaptive Security Appliance (ASA) and Cisco Secure Firewall Threat Defense (FTD) software have been actively exploited in the wild. The campaign is widespread and involves exploiting zero-day vulnerabilities to..."
-  },
-  {
-   "company": "zscaler",
-   "feed": "ThreatLabz research",
-   "title": "Tropic Trooper Pivots to AdaptixC2 and Custom Beacon Listener",
-   "link": "https://www.zscaler.com/blogs/security-research/tropic-trooper-pivots-adaptixc2-and-custom-beacon-listener",
-   "date": "2026-04-22T20:13:00.000Z",
-   "summary": "IntroductionOn March 12, 2026, Zscaler ThreatLabz discovered a malicious ZIP archive containing military-themed document lures targeting Chinese-speaking individuals. Our analysis of this sample uncovered a campaign leveraging a multi-stage attack chain where a trojanized..."
-  },
-  {
-   "company": "zscaler",
-   "feed": "ThreatLabz research",
-   "title": "Payouts King Takes Aim at the Ransomware Throne",
-   "link": "https://www.zscaler.com/blogs/security-research/payouts-king-takes-aim-ransomware-throne",
-   "date": "2026-04-16T15:02:13.000Z",
-   "summary": "IntroductionIn February 2022, BlackBasta emerged as a successor to Conti ransomware and quickly rose to prominence. BlackBasta was operational for three years until February 2025 when their internal chat logs were leaked online, exposing the group’s inner workings. This led the..."
   },
   {
    "company": "fortinet",
