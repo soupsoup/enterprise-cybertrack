@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-17T09:26:32.076Z",
+ "generated": "2026-10-18T09:40:57.820Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 20
   },
   {
@@ -78,7 +78,7 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 5280
   },
   {
@@ -86,7 +86,7 @@
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 15
   },
   {
@@ -118,23 +118,23 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 10
   },
   {
    "company": "qualys",
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
-   "ok": false,
-   "checked": "2026-10-17T09:26:32.076Z",
-   "error": "https://blog.qualys.com/feed: HTTP 403 | https://blog.qualys.com/: HTTP 403"
+   "ok": true,
+   "checked": "2026-10-18T09:40:57.820Z",
+   "count": 10
   },
   {
    "company": "rapid7",
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,7 +224,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 699
   },
   {
@@ -232,7 +232,7 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-17T09:26:32.076Z",
+   "checked": "2026-10-18T09:40:57.820Z",
    "count": 50
   }
  ],
@@ -726,22 +726,6 @@
    "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Secure Email Gateway and Cisco Secure Email and Web Manager engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases..."
   },
   {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Cisco Advance Notification for Publication of October 21, 2026, Security Advisories",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-QGwHnJ6k?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%2021,%202026,%20Security%20Advisories%26vs_k=1",
-   "date": "2026-10-14T16:00:00.000Z",
-   "summary": "On October 21, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: Expressway Series (security hardening release) IOS XR..."
-  },
-  {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Cisco Secure Email Gateway Arbitrary File Write Vulnerability",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20Arbitrary%20File%20Write%20Vulnerability%26vs_k=1",
-   "date": "2026-10-14T16:00:00.000Z",
-   "summary": "A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system. This vulnerability is due to improper handling of email attachments when..."
-  },
-  {
    "company": "paloalto",
    "feed": "Security advisories",
    "title": "CVE-2026-0314 GlobalProtect App: Local Denial of Service (DoS) on Windows (Severity: MEDIUM)",
@@ -815,19 +799,27 @@
   },
   {
    "company": "talos",
+   "feed": "Security advisories",
+   "title": "Cisco Advance Notification for Publication of October 21, 2026, Security Advisories",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-QGwHnJ6k?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%2021,%202026,%20Security%20Advisories%26vs_k=1",
+   "date": "2026-10-14T16:00:00.000Z",
+   "summary": "On October 21, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: Expressway Series (security hardening release) IOS XR..."
+  },
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Cisco Secure Email Gateway Arbitrary File Write Vulnerability",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-afw-zqYJkjxp?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Email%20Gateway%20Arbitrary%20File%20Write%20Vulnerability%26vs_k=1",
+   "date": "2026-10-14T16:00:00.000Z",
+   "summary": "A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system. This vulnerability is due to improper handling of email attachments when..."
+  },
+  {
+   "company": "talos",
    "feed": "Threat research",
    "title": "Break the silence: Kazakhstan-nexus UAT-6275 targets CIS government organizations",
    "link": "https://blog.talosintelligence.com/break-the-silence-kazakhstan-nexus-uat-6275-targets-cis-government-organizations/",
    "date": "2026-10-14T14:00:00.000Z",
    "summary": "Talos and Recorded Future identified UAT-6275 activity targeting government organizations across the Commonwealth of Independent States. Recovered artifacts show additional interest in water resources and energy."
-  },
-  {
-   "company": "rapid7",
-   "feed": "Blog",
-   "title": "From One Account to Every Mailbox: Breaking Zimbra's Identity Boundaries (Part 1)",
-   "link": "https://www.rapid7.com/blog/post/ve-breaking-zimbra-identity-boundaries-part-1",
-   "date": "2026-10-14T13:00:00.000Z",
-   "summary": "An enterprise mail server authenticates users, stores private communications, delivers recovery links, runs calendars, and sends mail that employees and other systems trust. Compromising it can therefore expose both email and the identities and workflows built around it. During..."
   },
   {
    "company": "microsoft",
@@ -840,10 +832,26 @@
   {
    "company": "rapid7",
    "feed": "Blog",
+   "title": "From One Account to Every Mailbox: Breaking Zimbra's Identity Boundaries (Part 1)",
+   "link": "https://www.rapid7.com/blog/post/ve-breaking-zimbra-identity-boundaries-part-1",
+   "date": "2026-10-14T13:00:00.000Z",
+   "summary": "An enterprise mail server authenticates users, stores private communications, delivers recovery links, runs calendars, and sends mail that employees and other systems trust. Compromising it can therefore expose both email and the identities and workflows built around it. During..."
+  },
+  {
+   "company": "rapid7",
+   "feed": "Blog",
    "title": "Unauthenticated SQL Injection In Channel Software WebAlliance eCommerce",
    "link": "https://www.rapid7.com/blog/post/ve-unauthenticated-sql-injection-in-channel-software-weballiance-ecommerce",
    "date": "2026-10-14T12:47:05.000Z",
    "summary": "Overview While performing continuous red teaming exercises through Rapid7’s Vector Command service, Rapid7 discovered CVE-2026-108065 , an SQL Injection vulnerability (CWE-89) in Channel Software WebAlliance eCommerce.The exploit allows a malicious actor to read sensitive data..."
+  },
+  {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "TruConfidence: Why Your Patch Automation Can Finally Be Autonomous",
+   "link": "https://blog.qualys.com/product-tech/2026/10/14/truconfidence-why-your-patch-automation-can-finally-be-autonomous",
+   "date": "2026-10-14T12:46:46.000Z",
+   "summary": "TruConfidence: The AI-Powered Remediation Intelligence & Orchestration engine powering TruRisk Eliminate 2.0 delivers autonomous remediation at scale with proof at every step. Executive Summary Vulnerabilities are now discovered faster than enterprises can remediate them. Patch..."
   },
   {
    "company": "wiz",
@@ -900,6 +908,14 @@
    "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-october-2026",
    "date": "2026-10-13T21:40:27.000Z",
    "summary": "Microsoft is publishing 1,413 own-product vulnerabilities on October 2026 Patch Tuesday , including 1,102 vulnerabilities in Windows. Anyone who enjoyed last month’s record-setting Patch Tuesday will love the October 2026 edition, because it’s much bigger still. As Rapid7 has..."
+  },
+  {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "Microsoft Patch Tuesday, October 2026 Security Update Review",
+   "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/10/13/microsoft-patch-tuesday-october-2026-security-update-review",
+   "date": "2026-10-13T21:32:08.000Z",
+   "summary": "Microsoft has released its October 2026 Patch Tuesday security updates, addressing vulnerabilities across its products and services. As organizations continue to navigate an evolving threat landscape, applying security patches promptly remains critical to reducing exposure and..."
   },
   {
    "company": "talos",
@@ -1134,6 +1150,14 @@
    "summary": "This article was first published on LinkedIn."
   },
   {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "Exploitability Needs Runtime Evidence: Understanding Runtime Vulnerability Reachability for Containers",
+   "link": "https://blog.qualys.com/product-tech/2026/10/12/runtime-vulnerability-reachability-containers",
+   "date": "2026-10-12T15:00:00.000Z",
+   "summary": "Key Takeaways Qualys Runtime Vulnerability Reachability for Containers brings runtime evidence directly into vulnerability prioritization. Package presence in a container image does not mean the vulnerable software is actually part of the workload’s live execution. Runtime..."
+  },
+  {
    "company": "checkpoint",
    "feed": "Research",
    "title": "12th October – Threat Intelligence Report",
@@ -1318,6 +1342,14 @@
    "summary": "On October 7, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the advisories that are listed in the following tables. To remediate the vulnerabilities that were disclosed on October 7, 2026, Cisco strongly recommends that customers upgrade to the fixed..."
   },
   {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "3 lessons from frontier AI vulnerability research",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+   "date": "2026-10-07T16:00:00.000Z",
+   "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog ."
+  },
+  {
    "company": "talos",
    "feed": "Security advisories",
    "title": "Cisco NX-OS Software Python Sandbox Escape Vulnerability",
@@ -1412,14 +1444,6 @@
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-nxosw1-cWzSbtR?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20NX-OS%20Software%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
    "date": "2026-10-07T16:00:00.000Z",
    "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco NX-OS Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple internally discovered..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security blog",
-   "title": "3 lessons from frontier AI vulnerability research",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
-   "date": "2026-10-07T16:00:00.000Z",
-   "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog ."
   },
   {
    "company": "wiz",
@@ -1662,20 +1686,20 @@
    "summary": ""
   },
   {
-   "company": "sophos",
-   "feed": "Blog",
-   "title": "Sophos Named a Leader in the IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises 2026",
-   "link": "https://www.sophos.com/en-us/blog/sophos-idc-marketscape-endpoint-security",
-   "date": "2026-10-02T00:00:00.000Z",
-   "summary": "Sophos has been named a Leader in the IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises 2026, recognizing the strength of our prevention-first approach and stopping AI-era threats as early as possible."
-  },
-  {
    "company": "sentinelone",
    "feed": "Blog",
    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 39 (2026)",
    "link": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-39-8",
    "date": "2026-10-02T00:00:00.000Z",
    "summary": "Ryuk access broker heads to prison, TraderTraitor backdoors surface on victim with no crypto ties, and one operator's AI agents skim 600K credit cards."
+  },
+  {
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "Sophos Named a Leader in the IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises 2026",
+   "link": "https://www.sophos.com/en-us/blog/sophos-idc-marketscape-endpoint-security",
+   "date": "2026-10-02T00:00:00.000Z",
+   "summary": "Sophos has been named a Leader in the IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises 2026, recognizing the strength of our prevention-first approach and stopping AI-era threats as early as possible."
   },
   {
    "company": "talos",
@@ -1822,20 +1846,20 @@
    "summary": "Higher education faces a difficult security equation. Universities hold large volumes of sensitive student, financial, health, and research data while supporting open networks, distributed users, legacy infrastructure, and increasingly complex cloud environments. Attackers have..."
   },
   {
-   "company": "google",
-   "feed": "Threat intelligence blog",
-   "title": "Vulnerability Discovery and Exploitation Trends in the AI Era",
-   "link": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/",
-   "date": "2026-09-30T14:00:00.000Z",
-   "summary": "Written by: Robin Grunewald, Supriya Mazumdar, Kelli Vanderlee Introduction Google Threat Intelligence Group (GTIG) examines vulnerability disclosure and exploitation statistics to evaluate the impact of artificial intelligence (AI) on the vulnerability threat landscape. We..."
-  },
-  {
    "company": "microsoft",
    "feed": "Security blog",
    "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
    "date": "2026-09-30T14:00:00.000Z",
    "summary": "Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance. The post Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570 appeared first on..."
+  },
+  {
+   "company": "google",
+   "feed": "Threat intelligence blog",
+   "title": "Vulnerability Discovery and Exploitation Trends in the AI Era",
+   "link": "https://cloud.google.com/blog/topics/threat-intelligence/vulnerability-discovery-and-exploitation-trends-in-the-ai-era/",
+   "date": "2026-09-30T14:00:00.000Z",
+   "summary": "Written by: Robin Grunewald, Supriya Mazumdar, Kelli Vanderlee Introduction Google Threat Intelligence Group (GTIG) examines vulnerability disclosure and exploitation statistics to evaluate the impact of artificial intelligence (AI) on the vulnerability threat landscape. We..."
   },
   {
    "company": "talos",
@@ -2006,20 +2030,20 @@
    "summary": ""
   },
   {
-   "company": "sophos",
-   "feed": "Blog",
-   "title": "Jev’s Paradox: The hidden cost of cheap AI decisions",
-   "link": "https://www.sophos.com/en-us/blog/jevs-paradox-hidden-cost-of-cheap-ai-decisions",
-   "date": "2026-09-29T00:00:00.000Z",
-   "summary": "This article was first published on LinkedIn."
-  },
-  {
    "company": "sentinelone",
    "feed": "Blog",
    "title": "Building Agents Backwards from Evaluation",
    "link": "https://www.sentinelone.com/blog/building-agents-backwards-from-evaluation/",
    "date": "2026-09-29T00:00:00.000Z",
    "summary": "Learn why building reliable AI security agents requires co-designing modular system architectures alongside rigorous, domain-expert evaluation suites."
+  },
+  {
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "Jev’s Paradox: The hidden cost of cheap AI decisions",
+   "link": "https://www.sophos.com/en-us/blog/jevs-paradox-hidden-cost-of-cheap-ai-decisions",
+   "date": "2026-09-29T00:00:00.000Z",
+   "summary": "This article was first published on LinkedIn."
   },
   {
    "company": "microsoft",
@@ -2086,14 +2110,6 @@
    "summary": ""
   },
   {
-   "company": "sophos",
-   "feed": "Blog",
-   "title": "Citrix NetScaler vulnerabilities (CVE-2026-88771, CVE-2026-88772) in active exploitation",
-   "link": "https://www.sophos.com/en-us/blog/citrix-netscaler-cve-2026-88771-cve-2026-88772-in-active-exploitation",
-   "date": "2026-09-28T00:00:00.000Z",
-   "summary": ""
-  },
-  {
    "company": "sentinelone",
    "feed": "Blog",
    "title": "SentinelOne and NVIDIA: Governing AI From Silicon to Runtime",
@@ -2116,6 +2132,14 @@
    "link": "https://www.sentinelone.com/blog/bring-your-own-vulnerable-driver-the-edr-killer-economy/",
    "date": "2026-09-28T00:00:00.000Z",
    "summary": "Discover how Bring Your Own Vulnerable Driver (BYOVD) tactics evolved from lone-operator tricks into a commercialized, tiered EDR-killer service economy."
+  },
+  {
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "Citrix NetScaler vulnerabilities (CVE-2026-88771, CVE-2026-88772) in active exploitation",
+   "link": "https://www.sophos.com/en-us/blog/citrix-netscaler-cve-2026-88771-cve-2026-88772-in-active-exploitation",
+   "date": "2026-09-28T00:00:00.000Z",
+   "summary": ""
   },
   {
    "company": "trendai",
