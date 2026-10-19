@@ -707,7 +707,7 @@
 <guid isPermaLink="false">CVE-2026-97783</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Email &amp; Collaboration</category>
-<description>Improper neutralization of input during web page generation (&apos;cross-site scripting&apos;) in Microsoft Office SharePoint allows an unauthorized attacker to perform spoofing over a network. | CVSS 8.1 | EPSS 0.4%</description>
+<description>Improper neutralization of input during web page generation (&apos;cross-site scripting&apos;) in Microsoft Office SharePoint allows an unauthorized attacker to perform spoofing over a network. | CVSS 8.1 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-97830 Microsoft windows: Double free in Windows Internet Information Services allows an unauthorized attacker to deny service over a...</title>

@@ -245,7 +245,7 @@ This vulnerability is due to improper handling of email attachments when the fil
 <guid isPermaLink="false">CVE-2026-97805</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Out-of-bounds read in Windows Partition Management Driver allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
+<description>Out-of-bounds read in Windows Partition Management Driver allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
 </item>
 <item>
 <title>CVE-2026-97814 Microsoft windows: Heap-based buffer overflow in Windows Text Shaping allows an unauthorized attacker to execute code over a...</title>
@@ -286,7 +286,7 @@ Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix
 <guid isPermaLink="false">CVE-2026-71575</guid>
 <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>The max_age authentication-freshness check in OidcClientCodeRequestFilter was inoperative due to a milliseconds/seconds unit mismatch and an inverted comparison polarity. Any relying party using setMaxAgeOffset to enforce re-authentication would silently accept sessions of any age, bypassing step-up authentication policies. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 9.1 | EPSS 0.3%</description>
+<description>The max_age authentication-freshness check in OidcClientCodeRequestFilter was inoperative due to a milliseconds/seconds unit mismatch and an inverted comparison polarity. Any relying party using setMaxAgeOffset to enforce re-authentication would silently accept sessions of any age, bypassing step-up authentication policies. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 9.1 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-87659 Broadcom fabric operating system: A critical authorization bypass vulnerability exists in the Management Server handling of Brocade Fabric OS...</title>

@@ -27,7 +27,7 @@
 <guid isPermaLink="false">CVE-2026-81839</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>GitLab has remediated an issue in GitLab EE affecting all versions from 18.1 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an authenticated user to execute arbitrary CI/CD pipelines in a transferred project with the new group&apos;s privileges due to improper cleanup of scheduled pipeline execution policy records. | CVSS 7.7 | EPSS 0.2%</description>
+<description>GitLab has remediated an issue in GitLab EE affecting all versions from 18.1 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an authenticated user to execute arbitrary CI/CD pipelines in a transferred project with the new group&apos;s privileges due to improper cleanup of scheduled pipeline execution policy records. | CVSS 7.7 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-92883 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.1 before 19.2.8, 19.3 before...</title>
