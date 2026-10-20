@@ -13,7 +13,7 @@
 <p class="crumb"><a href="../../">Enterprise CyberTrack</a> / feeds</p>
 <h1>Enterprise CyberTrack: Broadcom</h1>
 <p class="tag">High and critical Broadcom vulnerabilities.</p>
-<p class="tag"><a href="broadcom.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 36.</p>
+<p class="tag"><a href="broadcom.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 43.</p>
 </div></header>
 <main class="wrap news">
 <article>
@@ -268,7 +268,56 @@
 <p>RabbitMQ is a messaging and streaming broker. From 4.0.0 until 4.3.3 and 4.2.9 and 4.1.14 and 4.0.23, Incomplete fix for CVE-2026-44838: escaperegexchar/1 does not escape -, leaving room for an MQTT topic permission bypass. the CVE-2026-44838 fix made expandtopicpermission/2 escape regex metacharacters in expanded topic-permission variables (escaperegex(V)), but escaperegexchar/1 escapes \ ^ $ . | ? + ( ) [ ] { } and omits -. When a topic permission template places {clientid} inside a [...] character class A low-privileged authenticated MQTT user controlling its clientid can broaden topic authorization (read and write) when templates embed {clientid} in a [...] This issue is fixed in versions 4.3.3 and 4.2.9 and 4.1.14 and 4.0.23.</p>
 <div class="meta"><span class="pill">CVSS 7.1</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-67407" rel="noopener">NVD record</a></div>
 </article>
+<article>
+<time datetime="2026-09-24">September 24, 2026</time>
+<h2><a href="../../#cve=CVE-2026-67233">CVE-2026-67233: RabbitMQ is a messaging and streaming broker.</a></h2>
+<p class="who">Broadcom rabbitmq server</p>
+<p>RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.1, The shovel management resource&apos;s is_authorized/2 delegates to rabbit_mgmt_util:is_authorized_monitor/2, which accepts the monitoring tag. But allowed_methods includes DELETE, and delete_resource/2 deletes / restarts shovel runtime parameters with no additional role check. A monitoring user , intended to have read-only visibility , can therefore delete or restart any shovel in any vhost they can see. A read-only monitoring user can delete or restart any dynamic shovel , a state-changing operation that the equivalent /api/parameters endpoint correctly restricts to policymaker. Preconditions include rabbitmq_shovel + rabbitmq_shovel_management plugins enabled Attacker has credentials with the monitoring tag. This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.1.</p>
+<div class="meta"><span class="pill">CVSS 7.1</span>  <span class="pill">EPSS 0.3%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-67233" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-09-23">September 23, 2026</time>
+<h2><a href="../../#cve=CVE-2026-66070">CVE-2026-66070: RabbitMQ is a messaging and streaming broker.</a></h2>
+<p class="who">Broadcom rabbitmq server</p>
+<p>RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.17, 4.0.22, 4.1.13, and 4.2.6, match_origin/1 returned the bare reflected Origin and allowed credentials even when the wildcard &quot;&quot; was configured, so the response echoed the attacker&apos;s origin together with Access-Control-Allow-Credentials. The affected code is rabbit_mgmt_cors.erl. When the management plugin is configured with a wildcard CORS origin (cors_allow_origins = &quot;&quot;), the handler reflects the request Origin back in Access-Control-Allow-Origin and also sends Access-Control-Allow-Credentials: true. A malicious web page that a signed-in administrator visits can then use that administrator&apos;s cached HTTP Basic credentials to issue authenticated, state-changing requests to the management API. Preconditions include The management plugin is configured with the wildcard cors_allow_origins = &quot;*&quot;, which is an explicit operator misconfiguration A target administrator has a cached HTTP Basic-auth session in the browser. This issue is fixed in versions 3.13.17, 4.0.22, 4.1.13, and 4.2.6.</p>
+<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-66070" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-09-23">September 23, 2026</time>
+<h2><a href="../../#cve=CVE-2026-66079">CVE-2026-66079: RabbitMQ is a messaging and streaming broker.</a></h2>
+<p class="who">Broadcom rabbitmq server</p>
+<p>RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, and 4.2.6, parse_array_primitive/2 for constructor 0x45 (list0) returns an element with byte-width B = 0. The enclosing array32 parser at line 148 reads a 4-byte Count from the wire and loops Count times consuming B bytes each , with B = 0, no input is consumed and the loop builds a list of Count empty elements bounded only by the 32-bit field. The SASL-mechanisms / SASL-init frame is parsed by amqp10_framing:decode_bin/1 from rabbit_amqp_reader.erl:412 before authentication completes. The pre-auth incoming_max_frame_size (default 8192 bytes) caps the frame, not the Count field, so a 19-byte payload with Count = 0xFFFFFFFF is accepted. No max_heap_size is set on the reader process. An unauthenticated network attacker can crash any RabbitMQ node that has the AMQP 1.0 listener enabled (default port 5672) by sending a single ~19-byte frame. The reader process attempts to build a list of ~4 billion empty elements, exhausting heap memory and terminating the Erlang VM. All tenants and protocols on the node lose service. Preconditions include Network reachability to the AMQP listener (port 5672, enabled by default) No authentication required. This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, and 4.2.6.</p>
+<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.3%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-66079" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-09-23">September 23, 2026</time>
+<h2><a href="../../#cve=CVE-2026-67231">CVE-2026-67231: RabbitMQ is a messaging and streaming broker.</a></h2>
+<p class="who">Broadcom rabbitmq server</p>
+<p>RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0, The trust-store plugin installs a verify_fun that overrides {bad_cert, unknown_ca} / {bad_cert, selfsigned_peer} when the presented cert &quot;matches&quot; a whitelisted one. The match key is extract_issuer_id/1 → public_key:pkix_issuer_id/2 → {IssuerName, SerialNumber} , both fields are taken verbatim from the presented certificate body and contain no public-key, SKI, fingerprint or signature material. is_whitelisted/1 is a pure ets:member lookup; the stored full DER is used only for list/0 display and is never compared against the presented cert. cacerts is [], so the whitelisted cert is never used as a trust anchor for path validation either. TLS client-authentication bypass: an attacker who knows the issuer DN + serial of any whitelisted certificate can connect with a forged self-signed cert. Preconditions include rabbitmq_trust_store plugin enabled and used as the TLS verify_fun Attacker knows or can guess the {Issuer, Serial} of at least one whitelisted cert (non-secret; exposed via CLI/logs/any cert copy). This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0.</p>
+<div class="meta"><span class="pill">CVSS 9.1</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-67231" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-09-23">September 23, 2026</time>
+<h2><a href="../../#cve=CVE-2026-67232">CVE-2026-67232: RabbitMQ is a messaging and streaming broker.</a></h2>
+<p class="who">Broadcom rabbitmq server</p>
+<p>RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0, The cowboy WebSocket options at line 117 set compress =&gt; true, enabling RFC 7692 permessage-deflate negotiation. The handler does not set max_frame_size, so cowboy&apos;s default of infinity applies. cowlib&apos;s cow_ws:parse_payload/9 calls zlib:inflate/2 on the compressed payload with no output-size limit. An attacker can negotiate permessage-deflate during the WebSocket upgrade and send a frame containing a zlib bomb (e.g. 50 KB → 5 GB). Decompression occurs in the connection process before websocket_handle/2 ever sees the MQTT bytes. An unauthenticated attacker can crash a RabbitMQ node running the Web-MQTT plugin by sending a single highly-compressed WebSocket frame (a few KB on the wire) that inflates to gigabytes in memory. The cowboy WebSocket handler decompresses the entire frame before the MQTT CONNECT packet is processed, so no credentials are required. Preconditions include rabbitmq_web_mqtt plugin enabled (not default, but common for browser clients) Network reachability to port 15675/15676 No authentication required. This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0.</p>
+<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-67232" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-09-23">September 23, 2026</time>
+<h2><a href="../../#cve=CVE-2026-67404">CVE-2026-67404: RabbitMQ is a messaging and streaming broker.</a></h2>
+<p class="who">Broadcom rabbitmq server</p>
+<p>RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0, When no CA bundle is available, ssl_options/1 falls back to [{verify, verify_none}] with no warning. An attacker in a man-in-the-middle position can forge the JWKS response, which leads the broker to accept arbitrary JWTs. Preconditions include The OAuth2 plugin must be in use with no cacertfile configured and the OS CA bundle empty or unreadable (for example, in a minimal container), and the attacker must hold a network man-in-the-middle position.. This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0.</p>
+<div class="meta"><span class="pill">CVSS 7.4</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-67404" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-09-23">September 23, 2026</time>
+<h2><a href="../../#cve=CVE-2026-67405">CVE-2026-67405: RabbitMQ is a messaging and streaming broker.</a></h2>
+<p class="who">Broadcom rabbitmq server</p>
+<p>RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0, Neither the Web-MQTT handler (deps/rabbitmq_web_mqtt/src/rabbit_web_mqtt_handler.erl:104) nor the Web-STOMP handler (deps/rabbitmq_web_stomp/src/rabbit_web_stomp_handler.erl:102) validates the Origin header on the WebSocket upgrade. Under ssl_cert_login=true, the browser presents the client certificate automatically, so an attacker&apos;s JavaScript running in the victim&apos;s browser can authenticate as the victim. Preconditions include The non-default configuration use_http_auth=true (Web-STOMP) or ssl_cert_login=true (both plugins) must be enabled. The issue is harmless under the default in-band CONNECT credential configuration.. This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0.</p>
+<div class="meta"><span class="pill">CVSS 8.1</span>  <span class="pill">EPSS 0.1%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-67405" rel="noopener">NVD record</a></div>
+</article>
 </main>
-<footer class="wrap foot">Generated 2026-10-19 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-10-20 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>

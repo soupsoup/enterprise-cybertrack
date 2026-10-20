@@ -250,6 +250,34 @@ This vulnerability is due to improper handling of email attachments when the fil
 <div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.9%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-97816" rel="noopener">NVD record</a></div>
 </article>
 <article>
+<time datetime="2026-10-13">October 13, 2026</time>
+<h2><a href="../#cve=CVE-2026-69883">CVE-2026-69883: Use after free in Windows iSCSI allows an unauthorized attacker to execute code over a network.</a></h2>
+<p class="who">Microsoft windows</p>
+<p>Use after free in Windows iSCSI allows an unauthorized attacker to execute code over a network.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.8%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-69883" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-13">October 13, 2026</time>
+<h2><a href="../#cve=CVE-2026-83935">CVE-2026-83935: Heap-based buffer overflow in Microsoft XML allows an unauthorized attacker to execute code over a network.</a></h2>
+<p class="who">Microsoft windows</p>
+<p>Heap-based buffer overflow in Microsoft XML allows an unauthorized attacker to execute code over a network.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.7%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-83935" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-13">October 13, 2026</time>
+<h2><a href="../#cve=CVE-2026-84015">CVE-2026-84015: Heap-based buffer overflow in Remote Access Point-to-Point Protocol (PPP) EAP-TLS allows an unauthorized...</a></h2>
+<p class="who">Microsoft windows</p>
+<p>Heap-based buffer overflow in Remote Access Point-to-Point Protocol (PPP) EAP-TLS allows an unauthorized attacker to execute code over a network.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.9%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-84015" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-13">October 13, 2026</time>
+<h2><a href="../#cve=CVE-2026-96252">CVE-2026-96252: Improper verification of cryptographic signature in Active Directory Federation Services (AD FS) allows an...</a></h2>
+<p class="who">Microsoft windows</p>
+<p>Improper verification of cryptographic signature in Active Directory Federation Services (AD FS) allows an unauthorized attacker to perform spoofing over a network.</p>
+<div class="meta"><span class="pill">CVSS 9.1</span>  <span class="pill">EPSS 0.5%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-96252" rel="noopener">NVD record</a></div>
+</article>
+<article>
 <time datetime="2026-10-09">October 9, 2026</time>
 <h2><a href="../#cve=CVE-2026-107938">CVE-2026-107938: In Apache CXF, the Netty-based HTTP client transport (cxf-rt-transports-http-netty-client) did not verify...</a></h2>
 <p class="who">Apache cxf</p>
@@ -544,6 +572,13 @@ Users are recommended to upgrade to version 2.0.16 or 1.3.9, which fix the issue
 <div class="meta"><span class="pill">CVSS 9.1</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Web &amp; Application Servers</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-86246" rel="noopener">NVD record</a></div>
 </article>
 <article>
+<time datetime="2026-09-23">September 23, 2026</time>
+<h2><a href="../#cve=CVE-2026-67231">CVE-2026-67231: RabbitMQ is a messaging and streaming broker.</a></h2>
+<p class="who">Broadcom rabbitmq server</p>
+<p>RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0, The trust-store plugin installs a verify_fun that overrides {bad_cert, unknown_ca} / {bad_cert, selfsigned_peer} when the presented cert &quot;matches&quot; a whitelisted one. The match key is extract_issuer_id/1 → public_key:pkix_issuer_id/2 → {IssuerName, SerialNumber} , both fields are taken verbatim from the presented certificate body and contain no public-key, SKI, fingerprint or signature material. is_whitelisted/1 is a pure ets:member lookup; the stored full DER is used only for list/0 display and is never compared against the presented cert. cacerts is [], so the whitelisted cert is never used as a trust anchor for path validation either. TLS client-authentication bypass: an attacker who knows the issuer DN + serial of any whitelisted certificate can connect with a forged self-signed cert. Preconditions include rabbitmq_trust_store plugin enabled and used as the TLS verify_fun Attacker knows or can guess the {Issuer, Serial} of at least one whitelisted cert (non-secret; exposed via CLI/logs/any cert copy). This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0.</p>
+<div class="meta"><span class="pill">CVSS 9.1</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-67231" rel="noopener">NVD record</a></div>
+</article>
+<article>
 <time datetime="2026-09-22">September 22, 2026</time>
 <h2><a href="../#cve=CVE-2026-93616">CVE-2026-93616: A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute...</a></h2>
 <p class="who">Check Point multi-domain security management</p>
@@ -786,48 +821,7 @@ Users of apache-airflow are recommended to upgrade to apache-airflow version 3.3
 <p>Authentication bypass by spoofing in Microsoft Dataverse allows an unauthorized attacker to elevate privileges over a network.</p>
 <div class="meta"><span class="pill">CVSS 9</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-77903" rel="noopener">NVD record</a></div>
 </article>
-<article>
-<time datetime="2026-09-17">September 17, 2026</time>
-<h2><a href="../#cve=CVE-2026-83944">CVE-2026-83944: Improper access control in Azure Logic Apps allows an unauthorized attacker to elevate privileges over a...</a></h2>
-<p class="who">Microsoft azure logic apps</p>
-<p>Improper access control in Azure Logic Apps allows an unauthorized attacker to elevate privileges over a network.</p>
-<div class="meta"><span class="pill">CVSS 10</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-83944" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-17">September 17, 2026</time>
-<h2><a href="../#cve=CVE-2026-85885">CVE-2026-85885: Improper neutralization of special elements used in a command (&apos;command injection&apos;) in M365 Copilot allows an...</a></h2>
-<p class="who">Microsoft 365 copilot</p>
-<p>Improper neutralization of special elements used in a command (&apos;command injection&apos;) in M365 Copilot allows an authorized attacker to elevate privileges over a network.</p>
-<div class="meta"><span class="pill">CVSS 9.9</span>  <span class="pill">EPSS 0.7%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-85885" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-17">September 17, 2026</time>
-<h2><a href="../#cve=CVE-2026-85889">CVE-2026-85889: Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate...</a></h2>
-<p class="who">Microsoft azure ai foundry</p>
-<p>Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network.</p>
-<div class="meta"><span class="pill">CVSS 10</span>  <span class="pill">EPSS 0.7%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-85889" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-17">September 17, 2026</time>
-<h2><a href="../#cve=CVE-2026-87701">CVE-2026-87701: Improper neutralization of special elements in output used by a downstream component (&apos;injection&apos;) in Azure...</a></h2>
-<p class="who">Microsoft azure cosmos db</p>
-<p>Improper neutralization of special elements in output used by a downstream component (&apos;injection&apos;) in Azure Cosmos DB allows an authorized attacker to elevate privileges over a network.</p>
-<div class="meta"><span class="pill">CVSS 9.6</span>  <span class="pill">EPSS 0.8%</span> <span class="pill">Cloud &amp; AI Services</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87701" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-16">September 16, 2026</time>
-<h2><a href="../#cve=CVE-2026-82311">CVE-2026-82311: Apache Airflow FAB provider: resetting a user&apos;s password does not delete that user&apos;s existing database-backed...</a></h2>
-<p class="who">Apache apache-airflow-providers-fab</p>
-<p>Apache Airflow FAB provider: resetting a user&apos;s password does not delete that user&apos;s existing database-backed sessions, despite documented behaviour that it does. The cleanup compares the string identifier Flask-Login stores in the session against the user&apos;s integer database identifier, so the comparison never matches and no session is removed. An attacker who already holds a copy of the victim&apos;s session cookie keeps access as that user after the password change, so the reset does not evict them.
-
-Affects deployments using the FAB auth manager with `[fab] session_backend=database`. The trigger is an administrator (or the user) running the supported password-reset command as a containment action after a session cookie has been compromised; the secure-cookie backend is out of scope, as it documents that it cannot centrally delete sessions.
-
-apache-airflow-providers-fab 3.9.0 also fixes CVE-2026-86462, a second, independent route to the same outcome via the Admin user-edit endpoint; a single upgrade closes both.
-
-Users of apache-airflow-providers-fab are recommended to upgrade to version 3.9.0 or later, which compares the identifiers consistently.</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 1.0%</span> <span class="pill">Developer Tools &amp; Libraries</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-82311" rel="noopener">NVD record</a></div>
-</article>
 </main>
-<footer class="wrap foot">Generated 2026-10-19 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-10-20 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>

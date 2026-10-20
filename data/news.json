@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-19T11:02:57.750Z",
+ "generated": "2026-10-20T10:08:51.562Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 20
   },
   {
@@ -78,15 +78,15 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
-   "count": 5280
+   "checked": "2026-10-20T10:08:51.562Z",
+   "count": 5182
   },
   {
    "company": "microsoft",
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,19 +224,139 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
-   "count": 699
+   "checked": "2026-10-20T10:08:51.562Z",
+   "count": 701
   },
   {
    "company": "zscaler",
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-19T11:02:57.750Z",
+   "checked": "2026-10-20T10:08:51.562Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "fortinet",
+   "feed": "Threat signals",
+   "title": "Atlassian Arbitrary File Access Vulnerability",
+   "link": "https://fortiguard.fortinet.com/threat-signal-report/6548",
+   "date": "2026-10-20T04:04:02.000Z",
+   "summary": "What is the Attack? CVE-2026-21589 is a critical arbitrary file access vulnerability affecting multiple Atlassian Data Center and Server products. It allows an unauthenticated remote attacker to access specific files within an affected application's web root, provided the..."
+  },
+  {
+   "company": "paloalto",
+   "feed": "Unit 42 research",
+   "title": "Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19)",
+   "link": "https://unit42.paloaltonetworks.com/active-exploitation-of-pan-os-cve-2026-0257/",
+   "date": "2026-10-19T22:35:42.000Z",
+   "summary": "Ransomware operators including Spikey Scorpius (aka Qilin) and Tarnished Scorpius (aka Inc) are exploiting PAN-OS vulnerability CVE-2026-0257. The post Threat Brief: Active Exploitation of PAN-OS CVE-2026-0257 (Updated October 19) appeared first on Unit 42 ."
+  },
+  {
+   "company": "rapid7",
+   "feed": "Blog",
+   "title": "Your Next Insider Threat Won’t be Human: Securing AI Agents From the Outside in",
+   "link": "https://www.rapid7.com/blog/post/ai-inhuman-insider-threats-securing-agents",
+   "date": "2026-10-19T16:34:43.000Z",
+   "summary": "Why the controls on an AI agent have to live outside of it, and what a security operations team can implement and maintain those controls. The new privileged user in your environment Security teams spent two decades learning how to work with the people they trust most. Domain..."
+  },
+  {
+   "company": "rapid7",
+   "feed": "Blog",
+   "title": "Authentication Bypass, Remote Code Execution, and Database Read in Eptura Archibus (FIXED)",
+   "link": "https://www.rapid7.com/blog/post/ve-authentication-bypass-remote-code-execution-and-database-read-in-eptura-archibus-fixed",
+   "date": "2026-10-19T15:57:43.000Z",
+   "summary": "Overview While performing continuous red teaming exercises through Rapid7’s Vector Command service, Rapid7 discovered three new vulnerabilities in Eptura Archibus . A legacy API endpoint could be exploited to bypass authentication and run various functions without authentication..."
+  },
+  {
+   "company": "rapid7",
+   "feed": "Blog",
+   "title": "Rapid7 Analysis: NetScaler intrusions chaining CVE-2026-88771 and CVE-2026-88779",
+   "link": "https://www.rapid7.com/blog/post/ra-netscaler-intrusions-chaining-cve-2026-88771-and-cve-2026-88779",
+   "date": "2026-10-19T15:11:57.000Z",
+   "summary": "Overview In early October 2026, Rapid7 analysts investigated a compromise of a Citrix NetScaler ADC appliance. The appliance was running an affected 14.1 build and was exposed to active exploitation targeting NetScaler authentication and SAML deployments. The intrusion achieved..."
+  },
+  {
+   "company": "checkpoint",
+   "feed": "Research",
+   "title": "19th October – Threat Intelligence Report",
+   "link": "https://research.checkpoint.com/2026/19th-october-threat-intelligence-report/",
+   "date": "2026-10-19T14:54:40.000Z",
+   "summary": "For the latest discoveries in cyber research for the week of 19th October, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES CenterPoint Energy, a US utility company serving Texas and several other states, has disclosed a data breach affecting more than..."
+  },
+  {
+   "company": "wiz",
+   "feed": "Blog",
+   "title": "Supply Chain Zero Days: Closing the Gap Between Publication and Detection",
+   "link": "https://www.wiz.io/blog/detect-supply-chain-zero-days-at-publication",
+   "date": "2026-10-19T14:39:29.000Z",
+   "summary": "When trusted packages are compromised, malicious code can quickly spread throughout and beyond developer environments. See how Wiz’s supply chain pipeline identifies compromised packages at publication, helping teams detect zero-day supply chain compromises in Wiz Defend before..."
+  },
+  {
+   "company": "rapid7",
+   "feed": "Blog",
+   "title": "CVE-2026-102764: Critical BeyondTrust Remote Support Authentication Bypass Exploited in the Wild",
+   "link": "https://www.rapid7.com/blog/post/etr-cve-2026-102764-critical-beyondtrust-remote-support-authentication-bypass-exploited-in-the-wild",
+   "date": "2026-10-19T14:34:04.000Z",
+   "summary": "Overview On October 15, 2026, BeyondTrust disclosed a critical authentication bypass in Remote Support (RS) , its platform for remotely troubleshooting and administering endpoints. Tracked as CVE-2026-102764 and assigned a CVSSv4 score of 9.3 , the vulnerability allows..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-80092 Microsoft Identity Web Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-80092",
+   "date": "2026-10-19T14:00:00.000Z",
+   "summary": "Updated the Security Updates table to list Microsoft Identity Web v3 and v4 separately and clarify the affected version ranges. The existing security updates are versions 3.16.0 and 4.16.1, respectively. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-70197 .NET Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70197",
+   "date": "2026-10-19T14:00:00.000Z",
+   "summary": "Microsoft is aware that the vulnerability for which this CVE was assigned has not been addressed. We are working to prepare and test a complete mitigation. We will update this document when there is more information."
+  },
+  {
+   "company": "tenable",
+   "feed": "Blog",
+   "title": "Unmasking the robots: Why it’s critical to discover AI agent identities and how Tenable helps you secure them",
+   "link": "https://www.tenable.com/blog/secure-ai-agent-identities-microsoft-entra-agent-id-tenable-one",
+   "date": "2026-10-19T13:17:00.000Z",
+   "summary": "Discover how to secure AI agents in your cloud environment with Tenable One Cloud Exposure. We explore Microsoft Entra Agent ID and provide essential best practices for robust agentic AI identity security. Key takeaways Understand your current maturity level and then build an..."
+  },
+  {
+   "company": "sentinelone",
+   "feed": "Blog",
+   "title": "Bring Your Own Vulnerable Driver: What Detection Teams Should Actually Hunt",
+   "link": "https://www.sentinelone.com/blog/bring-your-own-vulnerable-driver-what-detection-teams-should-actually-hunt/",
+   "date": "2026-10-19T13:00:01.000Z",
+   "summary": "Discover how detection teams can split EDR-killer attacks into four distinct behavior hunts to catch BYOVD and driverless threats before ransomware fires."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "Agents are your newest insiders. Security must move at their speed.",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/19/agents-are-your-newest-insiders-security-must-move-at-their-speed/",
+   "date": "2026-10-19T13:00:00.000Z",
+   "summary": "New capabilities in Microsoft 365 E7 and Project Perception help organizations contain agent risk and adapt protection continuously. The post Agents are your newest insiders. Security must move at their speed. appeared first on Microsoft Security Blog ."
+  },
+  {
+   "company": "wiz",
+   "feed": "Blog",
+   "title": "Loud, Fast, and Everywhere: Anatomy of a Real AI-Driven Cloud Attack",
+   "link": "https://www.wiz.io/blog/anatomy-of-ai-driven-cloud-attacks",
+   "date": "2026-10-19T11:26:53.000Z",
+   "summary": "Wiz CIRT responded to AI-driven attacks spanning cloud, Kubernetes, CI/CD, and identity. Learn how these attacks behave and how to detect them."
+  },
+  {
+   "company": "fortinet",
+   "feed": "Outbreak alerts",
+   "title": "Atlassian Arbitrary File Access Vulnerability",
+   "link": "https://fortiguard.fortinet.com/outbreak-alert/atlassian-arbitrary-file-access",
+   "date": "2026-10-19T07:00:00.000Z",
+   "summary": "CVE-2026-21589 is a critical arbitrary file access vulnerability affecting multiple Atlassian Data Center products, including Bitbucket, Confluence, Jira Software, Jira Service Management, Bamboo, Crowd, Crucible, and Fisheye. The vulnerability allows an unauthenticated remote..."
+  },
   {
    "company": "trendai",
    "feed": "Cyberthreat news",
@@ -244,6 +364,22 @@
    "link": "https://newsroom.trendmicro.com/2026-10-19-Trend-Micro-Announces-Up-to-JPY10-Billion-toward-Cyber-Resilience-Initiative-to-Strengthen-Security-for-Japanese-Organizations-in-the-AI-Era",
    "date": "2026-10-19T05:00:00.000Z",
    "summary": ""
+  },
+  {
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "ConnectWise Cloud Backup application abused in cross-tenant token sweep",
+   "link": "https://www.sophos.com/en-us/blog/connectwise-cloud-backup-application-abused-in-token-sweep",
+   "date": "2026-10-19T00:00:00.000Z",
+   "summary": "Automated sign-ins used the vendor's Entra application identity to request Microsoft Graph tokens across consenting tenants"
+  },
+  {
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "Beyond the mailbox: Graph reconnaissance and ServiceNow user enumeration in a modern identity intrusion",
+   "link": "https://www.sophos.com/en-us/blog/graph-reconnaissance-and-servicenow-user-enumeration-in-a-modern-identity-intrusion",
+   "date": "2026-10-19T00:00:00.000Z",
+   "summary": "No novelty required to be effective"
   },
   {
    "company": "paloalto",
@@ -534,22 +670,6 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
   },
   {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium CVE-2026-106295: Incorrect authorization",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106295",
-   "date": "2026-10-16T14:00:00.000Z",
-   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium CVE-2026-106416: Code injection",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106416",
-   "date": "2026-10-16T14:00:00.000Z",
-   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
-  },
-  {
    "company": "proofpoint",
    "feed": "Blog",
    "title": "Proofpoint CEO on acquiring Varonis for $6.3B: ‘Opportunities like this don’t come every day’",
@@ -580,14 +700,6 @@
    "link": "https://www.welivesecurity.com/en/cybersecurity/inbox-flooded-signup-messages-email-bombing/",
    "date": "2026-10-16T09:00:00.000Z",
    "summary": "If you’re suddenly being overwhelmed with sign-up emails, it could very well be a sign of something more serious"
-  },
-  {
-   "company": "fortinet",
-   "feed": "Threat signals",
-   "title": "Atlassian Arbitrary File Access Vulnerability",
-   "link": "https://fortiguard.fortinet.com/threat-signal-report/6548",
-   "date": "2026-10-16T01:35:06.000Z",
-   "summary": "What is the Attack? CVE-2026-21589 is a critical arbitrary file access vulnerability affecting multiple Atlassian Data Center and Server products. It allows an unauthenticated remote attacker to access specific files within an affected application's web root, provided the..."
   },
   {
    "company": "paloalto",
@@ -2990,14 +3102,6 @@
    "summary": "This One Goes to Sixteen! Another banger from Metasploit with sixteen new modules, including ten exploit modules, with five on the CISA KEV list. Cisco, Papercut, Sonicwall, Jetbrains, and Langflow all have exploit modules, and not to be outdone, we even have a Metasploit..."
   },
   {
-   "company": "rapid7",
-   "feed": "Blog",
-   "title": "The Fraud Ecosystem: A Transition From Known Marketplaces to a Fragmented Environment",
-   "link": "https://www.rapid7.com/blog/post/tr-fraud-ecosystem-fragmenting-marketplaces",
-   "date": "2026-09-11T13:33:33.000Z",
-   "summary": "Introduction The surge in emerging threat actors directly correlates with the rapid escalation of victim counts and stolen financial resources. Simultaneously, this growth has spurred the proliferation of specialized supply storefronts across social media platforms, dark web..."
-  },
-  {
    "company": "sentinelone",
    "feed": "Blog",
    "title": "The SOC Just Gained a Capability It Never Had",
@@ -3222,14 +3326,6 @@
    "summary": ""
   },
   {
-   "company": "rapid7",
-   "feed": "Blog",
-   "title": "Credentialed Pre-Port Discovery: Don't Probe the Host, Ask it",
-   "link": "https://www.rapid7.com/blog/post/pt-credentialed-pre-port-discovery-asking-host",
-   "date": "2026-09-09T15:16:34.000Z",
-   "summary": "If your scan engine already holds credentials for a host, it can ask that host which ports are open instead of probing for them. Every scan begins with the same question: which ports on this host are open? Everything after it, from identifying services to checking for..."
-  },
-  {
    "company": "tenable",
    "feed": "Blog",
    "title": "Introducing the CyberAgents Exchange AI Inspector: Rigorous review for community-built AI",
@@ -3268,14 +3364,6 @@
    "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-september-2026/",
    "date": "2026-09-08T22:16:35.000Z",
    "summary": "Microsoft has released its monthly security update for September 2026, which includes 973 vulnerabilities affecting a range of products, including 113 that Microsoft marked as \"critical.\""
-  },
-  {
-   "company": "rapid7",
-   "feed": "Blog",
-   "title": "Patch Tuesday - September 2026",
-   "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-september-2026",
-   "date": "2026-09-08T21:44:04.000Z",
-   "summary": "Microsoft is publishing 974 own-product vulnerabilities on September 2026 Patch Tuesday , including 723 vulnerabilities in Windows. Along with Microsoft fixes for 25 non-Microsoft CVEs, that brings the total number of vulnerabilities on the table today to 999. Whether this is..."
   },
   {
    "company": "proofpoint",
@@ -3324,14 +3412,6 @@
    "link": "https://research.checkpoint.com/2026/the-shared-clipboard-inside-the-sandbox-cross-account-data-leakage-in-chatgpt/",
    "date": "2026-09-08T13:00:18.000Z",
    "summary": "Research by: Alexey Bukhteyev Key Takeaways Introduction Over the past several years, AI assistants have moved far beyond text generation. Modern systems can execute code, install additional dependencies, analyze user files, and access data through connected services. These..."
-  },
-  {
-   "company": "rapid7",
-   "feed": "Blog",
-   "title": "CVE-2026-86206, CVE-2026-86207: N-able N-central Authentication Bypass (FIXED)",
-   "link": "https://www.rapid7.com/blog/post/ve-cve-2026-86206-cve-2026-86207-n-able-n-central-authentication-bypass-fixed",
-   "date": "2026-09-08T11:01:27.000Z",
-   "summary": "Overview While conducting research into a recent N-able N-central authentication bypass vulnerability ( CVE-2026-18577 ), Rapid7 Labs discovered two new vulnerabilities affecting the latest version of N-central. When chained together, these two vulnerabilities allow a remote..."
   },
   {
    "company": "talos",
@@ -3862,28 +3942,12 @@
    "summary": "Research by: Jaromír Hořejší (@JaromirHorejsi) Key points Introduction We first noticed a ransomware family called StopAndProtect in the middle of May 2026. Further analysis of the infrastructure reveals that the infection chain starts with a ClickFix social-engineering..."
   },
   {
-   "company": "wiz",
-   "feed": "Blog",
-   "title": "Announcing the 2026 Wiz Partner Alliance Award Winners",
-   "link": "https://www.wiz.io/blog/2026-partner-award-winners",
-   "date": "2026-08-18T12:00:00.000Z",
-   "summary": "Recognizing the partners, integrators, and visionaries driving cloud security transformation, AI risk management, and SOC modernization across AMER, EMEA, and ANZ."
-  },
-  {
    "company": "zscaler",
    "feed": "ThreatLabz research",
    "title": "C2Looper: A New Backdoor Likely Tied To Ransomware With GitHub C2",
    "link": "https://www.zscaler.com/blogs/security-research/c2looper-new-backdoor-likely-tied-ransomware-github-c2",
    "date": "2026-08-17T14:06:04.000Z",
    "summary": "IntroductionIn July 2026, Zscaler ThreatLabz identified a new Rust-based malware family that we track as C2Looper, which is likely leveraged by a ransomware-related threat actor. Furthermore, ThreatLabz assesses with low to medium confidence that C2Looper has been delivered to..."
-  },
-  {
-   "company": "wiz",
-   "feed": "Blog",
-   "title": "Wiz Red Agent Finds Its Way Into Snowflake’s Internal Jira Through a Flaw in a GitHub Copilot–Assisted PR",
-   "link": "https://www.wiz.io/blog/red-agent-snowflake-copilot-cicd-bug",
-   "date": "2026-08-17T14:00:00.000Z",
-   "summary": "Wiz Red Agent independently discovered and exploited a GitHub Actions injection missed by GitHub’s Advanced Security, validated access to sensitive data in Snowflake’s internal Jira, and assessed the blast radius—all without human intervention, five days after the flaw became..."
   },
   {
    "company": "checkpoint",

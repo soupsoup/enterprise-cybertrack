@@ -272,6 +272,38 @@ This vulnerability is due to improper handling of email attachments when the fil
 <description>Use after free in OpenSSH for Windows allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
 </item>
 <item>
+<title>CVE-2026-69883 Microsoft windows: Use after free in Windows iSCSI allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-69883</link>
+<guid isPermaLink="false">CVE-2026-69883</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Windows iSCSI allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.8%</description>
+</item>
+<item>
+<title>CVE-2026-83935 Microsoft windows: Heap-based buffer overflow in Microsoft XML allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83935</link>
+<guid isPermaLink="false">CVE-2026-83935</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft XML allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.7%</description>
+</item>
+<item>
+<title>CVE-2026-84015 Microsoft windows: Heap-based buffer overflow in Remote Access Point-to-Point Protocol (PPP) EAP-TLS allows an unauthorized...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-84015</link>
+<guid isPermaLink="false">CVE-2026-84015</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Remote Access Point-to-Point Protocol (PPP) EAP-TLS allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
+</item>
+<item>
+<title>CVE-2026-96252 Microsoft windows: Improper verification of cryptographic signature in Active Directory Federation Services (AD FS) allows an...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96252</link>
+<guid isPermaLink="false">CVE-2026-96252</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Improper verification of cryptographic signature in Active Directory Federation Services (AD FS) allows an unauthorized attacker to perform spoofing over a network. | CVSS 9.1 | EPSS 0.5%</description>
+</item>
+<item>
 <title>CVE-2026-107938 Apache cxf: In Apache CXF, the Netty-based HTTP client transport (cxf-rt-transports-http-netty-client) did not verify...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-107938</link>
 <guid isPermaLink="false">CVE-2026-107938</guid>
@@ -595,6 +627,14 @@ This issue affects Apache Tomcat Native: from 2.0.0 through 2.0.15, from 1.3.0 t
 Users are recommended to upgrade to version 2.0.16 or 1.3.9, which fix the issue. | CVSS 9.1 | EPSS 0.4%</description>
 </item>
 <item>
+<title>CVE-2026-67231 Broadcom rabbitmq server: RabbitMQ is a messaging and streaming broker.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-67231</link>
+<guid isPermaLink="false">CVE-2026-67231</guid>
+<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0, The trust-store plugin installs a verify_fun that overrides {bad_cert, unknown_ca} / {bad_cert, selfsigned_peer} when the presented cert &quot;matches&quot; a whitelisted one. The match key is extract_issuer_id/1 → public_key:pkix_issuer_id/2 → {IssuerName, SerialNumber} , both fields are taken verbatim from the presented certificate body and contain no public-key, SKI, fingerprint or signature material. is_whitelisted/1 is a pure ets:member lookup; the stored full DER is used only for list/0 display and is never compared against the presented cert. cacerts is [], so the whitelisted cert is never used as a trust anchor for path validation either. TLS client-authentication bypass: an attacker who knows the issuer DN + serial of any whitelisted certificate can connect with a forged self-signed cert. Preconditions include rabbitmq_trust_store plugin enabled and used as the TLS verify_fun Attacker knows or can guess the {Issuer, Serial} of at least one whitelisted cert (non-secret; exposed via CLI/logs/any cert copy). This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0. | CVSS 9.1 | EPSS 0.2%</description>
+</item>
+<item>
 <title>CVE-2026-93616 Check Point multi-domain security management: A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-93616</link>
 <guid isPermaLink="false">CVE-2026-93616</guid>
@@ -869,52 +909,6 @@ Users of apache-airflow are recommended to upgrade to apache-airflow version 3.3
 <pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
 <category>Cloud &amp; AI Services</category>
 <description>Authentication bypass by spoofing in Microsoft Dataverse allows an unauthorized attacker to elevate privileges over a network. | CVSS 9 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-83944 Microsoft azure logic apps: Improper access control in Azure Logic Apps allows an unauthorized attacker to elevate privileges over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83944</link>
-<guid isPermaLink="false">CVE-2026-83944</guid>
-<pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Cloud &amp; AI Services</category>
-<description>Improper access control in Azure Logic Apps allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-85885 Microsoft 365 copilot: Improper neutralization of special elements used in a command (&apos;command injection&apos;) in M365 Copilot allows an...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85885</link>
-<guid isPermaLink="false">CVE-2026-85885</guid>
-<pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Cloud &amp; AI Services</category>
-<description>Improper neutralization of special elements used in a command (&apos;command injection&apos;) in M365 Copilot allows an authorized attacker to elevate privileges over a network. | CVSS 9.9 | EPSS 0.7%</description>
-</item>
-<item>
-<title>CVE-2026-85889 Microsoft azure ai foundry: Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85889</link>
-<guid isPermaLink="false">CVE-2026-85889</guid>
-<pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Cloud &amp; AI Services</category>
-<description>Missing authentication for critical function in Azure AI Foundry allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 0.7%</description>
-</item>
-<item>
-<title>CVE-2026-87701 Microsoft azure cosmos db: Improper neutralization of special elements in output used by a downstream component (&apos;injection&apos;) in Azure...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-87701</link>
-<guid isPermaLink="false">CVE-2026-87701</guid>
-<pubDate>Thu, 17 Sep 2026 00:00:00 GMT</pubDate>
-<category>Cloud &amp; AI Services</category>
-<description>Improper neutralization of special elements in output used by a downstream component (&apos;injection&apos;) in Azure Cosmos DB allows an authorized attacker to elevate privileges over a network. | CVSS 9.6 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-82311 Apache apache-airflow-providers-fab: Apache Airflow FAB provider: resetting a user&apos;s password does not delete that user&apos;s existing database-backed...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-82311</link>
-<guid isPermaLink="false">CVE-2026-82311</guid>
-<pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-<category>Developer Tools &amp; Libraries</category>
-<description>Apache Airflow FAB provider: resetting a user&apos;s password does not delete that user&apos;s existing database-backed sessions, despite documented behaviour that it does. The cleanup compares the string identifier Flask-Login stores in the session against the user&apos;s integer database identifier, so the comparison never matches and no session is removed. An attacker who already holds a copy of the victim&apos;s session cookie keeps access as that user after the password change, so the reset does not evict them.
-
-Affects deployments using the FAB auth manager with `[fab] session_backend=database`. The trigger is an administrator (or the user) running the supported password-reset command as a containment action after a session cookie has been compromised; the secure-cookie backend is out of scope, as it documents that it cannot centrally delete sessions.
-
-apache-airflow-providers-fab 3.9.0 also fixes CVE-2026-86462, a second, independent route to the same outcome via the Admin user-edit endpoint; a single upgrade closes both.
-
-Users of apache-airflow-providers-fab are recommended to upgrade to version 3.9.0 or later, which compares the identifiers consistently. | CVSS 9.8 | EPSS 1.0%</description>
 </item>
 </channel>
 </rss>

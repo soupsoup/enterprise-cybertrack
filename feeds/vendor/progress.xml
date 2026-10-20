@@ -15,5 +15,115 @@
 
 This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 8.8 | EPSS 0.1%</description>
 </item>
+<item>
+<title>CVE-2026-89067 Progress moveit transfer: Authentication bypass using an alternate path or channel vulnerability in Progress MOVEit Transfer.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89067</link>
+<guid isPermaLink="false">CVE-2026-89067</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>File Transfer</category>
+<description>Authentication bypass using an alternate path or channel vulnerability in Progress MOVEit Transfer.
+
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 8.8 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-89068 Progress moveit transfer: Missing critical step in authentication vulnerability in Progress MOVEit Transfer (LDAP module).</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89068</link>
+<guid isPermaLink="false">CVE-2026-89068</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>File Transfer</category>
+<description>Missing critical step in authentication vulnerability in Progress MOVEit Transfer (LDAP module).
+
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 8.1 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-89069 Progress moveit transfer: Improper neutralization of input during web page generation (&apos;cross-site scripting&apos;) vulnerability in...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89069</link>
+<guid isPermaLink="false">CVE-2026-89069</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>File Transfer</category>
+<description>Improper neutralization of input during web page generation (&apos;cross-site scripting&apos;) vulnerability in Progress MOVEit Transfer (Ad Hoc module).
+
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-89070 Progress moveit transfer: Authentication bypass by capture-replay vulnerability in Progress MOVEit Transfer (OIDC module).</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89070</link>
+<guid isPermaLink="false">CVE-2026-89070</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>File Transfer</category>
+<description>Authentication bypass by capture-replay vulnerability in Progress MOVEit Transfer (OIDC module).
+
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-89071 Progress moveit transfer: Improper neutralization of special elements used in an LDAP query (&apos;LDAP injection&apos;) vulnerability in...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89071</link>
+<guid isPermaLink="false">CVE-2026-89071</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>File Transfer</category>
+<description>Improper neutralization of special elements used in an LDAP query (&apos;LDAP injection&apos;) vulnerability in Progress MOVEit Transfer (LDAP module).
+
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-89072 Progress moveit transfer: Incorrect Authorization vulnerability in Progress MOVEit Transfer (Client Certificates module).</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89072</link>
+<guid isPermaLink="false">CVE-2026-89072</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>File Transfer</category>
+<description>Incorrect Authorization vulnerability in Progress MOVEit Transfer (Client Certificates module).
+
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 7.5 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-89073 Progress moveit transfer: Insufficient Session Expiration vulnerability in Progress MOVEit Transfer.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89073</link>
+<guid isPermaLink="false">CVE-2026-89073</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>File Transfer</category>
+<description>Insufficient Session Expiration vulnerability in Progress MOVEit Transfer.
+
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-89074 Progress moveit transfer: Improper handling of unicode encoding vulnerability in Progress MOVEit Transfer.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89074</link>
+<guid isPermaLink="false">CVE-2026-89074</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>File Transfer</category>
+<description>Improper handling of unicode encoding vulnerability in Progress MOVEit Transfer.
+
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-89075 Progress moveit transfer: Insecure Storage of Sensitive Information vulnerability in Progress MOVEit Transfer.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89075</link>
+<guid isPermaLink="false">CVE-2026-89075</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>File Transfer</category>
+<description>Insecure Storage of Sensitive Information vulnerability in Progress MOVEit Transfer.
+
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 7.3 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-89076 Progress moveit transfer: Improper neutralization of special elements used in an SQL command (&apos;SQL injection&apos;) vulnerability in...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89076</link>
+<guid isPermaLink="false">CVE-2026-89076</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>File Transfer</category>
+<description>Improper neutralization of special elements used in an SQL command (&apos;SQL injection&apos;) vulnerability in Progress MOVEit Transfer (Custom Reports module).
+
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 7.2 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-89077 Progress moveit transfer: Incorrect implementation of authentication algorithm vulnerability in Progress MOVEit Transfer (SFTP module).</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89077</link>
+<guid isPermaLink="false">CVE-2026-89077</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>File Transfer</category>
+<description>Incorrect implementation of authentication algorithm vulnerability in Progress MOVEit Transfer (SFTP module).
+
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 7.5 | EPSS 0.4%</description>
+</item>
 </channel>
 </rss>

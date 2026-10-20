@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-19T11:02:57.679Z",
+ "generated": "2026-10-20T10:08:51.477Z",
  "cves": [
   {
    "id": "CVE-2026-111094",
@@ -50,6 +50,288 @@
     }
    ],
    "epss": 0.00169
+  },
+  {
+   "id": "CVE-2026-108443",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-15",
+   "title": "Off-by-one error in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "summary": "Off-by-one error in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00442
+  },
+  {
+   "id": "CVE-2026-108444",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-15",
+   "title": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code over a network.",
+   "summary": "Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00442
+  },
+  {
+   "id": "CVE-2026-108445",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-15",
+   "title": "Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00442
+  },
+  {
+   "id": "CVE-2026-108446",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-15",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20228"
+    }
+   ],
+   "epss": 0.00442
+  },
+  {
+   "id": "CVE-2026-108447",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-15",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00442
+  },
+  {
+   "id": "CVE-2026-108448",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-15",
+   "title": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00348
+  },
+  {
+   "id": "CVE-2026-108449",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-15",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00442
+  },
+  {
+   "id": "CVE-2026-108450",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-15",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00442
+  },
+  {
+   "id": "CVE-2026-108451",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-15",
+   "title": "Numeric truncation error in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Numeric truncation error in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00442
+  },
+  {
+   "id": "CVE-2026-108452",
+   "vendor": "Microsoft",
+   "product": "sharepoint server",
+   "category": "Email & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-15",
+   "title": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint...",
+   "summary": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "sharepoint server",
+     "toExcl": "16.0.20326.20190"
+    }
+   ],
+   "epss": 0.00634
   },
   {
    "id": "CVE-2026-76519",
@@ -244,6 +526,281 @@
     }
    ],
    "epss": 0.00144
+  },
+  {
+   "id": "CVE-2026-89067",
+   "vendor": "Progress",
+   "product": "moveit transfer",
+   "category": "File Transfer",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-14",
+   "title": "Authentication bypass using an alternate path or channel vulnerability in Progress MOVEit Transfer.",
+   "summary": "Authentication bypass using an alternate path or channel vulnerability in Progress MOVEit Transfer.\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "toExcl": "2025.1.6"
+    },
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "from": "2026.0.0",
+     "toExcl": "2026.0.4"
+    }
+   ],
+   "epss": 0.00556
+  },
+  {
+   "id": "CVE-2026-89068",
+   "vendor": "Progress",
+   "product": "moveit transfer",
+   "category": "File Transfer",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-14",
+   "title": "Missing critical step in authentication vulnerability in Progress MOVEit Transfer (LDAP module).",
+   "summary": "Missing critical step in authentication vulnerability in Progress MOVEit Transfer (LDAP module).\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "toExcl": "2025.1.6"
+    },
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "from": "2026.0.0",
+     "toExcl": "2026.0.4"
+    }
+   ],
+   "epss": 0.00456
+  },
+  {
+   "id": "CVE-2026-89069",
+   "vendor": "Progress",
+   "product": "moveit transfer",
+   "category": "File Transfer",
+   "cvss": 8,
+   "kev": false,
+   "published": "2026-10-14",
+   "title": "Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in...",
+   "summary": "Improper neutralization of input during web page generation ('cross-site scripting') vulnerability in Progress MOVEit Transfer (Ad Hoc module).\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "toExcl": "2025.1.6"
+    },
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "from": "2026.0.0",
+     "toExcl": "2026.0.4"
+    }
+   ],
+   "epss": 0.00444
+  },
+  {
+   "id": "CVE-2026-89070",
+   "vendor": "Progress",
+   "product": "moveit transfer",
+   "category": "File Transfer",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-14",
+   "title": "Authentication bypass by capture-replay vulnerability in Progress MOVEit Transfer (OIDC module).",
+   "summary": "Authentication bypass by capture-replay vulnerability in Progress MOVEit Transfer (OIDC module).\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "toExcl": "2025.1.6"
+    },
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "from": "2026.0.0",
+     "toExcl": "2026.0.4"
+    }
+   ],
+   "epss": 0.00405
+  },
+  {
+   "id": "CVE-2026-89071",
+   "vendor": "Progress",
+   "product": "moveit transfer",
+   "category": "File Transfer",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-14",
+   "title": "Improper neutralization of special elements used in an LDAP query ('LDAP injection') vulnerability in...",
+   "summary": "Improper neutralization of special elements used in an LDAP query ('LDAP injection') vulnerability in Progress MOVEit Transfer (LDAP module).\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "toExcl": "2025.1.6"
+    },
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "from": "2026.0.0",
+     "toExcl": "2026.0.4"
+    }
+   ],
+   "epss": 0.00415
+  },
+  {
+   "id": "CVE-2026-89072",
+   "vendor": "Progress",
+   "product": "moveit transfer",
+   "category": "File Transfer",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-14",
+   "title": "Incorrect Authorization vulnerability in Progress MOVEit Transfer (Client Certificates module).",
+   "summary": "Incorrect Authorization vulnerability in Progress MOVEit Transfer (Client Certificates module).\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "toExcl": "2025.1.6"
+    },
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "from": "2026.0.0",
+     "toExcl": "2026.0.4"
+    }
+   ],
+   "epss": 0.00212
+  },
+  {
+   "id": "CVE-2026-89073",
+   "vendor": "Progress",
+   "product": "moveit transfer",
+   "category": "File Transfer",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-14",
+   "title": "Insufficient Session Expiration vulnerability in Progress MOVEit Transfer.",
+   "summary": "Insufficient Session Expiration vulnerability in Progress MOVEit Transfer.\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "toExcl": "2025.1.6"
+    },
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "from": "2026.0.0",
+     "toExcl": "2026.0.4"
+    }
+   ],
+   "epss": 0.00312
+  },
+  {
+   "id": "CVE-2026-89074",
+   "vendor": "Progress",
+   "product": "moveit transfer",
+   "category": "File Transfer",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-14",
+   "title": "Improper handling of unicode encoding vulnerability in Progress MOVEit Transfer.",
+   "summary": "Improper handling of unicode encoding vulnerability in Progress MOVEit Transfer.\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "toExcl": "2025.1.6"
+    },
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "from": "2026.0.0",
+     "toExcl": "2026.0.4"
+    }
+   ],
+   "epss": 0.00398
+  },
+  {
+   "id": "CVE-2026-89075",
+   "vendor": "Progress",
+   "product": "moveit transfer",
+   "category": "File Transfer",
+   "cvss": 7.3,
+   "kev": false,
+   "published": "2026-10-14",
+   "title": "Insecure Storage of Sensitive Information vulnerability in Progress MOVEit Transfer.",
+   "summary": "Insecure Storage of Sensitive Information vulnerability in Progress MOVEit Transfer.\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "toExcl": "2025.1.6"
+    },
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "from": "2026.0.0",
+     "toExcl": "2026.0.4"
+    }
+   ],
+   "epss": 0.00168
+  },
+  {
+   "id": "CVE-2026-89076",
+   "vendor": "Progress",
+   "product": "moveit transfer",
+   "category": "File Transfer",
+   "cvss": 7.2,
+   "kev": false,
+   "published": "2026-10-14",
+   "title": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in...",
+   "summary": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in Progress MOVEit Transfer (Custom Reports module).\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "toExcl": "2025.1.6"
+    },
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "from": "2026.0.0",
+     "toExcl": "2026.0.4"
+    }
+   ],
+   "epss": 0.00486
+  },
+  {
+   "id": "CVE-2026-89077",
+   "vendor": "Progress",
+   "product": "moveit transfer",
+   "category": "File Transfer",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-14",
+   "title": "Incorrect implementation of authentication algorithm vulnerability in Progress MOVEit Transfer (SFTP module).",
+   "summary": "Incorrect implementation of authentication algorithm vulnerability in Progress MOVEit Transfer (SFTP module).\n\nThis issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "toExcl": "2025.1.6"
+    },
+    {
+     "vendor": "Progress",
+     "product": "moveit transfer",
+     "from": "2026.0.0",
+     "toExcl": "2026.0.4"
+    }
+   ],
+   "epss": 0.00394
   },
   {
    "id": "CVE-2026-58249",
@@ -7593,6 +8150,625 @@
    "epss": 0.00195
   },
   {
+   "id": "CVE-2026-69880",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Access of resource using incompatible type ('type confusion') in Desktop Window Manager allows an authorized...",
+   "summary": "Access of resource using incompatible type ('type confusion') in Desktop Window Manager allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00369
+  },
+  {
+   "id": "CVE-2026-69882",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Untrusted search path in Windows Update allows an authorized attacker to elevate privileges locally.",
+   "summary": "Untrusted search path in Windows Update allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.0041
+  },
+  {
+   "id": "CVE-2026-69883",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows iSCSI allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Windows iSCSI allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.0079
+  },
+  {
+   "id": "CVE-2026-69991",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00569
+  },
+  {
+   "id": "CVE-2026-69992",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Remote Desktop Services allows an unauthorized attacker to execute code over a...",
+   "summary": "Use after free in Windows Remote Desktop Services allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00569
+  },
+  {
+   "id": "CVE-2026-69994",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00569
+  },
+  {
+   "id": "CVE-2026-69995",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00569
+  },
+  {
+   "id": "CVE-2026-69996",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00569
+  },
+  {
+   "id": "CVE-2026-69997",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00569
+  },
+  {
+   "id": "CVE-2026-69998",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00569
+  },
+  {
+   "id": "CVE-2026-70004",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00569
+  },
+  {
+   "id": "CVE-2026-70012",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00569
+  },
+  {
+   "id": "CVE-2026-70013",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows iSCSI allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Windows iSCSI allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00534
+  },
+  {
+   "id": "CVE-2026-83934",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Stack-based buffer overflow in Windows GDI+ allows an unauthorized attacker to execute code over a network.",
+   "summary": "Stack-based buffer overflow in Windows GDI+ allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00798
+  },
+  {
+   "id": "CVE-2026-83935",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft XML allows an unauthorized attacker to execute code over a network.",
+   "summary": "Heap-based buffer overflow in Microsoft XML allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00695
+  },
+  {
+   "id": "CVE-2026-84012",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Double free in Remote Desktop Gateway Service allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Remote Desktop Gateway Service allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00674
+  },
+  {
+   "id": "CVE-2026-84013",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Telephony Server allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Telephony Server allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00318
+  },
+  {
+   "id": "CVE-2026-84014",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Device Association Service allows an authorized attacker to elevate...",
+   "summary": "Heap-based buffer overflow in Windows Device Association Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.0022
+  },
+  {
+   "id": "CVE-2026-84015",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Remote Access Point-to-Point Protocol (PPP) EAP-TLS allows an unauthorized...",
+   "summary": "Heap-based buffer overflow in Remote Access Point-to-Point Protocol (PPP) EAP-TLS allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00893
+  },
+  {
+   "id": "CVE-2026-84016",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds write in Windows EAPHost Service allows an authorized attacker to elevate privileges locally.",
+   "summary": "Out-of-bounds write in Windows EAPHost Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00318
+  },
+  {
+   "id": "CVE-2026-84017",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Null pointer dereference in Windows Routing and Remote Access Service (RRAS) allows an unauthorized attacker...",
+   "summary": "Null pointer dereference in Windows Routing and Remote Access Service (RRAS) allows an unauthorized attacker to deny service over a network.",
+   "affects": [],
+   "epss": 0.01149
+  },
+  {
+   "id": "CVE-2026-84018",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Print Spooler Components allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00193
+  },
+  {
+   "id": "CVE-2026-84019",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Advanced Rasterization Platform allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Windows Advanced Rasterization Platform allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00204
+  },
+  {
+   "id": "CVE-2026-84020",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Routing and Remote Access Service (RRAS) allows an authorized attacker to elevate...",
+   "summary": "Use after free in Windows Routing and Remote Access Service (RRAS) allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00252
+  },
+  {
+   "id": "CVE-2026-88160",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Microsoft...",
+   "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00156
+  },
+  {
+   "id": "CVE-2026-88161",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Local Security Authority (LSA) allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Windows Local Security Authority (LSA) allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00252
+  },
+  {
+   "id": "CVE-2026-88165",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds write in Active Directory Domain Services allows an authorized attacker to execute code over a...",
+   "summary": "Out-of-bounds write in Active Directory Domain Services allows an authorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00851
+  },
+  {
+   "id": "CVE-2026-88168",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Bind Filter Driver allows an authorized attacker to elevate privileges...",
+   "summary": "Heap-based buffer overflow in Windows Bind Filter Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00318
+  },
+  {
+   "id": "CVE-2026-88171",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Double free in Windows DHCP Server allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Windows DHCP Server allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00688
+  },
+  {
+   "id": "CVE-2026-88173",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Background Intelligent Transfer Service (BITS) allows an unauthorized attacker to...",
+   "summary": "Use after free in Windows Background Intelligent Transfer Service (BITS) allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00517
+  },
+  {
+   "id": "CVE-2026-88174",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows...",
+   "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Deployment Services allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00422
+  },
+  {
+   "id": "CVE-2026-88177",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
+   "summary": "Out-of-bounds read in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00245
+  },
+  {
+   "id": "CVE-2026-88179",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
+   "summary": "Out-of-bounds read in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00318
+  },
+  {
+   "id": "CVE-2026-88180",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
+   "summary": "Out-of-bounds read in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00245
+  },
+  {
+   "id": "CVE-2026-88181",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
+   "summary": "Out-of-bounds read in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00318
+  },
+  {
+   "id": "CVE-2026-88193",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Scripting Engine allows an authorized attacker to elevate privileges...",
+   "summary": "Heap-based buffer overflow in Microsoft Scripting Engine allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00306
+  },
+  {
+   "id": "CVE-2026-88219",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Untrusted pointer dereference in RPC Runtime allows an unauthorized attacker to execute code over a network.",
+   "summary": "Untrusted pointer dereference in RPC Runtime allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00767
+  },
+  {
+   "id": "CVE-2026-96222",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper certificate validation in Active Directory Federation Services (AD FS) allows an unauthorized...",
+   "summary": "Improper certificate validation in Active Directory Federation Services (AD FS) allows an unauthorized attacker to perform spoofing over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": ".net",
+     "from": "8.0.0",
+     "toExcl": "8.0.5"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "visual studio 2022",
+     "from": "17.14.0",
+     "toExcl": "17.14.42"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "visual studio 2026",
+     "from": "18.10.0",
+     "toExcl": "18.10.4"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": ".net framework",
+     "version": "4.8.1"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": ".net framework",
+     "version": "4.8"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": ".net framework",
+     "version": "4.6.2"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": ".net framework",
+     "version": "4.7"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": ".net framework",
+     "version": "4.7.1"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": ".net framework",
+     "version": "4.7.2"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": ".net framework",
+     "version": "3.5"
+    }
+   ],
+   "epss": 0.00583
+  },
+  {
+   "id": "CVE-2026-96246",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Network Policy Server (NPS) allows an unauthorized attacker to disclose information...",
+   "summary": "Out-of-bounds read in Network Policy Server (NPS) allows an unauthorized attacker to disclose information over a network.",
+   "affects": [],
+   "epss": 0.01005
+  },
+  {
+   "id": "CVE-2026-96251",
+   "vendor": "Microsoft",
+   "product": "powershell",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Reliance on untrusted inputs in a security decision in Microsoft PowerShell allows an unauthorized attacker...",
+   "summary": "Reliance on untrusted inputs in a security decision in Microsoft PowerShell allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "powershell",
+     "from": "7.4",
+     "toExcl": "7.4.21"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "powershell",
+     "from": "7.5",
+     "toExcl": "7.5.12"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "powershell",
+     "from": "7.6",
+     "toExcl": "7.6.7"
+    }
+   ],
+   "epss": 0.00535
+  },
+  {
+   "id": "CVE-2026-96252",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 9.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper verification of cryptographic signature in Active Directory Federation Services (AD FS) allows an...",
+   "summary": "Improper verification of cryptographic signature in Active Directory Federation Services (AD FS) allows an unauthorized attacker to perform spoofing over a network.",
+   "affects": [],
+   "epss": 0.0048
+  },
+  {
+   "id": "CVE-2026-96856",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Management Instrumentation allows an authorized attacker to elevate...",
+   "summary": "Heap-based buffer overflow in Windows Management Instrumentation allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00318
+  },
+  {
    "id": "CVE-2026-100227",
    "vendor": "Apache",
    "product": "cxf",
@@ -8763,8 +9939,14 @@
     },
     {
      "vendor": "Atlassian",
-     "product": "jira service management",
+     "product": "jira service desk",
      "from": "3.1.0",
+     "to": "4.13.27"
+    },
+    {
+     "vendor": "Atlassian",
+     "product": "jira service management",
+     "from": "4.14.0",
      "toExcl": "5.12.40"
     },
     {
@@ -10740,6 +11922,50 @@
    ]
   },
   {
+   "id": "CVE-2026-67233",
+   "vendor": "Broadcom",
+   "product": "rabbitmq server",
+   "category": "Application Platforms",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-09-24",
+   "title": "RabbitMQ is a messaging and streaming broker.",
+   "summary": "RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.1, The shovel management resource's is_authorized/2 delegates to rabbit_mgmt_util:is_authorized_monitor/2, which accepts the monitoring tag. But allowed_methods includes DELETE, and delete_resource/2 deletes / restarts shovel runtime parameters with no additional role check. A monitoring user , intended to have read-only visibility , can therefore delete or restart any shovel in any vhost they can see. A read-only monitoring user can delete or restart any dynamic shovel , a state-changing operation that the equivalent /api/parameters endpoint correctly restricts to policymaker. Preconditions include rabbitmq_shovel + rabbitmq_shovel_management plugins enabled Attacker has credentials with the monitoring tag. This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.1.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "3.13.0",
+     "toExcl": "3.13.15"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.0.0",
+     "toExcl": "4.0.20"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.1.0",
+     "toExcl": "4.1.11"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.2.0",
+     "toExcl": "4.2.6"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.3.0",
+     "toExcl": "4.3.1"
+    }
+   ],
+   "epss": 0.00303
+  },
+  {
    "id": "CVE-2026-70125",
    "vendor": "Microsoft",
    "product": "365 apps",
@@ -11134,6 +12360,234 @@
    "summary": "A heap-based out-of-bounds write vulnerability exists in Foxit PDF Editor/Reader’s PRC parser due to insufficient validation of vertex indices in triangular fan texture meshes. Successful exploitation could result in memory corruption and an application crash.",
    "affects": [],
    "epss": 0.00116
+  },
+  {
+   "id": "CVE-2026-66070",
+   "vendor": "Broadcom",
+   "product": "rabbitmq server",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "RabbitMQ is a messaging and streaming broker.",
+   "summary": "RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.17, 4.0.22, 4.1.13, and 4.2.6, match_origin/1 returned the bare reflected Origin and allowed credentials even when the wildcard \"\" was configured, so the response echoed the attacker's origin together with Access-Control-Allow-Credentials. The affected code is rabbit_mgmt_cors.erl. When the management plugin is configured with a wildcard CORS origin (cors_allow_origins = \"\"), the handler reflects the request Origin back in Access-Control-Allow-Origin and also sends Access-Control-Allow-Credentials: true. A malicious web page that a signed-in administrator visits can then use that administrator's cached HTTP Basic credentials to issue authenticated, state-changing requests to the management API. Preconditions include The management plugin is configured with the wildcard cors_allow_origins = \"*\", which is an explicit operator misconfiguration A target administrator has a cached HTTP Basic-auth session in the browser. This issue is fixed in versions 3.13.17, 4.0.22, 4.1.13, and 4.2.6.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "3.13.0",
+     "toExcl": "3.13.17"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.0.0",
+     "toExcl": "4.0.22"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.1.0",
+     "toExcl": "4.1.13"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.2.0",
+     "toExcl": "4.2.6"
+    }
+   ],
+   "epss": 0.00413
+  },
+  {
+   "id": "CVE-2026-66079",
+   "vendor": "Broadcom",
+   "product": "rabbitmq server",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "RabbitMQ is a messaging and streaming broker.",
+   "summary": "RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, and 4.2.6, parse_array_primitive/2 for constructor 0x45 (list0) returns an element with byte-width B = 0. The enclosing array32 parser at line 148 reads a 4-byte Count from the wire and loops Count times consuming B bytes each , with B = 0, no input is consumed and the loop builds a list of Count empty elements bounded only by the 32-bit field. The SASL-mechanisms / SASL-init frame is parsed by amqp10_framing:decode_bin/1 from rabbit_amqp_reader.erl:412 before authentication completes. The pre-auth incoming_max_frame_size (default 8192 bytes) caps the frame, not the Count field, so a 19-byte payload with Count = 0xFFFFFFFF is accepted. No max_heap_size is set on the reader process. An unauthenticated network attacker can crash any RabbitMQ node that has the AMQP 1.0 listener enabled (default port 5672) by sending a single ~19-byte frame. The reader process attempts to build a list of ~4 billion empty elements, exhausting heap memory and terminating the Erlang VM. All tenants and protocols on the node lose service. Preconditions include Network reachability to the AMQP listener (port 5672, enabled by default) No authentication required. This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, and 4.2.6.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "3.13.0",
+     "toExcl": "3.13.15"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.0.0",
+     "toExcl": "4.0.20"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.1.0",
+     "toExcl": "4.1.11"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.2.0",
+     "toExcl": "4.2.6"
+    }
+   ],
+   "epss": 0.0032
+  },
+  {
+   "id": "CVE-2026-67231",
+   "vendor": "Broadcom",
+   "product": "rabbitmq server",
+   "category": "Application Platforms",
+   "cvss": 9.1,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "RabbitMQ is a messaging and streaming broker.",
+   "summary": "RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0, The trust-store plugin installs a verify_fun that overrides {bad_cert, unknown_ca} / {bad_cert, selfsigned_peer} when the presented cert \"matches\" a whitelisted one. The match key is extract_issuer_id/1 → public_key:pkix_issuer_id/2 → {IssuerName, SerialNumber} , both fields are taken verbatim from the presented certificate body and contain no public-key, SKI, fingerprint or signature material. is_whitelisted/1 is a pure ets:member lookup; the stored full DER is used only for list/0 display and is never compared against the presented cert. cacerts is [], so the whitelisted cert is never used as a trust anchor for path validation either. TLS client-authentication bypass: an attacker who knows the issuer DN + serial of any whitelisted certificate can connect with a forged self-signed cert. Preconditions include rabbitmq_trust_store plugin enabled and used as the TLS verify_fun Attacker knows or can guess the {Issuer, Serial} of at least one whitelisted cert (non-secret; exposed via CLI/logs/any cert copy). This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "3.13.0",
+     "toExcl": "3.13.15"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.0.0",
+     "toExcl": "4.0.20"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.1.0",
+     "toExcl": "4.1.11"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.2.0",
+     "toExcl": "4.2.6"
+    }
+   ],
+   "epss": 0.00249
+  },
+  {
+   "id": "CVE-2026-67232",
+   "vendor": "Broadcom",
+   "product": "rabbitmq server",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "RabbitMQ is a messaging and streaming broker.",
+   "summary": "RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0, The cowboy WebSocket options at line 117 set compress => true, enabling RFC 7692 permessage-deflate negotiation. The handler does not set max_frame_size, so cowboy's default of infinity applies. cowlib's cow_ws:parse_payload/9 calls zlib:inflate/2 on the compressed payload with no output-size limit. An attacker can negotiate permessage-deflate during the WebSocket upgrade and send a frame containing a zlib bomb (e.g. 50 KB → 5 GB). Decompression occurs in the connection process before websocket_handle/2 ever sees the MQTT bytes. An unauthenticated attacker can crash a RabbitMQ node running the Web-MQTT plugin by sending a single highly-compressed WebSocket frame (a few KB on the wire) that inflates to gigabytes in memory. The cowboy WebSocket handler decompresses the entire frame before the MQTT CONNECT packet is processed, so no credentials are required. Preconditions include rabbitmq_web_mqtt plugin enabled (not default, but common for browser clients) Network reachability to port 15675/15676 No authentication required. This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "3.13.0",
+     "toExcl": "3.13.15"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.0.0",
+     "toExcl": "4.0.20"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.1.0",
+     "toExcl": "4.1.11"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.2.0",
+     "toExcl": "4.2.6"
+    }
+   ],
+   "epss": 0.00366
+  },
+  {
+   "id": "CVE-2026-67404",
+   "vendor": "Broadcom",
+   "product": "rabbitmq server",
+   "category": "Application Platforms",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "RabbitMQ is a messaging and streaming broker.",
+   "summary": "RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0, When no CA bundle is available, ssl_options/1 falls back to [{verify, verify_none}] with no warning. An attacker in a man-in-the-middle position can forge the JWKS response, which leads the broker to accept arbitrary JWTs. Preconditions include The OAuth2 plugin must be in use with no cacertfile configured and the OS CA bundle empty or unreadable (for example, in a minimal container), and the attacker must hold a network man-in-the-middle position.. This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "3.13.0",
+     "toExcl": "3.13.15"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.0.0",
+     "toExcl": "4.0.20"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.1.0",
+     "toExcl": "4.1.11"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.2.0",
+     "toExcl": "4.2.6"
+    }
+   ],
+   "epss": 0.00238
+  },
+  {
+   "id": "CVE-2026-67405",
+   "vendor": "Broadcom",
+   "product": "rabbitmq server",
+   "category": "Application Platforms",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-09-23",
+   "title": "RabbitMQ is a messaging and streaming broker.",
+   "summary": "RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0, Neither the Web-MQTT handler (deps/rabbitmq_web_mqtt/src/rabbit_web_mqtt_handler.erl:104) nor the Web-STOMP handler (deps/rabbitmq_web_stomp/src/rabbit_web_stomp_handler.erl:102) validates the Origin header on the WebSocket upgrade. Under ssl_cert_login=true, the browser presents the client certificate automatically, so an attacker's JavaScript running in the victim's browser can authenticate as the victim. Preconditions include The non-default configuration use_http_auth=true (Web-STOMP) or ssl_cert_login=true (both plugins) must be enabled. The issue is harmless under the default in-band CONNECT credential configuration.. This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0.",
+   "affects": [
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "3.13.0",
+     "toExcl": "3.13.15"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.0.0",
+     "toExcl": "4.0.20"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.1.0",
+     "toExcl": "4.1.11"
+    },
+    {
+     "vendor": "Broadcom",
+     "product": "rabbitmq server",
+     "from": "4.2.0",
+     "toExcl": "4.2.6"
+    }
+   ],
+   "epss": 0.00125
   },
   {
    "id": "CVE-2026-25264",

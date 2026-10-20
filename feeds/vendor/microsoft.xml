@@ -6,6 +6,86 @@
 <description>High and critical Microsoft vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/microsoft.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-108443 Microsoft 365 apps: Off-by-one error in Microsoft Office Word allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108443</link>
+<guid isPermaLink="false">CVE-2026-108443</guid>
+<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Off-by-one error in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-108444 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108444</link>
+<guid isPermaLink="false">CVE-2026-108444</guid>
+<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-108445 Microsoft 365 apps: Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108445</link>
+<guid isPermaLink="false">CVE-2026-108445</guid>
+<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-108446 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108446</link>
+<guid isPermaLink="false">CVE-2026-108446</guid>
+<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-108447 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108447</link>
+<guid isPermaLink="false">CVE-2026-108447</guid>
+<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-108448 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108448</link>
+<guid isPermaLink="false">CVE-2026-108448</guid>
+<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-108449 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108449</link>
+<guid isPermaLink="false">CVE-2026-108449</guid>
+<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-108450 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108450</link>
+<guid isPermaLink="false">CVE-2026-108450</guid>
+<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-108451 Microsoft 365 apps: Numeric truncation error in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108451</link>
+<guid isPermaLink="false">CVE-2026-108451</guid>
+<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Numeric truncation error in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-108452 Microsoft sharepoint server: Improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) in Microsoft Office SharePoint...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108452</link>
+<guid isPermaLink="false">CVE-2026-108452</guid>
+<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<category>Email &amp; Collaboration</category>
+<description>Improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) in Microsoft Office SharePoint allows an authorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+</item>
+<item>
 <title>CVE-2026-100209 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-100209</link>
 <guid isPermaLink="false">CVE-2026-100209</guid>
@@ -724,86 +804,6 @@
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Incorrect authorization in Mojo in Google Chrome on on Windows prior to 155.0.8059.79 allowed a local attacker to potentially execute arbitrary code outside the sandbox via a local program. (Chromium security severity: High) | CVSS 8.6 | EPSS 0.2%</description>
-</item>
-<item>
-<title>CVE-2026-102849 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102849</link>
-<guid isPermaLink="false">CVE-2026-102849</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
-</item>
-<item>
-<title>CVE-2026-102850 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102850</link>
-<guid isPermaLink="false">CVE-2026-102850</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
-</item>
-<item>
-<title>CVE-2026-102856 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102856</link>
-<guid isPermaLink="false">CVE-2026-102856</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-102857 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102857</link>
-<guid isPermaLink="false">CVE-2026-102857</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Visio allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-102858 Microsoft microsoft 365: Heap-based buffer overflow in Microsoft Office OneNote allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102858</link>
-<guid isPermaLink="false">CVE-2026-102858</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
-<description>Heap-based buffer overflow in Microsoft Office OneNote allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
-</item>
-<item>
-<title>CVE-2026-105591 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-105591</link>
-<guid isPermaLink="false">CVE-2026-105591</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
-</item>
-<item>
-<title>CVE-2026-105592 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-105592</link>
-<guid isPermaLink="false">CVE-2026-105592</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-105593 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-105593</link>
-<guid isPermaLink="false">CVE-2026-105593</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
-</item>
-<item>
-<title>CVE-2026-105595 Microsoft 365 apps: Out-of-bounds read in Microsoft Office Access allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-105595</link>
-<guid isPermaLink="false">CVE-2026-105595</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Out-of-bounds read in Microsoft Office Access allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
-</item>
-<item>
-<title>CVE-2026-105596 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-105596</link>
-<guid isPermaLink="false">CVE-2026-105596</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Access allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
 </item>
 </channel>
 </rss>
