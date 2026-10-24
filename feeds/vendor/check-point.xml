@@ -19,7 +19,7 @@
 <guid isPermaLink="false">CVE-2026-85102</guid>
 <pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
 <category>Edge / VPN</category>
-<description>Improper certificate trust validation during VPN negotiation in Check Point Quantum Security Gateway may allow an unauthenticated remote attacker to execute arbitrary code on the Gateway. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-22) | EPSS 50.4%</description>
+<description>Improper certificate trust validation during VPN negotiation in Check Point Quantum Security Gateway may allow an unauthenticated remote attacker to execute arbitrary code on the Gateway. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-22) | EPSS 54.2%</description>
 </item>
 </channel>
 </rss>

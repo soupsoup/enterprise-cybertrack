@@ -13,7 +13,7 @@
 <p class="crumb"><a href="../../">Enterprise CyberTrack</a> / feeds</p>
 <h1>Enterprise CyberTrack: Apache</h1>
 <p class="tag">High and critical Apache vulnerabilities.</p>
-<p class="tag"><a href="apache.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 87.</p>
+<p class="tag"><a href="apache.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 92.</p>
 </div></header>
 <main class="wrap news">
 <article>
@@ -54,6 +54,48 @@ Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix
 <p class="who">Apache cxf</p>
 <p>The max_age authentication-freshness check in OidcClientCodeRequestFilter was inoperative due to a milliseconds/seconds unit mismatch and an inverted comparison polarity. Any relying party using setMaxAgeOffset to enforce re-authentication would silently accept sessions of any age, bypassing step-up authentication policies. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.</p>
 <div class="meta"><span class="pill">CVSS 9.1</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-71575" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-09">October 9, 2026</time>
+<h2><a href="../../#cve=CVE-2026-73179">CVE-2026-73179: Improper enforcement of single-use authorization code semantics in the JPA OAuth2 authorization code grant...</a></h2>
+<p class="who">Apache cxf</p>
+<p>Improper enforcement of single-use authorization code semantics in the JPA OAuth2 authorization code grant provider in Apache CXFallows a remote attacker to obtain multiple valid access tokens from a single authorization code via concurrent token exchange requests that race the non-atomic find-then-delete operation against a shared relational database under READ_COMMITTED isolation. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fixes this issue.</p>
+<div class="meta"><span class="pill">CVSS 8.1</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-73179" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-09">October 9, 2026</time>
+<h2><a href="../../#cve=CVE-2026-78384">CVE-2026-78384: CompressionUtils.inflate() decompressed attacker-controlled DEFLATE data with no output-size cap.</a></h2>
+<p class="who">Apache cxf</p>
+<p>CompressionUtils.inflate() decompressed attacker-controlled DEFLATE data with no output-size cap. A small (~KB) crafted payload could expand to gigabytes on the heap. Reachable via JWE decryption when zip=DEF (e.g. JoseSessionTokenProvider with RSA-OAEP key wrap) and via SAML redirect/POST binding token inflation — in both cases decompression happens before/independent of trust validation.
+
+Fix: Added a configurable maximum inflated-size cap (default 10 MiB, org.apache.cxf.compression-max-inflated-size system property) to CompressionUtils.inflate(); aborts with DataFormatException once exceeded.
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.</p>
+<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-78384" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-09">October 9, 2026</time>
+<h2><a href="../../#cve=CVE-2026-86463">CVE-2026-86463: Apache CXF&apos;s FIQL query parser has a vulnerability in how it searches for operators in query expressions.</a></h2>
+<p class="who">Apache cxf</p>
+<p>Apache CXF&apos;s FIQL query parser has a vulnerability in how it searches for operators in query expressions. The search pattern can get stuck trying many combinations when it encounters a long string without an operator, causing the parser to consume excessive CPU time. An attacker can send a crafted query to make the server use up CPU resources, potentially slowing down or stopping other requests. The fix was to limit FIQL expressions to 4 KiB by default, preventing attackers from sending extremely long inputs while still allowing normal queries.
+
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.</p>
+<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-86463" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-09">October 9, 2026</time>
+<h2><a href="../../#cve=CVE-2026-97468">CVE-2026-97468: Apache CXF&apos;s STSTokenValidator and Security Token Service (STS) cached validated security tokens under a...</a></h2>
+<p class="who">Apache cxf</p>
+<p>Apache CXF&apos;s STSTokenValidator and Security Token Service (STS) cached validated security tokens under a non-cryptographic 32-bit hash of the token (Java Arrays.hashCode/hashCode()), and treated a cache hit as proof that the presented token had already been validated. An attacker could craft a token (for example a UsernameToken or a self-signed SAML Assertion) whose hash collides with a cached entry. The token would then be accepted without password validation, signature trust verification or a call to the STS. This could let the attacker authenticate as another user and, through STS token validation or renewal, obtain STS-signed tokens for that identity.
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.</p>
+<div class="meta"><span class="pill">CVSS 9.1</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-97468" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-09">October 9, 2026</time>
+<h2><a href="../../#cve=CVE-2026-97791">CVE-2026-97791: In Apache CXF, STSTokenValidator checks whether a SAML assertion is signed by a trusted certificate before...</a></h2>
+<p class="who">Apache cxf</p>
+<p>In Apache CXF, STSTokenValidator checks whether a SAML assertion is signed by a trusted certificate before deciding to send it to the STS. That result was stored in one object shared by all requests, so one request could read another&apos;s result. A remote, unauthenticated attacker could send a forged assertion signed with an untrusted certificate while legitimate requests were being processed, and it could be accepted as trusted without ever reaching the STS. Only services that use STSTokenValidator to validate SAML tokens without alwaysValidateToSts set are affected. 
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue.</p>
+<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.3%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-97791" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-10-07">October 7, 2026</time>
@@ -186,7 +228,7 @@ This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68.</p>
 
 
 
-This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68.</p>
+This issue affects Apache HTTP Server version 2.4.68.</p>
 <div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.6%</span> <span class="pill">Web &amp; Application Servers</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-56449" rel="noopener">NVD record</a></div>
 </article>
 <article>
@@ -1166,6 +1208,6 @@ All users are recommended to upgrade to Apache Ant 1.10.18, which fixes this iss
 <div class="meta"><span class="pill">CVSS 7.4</span>  <span class="pill">EPSS 0.5%</span> <span class="pill">Developer Tools &amp; Libraries</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-78254" rel="noopener">NVD record</a></div>
 </article>
 </main>
-<footer class="wrap foot">Generated 2026-10-20 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-10-24 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>

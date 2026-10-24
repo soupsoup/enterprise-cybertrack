@@ -23,7 +23,7 @@ This issue affects ADC: before 14.1-73.41, before 13.1-64.28, before 14.1-73.41 
 <category>Edge / VPN</category>
 <description>Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
 
-This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-27) | EPSS 1.1%</description>
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-27) | EPSS 4.7%</description>
 </item>
 <item>
 <title>CVE-2026-88772 Citrix netscaler application delivery controller: Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.</title>
@@ -33,7 +33,7 @@ This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 
 <category>Edge / VPN</category>
 <description>Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
 
-This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to Remote Code Execution or Denial of Service | CVSS 8.1 | Known exploited (CISA KEV, added 2026-09-27) | EPSS 1.3%</description>
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to Remote Code Execution or Denial of Service | CVSS 8.1 | Known exploited (CISA KEV, added 2026-09-27) | EPSS 5.3%</description>
 </item>
 <item>
 <title>CVE-2026-88773 Citrix netscaler application delivery controller: Inconsistent interpretation of HTTP requests (&apos;HTTP Request/Response smuggling&apos;) vulnerability in Citrix...</title>
@@ -43,7 +43,7 @@ This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 
 <category>Edge / VPN</category>
 <description>Inconsistent interpretation of HTTP requests (&apos;HTTP Request/Response smuggling&apos;) vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
 
-This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1-37.279 and NDcPP; Gateway: before 14.1-73.37 FIPS and before 13.1-64.23. | CVSS 10 | EPSS 0.4%</description>
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1-37.279 and NDcPP; Gateway: before 14.1-73.37 FIPS and before 13.1-64.23. | CVSS 10 | EPSS 1.3%</description>
 </item>
 <item>
 <title>CVE-2026-88774 Citrix netscaler application delivery controller: Vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.</title>

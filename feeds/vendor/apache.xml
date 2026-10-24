@@ -50,6 +50,53 @@ Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix
 <description>The max_age authentication-freshness check in OidcClientCodeRequestFilter was inoperative due to a milliseconds/seconds unit mismatch and an inverted comparison polarity. Any relying party using setMaxAgeOffset to enforce re-authentication would silently accept sessions of any age, bypassing step-up authentication policies. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 9.1 | EPSS 0.4%</description>
 </item>
 <item>
+<title>CVE-2026-73179 Apache cxf: Improper enforcement of single-use authorization code semantics in the JPA OAuth2 authorization code grant...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73179</link>
+<guid isPermaLink="false">CVE-2026-73179</guid>
+<pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Improper enforcement of single-use authorization code semantics in the JPA OAuth2 authorization code grant provider in Apache CXFallows a remote attacker to obtain multiple valid access tokens from a single authorization code via concurrent token exchange requests that race the non-atomic find-then-delete operation against a shared relational database under READ_COMMITTED isolation. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fixes this issue. | CVSS 8.1 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-78384 Apache cxf: CompressionUtils.inflate() decompressed attacker-controlled DEFLATE data with no output-size cap.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-78384</link>
+<guid isPermaLink="false">CVE-2026-78384</guid>
+<pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>CompressionUtils.inflate() decompressed attacker-controlled DEFLATE data with no output-size cap. A small (~KB) crafted payload could expand to gigabytes on the heap. Reachable via JWE decryption when zip=DEF (e.g. JoseSessionTokenProvider with RSA-OAEP key wrap) and via SAML redirect/POST binding token inflation — in both cases decompression happens before/independent of trust validation.
+
+Fix: Added a configurable maximum inflated-size cap (default 10 MiB, org.apache.cxf.compression-max-inflated-size system property) to CompressionUtils.inflate(); aborts with DataFormatException once exceeded.
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-86463 Apache cxf: Apache CXF&apos;s FIQL query parser has a vulnerability in how it searches for operators in query expressions.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-86463</link>
+<guid isPermaLink="false">CVE-2026-86463</guid>
+<pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Apache CXF&apos;s FIQL query parser has a vulnerability in how it searches for operators in query expressions. The search pattern can get stuck trying many combinations when it encounters a long string without an operator, causing the parser to consume excessive CPU time. An attacker can send a crafted query to make the server use up CPU resources, potentially slowing down or stopping other requests. The fix was to limit FIQL expressions to 4 KiB by default, preventing attackers from sending extremely long inputs while still allowing normal queries.
+
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-97468 Apache cxf: Apache CXF&apos;s STSTokenValidator and Security Token Service (STS) cached validated security tokens under a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97468</link>
+<guid isPermaLink="false">CVE-2026-97468</guid>
+<pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Apache CXF&apos;s STSTokenValidator and Security Token Service (STS) cached validated security tokens under a non-cryptographic 32-bit hash of the token (Java Arrays.hashCode/hashCode()), and treated a cache hit as proof that the presented token had already been validated. An attacker could craft a token (for example a UsernameToken or a self-signed SAML Assertion) whose hash collides with a cached entry. The token would then be accepted without password validation, signature trust verification or a call to the STS. This could let the attacker authenticate as another user and, through STS token validation or renewal, obtain STS-signed tokens for that identity.
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 9.1 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-97791 Apache cxf: In Apache CXF, STSTokenValidator checks whether a SAML assertion is signed by a trusted certificate before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97791</link>
+<guid isPermaLink="false">CVE-2026-97791</guid>
+<pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>In Apache CXF, STSTokenValidator checks whether a SAML assertion is signed by a trusted certificate before deciding to send it to the STS. That result was stored in one object shared by all requests, so one request could read another&apos;s result. A remote, unauthenticated attacker could send a forged assertion signed with an untrusted certificate while legitimate requests were being processed, and it could be accepted as trusted without ever reaching the STS. Only services that use STSTokenValidator to validate SAML tokens without alwaysValidateToSts set are affected. 
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
 <title>CVE-2026-92414 Apache jackrabbit: : Session Fixation / Session Reuse across Users vulnerability in Apache Jackrabbit.</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-92414</link>
 <guid isPermaLink="false">CVE-2026-92414</guid>
@@ -191,7 +238,7 @@ This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | E
 
 
 
-This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 7.5 | EPSS 0.6%</description>
+This issue affects Apache HTTP Server version 2.4.68. | CVSS 7.5 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-57941 Apache http server: Use After Free vulnerability in Apache HTTP Server&apos;s mod_http2 via shared session-&gt;bbtmp re-entrancy
