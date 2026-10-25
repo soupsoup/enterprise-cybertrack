@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-24T09:36:25.432Z",
+ "generated": "2026-10-25T09:52:07.635Z",
  "cves": [
   {
    "id": "CVE-2026-109618",
@@ -135,7 +135,7 @@
      "version": "11.1.13"
     }
    ],
-   "epss": 0.1162
+   "epss": 0.11841
   },
   {
    "id": "CVE-2026-109619",
@@ -271,7 +271,7 @@
      "version": "11.1.13"
     }
    ],
-   "epss": 0.05991
+   "epss": 0.06217
   },
   {
    "id": "CVE-2026-113011",
@@ -310,7 +310,7 @@
    "title": "Use after free in Network in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...",
    "summary": "Use after free in Network in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00359
+   "epss": 0.00406
   },
   {
    "id": "CVE-2026-113134",
@@ -323,7 +323,7 @@
    "title": "Memory corruption in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...",
    "summary": "Memory corruption in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00359
+   "epss": 0.00406
   },
   {
    "id": "CVE-2026-113210",
@@ -336,7 +336,7 @@
    "title": "Use after free in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...",
    "summary": "Use after free in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00392
+   "epss": 0.00443
   },
   {
    "id": "CVE-2026-113242",
@@ -433,7 +433,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00282
+   "epss": 0.00304
   },
   {
    "id": "CVE-2026-91635",
@@ -452,7 +452,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00255
+   "epss": 0.00253
   },
   {
    "id": "CVE-2026-91636",
@@ -471,7 +471,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00371
+   "epss": 0.00393
   },
   {
    "id": "CVE-2026-91637",
@@ -490,7 +490,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00286
+   "epss": 0.00262
   },
   {
    "id": "CVE-2026-91638",
@@ -509,7 +509,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.0035
   },
   {
    "id": "CVE-2026-91639",
@@ -528,7 +528,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00371
+   "epss": 0.00393
   },
   {
    "id": "CVE-2026-91642",
@@ -547,7 +547,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00241
+   "epss": 0.00251
   },
   {
    "id": "CVE-2026-91644",
@@ -566,7 +566,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00218
+   "epss": 0.00233
   },
   {
    "id": "CVE-2026-91647",
@@ -585,7 +585,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00255
+   "epss": 0.00253
   },
   {
    "id": "CVE-2026-91651",
@@ -604,7 +604,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.003
+   "epss": 0.00271
   },
   {
    "id": "CVE-2026-91653",
@@ -623,7 +623,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00195
+   "epss": 0.0021
   },
   {
    "id": "CVE-2026-91655",
@@ -642,7 +642,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00208
+   "epss": 0.00225
   },
   {
    "id": "CVE-2026-91656",
@@ -661,7 +661,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00208
+   "epss": 0.00225
   },
   {
    "id": "CVE-2026-91658",
@@ -680,7 +680,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00286
+   "epss": 0.00262
   },
   {
    "id": "CVE-2026-91659",
@@ -699,7 +699,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00228
+   "epss": 0.00246
   },
   {
    "id": "CVE-2026-91661",
@@ -718,7 +718,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.003
+   "epss": 0.00318
   },
   {
    "id": "CVE-2026-91663",
@@ -737,7 +737,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00286
+   "epss": 0.00262
   },
   {
    "id": "CVE-2026-91664",
@@ -756,7 +756,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00274
+   "epss": 0.00286
   },
   {
    "id": "CVE-2026-91665",
@@ -10393,7 +10393,7 @@
    "title": "Double free in Windows Kerberos allows an authorized attacker to elevate privileges locally.",
    "summary": "Double free in Windows Kerberos allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00252
+   "epss": 0.00246
   },
   {
    "id": "CVE-2026-108135",
@@ -10406,7 +10406,7 @@
    "title": "Improper link resolution before file access ('link following') in Windows Backup Engine allows an authorized...",
    "summary": "Improper link resolution before file access ('link following') in Windows Backup Engine allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.0027
+   "epss": 0.00264
   },
   {
    "id": "CVE-2026-108136",
@@ -10419,7 +10419,7 @@
    "title": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges...",
    "summary": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00318
+   "epss": 0.00311
   },
   {
    "id": "CVE-2026-108396",
@@ -10432,7 +10432,7 @@
    "title": "Time-of-check time-of-use (toctou) race condition in Windows Modern Device Management (MDM) allows an...",
    "summary": "Time-of-check time-of-use (toctou) race condition in Windows Modern Device Management (MDM) allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00193
+   "epss": 0.00188
   },
   {
    "id": "CVE-2026-68836",
@@ -10445,7 +10445,7 @@
    "title": "Heap-based buffer overflow in Windows kernel32.dll allows an authorized attacker to elevate privileges...",
    "summary": "Heap-based buffer overflow in Windows kernel32.dll allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00341
+   "epss": 0.00333
   },
   {
    "id": "CVE-2026-69326",
@@ -10458,7 +10458,7 @@
    "title": "Heap-based buffer overflow in Graphic Fonts allows an unauthorized attacker to execute code over a network.",
    "summary": "Heap-based buffer overflow in Graphic Fonts allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00639
+   "epss": 0.00625
   },
   {
    "id": "CVE-2026-69354",
@@ -10471,7 +10471,7 @@
    "title": "Heap-based buffer overflow in Windows Error Reporting allows an authorized attacker to elevate privileges...",
    "summary": "Heap-based buffer overflow in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00341
+   "epss": 0.00333
   },
   {
    "id": "CVE-2026-69363",
@@ -10497,7 +10497,7 @@
    "title": "Use after free in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.0027
+   "epss": 0.00264
   },
   {
    "id": "CVE-2026-69452",
@@ -10523,7 +10523,7 @@
    "title": "Heap-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00341
+   "epss": 0.00333
   },
   {
    "id": "CVE-2026-69521",
@@ -10536,7 +10536,7 @@
    "title": "Integer overflow or wraparound in Windows iSCSI allows an unauthorized attacker to execute code over a...",
    "summary": "Integer overflow or wraparound in Windows iSCSI allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00664
+   "epss": 0.0065
   },
   {
    "id": "CVE-2026-69673",
@@ -10549,7 +10549,7 @@
    "title": "Improper link resolution before file access ('link following') in Windows Update allows an authorized...",
    "summary": "Improper link resolution before file access ('link following') in Windows Update allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00457
+   "epss": 0.00446
   },
   {
    "id": "CVE-2026-69718",
@@ -10562,7 +10562,7 @@
    "title": "Improper neutralization of special elements used in a command ('command injection') in Windows Update allows...",
    "summary": "Improper neutralization of special elements used in a command ('command injection') in Windows Update allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00963
+   "epss": 0.00389
   },
   {
    "id": "CVE-2026-69733",
@@ -10575,7 +10575,7 @@
    "title": "Untrusted search path in Windows Update allows an authorized attacker to elevate privileges locally.",
    "summary": "Untrusted search path in Windows Update allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00439
+   "epss": 0.00551
   },
   {
    "id": "CVE-2026-70092",
@@ -11030,7 +11030,7 @@
    "title": "Use after free in Windows Network Load Balancing allows an unauthorized attacker to execute code over an...",
    "summary": "Use after free in Windows Network Load Balancing allows an unauthorized attacker to execute code over an adjacent network.",
    "affects": [],
-   "epss": 0.00634
+   "epss": 0.00325
   },
   {
    "id": "CVE-2026-83866",
@@ -13928,7 +13928,7 @@
    "published": "2026-09-27",
    "title": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
    "summary": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
-   "epss": 0.04722,
+   "epss": 0.05108,
    "kevAdded": "2026-09-27",
    "affects": [
     {
@@ -14750,7 +14750,7 @@
    "title": "On Windows, PHP's filesystem and stream APIs do not reject reserved device names such as CON, PRN, AUX, NUL,...",
    "summary": "On Windows, PHP's filesystem and stream APIs do not reject reserved device names such as CON, PRN, AUX, NUL, COM1 to COM9, LPT1 to LPT9, CONIN$ and CONOUT$ when they appear as a component of a path. An attacker-controlled filename therefore reaches CreateFileW() and opens a device instead of the regular file the application expected, which can block or hang the request and exhaust worker processes.",
    "affects": [],
-   "epss": 0.00322
+   "epss": 0.00368
   },
   {
    "id": "CVE-2026-89078",
@@ -17054,7 +17054,7 @@
    "published": "2026-09-16",
    "title": "A vulnerability in an API of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote...",
    "summary": "A vulnerability in an API of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to bypass authentication.\r\n\r\nThis vulnerability is due to insufficient authentication control on an API endpoint. An attacker could exploit this vulnerability by sending a crafted request to an affected API endpoint. A successful exploit could allow the attacker to gain unauthorized access to the affected device by bypassing the web-based management interface.",
-   "epss": 0.14026,
+   "epss": 0.66643,
    "kevAdded": "2026-09-16",
    "affects": [
     {

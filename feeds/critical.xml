@@ -11,7 +11,7 @@
 <guid isPermaLink="false">CVE-2026-109618</guid>
 <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
 <category>Edge / VPN</category>
-<description>PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE). | CVSS 9.8 | EPSS 11.6%</description>
+<description>PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE). | CVSS 9.8 | EPSS 11.8%</description>
 </item>
 <item>
 <title>CVE-2026-113252 Microsoft windows: Improper input validation in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
@@ -670,7 +670,7 @@ The same applies to jms:* shell commands. | CVSS 9.8 | EPSS 0.5%</description>
 <category>Edge / VPN</category>
 <description>Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
 
-This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-27) | EPSS 4.7%</description>
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-27) | EPSS 5.1%</description>
 </item>
 <item>
 <title>CVE-2026-88773 Citrix netscaler application delivery controller: Inconsistent interpretation of HTTP requests (&apos;HTTP Request/Response smuggling&apos;) vulnerability in Citrix...</title>

@@ -21,14 +21,14 @@
 <h2><a href="../../#cve=CVE-2026-109618">CVE-2026-109618: PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the...</a></h2>
 <p class="who">Palo Alto Networks pan-os</p>
 <p>PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE).</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 11.6%</span> <span class="pill">Edge / VPN</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-109618" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 11.8%</span> <span class="pill">Edge / VPN</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-109618" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-10-21">October 21, 2026</time>
 <h2><a href="../../#cve=CVE-2026-109619">CVE-2026-109619: PHP has various global state that temporarily points into request memory.</a></h2>
 <p class="who">Palo Alto Networks pan-os</p>
 <p>PHP has various global state that temporarily points into request memory. In some scenarios, global state may not be correctly reset, or may be repopulated after being reset. The global state may then refer to request memory even after it has been freed. Subsequent requests may read or branch on this stale state before it is fully initialized. Multiple strategies can trigger this condition and produce remote code execution (RCE).</p>
-<div class="meta"><span class="pill">CVSS 8.1</span>  <span class="pill">EPSS 6.0%</span> <span class="pill">Edge / VPN</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-109619" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 8.1</span>  <span class="pill">EPSS 6.2%</span> <span class="pill">Edge / VPN</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-109619" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-10-14">October 14, 2026</time>
@@ -50,6 +50,6 @@ Cloud NGFW and Prisma® Access are not impacted by this vulnerability.</p>
 <div class="meta"><span class="pill">CVSS 7.2</span> <span class="pill kev">Known exploited 2026-10-14</span> <span class="pill">EPSS 1.2%</span> <span class="pill">Edge / VPN</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-0322" rel="noopener">NVD record</a></div>
 </article>
 </main>
-<footer class="wrap foot">Generated 2026-10-24 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-10-25 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>

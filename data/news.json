@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-24T09:36:25.513Z",
+ "generated": "2026-10-25T09:52:07.720Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 20
   },
   {
@@ -78,7 +78,7 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 5049
   },
   {
@@ -86,7 +86,7 @@
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,7 +224,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 707
   },
   {
@@ -232,11 +232,27 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-24T09:36:25.513Z",
+   "checked": "2026-10-25T09:52:07.720Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "paloalto",
+   "feed": "Security advisories",
+   "title": "CVE-2026-109618 Impact of Critical Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Palo Alto Networks Products (Severity: HIGH)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-109618",
+   "date": "2026-10-25T05:25:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+   "date": "2026-10-24T20:55:18.000Z",
+   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due..."
+  },
   {
    "company": "fortinet",
    "feed": "Threat signals",
@@ -260,14 +276,6 @@
    "link": "https://fortiguard.fortinet.com/threat-signal-report/5997",
    "date": "2026-10-24T01:44:52.000Z",
    "summary": "What is the Attack? Trimble Cityworks contains a deserialization vulnerability. This could allow an authenticated user to perform a remote code execution attack against a customer's Microsoft Internet Information Services (IIS) web server, potentially resulting in downtime and..."
-  },
-  {
-   "company": "paloalto",
-   "feed": "Security advisories",
-   "title": "CVE-2026-109618 Impact of Critical Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Palo Alto Networks Products (Severity: HIGH)",
-   "link": "https://security.paloaltonetworks.com/CVE-2026-109618",
-   "date": "2026-10-24T00:01:00.000Z",
-   "summary": ""
   },
   {
    "company": "talos",
@@ -300,14 +308,6 @@
    "link": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-43-8",
    "date": "2026-10-23T17:18:43.000Z",
    "summary": "U.S. courts sentence tax fraudster, Chinese-linked actors use agentic AI in cloud supply chain attack, and PHP issues warning of two critical-level RCE flaws."
-  },
-  {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-   "date": "2026-10-23T16:00:00.000Z",
-   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due..."
   },
   {
    "company": "rapid7",
@@ -584,22 +584,6 @@
   {
    "company": "trendai",
    "feed": "Security blog",
-   "title": "Earth Sirrush: A Russia-Aligned Intrusion Set With 4 Years of Evolving Espionage Tooling",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/earth-sirrush-russia-aligned-intrusion-set-4-years-evolving-espionage-tooling",
-   "date": "2026-10-22T00:00:00.000Z",
-   "summary": "Earth Sirrush has repeatedly changed its tools and delivery methods, but TrendAI™ Research reveals how shared code, reused artifacts, and infrastructure patterns continue to expose the links between its campaigns."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "AI and the Evolving Threat Landscape: What Public Sector CISOs Need to Know Now",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/ai-evolving-threat-landscape-what-public-sector-cisos-need-to-know-now",
-   "date": "2026-10-22T00:00:00.000Z",
-   "summary": "Public sector CISOs need to grapple with challenges brought about by AI threats: up to 3,600 AI CVEs in 2026, autonomous ransomware, and critical infrastructure risk."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
    "title": "eMudhra CA Compromise: Weak Keys and Forged Certificates",
    "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/eight-compromised-emudhra-ca-keys-what-happened-and-what-organizations-should-do-now",
    "date": "2026-10-22T00:00:00.000Z",
@@ -612,6 +596,22 @@
    "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/what-a-week-for-cisos-php-emudhra-and-the-questions-your-board-will-ask",
    "date": "2026-10-22T00:00:00.000Z",
    "summary": "Two critical PHP flaws leaked before patches shipped, and the same day Mozilla disclosed weak eMudhra certificate authority keys. In this post, TrendAI™ Global CISO Sundari Parekh gives security leaders a practical playbook."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Earth Sirrush: A Russia-Aligned Intrusion Set With 4 Years of Evolving Espionage Tooling",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/earth-sirrush-russia-aligned-intrusion-set-4-years-evolving-espionage-tooling",
+   "date": "2026-10-22T00:00:00.000Z",
+   "summary": "Earth Sirrush has repeatedly changed its tools and delivery methods, but TrendAI™ Research reveals how shared code, reused artifacts, and infrastructure patterns continue to expose the links between its campaigns."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "AI and the Evolving Threat Landscape: What Public Sector CISOs Need to Know Now",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/ai-evolving-threat-landscape-what-public-sector-cisos-need-to-know-now",
+   "date": "2026-10-22T00:00:00.000Z",
+   "summary": "Public sector CISOs need to grapple with challenges brought about by AI threats: up to 3,600 AI CVEs in 2026, autonomous ransomware, and critical infrastructure risk."
   },
   {
    "company": "zscaler",
@@ -814,6 +814,14 @@
    "summary": "In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability."
   },
   {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "The Science of Exploitability: Decoding BlueHammer",
+   "link": "https://blog.qualys.com/product-tech/2026/10/21/bluehammer-cve-2026-33825-windows-defender-privilege-escalation",
+   "date": "2026-10-21T13:00:00.000Z",
+   "summary": "Executive Summary BlueHammer (CVE-2026-33825) is an eight-stage local privilege-escalation chain targeting the Windows Defender Antimalware Platform before 4.18.26030.3011. It does not grant initial access; an attacker needs standard-user code execution first. Still, in the lab,..."
+  },
+  {
    "company": "rapid7",
    "feed": "Blog",
    "title": "Q3 2026 Threat Update: Attackers Are Exploiting Vulnerabilities Within 3 Days",
@@ -828,14 +836,6 @@
    "link": "https://www.tenable.com/blog/how-tenable-brought-multi-language-support-to-security-detectors-with-agentic-translation",
    "date": "2026-10-21T13:00:00.000Z",
    "summary": "AI security tools that can only detect threats in English offer limited protection. Here’s how Tenable trained our threat detectors to process nine additional languages and understand thousands more, without the need for a translation model, which increases costs and slows down..."
-  },
-  {
-   "company": "qualys",
-   "feed": "Blog",
-   "title": "The Science of Exploitability: Decoding BlueHammer",
-   "link": "https://blog.qualys.com/product-tech/2026/10/21/bluehammer-cve-2026-33825-windows-defender-privilege-escalation",
-   "date": "2026-10-21T13:00:00.000Z",
-   "summary": "Executive Summary BlueHammer (CVE-2026-33825) is an eight-stage local privilege-escalation chain targeting the Windows Defender Antimalware Platform before 4.18.26030.3011. It does not grant initial access; an attacker needs standard-user code execution first. Still, in the lab,..."
   },
   {
    "company": "paloalto",
@@ -1606,20 +1606,20 @@
    "summary": "Talos and Recorded Future identified UAT-6275 activity targeting government organizations across the Commonwealth of Independent States. Recovered artifacts show additional interest in water resources and energy."
   },
   {
-   "company": "rapid7",
-   "feed": "Blog",
-   "title": "From One Account to Every Mailbox: Breaking Zimbra's Identity Boundaries (Part 1)",
-   "link": "https://www.rapid7.com/blog/post/ve-breaking-zimbra-identity-boundaries-part-1",
-   "date": "2026-10-14T13:00:00.000Z",
-   "summary": "An enterprise mail server authenticates users, stores private communications, delivers recovery links, runs calendars, and sends mail that employees and other systems trust. Compromising it can therefore expose both email and the identities and workflows built around it. During..."
-  },
-  {
    "company": "microsoft",
    "feed": "Security blog",
    "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
    "date": "2026-10-14T13:00:00.000Z",
    "summary": "Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law..."
+  },
+  {
+   "company": "rapid7",
+   "feed": "Blog",
+   "title": "From One Account to Every Mailbox: Breaking Zimbra's Identity Boundaries (Part 1)",
+   "link": "https://www.rapid7.com/blog/post/ve-breaking-zimbra-identity-boundaries-part-1",
+   "date": "2026-10-14T13:00:00.000Z",
+   "summary": "An enterprise mail server authenticates users, stores private communications, delivers recovery links, runs calendars, and sends mail that employees and other systems trust. Compromising it can therefore expose both email and the identities and workflows built around it. During..."
   },
   {
    "company": "rapid7",
@@ -2126,14 +2126,6 @@
    "summary": "On October 7, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the advisories that are listed in the following tables. To remediate the vulnerabilities that were disclosed on October 7, 2026, Cisco strongly recommends that customers upgrade to the fixed..."
   },
   {
-   "company": "microsoft",
-   "feed": "Security blog",
-   "title": "3 lessons from frontier AI vulnerability research",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
-   "date": "2026-10-07T16:00:00.000Z",
-   "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog ."
-  },
-  {
    "company": "talos",
    "feed": "Security advisories",
    "title": "Cisco NX-OS Software Python Sandbox Escape Vulnerability",
@@ -2180,6 +2172,14 @@
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-ssm-Ph77wdhf?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20License%20(Smart%20Software%20Manager)%20On-Prem%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
    "date": "2026-10-07T16:00:00.000Z",
    "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the engineering team for Cisco License On-Prem, formerly Cisco Smart Software Manager On-Prem (SSM On-Prem), has conducted a comprehensive internal security review. This review resulted in software..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "3 lessons from frontier AI vulnerability research",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/07/3-lessons-from-frontier-ai-vulnerability-research/",
+   "date": "2026-10-07T16:00:00.000Z",
+   "summary": "Read how How Microsoft Security's FORGE Lab is scaling vulnerability research from Windows to the Linux kernel. The post 3 lessons from frontier AI vulnerability research appeared first on Microsoft Security Blog ."
   },
   {
    "company": "wiz",
@@ -2630,20 +2630,20 @@
    "summary": "Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure. The post ​​Beyond source code: A path to the keys to the kingdom appeared first on Microsoft..."
   },
   {
-   "company": "microsoft",
-   "feed": "Security blog",
-   "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
-   "date": "2026-09-29T15:00:00.000Z",
-   "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as..."
-  },
-  {
    "company": "qualys",
    "feed": "Blog",
    "title": "Autonomous Remediation Is Already Running at Enterprise Scale",
    "link": "https://blog.qualys.com/qualys-insights/2026/09/29/autonomous-remediation-enterprise-scale-black-hat-2026-sumedh-thakar",
    "date": "2026-09-29T15:00:00.000Z",
    "summary": "The following is a guest blog by ITSPmagazine, based on their interview of Qualys President & CEO Sumedh Thakar at Black Hat USA 2026. Sumedh Thakar has watched the same clock compress for 23 years. He joined Qualys as an early software engineer on the scanner, when..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
+   "date": "2026-09-29T15:00:00.000Z",
+   "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as..."
   },
   {
    "company": "google",
@@ -2742,20 +2742,20 @@
    "summary": "This article was first published on LinkedIn."
   },
   {
-   "company": "microsoft",
-   "feed": "Security blog",
-   "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
-   "date": "2026-09-28T15:00:00.000Z",
-   "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post..."
-  },
-  {
    "company": "qualys",
    "feed": "Blog",
    "title": "The Developer is the New Perimeter: How Supply Chain Attacks Are Becoming Cloud Breaches",
    "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/09/28/developer-new-perimeter-supply-chain-cloud-breaches",
    "date": "2026-09-28T15:00:00.000Z",
    "summary": "A routine package install can open the door to a cloud breach. Learn how attackers exploit developer credentials. Discover practical steps to contain exposure and protect your cloud environment."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
+   "date": "2026-09-28T15:00:00.000Z",
+   "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post..."
   },
   {
    "company": "checkpoint",
