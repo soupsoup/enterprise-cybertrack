@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-25T09:52:07.720Z",
+ "generated": "2026-10-26T11:15:49.166Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 20
   },
   {
@@ -78,7 +78,7 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 5049
   },
   {
@@ -86,7 +86,7 @@
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,26 +224,106 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
-   "count": 707
+   "checked": "2026-10-26T11:15:49.166Z",
+   "count": 709
   },
   {
    "company": "zscaler",
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-25T09:52:07.720Z",
+   "checked": "2026-10-26T11:15:49.166Z",
    "count": 50
   }
  ],
  "items": [
   {
+   "company": "proofpoint",
+   "feed": "Blog",
+   "title": "Proofpoint Joins Microsoft Integrated Cloud Email Security (ICES) Ecosystem",
+   "link": "https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-joins-microsoft-integrated-cloud-email-security-ices-ecosystem",
+   "date": "2026-10-26T16:14:47.000Z",
+   "summary": ""
+  },
+  {
    "company": "paloalto",
    "feed": "Security advisories",
    "title": "CVE-2026-109618 Impact of Critical Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Palo Alto Networks Products (Severity: HIGH)",
    "link": "https://security.paloaltonetworks.com/CVE-2026-109618",
-   "date": "2026-10-25T05:25:00.000Z",
+   "date": "2026-10-26T05:45:00.000Z",
    "summary": ""
+  },
+  {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "Can’t Patch PHP2Shell Yet? Build a Stopgap with the Controls You Own",
+   "link": "https://blog.qualys.com/product-tech/2026/10/25/cant-patch-php2shell-yet-build-a-stopgap-with-the-controls-you-own",
+   "date": "2026-10-26T04:31:11.000Z",
+   "summary": "Executive Summary PHP2Shell’s fix is to update PHP, but patching at scale is slow. Only 199,000 of 156 million PHP installations were patched in the first 12 hours after disclosure. In the meantime, Qualys’s configuration-level mitigation reduces exposure to the confirmed attack..."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Two Critical PHP Flaws Leaked Before the Patch: What Organizations Should Do Now",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/two-critical-php-flaws-leaked-before-the-patch-what-organizations-should-do-now",
+   "date": "2026-10-26T00:00:00.000Z",
+   "summary": "On 20 October at 15:20 UTC, a Hacker News post leaked details of two critical PHP vulnerabilities that could allow remote code execution. The post was removed, but screenshots circulated on X and Mastodon."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "eMudhra CA Compromise: Weak Keys and Forged Certificates",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/eight-compromised-emudhra-ca-keys-what-happened-and-what-organizations-should-do-now",
+   "date": "2026-10-26T00:00:00.000Z",
+   "summary": "Eight eMudhra intermediate CA keys were compromised, some as weak as 3 bits. Learn the code-signing risk and the steps to hunt for misuse and close the gap from TrendAI™."
+  },
+  {
+   "company": "wiz",
+   "feed": "Blog",
+   "title": "Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles",
+   "link": "https://www.wiz.io/blog/gheist-attempted-scaled-abuse-of-stolen-github-tokens-stumbles",
+   "date": "2026-10-25T17:55:33.000Z",
+   "summary": "An automated campaign is planting secret-dumping workflows in every repository that stolen GitHub tokens can reach. It uses no C2 server, is actively evolving, and has been significantly disrupted by recent GitHub security improvements."
+  },
+  {
+   "company": "wiz",
+   "feed": "Blog",
+   "title": "Broccoli2shell: Everything You Need To Know About The Critical Brotli Decoder Vulnerability",
+   "link": "https://www.wiz.io/blog/cve-2026-111497-brotli-rce-node-js",
+   "date": "2026-10-25T14:46:53.000Z",
+   "summary": "Detect and mitigate CVE-2026-111497, a critical Brotli decoder vulnerability enables remote code execution."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-70197 .NET and Visual Studio Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70197",
+   "date": "2026-10-25T14:00:00.000Z",
+   "summary": "Updated product information in the Software Update table. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-102870 ASP.NET Core Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102870",
+   "date": "2026-10-25T14:00:00.000Z",
+   "summary": "Updated product information in the Software Update table. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-114148 ASP.NET Core Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114148",
+   "date": "2026-10-25T14:00:00.000Z",
+   "summary": "Incorrect default permissions in ASP.NET Core allows an authorized attacker to elevate privileges locally."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-111497 Google: CVE-2026-111497 Buffer overflow vulnerability in the Brotli decoder",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497",
+   "date": "2026-10-25T14:00:00.000Z",
+   "summary": "Out-of-bounds write in .NET allows an unauthorized attacker to elevate privileges over a network."
   },
   {
    "company": "talos",
@@ -288,10 +368,10 @@
   {
    "company": "paloalto",
    "feed": "Unit 42 research",
-   "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 23)",
+   "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
    "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
    "date": "2026-10-23T19:00:34.000Z",
-   "summary": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 23) appeared first on Unit 42 ."
+   "summary": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25) appeared first on Unit 42 ."
   },
   {
    "company": "microsoft",
@@ -392,10 +472,26 @@
   {
    "company": "trendai",
    "feed": "Security blog",
-   "title": "Two Critical PHP Flaws Leaked Before the Patch: What Organizations Should Do Now",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/two-critical-php-flaws-leaked-before-the-patch-what-organizations-should-do-now",
+   "title": "What a Week for CISOs: PHP, eMudhra, and the Questions Your Board Will Ask",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/what-a-week-for-cisos-php-emudhra-and-the-questions-your-board-will-ask",
    "date": "2026-10-23T00:00:00.000Z",
-   "summary": "On 20 October at 15:20 UTC, a Hacker News post leaked details of two critical PHP vulnerabilities that could allow remote code execution. The post was removed, but screenshots circulated on X and Mastodon."
+   "summary": "Two critical PHP flaws leaked before patches shipped, and the same day Mozilla disclosed weak eMudhra certificate authority keys. In this post, TrendAI™ Global CISO Sundari Parekh gives security leaders a practical playbook."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Earth Sirrush: A Russia-Aligned Intrusion Set With 4 Years of Evolving Espionage Tooling",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/earth-sirrush-russia-aligned-intrusion-set-4-years-evolving-espionage-tooling",
+   "date": "2026-10-23T00:00:00.000Z",
+   "summary": "Earth Sirrush has repeatedly changed its tools and delivery methods, but TrendAI™ Research reveals how shared code, reused artifacts, and infrastructure patterns continue to expose the links between its campaigns."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "AI and the Evolving Threat Landscape: What Public Sector CISOs Need to Know Now",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/ai-evolving-threat-landscape-what-public-sector-cisos-need-to-know-now",
+   "date": "2026-10-23T00:00:00.000Z",
+   "summary": "Public sector CISOs need to grapple with challenges brought about by AI threats: up to 3,600 AI CVEs in 2026, autonomous ransomware, and critical infrastructure risk."
   },
   {
    "company": "wiz",
@@ -580,38 +676,6 @@
    "link": "https://www.welivesecurity.com/en/eset-research/mythicratatoskr-yggdrasil-enabled-backdoor-deployed-uac0099-sandworm-collaboration/",
    "date": "2026-10-22T08:45:00.000Z",
    "summary": "ESET researchers uncover MythicRatatoskr – a previously unknown Go-based backdoor hiding its C&C server inside the Yggdrasil mesh network – that paved the way for a destructive attack against a Ukrainian grain firm"
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "eMudhra CA Compromise: Weak Keys and Forged Certificates",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/eight-compromised-emudhra-ca-keys-what-happened-and-what-organizations-should-do-now",
-   "date": "2026-10-22T00:00:00.000Z",
-   "summary": "Eight eMudhra intermediate CA keys were compromised, some as weak as 3 bits. Learn the code-signing risk and the steps to hunt for misuse and close the gap from TrendAI™."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "What a Week for CISOs: PHP, eMudhra, and the Questions Your Board Will Ask",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/what-a-week-for-cisos-php-emudhra-and-the-questions-your-board-will-ask",
-   "date": "2026-10-22T00:00:00.000Z",
-   "summary": "Two critical PHP flaws leaked before patches shipped, and the same day Mozilla disclosed weak eMudhra certificate authority keys. In this post, TrendAI™ Global CISO Sundari Parekh gives security leaders a practical playbook."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "Earth Sirrush: A Russia-Aligned Intrusion Set With 4 Years of Evolving Espionage Tooling",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/earth-sirrush-russia-aligned-intrusion-set-4-years-evolving-espionage-tooling",
-   "date": "2026-10-22T00:00:00.000Z",
-   "summary": "Earth Sirrush has repeatedly changed its tools and delivery methods, but TrendAI™ Research reveals how shared code, reused artifacts, and infrastructure patterns continue to expose the links between its campaigns."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "AI and the Evolving Threat Landscape: What Public Sector CISOs Need to Know Now",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/ai-evolving-threat-landscape-what-public-sector-cisos-need-to-know-now",
-   "date": "2026-10-22T00:00:00.000Z",
-   "summary": "Public sector CISOs need to grapple with challenges brought about by AI threats: up to 3,600 AI CVEs in 2026, autonomous ransomware, and critical infrastructure risk."
   },
   {
    "company": "zscaler",
@@ -1134,14 +1198,6 @@
    "summary": "Updated the Security Updates table to list Microsoft Identity Web v3 and v4 separately and clarify the affected version ranges. The existing security updates are versions 3.16.0 and 4.16.1, respectively. This is an informational change only."
   },
   {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-70197 .NET Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70197",
-   "date": "2026-10-19T14:00:00.000Z",
-   "summary": "Microsoft is aware that the vulnerability for which this CVE was assigned has not been addressed. We are working to prepare and test a complete mitigation. We will update this document when there is more information."
-  },
-  {
    "company": "tenable",
    "feed": "Blog",
    "title": "Unmasking the robots: Why it’s critical to discover AI agent identities and how Tenable helps you secure them",
@@ -1314,30 +1370,6 @@
    "feed": "Security advisories",
    "title": "Chromium CVE-2026-106264: Missing authorization",
    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106264",
-   "date": "2026-10-16T14:00:00.000Z",
-   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium CVE-2026-106268: Use after free",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106268",
-   "date": "2026-10-16T14:00:00.000Z",
-   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium CVE-2026-106270: Incorrect authorization",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106270",
-   "date": "2026-10-16T14:00:00.000Z",
-   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium CVE-2026-106271: Missing authorization",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-106271",
    "date": "2026-10-16T14:00:00.000Z",
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
   },
@@ -4164,22 +4196,6 @@
    "link": "https://www.tenable.com/blog/why-a-cryptographic-inventory-is-key-for-addressing-the-quantum-computing-threat",
    "date": "2026-08-28T14:01:00.000Z",
    "summary": "When quantum computers become generally available, they’ll be able to crack current public-key cryptographic algorithms, putting digitally stored and transmitted data at risk. But the threat already exists, as attackers use the \"harvest now, decrypt later\" tactic. Discover why..."
-  },
-  {
-   "company": "wiz",
-   "feed": "Blog",
-   "title": "Inside 90 days of attacks on AI infrastructure",
-   "link": "https://www.wiz.io/blog/ai-infrastructure-honeypot",
-   "date": "2026-08-27T16:33:16.000Z",
-   "summary": "Wiz honeypots uncover active campaigns targeting LiteLLM, MCP servers, and AI frameworks through RCE, blind prompt injection, and memory credential theft."
-  },
-  {
-   "company": "wiz",
-   "feed": "Blog",
-   "title": "From Concept to Context Engine: How Wiz Built AI-Powered Data Discovery",
-   "link": "https://www.wiz.io/blog/bucket-scanner-to-context-engine",
-   "date": "2026-08-27T15:52:01.000Z",
-   "summary": "Inside the multi-agent pipeline and feedback loops that turned a bucket scanner into a context engine."
   },
   {
    "company": "tenable",

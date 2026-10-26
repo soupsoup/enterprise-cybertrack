@@ -11,7 +11,7 @@
 <guid isPermaLink="false">CVE-2026-104286</guid>
 <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
 <category>Email &amp; Collaboration</category>
-<description>An improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2.0 through 7.2.9 may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-01) | EPSS 2.2%</description>
+<description>An improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2.0 through 7.2.9 may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-01) | EPSS 4.6%</description>
 </item>
 </channel>
 </rss>

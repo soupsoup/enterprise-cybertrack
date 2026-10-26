@@ -21,7 +21,7 @@
 <category>File Transfer</category>
 <description>Incorrect Permission Assignment for Critical Resource vulnerability in Progress MOVEit Transfer.
 
-This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 8.8 | EPSS 0.1%</description>
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 8.8 | EPSS 0.2%</description>
 </item>
 <item>
 <title>CVE-2026-89067 Progress moveit transfer: Authentication bypass using an alternate path or channel vulnerability in Progress MOVEit Transfer.</title>
@@ -51,7 +51,7 @@ This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 202
 <category>File Transfer</category>
 <description>Improper neutralization of input during web page generation (&apos;cross-site scripting&apos;) vulnerability in Progress MOVEit Transfer (Ad Hoc module).
 
-This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 8 | EPSS 0.3%</description>
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 8 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-89070 Progress moveit transfer: Authentication bypass by capture-replay vulnerability in Progress MOVEit Transfer (OIDC module).</title>
@@ -91,7 +91,7 @@ This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 202
 <category>File Transfer</category>
 <description>Insufficient Session Expiration vulnerability in Progress MOVEit Transfer.
 
-This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 7.5 | EPSS 0.3%</description>
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 7.5 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-89074 Progress moveit transfer: Improper handling of unicode encoding vulnerability in Progress MOVEit Transfer.</title>
@@ -101,7 +101,7 @@ This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 202
 <category>File Transfer</category>
 <description>Improper handling of unicode encoding vulnerability in Progress MOVEit Transfer.
 
-This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 7.5 | EPSS 0.4%</description>
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 7.5 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-89075 Progress moveit transfer: Insecure Storage of Sensitive Information vulnerability in Progress MOVEit Transfer.</title>
@@ -131,7 +131,7 @@ This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 202
 <category>File Transfer</category>
 <description>Incorrect implementation of authentication algorithm vulnerability in Progress MOVEit Transfer (SFTP module).
 
-This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 7.5 | EPSS 0.4%</description>
+This issue affects MOVEit Transfer: before 2025.1.6 and from 2026.0.0 before 2026.0.4. | CVSS 7.5 | EPSS 0.5%</description>
 </item>
 </channel>
 </rss>

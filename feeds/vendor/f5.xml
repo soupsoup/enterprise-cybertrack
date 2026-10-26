@@ -19,7 +19,7 @@ This vulnerability allows an unauthenticated attacker to perform remote code exe
  
 
 
-Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-22) | EPSS 2.2%</description>
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-22) | EPSS 24.9%</description>
 </item>
 </channel>
 </rss>
