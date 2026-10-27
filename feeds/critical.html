@@ -21,7 +21,7 @@
 <h2><a href="../#cve=CVE-2026-109618">CVE-2026-109618: PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the...</a></h2>
 <p class="who">Palo Alto Networks pan-os</p>
 <p>PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE).</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 100.0%</span> <span class="pill">Edge / VPN</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-109618" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 9.8</span> <span class="pill kev">Known exploited 2026-10-26</span> <span class="pill">EPSS 100.0%</span> <span class="pill">Edge / VPN</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-109618" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-10-20">October 20, 2026</time>
@@ -381,6 +381,27 @@ This vulnerability is due to improper handling of email attachments when the fil
 <p class="who">Microsoft windows</p>
 <p>Heap-based buffer overflow in Windows Text Shaping allows an unauthorized attacker to execute code over a network.</p>
 <div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 1.0%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-102210" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-13">October 13, 2026</time>
+<h2><a href="../#cve=CVE-2026-105010">CVE-2026-105010: Use after free in Microsoft Windows Search Component allows an unauthorized attacker to elevate privileges...</a></h2>
+<p class="who">Microsoft windows</p>
+<p>Use after free in Microsoft Windows Search Component allows an unauthorized attacker to elevate privileges over a network.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 1.0%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-105010" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-13">October 13, 2026</time>
+<h2><a href="../#cve=CVE-2026-69634">CVE-2026-69634: Heap-based buffer overflow in Windows iSCSI allows an unauthorized attacker to execute code over a network.</a></h2>
+<p class="who">Microsoft windows</p>
+<p>Heap-based buffer overflow in Windows iSCSI allows an unauthorized attacker to execute code over a network.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 1.0%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-69634" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-13">October 13, 2026</time>
+<h2><a href="../#cve=CVE-2026-69639">CVE-2026-69639: Heap-based buffer overflow in Windows Libarchive allows an unauthorized attacker to execute code over a...</a></h2>
+<p class="who">Microsoft windows</p>
+<p>Heap-based buffer overflow in Windows Libarchive allows an unauthorized attacker to execute code over a network.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 1.0%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-69639" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-10-09">October 9, 2026</time>
@@ -797,28 +818,7 @@ Note: Software versions which have reached End of Technical Support (EoTS) are n
 <p>Adobe Campaign Classic (ACC) is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to internal resources. Exploitation of this issue does not require user interaction. Scope is changed.</p>
 <div class="meta"><span class="pill">CVSS 9.9</span>  <span class="pill">EPSS 0.8%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-82013" rel="noopener">NVD record</a></div>
 </article>
-<article>
-<time datetime="2026-09-22">September 22, 2026</time>
-<h2><a href="../#cve=CVE-2026-82443">CVE-2026-82443: Adobe Campaign Classic (ACC) is affected by a Server-Side Request Forgery (SSRF) vulnerability that could...</a></h2>
-<p class="who">Microsoft windows</p>
-<p>Adobe Campaign Classic (ACC) is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to internal resources. Exploitation of this issue does not require user interaction. Scope is changed.</p>
-<div class="meta"><span class="pill">CVSS 9.6</span>  <span class="pill">EPSS 0.8%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-82443" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-22">September 22, 2026</time>
-<h2><a href="../#cve=CVE-2026-83660">CVE-2026-83660: Adobe Campaign Classic (ACC) is affected by a Server-Side Request Forgery (SSRF) vulnerability that could...</a></h2>
-<p class="who">Microsoft windows</p>
-<p>Adobe Campaign Classic (ACC) is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed.</p>
-<div class="meta"><span class="pill">CVSS 9.9</span>  <span class="pill">EPSS 0.8%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-83660" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-22">September 22, 2026</time>
-<h2><a href="../#cve=CVE-2026-84412">CVE-2026-84412: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code (&apos;Code Injection&apos;)...</a></h2>
-<p class="who">Microsoft windows</p>
-<p>Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code (&apos;Code Injection&apos;) vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed.</p>
-<div class="meta"><span class="pill">CVSS 10</span>  <span class="pill">EPSS 1.2%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-84412" rel="noopener">NVD record</a></div>
-</article>
 </main>
-<footer class="wrap foot">Generated 2026-10-26 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-10-27 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>

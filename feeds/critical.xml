@@ -11,7 +11,7 @@
 <guid isPermaLink="false">CVE-2026-109618</guid>
 <pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
 <category>Edge / VPN</category>
-<description>PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE). | CVSS 9.8 | EPSS 100.0%</description>
+<description>PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cleanup procedure may read or branch on this memory. Multiple OOM strategies can consistently trigger this condition and lead to remote code execution (RCE). | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-26) | EPSS 100.0%</description>
 </item>
 <item>
 <title>CVE-2026-113252 Microsoft windows: Improper input validation in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
@@ -422,6 +422,30 @@ This vulnerability is due to improper handling of email attachments when the fil
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Heap-based buffer overflow in Windows Text Shaping allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
+</item>
+<item>
+<title>CVE-2026-105010 Microsoft windows: Use after free in Microsoft Windows Search Component allows an unauthorized attacker to elevate privileges...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-105010</link>
+<guid isPermaLink="false">CVE-2026-105010</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Microsoft Windows Search Component allows an unauthorized attacker to elevate privileges over a network. | CVSS 9.8 | EPSS 1.0%</description>
+</item>
+<item>
+<title>CVE-2026-69634 Microsoft windows: Heap-based buffer overflow in Windows iSCSI allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-69634</link>
+<guid isPermaLink="false">CVE-2026-69634</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Windows iSCSI allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
+</item>
+<item>
+<title>CVE-2026-69639 Microsoft windows: Heap-based buffer overflow in Windows Libarchive allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-69639</link>
+<guid isPermaLink="false">CVE-2026-69639</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Windows Libarchive allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
 </item>
 <item>
 <title>CVE-2026-107938 Apache cxf: In Apache CXF, the Netty-based HTTP client transport (cxf-rt-transports-http-netty-client) did not verify...</title>
@@ -882,30 +906,6 @@ Note: Software versions which have reached End of Technical Support (EoTS) are n
 <pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Adobe Campaign Classic (ACC) is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to internal resources. Exploitation of this issue does not require user interaction. Scope is changed. | CVSS 9.9 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-82443 Microsoft windows: Adobe Campaign Classic (ACC) is affected by a Server-Side Request Forgery (SSRF) vulnerability that could...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-82443</link>
-<guid isPermaLink="false">CVE-2026-82443</guid>
-<pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Adobe Campaign Classic (ACC) is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to internal resources. Exploitation of this issue does not require user interaction. Scope is changed. | CVSS 9.6 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-83660 Microsoft windows: Adobe Campaign Classic (ACC) is affected by a Server-Side Request Forgery (SSRF) vulnerability that could...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83660</link>
-<guid isPermaLink="false">CVE-2026-83660</guid>
-<pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Adobe Campaign Classic (ACC) is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed. | CVSS 9.9 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-84412 Microsoft windows: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code (&apos;Code Injection&apos;)...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-84412</link>
-<guid isPermaLink="false">CVE-2026-84412</guid>
-<pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code (&apos;Code Injection&apos;) vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed. | CVSS 10 | EPSS 1.2%</description>
 </item>
 </channel>
 </rss>
