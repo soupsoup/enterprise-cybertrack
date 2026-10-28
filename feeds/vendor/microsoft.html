@@ -17,6 +17,13 @@
 </div></header>
 <main class="wrap news">
 <article>
+<time datetime="2026-10-21">October 21, 2026</time>
+<h2><a href="../../#cve=CVE-2026-96644">CVE-2026-96644: Pillow is a Python imaging library.</a></h2>
+<p class="who">Microsoft windows</p>
+<p>Pillow is a Python imaging library. Prior to 13.0.0 on Windows, src/PIL/WmfImagePlugin.py passes unchecked 32-bit WMF or EMF dimensions to the native drawwmf handler in src/display.c. The handler sizes a DIB allocation from 16-bit-truncated bcWidth and bcHeight fields but copies pixel data using the original full dimensions. A crafted wide, short metafile can pass the pixel-count decompression-bomb check and make the Windows-only renderer read beyond the heap buffer, potentially disclosing memory or crashing the process. This issue is fixed in version 13.0.0.</p>
+<div class="meta"><span class="pill">CVSS 8.1</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-96644" rel="noopener">NVD record</a></div>
+</article>
+<article>
 <time datetime="2026-10-20">October 20, 2026</time>
 <h2><a href="../../#cve=CVE-2026-113011">CVE-2026-113011: Use after free in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</a></h2>
 <p class="who">Microsoft windows</p>
@@ -709,14 +716,7 @@
 <p>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</p>
 <div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.8%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-97753" rel="noopener">NVD record</a></div>
 </article>
-<article>
-<time datetime="2026-10-13">October 13, 2026</time>
-<h2><a href="../../#cve=CVE-2026-97754">CVE-2026-97754: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</a></h2>
-<p class="who">Microsoft 365 apps</p>
-<p>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</p>
-<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.7%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-97754" rel="noopener">NVD record</a></div>
-</article>
 </main>
-<footer class="wrap foot">Generated 2026-10-27 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-10-28 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>

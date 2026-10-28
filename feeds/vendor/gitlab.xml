@@ -6,6 +6,30 @@
 <description>High and critical GitLab vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/gitlab.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-110264 GitLab gitlab: An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110264</link>
+<guid isPermaLink="false">CVE-2026-110264</guid>
+<pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before 19.0.10, 19.1 before 19.1.9, 19.2 before 19.2.9, 19.3 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server due to integer overflow when compiling a specially crafted regular expression. | CVSS 10 | EPSS 1.0%</description>
+</item>
+<item>
+<title>CVE-2026-112212 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.3 before 19.3.6, 19.4 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112212</link>
+<guid isPermaLink="false">CVE-2026-112212</guid>
+<pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.3 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, an unauthenticated user could have poisoned a shared cache&apos;s OAuth/OIDC discovery document to redirect certain flows to an externally controlled server, due to improper trust of user-supplied values when constructing endpoint URLs in cached discovery responses. | CVSS 7.5 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-15723 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 10.1 before 19.3.6, 19.4 before...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-15723</link>
+<guid isPermaLink="false">CVE-2026-15723</guid>
+<pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 10.1 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, when OmniAuth SAML and LDAP auto-linking were both enabled, an authenticated user could have taken over an existing LDAP-backed account without any interaction from the targeted user, due to improper input sanitization in the LDAP email lookup path used during OmniAuth identity linking. | CVSS 8.2 | EPSS 0.4%</description>
+</item>
+<item>
 <title>CVE-2026-14814 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions before 19.2.8, 19.3 before 19.3.5, and...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-14814</link>
 <guid isPermaLink="false">CVE-2026-14814</guid>
