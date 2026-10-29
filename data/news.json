@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-28T11:29:32.917Z",
+ "generated": "2026-10-29T11:41:34.083Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 20
   },
   {
@@ -78,15 +78,15 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
-   "count": 5051
+   "checked": "2026-10-29T11:41:34.083Z",
+   "count": 5350
   },
   {
    "company": "microsoft",
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,7 +224,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 711
   },
   {
@@ -232,18 +232,386 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-28T11:29:32.917Z",
+   "checked": "2026-10-29T11:41:34.083Z",
    "count": 50
   }
  ],
  "items": [
   {
+   "company": "talos",
+   "feed": "Threat research",
+   "title": "NIK C2: The new AI-enabled command-and-control framework",
+   "link": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/",
+   "date": "2026-10-29T10:00:00.000Z",
+   "summary": "Cisco Talos observed a new AI-integrated command-and-control (C2) framework in the wild called “NIK C2.”"
+  },
+  {
    "company": "paloalto",
    "feed": "Security advisories",
    "title": "CVE-2026-111497 Portfolio Status: Impact of Brotli Vulnerability (CVE-2026-111497) on Palo Alto Networks Products (Severity: CRITICAL)",
    "link": "https://security.paloaltonetworks.com/CVE-2026-111497",
-   "date": "2026-10-28T06:55:00.000Z",
+   "date": "2026-10-29T05:30:00.000Z",
    "summary": ""
+  },
+  {
+   "company": "paloalto",
+   "feed": "Security advisories",
+   "title": "CVE-2026-109618 Impact of Critical Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Palo Alto Networks Products (Severity: CRITICAL)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-109618",
+   "date": "2026-10-29T05:20:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-19175 Use after free in Payments",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-19175",
+   "date": "2026-10-29T00:06:22.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Brotli Flaw Behind 'Node2Shell': What to Patch and Where It Hides",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/brotli-flaw-behind-node2shell",
+   "date": "2026-10-29T00:00:00.000Z",
+   "summary": "The page you requested could not be found."
+  },
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Catalyst%20SD-WAN%20Controller%20Authentication%20Bypass%20Vulnerability%26vs_k=1",
+   "date": "2026-10-28T21:54:35.000Z",
+   "summary": "A vulnerability in the peering authentication in Cisco Catalyst SD-WAN Controller, formerly SD-WAN vSmart, Cisco Catalyst SD-WAN Manager, formerly SD-WAN vManage, and Cisco Catalyst SD-WAN Validator, formerly SD-WAN vBond, could allow an unauthenticated, remote attacker to..."
+  },
+  {
+   "company": "talos",
+   "feed": "Threat research",
+   "title": "Inside KeyDrift: Analyzing historical UAT-11473 activity on Cisco SD-WAN",
+   "link": "https://blog.talosintelligence.com/uat-11473-keydrift/",
+   "date": "2026-10-28T21:32:02.000Z",
+   "summary": "Talos has identified UAT-11473, a highly sophisticated APT, who exploited CVE-2026-20127, an authentication bypass vulnerability in Cisco SD-WAN Catalyst Controller instances to bypass authentication and gain unauthorized access to affected systems to deploy KeyDrift."
+  },
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+   "date": "2026-10-28T20:36:45.000Z",
+   "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate..."
+  },
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+   "date": "2026-10-28T19:39:52.000Z",
+   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due..."
+  },
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Secure%20Firewall%20Adaptive%20Security%20Appliance%20and%20Secure%20Firewall%20Threat%20Defense%20Software%20Remote%20Access%20SSL%20VPN%20Tunnel%20Denial%20of%20Service%20Vulnerability%26vs_k=1",
+   "date": "2026-10-28T19:15:00.000Z",
+   "summary": "A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting..."
+  },
+  {
+   "company": "paloalto",
+   "feed": "Unit 42 research",
+   "title": "Unwrapping Retail Peak Season Cyber Threats",
+   "link": "https://unit42.paloaltonetworks.com/unwrapping-retail-cyber-threats/",
+   "date": "2026-10-28T18:00:10.000Z",
+   "summary": "Unit 42 explores key peak shopping season retail cyber threats, from ransomware to AI attacks, and shares how to defend operations and customer trust. The post Unwrapping Retail Peak Season Cyber Threats appeared first on Unit 42 ."
+  },
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+   "date": "2026-10-28T16:48:16.000Z",
+   "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities: CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the..."
+  },
+  {
+   "company": "zscaler",
+   "feed": "ThreatLabz research",
+   "title": "CVE-2026-111497: Node2Shell / HTTP2Shell Vulnerability May Allow RCE",
+   "link": "https://www.zscaler.com/blogs/security-research/cve-2026-111497-node2shell-http2shell-vulnerability-may-allow-rce",
+   "date": "2026-10-28T16:11:02.000Z",
+   "summary": "IntroductionOn October 21, 2026, the Node.js project disclosed CVE-2026-111497, an out-of-bounds write vulnerability in Google’s Brotli decoder used by Node.js and other software. The vulnerability is also known as Node2Shell and more recently as HTTP2Shell. The CVE score, filed..."
+  },
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Cisco Advance Notification for Publication of November 4, 2026, Security Advisories",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20November%204,%202026,%20Security%20Advisories%26vs_k=1",
+   "date": "2026-10-28T16:00:00.000Z",
+   "summary": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: Identity Services Engine (ISE) UCS Central Software Unified..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "The CISO’s evolving role: Protecting and defending in the agentic era",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/28/the-cisos-evolving-role-protecting-and-defending-in-the-agentic-era/",
+   "date": "2026-10-28T16:00:00.000Z",
+   "summary": "As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can approach both. The post The..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-62740 Windows Imaging Component Information Disclosure Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62740",
+   "date": "2026-10-28T14:00:00.000Z",
+   "summary": "Added supported editions of Microsoft Office to the Security Updates table because they are affected by this vulnerability. Microsoft recommends that customers running any of these editions of Office install the latest security updates to be fully protected from this..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-62877 Windows Win32k Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62877",
+   "date": "2026-10-28T14:00:00.000Z",
+   "summary": "Added supported editions of Microsoft Office to the Security Updates table because they are affected by this vulnerability. Microsoft recommends that customers running any of these editions of Office install the latest security updates to be fully protected from this..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-57083 Windows Media Photo Codec Information Disclosure Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57083",
+   "date": "2026-10-28T14:00:00.000Z",
+   "summary": "Added supported editions of Microsoft Office to the Security Updates table because they are affected by this vulnerability. Microsoft recommends that customers running any of these editions of Office install the latest security updates to be fully protected from this..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-57084 Windows File Explorer Information Disclosure Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57084",
+   "date": "2026-10-28T14:00:00.000Z",
+   "summary": "Added supported editions of Microsoft Office to the Security Updates table because they are affected by this vulnerability. Microsoft recommends that customers running any of these editions of Office install the latest security updates to be fully protected from this..."
+  },
+  {
+   "company": "rapid7",
+   "feed": "Blog",
+   "title": "How Rapid7 InsightGovCloud Supports BOD 22-01 Compliance",
+   "link": "https://www.rapid7.com/blog/post/pt-insightgovcloud-supports-bod-22-01-compliance",
+   "date": "2026-10-28T13:16:39.000Z",
+   "summary": "An introduction to CISA’s BOD 22-01 Issued nearly four years ago, the U.S. Cybersecurity and Infrastructure Security Agency (CISA) Binding Operational Directive 22-01 (BOD 22-01) has been adopted across both public and private sector organizations as a framework to ensure timely..."
+  },
+  {
+   "company": "sentinelone",
+   "feed": "SentinelLabs research",
+   "title": "LABScon26 Replay | Keynote: A Sober Analysis of AI Impact",
+   "link": "https://www.sentinelone.com/labs/labscon26-replay-keynote-a-sober-analysis-of-ai-impact/",
+   "date": "2026-10-28T13:00:00.000Z",
+   "summary": "Harvard Professor James Mickens weighs the promises of AI against its potential harms, arguing for hardware-based mechanisms to isolate frontier models."
+  },
+  {
+   "company": "proofpoint",
+   "feed": "Blog",
+   "title": "Proofpoint Introduces Flex to Help Customers Invest with Confidence as Security Needs Evolve",
+   "link": "https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-introduces-flex-help-customers-invest-confidence-security-needs",
+   "date": "2026-10-28T09:25:36.000Z",
+   "summary": ""
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79293 Information leak in Animation",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79293",
+   "date": "2026-10-28T08:54:44.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79292 Integer overflow in Chromecast",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79292",
+   "date": "2026-10-28T08:54:39.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79291 Information leak in CSS",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79291",
+   "date": "2026-10-28T08:54:34.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79290 Use after free in Aura",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79290",
+   "date": "2026-10-28T08:54:29.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79289 Improper control of a resource through its lifetime in Workers",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79289",
+   "date": "2026-10-28T08:54:23.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79287 Observable discrepancy in Forms",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79287",
+   "date": "2026-10-28T08:54:19.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79285 Uninitialized resource in ANGLE",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79285",
+   "date": "2026-10-28T08:54:14.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79284 UI misrepresentation in Core",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79284",
+   "date": "2026-10-28T08:54:09.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79283 UI misrepresentation in Geometry",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79283",
+   "date": "2026-10-28T08:54:02.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79276 Improper privilege management in FileSystem",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79276",
+   "date": "2026-10-28T08:53:57.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79275 Use after free in ANGLE",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79275",
+   "date": "2026-10-28T08:53:53.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79274 Information leak in GPU",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79274",
+   "date": "2026-10-28T08:53:48.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79272 Improper input validation in FindInPage",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79272",
+   "date": "2026-10-28T08:53:43.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79271 Information leak in DOM",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79271",
+   "date": "2026-10-28T08:53:39.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79179 Incorrect authorization in DOM",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79179",
+   "date": "2026-10-28T08:53:36.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79270 Uninitialized resource in ANGLE",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79270",
+   "date": "2026-10-28T08:53:34.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79178 Incorrect authorization in Web Authentication (Passkeys & Security Keys)",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79178",
+   "date": "2026-10-28T08:53:30.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79269 Uninitialized resource in ANGLE",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79269",
+   "date": "2026-10-28T08:53:30.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79177 Incorrect authorization in Media",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79177",
+   "date": "2026-10-28T08:53:26.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79267 Race condition in Workers",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79267",
+   "date": "2026-10-28T08:53:25.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79176 UI misrepresentation in Extensions",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79176",
+   "date": "2026-10-28T08:53:21.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79266 Use after free in DevTools",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79266",
+   "date": "2026-10-28T08:53:20.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79175 Type confusion in Accessibility",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79175",
+   "date": "2026-10-28T08:53:17.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79265 Incomplete cleanup in GetUserMedia",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79265",
+   "date": "2026-10-28T08:53:15.000Z",
+   "summary": "Information published."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-79174 Incorrect authorization in Extensions",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79174",
+   "date": "2026-10-28T08:53:13.000Z",
+   "summary": "Information published."
   },
   {
    "company": "qualys",
@@ -262,11 +630,19 @@
    "summary": "What is the Vulnerability? CVE-2026-111497 is an out-of-bounds write vulnerability in the Google Brotli decoder, a component used to decompress data encoded with the Brotli compression algorithm. Brotli is widely used in web communications and is bundled with Node.js through its..."
   },
   {
-   "company": "paloalto",
-   "feed": "Security advisories",
-   "title": "CVE-2026-109618 Impact of Critical Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Palo Alto Networks Products (Severity: CRITICAL)",
-   "link": "https://security.paloaltonetworks.com/CVE-2026-109618",
-   "date": "2026-10-28T05:15:00.000Z",
+   "company": "crowdstrike",
+   "feed": "Blog",
+   "title": "CrowdStrike 2026 Legal Threat Landscape Report: eCrime Leads Attacks, China Activity Intensifies",
+   "link": "https://www.crowdstrike.com/en-us/blog/crowdstrike-2026-legal-threat-landscape-report/",
+   "date": "2026-10-28T05:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "crowdstrike",
+   "feed": "Blog",
+   "title": "When AI Guardrails Expose Vulnerabilities",
+   "link": "https://www.crowdstrike.com/en-us/blog/when-ai-guardrails-expose-vulnerabilities/",
+   "date": "2026-10-28T05:00:00.000Z",
    "summary": ""
   },
   {
@@ -278,28 +654,28 @@
    "summary": "What is the Vulnerability? The vulnerabilities affect PHP, a widely used server-side scripting language that powers websites and web applications. They involve flaws in PHP's internal request-processing and memory-management behavior that can be triggered when handling malicious..."
   },
   {
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "‘Node2Shell’ vulnerability (CVE-2026-111497) in active exploitation",
+   "link": "https://www.sophos.com/en-us/blog/node2shell-cve-2026-111497-in-active-exploitation",
+   "date": "2026-10-28T00:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "Never Bring a Knife to a Gun Fight!",
+   "link": "https://www.sophos.com/en-us/blog/never-bring-a-knife-to-a-gun-fight",
+   "date": "2026-10-28T00:00:00.000Z",
+   "summary": "Cyber incidents create both technical and legal challenges, making coordination between DFIR teams and experienced legal counsel essential. This article explores why organizations should establish these relationships before an incident occurs and how a coordinated response can..."
+  },
+  {
    "company": "talos",
    "feed": "Security advisories",
    "title": "Vulnerabilities in node.js Affecting Cisco Products: October 2026",
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
    "date": "2026-10-27T21:30:00.000Z",
    "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate..."
-  },
-  {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20PHP%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-   "date": "2026-10-27T20:49:14.000Z",
-   "summary": "On October 21, the PHP Foundation announced the availability of a Critical PHP Security release addressing two critical vulnerabilities: CVE-2026-109618 - RCE via OOM corruption CVE-2026-109619 - RCE via stale global state For information about these vulnerabilities, see the..."
-  },
-  {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-   "date": "2026-10-27T18:08:01.000Z",
-   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due..."
   },
   {
    "company": "talos",
@@ -316,86 +692,6 @@
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-exwy-hardening-FhcqBVcs?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Expressway%20Series%20Security%20Hardening%20Release:%20October%202026%26vs_k=1",
    "date": "2026-10-27T14:45:16.000Z",
    "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco Expressway Series software engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-70277 Windows Fast FAT File System Driver Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70277",
-   "date": "2026-10-27T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-70161 .NET Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70161",
-   "date": "2026-10-27T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-70007 .NET Framework Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70007",
-   "date": "2026-10-27T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-96225 .NET Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96225",
-   "date": "2026-10-27T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-20942 Microsoft Edge (Chromium-based) Spoofing Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-20942",
-   "date": "2026-10-27T14:00:00.000Z",
-   "summary": "Improper restriction of rendered ui layers or frames in Microsoft Edge (Chromium-based) allows an unauthorized attacker to perform spoofing over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-88078 Microsoft Edge (Chromium-based) Spoofing Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88078",
-   "date": "2026-10-27T14:00:00.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-96196 Microsoft Edge (Chromium-based) Security Feature Bypass Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96196",
-   "date": "2026-10-27T14:00:00.000Z",
-   "summary": "Incomplete list of disallowed inputs in Microsoft Edge (Chromium-based) allows an unauthorized attacker to bypass a security feature over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-62765 Microsoft Edge (Chromium-based) Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62765",
-   "date": "2026-10-27T14:00:00.000Z",
-   "summary": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-69473 Windows Kernel Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69473",
-   "date": "2026-10-27T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-69284 Windows DCOM Server Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69284",
-   "date": "2026-10-27T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
   },
   {
    "company": "wiz",
@@ -510,70 +806,6 @@
    "summary": "For the eighth consecutive time, Palo Alto Networks is recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Privileged Access Management. Once again, it is positioned furthest along in Completeness … The post Palo Alto Networks Named a Leader in the 2026 Gartner®..."
   },
   {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-70338 Microsoft PowerShell Security Feature Bypass Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70338",
-   "date": "2026-10-26T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-83519 Windows Error Reporting Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83519",
-   "date": "2026-10-26T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-70054 Windows NetBIOS Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70054",
-   "date": "2026-10-26T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-69923 Windows AI Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69923",
-   "date": "2026-10-26T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-96311 Windows Network List Service Tampering Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96311",
-   "date": "2026-10-26T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-69926 Desktop Window Manager Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69926",
-   "date": "2026-10-26T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-105728 Dynamics Business Central Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105728",
-   "date": "2026-10-26T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-96234 .NET Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96234",
-   "date": "2026-10-26T14:00:00.000Z",
-   "summary": "Updated an acknowledgement. This is an informational change only."
-  },
-  {
    "company": "eset",
    "feed": "WeLiveSecurity",
    "title": "PHP2Shell: What to know about two critical PHP flaws",
@@ -592,7 +824,7 @@
   {
    "company": "fortinet",
    "feed": "Security advisories",
-   "title": "Multiple Node.js CVEs",
+   "title": "Node2Shell CVEs",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-187",
    "date": "2026-10-26T07:00:00.000Z",
    "summary": "CVSSv3 Score: 9.8 CVE-2026-105482 - (high)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-105483 - (high)This vulnerability affects Node.js 26.x and 24.x.CVE-2026-106069 - (high)This vulnerability affects Node.js 26.x, 24.x, and 22.x.CVE-2026-111497 - (high)A..."
@@ -652,38 +884,6 @@
    "link": "https://www.wiz.io/blog/cve-2026-111497-brotli-rce-node-js",
    "date": "2026-10-25T14:46:53.000Z",
    "summary": "Detect and mitigate CVE-2026-111497, a critical Brotli decoder vulnerability enables remote code execution."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-70197 .NET and Visual Studio Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70197",
-   "date": "2026-10-25T14:00:00.000Z",
-   "summary": "Updated product information in the Software Update table. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-102870 ASP.NET Core Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102870",
-   "date": "2026-10-25T14:00:00.000Z",
-   "summary": "Updated product information in the Software Update table. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-114148 ASP.NET Core Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114148",
-   "date": "2026-10-25T14:00:00.000Z",
-   "summary": "Incorrect default permissions in ASP.NET Core allows an authorized attacker to elevate privileges locally."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-111497 Google: CVE-2026-111497 Buffer overflow vulnerability in the Brotli decoder",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-111497",
-   "date": "2026-10-25T14:00:00.000Z",
-   "summary": "Out-of-bounds write in .NET allows an unauthorized attacker to elevate privileges over a network."
   },
   {
    "company": "fortinet",
@@ -748,22 +948,6 @@
    "link": "https://www.rapid7.com/blog/post/pt-metasploit-wrap-up-langflow-mongodb-and-more",
    "date": "2026-10-23T15:38:56.000Z",
    "summary": "This release adds multiple new modules, and 6 of those modules point at a single target: Langflow , the open-source LLM workflow builder. Together they cover an authentication bypass (CVE-2026-93680), 3 unauthenticated remote code execution paths (CVE-2026-0768, CVE-2026-0769,..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-83862 Windows Network Load Balancing Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83862",
-   "date": "2026-10-23T14:00:00.000Z",
-   "summary": "Corrected the CVSS Attack Vector metric from Network (AV:N) to Adjacent (AV:A) to reflect the requirement for Layer 2 network adjacency. The CVSS base score has decreased from 9.8 to 8.8. This is an informational change only. Customers who have successfully installed the update..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-102208 Windows Win32 Kernel Subsystem Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-102208",
-   "date": "2026-10-23T14:00:00.000Z",
-   "summary": "Acknowledgement Updated"
   },
   {
    "company": "checkpoint",
@@ -916,54 +1100,6 @@
    "link": "https://www.zscaler.com/blogs/security-research/seo-poisoning-campaign-delivers-new-armorsteal-malware",
    "date": "2026-10-22T16:10:15.000Z",
    "summary": "IntroductionIn September 2026, Zscaler Threat Hunting identified an SEO poisoning campaign that used fake websites impersonating the Chocolatey package manager and the Microsoft Activation Scripts (MAS) tool to distribute a Python-based malware family we track as Armorsteal. The..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-105014 Azure Pipelines Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105014",
-   "date": "2026-10-22T14:00:00.000Z",
-   "summary": "Improper neutralization of special elements used in a command ('command injection') in Azure Pipelines allows an unauthorized attacker to execute code over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-108456 Azure AI Foundry Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108456",
-   "date": "2026-10-22T14:00:00.000Z",
-   "summary": "Server-side request forgery (ssrf) in Azure AI Foundry allows an authorized attacker to elevate privileges over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-97785 AAD App Proxy Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-97785",
-   "date": "2026-10-22T14:00:00.000Z",
-   "summary": "Improper authentication in AAD App Proxy allows an unauthorized attacker to elevate privileges over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-96185 Microsoft Exchange Online Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96185",
-   "date": "2026-10-22T14:00:00.000Z",
-   "summary": "Stack-based buffer overflow in Microsoft Exchange Online allows an authorized attacker to execute code over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-83938 Azure Kubernetes Configuration Service Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-83938",
-   "date": "2026-10-22T14:00:00.000Z",
-   "summary": "Missing authentication for critical function in Azure Kubernetes Configuration Service allows an unauthorized attacker to elevate privileges over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-110063 VM Inspector for Azure Virtual Machines Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-110063",
-   "date": "2026-10-22T14:00:00.000Z",
-   "summary": "Improper link resolution before file access ('link following') in VM Inspector for Azure Virtual Machines allows an unauthorized attacker to elevate privileges over a network."
   },
   {
    "company": "wiz",
@@ -1134,6 +1270,14 @@
    "summary": "In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability."
   },
   {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "The Science of Exploitability: Decoding BlueHammer",
+   "link": "https://blog.qualys.com/product-tech/2026/10/21/bluehammer-cve-2026-33825-windows-defender-privilege-escalation",
+   "date": "2026-10-21T13:00:00.000Z",
+   "summary": "Executive Summary BlueHammer (CVE-2026-33825) is an eight-stage local privilege-escalation chain targeting the Windows Defender Antimalware Platform before 4.18.26030.3011. It does not grant initial access; an attacker needs standard-user code execution first. Still, in the lab,..."
+  },
+  {
    "company": "tenable",
    "feed": "Blog",
    "title": "How Tenable brought multi-language support to security detectors with agentic translation",
@@ -1148,14 +1292,6 @@
    "link": "https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days",
    "date": "2026-10-21T13:00:00.000Z",
    "summary": "Three days is the average time between a high-severity vulnerability becoming public and its exploitation, according to the latest Quarterly Threat Landscape Report from Rapid7. And 71% of the exploitation tracked in Q3 occurred within the first seven days. For security teams..."
-  },
-  {
-   "company": "qualys",
-   "feed": "Blog",
-   "title": "The Science of Exploitability: Decoding BlueHammer",
-   "link": "https://blog.qualys.com/product-tech/2026/10/21/bluehammer-cve-2026-33825-windows-defender-privilege-escalation",
-   "date": "2026-10-21T13:00:00.000Z",
-   "summary": "Executive Summary BlueHammer (CVE-2026-33825) is an eight-stage local privilege-escalation chain targeting the Windows Defender Antimalware Platform before 4.18.26030.3011. It does not grant initial access; an attacker needs standard-user code execution first. Still, in the lab,..."
   },
   {
    "company": "paloalto",
@@ -1179,7 +1315,7 @@
    "title": "php2shell (CVE-2026-109618, CVE-2026-109619): Frequently asked questions about critical PHP remote code execution vulnerabilities",
    "link": "https://www.tenable.com/blog/php2shell-cve-2026-109618-cve-2026-109619-frequently-asked-questions-about-critical-php-remote",
    "date": "2026-10-21T09:01:24.000Z",
-   "summary": "Two critical PHP vulnerabilities could lead to unauthenticated remote code execution. Patches are available for supported PHP 8.x branches, and exploitation attempts began before public disclosure. Change log Update October 26: CISA added CVE-2026-109618 and CVE-2026-109619 to..."
+   "summary": "Two critical PHP vulnerabilities could lead to unauthenticated remote code execution. Patches are available for supported PHP 8.x branches, and exploitation attempts began before public disclosure. Change log Update October 28: Clarified Amazon Threat Intelligence's wording to..."
   },
   {
    "company": "fortinet",
@@ -2334,38 +2470,6 @@
    "summary": "A vulnerability in the Python interpreter of Cisco NX-OS Software could allow an authenticated, local attacker with low privileges to escape the Python sandbox and gain unauthorized access to the underlying operating system of an affected device. This vulnerability is due to..."
   },
   {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Cisco Finesse Server-Side Request Forgery Vulnerability",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-ssrf-mmSuyugS?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Server-Side%20Request%20Forgery%20Vulnerability%26vs_k=1",
-   "date": "2026-10-07T16:00:00.000Z",
-   "summary": "A vulnerability in the web-based management interface of Cisco Finesse could allow an unauthenticated, remote attacker to conduct server-side request forgery (SSRF) attacks through an affected device. This vulnerability is due to improper input validation for specific HTTP..."
-  },
-  {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Cisco Nexus 3000 and 9000 Series Switches MPLS OAM Remote Code Execution Vulnerability",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-moam-rce-uBTzYV7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Nexus%203000%20and%209000%20Series%20Switches%20MPLS%20OAM%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
-   "date": "2026-10-07T16:00:00.000Z",
-   "summary": "A vulnerability in the MPLS Operation, Administration, and Maintenance (OAM) feature of Cisco NX-OS Software for Cisco Nexus 3000 Series Switches and Cisco Nexus 9000 Series Switches could allow an unauthenticated, remote attacker to execute arbitrary code with root privileges..."
-  },
-  {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Cisco Application Policy Infrastructure Controller Unauthorized File Access Vulnerability",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apic-info-priv-enAdB5vD?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Application%20Policy%20Infrastructure%20Controller%20Unauthorized%20File%20Access%20Vulnerability%26vs_k=1",
-   "date": "2026-10-07T16:00:00.000Z",
-   "summary": "A vulnerability in the export policies functionality of Cisco Application Policy Infrastructure Controller (APIC) could allow an authenticated, remote attacker to access sensitive files on an affected device. To exploit this vulnerability, the attacker must have valid..."
-  },
-  {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Cisco Application Policy Infrastructure Controller API Command Injection Vulnerability",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-apic-cmdinj-L6VR4E7?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Application%20Policy%20Infrastructure%20Controller%20API%20Command%20Injection%20Vulnerability%26vs_k=1",
-   "date": "2026-10-07T16:00:00.000Z",
-   "summary": "A vulnerability in the web-based management API for Cisco Application Policy Infrastructure Controller (APIC) could allow an authenticated, remote attacker to execute arbitrary commands as the root user. To exploit this vulnerability, the attacker must have valid administrative..."
-  },
-  {
    "company": "microsoft",
    "feed": "Security blog",
    "title": "3 lessons from frontier AI vulnerability research",
@@ -3286,14 +3390,6 @@
    "summary": "Learn how attackers combine environment variable staging and steganography in PNG files to deliver DCRat malware in memory."
   },
   {
-   "company": "rapid7",
-   "feed": "Blog",
-   "title": "How dynamic application security testing validates risk at runtime",
-   "link": "https://www.rapid7.com/blog/post/em-dynamic-application-security-testing-dast-validates-risk-at-runtime-idc-marketscape",
-   "date": "2026-09-23T13:49:39.000Z",
-   "summary": "Security teams already have long queues of potential application vulnerabilities. The useful question is what happens next: can they see how a weakness behaves in a running application, reproduce the attack, and give developers enough evidence to fix it? Dynamic application..."
-  },
-  {
    "company": "fortinet",
    "feed": "Outbreak alerts",
    "title": "GitLab Path Traversal Vulnerability",
@@ -4070,14 +4166,6 @@
    "summary": "We assess with moderate confidence that the attacks are not targeted at a particular organization, but are a part of a cryptocurrency and credentials-stealing operation using the Amatera stealer as the primary payload."
   },
   {
-   "company": "talos",
-   "feed": "Threat research",
-   "title": "ClickFix moves into the browser: Cryptocurrency theft with Google-hosted C2",
-   "link": "https://blog.talosintelligence.com/clickfix-moves-into-the-browser/",
-   "date": "2026-09-08T10:00:38.000Z",
-   "summary": "Cisco Talos is tracking a cryptocurrency-stealing campaign that abuses the Google Visualization API for command and control (C2), retrieving obfuscated JavaScript from a publicly published Google Sheets document and injecting it into the victim's browser session."
-  },
-  {
    "company": "proofpoint",
    "feed": "Blog",
    "title": "Proofpoint Strengthens Executive Leadership Team with Appointment of Chief Legal Officer and Chief People Officer",
@@ -4356,14 +4444,6 @@
    "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/uk-power-facility-cyberattack-shutdown-what-critical-infrastructure-operators-and-defenders-need-to-know",
    "date": "2026-08-27T00:00:00.000Z",
    "summary": "A reported cyberattack on a UK power-generation facility in July 2026 shows that even disruptions at a single site can raise broader questions about critical infrastructure resilience."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "The Architecture Behind $1B: How Customers Run TrendAI Vision One™ on AWS, and Secure Their AI Workloads",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/the-architecture-behind-a-billion-dollars-how-customers-run-trendai-vision-one-on-aws-and-secure-their-ai-workloads",
-   "date": "2026-08-27T00:00:00.000Z",
-   "summary": "The page you requested could not be found."
   },
   {
    "company": "trendai",
@@ -5140,14 +5220,6 @@
    "link": "https://www.sentinelone.com/labs/labscon25-replay-keynote-steps-to-an-ecology-of-cyber/",
    "date": "2026-06-11T13:00:59.000Z",
    "summary": "Decades of piling complexity onto non-standardized stacks have left security unsteerable. Juan Andrés Guerrero-Saade makes the case for a new approach."
-  },
-  {
-   "company": "zscaler",
-   "feed": "ThreatLabz research",
-   "title": "One Click to Compromise: ThreatLabz 2026 Phishing and Initial Access Report",
-   "link": "https://www.zscaler.com/blogs/security-research/one-click-compromise-threatlabz-2026-phishing-and-initial-access-report",
-   "date": "2026-06-10T13:26:25.000Z",
-   "summary": "AI is accelerating the enterprise, but it is also raising the cost of a single user mistake. Phishing remains one of the easiest on-ramps for attackers, with campaigns that look routine, move fast, and convert clicks into access.Identity has also become the real perimeter, and..."
   },
   {
    "company": "trendai",

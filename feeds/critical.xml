@@ -14,6 +14,20 @@
 <description>An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before 19.0.10, 19.1 before 19.1.9, 19.2 before 19.2.9, 19.3 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server due to integer overflow when compiling a specially crafted regular expression. | CVSS 10 | EPSS 1.0%</description>
 </item>
 <item>
+<title>CVE-2026-111497 Microsoft .net: A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111497</link>
+<guid isPermaLink="false">CVE-2026-111497</guid>
+<pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.
+
+
+
+
+
+Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-27) | EPSS 88.0%</description>
+</item>
+<item>
 <title>CVE-2026-109618 Palo Alto Networks pan-os: PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-109618</link>
 <guid isPermaLink="false">CVE-2026-109618</guid>
@@ -123,7 +137,7 @@
 <guid isPermaLink="false">CVE-2026-91491</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>Identity &amp; Directory</category>
-<description>Vulnerability in the Oracle Identity Manager Connector product of Oracle Fusion Middleware (component: LDAP Gateway).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via LDAP to compromise Oracle Identity Manager Connector.  Successful attacks of this vulnerability can result in takeover of Oracle Identity Manager Connector. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.3%</description>
+<description>Vulnerability in the Oracle Identity Manager Connector product of Oracle Fusion Middleware (component: LDAP Gateway).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via LDAP to compromise Oracle Identity Manager Connector.  Successful attacks of this vulnerability can result in takeover of Oracle Identity Manager Connector. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-76519 Cisco asyncos: A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an...</title>
@@ -488,6 +502,46 @@ This vulnerability is due to improper handling of email attachments when the fil
 <description>No cwe for this issue in Windows Schannel allows an unauthorized attacker to perform spoofing over a network. | CVSS 9 | EPSS 0.7%</description>
 </item>
 <item>
+<title>CVE-2026-70147 Microsoft windows: Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to execute...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-70147</link>
+<guid isPermaLink="false">CVE-2026-70147</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
+</item>
+<item>
+<title>CVE-2026-70153 Microsoft windows: Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to execute...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-70153</link>
+<guid isPermaLink="false">CVE-2026-70153</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
+</item>
+<item>
+<title>CVE-2026-70157 Microsoft windows: Heap-based buffer overflow in Windows System Information Console allows an unauthorized attacker to execute...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-70157</link>
+<guid isPermaLink="false">CVE-2026-70157</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Windows System Information Console allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
+</item>
+<item>
+<title>CVE-2026-85928 Microsoft windows: Heap-based buffer overflow in Windows Volume Manager Extension Driver allows an unauthorized attacker to...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85928</link>
+<guid isPermaLink="false">CVE-2026-85928</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Windows Volume Manager Extension Driver allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-96864 Microsoft windows: Double free in Microsoft Failover Cluster Virtual Driver allows an unauthorized attacker to execute code over...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96864</link>
+<guid isPermaLink="false">CVE-2026-96864</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Double free in Microsoft Failover Cluster Virtual Driver allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.6%</description>
+</item>
+<item>
 <title>CVE-2026-107938 Apache cxf: In Apache CXF, the Netty-based HTTP client transport (cxf-rt-transports-http-netty-client) did not verify...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-107938</link>
 <guid isPermaLink="false">CVE-2026-107938</guid>
@@ -610,7 +664,7 @@ Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the iss
 <guid isPermaLink="false">CVE-2026-104286</guid>
 <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
 <category>Email &amp; Collaboration</category>
-<description>An improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2.0 through 7.2.9 may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-01) | EPSS 4.6%</description>
+<description>An improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2.0 through 7.2.9, FortiMail 7.0 all versions may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-01) | EPSS 4.6%</description>
 </item>
 <item>
 <title>CVE-2026-56154 Apache http server: Use After Free vulnerability in Apache HTTP Server&apos;s mod_rewrite when using lookahead (%{LA-U:HTTP:...})...</title>
@@ -858,54 +912,6 @@ This vulnerability allows an unauthenticated attacker to perform remote code exe
 
 
 Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-22) | EPSS 24.9%</description>
-</item>
-<item>
-<title>CVE-2026-73369 Microsoft windows: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code (&apos;Code Injection&apos;)...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73369</link>
-<guid isPermaLink="false">CVE-2026-73369</guid>
-<pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code (&apos;Code Injection&apos;) vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed. | CVSS 10 | EPSS 1.2%</description>
-</item>
-<item>
-<title>CVE-2026-75699 Microsoft windows: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code (&apos;Code Injection&apos;)...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-75699</link>
-<guid isPermaLink="false">CVE-2026-75699</guid>
-<pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code (&apos;Code Injection&apos;) vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed. | CVSS 10 | EPSS 1.2%</description>
-</item>
-<item>
-<title>CVE-2026-75703 Microsoft windows: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code (&apos;Code Injection&apos;)...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-75703</link>
-<guid isPermaLink="false">CVE-2026-75703</guid>
-<pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code (&apos;Code Injection&apos;) vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed. | CVSS 10 | EPSS 1.2%</description>
-</item>
-<item>
-<title>CVE-2026-75721 Microsoft windows: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code (&apos;Code Injection&apos;)...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-75721</link>
-<guid isPermaLink="false">CVE-2026-75721</guid>
-<pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code (&apos;Code Injection&apos;) vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed. | CVSS 10 | EPSS 1.2%</description>
-</item>
-<item>
-<title>CVE-2026-75723 Microsoft windows: Adobe Campaign Classic (ACC) is affected by an Incorrect Authorization vulnerability that could result in...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-75723</link>
-<guid isPermaLink="false">CVE-2026-75723</guid>
-<pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Adobe Campaign Classic (ACC) is affected by an Incorrect Authorization vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. Scope is changed. | CVSS 10 | EPSS 1.2%</description>
-</item>
-<item>
-<title>CVE-2026-75728 Microsoft windows: Adobe Campaign Classic (ACC) is affected by an Incorrect Authorization vulnerability that could result in...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-75728</link>
-<guid isPermaLink="false">CVE-2026-75728</guid>
-<pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Adobe Campaign Classic (ACC) is affected by an Incorrect Authorization vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require user interaction. | CVSS 9.1 | EPSS 1.0%</description>
 </item>
 </channel>
 </rss>

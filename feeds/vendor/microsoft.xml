@@ -6,6 +6,20 @@
 <description>High and critical Microsoft vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/microsoft.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-111497 Microsoft .net: A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111497</link>
+<guid isPermaLink="false">CVE-2026-111497</guid>
+<pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.
+
+
+
+
+
+Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-27) | EPSS 88.0%</description>
+</item>
+<item>
 <title>CVE-2026-96644 Microsoft windows: Pillow is a Python imaging library.</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96644</link>
 <guid isPermaLink="false">CVE-2026-96644</guid>
@@ -796,14 +810,6 @@
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
-</item>
-<item>
-<title>CVE-2026-97753 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97753</link>
-<guid isPermaLink="false">CVE-2026-97753</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
 </item>
 </channel>
 </rss>

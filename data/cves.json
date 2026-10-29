@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-28T11:29:32.838Z",
+ "generated": "2026-10-29T11:41:34.021Z",
  "cves": [
   {
    "id": "CVE-2026-110264",
@@ -54,7 +54,7 @@
      "version": "19.5.0"
     }
    ],
-   "epss": 0.01001
+   "epss": 0.01014
   },
   {
    "id": "CVE-2026-112212",
@@ -116,7 +116,55 @@
      "version": "19.5.0"
     }
    ],
-   "epss": 0.00421
+   "epss": 0.00431
+  },
+  {
+   "id": "CVE-2026-111497",
+   "vendor": "Microsoft",
+   "product": ".net",
+   "category": "Developer Tools & Libraries",
+   "cvss": 9.8,
+   "kev": true,
+   "published": "2026-10-22",
+   "title": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3...",
+   "summary": "A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.\n\n\n\n\n\nUsers need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": ".net",
+     "from": "8.0.0",
+     "toExcl": "8.0.33"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": ".net",
+     "from": "9.0.0",
+     "toExcl": "9.0.22"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": ".net",
+     "from": "10.0.0",
+     "toExcl": "10.0.14"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": ".net",
+     "version": "11.0.0"
+    },
+    {
+     "vendor": "Apache",
+     "product": "arrow",
+     "to": "26.0.0"
+    },
+    {
+     "vendor": "Apache",
+     "product": "arrow",
+     "version": "27.0.0"
+    }
+   ],
+   "kevAdded": "2026-10-27",
+   "epss": 0.87988
   },
   {
    "id": "CVE-2026-109618",
@@ -403,7 +451,7 @@
    "title": "Pillow is a Python imaging library.",
    "summary": "Pillow is a Python imaging library. Prior to 13.0.0 on Windows, src/PIL/WmfImagePlugin.py passes unchecked 32-bit WMF or EMF dimensions to the native drawwmf handler in src/display.c. The handler sizes a DIB allocation from 16-bit-truncated bcWidth and bcHeight fields but copies pixel data using the original full dimensions. A crafted wide, short metafile can pass the pixel-count decompression-bomb check and make the Windows-only renderer read beyond the heap buffer, potentially disclosing memory or crashing the process. This issue is fixed in version 13.0.0.",
    "affects": [],
-   "epss": 0.00412
+   "epss": 0.00384
   },
   {
    "id": "CVE-2026-113011",
@@ -679,7 +727,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00251
+   "epss": 0.00238
   },
   {
    "id": "CVE-2026-91644",
@@ -698,7 +746,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00233
+   "epss": 0.00221
   },
   {
    "id": "CVE-2026-91647",
@@ -755,7 +803,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.0021
+   "epss": 0.00188
   },
   {
    "id": "CVE-2026-91655",
@@ -774,7 +822,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00229
+   "epss": 0.00206
   },
   {
    "id": "CVE-2026-91656",
@@ -793,7 +841,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00225
+   "epss": 0.00201
   },
   {
    "id": "CVE-2026-91658",
@@ -831,7 +879,7 @@
      "version": "21.8.3.0.0"
     }
    ],
-   "epss": 0.00246
+   "epss": 0.00221
   },
   {
    "id": "CVE-2026-91661",
@@ -927,7 +975,7 @@
      "to": "8.63"
     }
    ],
-   "epss": 0.0038
+   "epss": 0.0036
   },
   {
    "id": "CVE-2026-101390",
@@ -947,7 +995,7 @@
      "to": "8.63"
     }
    ],
-   "epss": 0.00387
+   "epss": 0.00407
   },
   {
    "id": "CVE-2026-101411",
@@ -967,7 +1015,7 @@
      "to": "8.63"
     }
    ],
-   "epss": 0.00387
+   "epss": 0.00407
   },
   {
    "id": "CVE-2026-101416",
@@ -987,7 +1035,7 @@
      "to": "8.63"
     }
    ],
-   "epss": 0.00222
+   "epss": 0.00313
   },
   {
    "id": "CVE-2026-101420",
@@ -1007,7 +1055,7 @@
      "to": "8.63"
     }
    ],
-   "epss": 0.00363
+   "epss": 0.00375
   },
   {
    "id": "CVE-2026-101428",
@@ -1027,7 +1075,7 @@
      "to": "8.63"
     }
    ],
-   "epss": 0.00301
+   "epss": 0.00311
   },
   {
    "id": "CVE-2026-101429",
@@ -1047,7 +1095,7 @@
      "to": "8.63"
     }
    ],
-   "epss": 0.00122
+   "epss": 0.00138
   },
   {
    "id": "CVE-2026-91211",
@@ -1071,7 +1119,7 @@
      "version": "14.1.2.1.0"
     }
    ],
-   "epss": 0.00381
+   "epss": 0.004
   },
   {
    "id": "CVE-2026-91212",
@@ -1095,7 +1143,7 @@
      "version": "14.1.2.1.0"
     }
    ],
-   "epss": 0.00303
+   "epss": 0.00324
   },
   {
    "id": "CVE-2026-91488",
@@ -1119,7 +1167,7 @@
      "version": "14.1.2.1.0"
     }
    ],
-   "epss": 0.00133
+   "epss": 0.00148
   },
   {
    "id": "CVE-2026-91489",
@@ -1143,7 +1191,7 @@
      "version": "14.1.2.1.0"
     }
    ],
-   "epss": 0.00104
+   "epss": 0.00118
   },
   {
    "id": "CVE-2026-91490",
@@ -1167,7 +1215,7 @@
      "version": "14.1.2.1.0"
     }
    ],
-   "epss": 0.00377
+   "epss": 0.00396
   },
   {
    "id": "CVE-2026-91491",
@@ -1191,7 +1239,7 @@
      "version": "14.1.2.1.0"
     }
    ],
-   "epss": 0.00331
+   "epss": 0.00354
   },
   {
    "id": "CVE-2026-91492",
@@ -1215,7 +1263,7 @@
      "version": "14.1.2.1.0"
     }
    ],
-   "epss": 0.00243
+   "epss": 0.00261
   },
   {
    "id": "CVE-2026-91493",
@@ -1239,7 +1287,7 @@
      "version": "14.1.2.1.0"
     }
    ],
-   "epss": 0.00287
+   "epss": 0.00307
   },
   {
    "id": "CVE-2026-91494",
@@ -1263,7 +1311,27 @@
      "version": "14.1.2.1.0"
     }
    ],
-   "epss": 0.00301
+   "epss": 0.00317
+  },
+  {
+   "id": "CVE-2026-101450",
+   "vendor": "Oracle",
+   "product": "peoplesoft enterprise peopletools",
+   "category": "ERP & Business Apps",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Integration...",
+   "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Integration Broker).  Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise PeopleSoft Enterprise PeopleTools.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all PeopleSoft Enterprise PeopleTools accessible data as well as  unauthorized update, insert or delete access to some of PeopleSoft Enterprise PeopleTools accessible data. CVSS 3.1 Base Score 7.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:L/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "peoplesoft enterprise peopletools",
+     "from": "8.61",
+     "to": "8.63"
+    }
+   ],
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-111094",
@@ -12668,7 +12736,7 @@
      "toExcl": "1.141.1"
     }
    ],
-   "epss": 0.00388
+   "epss": 0.0038
   },
   {
    "id": "CVE-2026-103555",
@@ -12681,7 +12749,7 @@
    "title": "Heap-based buffer overflow in Virtual Hard Disk (VHD) Miniport Driver allows an authorized attacker to...",
    "summary": "Heap-based buffer overflow in Virtual Hard Disk (VHD) Miniport Driver allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-103575",
@@ -12694,7 +12762,7 @@
    "title": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
    "summary": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00869
+   "epss": 0.0085
   },
   {
    "id": "CVE-2026-103577",
@@ -12707,7 +12775,7 @@
    "title": "Insecure default variable initialization in Microsoft QUIC allows an unauthorized attacker to bypass a...",
    "summary": "Insecure default variable initialization in Microsoft QUIC allows an unauthorized attacker to bypass a security feature over a network.",
    "affects": [],
-   "epss": 0.00587
+   "epss": 0.00574
   },
   {
    "id": "CVE-2026-105003",
@@ -12720,7 +12788,7 @@
    "title": "Heap-based buffer overflow in HID class driver allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in HID class driver allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00348
+   "epss": 0.0034
   },
   {
    "id": "CVE-2026-105007",
@@ -12733,7 +12801,7 @@
    "title": "An elevation of privilege vulnerability exists in the Network Driver Interface Specification (NDIS) when...",
    "summary": "An elevation of privilege vulnerability exists in the Network Driver Interface Specification (NDIS) when ndis.sys fails to check the length of a buffer prior to copying memory to it.\nTo exploit the vulnerability, in a local attack scenario, an attacker could run a specially crafted application to elevate the attacker's privilege level. An attacker who successfully exploited this vulnerability could run processes in an elevated context. However, an attacker must first gain access to the local system with the ability to execute a malicious application in order to exploit this vulnerability.\nThe security update addresses the vulnerability by changing how ndis.sys validates buffer length.",
    "affects": [],
-   "epss": 0.00869
+   "epss": 0.0085
   },
   {
    "id": "CVE-2026-105008",
@@ -12746,7 +12814,7 @@
    "title": "No cwe for this issue in Windows Schannel allows an unauthorized attacker to perform spoofing over a network.",
    "summary": "No cwe for this issue in Windows Schannel allows an unauthorized attacker to perform spoofing over a network.",
    "affects": [],
-   "epss": 0.00679
+   "epss": 0.00664
   },
   {
    "id": "CVE-2026-108458",
@@ -12759,7 +12827,7 @@
    "title": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
    "summary": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00869
+   "epss": 0.0085
   },
   {
    "id": "CVE-2026-108464",
@@ -12772,7 +12840,7 @@
    "title": "Use after free in Software Protection Platform (SPP) allows an authorized attacker to elevate privileges...",
    "summary": "Use after free in Software Protection Platform (SPP) allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-108467",
@@ -12785,7 +12853,7 @@
    "title": "Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an authorized attacker to execute...",
    "summary": "Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an authorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.01003
+   "epss": 0.01004
   },
   {
    "id": "CVE-2026-109453",
@@ -12798,7 +12866,7 @@
    "title": "Heap-based buffer overflow in Virtual Hard Disk (VHD) Miniport Driver allows an authorized attacker to...",
    "summary": "Heap-based buffer overflow in Virtual Hard Disk (VHD) Miniport Driver allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-69577",
@@ -12811,7 +12879,7 @@
    "title": "Out-of-bounds read in Microsoft Azure Attestation service and Device Health Attestation Service allows an...",
    "summary": "Out-of-bounds read in Microsoft Azure Attestation service and Device Health Attestation Service allows an unauthorized attacker to disclose information over a network.",
    "affects": [],
-   "epss": 0.01094
+   "epss": 0.01071
   },
   {
    "id": "CVE-2026-69789",
@@ -12824,7 +12892,7 @@
    "title": "Heap-based buffer overflow in Reliable Multicast Transport Driver (RMCAST) allows an unauthorized attacker to...",
    "summary": "Heap-based buffer overflow in Reliable Multicast Transport Driver (RMCAST) allows an unauthorized attacker to execute code over an adjacent network.",
    "affects": [],
-   "epss": 0.00473
+   "epss": 0.00463
   },
   {
    "id": "CVE-2026-69802",
@@ -12837,7 +12905,7 @@
    "title": "Weak authentication in Network Device Enrollment Service (NDES) allows an unauthorized attacker to execute...",
    "summary": "Weak authentication in Network Device Enrollment Service (NDES) allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00641
+   "epss": 0.00627
   },
   {
    "id": "CVE-2026-69986",
@@ -12850,7 +12918,7 @@
    "title": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
    "summary": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00645
+   "epss": 0.00631
   },
   {
    "id": "CVE-2026-69987",
@@ -12863,7 +12931,7 @@
    "title": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
    "summary": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00645
+   "epss": 0.00631
   },
   {
    "id": "CVE-2026-83795",
@@ -12876,7 +12944,7 @@
    "title": "Heap-based buffer overflow in Windows IKE Extension allows an unauthorized attacker to deny service over a...",
    "summary": "Heap-based buffer overflow in Windows IKE Extension allows an unauthorized attacker to deny service over a network.",
    "affects": [],
-   "epss": 0.01301
+   "epss": 0.01273
   },
   {
    "id": "CVE-2026-83796",
@@ -12889,7 +12957,7 @@
    "title": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83797",
@@ -12902,7 +12970,7 @@
    "title": "Out-of-bounds read in Windows Partition Management Driver allows an unauthorized attacker to execute code...",
    "summary": "Out-of-bounds read in Windows Partition Management Driver allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00869
+   "epss": 0.0085
   },
   {
    "id": "CVE-2026-83826",
@@ -12915,7 +12983,7 @@
    "title": "Untrusted pointer dereference in Windows Error Reporting allows an authorized attacker to elevate privileges...",
    "summary": "Untrusted pointer dereference in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83827",
@@ -12928,7 +12996,7 @@
    "title": "Heap-based buffer overflow in Windows Bluetooth Port Driver allows an authorized attacker to elevate...",
    "summary": "Heap-based buffer overflow in Windows Bluetooth Port Driver allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83828",
@@ -12941,7 +13009,7 @@
    "title": "Heap-based buffer overflow in Windows MIDI Service Module allows an authorized attacker to elevate privileges...",
    "summary": "Heap-based buffer overflow in Windows MIDI Service Module allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83829",
@@ -12954,7 +13022,7 @@
    "title": "Heap-based buffer overflow in Microsoft Windows Search Component allows an authorized attacker to elevate...",
    "summary": "Heap-based buffer overflow in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83830",
@@ -12967,7 +13035,7 @@
    "title": "Heap-based buffer overflow in Windows COM+ Event System Service allows an authorized attacker to elevate...",
    "summary": "Heap-based buffer overflow in Windows COM+ Event System Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.0042
+   "epss": 0.0041
   },
   {
    "id": "CVE-2026-83832",
@@ -12980,7 +13048,7 @@
    "title": "Out-of-bounds read in Windows Spaceport.sys allows an authorized attacker to elevate privileges locally.",
    "summary": "Out-of-bounds read in Windows Spaceport.sys allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83833",
@@ -12993,7 +13061,7 @@
    "title": "Heap-based buffer overflow in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83834",
@@ -13006,7 +13074,7 @@
    "title": "Use after free in Windows Kernel-Mode Drivers allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Kernel-Mode Drivers allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00298
+   "epss": 0.00291
   },
   {
    "id": "CVE-2026-83836",
@@ -13019,7 +13087,7 @@
    "title": "Heap-based buffer overflow in Windows Event Tracing allows an unauthorized attacker to execute code locally.",
    "summary": "Heap-based buffer overflow in Windows Event Tracing allows an unauthorized attacker to execute code locally.",
    "affects": [],
-   "epss": 0.00505
+   "epss": 0.00494
   },
   {
    "id": "CVE-2026-83837",
@@ -13032,7 +13100,7 @@
    "title": "Improper access control in Windows Kernel-Mode Drivers allows an authorized attacker to elevate privileges...",
    "summary": "Improper access control in Windows Kernel-Mode Drivers allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00323
+   "epss": 0.00316
   },
   {
    "id": "CVE-2026-83838",
@@ -13058,7 +13126,7 @@
    "title": "Time-of-check time-of-use (toctou) race condition in Windows Hyper-V allows an authorized attacker to elevate...",
    "summary": "Time-of-check time-of-use (toctou) race condition in Windows Hyper-V allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00219
+   "epss": 0.00214
   },
   {
    "id": "CVE-2026-83840",
@@ -13071,7 +13139,7 @@
    "title": "Weak authentication in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
    "summary": "Weak authentication in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00442
+   "epss": 0.00432
   },
   {
    "id": "CVE-2026-83841",
@@ -13084,7 +13152,7 @@
    "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Win32K...",
    "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Win32K allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00219
+   "epss": 0.00214
   },
   {
    "id": "CVE-2026-87694",
@@ -13097,7 +13165,7 @@
    "title": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-87695",
@@ -13126,7 +13194,7 @@
      "toExcl": "15.02.2562.056"
     }
    ],
-   "epss": 0.00299
+   "epss": 0.00292
   },
   {
    "id": "CVE-2026-87696",
@@ -13155,7 +13223,7 @@
      "toExcl": "15.02.2562.056"
     }
    ],
-   "epss": 0.00429
+   "epss": 0.0042
   },
   {
    "id": "CVE-2026-87699",
@@ -13168,7 +13236,2529 @@
    "title": "Heap-based buffer overflow in Winlogon allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Winlogon allows an authorized attacker to elevate privileges locally.",
    "affects": [],
+   "epss": 0.00353
+  },
+  {
+   "id": "CVE-2026-105733",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper access control in Windows Hyper-V allows an authorized attacker to execute code locally.",
+   "summary": "Improper access control in Windows Hyper-V allows an authorized attacker to execute code locally.",
+   "affects": [],
+   "epss": 0.00376
+  },
+  {
+   "id": "CVE-2026-108130",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Virtualization-Based Security (VBS) Enclave allows an authorized...",
+   "summary": "Heap-based buffer overflow in Windows Virtualization-Based Security (VBS) Enclave allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00376
+  },
+  {
+   "id": "CVE-2026-108133",
+   "vendor": "Microsoft",
+   "product": "windows server",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Release of invalid pointer or reference in Windows Modern Device Management (MDM) allows an authorized...",
+   "summary": "Release of invalid pointer or reference in Windows Modern Device Management (MDM) allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
    "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-108134",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Autopilot allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Autopilot allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-108399",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.2,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Hyper-V allows an authorized attacker to elevate privileges locally.",
+   "summary": "Heap-based buffer overflow in Windows Hyper-V allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00391
+  },
+  {
+   "id": "CVE-2026-69650",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper verification of cryptographic signature in Windows Key Distribution Center allows an authorized...",
+   "summary": "Improper verification of cryptographic signature in Windows Key Distribution Center allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00258
+  },
+  {
+   "id": "CVE-2026-69743",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Program Compatibility Assistant Service allows an authorized attacker to elevate...",
+   "summary": "Use after free in Windows Program Compatibility Assistant Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-69763",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Storage allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Storage allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00235
+  },
+  {
+   "id": "CVE-2026-69988",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00645
+  },
+  {
+   "id": "CVE-2026-70006",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00645
+  },
+  {
+   "id": "CVE-2026-70048",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Resilient File System (ReFS) allows an authorized attacker to elevate...",
+   "summary": "Heap-based buffer overflow in Windows Resilient File System (ReFS) allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-70051",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Access of resource using incompatible type ('type confusion') in Windows SmartScreen allows an authorized...",
+   "summary": "Access of resource using incompatible type ('type confusion') in Windows SmartScreen allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-70052",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Integer overflow or wraparound in Windows PowerShell allows an authorized attacker to execute code locally.",
+   "summary": "Integer overflow or wraparound in Windows PowerShell allows an authorized attacker to execute code locally.",
+   "affects": [],
+   "epss": 0.00373
+  },
+  {
+   "id": "CVE-2026-70054",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows NetBIOS allows an authorized attacker to elevate privileges locally.",
+   "summary": "Heap-based buffer overflow in Windows NetBIOS allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00468
+  },
+  {
+   "id": "CVE-2026-70056",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Update Service allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Update Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-70058",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds write in Windows DHCP Server allows an unauthorized attacker to execute code over a network.",
+   "summary": "Out-of-bounds write in Windows DHCP Server allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.01359
+  },
+  {
+   "id": "CVE-2026-70059",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows OLE allows an authorized attacker to elevate privileges locally.",
+   "summary": "Heap-based buffer overflow in Windows OLE allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-70060",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Win32 Kernel Subsystem allows an authorized attacker to elevate...",
+   "summary": "Heap-based buffer overflow in Windows Win32 Kernel Subsystem allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00433
+  },
+  {
+   "id": "CVE-2026-70062",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Double free in Windows Libarchive allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Windows Libarchive allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00787
+  },
+  {
+   "id": "CVE-2026-70064",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Integer underflow (wrap or wraparound) in Windows Kerberos allows an authorized attacker to elevate...",
+   "summary": "Integer underflow (wrap or wraparound) in Windows Kerberos allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-70066",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows DHCP Server allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows DHCP Server allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-70067",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Win32 Kernel Subsystem allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Win32 Kernel Subsystem allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-70068",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Client-Side Caching (CSC) Service allows an unauthorized attacker to...",
+   "summary": "Heap-based buffer overflow in Windows Client-Side Caching (CSC) Service allows an unauthorized attacker to elevate privileges over a network.",
+   "affects": [],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-70069",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Stack-based buffer overflow in Windows DHCP Server allows an authorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Windows DHCP Server allows an authorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.01034
+  },
+  {
+   "id": "CVE-2026-70076",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Win32 Kernel Subsystem allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Win32 Kernel Subsystem allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00337
+  },
+  {
+   "id": "CVE-2026-70086",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-70089",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows GDI allows an unauthorized attacker to execute code over a network.",
+   "summary": "Heap-based buffer overflow in Windows GDI allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-70115",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-70118",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Audio Service allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Audio Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-70123",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Numeric truncation error in Microsoft Graphics Component allows an authorized attacker to elevate privileges...",
+   "summary": "Numeric truncation error in Microsoft Graphics Component allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00348
+  },
+  {
+   "id": "CVE-2026-70126",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows Bluetooth Port Driver allows an unauthorized attacker to execute code over an...",
+   "summary": "Out-of-bounds read in Windows Bluetooth Port Driver allows an unauthorized attacker to execute code over an adjacent network.",
+   "affects": [],
+   "epss": 0.00533
+  },
+  {
+   "id": "CVE-2026-70131",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to elevate...",
+   "summary": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00505
+  },
+  {
+   "id": "CVE-2026-70132",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Portable Device File System Driver allows an authorized attacker to...",
+   "summary": "Heap-based buffer overflow in Windows Portable Device File System Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00404
+  },
+  {
+   "id": "CVE-2026-70133",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Allocation of resources without limits or throttling in Windows SMB Server allows an unauthorized attacker to...",
+   "summary": "Allocation of resources without limits or throttling in Windows SMB Server allows an unauthorized attacker to deny service over a network.",
+   "affects": [],
+   "epss": 0.01301
+  },
+  {
+   "id": "CVE-2026-70134",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Event Tracing allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Event Tracing allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-70136",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-70138",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows OLE allows an authorized attacker to elevate privileges locally.",
+   "summary": "Heap-based buffer overflow in Windows OLE allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-70139",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Update Service allows an authorized attacker to elevate privileges...",
+   "summary": "Heap-based buffer overflow in Windows Update Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-70140",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Audio Service allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Audio Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-70142",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Untrusted search path in Windows Update Service allows an authorized attacker to elevate privileges locally.",
+   "summary": "Untrusted search path in Windows Update Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00414
+  },
+  {
+   "id": "CVE-2026-70143",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Network File System allows an authorized attacker to execute code...",
+   "summary": "Heap-based buffer overflow in Windows Network File System allows an authorized attacker to execute code locally.",
+   "affects": [],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-70147",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to execute...",
+   "summary": "Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.01094
+  },
+  {
+   "id": "CVE-2026-70149",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Exposure of sensitive information to an unauthorized actor in Windows Client Side Caching driver (csc.sys)...",
+   "summary": "Exposure of sensitive information to an unauthorized actor in Windows Client Side Caching driver (csc.sys) allows an authorized attacker to disclose information locally.",
+   "affects": [],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-70150",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-70151",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Direct Composition allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Direct Composition allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00404
+  },
+  {
+   "id": "CVE-2026-70153",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to execute...",
+   "summary": "Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.01094
+  },
+  {
+   "id": "CVE-2026-70156",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00304
+  },
+  {
+   "id": "CVE-2026-70157",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows System Information Console allows an unauthorized attacker to execute...",
+   "summary": "Heap-based buffer overflow in Windows System Information Console allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.01084
+  },
+  {
+   "id": "CVE-2026-70158",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Remote Code Execution in Windows Routing and Remote Access Service (RRAS) allows attacker to gain an...",
+   "summary": "Remote Code Execution in Windows Routing and Remote Access Service (RRAS) allows attacker to gain an unauthorized access to victim's machine",
+   "affects": [],
+   "epss": 0.00964
+  },
+  {
+   "id": "CVE-2026-70163",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Allocation of resources without limits or throttling in OpenSSH for Windows allows an unauthorized attacker...",
+   "summary": "Allocation of resources without limits or throttling in OpenSSH for Windows allows an unauthorized attacker to deny service over a network.",
+   "affects": [],
+   "epss": 0.01252
+  },
+  {
+   "id": "CVE-2026-70164",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows TCP/IP allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows TCP/IP allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-70168",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate...",
+   "summary": "Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-70169",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows...",
+   "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Connected Devices Platform Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00219
+  },
+  {
+   "id": "CVE-2026-70172",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Untrusted pointer dereference in Windows NTFS allows an authorized attacker to elevate privileges locally.",
+   "summary": "Untrusted pointer dereference in Windows NTFS allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-70177",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Numeric truncation error in Microsoft Windows Search Component allows an authorized attacker to elevate...",
+   "summary": "Numeric truncation error in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-70184",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper resolution of path equivalence in Windows Backup Engine allows an authorized attacker to elevate...",
+   "summary": "Improper resolution of path equivalence in Windows Backup Engine allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00431
+  },
+  {
+   "id": "CVE-2026-70185",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Protection mechanism failure in Windows PowerShell allows an authorized attacker to bypass a security feature...",
+   "summary": "Protection mechanism failure in Windows PowerShell allows an authorized attacker to bypass a security feature locally.",
+   "affects": [],
+   "epss": 0.00311
+  },
+  {
+   "id": "CVE-2026-70205",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Access of resource using incompatible type ('type confusion') in Windows Ancillary Function Driver for...",
+   "summary": "Access of resource using incompatible type ('type confusion') in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-70207",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Network Policy Server (NPS) allows an authorized attacker to execute code over...",
+   "summary": "Heap-based buffer overflow in Network Policy Server (NPS) allows an authorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00751
+  },
+  {
+   "id": "CVE-2026-70210",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows OLE DB allows an unauthorized attacker to elevate privileges over a...",
+   "summary": "Heap-based buffer overflow in Windows OLE DB allows an unauthorized attacker to elevate privileges over a network.",
+   "affects": [],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-70212",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper restriction of communication channel to intended endpoints in Windows Security Center allows an...",
+   "summary": "Improper restriction of communication channel to intended endpoints in Windows Security Center allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00274
+  },
+  {
+   "id": "CVE-2026-70218",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Insufficient granularity of access control in Windows StateRepository API allows an authorized attacker to...",
+   "summary": "Insufficient granularity of access control in Windows StateRepository API allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.0036
+  },
+  {
+   "id": "CVE-2026-70222",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Relative path traversal in Windows Shell allows an authorized attacker to elevate privileges locally.",
+   "summary": "Relative path traversal in Windows Shell allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00402
+  },
+  {
+   "id": "CVE-2026-70223",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Console Driver allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Console Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00314
+  },
+  {
+   "id": "CVE-2026-70225",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Access of resource using incompatible type ('type confusion') in Windows Ancillary Function Driver for...",
+   "summary": "Access of resource using incompatible type ('type confusion') in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-70228",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Desktop Window Manager allows an authorized attacker to elevate privileges locally.",
+   "summary": "Out-of-bounds read in Desktop Window Manager allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00373
+  },
+  {
+   "id": "CVE-2026-70229",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Incorrect authorization in Active Directory Domain Services allows an unauthorized attacker to execute code...",
+   "summary": "Incorrect authorization in Active Directory Domain Services allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.01065
+  },
+  {
+   "id": "CVE-2026-70230",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Audio Service allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Audio Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-70233",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Common Log File System Driver allows an authorized attacker to elevate...",
+   "summary": "Heap-based buffer overflow in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00495
+  },
+  {
+   "id": "CVE-2026-70237",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate...",
+   "summary": "Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00326
+  },
+  {
+   "id": "CVE-2026-70238",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Storage Spaces Controller allows an authorized attacker to elevate...",
+   "summary": "Heap-based buffer overflow in Windows Storage Spaces Controller allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-70241",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Kerberos allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Kerberos allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00304
+  },
+  {
+   "id": "CVE-2026-70245",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Access of resource using incompatible type ('type confusion') in Windows Ancillary Function Driver for...",
+   "summary": "Access of resource using incompatible type ('type confusion') in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00433
+  },
+  {
+   "id": "CVE-2026-70247",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows HTTP.sys allows an authorized attacker to execute code locally.",
+   "summary": "Out-of-bounds read in Windows HTTP.sys allows an authorized attacker to execute code locally.",
+   "affects": [],
+   "epss": 0.00348
+  },
+  {
+   "id": "CVE-2026-70250",
+   "vendor": "Microsoft",
+   "product": "windows server",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows DHCP Client allows an unauthorized attacker to execute code over an adjacent...",
+   "summary": "Use after free in Windows DHCP Client allows an unauthorized attacker to execute code over an adjacent network.",
+   "affects": [],
+   "epss": 0.00477
+  },
+  {
+   "id": "CVE-2026-70252",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Virtual Hard Disk (VHD) Miniport Driver allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Virtual Hard Disk (VHD) Miniport Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-70255",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Desktop Window Manager allows an authorized attacker to elevate privileges...",
+   "summary": "Heap-based buffer overflow in Desktop Window Manager allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00404
+  },
+  {
+   "id": "CVE-2026-70258",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute...",
+   "summary": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-70262",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in WebDAV allows an unauthorized attacker to elevate privileges over a network.",
+   "summary": "Heap-based buffer overflow in WebDAV allows an unauthorized attacker to elevate privileges over a network.",
+   "affects": [],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-70272",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-70274",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Bind Filter Driver allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Bind Filter Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-70275",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Untrusted pointer dereference in Windows CD-ROM Driver allows an unauthorized attacker to execute code over a...",
+   "summary": "Untrusted pointer dereference in Windows CD-ROM Driver allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-70278",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an authorized attacker to elevate...",
+   "summary": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-70286",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Win32K - GRFX allows an authorized attacker to elevate privileges...",
+   "summary": "Heap-based buffer overflow in Windows Win32K - GRFX allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.0042
+  },
+  {
+   "id": "CVE-2026-70299",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper access control in Windows Bind Filter Driver allows an authorized attacker to elevate privileges...",
+   "summary": "Improper access control in Windows Bind Filter Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00346
+  },
+  {
+   "id": "CVE-2026-70566",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Null pointer dereference in Windows Schannel allows an authorized attacker to elevate privileges locally.",
+   "summary": "Null pointer dereference in Windows Schannel allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-70580",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Missing authentication for critical function in Windows Credential Guard allows an authorized attacker to...",
+   "summary": "Missing authentication for critical function in Windows Credential Guard allows an authorized attacker to perform spoofing locally.",
+   "affects": [],
+   "epss": 0.00346
+  },
+  {
+   "id": "CVE-2026-72934",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Program Compatibility Assistant Service allows an authorized attacker to elevate...",
+   "summary": "Use after free in Windows Program Compatibility Assistant Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-72955",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Application Compatibility Cache allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Windows Application Compatibility Cache allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00314
+  },
+  {
+   "id": "CVE-2026-72968",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Program Compatibility Assistant Service allows an authorized attacker to elevate...",
+   "summary": "Use after free in Windows Program Compatibility Assistant Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-72969",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Program Compatibility Assistant Service allows an authorized attacker to elevate...",
+   "summary": "Use after free in Windows Program Compatibility Assistant Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-73027",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "External control of system or configuration setting in Windows Setup Files Cleanup allows an authorized...",
+   "summary": "External control of system or configuration setting in Windows Setup Files Cleanup allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00414
+  },
+  {
+   "id": "CVE-2026-77496",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Imaging Component allows an unauthorized attacker to execute code over...",
+   "summary": "Heap-based buffer overflow in Windows Imaging Component allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-78459",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Internet Information Services allows an authorized attacker to elevate...",
+   "summary": "Heap-based buffer overflow in Windows Internet Information Services allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00373
+  },
+  {
+   "id": "CVE-2026-81969",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Insufficient granularity of access control in Windows Server Update Service allows an authorized attacker to...",
+   "summary": "Insufficient granularity of access control in Windows Server Update Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00346
+  },
+  {
+   "id": "CVE-2026-81971",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows NTFS...",
+   "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows NTFS allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00241
+  },
+  {
+   "id": "CVE-2026-83499",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Insufficient granularity of access control in Windows Server Update Service allows an authorized attacker to...",
+   "summary": "Insufficient granularity of access control in Windows Server Update Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00346
+  },
+  {
+   "id": "CVE-2026-83505",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Time-of-check time-of-use (toctou) race condition in Windows Setup Files Cleanup allows an authorized...",
+   "summary": "Time-of-check time-of-use (toctou) race condition in Windows Setup Files Cleanup allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00257
+  },
+  {
+   "id": "CVE-2026-83506",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Untrusted search path in Servicing Stack Updates allows an authorized attacker to elevate privileges locally.",
+   "summary": "Untrusted search path in Servicing Stack Updates allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00414
+  },
+  {
+   "id": "CVE-2026-83508",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows NTFS allows an authorized attacker to elevate privileges locally.",
+   "summary": "Out-of-bounds read in Windows NTFS allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-83509",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Untrusted search path in Windows Setup Files Cleanup allows an authorized attacker to elevate privileges...",
+   "summary": "Untrusted search path in Windows Setup Files Cleanup allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00335
+  },
+  {
+   "id": "CVE-2026-83510",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Time-of-check time-of-use (toctou) race condition in Windows Setup Files Cleanup allows an authorized...",
+   "summary": "Time-of-check time-of-use (toctou) race condition in Windows Setup Files Cleanup allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00241
+  },
+  {
+   "id": "CVE-2026-83511",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Weak authentication in Active Directory Federation Services (AD FS) allows an unauthorized attacker to...",
+   "summary": "Weak authentication in Active Directory Federation Services (AD FS) allows an unauthorized attacker to perform spoofing over a network.",
+   "affects": [],
+   "epss": 0.00666
+  },
+  {
+   "id": "CVE-2026-83566",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Win32K - ICOMP allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Win32K - ICOMP allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-83567",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows NTFS allows an authorized attacker to elevate privileges locally.",
+   "summary": "Out-of-bounds read in Windows NTFS allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-83568",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper access control in Windows Kernel-Mode Drivers allows an authorized attacker to elevate privileges...",
+   "summary": "Improper access control in Windows Kernel-Mode Drivers allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00346
+  },
+  {
+   "id": "CVE-2026-83570",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-83574",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-83575",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00307
+  },
+  {
+   "id": "CVE-2026-83579",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Smart Card allows an authorized attacker to elevate privileges locally.",
+   "summary": "Heap-based buffer overflow in Windows Smart Card allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-83584",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Smart Card allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Smart Card allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-83585",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use of externally-controlled format string in Windows NTFS allows an authorized attacker to elevate...",
+   "summary": "Use of externally-controlled format string in Windows NTFS allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-83588",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows USB Driver allows an authorized attacker to elevate privileges locally.",
+   "summary": "Heap-based buffer overflow in Windows USB Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-83634",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Double free in Windows BitLocker allows an authorized attacker to elevate privileges locally.",
+   "summary": "Double free in Windows BitLocker allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-83637",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows Kernel-Mode Drivers allows an authorized attacker to elevate privileges locally.",
+   "summary": "Out-of-bounds read in Windows Kernel-Mode Drivers allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-83638",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows USB Driver allows an authorized attacker to elevate privileges locally.",
+   "summary": "Heap-based buffer overflow in Windows USB Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-83639",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Sensor Data Service allows an authorized attacker to elevate privileges...",
+   "summary": "Heap-based buffer overflow in Windows Sensor Data Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-83640",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows NTFS allows an authorized attacker to execute code locally.",
+   "summary": "Heap-based buffer overflow in Windows NTFS allows an authorized attacker to execute code locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-83789",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows SMB Client allows an unauthorized attacker to elevate privileges over a...",
+   "summary": "Heap-based buffer overflow in Windows SMB Client allows an unauthorized attacker to elevate privileges over a network.",
+   "affects": [],
+   "epss": 0.00869
+  },
+  {
+   "id": "CVE-2026-83790",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Hello allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Hello allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-83791",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper authorization in Windows Virtual Input allows an authorized attacker to elevate privileges locally.",
+   "summary": "Improper authorization in Windows Virtual Input allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00323
+  },
+  {
+   "id": "CVE-2026-83792",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Incorrect authorization in Windows Device Install Service allows an authorized attacker to elevate privileges...",
+   "summary": "Incorrect authorization in Windows Device Install Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00323
+  },
+  {
+   "id": "CVE-2026-83793",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper link resolution before file access ('link following') in Windows Update Orchestrator Service allows...",
+   "summary": "Improper link resolution before file access ('link following') in Windows Update Orchestrator Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00326
+  },
+  {
+   "id": "CVE-2026-83842",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Double free in Windows TCP/IP allows an authorized attacker to elevate privileges locally.",
+   "summary": "Double free in Windows TCP/IP allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00304
+  },
+  {
+   "id": "CVE-2026-83843",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows Internet Key Exchange (IKE) Protocol allows an unauthorized attacker to deny...",
+   "summary": "Out-of-bounds read in Windows Internet Key Exchange (IKE) Protocol allows an unauthorized attacker to deny service over a network.",
+   "affects": [],
+   "epss": 0.01301
+  },
+  {
+   "id": "CVE-2026-85339",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Remote Code Execution in Windows Routing and Remote Access Service (RRAS) allows attacker to gain an...",
+   "summary": "Remote Code Execution in Windows Routing and Remote Access Service (RRAS) allows attacker to gain an unauthorized access to victim's machine",
+   "affects": [],
+   "epss": 0.00557
+  },
+  {
+   "id": "CVE-2026-85341",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows USB Video Driver allows an authorized attacker to elevate privileges...",
+   "summary": "Heap-based buffer overflow in Windows USB Video Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00319
+  },
+  {
+   "id": "CVE-2026-85342",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Device Association Service allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Windows Device Association Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00253
+  },
+  {
+   "id": "CVE-2026-85343",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper link resolution before file access ('link following') in Windows Hyper-V allows an authorized...",
+   "summary": "Improper link resolution before file access ('link following') in Windows Hyper-V allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00355
+  },
+  {
+   "id": "CVE-2026-85352",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Device Association Service allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Windows Device Association Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00253
+  },
+  {
+   "id": "CVE-2026-85353",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows Print Spooler Components allows an unauthorized attacker to disclose...",
+   "summary": "Out-of-bounds read in Windows Print Spooler Components allows an unauthorized attacker to disclose information over a network.",
+   "affects": [],
+   "epss": 0.01005
+  },
+  {
+   "id": "CVE-2026-85354",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00253
+  },
+  {
+   "id": "CVE-2026-85355",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Inclusion of functionality from untrusted control sphere in Windows Common Log File System Driver allows an...",
+   "summary": "Inclusion of functionality from untrusted control sphere in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00288
+  },
+  {
+   "id": "CVE-2026-85356",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows Volume Manager Extension Driver allows an authorized attacker to elevate...",
+   "summary": "Out-of-bounds read in Windows Volume Manager Extension Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00319
+  },
+  {
+   "id": "CVE-2026-85357",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Phone...",
+   "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Phone Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00194
+  },
+  {
+   "id": "CVE-2026-85358",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "summary": "Heap-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00319
+  },
+  {
+   "id": "CVE-2026-85359",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper control of generation of code ('code injection') in Windows Performance Monitor allows an authorized...",
+   "summary": "Improper control of generation of code ('code injection') in Windows Performance Monitor allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00747
+  },
+  {
+   "id": "CVE-2026-85361",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00253
+  },
+  {
+   "id": "CVE-2026-85362",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Release of invalid pointer or reference in Windows Management Instrumentation allows an authorized attacker...",
+   "summary": "Release of invalid pointer or reference in Windows Management Instrumentation allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00253
+  },
+  {
+   "id": "CVE-2026-85364",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00253
+  },
+  {
+   "id": "CVE-2026-85366",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "summary": "Heap-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00319
+  },
+  {
+   "id": "CVE-2026-85367",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Cash Drawer Protocol Provider allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Windows Cash Drawer Protocol Provider allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00253
+  },
+  {
+   "id": "CVE-2026-85368",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows TCP/IP allows an authorized attacker to elevate privileges locally.",
+   "summary": "Heap-based buffer overflow in Windows TCP/IP allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00319
+  },
+  {
+   "id": "CVE-2026-85369",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.2,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows Hyper-V allows an authorized attacker to elevate privileges locally.",
+   "summary": "Out-of-bounds read in Windows Hyper-V allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00333
+  },
+  {
+   "id": "CVE-2026-85905",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows UI Immersive Server allows an authorized attacker to elevate privileges...",
+   "summary": "Heap-based buffer overflow in Windows UI Immersive Server allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-85906",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Direct Composition allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Direct Composition allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00348
+  },
+  {
+   "id": "CVE-2026-85908",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Win32K - GRFX allows an authorized attacker to elevate privileges...",
+   "summary": "Heap-based buffer overflow in Windows Win32K - GRFX allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00434
+  },
+  {
+   "id": "CVE-2026-85927",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Universal Plug and Play (UPnP) Device Host allows an authorized...",
+   "summary": "Heap-based buffer overflow in Windows Universal Plug and Play (UPnP) Device Host allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00318
+  },
+  {
+   "id": "CVE-2026-85928",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Volume Manager Extension Driver allows an unauthorized attacker to...",
+   "summary": "Heap-based buffer overflow in Windows Volume Manager Extension Driver allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00648
+  },
+  {
+   "id": "CVE-2026-85930",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Image Acquisition allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Image Acquisition allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00204
+  },
+  {
+   "id": "CVE-2026-85931",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Distributed File System (DFS) allows an authorized attacker to execute...",
+   "summary": "Heap-based buffer overflow in Windows Distributed File System (DFS) allows an authorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00851
+  },
+  {
+   "id": "CVE-2026-85933",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Print Spooler Components allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Windows Print Spooler Components allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00245
+  },
+  {
+   "id": "CVE-2026-85934",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows AppX Deployment Service allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows AppX Deployment Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00252
+  },
+  {
+   "id": "CVE-2026-85936",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Double free in Windows Shell allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Windows Shell allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00557
+  },
+  {
+   "id": "CVE-2026-85941",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows...",
+   "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00233
+  },
+  {
+   "id": "CVE-2026-85945",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00369
+  },
+  {
+   "id": "CVE-2026-87691",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Management Services allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Management Services allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00245
+  },
+  {
+   "id": "CVE-2026-87693",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00258
+  },
+  {
+   "id": "CVE-2026-87700",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.0031
+  },
+  {
+   "id": "CVE-2026-87702",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Integer overflow or wraparound in Windows Resource Management (MRM) allows an authorized attacker to elevate...",
+   "summary": "Integer overflow or wraparound in Windows Resource Management (MRM) allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-87704",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00258
+  },
+  {
+   "id": "CVE-2026-87705",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper verification of source of a communication channel in Windows Hyper-V allows an unauthorized attacker...",
+   "summary": "Improper verification of source of a communication channel in Windows Hyper-V allows an unauthorized attacker to bypass a security feature over an adjacent network.",
+   "affects": [],
+   "epss": 0.00441
+  },
+  {
+   "id": "CVE-2026-87706",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Storage Spaces Controller allows an authorized attacker to elevate...",
+   "summary": "Heap-based buffer overflow in Windows Storage Spaces Controller allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00245
+  },
+  {
+   "id": "CVE-2026-87707",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Fax and Scan Service allows an authorized attacker to elevate...",
+   "summary": "Heap-based buffer overflow in Windows Fax and Scan Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00245
+  },
+  {
+   "id": "CVE-2026-87708",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00252
+  },
+  {
+   "id": "CVE-2026-88106",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00204
+  },
+  {
+   "id": "CVE-2026-88107",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00157
+  },
+  {
+   "id": "CVE-2026-88110",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Graphics Kernel allows an authorized attacker to elevate privileges...",
+   "summary": "Heap-based buffer overflow in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-88113",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Broadcast DVR User Service allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Windows Broadcast DVR User Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00258
+  },
+  {
+   "id": "CVE-2026-88115",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows Server for NFS allows an unauthorized attacker to execute code over a network.",
+   "summary": "Out-of-bounds read in Windows Server for NFS allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00719
+  },
+  {
+   "id": "CVE-2026-88117",
+   "vendor": "Microsoft",
+   "product": "windows server",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows DHCP Server allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Windows DHCP Server allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00711
+  },
+  {
+   "id": "CVE-2026-88118",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Integer overflow or wraparound in Windows Background Intelligent Transfer Service (BITS) allows an authorized...",
+   "summary": "Integer overflow or wraparound in Windows Background Intelligent Transfer Service (BITS) allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.0042
+  },
+  {
+   "id": "CVE-2026-88119",
+   "vendor": "Microsoft",
+   "product": "windows server",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows DHCP Server allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Windows DHCP Server allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.0078
+  },
+  {
+   "id": "CVE-2026-88120",
+   "vendor": "Microsoft",
+   "product": "windows server",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows DHCP Server allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Windows DHCP Server allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.0078
+  },
+  {
+   "id": "CVE-2026-88121",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Background Intelligent Transfer Service (BITS) allows an unauthorized attacker to...",
+   "summary": "Use after free in Windows Background Intelligent Transfer Service (BITS) allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00554
+  },
+  {
+   "id": "CVE-2026-88124",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00252
+  },
+  {
+   "id": "CVE-2026-88127",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows SMB Server allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows SMB Server allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-88128",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows DWM Core Library allows an authorized attacker to elevate privileges...",
+   "summary": "Heap-based buffer overflow in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-88133",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper authorization in Windows Portable Device Enumerator Service allows an authorized attacker to elevate...",
+   "summary": "Improper authorization in Windows Portable Device Enumerator Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.0055
+  },
+  {
+   "id": "CVE-2026-88134",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-88139",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00258
+  },
+  {
+   "id": "CVE-2026-88141",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00253
+  },
+  {
+   "id": "CVE-2026-88142",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Background Intelligent Transfer Service (BITS) allows an unauthorized attacker to...",
+   "summary": "Use after free in Windows Background Intelligent Transfer Service (BITS) allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00851
+  },
+  {
+   "id": "CVE-2026-88146",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows...",
+   "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Background Intelligent Transfer Service (BITS) allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00193
+  },
+  {
+   "id": "CVE-2026-88147",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Secure Socket Tunneling Protocol (SSTP) allows an authorized attacker...",
+   "summary": "Heap-based buffer overflow in Windows Secure Socket Tunneling Protocol (SSTP) allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00344
+  },
+  {
+   "id": "CVE-2026-88149",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Double free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate...",
+   "summary": "Double free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00204
+  },
+  {
+   "id": "CVE-2026-88152",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Background Intelligent Transfer Service (BITS) allows an authorized attacker to...",
+   "summary": "Use after free in Windows Background Intelligent Transfer Service (BITS) allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00355
+  },
+  {
+   "id": "CVE-2026-88157",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in OpenSSH for Windows allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in OpenSSH for Windows allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00535
+  },
+  {
+   "id": "CVE-2026-88159",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Background Intelligent Transfer Service (BITS) allows an unauthorized attacker to...",
+   "summary": "Use after free in Windows Background Intelligent Transfer Service (BITS) allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.01441
+  },
+  {
+   "id": "CVE-2026-96861",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Network Device Enrollment Service (NDES) allows an unauthorized attacker to deny...",
+   "summary": "Out-of-bounds read in Network Device Enrollment Service (NDES) allows an unauthorized attacker to deny service over a network.",
+   "affects": [],
+   "epss": 0.01149
+  },
+  {
+   "id": "CVE-2026-96862",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Windows Spaceport.sys allows an authorized attacker to elevate privileges locally.",
+   "summary": "Out-of-bounds read in Windows Spaceport.sys allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00318
+  },
+  {
+   "id": "CVE-2026-96864",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Double free in Microsoft Failover Cluster Virtual Driver allows an unauthorized attacker to execute code over...",
+   "summary": "Double free in Microsoft Failover Cluster Virtual Driver allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00648
+  },
+  {
+   "id": "CVE-2026-96866",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Out-of-bounds read in Network Device Enrollment Service (NDES) allows an unauthorized attacker to deny...",
+   "summary": "Out-of-bounds read in Network Device Enrollment Service (NDES) allows an unauthorized attacker to deny service over a network.",
+   "affects": [],
+   "epss": 0.01149
+  },
+  {
+   "id": "CVE-2026-96521",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Photoshop Desktop is affected by an out-of-bounds write vulnerability that could result in arbitrary code...",
+   "summary": "Photoshop Desktop is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+   "affects": [],
+   "epss": 0.00182
   },
   {
    "id": "CVE-2026-100227",
@@ -14758,27 +17348,39 @@
    "kev": true,
    "published": "2026-10-01",
    "title": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet...",
-   "summary": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2.0 through 7.2.9 may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
+   "summary": "An improper limitation of a pathname to a restricted directory ('path traversal') vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2.0 through 7.2.9, FortiMail 7.0 all versions may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
    "epss": 0.04573,
    "kevAdded": "2026-10-01",
    "affects": [
     {
      "vendor": "Fortinet",
      "product": "fortimail",
+     "from": "7.0.0",
+     "to": "7.0.9"
+    },
+    {
+     "vendor": "Fortinet",
+     "product": "fortimail",
      "from": "7.2.0",
-     "to": "7.4.8"
+     "to": "7.2.9"
+    },
+    {
+     "vendor": "Fortinet",
+     "product": "fortimail",
+     "from": "7.4.0",
+     "toExcl": "7.4.9"
     },
     {
      "vendor": "Fortinet",
      "product": "fortimail",
      "from": "7.6.0",
-     "to": "7.6.6"
+     "toExcl": "7.6.7"
     },
     {
      "vendor": "Fortinet",
      "product": "fortimail",
      "from": "8.0.0",
-     "to": "8.0.1"
+     "toExcl": "8.0.2"
     }
    ]
   },
