@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-29T11:41:34.083Z",
+ "generated": "2026-10-30T11:29:19.997Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 20
   },
   {
@@ -78,15 +78,15 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
-   "count": 5350
+   "checked": "2026-10-30T11:29:19.997Z",
+   "count": 5345
   },
   {
    "company": "microsoft",
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,19 +224,123 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
-   "count": 711
+   "checked": "2026-10-30T11:29:19.997Z",
+   "count": 712
   },
   {
    "company": "zscaler",
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-29T11:41:34.083Z",
+   "checked": "2026-10-30T11:29:19.997Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "tenable",
+   "feed": "Blog",
+   "title": "php2shell one week later: Why one exploit doesn’t work everywhere",
+   "link": "https://www.tenable.com/blog/php2shell-one-week-later-why-one-exploit-doesnt-work-everywhere",
+   "date": "2026-10-30T01:42:06.000Z",
+   "summary": "php2shell raised fears of mass exploitation. A week of testing by our research team found that working exploits had to be fitted to each target’s exact PHP setup. Systems that share one build, such as network appliances, are the exception: one tuned exploit can reach every..."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Brotli Flaw Behind 'Node2Shell': What to Patch and Where It Hides",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/brotli-flaw-behind-node2shell",
+   "date": "2026-10-30T00:00:00.000Z",
+   "summary": "The page you requested could not be found."
+  },
+  {
+   "company": "paloalto",
+   "feed": "Security advisories",
+   "title": "CVE-2026-109618 Impact of Critical Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Palo Alto Networks Products (Severity: CRITICAL)",
+   "link": "https://security.paloaltonetworks.com/CVE-2026-109618",
+   "date": "2026-10-29T23:54:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Cisco Finesse Server-Side Request Forgery Vulnerability",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-ssrf-mmSuyugS?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Finesse%20Server-Side%20Request%20Forgery%20Vulnerability%26vs_k=1",
+   "date": "2026-10-29T21:22:28.000Z",
+   "summary": "A vulnerability in the web-based management interface of Cisco Finesse could allow an unauthenticated, remote attacker to conduct server-side request forgery (SSRF) attacks through an affected device. This vulnerability is due to improper input validation for specific HTTP..."
+  },
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+   "date": "2026-10-29T20:24:20.000Z",
+   "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate..."
+  },
+  {
+   "company": "paloalto",
+   "feed": "Unit 42 research",
+   "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29)",
+   "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
+   "date": "2026-10-29T18:00:34.000Z",
+   "summary": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 29) appeared first on Unit 42 ."
+  },
+  {
+   "company": "talos",
+   "feed": "Threat research",
+   "title": "A quiet week in infosec <.<",
+   "link": "https://blog.talosintelligence.com/a-quiet-week-in-infosec/",
+   "date": "2026-10-29T18:00:00.000Z",
+   "summary": "In this edition of the Threat Source newsletter, William explores how PHP has taken over the conversation, Node.js has joined in, but underneath it all, there are still good people doing good work."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "Tracking AI adoption in North Korean threat actor tradecraft",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/tracking-ai-adoption-in-north-korean-threat-actor-tradecraft/",
+   "date": "2026-10-29T16:00:00.000Z",
+   "summary": "As Microsoft Threat Intelligence continues to track how threat actors operationalize AI to increase the speed and efficiency of attacks, we’ve identified North Korean threat actors expanding their use of AI with varying levels of adoption. This blog breaks down how North Korean..."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/10/29/idc-marketscape-names-microsoft-a-leader-in-the-2026-worldwide-modern-endpoint-security-for-enterprises-vendor-assessment/",
+   "date": "2026-10-29T16:00:00.000Z",
+   "summary": "IDC has named Microsoft a Leader in the 2026 IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises. The post IDC MarketScape names Microsoft a Leader in the 2026 Worldwide Modern Endpoint Security for Enterprises Vendor Assessment appeared first on Microsoft..."
+  },
+  {
+   "company": "wiz",
+   "feed": "Blog",
+   "title": "The Rise of Agentic Attacks: What They Look Like, and Where They're Headed",
+   "link": "https://www.wiz.io/blog/the-rise-of-agentic-attacks",
+   "date": "2026-10-29T14:26:22.000Z",
+   "summary": "AI agents are changing how attackers operate. Explore real-world cases of agentic attacks, learn how to identify their fingerprints, and discover what they mean for the future of cybersecurity."
+  },
+  {
+   "company": "checkpoint",
+   "feed": "Research",
+   "title": "Cohere’s Qwen Story: Looks More Like Model Jaggedness",
+   "link": "https://research.checkpoint.com/2026/coheres-qwen-story-looks-more-like-model-jaggedness/",
+   "date": "2026-10-29T14:08:46.000Z",
+   "summary": "Key findings On October 26, Cohere reported a puzzling incident involving Qwen3.8-Flash-Next, an open-weight model from Alibaba. The task was straightforward: write a detection rule for suspicious curl downloads followed by bash execution. Instead, the model produced a shell..."
+  },
+  {
+   "company": "talos",
+   "feed": "Threat research",
+   "title": "IR trends Q3 2026: Actors impersonate IT help desks in vishing attacks as ransomware activity increases",
+   "link": "https://blog.talosintelligence.com/ir-trends-q3-2026/",
+   "date": "2026-10-29T14:00:00.000Z",
+   "summary": "Phishing remained the leading initial access technique, while percentage of ransomware and pre-ransomware cases increased. Finance and public administration tied as the top-targeted industries."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-88078 Microsoft Edge (Chromium-based) Spoofing Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88078",
+   "date": "2026-10-29T14:00:00.000Z",
+   "summary": "CWE added. Informational change only."
+  },
   {
    "company": "talos",
    "feed": "Threat research",
@@ -244,6 +348,14 @@
    "link": "https://blog.talosintelligence.com/nik-c2-new-ai-enabled-framework/",
    "date": "2026-10-29T10:00:00.000Z",
    "summary": "Cisco Talos observed a new AI-integrated command-and-control (C2) framework in the wild called “NIK C2.”"
+  },
+  {
+   "company": "eset",
+   "feed": "WeLiveSecurity",
+   "title": "Amatera: How the prolific infostealer works and spreads",
+   "link": "https://www.welivesecurity.com/en/malware/amatera-how-prolific-infostealer-works-spreads/",
+   "date": "2026-10-29T08:00:00.000Z",
+   "summary": "The malware that topped ESET’s infostealer detections in Latin America in the first half of 2026 is an example of how cybercrime has professionalized"
   },
   {
    "company": "paloalto",
@@ -254,11 +366,19 @@
    "summary": ""
   },
   {
-   "company": "paloalto",
-   "feed": "Security advisories",
-   "title": "CVE-2026-109618 Impact of Critical Vulnerabilities in PHP (CVE-2026-109618, CVE-2026-109619) on Palo Alto Networks Products (Severity: CRITICAL)",
-   "link": "https://security.paloaltonetworks.com/CVE-2026-109618",
-   "date": "2026-10-29T05:20:00.000Z",
+   "company": "crowdstrike",
+   "feed": "Blog",
+   "title": "New Prompt Injection Techniques Cover Agent-Planning Attacks",
+   "link": "https://www.crowdstrike.com/en-us/blog/new-prompt-injection-techniques-cover-agent-planning-attacks/",
+   "date": "2026-10-29T05:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "crowdstrike",
+   "feed": "Blog",
+   "title": "VAPOR PANDA Uses AI-Driven ARTEX to Scale a Global Espionage Campaign",
+   "link": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
+   "date": "2026-10-29T05:00:00.000Z",
    "summary": ""
   },
   {
@@ -270,12 +390,20 @@
    "summary": "Information published."
   },
   {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "Brotli Flaw Behind 'Node2Shell': What to Patch and Where It Hides",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/brotli-flaw-behind-node2shell",
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "Physical Penetration Testing: When Human Trust Bypasses Layers of Security with a Simple Pretext",
+   "link": "https://www.sophos.com/en-us/blog/physical-penetration-testing-when-human-trust-bypasses-layers-of-security-with-a-simple-pretext",
    "date": "2026-10-29T00:00:00.000Z",
-   "summary": "The page you requested could not be found."
+   "summary": "A physical penetration test reveals how social engineering, badge security gaps, exposed network access, and everyday human behavior can undermine layers of physical security."
+  },
+  {
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "AI used in Aur0ra ransomware testing and execution",
+   "link": "https://www.sophos.com/en-us/blog/ai-used-in-aur0ra-ransomware-testing-and-execution",
+   "date": "2026-10-29T00:00:00.000Z",
+   "summary": "The GOLD OGRE threat group has used AI extensively to develop tools and to orchestrate and execute ransomware operations"
   },
   {
    "company": "talos",
@@ -292,14 +420,6 @@
    "link": "https://blog.talosintelligence.com/uat-11473-keydrift/",
    "date": "2026-10-28T21:32:02.000Z",
    "summary": "Talos has identified UAT-11473, a highly sophisticated APT, who exploited CVE-2026-20127, an authentication bypass vulnerability in Cisco SD-WAN Catalyst Controller instances to bypass authentication and gain unauthorized access to affected systems to deploy KeyDrift."
-  },
-  {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Vulnerabilities in Node.js Affecting Cisco Products: October 2026",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-   "date": "2026-10-28T20:36:45.000Z",
-   "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate..."
   },
   {
    "company": "talos",
@@ -404,6 +524,22 @@
    "link": "https://www.sentinelone.com/labs/labscon26-replay-keynote-a-sober-analysis-of-ai-impact/",
    "date": "2026-10-28T13:00:00.000Z",
    "summary": "Harvard Professor James Mickens weighs the promises of AI against its potential harms, arguing for hardware-based mechanisms to isolate frontier models."
+  },
+  {
+   "company": "eset",
+   "feed": "WeLiveSecurity",
+   "title": "Lessons from Cybersecurity Black Week",
+   "link": "https://www.welivesecurity.com/en/business-security/lessons-cybersecurity-black-week/",
+   "date": "2026-10-28T10:33:51.000Z",
+   "summary": "A critical PHP flaw, leaked Linux kernel reports, a poisoned LiteLLM release, and more, all in seven days. Which threats called for immediate action, and which generated more noise than real danger?"
+  },
+  {
+   "company": "eset",
+   "feed": "WeLiveSecurity",
+   "title": "ESET APT Activity Report Q2 2026–Q3 2026",
+   "link": "https://www.welivesecurity.com/en/eset-research/eset-apt-activity-report-q2-2026-q3-2026/",
+   "date": "2026-10-28T09:45:00.000Z",
+   "summary": "An overview of the activities of selected APT groups investigated and analyzed by ESET Research in Q2 2026 and Q3 2026"
   },
   {
    "company": "proofpoint",
@@ -603,14 +739,6 @@
    "title": "Chromium: CVE-2026-79265 Incomplete cleanup in GetUserMedia",
    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79265",
    "date": "2026-10-28T08:53:15.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79174 Incorrect authorization in Extensions",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79174",
-   "date": "2026-10-28T08:53:13.000Z",
    "summary": "Information published."
   },
   {
@@ -908,14 +1036,6 @@
    "link": "https://fortiguard.fortinet.com/threat-signal-report/5997",
    "date": "2026-10-24T01:44:52.000Z",
    "summary": "What is the Attack? Trimble Cityworks contains a deserialization vulnerability. This could allow an authenticated user to perform a remote code execution attack against a customer's Microsoft Internet Information Services (IIS) web server, potentially resulting in downtime and..."
-  },
-  {
-   "company": "paloalto",
-   "feed": "Unit 42 research",
-   "title": "Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25)",
-   "link": "https://unit42.paloaltonetworks.com/cve-2026-109618-cve-2026-109619/",
-   "date": "2026-10-23T19:00:34.000Z",
-   "summary": "CVE-2026-109618 and CVE-2026-109619 are Critical vulnerabilities in PHP, a scripting language used globally for web servers and CMS systems. The post Threat Brief: Critical Vulnerabilities in PHP: CVE-2026-109618, CVE-2026-109619 (Updated October 25) appeared first on Unit 42 ."
   },
   {
    "company": "microsoft",
@@ -1270,6 +1390,14 @@
    "summary": "In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability."
   },
   {
+   "company": "rapid7",
+   "feed": "Blog",
+   "title": "Q3 2026 Threat Update: Attackers Are Exploiting Vulnerabilities Within 3 Days",
+   "link": "https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days",
+   "date": "2026-10-21T13:00:00.000Z",
+   "summary": "Three days is the average time between a high-severity vulnerability becoming public and its exploitation, according to the latest Quarterly Threat Landscape Report from Rapid7. And 71% of the exploitation tracked in Q3 occurred within the first seven days. For security teams..."
+  },
+  {
    "company": "qualys",
    "feed": "Blog",
    "title": "The Science of Exploitability: Decoding BlueHammer",
@@ -1284,14 +1412,6 @@
    "link": "https://www.tenable.com/blog/how-tenable-brought-multi-language-support-to-security-detectors-with-agentic-translation",
    "date": "2026-10-21T13:00:00.000Z",
    "summary": "AI security tools that can only detect threats in English offer limited protection. Here’s how Tenable trained our threat detectors to process nine additional languages and understand thousands more, without the need for a translation model, which increases costs and slows down..."
-  },
-  {
-   "company": "rapid7",
-   "feed": "Blog",
-   "title": "Q3 2026 Threat Update: Attackers Are Exploiting Vulnerabilities Within 3 Days",
-   "link": "https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days",
-   "date": "2026-10-21T13:00:00.000Z",
-   "summary": "Three days is the average time between a high-severity vulnerability becoming public and its exploitation, according to the latest Quarterly Threat Landscape Report from Rapid7. And 71% of the exploitation tracked in Q3 occurred within the first seven days. For security teams..."
   },
   {
    "company": "paloalto",
@@ -1347,7 +1467,7 @@
    "title": "Two Critical PHP Flaws Could Hand Attackers Your Web Servers. Here’s How to Find, Mitigate, and Patch PHP2Shell Now",
    "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/10/20/php-announces-critical-security-release-for-two-vulnerabilities",
    "date": "2026-10-21T02:59:03.000Z",
-   "summary": "Executive Summary PHP2Shell is two critical vulnerabilities (CVE-2026-109618 and CVE-2026-109619, CVSS v4.0 9.2) that can allow unauthenticated remote code execution on PHP installations serving web requests. Researchers have also demonstrated unauthenticated disclosure of PHP..."
+   "summary": "Executive Summary PHP2Shell refers to two critical vulnerabilities (CVE-2026-109618 and CVE-2026-109619), each with a CVSS v4.0 score of 9.2, that can allow unauthenticated remote code execution on PHP installations serving web requests. Researchers have also demonstrated..."
   },
   {
    "company": "sophos",
@@ -1942,20 +2062,20 @@
    "summary": "Talos and Recorded Future identified UAT-6275 activity targeting government organizations across the Commonwealth of Independent States. Recovered artifacts show additional interest in water resources and energy."
   },
   {
-   "company": "rapid7",
-   "feed": "Blog",
-   "title": "From One Account to Every Mailbox: Breaking Zimbra's Identity Boundaries (Part 1)",
-   "link": "https://www.rapid7.com/blog/post/ve-breaking-zimbra-identity-boundaries-part-1",
-   "date": "2026-10-14T13:00:00.000Z",
-   "summary": "An enterprise mail server authenticates users, stores private communications, delivers recovery links, runs calendars, and sends mail that employees and other systems trust. Compromising it can therefore expose both email and the identities and workflows built around it. During..."
-  },
-  {
    "company": "microsoft",
    "feed": "Security blog",
    "title": "The hidden network: Inside the phishing infrastructure ecosystem powering global cybercrime",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/10/14/the-hidden-network-inside-the-phishing-infrastructure-ecosystem-powering-global-cybercrime/",
    "date": "2026-10-14T13:00:00.000Z",
    "summary": "Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law..."
+  },
+  {
+   "company": "rapid7",
+   "feed": "Blog",
+   "title": "From One Account to Every Mailbox: Breaking Zimbra's Identity Boundaries (Part 1)",
+   "link": "https://www.rapid7.com/blog/post/ve-breaking-zimbra-identity-boundaries-part-1",
+   "date": "2026-10-14T13:00:00.000Z",
+   "summary": "An enterprise mail server authenticates users, stores private communications, delivers recovery links, runs calendars, and sends mail that employees and other systems trust. Compromising it can therefore expose both email and the identities and workflows built around it. During..."
   },
   {
    "company": "rapid7",
@@ -2462,14 +2582,6 @@
    "summary": "On October 7, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the advisories that are listed in the following tables. To remediate the vulnerabilities that were disclosed on October 7, 2026, Cisco strongly recommends that customers upgrade to the fixed..."
   },
   {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Cisco NX-OS Software Python Sandbox Escape Vulnerability",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nxos-mppe-dhKZAFgb?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20NX-OS%20Software%20Python%20Sandbox%20Escape%20Vulnerability%26vs_k=1",
-   "date": "2026-10-07T16:00:00.000Z",
-   "summary": "A vulnerability in the Python interpreter of Cisco NX-OS Software could allow an authenticated, local attacker with low privileges to escape the Python sandbox and gain unauthorized access to the underlying operating system of an affected device. This vulnerability is due to..."
-  },
-  {
    "company": "microsoft",
    "feed": "Security blog",
    "title": "3 lessons from frontier AI vulnerability research",
@@ -2926,20 +3038,20 @@
    "summary": "Explore how Storm-3068 turned a compromised identity into broader cloud access and the steps organizations can take to defend their identities, pipelines, and cloud infrastructure. The post ​​Beyond source code: A path to the keys to the kingdom appeared first on Microsoft..."
   },
   {
-   "company": "qualys",
-   "feed": "Blog",
-   "title": "Autonomous Remediation Is Already Running at Enterprise Scale",
-   "link": "https://blog.qualys.com/qualys-insights/2026/09/29/autonomous-remediation-enterprise-scale-black-hat-2026-sumedh-thakar",
-   "date": "2026-09-29T15:00:00.000Z",
-   "summary": "The following is a guest blog by ITSPmagazine, based on their interview of Qualys President & CEO Sumedh Thakar at Black Hat USA 2026. Sumedh Thakar has watched the same clock compress for 23 years. He joined Qualys as an early software engineer on the scanner, when..."
-  },
-  {
    "company": "microsoft",
    "feed": "Security blog",
    "title": "Star Blizzard refines phishing and malware delivery with the RedFlick technique",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/star-blizzard-refines-phishing-and-malware-delivery-with-the-redflick-technique/",
    "date": "2026-09-29T15:00:00.000Z",
    "summary": "Since January 2026, Microsoft has observed Russian state threat actor Star Blizzard evolve their detection evasion capabilities through large-scale phishing campaigns, the use of accounts on compromised websites, and a novel malware delivery technique, tracked by Microsoft as..."
+  },
+  {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "Autonomous Remediation Is Already Running at Enterprise Scale",
+   "link": "https://blog.qualys.com/qualys-insights/2026/09/29/autonomous-remediation-enterprise-scale-black-hat-2026-sumedh-thakar",
+   "date": "2026-09-29T15:00:00.000Z",
+   "summary": "The following is a guest blog by ITSPmagazine, based on their interview of Qualys President & CEO Sumedh Thakar at Black Hat USA 2026. Sumedh Thakar has watched the same clock compress for 23 years. He joined Qualys as an early software engineer on the scanner, when..."
   },
   {
    "company": "google",
@@ -3038,20 +3150,20 @@
    "summary": "Learn why building reliable AI security agents requires co-designing modular system architectures alongside rigorous, domain-expert evaluation suites."
   },
   {
-   "company": "qualys",
-   "feed": "Blog",
-   "title": "The Developer is the New Perimeter: How Supply Chain Attacks Are Becoming Cloud Breaches",
-   "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/09/28/developer-new-perimeter-supply-chain-cloud-breaches",
-   "date": "2026-09-28T15:00:00.000Z",
-   "summary": "A routine package install can open the door to a cloud breach. Learn how attackers exploit developer credentials. Discover practical steps to contain exposure and protect your cloud environment."
-  },
-  {
    "company": "microsoft",
    "feed": "Security blog",
    "title": "NeedyMantis: Unpacking a post-compromise malware family used in targeted operations",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/09/28/needymantis-unpacking-a-post-compromise-malware-family-used-in-targeted-operations/",
    "date": "2026-09-28T15:00:00.000Z",
    "summary": "Microsoft Threat Intelligence identified NeedyMantis, a modular post-compromise malware framework used in targeted intrusions that combines custom loaders, encrypted archives, and extensible components to maintain long-term access and support follow-on operations. The post..."
+  },
+  {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "The Developer is the New Perimeter: How Supply Chain Attacks Are Becoming Cloud Breaches",
+   "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/09/28/developer-new-perimeter-supply-chain-cloud-breaches",
+   "date": "2026-09-28T15:00:00.000Z",
+   "summary": "A routine package install can open the door to a cloud breach. Learn how attackers exploit developer credentials. Discover practical steps to contain exposure and protect your cloud environment."
   },
   {
    "company": "checkpoint",
@@ -3654,14 +3766,6 @@
    "summary": ""
   },
   {
-   "company": "sophos",
-   "feed": "Blog",
-   "title": "The answer to AI uncertainty is adaptability, not paralysis",
-   "link": "https://www.sophos.com/en-us/blog/ai-uncertainty-adaptability",
-   "date": "2026-09-17T00:00:00.000Z",
-   "summary": "AI uncertainty is not a strategic reason to wait; it is a strategic imperative to build adaptable organizations that can innovate confidently, govern risk proportionately, and respond effectively as technology and threats evolve."
-  },
-  {
    "company": "zscaler",
    "feed": "ThreatLabz research",
    "title": "Operation RapidRust: APT36 Deploys RUSTYSHADE, RUSTYMOVE, PSNATCH, and BASHNATCH",
@@ -3998,14 +4102,6 @@
    "summary": "Cisco Talos is actively tracking the exploitation of two vulnerabilities in Cisco’s Secure Firewall Management Center (FMC) Software."
   },
   {
-   "company": "wiz",
-   "feed": "Blog",
-   "title": "Off Guard: Breaking LiteLLM from authentication bypass to cloud compromise",
-   "link": "https://www.wiz.io/blog/off-guard-breaking-litellm-from-authentication-bypass-to-cloud-compromise",
-   "date": "2026-09-09T16:06:00.000Z",
-   "summary": "How default keys, unauthenticated MCP sessions, and custom code guardrails expose cloud AI infrastructure to root-level remote code execution and IAM theft."
-  },
-  {
    "company": "paloalto",
    "feed": "Security advisories",
    "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
@@ -4102,14 +4198,6 @@
    "summary": ""
   },
   {
-   "company": "talos",
-   "feed": "Threat research",
-   "title": "Microsoft Patch Tuesday for September 2026 — Snort rules and prominent vulnerabilities",
-   "link": "https://blog.talosintelligence.com/microsoft-patch-tuesday-for-september-2026/",
-   "date": "2026-09-08T22:16:35.000Z",
-   "summary": "Microsoft has released its monthly security update for September 2026, which includes 973 vulnerabilities affecting a range of products, including 113 that Microsoft marked as \"critical.\""
-  },
-  {
    "company": "proofpoint",
    "feed": "Blog",
    "title": "Proofpoint SOC Analyst Agent Uses OpenAI Cyber Models",
@@ -4158,14 +4246,6 @@
    "summary": "Research by: Alexey Bukhteyev Key Takeaways Introduction Over the past several years, AI assistants have moved far beyond text generation. Modern systems can execute code, install additional dependencies, analyze user files, and access data through connected services. These..."
   },
   {
-   "company": "talos",
-   "feed": "Threat research",
-   "title": "ClearFake WebDAV infection chain delivers Amatera stealer, ZigCryptoStealer, and NetSupport Manager",
-   "link": "https://blog.talosintelligence.com/clearfake-webdav-infection-chain/",
-   "date": "2026-09-08T10:01:07.000Z",
-   "summary": "We assess with moderate confidence that the attacks are not targeted at a particular organization, but are a part of a cryptocurrency and credentials-stealing operation using the Amatera stealer as the primary payload."
-  },
-  {
    "company": "proofpoint",
    "feed": "Blog",
    "title": "Proofpoint Strengthens Executive Leadership Team with Appointment of Chief Legal Officer and Chief People Officer",
@@ -4195,7 +4275,7 @@
    "title": "Cron Job Injection in Remote Backup",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-167",
    "date": "2026-09-08T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 7.2 An Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability [CWE-77] in FortiSandbox may allow a privileged attacker to execute unauthorized code or commands via crafted HTTP requests. Revised on 2026-09-08 00:00:00"
+   "summary": "CVSSv3 Score: 6.7 An Improper Neutralization of Special Elements used in a Command ('Command Injection') vulnerability [CWE-77] in FortiSandbox may allow a privileged attacker to execute unauthorized code or commands via crafted HTTP requests. Revised on 2026-09-08 00:00:00"
   },
   {
    "company": "fortinet",
@@ -4219,7 +4299,7 @@
    "title": "Null Pointer Dereference in Log Report",
    "link": "https://fortiguard.fortinet.com/psirt/FG-IR-26-173",
    "date": "2026-09-08T07:00:00.000Z",
-   "summary": "CVSSv3 Score: 2.7 A NULL Pointer Dereference vulnerability [CWE-476] in FortiOS, FortiProxy and FortiPAM may allow an authenticated attacker to crash the httpsd daemon via crafted HTTP requests. Revised on 2026-09-08 00:00:00"
+   "summary": "CVSSv3 Score: 2.5 A NULL Pointer Dereference vulnerability [CWE-476] in FortiOS, FortiProxy and FortiPAM may allow an authenticated attacker to crash the httpsd daemon via crafted HTTP requests. Revised on 2026-09-08 00:00:00"
   },
   {
    "company": "fortinet",
@@ -4614,14 +4694,6 @@
    "summary": "The incident involving OpenAI models shows that autonomous hacks make human oversight more important, not less"
   },
   {
-   "company": "eset",
-   "feed": "WeLiveSecurity",
-   "title": "Black Hat USA 2026: AI is racing ahead of cybersecurity controls",
-   "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-ai-racing-cybersecurity-controls/",
-   "date": "2026-08-12T13:28:07.000Z",
-   "summary": "AI took center stage, but the clearest lesson was less about what AI can do than about who is accountable when something goes wrong"
-  },
-  {
    "company": "fortinet",
    "feed": "Security advisories",
    "title": "HTTP/2 Bomb CVE-2026-49975",
@@ -4686,14 +4758,6 @@
    "summary": "Introduction In late June 2026, Zscaler ThreatLabz identified a new malware family that we track as Abyssos. Abyssos is a new modular remote administration tool (RAT) written in C++ that supports a variety of features including credential theft, file exfiltration, and remote..."
   },
   {
-   "company": "eset",
-   "feed": "WeLiveSecurity",
-   "title": "Are AI tutors safe for your kids?",
-   "link": "https://www.welivesecurity.com/en/kids-online/ai-tutors-safe-kids/",
-   "date": "2026-08-10T09:00:00.000Z",
-   "summary": "AI tutors can offer useful support, but their quality and safeguards vary widely. Here’s what parents should check before handing one to a child."
-  },
-  {
    "company": "zscaler",
    "feed": "ThreatLabz research",
    "title": "ThreatLabz 2026 Report: Frontier AI and Enterprise Readiness",
@@ -4732,14 +4796,6 @@
    "link": "https://www.zscaler.com/blogs/security-research/targeted-attack-government-entities-middle-east-part-2",
    "date": "2026-08-03T18:47:55.000Z",
    "summary": "IntroductionThis is Part 2 of our two-part technical analysis on new tools used by an East Asia-linked threat actor targeting government entities in the Middle East. After ThreatLabz published Part 1 on the TELESHIM backdoor and MIXEDKEY loader, Kaspersky highlighted a related..."
-  },
-  {
-   "company": "eset",
-   "feed": "WeLiveSecurity",
-   "title": "This month in security with Tony Anscombe – July 2026 edition",
-   "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-july-2026/",
-   "date": "2026-07-31T14:14:15.000Z",
-   "summary": "OpenAI models going rogue, the first documented agentic ransomware operation, and an emergent AI-driven supply chain threat made for a packed July roundup"
   },
   {
    "company": "fortinet",

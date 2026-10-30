@@ -6,6 +6,22 @@
 <description>High and critical Microsoft vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/microsoft.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-118310 Microsoft windows: Improper input validation in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118310</link>
+<guid isPermaLink="false">CVE-2026-118310</guid>
+<pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Improper input validation in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-118330 Microsoft windows: Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118330</link>
+<guid isPermaLink="false">CVE-2026-118330</guid>
+<pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.3%</description>
+</item>
+<item>
 <title>CVE-2026-111497 Microsoft .net: A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111497</link>
 <guid isPermaLink="false">CVE-2026-111497</guid>
@@ -17,7 +33,7 @@
 
 
 
-Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-27) | EPSS 88.0%</description>
+Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-27) | EPSS 82.6%</description>
 </item>
 <item>
 <title>CVE-2026-96644 Microsoft windows: Pillow is a Python imaging library.</title>
@@ -794,22 +810,6 @@ Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-97751 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97751</link>
-<guid isPermaLink="false">CVE-2026-97751</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-97752 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97752</link>
-<guid isPermaLink="false">CVE-2026-97752</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
 </item>
 </channel>
 </rss>

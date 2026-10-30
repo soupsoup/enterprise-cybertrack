@@ -6,12 +6,20 @@
 <description>Newly published critical (CVSS 9.0+) enterprise vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/critical.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-118310 Microsoft windows: Improper input validation in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118310</link>
+<guid isPermaLink="false">CVE-2026-118310</guid>
+<pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Improper input validation in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.3%</description>
+</item>
+<item>
 <title>CVE-2026-110264 GitLab gitlab: An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110264</link>
 <guid isPermaLink="false">CVE-2026-110264</guid>
 <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before 19.0.10, 19.1 before 19.1.9, 19.2 before 19.2.9, 19.3 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server due to integer overflow when compiling a specially crafted regular expression. | CVSS 10 | EPSS 1.0%</description>
+<description>An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before 19.0.10, 19.1 before 19.1.9, 19.2 before 19.2.9, 19.3 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server due to integer overflow when compiling a specially crafted regular expression. | CVSS 10 | EPSS 1.3%</description>
 </item>
 <item>
 <title>CVE-2026-111497 Microsoft .net: A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3...</title>
@@ -25,7 +33,7 @@
 
 
 
-Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-27) | EPSS 88.0%</description>
+Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-27) | EPSS 82.6%</description>
 </item>
 <item>
 <title>CVE-2026-109618 Palo Alto Networks pan-os: PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the...</title>
@@ -179,7 +187,7 @@ This vulnerability is due to improper handling of email attachments when the fil
 <guid isPermaLink="false">CVE-2026-97229</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation. | CVSS 10 | EPSS 18.4%</description>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation. | CVSS 10 | Known exploited (CISA KEV, added 2026-10-29) | EPSS 18.4%</description>
 </item>
 <item>
 <title>CVE-2026-70300 Microsoft 365 apps: Untrusted pointer dereference in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
@@ -542,6 +550,54 @@ This vulnerability is due to improper handling of email attachments when the fil
 <description>Double free in Microsoft Failover Cluster Virtual Driver allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.6%</description>
 </item>
 <item>
+<title>CVE-2026-83517 Microsoft windows: Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83517</link>
+<guid isPermaLink="false">CVE-2026-83517</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
+</item>
+<item>
+<title>CVE-2026-83519 Microsoft windows: Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83519</link>
+<guid isPermaLink="false">CVE-2026-83519</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
+</item>
+<item>
+<title>CVE-2026-83578 Microsoft windows: Integer underflow (wrap or wraparound) in Windows PowerShell allows an unauthorized attacker to execute code...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83578</link>
+<guid isPermaLink="false">CVE-2026-83578</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Integer underflow (wrap or wraparound) in Windows PowerShell allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
+</item>
+<item>
+<title>CVE-2026-83693 Microsoft windows: Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83693</link>
+<guid isPermaLink="false">CVE-2026-83693</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
+</item>
+<item>
+<title>CVE-2026-83748 Microsoft windows: Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83748</link>
+<guid isPermaLink="false">CVE-2026-83748</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
+</item>
+<item>
+<title>CVE-2026-83910 Microsoft windows: Out-of-bounds write in RPC Runtime allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83910</link>
+<guid isPermaLink="false">CVE-2026-83910</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Out-of-bounds write in RPC Runtime allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
+</item>
+<item>
 <title>CVE-2026-107938 Apache cxf: In Apache CXF, the Netty-based HTTP client transport (cxf-rt-transports-http-netty-client) did not verify...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-107938</link>
 <guid isPermaLink="false">CVE-2026-107938</guid>
@@ -840,78 +896,6 @@ This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 
 This issue affects Apache Qpid Broker-J: through 10.1.0.
 
 Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-67237 Broadcom rabbitmq server: RabbitMQ is a messaging and streaming broker.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-67237</link>
-<guid isPermaLink="false">CVE-2026-67237</guid>
-<pubDate>Fri, 25 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
-<description>RabbitMQ is a messaging and streaming broker. From 4.2.0 until 4.2.8 and 4.3.2, set_token_auth/2 inserted a bearer token from the Authorization header or access_token cookie into OAuth bootstrap JavaScript without escaping, allowing attacker-controlled token content to execute JavaScript in the management UI origin. The endpoint is exposed before authentication only when management.oauth_enabled is true, and exploitation through the cookie path additionally requires the attacker to plant an access_token cookie on the management host. This issue is fixed in versions 4.2.8 and 4.3.2. | CVSS 9.3 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-89078 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89078</link>
-<guid isPermaLink="false">CVE-2026-89078</guid>
-<pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-<category>DevOps &amp; Collaboration</category>
-<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to execute arbitrary code on the GitLab server due to a double free issue when parsing a specially crafted regular expression in a CI/CD configuration. | CVSS 9.9 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-93577 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-93577</link>
-<guid isPermaLink="false">CVE-2026-93577</guid>
-<pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
-<category>DevOps &amp; Collaboration</category>
-<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to execute arbitrary code on the GitLab server due to an integer overflow issue when compiling a specially crafted regular expression in a CI/CD configuration. | CVSS 9.9 | EPSS 0.6%</description>
-</item>
-<item>
-<title>CVE-2026-86246 Apache tomcat native: Initialization of a resource with an insecure default vulnerability in Apache Tomcat Native enabled insecure...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-86246</link>
-<guid isPermaLink="false">CVE-2026-86246</guid>
-<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-<category>Web &amp; Application Servers</category>
-<description>Initialization of a resource with an insecure default vulnerability in Apache Tomcat Native enabled insecure options by default  including ALLOW_CLIENT_RENEGOTIATION, NO_EXTENDED_MASTER_SECRET, IGNORE_UNEXPECTED_EOF and ALLOW_NO_DHE_KEX.
-
-
-
-This issue affects Apache Tomcat Native: from 2.0.0 through 2.0.15, from 1.3.0 through 1.3.8. Earlier unsupported versions may also be affected.
-
-
-
-Users are recommended to upgrade to version 2.0.16 or 1.3.9, which fix the issue. | CVSS 9.1 | EPSS 0.3%</description>
-</item>
-<item>
-<title>CVE-2026-67231 Broadcom rabbitmq server: RabbitMQ is a messaging and streaming broker.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-67231</link>
-<guid isPermaLink="false">CVE-2026-67231</guid>
-<pubDate>Wed, 23 Sep 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
-<description>RabbitMQ is a messaging and streaming broker. Prior to versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0, The trust-store plugin installs a verify_fun that overrides {bad_cert, unknown_ca} / {bad_cert, selfsigned_peer} when the presented cert &quot;matches&quot; a whitelisted one. The match key is extract_issuer_id/1 → public_key:pkix_issuer_id/2 → {IssuerName, SerialNumber} , both fields are taken verbatim from the presented certificate body and contain no public-key, SKI, fingerprint or signature material. is_whitelisted/1 is a pure ets:member lookup; the stored full DER is used only for list/0 display and is never compared against the presented cert. cacerts is [], so the whitelisted cert is never used as a trust anchor for path validation either. TLS client-authentication bypass: an attacker who knows the issuer DN + serial of any whitelisted certificate can connect with a forged self-signed cert. Preconditions include rabbitmq_trust_store plugin enabled and used as the TLS verify_fun Attacker knows or can guess the {Issuer, Serial} of at least one whitelisted cert (non-secret; exposed via CLI/logs/any cert copy). This issue is fixed in versions 3.13.15, 4.0.20, 4.1.11, 4.2.6, and 4.3.0. | CVSS 9.1 | EPSS 0.2%</description>
-</item>
-<item>
-<title>CVE-2026-93616 Check Point multi-domain security management: A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-93616</link>
-<guid isPermaLink="false">CVE-2026-93616</guid>
-<pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-<category>Edge / VPN</category>
-<description>A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute arbitrary scripts on Check Point Management Server. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-22) | EPSS 91.6%</description>
-</item>
-<item>
-<title>CVE-2026-94127 F5 big-ip access policy manager: When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-94127</link>
-<guid isPermaLink="false">CVE-2026-94127</guid>
-<pubDate>Tue, 22 Sep 2026 00:00:00 GMT</pubDate>
-<category>Edge / VPN</category>
-<description>When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious traffic can lead to remote code execution (RCE). This vulnerability is only present when BIG-IP APM is configured as an OAuth Authorization Server. Deployments using APM strictly as an OAuth Client / Resource Server (without OAuth authorization server profiles configured) are not affected by this vulnerability.
-
-Impact:
-This vulnerability allows an unauthenticated attacker to perform remote code execution. The BIG-IP system in Appliance mode is also vulnerable. This is a data plane issue; there is no control plane exposure.
-
- 
-
-
-Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-22) | EPSS 24.9%</description>
 </item>
 </channel>
 </rss>
