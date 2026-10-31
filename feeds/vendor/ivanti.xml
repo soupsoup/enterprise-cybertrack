@@ -6,6 +6,14 @@
 <description>High and critical Ivanti vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/ivanti.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-111357 Ivanti connect secure: Ivanti Connect Secure 22.8R2.4 mishandles the manner in which the dsinvoked broker trusts DSCache...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111357</link>
+<guid isPermaLink="false">CVE-2026-111357</guid>
+<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<category>Edge / VPN</category>
+<description>Ivanti Connect Secure 22.8R2.4 mishandles the manner in which the dsinvoked broker trusts DSCache configuration data, leading to privilege escalation to root, as exploited in the wild in October 2026. | CVSS 7 | Known exploited (CISA KEV, added 2026-10-30) | EPSS 0.3%</description>
+</item>
+<item>
 <title>CVE-2026-104935 Ivanti connect secure: Authentication bypass by spoofing in ICS before version 25.1.3.0 allows a remote unauthenticated attacker to...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-104935</link>
 <guid isPermaLink="false">CVE-2026-104935</guid>

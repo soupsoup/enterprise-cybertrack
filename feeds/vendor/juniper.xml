@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+<title>Enterprise CyberTrack: Juniper</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/juniper.html</link>
+<description>High and critical Juniper vulnerabilities.</description>
+<atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/juniper.xml" rel="self" type="application/rss+xml"/>
+<item>
+<title>CVE-2026-101986 Juniper junos os evolved: An  Improper Authentication vulnerability in J-Web of Juniper Networks Junos OS and Junos OS Evolved allows...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-101986</link>
+<guid isPermaLink="false">CVE-2026-101986</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>Network Infrastructure</category>
+<description>An  Improper Authentication vulnerability in J-Web of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated network attacker to bypass J-Web authentication and execute CGI content with elevated privileges via a crafted HTTP request. | CVSS 9.8 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-101990 Juniper junos os evolved: A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-101990</link>
+<guid isPermaLink="false">CVE-2026-101990</guid>
+<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
+<category>Network Infrastructure</category>
+<description>A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows a remote configured BGP peer to cause an rpd crash, or on Junos OS remote code-execution, via sending a flow-spec update which is selected for re-advertisement. | CVSS 9.8 | EPSS 0.6%</description>
+</item>
+</channel>
+</rss>

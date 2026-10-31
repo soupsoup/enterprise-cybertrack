@@ -1,6 +1,25 @@
 {
- "generated": "2026-10-30T11:29:19.924Z",
+ "generated": "2026-10-31T10:57:50.955Z",
  "cves": [
+  {
+   "id": "CVE-2026-96192",
+   "vendor": "Microsoft",
+   "product": "edge",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-29",
+   "title": "Use after free in Microsoft Edge for iOS allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Edge for iOS allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "edge",
+     "toExcl": "155.0.4283.45"
+    }
+   ],
+   "epss": 0.00585
+  },
   {
    "id": "CVE-2026-76418",
    "vendor": "Cisco",
@@ -94,7 +113,7 @@
     }
    ],
    "kevAdded": "2026-10-29",
-   "epss": 0.00574
+   "epss": 0.0091
   },
   {
    "id": "CVE-2026-118310",
@@ -107,7 +126,7 @@
    "title": "Improper input validation in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote...",
    "summary": "Improper input validation in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00272
+   "epss": 0.00307
   },
   {
    "id": "CVE-2026-118330",
@@ -120,7 +139,7 @@
    "title": "Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to...",
    "summary": "Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00308
+   "epss": 0.00334
   },
   {
    "id": "CVE-2026-110264",
@@ -1472,7 +1491,7 @@
      "to": "8.63"
     }
    ],
-   "epss": 0.00398
+   "epss": 0.00396
   },
   {
    "id": "CVE-2026-101772",
@@ -1528,7 +1547,7 @@
      "to": "26.7.1"
     }
    ],
-   "epss": 0.00388
+   "epss": 0.00408
   },
   {
    "id": "CVE-2026-101773",
@@ -1584,7 +1603,591 @@
      "to": "26.7.1"
     }
    ],
-   "epss": 0.00217
+   "epss": 0.00297
+  },
+  {
+   "id": "CVE-2026-101770",
+   "vendor": "Oracle",
+   "product": "mysql cluster",
+   "category": "Databases & Middleware",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the MySQL Server, MySQL Cluster product of Oracle MySQL (component: Client programs).",
+   "summary": "Vulnerability in the MySQL Server, MySQL Cluster product of Oracle MySQL (component: Client programs).  Supported versions that are affected are MySQL Server: 8.4.0-8.4.12, 9.7.0-9.7.3, 26.7.0-26.7.1; MySQL Cluster: 8.0.0-8.0.49, 8.4.0-8.4.12, 9.7.0-9.7.3 and  26.7.0-26.7.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Server, MySQL Cluster.  Successful attacks of this vulnerability can result in takeover of MySQL Server, MySQL Cluster. CVSS 3.1 Base Score 8.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "8.0.0",
+     "to": "8.0.49"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "8.4.0",
+     "to": "8.4.12"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "9.7.0",
+     "to": "9.7.3"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "26.7.0",
+     "to": "26.7.1"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql server",
+     "from": "8.4.0",
+     "to": "8.4.12"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql server",
+     "from": "9.7.0",
+     "to": "9.7.3"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql server",
+     "from": "26.7.0",
+     "to": "26.7.1"
+    }
+   ],
+   "epss": 0.00416
+  },
+  {
+   "id": "CVE-2026-101771",
+   "vendor": "Oracle",
+   "product": "mysql cluster",
+   "category": "Databases & Middleware",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the MySQL Server, MySQL Cluster product of Oracle MySQL (component: Client programs).",
+   "summary": "Vulnerability in the MySQL Server, MySQL Cluster product of Oracle MySQL (component: Client programs).  Supported versions that are affected are MySQL Server: 8.4.0-8.4.12, 9.7.0-9.7.3, 26.7.0-26.7.1; MySQL Cluster: 8.0.0-8.0.49, 8.4.0-8.4.12, 9.7.0-9.7.3 and  26.7.0-26.7.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Server, MySQL Cluster.  Successful attacks of this vulnerability can result in takeover of MySQL Server, MySQL Cluster. CVSS 3.1 Base Score 8.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "8.0.0",
+     "to": "8.0.49"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "8.4.0",
+     "to": "8.4.12"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "9.7.0",
+     "to": "9.7.3"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "26.7.0",
+     "to": "26.7.1"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql server",
+     "from": "8.4.0",
+     "to": "8.4.12"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql server",
+     "from": "9.7.0",
+     "to": "9.7.3"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql server",
+     "from": "26.7.0",
+     "to": "26.7.1"
+    }
+   ],
+   "epss": 0.00388
+  },
+  {
+   "id": "CVE-2026-101775",
+   "vendor": "Oracle",
+   "product": "mysql cluster",
+   "category": "Databases & Middleware",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the MySQL Server, MySQL Cluster product of Oracle MySQL (component: Server: Replication).",
+   "summary": "Vulnerability in the MySQL Server, MySQL Cluster product of Oracle MySQL (component: Server: Replication).  Supported versions that are affected are MySQL Server: 8.4.0-8.4.12, 9.7.0-9.7.3, 26.7.0-26.7.1; MySQL Cluster: 8.0.0-8.0.49, 8.4.0-8.4.12, 9.7.0-9.7.3 and  26.7.0-26.7.1. Difficult to exploit vulnerability allows unauthenticated attacker with network access via multiple protocols to compromise MySQL Server, MySQL Cluster.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all MySQL Server, MySQL Cluster accessible data and unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of MySQL Server, MySQL Cluster. CVSS 3.1 Base Score 7.4 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:N/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "8.0.0",
+     "to": "8.0.49"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "8.4.0",
+     "to": "8.4.12"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "9.7.0",
+     "to": "9.7.3"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "26.7.0",
+     "to": "26.7.1"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql server",
+     "from": "8.4.0",
+     "to": "8.4.12"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql server",
+     "from": "9.7.0",
+     "to": "9.7.3"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql server",
+     "from": "26.7.0",
+     "to": "26.7.1"
+    }
+   ],
+   "epss": 0.00325
+  },
+  {
+   "id": "CVE-2026-101781",
+   "vendor": "Oracle",
+   "product": "mysql cluster",
+   "category": "Databases & Middleware",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the MySQL Server, MySQL Cluster product of Oracle MySQL (component: Server: Group...",
+   "summary": "Vulnerability in the MySQL Server, MySQL Cluster product of Oracle MySQL (component: Server: Group Replication GCS).  Supported versions that are affected are MySQL Server: 8.4.0-8.4.12, 9.7.0-9.7.3, 26.7.0-26.7.1; MySQL Cluster: 8.0.0-8.0.49, 8.4.0-8.4.12, 9.7.0-9.7.3 and  26.7.0-26.7.1. Easily exploitable vulnerability allows unauthenticated attacker with access to the physical communication segment attached to the hardware where the MySQL Server, MySQL Cluster executes to compromise MySQL Server, MySQL Cluster.  Successful attacks of this vulnerability can result in takeover of MySQL Server, MySQL Cluster. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "8.0.0",
+     "to": "8.0.49"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "8.4.0",
+     "to": "8.4.12"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "9.7.0",
+     "to": "9.7.3"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql cluster",
+     "from": "26.7.0",
+     "to": "26.7.1"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql server",
+     "from": "8.4.0",
+     "to": "8.4.12"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql server",
+     "from": "9.7.0",
+     "to": "9.7.3"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "mysql server",
+     "from": "26.7.0",
+     "to": "26.7.1"
+    }
+   ],
+   "epss": 0.00279
+  },
+  {
+   "id": "CVE-2026-91214",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.0045
+  },
+  {
+   "id": "CVE-2026-91216",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 10,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle SOA Suite.  While the vulnerability is in Oracle SOA Suite, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 10.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00483
+  },
+  {
+   "id": "CVE-2026-91217",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 8.6,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle SOA Suite.  While the vulnerability is in Oracle SOA Suite, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle SOA Suite accessible data. CVSS 3.1 Base Score 8.6 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00398
+  },
+  {
+   "id": "CVE-2026-91218",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 9.6,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle SOA Suite.  While the vulnerability is in Oracle SOA Suite, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle SOA Suite accessible data as well as  unauthorized access to critical data or complete access to all Oracle SOA Suite accessible data. CVSS 3.1 Base Score 9.6 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00326
+  },
+  {
+   "id": "CVE-2026-91219",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 8.6,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle SOA Suite.  While the vulnerability is in Oracle SOA Suite, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle SOA Suite accessible data. CVSS 3.1 Base Score 8.6 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00303
+  },
+  {
+   "id": "CVE-2026-91225",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 9.1,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle SOA Suite accessible data and unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle SOA Suite. CVSS 3.1 Base Score 9.1 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00407
+  },
+  {
+   "id": "CVE-2026-91228",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle SOA Suite accessible data as well as  unauthorized update, insert or delete access to some of Oracle SOA Suite accessible data. CVSS 3.1 Base Score 7.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00278
+  },
+  {
+   "id": "CVE-2026-91230",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 9.3,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle SOA Suite.  While the vulnerability is in Oracle SOA Suite, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle SOA Suite accessible data as well as  unauthorized update, insert or delete access to some of Oracle SOA Suite accessible data. CVSS 3.1 Base Score 9.3 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00321
+  },
+  {
+   "id": "CVE-2026-91233",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Enterprise Scheduling...",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Enterprise Scheduling System).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via SOAP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.0045
+  },
+  {
+   "id": "CVE-2026-91234",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.0045
+  },
+  {
+   "id": "CVE-2026-91235",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.0045
+  },
+  {
+   "id": "CVE-2026-91236",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.0045
+  },
+  {
+   "id": "CVE-2026-91237",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle SOA Suite accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00377
+  },
+  {
+   "id": "CVE-2026-91238",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle SOA Suite accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle SOA Suite. CVSS 3.1 Base Score 7.1 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:L).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00354
+  },
+  {
+   "id": "CVE-2026-91239",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00389
   },
   {
    "id": "CVE-2026-111094",
@@ -2309,6 +2912,32 @@
    "epss": 0.00618
   },
   {
+   "id": "CVE-2026-111357",
+   "vendor": "Ivanti",
+   "product": "connect secure",
+   "category": "Edge / VPN",
+   "cvss": 7,
+   "kev": true,
+   "published": "2026-10-15",
+   "title": "Ivanti Connect Secure 22.8R2.4 mishandles the manner in which the dsinvoked broker trusts DSCache...",
+   "summary": "Ivanti Connect Secure 22.8R2.4 mishandles the manner in which the dsinvoked broker trusts DSCache configuration data, leading to privilege escalation to root, as exploited in the wild in October 2026.",
+   "affects": [
+    {
+     "vendor": "Ivanti",
+     "product": "connect secure",
+     "from": "25.1.0.0",
+     "toExcl": "25.1.1.3"
+    },
+    {
+     "vendor": "Ivanti",
+     "product": "connect secure",
+     "version": "22.8"
+    }
+   ],
+   "kevAdded": "2026-10-30",
+   "epss": 0.00316
+  },
+  {
    "id": "CVE-2026-76519",
    "vendor": "Cisco",
    "product": "asyncos",
@@ -2797,6 +3426,224 @@
    "epss": 0.00839
   },
   {
+   "id": "CVE-2026-101986",
+   "vendor": "Juniper",
+   "product": "junos os evolved",
+   "category": "Network Infrastructure",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-14",
+   "title": "An  Improper Authentication vulnerability in J-Web of Juniper Networks Junos OS and Junos OS Evolved allows...",
+   "summary": "An  Improper Authentication vulnerability in J-Web of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated network attacker to bypass J-Web authentication and execute CGI content with elevated privileges via a crafted HTTP request.",
+   "affects": [
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "to": "23.1"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "23.2"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "23.4"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "23.4x100"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "24.2"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "24.4"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "25.2"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "25.2x100"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "25.4"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "25.4x300"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "26.2"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "to": "23.1"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "version": "23.2"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "version": "23.4"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "version": "24.2"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "version": "24.4"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "version": "25.2"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "version": "25.4"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "version": "26.2"
+    }
+   ],
+   "epss": 0.00579
+  },
+  {
+   "id": "CVE-2026-101990",
+   "vendor": "Juniper",
+   "product": "junos os evolved",
+   "category": "Network Infrastructure",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-14",
+   "title": "A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS...",
+   "summary": "A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows a remote configured BGP peer to cause an rpd crash, or on Junos OS remote code-execution, via sending a flow-spec update which is selected for re-advertisement.",
+   "affects": [
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "to": "23.1"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "23.2"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "23.4"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "23.4x100"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "24.2"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "24.4"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "25.2"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "25.2x100"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "25.4"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "25.4x300"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos os evolved",
+     "version": "26.2"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "to": "23.1"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "version": "23.2"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "version": "23.4"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "version": "24.2"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "version": "24.4"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "version": "25.2"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "version": "25.4"
+    },
+    {
+     "vendor": "Juniper",
+     "product": "junos",
+     "version": "26.2"
+    }
+   ],
+   "epss": 0.00568
+  },
+  {
    "id": "CVE-2026-58249",
    "vendor": "SAP",
    "product": "netweaver",
@@ -3082,7 +3929,7 @@
      "toExcl": "19.4.2"
     }
    ],
-   "epss": 0.18427,
+   "epss": 0.26569,
    "kevAdded": "2026-10-29"
   },
   {
@@ -16025,7 +16872,7 @@
    "title": "Integer overflow or wraparound in Microsoft Streaming Service allows an authorized attacker to elevate...",
    "summary": "Integer overflow or wraparound in Microsoft Streaming Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00348
+   "epss": 0.0034
   },
   {
    "id": "CVE-2026-70109",
@@ -16038,7 +16885,7 @@
    "title": "Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to elevate...",
    "summary": "Heap-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00486
+   "epss": 0.00475
   },
   {
    "id": "CVE-2026-70110",
@@ -16051,7 +16898,7 @@
    "title": "Stack-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to elevate...",
    "summary": "Stack-based buffer overflow in Microsoft PostScript Printer Driver allows an unauthorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00486
+   "epss": 0.00475
   },
   {
    "id": "CVE-2026-70198",
@@ -16064,7 +16911,7 @@
    "title": "Use after free in Windows Push Notifications allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Push Notifications allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00307
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-83513",
@@ -16077,7 +16924,7 @@
    "title": "Use after free in Windows Universal Disk Format File System Driver (UDFS) allows an authorized attacker to...",
    "summary": "Use after free in Windows Universal Disk Format File System Driver (UDFS) allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00388
+   "epss": 0.00379
   },
   {
    "id": "CVE-2026-83514",
@@ -16090,7 +16937,7 @@
    "title": "Heap-based buffer overflow in Windows Partition Management Driver allows an authorized attacker to elevate...",
    "summary": "Heap-based buffer overflow in Windows Partition Management Driver allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00388
+   "epss": 0.00379
   },
   {
    "id": "CVE-2026-83516",
@@ -16103,7 +16950,7 @@
    "title": "Out-of-bounds read in Windows Local Security Authority Subsystem Service (LSASS) allows an unauthorized...",
    "summary": "Out-of-bounds read in Windows Local Security Authority Subsystem Service (LSASS) allows an unauthorized attacker to deny service over a network.",
    "affects": [],
-   "epss": 0.01359
+   "epss": 0.0133
   },
   {
    "id": "CVE-2026-83517",
@@ -16116,7 +16963,7 @@
    "title": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute...",
    "summary": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.01084
+   "epss": 0.01061
   },
   {
    "id": "CVE-2026-83518",
@@ -16129,7 +16976,7 @@
    "title": "Heap-based buffer overflow in RPC Runtime allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in RPC Runtime allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00388
+   "epss": 0.00379
   },
   {
    "id": "CVE-2026-83519",
@@ -16142,7 +16989,7 @@
    "title": "Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a...",
    "summary": "Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.01084
+   "epss": 0.01061
   },
   {
    "id": "CVE-2026-83522",
@@ -16155,7 +17002,7 @@
    "title": "Reliance on untrusted inputs in a security decision in Windows IKE Extension allows an unauthorized attacker...",
    "summary": "Reliance on untrusted inputs in a security decision in Windows IKE Extension allows an unauthorized attacker to perform spoofing over a network.",
    "affects": [],
-   "epss": 0.00819
+   "epss": 0.00801
   },
   {
    "id": "CVE-2026-83523",
@@ -16168,7 +17015,7 @@
    "title": "Heap-based buffer overflow in Windows Image Acquisition allows an unauthorized attacker to execute code over...",
    "summary": "Heap-based buffer overflow in Windows Image Acquisition allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00948
+   "epss": 0.00928
   },
   {
    "id": "CVE-2026-83564",
@@ -16181,7 +17028,7 @@
    "title": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges...",
    "summary": "Use after free in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00307
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-83569",
@@ -16194,7 +17041,7 @@
    "title": "Heap-based buffer overflow in HID Parser Library allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in HID Parser Library allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00373
+   "epss": 0.00364
   },
   {
    "id": "CVE-2026-83578",
@@ -16207,7 +17054,7 @@
    "title": "Integer underflow (wrap or wraparound) in Windows PowerShell allows an unauthorized attacker to execute code...",
    "summary": "Integer underflow (wrap or wraparound) in Windows PowerShell allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.01086
+   "epss": 0.01062
   },
   {
    "id": "CVE-2026-83580",
@@ -16220,7 +17067,7 @@
    "title": "Heap-based buffer overflow in Windows Client-Side Caching (CSC) Service allows an authorized attacker to...",
    "summary": "Heap-based buffer overflow in Windows Client-Side Caching (CSC) Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00326
+   "epss": 0.00318
   },
   {
    "id": "CVE-2026-83583",
@@ -16233,7 +17080,7 @@
    "title": "Improper access control in Windows Geotag Broker allows an authorized attacker to elevate privileges locally.",
    "summary": "Improper access control in Windows Geotag Broker allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00346
+   "epss": 0.00339
   },
   {
    "id": "CVE-2026-83586",
@@ -16246,7 +17093,7 @@
    "title": "Weak authentication in Windows Resilient File System (ReFS) Deduplication Service allows an authorized...",
    "summary": "Weak authentication in Windows Resilient File System (ReFS) Deduplication Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00323
+   "epss": 0.00316
   },
   {
    "id": "CVE-2026-83587",
@@ -16259,7 +17106,7 @@
    "title": "Untrusted pointer dereference in Windows Core Messaging allows an authorized attacker to elevate privileges...",
    "summary": "Untrusted pointer dereference in Windows Core Messaging allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83641",
@@ -16272,7 +17119,7 @@
    "title": "Heap-based buffer overflow in Windows Media allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Windows Media allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83643",
@@ -16285,7 +17132,7 @@
    "title": "Stack-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a...",
    "summary": "Stack-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00948
+   "epss": 0.00928
   },
   {
    "id": "CVE-2026-83644",
@@ -16298,7 +17145,7 @@
    "title": "Use after free in Windows Audio Service allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Audio Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83645",
@@ -16311,7 +17158,7 @@
    "title": "Allocation of resources without limits or throttling in Active Directory Federation Services (AD FS) allows...",
    "summary": "Allocation of resources without limits or throttling in Active Directory Federation Services (AD FS) allows an unauthorized attacker to deny service over a network.",
    "affects": [],
-   "epss": 0.01249
+   "epss": 0.01222
   },
   {
    "id": "CVE-2026-83647",
@@ -16324,7 +17171,7 @@
    "title": "Out-of-bounds read in Active Directory Domain Services allows an unauthorized attacker to deny service over a...",
    "summary": "Out-of-bounds read in Active Directory Domain Services allows an unauthorized attacker to deny service over a network.",
    "affects": [],
-   "epss": 0.01298
+   "epss": 0.0127
   },
   {
    "id": "CVE-2026-83650",
@@ -16337,7 +17184,7 @@
    "title": "Heap-based buffer overflow in Windows Media allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Windows Media allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83652",
@@ -16350,7 +17197,7 @@
    "title": "Heap-based buffer overflow in Windows NTFS allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Windows NTFS allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83654",
@@ -16363,7 +17210,7 @@
    "title": "Missing authentication for critical function in Windows Modern Device Management (MDM) allows an authorized...",
    "summary": "Missing authentication for critical function in Windows Modern Device Management (MDM) allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00323
+   "epss": 0.00316
   },
   {
    "id": "CVE-2026-83655",
@@ -16376,7 +17223,7 @@
    "title": "Out-of-bounds read in Network Policy Server (NPS) allows an unauthorized attacker to deny service over a...",
    "summary": "Out-of-bounds read in Network Policy Server (NPS) allows an unauthorized attacker to deny service over a network.",
    "affects": [],
-   "epss": 0.01359
+   "epss": 0.0133
   },
   {
    "id": "CVE-2026-83659",
@@ -16389,7 +17236,7 @@
    "title": "Improper link resolution before file access ('link following') in Windows User Profile Service allows an...",
    "summary": "Improper link resolution before file access ('link following') in Windows User Profile Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00341
+   "epss": 0.00333
   },
   {
    "id": "CVE-2026-83665",
@@ -16402,7 +17249,7 @@
    "title": "Null pointer dereference in Windows DHCP Server allows an unauthorized attacker to deny service over a...",
    "summary": "Null pointer dereference in Windows DHCP Server allows an unauthorized attacker to deny service over a network.",
    "affects": [],
-   "epss": 0.01359
+   "epss": 0.0133
   },
   {
    "id": "CVE-2026-83666",
@@ -16415,7 +17262,7 @@
    "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Active...",
    "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Active Directory Certificate Services (AD CS) allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00226
+   "epss": 0.00221
   },
   {
    "id": "CVE-2026-83669",
@@ -16428,7 +17275,7 @@
    "title": "Use of uninitialized resource in Windows Error Reporting allows an authorized attacker to elevate privileges...",
    "summary": "Use of uninitialized resource in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00433
+   "epss": 0.00423
   },
   {
    "id": "CVE-2026-83670",
@@ -16441,7 +17288,7 @@
    "title": "Out-of-bounds read in Function Discovery Service (fdwsd.dll) allows an unauthorized attacker to disclose...",
    "summary": "Out-of-bounds read in Function Discovery Service (fdwsd.dll) allows an unauthorized attacker to disclose information over a network.",
    "affects": [],
-   "epss": 0.01092
+   "epss": 0.01068
   },
   {
    "id": "CVE-2026-83674",
@@ -16454,7 +17301,7 @@
    "title": "Weak authentication in Active Directory Federation Services (AD FS) allows an unauthorized attacker to...",
    "summary": "Weak authentication in Active Directory Federation Services (AD FS) allows an unauthorized attacker to perform spoofing over a network.",
    "affects": [],
-   "epss": 0.00728
+   "epss": 0.00713
   },
   {
    "id": "CVE-2026-83675",
@@ -16467,7 +17314,7 @@
    "title": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00307
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-83676",
@@ -16480,7 +17327,7 @@
    "title": "Integer underflow (wrap or wraparound) in Windows Installer allows an authorized attacker to elevate...",
    "summary": "Integer underflow (wrap or wraparound) in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83677",
@@ -16493,7 +17340,7 @@
    "title": "Missing release of memory after effective lifetime in Windows DHCP Client allows an unauthorized attacker to...",
    "summary": "Missing release of memory after effective lifetime in Windows DHCP Client allows an unauthorized attacker to deny service over a network.",
    "affects": [],
-   "epss": 0.01125
+   "epss": 0.01101
   },
   {
    "id": "CVE-2026-83678",
@@ -16506,7 +17353,7 @@
    "title": "Heap-based buffer overflow in Windows TCP/IP allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Windows TCP/IP allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83679",
@@ -16519,7 +17366,7 @@
    "title": "Use after free in Windows Defender Firewall Service allows an authorized attacker to elevate privileges...",
    "summary": "Use after free in Windows Defender Firewall Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83680",
@@ -16532,7 +17379,7 @@
    "title": "Heap-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00258
+   "epss": 0.00252
   },
   {
    "id": "CVE-2026-83682",
@@ -16545,7 +17392,7 @@
    "title": "Use after free in Windows TCP/IP allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows TCP/IP allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83687",
@@ -16558,7 +17405,7 @@
    "title": "Use after free in Windows Connected User Experiences and Telemetry allows an authorized attacker to elevate...",
    "summary": "Use after free in Windows Connected User Experiences and Telemetry allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83688",
@@ -16571,7 +17418,7 @@
    "title": "Heap-based buffer overflow in Remote Desktop Client allows an unauthorized attacker to execute code over a...",
    "summary": "Heap-based buffer overflow in Remote Desktop Client allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00948
+   "epss": 0.00928
   },
   {
    "id": "CVE-2026-83689",
@@ -16584,7 +17431,7 @@
    "title": "Use after free in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83690",
@@ -16597,7 +17444,7 @@
    "title": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00388
+   "epss": 0.00379
   },
   {
    "id": "CVE-2026-83691",
@@ -16610,7 +17457,7 @@
    "title": "Heap-based buffer overflow in Windows DHCP Server allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Windows DHCP Server allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83692",
@@ -16623,7 +17470,7 @@
    "title": "Heap-based buffer overflow in Windows Bind Filter Driver allows an authorized attacker to elevate privileges...",
    "summary": "Heap-based buffer overflow in Windows Bind Filter Driver allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83693",
@@ -16636,7 +17483,7 @@
    "title": "Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a...",
    "summary": "Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.01127
+   "epss": 0.01103
   },
   {
    "id": "CVE-2026-83694",
@@ -16649,7 +17496,7 @@
    "title": "Out-of-bounds read in Windows Volume Manager Extension Driver allows an authorized attacker to elevate...",
    "summary": "Out-of-bounds read in Windows Volume Manager Extension Driver allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83700",
@@ -16662,7 +17509,7 @@
    "title": "Use after free in Windows Now Playing Session Manager allows an authorized attacker to elevate privileges...",
    "summary": "Use after free in Windows Now Playing Session Manager allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83701",
@@ -16675,7 +17522,7 @@
    "title": "Use after free in Windows Now Playing Session Manager allows an authorized attacker to elevate privileges...",
    "summary": "Use after free in Windows Now Playing Session Manager allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83702",
@@ -16688,7 +17535,7 @@
    "title": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83704",
@@ -16701,7 +17548,7 @@
    "title": "Improper link resolution before file access ('link following') in Microsoft Windows Search Component allows...",
    "summary": "Improper link resolution before file access ('link following') in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00481
+   "epss": 0.0047
   },
   {
    "id": "CVE-2026-83707",
@@ -16714,7 +17561,7 @@
    "title": "Use after free in Windows Event Tracing allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Event Tracing allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83708",
@@ -16727,7 +17574,7 @@
    "title": "Stack-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "summary": "Stack-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83709",
@@ -16740,7 +17587,7 @@
    "title": "Heap-based buffer overflow in Windows NTLM allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Windows NTLM allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83710",
@@ -16753,7 +17600,7 @@
    "title": "Use after free in Windows Device Association Service allows an authorized attacker to elevate privileges...",
    "summary": "Use after free in Windows Device Association Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83712",
@@ -16766,7 +17613,7 @@
    "title": "Out-of-bounds write in Windows NTFS allows an authorized attacker to execute code locally.",
    "summary": "Out-of-bounds write in Windows NTFS allows an authorized attacker to execute code locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83715",
@@ -16779,7 +17626,7 @@
    "title": "Missing authentication for critical function in Windows Error Reporting allows an authorized attacker to...",
    "summary": "Missing authentication for critical function in Windows Error Reporting allows an authorized attacker to perform tampering locally.",
    "affects": [],
-   "epss": 0.00327
+   "epss": 0.0032
   },
   {
    "id": "CVE-2026-83716",
@@ -16792,7 +17639,7 @@
    "title": "Heap-based buffer overflow in Windows Hyper-V allows an authorized attacker to execute code locally.",
    "summary": "Heap-based buffer overflow in Windows Hyper-V allows an authorized attacker to execute code locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83717",
@@ -16805,7 +17652,7 @@
    "title": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00304
+   "epss": 0.00297
   },
   {
    "id": "CVE-2026-83718",
@@ -16818,7 +17665,7 @@
    "title": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83720",
@@ -16831,7 +17678,7 @@
    "title": "Use after free in Windows Kerberos allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Kerberos allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83721",
@@ -16844,7 +17691,7 @@
    "title": "Use after free in Windows Win32K allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Win32K allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83724",
@@ -16857,7 +17704,7 @@
    "title": "Heap-based buffer overflow in Windows Management Instrumentation allows an authorized attacker to elevate...",
    "summary": "Heap-based buffer overflow in Windows Management Instrumentation allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00284
+   "epss": 0.00277
   },
   {
    "id": "CVE-2026-83725",
@@ -16870,7 +17717,7 @@
    "title": "Heap-based buffer overflow in Microsoft Windows Search Component allows an unauthorized attacker to execute...",
    "summary": "Heap-based buffer overflow in Microsoft Windows Search Component allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00785
+   "epss": 0.00768
   },
   {
    "id": "CVE-2026-83726",
@@ -16883,7 +17730,7 @@
    "title": "Use after free in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83727",
@@ -16896,7 +17743,7 @@
    "title": "Buffer over-read in Windows Overlay Filter allows an authorized attacker to elevate privileges locally.",
    "summary": "Buffer over-read in Windows Overlay Filter allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83728",
@@ -16909,7 +17756,7 @@
    "title": "Improper validation of syntactic correctness of input in Windows Hyper-V allows an authorized attacker to...",
    "summary": "Improper validation of syntactic correctness of input in Windows Hyper-V allows an authorized attacker to perform spoofing locally.",
    "affects": [],
-   "epss": 0.0031
+   "epss": 0.00303
   },
   {
    "id": "CVE-2026-83732",
@@ -16922,7 +17769,7 @@
    "title": "Use after free in Windows Win32K allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Win32K allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00391
+   "epss": 0.00382
   },
   {
    "id": "CVE-2026-83735",
@@ -16935,7 +17782,7 @@
    "title": "Release of invalid pointer or reference in Windows Kernel allows an authorized attacker to elevate privileges...",
    "summary": "Release of invalid pointer or reference in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00433
+   "epss": 0.00423
   },
   {
    "id": "CVE-2026-83738",
@@ -16948,7 +17795,7 @@
    "title": "Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate...",
    "summary": "Use after free in Windows Ancillary Function Driver for WinSock allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00298
+   "epss": 0.00291
   },
   {
    "id": "CVE-2026-83739",
@@ -16961,7 +17808,7 @@
    "title": "Use after free in Windows Bluetooth Service allows an unauthorized attacker to execute code over an adjacent...",
    "summary": "Use after free in Windows Bluetooth Service allows an unauthorized attacker to execute code over an adjacent network.",
    "affects": [],
-   "epss": 0.00481
+   "epss": 0.00471
   },
   {
    "id": "CVE-2026-83740",
@@ -16974,7 +17821,7 @@
    "title": "Use after free in Windows Hello allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Hello allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83741",
@@ -16987,7 +17834,7 @@
    "title": "Use after free in Internet Explorer allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Internet Explorer allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00275
+   "epss": 0.00269
   },
   {
    "id": "CVE-2026-83748",
@@ -17000,7 +17847,7 @@
    "title": "Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a...",
    "summary": "Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00933
+   "epss": 0.00913
   },
   {
    "id": "CVE-2026-83749",
@@ -17013,7 +17860,7 @@
    "title": "Use after free in Windows Overlay Filter allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Overlay Filter allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00258
+   "epss": 0.00252
   },
   {
    "id": "CVE-2026-83750",
@@ -17026,7 +17873,7 @@
    "title": "Time-of-check time-of-use (toctou) race condition in Windows Error Reporting allows an authorized attacker to...",
    "summary": "Time-of-check time-of-use (toctou) race condition in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00233
+   "epss": 0.00228
   },
   {
    "id": "CVE-2026-83751",
@@ -17039,7 +17886,7 @@
    "title": "Use after free in Windows MIDI Service Module allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows MIDI Service Module allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83752",
@@ -17052,7 +17899,7 @@
    "title": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00258
+   "epss": 0.00252
   },
   {
    "id": "CVE-2026-83753",
@@ -17065,7 +17912,7 @@
    "title": "Heap-based buffer overflow in Windows Camera Frame Server Monitor allows an authorized attacker to elevate...",
    "summary": "Heap-based buffer overflow in Windows Camera Frame Server Monitor allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83754",
@@ -17078,7 +17925,7 @@
    "title": "Heap-based buffer overflow in OpenSSH for Windows allows an unauthorized attacker to execute code over a...",
    "summary": "Heap-based buffer overflow in OpenSSH for Windows allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00677
+   "epss": 0.00662
   },
   {
    "id": "CVE-2026-83757",
@@ -17091,7 +17938,7 @@
    "title": "Heap-based buffer overflow in Windows Win32K allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Windows Win32K allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83758",
@@ -17104,7 +17951,7 @@
    "title": "Heap-based buffer overflow in Windows Error Reporting allows an authorized attacker to execute code locally.",
    "summary": "Heap-based buffer overflow in Windows Error Reporting allows an authorized attacker to execute code locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83759",
@@ -17130,7 +17977,7 @@
    "title": "Use after free in Windows Win32K allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Win32K allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83763",
@@ -17143,7 +17990,7 @@
    "title": "Access of resource using incompatible type ('type confusion') in Windows Input System allows an authorized...",
    "summary": "Access of resource using incompatible type ('type confusion') in Windows Input System allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00404
+   "epss": 0.00395
   },
   {
    "id": "CVE-2026-83767",
@@ -17156,7 +18003,7 @@
    "title": "Stack-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "summary": "Stack-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.0031
+   "epss": 0.00303
   },
   {
    "id": "CVE-2026-83769",
@@ -17169,7 +18016,7 @@
    "title": "Use after free in OpenSSH for Windows allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in OpenSSH for Windows allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00417
+   "epss": 0.00407
   },
   {
    "id": "CVE-2026-83784",
@@ -17182,7 +18029,7 @@
    "title": "Absolute path traversal in Windows Encrypting File System (EFS) allows an authorized attacker to elevate...",
    "summary": "Absolute path traversal in Windows Encrypting File System (EFS) allows an authorized attacker to elevate privileges over a network.",
    "affects": [],
-   "epss": 0.0108
+   "epss": 0.01081
   },
   {
    "id": "CVE-2026-83785",
@@ -17195,7 +18042,7 @@
    "title": "Use after free in Windows COM+ Event System Service allows an authorized attacker to elevate privileges...",
    "summary": "Use after free in Windows COM+ Event System Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00326
+   "epss": 0.00318
   },
   {
    "id": "CVE-2026-83845",
@@ -17208,7 +18055,7 @@
    "title": "Improper privilege management in Windows Internet (wininet.dll) allows an authorized attacker to perform...",
    "summary": "Improper privilege management in Windows Internet (wininet.dll) allows an authorized attacker to perform spoofing locally.",
    "affects": [],
-   "epss": 0.00327
+   "epss": 0.0032
   },
   {
    "id": "CVE-2026-83846",
@@ -17221,7 +18068,7 @@
    "title": "Use after free in Connected Devices Platform Service (Cdpsvc) allows an authorized attacker to elevate...",
    "summary": "Use after free in Connected Devices Platform Service (Cdpsvc) allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00275
+   "epss": 0.00269
   },
   {
    "id": "CVE-2026-83847",
@@ -17234,7 +18081,7 @@
    "title": "Heap-based buffer overflow in Microsoft Account allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Microsoft Account allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00348
+   "epss": 0.0034
   },
   {
    "id": "CVE-2026-83848",
@@ -17247,7 +18094,7 @@
    "title": "Untrusted pointer dereference in Windows COM+ Event System Service allows an authorized attacker to elevate...",
    "summary": "Untrusted pointer dereference in Windows COM+ Event System Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.0042
+   "epss": 0.0041
   },
   {
    "id": "CVE-2026-83850",
@@ -17260,7 +18107,7 @@
    "title": "Heap-based buffer overflow in Microsoft Windows Search Component allows an authorized attacker to elevate...",
    "summary": "Heap-based buffer overflow in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83851",
@@ -17273,7 +18120,7 @@
    "title": "Heap-based buffer overflow in Windows Partition Management Driver allows an unauthorized attacker to elevate...",
    "summary": "Heap-based buffer overflow in Windows Partition Management Driver allows an unauthorized attacker to elevate privileges over a network.",
    "affects": [],
-   "epss": 0.00785
+   "epss": 0.00768
   },
   {
    "id": "CVE-2026-83852",
@@ -17286,7 +18133,7 @@
    "title": "Use after free in Windows Bind Filter Driver allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Bind Filter Driver allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00258
+   "epss": 0.00252
   },
   {
    "id": "CVE-2026-83863",
@@ -17299,7 +18146,7 @@
    "title": "Heap-based buffer overflow in Servicing Stack Updates allows an authorized attacker to elevate privileges...",
    "summary": "Heap-based buffer overflow in Servicing Stack Updates allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83868",
@@ -17312,7 +18159,7 @@
    "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Microsoft...",
    "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Microsoft Bluetooth Driver allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00204
+   "epss": 0.00199
   },
   {
    "id": "CVE-2026-83877",
@@ -17325,7 +18172,7 @@
    "title": "Integer overflow or wraparound in HID Parser Library allows an authorized attacker to elevate privileges...",
    "summary": "Integer overflow or wraparound in HID Parser Library allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00388
+   "epss": 0.00379
   },
   {
    "id": "CVE-2026-83901",
@@ -17338,7 +18185,7 @@
    "title": "Use after free in Windows Win32 Kernel Subsystem allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Win32 Kernel Subsystem allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00307
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-83902",
@@ -17351,7 +18198,7 @@
    "title": "Heap-based buffer overflow in Windows Direct Composition allows an authorized attacker to elevate privileges...",
    "summary": "Heap-based buffer overflow in Windows Direct Composition allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00404
+   "epss": 0.00395
   },
   {
    "id": "CVE-2026-83903",
@@ -17364,7 +18211,7 @@
    "title": "Heap-based buffer overflow in Windows Direct Composition allows an authorized attacker to elevate privileges...",
    "summary": "Heap-based buffer overflow in Windows Direct Composition allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00388
+   "epss": 0.00379
   },
   {
    "id": "CVE-2026-83908",
@@ -17377,7 +18224,7 @@
    "title": "Release of invalid pointer or reference in RPC Runtime allows an authorized attacker to elevate privileges...",
    "summary": "Release of invalid pointer or reference in RPC Runtime allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00307
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-83910",
@@ -17390,7 +18237,7 @@
    "title": "Out-of-bounds write in RPC Runtime allows an unauthorized attacker to execute code over a network.",
    "summary": "Out-of-bounds write in RPC Runtime allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.01084
+   "epss": 0.01061
   },
   {
    "id": "CVE-2026-83911",
@@ -17403,7 +18250,7 @@
    "title": "Heap-based buffer overflow in Windows Storage allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Windows Storage allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00307
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-83912",
@@ -17416,7 +18263,7 @@
    "title": "Use after free in Windows Direct Composition allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Direct Composition allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00333
+   "epss": 0.00325
   },
   {
    "id": "CVE-2026-83913",
@@ -17429,7 +18276,7 @@
    "title": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00388
+   "epss": 0.00379
   },
   {
    "id": "CVE-2026-83914",
@@ -17442,7 +18289,7 @@
    "title": "Use after free in Microsoft XML allows an unauthorized attacker to execute code over a network.",
    "summary": "Use after free in Microsoft XML allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.00819
+   "epss": 0.00801
   },
   {
    "id": "CVE-2026-83915",
@@ -17455,7 +18302,7 @@
    "title": "Use after free in Windows Diagnostic Policy Service allows an authorized attacker to elevate privileges...",
    "summary": "Use after free in Windows Diagnostic Policy Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00307
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-83916",
@@ -17468,7 +18315,7 @@
    "title": "Double free in Windows Error Reporting allows an authorized attacker to execute code locally.",
    "summary": "Double free in Windows Error Reporting allows an authorized attacker to execute code locally.",
    "affects": [],
-   "epss": 0.00307
+   "epss": 0.003
   },
   {
    "id": "CVE-2026-83917",
@@ -17481,7 +18328,7 @@
    "title": "Use after free in Windows ALPC allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows ALPC allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00282
+   "epss": 0.00276
   },
   {
    "id": "CVE-2026-83918",
@@ -17494,7 +18341,7 @@
    "title": "Integer overflow or wraparound in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "summary": "Integer overflow or wraparound in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00333
+   "epss": 0.00325
   },
   {
    "id": "CVE-2026-83919",
@@ -17507,7 +18354,7 @@
    "title": "Heap-based buffer overflow in Microsoft Internet Messaging API allows an authorized attacker to execute code...",
    "summary": "Heap-based buffer overflow in Microsoft Internet Messaging API allows an authorized attacker to execute code locally.",
    "affects": [],
-   "epss": 0.0032
+   "epss": 0.00313
   },
   {
    "id": "CVE-2026-83920",
@@ -17520,7 +18367,7 @@
    "title": "Heap-based buffer overflow in Microsoft Windows Search Component allows an authorized attacker to elevate...",
    "summary": "Heap-based buffer overflow in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00333
+   "epss": 0.00325
   },
   {
    "id": "CVE-2026-83921",
@@ -17533,7 +18380,7 @@
    "title": "Heap-based buffer overflow in Microsoft Windows Search Component allows an authorized attacker to elevate...",
    "summary": "Heap-based buffer overflow in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00277
+   "epss": 0.00271
   },
   {
    "id": "CVE-2026-83922",
@@ -17546,7 +18393,7 @@
    "title": "Use after free in Windows Direct Composition allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Direct Composition allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00342
+   "epss": 0.00334
   },
   {
    "id": "CVE-2026-83923",
@@ -17559,7 +18406,7 @@
    "title": "Relative path traversal in OpenSSH for Windows allows an unauthorized attacker to execute code over a network.",
    "summary": "Relative path traversal in OpenSSH for Windows allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.01045
+   "epss": 0.01022
   },
   {
    "id": "CVE-2026-85318",
@@ -17572,7 +18419,7 @@
    "title": "Heap-based buffer overflow in Servicing Stack Updates allows an authorized attacker to elevate privileges...",
    "summary": "Heap-based buffer overflow in Servicing Stack Updates allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00318
+   "epss": 0.00311
   },
   {
    "id": "CVE-2026-85319",
@@ -17585,7 +18432,7 @@
    "title": "Allocation of resources without limits or throttling in Active Directory Federation Services (AD FS) allows...",
    "summary": "Allocation of resources without limits or throttling in Active Directory Federation Services (AD FS) allows an unauthorized attacker to deny service over a network.",
    "affects": [],
-   "epss": 0.01103
+   "epss": 0.01079
   },
   {
    "id": "CVE-2026-85321",
@@ -17598,7 +18445,7 @@
    "title": "Allocation of resources without limits or throttling in Active Directory Federation Services (AD FS) allows...",
    "summary": "Allocation of resources without limits or throttling in Active Directory Federation Services (AD FS) allows an unauthorized attacker to deny service over a network.",
    "affects": [],
-   "epss": 0.01056
+   "epss": 0.01033
   },
   {
    "id": "CVE-2026-85828",
@@ -17611,7 +18458,7 @@
    "title": "Heap-based buffer overflow in WebDAV allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in WebDAV allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00253
+   "epss": 0.00247
   },
   {
    "id": "CVE-2026-85829",
@@ -17624,7 +18471,7 @@
    "title": "Double free in Windows Wired AutoConfig Service allows an authorized attacker to elevate privileges locally.",
    "summary": "Double free in Windows Wired AutoConfig Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00319
+   "epss": 0.00312
   },
   {
    "id": "CVE-2026-85832",
@@ -17637,7 +18484,7 @@
    "title": "Heap-based buffer overflow in Windows Background Intelligent Transfer Service (BITS) allows an authorized...",
    "summary": "Heap-based buffer overflow in Windows Background Intelligent Transfer Service (BITS) allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00371
+   "epss": 0.00362
   },
   {
    "id": "CVE-2026-85833",
@@ -17650,7 +18497,7 @@
    "title": "Use after free in Windows Modern Device Management (MDM) allows an authorized attacker to elevate privileges...",
    "summary": "Use after free in Windows Modern Device Management (MDM) allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00319
+   "epss": 0.00312
   },
   {
    "id": "CVE-2026-85834",
@@ -17663,7 +18510,7 @@
    "title": "Heap-based buffer overflow in Windows TCP/IP allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Windows TCP/IP allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00253
+   "epss": 0.00247
   },
   {
    "id": "CVE-2026-85842",
@@ -17676,7 +18523,7 @@
    "title": "Use of externally-controlled format string in Windows Image Acquisition allows an authorized attacker to...",
    "summary": "Use of externally-controlled format string in Windows Image Acquisition allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00319
+   "epss": 0.00312
   },
   {
    "id": "CVE-2026-85843",
@@ -17689,7 +18536,7 @@
    "title": "Use of uninitialized resource in Windows Background Intelligent Transfer Service (BITS) allows an authorized...",
    "summary": "Use of uninitialized resource in Windows Background Intelligent Transfer Service (BITS) allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00371
+   "epss": 0.00362
   },
   {
    "id": "CVE-2026-85846",
@@ -17702,7 +18549,7 @@
    "title": "Use after free in Windows Web Account Manager allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Web Account Manager allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00204
+   "epss": 0.002
   },
   {
    "id": "CVE-2026-85848",
@@ -17715,7 +18562,7 @@
    "title": "Heap-based buffer overflow in Windows Background Intelligent Transfer Service (BITS) allows an authorized...",
    "summary": "Heap-based buffer overflow in Windows Background Intelligent Transfer Service (BITS) allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00371
+   "epss": 0.00362
   },
   {
    "id": "CVE-2026-85849",
@@ -17728,7 +18575,7 @@
    "title": "Improper link resolution before file access ('link following') in Windows AppX Deployment Service allows an...",
    "summary": "Improper link resolution before file access ('link following') in Windows AppX Deployment Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00486
+   "epss": 0.00474
   },
   {
    "id": "CVE-2026-85850",
@@ -17741,7 +18588,7 @@
    "title": "Release of invalid pointer or reference in Windows Kernel allows an authorized attacker to elevate privileges...",
    "summary": "Release of invalid pointer or reference in Windows Kernel allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00345
+   "epss": 0.00337
   },
   {
    "id": "CVE-2026-85851",
@@ -17754,7 +18601,7 @@
    "title": "Use after free in Windows SmartScreen allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows SmartScreen allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.0033
+   "epss": 0.00322
   },
   {
    "id": "CVE-2026-85853",
@@ -17767,7 +18614,7 @@
    "title": "Out-of-bounds read in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
    "summary": "Out-of-bounds read in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00252
+   "epss": 0.00246
   },
   {
    "id": "CVE-2026-85854",
@@ -17780,7 +18627,7 @@
    "title": "Use after free in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00252
+   "epss": 0.00246
   },
   {
    "id": "CVE-2026-85855",
@@ -17793,7 +18640,7 @@
    "title": "Use after free in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows DWM Core Library allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00342
+   "epss": 0.00334
   },
   {
    "id": "CVE-2026-85856",
@@ -17819,7 +18666,7 @@
    "title": "Out-of-bounds read in Windows Win32 Kernel Subsystem allows an authorized attacker to elevate privileges...",
    "summary": "Out-of-bounds read in Windows Win32 Kernel Subsystem allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00252
+   "epss": 0.00246
   },
   {
    "id": "CVE-2026-85860",
@@ -17832,7 +18679,7 @@
    "title": "Use after free in Windows Message Queuing Queue Manager allows an authorized attacker to elevate privileges...",
    "summary": "Use after free in Windows Message Queuing Queue Manager allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00245
+   "epss": 0.0024
   },
   {
    "id": "CVE-2026-85861",
@@ -17845,7 +18692,7 @@
    "title": "Use after free in Windows Clipboard User Service allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Clipboard User Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00242
+   "epss": 0.00236
   },
   {
    "id": "CVE-2026-85863",
@@ -17858,7 +18705,7 @@
    "title": "Use after free in Windows Clipboard User Service allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Clipboard User Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00242
+   "epss": 0.00236
   },
   {
    "id": "CVE-2026-85864",
@@ -17871,7 +18718,7 @@
    "title": "Improper privilege management in Python allows an authorized attacker to elevate privileges locally.",
    "summary": "Improper privilege management in Python allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00745
+   "epss": 0.00301
   },
   {
    "id": "CVE-2026-85867",
@@ -17884,7 +18731,7 @@
    "title": "Heap-based buffer overflow in Windows Remote Access Connection Manager allows an authorized attacker to...",
    "summary": "Heap-based buffer overflow in Windows Remote Access Connection Manager allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00245
+   "epss": 0.0024
   },
   {
    "id": "CVE-2026-85868",
@@ -17897,7 +18744,7 @@
    "title": "Use after free in Windows Common Log File System Driver allows an authorized attacker to elevate privileges...",
    "summary": "Use after free in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-85869",
@@ -17910,7 +18757,7 @@
    "title": "Heap-based buffer overflow in Microsoft Windows Search Component allows an authorized attacker to elevate...",
    "summary": "Heap-based buffer overflow in Microsoft Windows Search Component allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00318
+   "epss": 0.00311
   },
   {
    "id": "CVE-2026-85870",
@@ -17923,7 +18770,7 @@
    "title": "Heap-based buffer overflow in Windows Common Log File System Driver allows an authorized attacker to elevate...",
    "summary": "Heap-based buffer overflow in Windows Common Log File System Driver allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00326
+   "epss": 0.00318
   },
   {
    "id": "CVE-2026-85871",
@@ -17936,7 +18783,7 @@
    "title": "Heap-based buffer overflow in Windows Kernel-Mode Drivers allows an authorized attacker to elevate privileges...",
    "summary": "Heap-based buffer overflow in Windows Kernel-Mode Drivers allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00318
+   "epss": 0.00311
   },
   {
    "id": "CVE-2026-85872",
@@ -17949,7 +18796,7 @@
    "title": "Use after free in Windows Storage VSP Driver allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Windows Storage VSP Driver allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-85874",
@@ -17962,7 +18809,7 @@
    "title": "Use after free in Windows Message Queuing Queue Manager allows an authorized attacker to execute code locally.",
    "summary": "Use after free in Windows Message Queuing Queue Manager allows an authorized attacker to execute code locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-85879",
@@ -17982,7 +18829,7 @@
      "toExcl": "2.7.10"
     }
    ],
-   "epss": 0.00219
+   "epss": 0.00214
   },
   {
    "id": "CVE-2026-85881",
@@ -18015,7 +18862,7 @@
    "title": "Missing authentication for critical function in Windows Health and Optimized Experiences Service allows an...",
    "summary": "Missing authentication for critical function in Windows Health and Optimized Experiences Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00446
+   "epss": 0.00437
   },
   {
    "id": "CVE-2026-85943",
@@ -18028,7 +18875,7 @@
    "title": "Time-of-check time-of-use (toctou) race condition in Reliable Multicast Transport Driver (RMCAST) allows an...",
    "summary": "Time-of-check time-of-use (toctou) race condition in Reliable Multicast Transport Driver (RMCAST) allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00219
+   "epss": 0.00214
   },
   {
    "id": "CVE-2026-87692",
@@ -18057,7 +18904,7 @@
      "toExcl": "15.02.2562.056"
     }
    ],
-   "epss": 0.01683
+   "epss": 0.02311
   },
   {
    "id": "CVE-2026-95943",
@@ -18070,7 +18917,7 @@
    "title": "Double free in Connected Devices Platform Service (Cdpsvc) allows an authorized attacker to elevate...",
    "summary": "Double free in Connected Devices Platform Service (Cdpsvc) allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00275
+   "epss": 0.00269
   },
   {
    "id": "CVE-2026-96108",
@@ -18083,7 +18930,59 @@
    "title": "Use after free in Desktop Window Manager allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Desktop Window Manager allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00306
+   "epss": 0.00299
+  },
+  {
+   "id": "CVE-2026-83696",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges...",
+   "summary": "Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-83698",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in Windows Client-Side Caching (CSC) Service allows an authorized attacker to...",
+   "summary": "Heap-based buffer overflow in Windows Client-Side Caching (CSC) Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-83699",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Stack-based buffer overflow in Windows Client-Side Caching (CSC) Service allows an authorized attacker to...",
+   "summary": "Stack-based buffer overflow in Windows Client-Side Caching (CSC) Service allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.0042
+  },
+  {
+   "id": "CVE-2026-83722",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Microsoft Local Security Authority Server (lsasrv) allows an authorized attacker to elevate...",
+   "summary": "Use after free in Microsoft Local Security Authority Server (lsasrv) allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00226
   },
   {
    "id": "CVE-2026-100227",
