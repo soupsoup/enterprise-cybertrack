@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-31T10:57:51.034Z",
+ "generated": "2026-11-01T11:53:33.866Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 20
   },
   {
@@ -78,15 +78,15 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
-   "count": 5348
+   "checked": "2026-11-01T11:53:33.866Z",
+   "count": 5399
   },
   {
    "company": "microsoft",
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,7 +224,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 714
   },
   {
@@ -232,11 +232,259 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-10-31T10:57:51.034Z",
+   "checked": "2026-11-01T11:53:33.866Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118304 Improper input validation in SVG",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118304",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118313 Use after free in Video",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118313",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118311 Memory corruption in Media",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118311",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118317 Memory corruption in HTML",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118317",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118315 Improper input validation in SVG",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118315",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118312 Memory corruption in Paint",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118312",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118316 Improper input validation in V8",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118316",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118318 Improper access control in V8",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118318",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118308 Use after free in SVG",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118308",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118310 Improper input validation in Views",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118310",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118305 Memory corruption in Turbolev",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118305",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118307 Use after free in Paint",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118307",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118306 Memory corruption in FileSystem",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118306",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118319 Memory corruption in Skia",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118319",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118322 Memory corruption in ANGLE",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118322",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118328 Improper input validation in WebRTC",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118328",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118327 Memory corruption in Media",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118327",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118332 Improper input validation in Compositing",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118332",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118320 Memory corruption in V8",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118320",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118334 Use after free in ImageCapture",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118334",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118331 Improper input validation in FileAPI",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118331",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118330 Use after free in Browser",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118330",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118333 Missing authorization in Video",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118333",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118335 Improper input validation in Metrics",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118335",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118329 Improper input validation in ANGLE",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118329",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118336 Improper input validation in Headless",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118336",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118337 Improper access control in Forms",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118337",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118338 Use after free in Animation",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118338",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118339 Use after free in Animation",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118339",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium: CVE-2026-118340 Memory corruption in Skia",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118340",
+   "date": "2026-10-31T14:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "talos",
+   "feed": "Threat research",
+   "title": "Appraisal by AI: Model-driven victim prioritization in the VOLTA infostealer",
+   "link": "https://blog.talosintelligence.com/appraisal-by-ai-model-driven-victim-prioritization-in-the-volta-infostealer/",
+   "date": "2026-10-31T12:00:00.000Z",
+   "summary": "The self-deleting VOLTA infostealer steals credentials, sessions, and cryptocurrency wallets. Then, it uses LLMs to profile victims and rank their most valuable assets."
+  },
   {
    "company": "paloalto",
    "feed": "Security advisories",
@@ -310,36 +558,20 @@
    "summary": "Overview An origin-validation flaw in BeyondTrust Remote Support lets an unauthenticated attacker write files on the appliance and execute code as the site's operating-system user. The entry point is the public customer connection used to start a support session. No account..."
   },
   {
+   "company": "eset",
+   "feed": "WeLiveSecurity",
+   "title": "This month in security with Tony Anscombe – October 2026 edition",
+   "link": "https://www.welivesecurity.com/en/videos/month-security-tony-anscombe-october-2026/",
+   "date": "2026-10-30T15:03:14.000Z",
+   "summary": "The PHP2Shell disclosure and other major cybersecurity news this month brought into relief the need for well-thought-out cyber-readiness plans"
+  },
+  {
    "company": "qualys",
    "feed": "Blog",
    "title": "Operationalizing CISA AA26-194A: Automating Cisco Router Security Assessments with Qualys Policy Audit",
    "link": "https://blog.qualys.com/product-tech/2026/10/30/cisa-aa26-194a-cisco-router-policy-audit",
    "date": "2026-10-30T15:00:00.000Z",
    "summary": "Key Takeaways CISA AA26-194A provides actionable guidance to improve the security of Internet-facing Cisco routers against real-world attack techniques. The advisory focuses on configuration hardening and security hygiene, rather than a single vulnerability or CVE. Manually..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-70125 Microsoft Office Outlook Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-70125",
-   "date": "2026-10-30T14:00:00.000Z",
-   "summary": "Updated one or more CVSS scores for the affected products. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-118147 Visual Studio Spoofing Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118147",
-   "date": "2026-10-30T14:00:00.000Z",
-   "summary": "Improper certificate validation in Visual Studio allows an unauthorized attacker to perform spoofing over a network."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-69446 Microsoft Edge (Chromium-based) Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-69446",
-   "date": "2026-10-30T14:00:00.000Z",
-   "summary": "Corrected CVE by adding the assigning CNA. This is an informational change only."
   },
   {
    "company": "wiz",
@@ -470,14 +702,6 @@
    "summary": "Phishing remained the leading initial access technique, while percentage of ransomware and pre-ransomware cases increased. Finance and public administration tied as the top-targeted industries."
   },
   {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-88078 Microsoft Edge (Chromium-based) Spoofing Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88078",
-   "date": "2026-10-29T14:00:00.000Z",
-   "summary": "CWE added. Informational change only."
-  },
-  {
    "company": "talos",
    "feed": "Threat research",
    "title": "NIK C2: The new AI-enabled command-and-control framework",
@@ -508,14 +732,6 @@
    "link": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
    "date": "2026-10-29T05:00:00.000Z",
    "summary": ""
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-19175 Use after free in Payments",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-19175",
-   "date": "2026-10-29T00:06:22.000Z",
-   "summary": "Information published."
   },
   {
    "company": "sophos",
@@ -574,14 +790,6 @@
    "summary": "IntroductionOn October 21, 2026, the Node.js project disclosed CVE-2026-111497, an out-of-bounds write vulnerability in Google’s Brotli decoder used by Node.js and other software. The vulnerability is also known as Node2Shell and more recently as HTTP2Shell. The CVE score, filed..."
   },
   {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Cisco Advance Notification for Publication of November 4, 2026, Security Advisories",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20November%204,%202026,%20Security%20Advisories%26vs_k=1",
-   "date": "2026-10-28T16:00:00.000Z",
-   "summary": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: Identity Services Engine (ISE) UCS Central Software Unified..."
-  },
-  {
    "company": "microsoft",
    "feed": "Security blog",
    "title": "The CISO’s evolving role: Protecting and defending in the agentic era",
@@ -590,36 +798,12 @@
    "summary": "As AI and agents reshape the enterprise, CISOs face two critical priorities: enabling innovation with the right identity and data guardrails, and modernizing defense to keep pace with AI-powered threats. Aarti Borkar shares how security leaders can approach both. The post The..."
   },
   {
-   "company": "microsoft",
+   "company": "talos",
    "feed": "Security advisories",
-   "title": "CVE-2026-62740 Windows Imaging Component Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62740",
-   "date": "2026-10-28T14:00:00.000Z",
-   "summary": "Added supported editions of Microsoft Office to the Security Updates table because they are affected by this vulnerability. Microsoft recommends that customers running any of these editions of Office install the latest security updates to be fully protected from this..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-62877 Windows Win32k Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62877",
-   "date": "2026-10-28T14:00:00.000Z",
-   "summary": "Added supported editions of Microsoft Office to the Security Updates table because they are affected by this vulnerability. Microsoft recommends that customers running any of these editions of Office install the latest security updates to be fully protected from this..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-57083 Windows Media Photo Codec Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57083",
-   "date": "2026-10-28T14:00:00.000Z",
-   "summary": "Added supported editions of Microsoft Office to the Security Updates table because they are affected by this vulnerability. Microsoft recommends that customers running any of these editions of Office install the latest security updates to be fully protected from this..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-57084 Windows File Explorer Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-57084",
-   "date": "2026-10-28T14:00:00.000Z",
-   "summary": "Added supported editions of Microsoft Office to the Security Updates table because they are affected by this vulnerability. Microsoft recommends that customers running any of these editions of Office install the latest security updates to be fully protected from this..."
+   "title": "Cisco Advance Notification for Publication of November 4, 2026, Security Advisories",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20November%204,%202026,%20Security%20Advisories%26vs_k=1",
+   "date": "2026-10-28T16:00:00.000Z",
+   "summary": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) will publish advisories to disclose security vulnerability information along with fixed software releases for the following Cisco products: Identity Services Engine (ISE) UCS Central Software Unified..."
   },
   {
    "company": "rapid7",
@@ -660,174 +844,6 @@
    "link": "https://www.proofpoint.com/us/newsroom/press-releases/proofpoint-introduces-flex-help-customers-invest-confidence-security-needs",
    "date": "2026-10-28T09:25:36.000Z",
    "summary": ""
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79293 Information leak in Animation",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79293",
-   "date": "2026-10-28T08:54:44.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79292 Integer overflow in Chromecast",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79292",
-   "date": "2026-10-28T08:54:39.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79291 Information leak in CSS",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79291",
-   "date": "2026-10-28T08:54:34.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79290 Use after free in Aura",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79290",
-   "date": "2026-10-28T08:54:29.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79289 Improper control of a resource through its lifetime in Workers",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79289",
-   "date": "2026-10-28T08:54:23.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79287 Observable discrepancy in Forms",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79287",
-   "date": "2026-10-28T08:54:19.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79285 Uninitialized resource in ANGLE",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79285",
-   "date": "2026-10-28T08:54:14.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79284 UI misrepresentation in Core",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79284",
-   "date": "2026-10-28T08:54:09.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79283 UI misrepresentation in Geometry",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79283",
-   "date": "2026-10-28T08:54:02.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79276 Improper privilege management in FileSystem",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79276",
-   "date": "2026-10-28T08:53:57.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79275 Use after free in ANGLE",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79275",
-   "date": "2026-10-28T08:53:53.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79274 Information leak in GPU",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79274",
-   "date": "2026-10-28T08:53:48.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79272 Improper input validation in FindInPage",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79272",
-   "date": "2026-10-28T08:53:43.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79271 Information leak in DOM",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79271",
-   "date": "2026-10-28T08:53:39.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79179 Incorrect authorization in DOM",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79179",
-   "date": "2026-10-28T08:53:36.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79270 Uninitialized resource in ANGLE",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79270",
-   "date": "2026-10-28T08:53:34.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79178 Incorrect authorization in Web Authentication (Passkeys & Security Keys)",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79178",
-   "date": "2026-10-28T08:53:30.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79269 Uninitialized resource in ANGLE",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79269",
-   "date": "2026-10-28T08:53:30.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79177 Incorrect authorization in Media",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79177",
-   "date": "2026-10-28T08:53:26.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79267 Race condition in Workers",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79267",
-   "date": "2026-10-28T08:53:25.000Z",
-   "summary": "Information published."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "Chromium: CVE-2026-79176 UI misrepresentation in Extensions",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-79176",
-   "date": "2026-10-28T08:53:21.000Z",
-   "summary": "Information published."
   },
   {
    "company": "qualys",
@@ -1478,14 +1494,6 @@
    "summary": "In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability."
   },
   {
-   "company": "tenable",
-   "feed": "Blog",
-   "title": "How Tenable brought multi-language support to security detectors with agentic translation",
-   "link": "https://www.tenable.com/blog/how-tenable-brought-multi-language-support-to-security-detectors-with-agentic-translation",
-   "date": "2026-10-21T13:00:00.000Z",
-   "summary": "AI security tools that can only detect threats in English offer limited protection. Here’s how Tenable trained our threat detectors to process nine additional languages and understand thousands more, without the need for a translation model, which increases costs and slows down..."
-  },
-  {
    "company": "rapid7",
    "feed": "Blog",
    "title": "Q3 2026 Threat Update: Attackers Are Exploiting Vulnerabilities Within 3 Days",
@@ -1500,6 +1508,14 @@
    "link": "https://blog.qualys.com/product-tech/2026/10/21/bluehammer-cve-2026-33825-windows-defender-privilege-escalation",
    "date": "2026-10-21T13:00:00.000Z",
    "summary": "Executive Summary BlueHammer (CVE-2026-33825) is an eight-stage local privilege-escalation chain targeting the Windows Defender Antimalware Platform before 4.18.26030.3011. It does not grant initial access; an attacker needs standard-user code execution first. Still, in the lab,..."
+  },
+  {
+   "company": "tenable",
+   "feed": "Blog",
+   "title": "How Tenable brought multi-language support to security detectors with agentic translation",
+   "link": "https://www.tenable.com/blog/how-tenable-brought-multi-language-support-to-security-detectors-with-agentic-translation",
+   "date": "2026-10-21T13:00:00.000Z",
+   "summary": "AI security tools that can only detect threats in English offer limited protection. Here’s how Tenable trained our threat detectors to process nine additional languages and understand thousands more, without the need for a translation model, which increases costs and slows down..."
   },
   {
    "company": "paloalto",
@@ -2878,20 +2894,20 @@
    "summary": ""
   },
   {
-   "company": "sophos",
-   "feed": "Blog",
-   "title": "Sophos Named a Leader in the IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises 2026",
-   "link": "https://www.sophos.com/en-us/blog/sophos-idc-marketscape-endpoint-security",
-   "date": "2026-10-02T00:00:00.000Z",
-   "summary": "Sophos has been named a Leader in the IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises 2026, recognizing the strength of our prevention-first approach and stopping AI-era threats as early as possible."
-  },
-  {
    "company": "sentinelone",
    "feed": "Blog",
    "title": "The Good, the Bad and the Ugly in Cybersecurity – Week 39 (2026)",
    "link": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-39-8",
    "date": "2026-10-02T00:00:00.000Z",
    "summary": "Ryuk access broker heads to prison, TraderTraitor backdoors surface on victim with no crypto ties, and one operator's AI agents skim 600K credit cards."
+  },
+  {
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "Sophos Named a Leader in the IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises 2026",
+   "link": "https://www.sophos.com/en-us/blog/sophos-idc-marketscape-endpoint-security",
+   "date": "2026-10-02T00:00:00.000Z",
+   "summary": "Sophos has been named a Leader in the IDC MarketScape for Worldwide Modern Endpoint Security for Enterprises 2026, recognizing the strength of our prevention-first approach and stopping AI-era threats as early as possible."
   },
   {
    "company": "talos",
@@ -3222,20 +3238,20 @@
    "summary": ""
   },
   {
-   "company": "sophos",
-   "feed": "Blog",
-   "title": "Jev’s Paradox: The hidden cost of cheap AI decisions",
-   "link": "https://www.sophos.com/en-us/blog/jevs-paradox-hidden-cost-of-cheap-ai-decisions",
-   "date": "2026-09-29T00:00:00.000Z",
-   "summary": "This article was first published on LinkedIn."
-  },
-  {
    "company": "sentinelone",
    "feed": "Blog",
    "title": "Building Agents Backwards from Evaluation",
    "link": "https://www.sentinelone.com/blog/building-agents-backwards-from-evaluation/",
    "date": "2026-09-29T00:00:00.000Z",
    "summary": "Learn why building reliable AI security agents requires co-designing modular system architectures alongside rigorous, domain-expert evaluation suites."
+  },
+  {
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "Jev’s Paradox: The hidden cost of cheap AI decisions",
+   "link": "https://www.sophos.com/en-us/blog/jevs-paradox-hidden-cost-of-cheap-ai-decisions",
+   "date": "2026-09-29T00:00:00.000Z",
+   "summary": "This article was first published on LinkedIn."
   },
   {
    "company": "microsoft",
@@ -3302,14 +3318,6 @@
    "summary": ""
   },
   {
-   "company": "sophos",
-   "feed": "Blog",
-   "title": "Citrix NetScaler vulnerabilities (CVE-2026-88771, CVE-2026-88772) in active exploitation",
-   "link": "https://www.sophos.com/en-us/blog/citrix-netscaler-cve-2026-88771-cve-2026-88772-in-active-exploitation",
-   "date": "2026-09-28T00:00:00.000Z",
-   "summary": ""
-  },
-  {
    "company": "sentinelone",
    "feed": "Blog",
    "title": "SentinelOne and NVIDIA: Governing AI From Silicon to Runtime",
@@ -3332,6 +3340,14 @@
    "link": "https://www.sentinelone.com/blog/bring-your-own-vulnerable-driver-the-edr-killer-economy/",
    "date": "2026-09-28T00:00:00.000Z",
    "summary": "Discover how Bring Your Own Vulnerable Driver (BYOVD) tactics evolved from lone-operator tricks into a commercialized, tiered EDR-killer service economy."
+  },
+  {
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "Citrix NetScaler vulnerabilities (CVE-2026-88771, CVE-2026-88772) in active exploitation",
+   "link": "https://www.sophos.com/en-us/blog/citrix-netscaler-cve-2026-88771-cve-2026-88772-in-active-exploitation",
+   "date": "2026-09-28T00:00:00.000Z",
+   "summary": ""
   },
   {
    "company": "trendai",
@@ -4150,14 +4166,6 @@
    "summary": ""
   },
   {
-   "company": "talos",
-   "feed": "Threat research",
-   "title": "Active exploitation of Cisco Secure Firewall Management Center vulnerabilities",
-   "link": "https://blog.talosintelligence.com/fmc-ongoing-exploitation/",
-   "date": "2026-09-09T16:08:59.000Z",
-   "summary": "Cisco Talos is actively tracking the exploitation of two vulnerabilities in Cisco’s Secure Firewall Management Center (FMC) Software."
-  },
-  {
    "company": "paloalto",
    "feed": "Security advisories",
    "title": "CVE-2026-0305 Prisma Access Agent: Information Disclosure Vulnerability on Linux (Severity: MEDIUM)",
@@ -4732,14 +4740,6 @@
    "link": "https://research.checkpoint.com/2026/the-state-of-ransomware-q2-2026/",
    "date": "2026-08-13T12:54:35.000Z",
    "summary": "For the past year, the ransomware conversation has centered on concentration: a handful of dominant RaaS operations controlling most of the damage, and a shrinking pool of active groups fighting over the same territory. The State of Ransomware Q2 2026 report from Check Point..."
-  },
-  {
-   "company": "eset",
-   "feed": "WeLiveSecurity",
-   "title": "Black Hat USA 2026: What the Hugging Face hack tells us about human responsibility",
-   "link": "https://www.welivesecurity.com/en/business-security/black-hat-usa-2026-hugging-face-hack-human-responsibility/",
-   "date": "2026-08-13T09:00:00.000Z",
-   "summary": "The incident involving OpenAI models shows that autonomous hacks make human oversight more important, not less"
   },
   {
    "company": "fortinet",
@@ -5536,7 +5536,7 @@
   {
    "company": "darktrace",
    "feed": "Blog",
-   "title": "87% of security professionals are seeing more AI-driven threats, but few feel prepared to stop them",
+   "title": "AI Cyber Threats 2026: 87% See Rising Risks",
    "link": "https://www.darktrace.com/blog/state-of-ai-cybersecurity-2026-87-of-security-professionals-are-seeing-more-ai-driven-threats-but-few-feel-ready-to-stop-them",
    "date": "2026-05-03T16:33:00.000Z",
    "summary": "The State of AI Cybersecurity 2026 report reveals a surge in the volume and impact of AI-driven attacks, focusing the need for reliable, scalable AI defense."

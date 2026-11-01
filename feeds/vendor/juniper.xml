@@ -11,7 +11,7 @@
 <guid isPermaLink="false">CVE-2026-101986</guid>
 <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
 <category>Network Infrastructure</category>
-<description>An  Improper Authentication vulnerability in J-Web of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated network attacker to bypass J-Web authentication and execute CGI content with elevated privileges via a crafted HTTP request. | CVSS 9.8 | EPSS 0.6%</description>
+<description>An  Improper Authentication vulnerability in J-Web of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated network attacker to bypass J-Web authentication and execute CGI content with elevated privileges via a crafted HTTP request. | CVSS 9.8 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-101990 Juniper junos os evolved: A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS...</title>

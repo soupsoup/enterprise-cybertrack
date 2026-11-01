@@ -1,5 +1,5 @@
 {
- "generated": "2026-10-31T10:57:50.955Z",
+ "generated": "2026-11-01T11:53:33.807Z",
  "cves": [
   {
    "id": "CVE-2026-96192",
@@ -18,7 +18,7 @@
      "toExcl": "155.0.4283.45"
     }
    ],
-   "epss": 0.00585
+   "epss": 0.00572
   },
   {
    "id": "CVE-2026-76418",
@@ -113,7 +113,7 @@
     }
    ],
    "kevAdded": "2026-10-29",
-   "epss": 0.0091
+   "epss": 0.00821
   },
   {
    "id": "CVE-2026-118310",
@@ -194,7 +194,7 @@
      "version": "19.5.0"
     }
    ],
-   "epss": 0.01305
+   "epss": 0.01349
   },
   {
    "id": "CVE-2026-112212",
@@ -1659,7 +1659,7 @@
      "to": "26.7.1"
     }
    ],
-   "epss": 0.00416
+   "epss": 0.00437
   },
   {
    "id": "CVE-2026-101771",
@@ -1715,7 +1715,7 @@
      "to": "26.7.1"
     }
    ],
-   "epss": 0.00388
+   "epss": 0.00408
   },
   {
    "id": "CVE-2026-101775",
@@ -1771,7 +1771,7 @@
      "to": "26.7.1"
     }
    ],
-   "epss": 0.00325
+   "epss": 0.00332
   },
   {
    "id": "CVE-2026-101781",
@@ -1827,7 +1827,7 @@
      "to": "26.7.1"
     }
    ],
-   "epss": 0.00279
+   "epss": 0.00392
   },
   {
    "id": "CVE-2026-91214",
@@ -1851,7 +1851,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.0045
+   "epss": 0.00473
   },
   {
    "id": "CVE-2026-91216",
@@ -1875,7 +1875,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00483
+   "epss": 0.00508
   },
   {
    "id": "CVE-2026-91217",
@@ -1899,7 +1899,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00398
+   "epss": 0.00396
   },
   {
    "id": "CVE-2026-91218",
@@ -1923,7 +1923,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00326
+   "epss": 0.00337
   },
   {
    "id": "CVE-2026-91219",
@@ -1947,7 +1947,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00303
+   "epss": 0.00307
   },
   {
    "id": "CVE-2026-91225",
@@ -1971,7 +1971,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00407
+   "epss": 0.00416
   },
   {
    "id": "CVE-2026-91228",
@@ -1995,7 +1995,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00278
+   "epss": 0.00287
   },
   {
    "id": "CVE-2026-91230",
@@ -2019,7 +2019,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00321
+   "epss": 0.00338
   },
   {
    "id": "CVE-2026-91233",
@@ -2043,7 +2043,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.0045
+   "epss": 0.00473
   },
   {
    "id": "CVE-2026-91234",
@@ -2067,7 +2067,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.0045
+   "epss": 0.00473
   },
   {
    "id": "CVE-2026-91235",
@@ -2091,7 +2091,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.0045
+   "epss": 0.00473
   },
   {
    "id": "CVE-2026-91236",
@@ -2115,7 +2115,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.0045
+   "epss": 0.00473
   },
   {
    "id": "CVE-2026-91237",
@@ -2139,7 +2139,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00377
+   "epss": 0.00396
   },
   {
    "id": "CVE-2026-91238",
@@ -2163,7 +2163,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00354
+   "epss": 0.00364
   },
   {
    "id": "CVE-2026-91239",
@@ -2187,7 +2187,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-111094",
@@ -2935,7 +2935,7 @@
     }
    ],
    "kevAdded": "2026-10-30",
-   "epss": 0.00316
+   "epss": 0.00533
   },
   {
    "id": "CVE-2026-76519",
@@ -3532,7 +3532,7 @@
      "version": "26.2"
     }
    ],
-   "epss": 0.00579
+   "epss": 0.00549
   },
   {
    "id": "CVE-2026-101990",
@@ -3929,7 +3929,7 @@
      "toExcl": "19.4.2"
     }
    ],
-   "epss": 0.26569,
+   "epss": 0.273,
    "kevAdded": "2026-10-29"
   },
   {
@@ -18943,7 +18943,7 @@
    "title": "Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges...",
    "summary": "Use after free in Windows Cloud Files Mini Filter Driver allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-83698",
@@ -18956,7 +18956,7 @@
    "title": "Heap-based buffer overflow in Windows Client-Side Caching (CSC) Service allows an authorized attacker to...",
    "summary": "Heap-based buffer overflow in Windows Client-Side Caching (CSC) Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83699",
@@ -18969,7 +18969,7 @@
    "title": "Stack-based buffer overflow in Windows Client-Side Caching (CSC) Service allows an authorized attacker to...",
    "summary": "Stack-based buffer overflow in Windows Client-Side Caching (CSC) Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.0042
+   "epss": 0.0041
   },
   {
    "id": "CVE-2026-83722",
@@ -18982,7 +18982,7 @@
    "title": "Use after free in Microsoft Local Security Authority Server (lsasrv) allows an authorized attacker to elevate...",
    "summary": "Use after free in Microsoft Local Security Authority Server (lsasrv) allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00226
+   "epss": 0.00221
   },
   {
    "id": "CVE-2026-100227",
@@ -22362,7 +22362,7 @@
    "published": "2026-09-24",
    "title": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before...",
    "summary": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to execute arbitrary code on the GitLab server due to a double free issue when parsing a specially crafted regular expression in a CI/CD configuration.",
-   "epss": 0.00491,
+   "epss": 0.00522,
    "affects": [
     {
      "vendor": "GitLab",
@@ -22424,7 +22424,7 @@
    "published": "2026-09-24",
    "title": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before...",
    "summary": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to execute arbitrary code on the GitLab server due to an integer overflow issue when compiling a specially crafted regular expression in a CI/CD configuration.",
-   "epss": 0.00593,
+   "epss": 0.0063,
    "affects": [
     {
      "vendor": "GitLab",
@@ -22513,7 +22513,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.00432
+   "epss": 0.00324
   },
   {
    "id": "CVE-2026-94243",
@@ -23226,7 +23226,7 @@
    "published": "2026-09-22",
    "title": "When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious...",
    "summary": "When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious traffic can lead to remote code execution (RCE). This vulnerability is only present when BIG-IP APM is configured as an OAuth Authorization Server. Deployments using APM strictly as an OAuth Client / Resource Server (without OAuth authorization server profiles configured) are not affected by this vulnerability.\n\nImpact:\nThis vulnerability allows an unauthenticated attacker to perform remote code execution. The BIG-IP system in Appliance mode is also vulnerable. This is a data plane issue; there is no control plane exposure.\n\n \n\n\nNote: Software versions which have reached End of Technical Support (EoTS) are not evaluated.",
-   "epss": 0.24938,
+   "epss": 0.2655,
    "kevAdded": "2026-09-22",
    "affects": [
     {
