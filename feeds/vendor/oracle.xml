@@ -470,6 +470,230 @@
 <description>Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 8.8 | EPSS 0.4%</description>
 </item>
 <item>
+<title>CVE-2026-101410 Oracle peoplesoft enterprise peopletools: Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Business...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-101410</link>
+<guid isPermaLink="false">CVE-2026-101410</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>ERP &amp; Business Apps</category>
+<description>Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Business Interlink).  Supported versions that are affected are 8.61-8.63. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise PeopleTools.  Successful attacks of this vulnerability can result in takeover of PeopleSoft Enterprise PeopleTools. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-101431 Oracle peoplesoft enterprise peopletools: Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Test...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-101431</link>
+<guid isPermaLink="false">CVE-2026-101431</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>ERP &amp; Business Apps</category>
+<description>Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Test Framework).  Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise PeopleTools.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in PeopleSoft Enterprise PeopleTools, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all PeopleSoft Enterprise PeopleTools accessible data as well as  unauthorized access to critical data or complete access to all PeopleSoft Enterprise PeopleTools accessible data. CVSS 3.1 Base Score 8.7 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:N). | CVSS 8.7 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-91265 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Enterprise...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91265</link>
+<guid isPermaLink="false">CVE-2026-91265</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Enterprise Infrastructure SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all JD Edwards EnterpriseOne Tools accessible data as well as  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N). | CVSS 9.1 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-91266 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Monitoring and...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91266</link>
+<guid isPermaLink="false">CVE-2026-91266</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Monitoring and Diagnostics SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where JD Edwards EnterpriseOne Tools executes to compromise JD Edwards EnterpriseOne Tools.  While the vulnerability is in JD Edwards EnterpriseOne Tools, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all JD Edwards EnterpriseOne Tools accessible data as well as  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 8.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N). | CVSS 8.4 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91267 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91267</link>
+<guid isPermaLink="false">CVE-2026-91267</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via SOAP to compromise JD Edwards EnterpriseOne Tools.  While the vulnerability is in JD Edwards EnterpriseOne Tools, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 8.6 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N). | CVSS 8.6 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-91268 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Web Runtime SEC).</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91268</link>
+<guid isPermaLink="false">CVE-2026-91268</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Web Runtime SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Tools. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 8.8 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-91269 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Enterprise...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91269</link>
+<guid isPermaLink="false">CVE-2026-91269</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Enterprise Infrastructure SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all JD Edwards EnterpriseOne Tools accessible data as well as  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N). | CVSS 8.1 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-91270 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Monitoring and...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91270</link>
+<guid isPermaLink="false">CVE-2026-91270</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Monitoring and Diagnostics SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Tools. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 8.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-91271 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Monitoring and...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91271</link>
+<guid isPermaLink="false">CVE-2026-91271</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Monitoring and Diagnostics SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all JD Edwards EnterpriseOne Tools accessible data as well as  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N). | CVSS 8.1 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-91272 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91272</link>
+<guid isPermaLink="false">CVE-2026-91272</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTPS to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all JD Edwards EnterpriseOne Tools accessible data as well as  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). | CVSS 7.4 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-91273 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Object and Env...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91273</link>
+<guid isPermaLink="false">CVE-2026-91273</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Object and Env Tech SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  While the vulnerability is in JD Edwards EnterpriseOne Tools, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 8.6 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N). | CVSS 8.6 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-91286 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Monitoring and...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91286</link>
+<guid isPermaLink="false">CVE-2026-91286</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Monitoring and Diagnostics SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with access to the physical communication segment attached to the hardware where the JD Edwards EnterpriseOne Tools executes to compromise JD Edwards EnterpriseOne Tools.  While the vulnerability is in JD Edwards EnterpriseOne Tools, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data as well as  unauthorized update, insert or delete access to some of JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 8.2 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:N). | CVSS 8.2 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-91287 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Enterprise...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91287</link>
+<guid isPermaLink="false">CVE-2026-91287</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Enterprise Infrastructure SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with access to the physical communication segment attached to the hardware where the JD Edwards EnterpriseOne Tools executes to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all JD Edwards EnterpriseOne Tools accessible data as well as  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N). | CVSS 8.1 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-91288 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91288</link>
+<guid isPermaLink="false">CVE-2026-91288</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Interoperability SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Difficult to exploit vulnerability allows unauthenticated attacker with network access via JDENET to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all JD Edwards EnterpriseOne Tools accessible data as well as  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N). | CVSS 7.4 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-91295 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Enterprise...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91295</link>
+<guid isPermaLink="false">CVE-2026-91295</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Enterprise Infrastructure SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Tools. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 8.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-91296 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Enterprise...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91296</link>
+<guid isPermaLink="false">CVE-2026-91296</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Enterprise Infrastructure SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Tools. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H). | CVSS 8.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-91299 Oracle jd edwards enterpriseone orchestrator: Vulnerability in the JD Edwards EnterpriseOne Orchestrator product of Oracle JD Edwards (component: E1 IOT...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91299</link>
+<guid isPermaLink="false">CVE-2026-91299</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Orchestrator product of Oracle JD Edwards (component: E1 IOT Orchestrator Security).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Orchestrator.  While the vulnerability is in JD Edwards EnterpriseOne Orchestrator, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Orchestrator. CVSS 3.1 Base Score 10.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H). | CVSS 10 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-91303 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91303</link>
+<guid isPermaLink="false">CVE-2026-91303</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation Security).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Tools. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H). | CVSS 8.8 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-91304 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91304</link>
+<guid isPermaLink="false">CVE-2026-91304</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation Security).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where JD Edwards EnterpriseOne Tools executes to compromise JD Edwards EnterpriseOne Tools.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Tools. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H). | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91305 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91305</link>
+<guid isPermaLink="false">CVE-2026-91305</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation Security).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTPS to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all JD Edwards EnterpriseOne Tools accessible data as well as  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N). | CVSS 9.1 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-91306 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91306</link>
+<guid isPermaLink="false">CVE-2026-91306</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation Security).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where JD Edwards EnterpriseOne Tools executes to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Tools. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91307 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91307</link>
+<guid isPermaLink="false">CVE-2026-91307</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation Security).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via Oracle Net to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N). | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-91308 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91308</link>
+<guid isPermaLink="false">CVE-2026-91308</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation Security).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via Oracle Net to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N). | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-91310 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91310</link>
+<guid isPermaLink="false">CVE-2026-91310</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows low privileged attacker with network access via JDENET to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Tools. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 8.8 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-91311 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91311</link>
+<guid isPermaLink="false">CVE-2026-91311</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation Security).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where JD Edwards EnterpriseOne Tools executes to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Tools. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91313 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91313</link>
+<guid isPermaLink="false">CVE-2026-91313</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation Security).  Supported versions that are affected are 9.2.0.0-9.2.26.4. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Tools. CVSS 3.1 Base Score 8.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 8.1 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-91314 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91314</link>
+<guid isPermaLink="false">CVE-2026-91314</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation Security).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where JD Edwards EnterpriseOne Tools executes to compromise JD Edwards EnterpriseOne Tools.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Tools. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H). | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-91315 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91315</link>
+<guid isPermaLink="false">CVE-2026-91315</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation Security).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where JD Edwards EnterpriseOne Tools executes to compromise JD Edwards EnterpriseOne Tools.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Tools. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H). | CVSS 7.8 | EPSS 0.1%</description>
+</item>
+<item>
 <title>CVE-2026-70748 Oracle weblogic server: Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-70748</link>
 <guid isPermaLink="false">CVE-2026-70748</guid>
@@ -580,230 +804,6 @@
 <pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
 <category>Identity &amp; Directory</category>
 <description>Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access Manager.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Access Manager accessible data as well as  unauthorized access to critical data or complete access to all Oracle Access Manager accessible data. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N). | CVSS 9.1 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-73945 Oracle access manager: Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73945</link>
-<guid isPermaLink="false">CVE-2026-73945</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Identity &amp; Directory</category>
-<description>Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Access Manager.  While the vulnerability is in Oracle Access Manager, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle Access Manager. CVSS 3.1 Base Score 9.9 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H). | CVSS 9.9 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-73946 Oracle access manager: Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73946</link>
-<guid isPermaLink="false">CVE-2026-73946</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Identity &amp; Directory</category>
-<description>Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle Access Manager.  While the vulnerability is in Oracle Access Manager, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle Access Manager. CVSS 3.1 Base Score 9.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H). | CVSS 9.1 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-73947 Oracle access manager: Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73947</link>
-<guid isPermaLink="false">CVE-2026-73947</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Identity &amp; Directory</category>
-<description>Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access Manager.  Successful attacks of this vulnerability can result in takeover of Oracle Access Manager. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-73948 Oracle webcenter portal: Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Composer).</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73948</link>
-<guid isPermaLink="false">CVE-2026-73948</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Composer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle WebCenter Portal.  While the vulnerability is in Oracle WebCenter Portal, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Portal. CVSS 3.1 Base Score 9.9 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H). | CVSS 9.9 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-73949 Oracle webcenter portal: Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Portlet...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73949</link>
-<guid isPermaLink="false">CVE-2026-73949</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Portlet Services).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle WebCenter Portal.  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Portal. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 8.8 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-73950 Oracle access manager: Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73950</link>
-<guid isPermaLink="false">CVE-2026-73950</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Identity &amp; Directory</category>
-<description>Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access Manager.  Successful attacks of this vulnerability can result in takeover of Oracle Access Manager. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-73951 Oracle webcenter portal: Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Portlet...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73951</link>
-<guid isPermaLink="false">CVE-2026-73951</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Portlet Services).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebCenter Portal.  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Portal. CVSS 3.1 Base Score 8.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 8.1 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-73952 Oracle webcenter portal: Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Portlet...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73952</link>
-<guid isPermaLink="false">CVE-2026-73952</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Portlet Services).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebCenter Portal.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle WebCenter Portal accessible data as well as  unauthorized access to critical data or complete access to all Oracle WebCenter Portal accessible data. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N). | CVSS 9.1 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-73953 Oracle webcenter portal: Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Portlet...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73953</link>
-<guid isPermaLink="false">CVE-2026-73953</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Portlet Services).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebCenter Portal.  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Portal. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-73956 Oracle webcenter portal: Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Composer).</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73956</link>
-<guid isPermaLink="false">CVE-2026-73956</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Composer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebCenter Portal.  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Portal. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-73957 Oracle webcenter portal: Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Portlet...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73957</link>
-<guid isPermaLink="false">CVE-2026-73957</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Portlet Services).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebCenter Portal.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle WebCenter Portal, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle WebCenter Portal accessible data as well as  unauthorized access to critical data or complete access to all Oracle WebCenter Portal accessible data. CVSS 3.1 Base Score 9.3 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N). | CVSS 9.3 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-73958 Oracle access manager: Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73958</link>
-<guid isPermaLink="false">CVE-2026-73958</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Identity &amp; Directory</category>
-<description>Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access Manager.  Successful attacks of this vulnerability can result in takeover of Oracle Access Manager. CVSS 3.1 Base Score 8.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 8.1 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-73959 Oracle webcenter portal: Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Composer).</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73959</link>
-<guid isPermaLink="false">CVE-2026-73959</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Composer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle WebCenter Portal.  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Portal. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 8.8 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-73962 Oracle access manager: Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73962</link>
-<guid isPermaLink="false">CVE-2026-73962</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Identity &amp; Directory</category>
-<description>Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTPS to compromise Oracle Access Manager.  While the vulnerability is in Oracle Access Manager, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Access Manager accessible data as well as  unauthorized access to critical data or complete access to all Oracle Access Manager accessible data. CVSS 3.1 Base Score 9.6 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N). | CVSS 9.6 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-73963 Oracle webcenter portal: Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Portlet...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73963</link>
-<guid isPermaLink="false">CVE-2026-73963</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Portal product of Oracle Fusion Middleware (component: Portlet Services).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebCenter Portal.  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Portal. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-82992 Oracle siebel crm: Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Installation).</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-82992</link>
-<guid isPermaLink="false">CVE-2026-82992</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Installation).  Supported versions that are affected are 17.0-26.7. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Siebel CRM Deployment executes to compromise Siebel CRM Deployment.  Successful attacks of this vulnerability can result in takeover of Siebel CRM Deployment. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 7.8 | EPSS 0.2%</description>
-</item>
-<item>
-<title>CVE-2026-83001 Oracle access manager: Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83001</link>
-<guid isPermaLink="false">CVE-2026-83001</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Identity &amp; Directory</category>
-<description>Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle Access Manager.  While the vulnerability is in Oracle Access Manager, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle Access Manager. CVSS 3.1 Base Score 9.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H). | CVSS 9.1 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-83002 Oracle access manager: Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83002</link>
-<guid isPermaLink="false">CVE-2026-83002</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>Identity &amp; Directory</category>
-<description>Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Access Manager.  While the vulnerability is in Oracle Access Manager, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle Access Manager. CVSS 3.1 Base Score 8.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:C/C:H/I:H/A:H). | CVSS 8.5 | EPSS 0.3%</description>
-</item>
-<item>
-<title>CVE-2026-83003 Oracle webcenter enterprise capture: Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component:...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83003</link>
-<guid isPermaLink="false">CVE-2026-83003</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component: Client Bundle).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via SOAP to compromise Oracle WebCenter Enterprise Capture.  While the vulnerability is in Oracle WebCenter Enterprise Capture, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebCenter Enterprise Capture accessible data as well as  unauthorized update, insert or delete access to some of Oracle WebCenter Enterprise Capture accessible data. CVSS 3.1 Base Score 8.5 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N). | CVSS 8.5 | EPSS 0.3%</description>
-</item>
-<item>
-<title>CVE-2026-83004 Oracle webcenter enterprise capture: Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component:...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83004</link>
-<guid isPermaLink="false">CVE-2026-83004</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component: Client Bundle).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Difficult to exploit vulnerability allows low privileged attacker with logon to the infrastructure where Oracle WebCenter Enterprise Capture executes to compromise Oracle WebCenter Enterprise Capture.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle WebCenter Enterprise Capture, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle WebCenter Enterprise Capture accessible data as well as  unauthorized access to critical data or complete access to all Oracle WebCenter Enterprise Capture accessible data. CVSS 3.1 Base Score 7.2 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:C/C:H/I:H/A:N). | CVSS 7.2 | EPSS 0.1%</description>
-</item>
-<item>
-<title>CVE-2026-83005 Oracle webcenter enterprise capture: Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component:...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83005</link>
-<guid isPermaLink="false">CVE-2026-83005</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component: Client Bundle).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle WebCenter Enterprise Capture.  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Enterprise Capture. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 8.8 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-83006 Oracle webcenter enterprise capture: Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component:...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83006</link>
-<guid isPermaLink="false">CVE-2026-83006</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component: Client Bundle).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle WebCenter Enterprise Capture.  While the vulnerability is in Oracle WebCenter Enterprise Capture, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Enterprise Capture. CVSS 3.1 Base Score 9.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H). | CVSS 9.1 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-83007 Oracle webcenter enterprise capture: Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component:...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83007</link>
-<guid isPermaLink="false">CVE-2026-83007</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component: Client Bundle).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle WebCenter Enterprise Capture.  While the vulnerability is in Oracle WebCenter Enterprise Capture, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebCenter Enterprise Capture accessible data as well as  unauthorized update, insert or delete access to some of Oracle WebCenter Enterprise Capture accessible data. CVSS 3.1 Base Score 8.5 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N). | CVSS 8.5 | EPSS 0.3%</description>
-</item>
-<item>
-<title>CVE-2026-83008 Oracle webcenter enterprise capture: Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component:...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83008</link>
-<guid isPermaLink="false">CVE-2026-83008</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component: Client Bundle).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via T3, IIOP to compromise Oracle WebCenter Enterprise Capture.  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Enterprise Capture. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 8.8 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-83009 Oracle webcenter enterprise capture: Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component:...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83009</link>
-<guid isPermaLink="false">CVE-2026-83009</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component: Client Bundle).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle WebCenter Enterprise Capture.  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Enterprise Capture. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 8.8 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-83010 Oracle webcenter enterprise capture: Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component:...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83010</link>
-<guid isPermaLink="false">CVE-2026-83010</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component: Client Bundle).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle WebCenter Enterprise Capture.  Successful attacks require human interaction from a person other than the attacker and while the vulnerability is in Oracle WebCenter Enterprise Capture, attacks may significantly impact additional products (scope change). Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle WebCenter Enterprise Capture accessible data as well as  unauthorized access to critical data or complete access to all Oracle WebCenter Enterprise Capture accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:R/S:C/C:H/I:H/A:N). | CVSS 8.1 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-83012 Oracle webcenter enterprise capture: Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component:...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83012</link>
-<guid isPermaLink="false">CVE-2026-83012</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component: Client Bundle).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle WebCenter Enterprise Capture.  While the vulnerability is in Oracle WebCenter Enterprise Capture, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebCenter Enterprise Capture accessible data. CVSS 3.1 Base Score 7.7 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N). | CVSS 7.7 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-83013 Oracle webcenter enterprise capture: Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component:...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83013</link>
-<guid isPermaLink="false">CVE-2026-83013</guid>
-<pubDate>Tue, 15 Sep 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Enterprise Capture product of Oracle Fusion Middleware (component: Client Bundle).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle WebCenter Enterprise Capture.  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Enterprise Capture. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H). | CVSS 8.8 | EPSS 0.4%</description>
 </item>
 </channel>
 </rss>

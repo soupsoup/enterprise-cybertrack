@@ -6,6 +6,14 @@
 <description>Newly published critical (CVSS 9.0+) enterprise vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/critical.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-64618 Apache fineract: Improper Neutralization of Special Elements used in an SQL Command (&quot;SQL Injection&quot;) vulnerability exists in...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-64618</link>
+<guid isPermaLink="false">CVE-2026-64618</guid>
+<pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Improper Neutralization of Special Elements used in an SQL Command (&quot;SQL Injection&quot;) vulnerability exists in Apache Fineract (through version 1.15.0). The vulnerability affects the outStandingAmountPercentageCondition parameter of the /fineract-provider/api/v1/search/advance HTTP API endpoint, allowing SQL injection due to insufficient input neutralization. Users are recommended to upgrade to version 1.16.1, which will fix the issue. | CVSS 9.8 | EPSS 0.2%</description>
+</item>
+<item>
 <title>CVE-2026-118310 Microsoft windows: Improper input validation in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118310</link>
 <guid isPermaLink="false">CVE-2026-118310</guid>
@@ -218,6 +226,30 @@ Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
 <description>Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-91265 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Enterprise...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91265</link>
+<guid isPermaLink="false">CVE-2026-91265</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Enterprise Infrastructure SEC).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all JD Edwards EnterpriseOne Tools accessible data as well as  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N). | CVSS 9.1 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-91299 Oracle jd edwards enterpriseone orchestrator: Vulnerability in the JD Edwards EnterpriseOne Orchestrator product of Oracle JD Edwards (component: E1 IOT...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91299</link>
+<guid isPermaLink="false">CVE-2026-91299</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Orchestrator product of Oracle JD Edwards (component: E1 IOT Orchestrator Security).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise JD Edwards EnterpriseOne Orchestrator.  While the vulnerability is in JD Edwards EnterpriseOne Orchestrator, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of JD Edwards EnterpriseOne Orchestrator. CVSS 3.1 Base Score 10.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H). | CVSS 10 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-91305 Oracle jd edwards enterpriseone tools: Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91305</link>
+<guid isPermaLink="false">CVE-2026-91305</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the JD Edwards EnterpriseOne Tools product of Oracle JD Edwards (component: Installation Security).  Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTPS to compromise JD Edwards EnterpriseOne Tools.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all JD Edwards EnterpriseOne Tools accessible data as well as  unauthorized access to critical data or complete access to all JD Edwards EnterpriseOne Tools accessible data. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N). | CVSS 9.1 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-76519 Cisco asyncos: A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an...</title>
@@ -686,6 +718,38 @@ This vulnerability is due to improper handling of email attachments when the fil
 <description>Out-of-bounds write in RPC Runtime allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
 </item>
 <item>
+<title>CVE-2026-69705 Microsoft windows: Out-of-bounds write in Windows iSCSI allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-69705</link>
+<guid isPermaLink="false">CVE-2026-69705</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Out-of-bounds write in Windows iSCSI allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
+</item>
+<item>
+<title>CVE-2026-83770 Microsoft windows: Heap-based buffer overflow in Windows Text Shaping allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83770</link>
+<guid isPermaLink="false">CVE-2026-83770</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Windows Text Shaping allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
+</item>
+<item>
+<title>CVE-2026-83780 Microsoft windows: Use after free in Windows CCFFilter Driver allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83780</link>
+<guid isPermaLink="false">CVE-2026-83780</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Windows CCFFilter Driver allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
+</item>
+<item>
+<title>CVE-2026-83782 Microsoft windows: Heap-based buffer overflow in Windows Shell allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83782</link>
+<guid isPermaLink="false">CVE-2026-83782</guid>
+<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Windows Shell allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
+</item>
+<item>
 <title>CVE-2026-107938 Apache cxf: In Apache CXF, the Netty-based HTTP client transport (cxf-rt-transports-http-netty-client) did not verify...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-107938</link>
 <guid isPermaLink="false">CVE-2026-107938</guid>
@@ -750,115 +814,6 @@ Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix
 <pubDate>Thu, 08 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
 <description>Improper certificate validation in Microsoft Partner Center allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 0.7%</description>
-</item>
-<item>
-<title>CVE-2026-92414 Apache jackrabbit: : Session Fixation / Session Reuse across Users vulnerability in Apache Jackrabbit.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-92414</link>
-<guid isPermaLink="false">CVE-2026-92414</guid>
-<pubDate>Wed, 07 Oct 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
-<description>: Session Fixation / Session Reuse across Users vulnerability in Apache Jackrabbit.
-
-
-
-Jackrabbit WebDAV server attaches a cached authenticated session on any Lock-Token/TransactionId/SubscriptionId/If-header field token match with
-
-no credential check.
-
-
-
-This issue affects Apache Jackrabbit: from 2.23.0 through 2.23.5, from 2.22.0 through 2.22.4, from 2.20.0 through 2.20.17.
-
-
-
-
-
-
-
-
-
-
-
-
-Users are recommended to upgrade to versions 2.23.6, 2.22.5, or 2.20.18 which fix the issue. | CVSS 9.1 | EPSS 0.7%</description>
-</item>
-<item>
-<title>CVE-2026-104711 Apache struts: Improper neutralization of special elements used in an expression language statement (&apos;Expression Language...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-104711</link>
-<guid isPermaLink="false">CVE-2026-104711</guid>
-<pubDate>Mon, 05 Oct 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
-<description>Improper neutralization of special elements used in an expression language statement (&apos;Expression Language Injection&apos;) vulnerability in Apache Struts. If the application is configured to use the legacy RESTful action mapper, a crafted request can inject an OGNL expression that may lead to remote code execution. Struts 7 is affected only when the OGNL allowlist is disabled; it is enabled by default. Applications using the default action mapper, the restful2 mapper, or the Struts REST plugin are not affected.
-
-This issue affects Apache Struts: from 2.0.0 through 2.3.37, from 2.5.0 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.
-
-Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 9.8 | EPSS 1.4%</description>
-</item>
-<item>
-<title>CVE-2026-103626 Microsoft windows: Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-103626</link>
-<guid isPermaLink="false">CVE-2026-103626</guid>
-<pubDate>Fri, 02 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Incorrect authorization in FileSystem in Google Chrome on on Windows prior to 154.0.8037.97 allowed a remote attacker leveraging social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.3%</description>
-</item>
-<item>
-<title>CVE-2026-104286 Fortinet fortimail: An improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) vulnerability in Fortinet...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-104286</link>
-<guid isPermaLink="false">CVE-2026-104286</guid>
-<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-<category>Email &amp; Collaboration</category>
-<description>An improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) vulnerability in Fortinet FortiMail 8.0.0 through 8.0.1, FortiMail 7.6.0 through 7.6.6, FortiMail 7.4.0 through 7.4.8, FortiMail 7.2.0 through 7.2.9, FortiMail 7.0 all versions may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-01) | EPSS 4.6%</description>
-</item>
-<item>
-<title>CVE-2026-56154 Apache http server: Use After Free vulnerability in Apache HTTP Server&apos;s mod_rewrite when using lookahead (%{LA-U:HTTP:...})...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-56154</link>
-<guid isPermaLink="false">CVE-2026-56154</guid>
-<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-<category>Web &amp; Application Servers</category>
-<description>Use After Free vulnerability in Apache HTTP Server&apos;s mod_rewrite when using lookahead (%{LA-U:HTTP:...})
-
-
-
-This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-57941 Apache http server: Use After Free vulnerability in Apache HTTP Server&apos;s mod_http2 via shared session-&gt;bbtmp re-entrancy
-
-
-
-This...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-57941</link>
-<guid isPermaLink="false">CVE-2026-57941</guid>
-<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-<category>Web &amp; Application Servers</category>
-<description>Use After Free vulnerability in Apache HTTP Server&apos;s mod_http2 via shared session-&gt;bbtmp re-entrancy
-
-
-
-This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.6%</description>
-</item>
-<item>
-<title>CVE-2026-59797 Apache http server: Improper Privilege Management vulnerability in Apache HTTP Server&apos;s mod_ssl via SSLRequire and file-related...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-59797</link>
-<guid isPermaLink="false">CVE-2026-59797</guid>
-<pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
-<category>Web &amp; Application Servers</category>
-<description>Improper Privilege Management vulnerability in Apache HTTP Server&apos;s mod_ssl via SSLRequire and file-related expressions.
-
-
-
-This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-88920 Apache wss4j: An authentication bypass in the DOM security processor in Apache WSS4J allows unauthenticated remote...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88920</link>
-<guid isPermaLink="false">CVE-2026-88920</guid>
-<pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
-<category>Developer Tools &amp; Libraries</category>
-<description>An authentication bypass in the DOM security processor in Apache WSS4J allows unauthenticated remote attackers to forge authenticated SOAP messages via a crafted unsigned SAML sender-vouches assertion containing an attacker-controlled key.
-
-Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue. | CVSS 9.8 | EPSS 0.6%</description>
 </item>
 </channel>
 </rss>

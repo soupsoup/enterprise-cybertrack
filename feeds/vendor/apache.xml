@@ -6,6 +6,24 @@
 <description>High and critical Apache vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/apache.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-64618 Apache fineract: Improper Neutralization of Special Elements used in an SQL Command (&quot;SQL Injection&quot;) vulnerability exists in...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-64618</link>
+<guid isPermaLink="false">CVE-2026-64618</guid>
+<pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Improper Neutralization of Special Elements used in an SQL Command (&quot;SQL Injection&quot;) vulnerability exists in Apache Fineract (through version 1.15.0). The vulnerability affects the outStandingAmountPercentageCondition parameter of the /fineract-provider/api/v1/search/advance HTTP API endpoint, allowing SQL injection due to insufficient input neutralization. Users are recommended to upgrade to version 1.16.1, which will fix the issue. | CVSS 9.8 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-65874 Apache fineract: This issue affects Apache Fineract versions up to and including 1.15.0.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-65874</link>
+<guid isPermaLink="false">CVE-2026-65874</guid>
+<pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>This issue affects Apache Fineract versions up to and including 1.15.0. The Center read endpoint (GET /api/v1/centers) and the datatable entry read endpoints (GET /api/v1/datatables/{datatable}/{apptableId} and GET /api/v1/datatables/{datatable}/{apptableId}/{datatableId}) concatenate caller-supplied ordering parameters (orderBy, sortOrder, order) directly into the SQL ORDER BY clause. The existing regex-based input validation can be bypassed, allowing time-based blind SQL injection by any authenticated user with read access to centers or to the targeted datatable.
+
+Users are recommended to upgrade to 1.16.1 which fixes the issue. | CVSS 8.8 | EPSS 0.3%</description>
+</item>
+<item>
 <title>CVE-2026-100227 Apache cxf: Improper Verification of Cryptographic Signature vulnerability in Apache CXF&apos;s JAX-RS XML Security module.</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-100227</link>
 <guid isPermaLink="false">CVE-2026-100227</guid>

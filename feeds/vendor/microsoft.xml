@@ -30,6 +30,30 @@
 <description>Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.3%</description>
 </item>
 <item>
+<title>CVE-2026-83831 Microsoft edge: Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83831</link>
+<guid isPermaLink="false">CVE-2026-83831</guid>
+<pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
+</item>
+<item>
+<title>CVE-2026-85898 Microsoft edge: Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85898</link>
+<guid isPermaLink="false">CVE-2026-85898</guid>
+<pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
+</item>
+<item>
+<title>CVE-2026-62765 Microsoft edge: Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-62765</link>
+<guid isPermaLink="false">CVE-2026-62765</guid>
+<pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+<item>
 <title>CVE-2026-111497 Microsoft .net: A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111497</link>
 <guid isPermaLink="false">CVE-2026-111497</guid>
@@ -786,30 +810,6 @@ Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-97746 Microsoft 365 apps: Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97746</link>
-<guid isPermaLink="false">CVE-2026-97746</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-97747 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97747</link>
-<guid isPermaLink="false">CVE-2026-97747</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
-</item>
-<item>
-<title>CVE-2026-97748 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97748</link>
-<guid isPermaLink="false">CVE-2026-97748</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 </channel>
 </rss>

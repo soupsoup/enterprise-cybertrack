@@ -13,9 +13,25 @@
 <p class="crumb"><a href="../../">Enterprise CyberTrack</a> / feeds</p>
 <h1>Enterprise CyberTrack: Apache</h1>
 <p class="tag">High and critical Apache vulnerabilities.</p>
-<p class="tag"><a href="apache.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 92.</p>
+<p class="tag"><a href="apache.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 94.</p>
 </div></header>
 <main class="wrap news">
+<article>
+<time datetime="2026-10-30">October 30, 2026</time>
+<h2><a href="../../#cve=CVE-2026-64618">CVE-2026-64618: Improper Neutralization of Special Elements used in an SQL Command (&quot;SQL Injection&quot;) vulnerability exists in...</a></h2>
+<p class="who">Apache fineract</p>
+<p>Improper Neutralization of Special Elements used in an SQL Command (&quot;SQL Injection&quot;) vulnerability exists in Apache Fineract (through version 1.15.0). The vulnerability affects the outStandingAmountPercentageCondition parameter of the /fineract-provider/api/v1/search/advance HTTP API endpoint, allowing SQL injection due to insufficient input neutralization. Users are recommended to upgrade to version 1.16.1, which will fix the issue.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-64618" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-30">October 30, 2026</time>
+<h2><a href="../../#cve=CVE-2026-65874">CVE-2026-65874: This issue affects Apache Fineract versions up to and including 1.15.0.</a></h2>
+<p class="who">Apache fineract</p>
+<p>This issue affects Apache Fineract versions up to and including 1.15.0. The Center read endpoint (GET /api/v1/centers) and the datatable entry read endpoints (GET /api/v1/datatables/{datatable}/{apptableId} and GET /api/v1/datatables/{datatable}/{apptableId}/{datatableId}) concatenate caller-supplied ordering parameters (orderBy, sortOrder, order) directly into the SQL ORDER BY clause. The existing regex-based input validation can be bypassed, allowing time-based blind SQL injection by any authenticated user with read access to centers or to the targeted datatable.
+
+Users are recommended to upgrade to 1.16.1 which fixes the issue.</p>
+<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.3%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-65874" rel="noopener">NVD record</a></div>
+</article>
 <article>
 <time datetime="2026-10-09">October 9, 2026</time>
 <h2><a href="../../#cve=CVE-2026-100227">CVE-2026-100227: Improper Verification of Cryptographic Signature vulnerability in Apache CXF&apos;s JAX-RS XML Security module.</a></h2>
@@ -1208,6 +1224,6 @@ All users are recommended to upgrade to Apache Ant 1.10.18, which fixes this iss
 <div class="meta"><span class="pill">CVSS 7.4</span>  <span class="pill">EPSS 0.5%</span> <span class="pill">Developer Tools &amp; Libraries</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-78254" rel="noopener">NVD record</a></div>
 </article>
 </main>
-<footer class="wrap foot">Generated 2026-11-01 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-11-03 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>
