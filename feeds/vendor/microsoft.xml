@@ -14,43 +14,115 @@
 <description>Use after free in Microsoft Edge for iOS allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
 </item>
 <item>
-<title>CVE-2026-118310 Microsoft windows: Improper input validation in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote...</title>
+<title>CVE-2026-85890 Microsoft edge chromium: Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85890</link>
+<guid isPermaLink="false">CVE-2026-85890</guid>
+<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-85897 Microsoft edge chromium: Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85897</link>
+<guid isPermaLink="false">CVE-2026-85897</guid>
+<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-85899 Microsoft edge chromium: Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85899</link>
+<guid isPermaLink="false">CVE-2026-85899</guid>
+<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges over a network. | CVSS 8.1 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-88077 Microsoft edge chromium: Integer overflow or wraparound in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88077</link>
+<guid isPermaLink="false">CVE-2026-88077</guid>
+<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Integer overflow or wraparound in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-96187 Microsoft edge chromium: Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96187</link>
+<guid isPermaLink="false">CVE-2026-96187</guid>
+<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an unauthorized attacker to disclose information over a network. | CVSS 7.4 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-96196 Microsoft edge chromium: Incomplete list of disallowed inputs in Microsoft Edge (Chromium-based) allows an unauthorized attacker to...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96196</link>
+<guid isPermaLink="false">CVE-2026-96196</guid>
+<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Incomplete list of disallowed inputs in Microsoft Edge (Chromium-based) allows an unauthorized attacker to bypass a security feature over a network. | CVSS 8.8 | EPSS 0.8%</description>
+</item>
+<item>
+<title>CVE-2026-96198 Microsoft edge chromium: Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96198</link>
+<guid isPermaLink="false">CVE-2026-96198</guid>
+<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-96199 Microsoft edge chromium: Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96199</link>
+<guid isPermaLink="false">CVE-2026-96199</guid>
+<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-96203 Microsoft edge chromium: Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96203</link>
+<guid isPermaLink="false">CVE-2026-96203</guid>
+<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-118310 Microsoft windows: Use after free in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118310</link>
 <guid isPermaLink="false">CVE-2026-118310</guid>
 <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Improper input validation in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.3%</description>
+<description>Use after free in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.3%</description>
 </item>
 <item>
-<title>CVE-2026-118330 Microsoft windows: Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to...</title>
+<title>CVE-2026-118330 Microsoft windows: Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118330</link>
 <guid isPermaLink="false">CVE-2026-118330</guid>
 <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.3%</description>
+<description>Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.3%</description>
 </item>
 <item>
-<title>CVE-2026-83831 Microsoft edge: Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.</title>
+<title>CVE-2026-83831 Microsoft edge chromium: Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83831</link>
 <guid isPermaLink="false">CVE-2026-83831</guid>
 <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Windows &amp; Endpoint</category>
 <description>Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
 </item>
 <item>
-<title>CVE-2026-85898 Microsoft edge: Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an...</title>
+<title>CVE-2026-85898 Microsoft edge chromium: Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85898</link>
 <guid isPermaLink="false">CVE-2026-85898</guid>
 <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Windows &amp; Endpoint</category>
 <description>Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
 </item>
 <item>
-<title>CVE-2026-62765 Microsoft edge: Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an...</title>
+<title>CVE-2026-62765 Microsoft edge chromium: Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-62765</link>
 <guid isPermaLink="false">CVE-2026-62765</guid>
 <pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
+<category>Windows &amp; Endpoint</category>
 <description>Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.4%</description>
 </item>
 <item>
@@ -76,92 +148,92 @@ Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.
 <description>Pillow is a Python imaging library. Prior to 13.0.0 on Windows, src/PIL/WmfImagePlugin.py passes unchecked 32-bit WMF or EMF dimensions to the native drawwmf handler in src/display.c. The handler sizes a DIB allocation from 16-bit-truncated bcWidth and bcHeight fields but copies pixel data using the original full dimensions. A crafted wide, short metafile can pass the pixel-count decompression-bomb check and make the Windows-only renderer read beyond the heap buffer, potentially disclosing memory or crashing the process. This issue is fixed in version 13.0.0. | CVSS 8.1 | EPSS 0.4%</description>
 </item>
 <item>
-<title>CVE-2026-113011 Microsoft windows: Use after free in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
+<title>CVE-2026-113011 Microsoft windows: Incorrect authorization in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113011</link>
 <guid isPermaLink="false">CVE-2026-113011</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium) | CVSS 8.8 | EPSS 0.4%</description>
+<description>Incorrect authorization in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a local attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a local program. (Chromium security severity: Medium) | CVSS 8.8 | EPSS 0.4%</description>
 </item>
 <item>
-<title>CVE-2026-113074 Microsoft windows: Use after free in Media in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...</title>
+<title>CVE-2026-113074 Microsoft windows: Incorrect authorization in Media in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113074</link>
 <guid isPermaLink="false">CVE-2026-113074</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Media in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Low) | CVSS 8.8 | EPSS 0.4%</description>
+<description>Incorrect authorization in Media in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker who had compromised the renderer process to spoof UI elements via a crafted HTML page. (Chromium security severity: Low) | CVSS 8.8 | EPSS 0.4%</description>
 </item>
 <item>
-<title>CVE-2026-113119 Microsoft windows: Use after free in Network in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...</title>
+<title>CVE-2026-113119 Microsoft windows: Improper certificate validation in Network in Google Chrome on on Windows prior to 156.0.8078.47 allowed a...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113119</link>
 <guid isPermaLink="false">CVE-2026-113119</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Network in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
+<description>Improper certificate validation in Network in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to leak sensitive information via crafted network traffic. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
 </item>
 <item>
-<title>CVE-2026-113134 Microsoft windows: Memory corruption in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...</title>
+<title>CVE-2026-113134 Microsoft windows: Out of bounds read in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113134</link>
 <guid isPermaLink="false">CVE-2026-113134</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Memory corruption in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
+<description>Out of bounds read in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
 </item>
 <item>
-<title>CVE-2026-113210 Microsoft windows: Use after free in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...</title>
+<title>CVE-2026-113210 Microsoft windows: Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113210</link>
 <guid isPermaLink="false">CVE-2026-113210</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
+<description>Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
 </item>
 <item>
-<title>CVE-2026-113242 Microsoft windows: Memory corruption in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...</title>
+<title>CVE-2026-113242 Microsoft windows: Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113242</link>
 <guid isPermaLink="false">CVE-2026-113242</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Memory corruption in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
+<description>Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
 </item>
 <item>
-<title>CVE-2026-113252 Microsoft windows: Improper input validation in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
+<title>CVE-2026-113252 Microsoft windows: Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113252</link>
 <guid isPermaLink="false">CVE-2026-113252</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Improper input validation in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.5%</description>
+<description>Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker who had compromised the renderer process to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.5%</description>
 </item>
 <item>
-<title>CVE-2026-113283 Microsoft windows: Memory corruption in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a...</title>
+<title>CVE-2026-113283 Microsoft windows: Improper privilege management in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113283</link>
 <guid isPermaLink="false">CVE-2026-113283</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Memory corruption in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium) | CVSS 9.6 | EPSS 0.5%</description>
+<description>Improper privilege management in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a local attacker to execute arbitrary code outside the sandbox via physical access. (Chromium security severity: Medium) | CVSS 9.6 | EPSS 0.5%</description>
 </item>
 <item>
-<title>CVE-2026-113285 Microsoft windows: Memory corruption in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...</title>
+<title>CVE-2026-113285 Microsoft windows: Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113285</link>
 <guid isPermaLink="false">CVE-2026-113285</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Memory corruption in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
+<description>Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
 </item>
 <item>
-<title>CVE-2026-113293 Microsoft windows: Use after free in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...</title>
+<title>CVE-2026-113293 Microsoft windows: Out of bounds write in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113293</link>
 <guid isPermaLink="false">CVE-2026-113293</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
+<description>Out of bounds write in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
 </item>
 <item>
-<title>CVE-2026-113334 Microsoft windows: Improper input validation in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
+<title>CVE-2026-113334 Microsoft windows: Buffer overflow in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113334</link>
 <guid isPermaLink="false">CVE-2026-113334</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Improper input validation in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
+<description>Buffer overflow in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-108443 Microsoft 365 apps: Off-by-one error in Microsoft Office Word allows an unauthorized attacker to execute code over a network.</title>
@@ -738,78 +810,6 @@ Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Buffer underwrite (&apos;buffer underflow&apos;) in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-97009 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code locally.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97009</link>
-<guid isPermaLink="false">CVE-2026-97009</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code locally. | CVSS 7.8 | EPSS 0.3%</description>
-</item>
-<item>
-<title>CVE-2026-97010 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97010</link>
-<guid isPermaLink="false">CVE-2026-97010</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-97011 Microsoft 365 apps: Use of uninitialized resource in Microsoft Office Excel allows an unauthorized attacker to execute code over...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97011</link>
-<guid isPermaLink="false">CVE-2026-97011</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use of uninitialized resource in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-97017 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97017</link>
-<guid isPermaLink="false">CVE-2026-97017</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-97738 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97738</link>
-<guid isPermaLink="false">CVE-2026-97738</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-97739 Microsoft 365 apps: Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97739</link>
-<guid isPermaLink="false">CVE-2026-97739</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-97741 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97741</link>
-<guid isPermaLink="false">CVE-2026-97741</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-97742 Microsoft 365 apps: Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97742</link>
-<guid isPermaLink="false">CVE-2026-97742</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-97745 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97745</link>
-<guid isPermaLink="false">CVE-2026-97745</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 </channel>
 </rss>

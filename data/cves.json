@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-03T12:59:57.348Z",
+ "generated": "2026-11-04T13:06:23.651Z",
  "cves": [
   {
    "id": "CVE-2026-64618",
@@ -18,7 +18,7 @@
      "toExcl": "1.16.0"
     }
    ],
-   "epss": 0.00229
+   "epss": 0.00624
   },
   {
    "id": "CVE-2026-65874",
@@ -37,7 +37,7 @@
      "toExcl": "1.16.0"
     }
    ],
-   "epss": 0.00276
+   "epss": 0.00596
   },
   {
    "id": "CVE-2026-96192",
@@ -57,6 +57,177 @@
     }
    ],
    "epss": 0.00572
+  },
+  {
+   "id": "CVE-2026-85890",
+   "vendor": "Microsoft",
+   "product": "edge chromium",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-29",
+   "title": "Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "edge chromium",
+     "toExcl": "154.0.4258.37"
+    }
+   ],
+   "epss": 0.00586
+  },
+  {
+   "id": "CVE-2026-85897",
+   "vendor": "Microsoft",
+   "product": "edge chromium",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-29",
+   "title": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code...",
+   "summary": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "edge chromium",
+     "toExcl": "154.0.4258.37"
+    }
+   ],
+   "epss": 0.00586
+  },
+  {
+   "id": "CVE-2026-85899",
+   "vendor": "Microsoft",
+   "product": "edge chromium",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-29",
+   "title": "Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges over a...",
+   "summary": "Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "edge chromium",
+     "toExcl": "155.0.4283.45"
+    }
+   ],
+   "epss": 0.00641
+  },
+  {
+   "id": "CVE-2026-88077",
+   "vendor": "Microsoft",
+   "product": "edge chromium",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-29",
+   "title": "Integer overflow or wraparound in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate...",
+   "summary": "Integer overflow or wraparound in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "edge chromium",
+     "toExcl": "154.0.4258.62"
+    }
+   ],
+   "epss": 0.00638
+  },
+  {
+   "id": "CVE-2026-96187",
+   "vendor": "Microsoft",
+   "product": "edge chromium",
+   "category": "Windows & Endpoint",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-10-29",
+   "title": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an...",
+   "summary": "Access of resource using incompatible type ('type confusion') in Microsoft Edge (Chromium-based) allows an unauthorized attacker to disclose information over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "edge chromium",
+     "toExcl": "155.0.4283.45"
+    }
+   ],
+   "epss": 0.00514
+  },
+  {
+   "id": "CVE-2026-96196",
+   "vendor": "Microsoft",
+   "product": "edge chromium",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-29",
+   "title": "Incomplete list of disallowed inputs in Microsoft Edge (Chromium-based) allows an unauthorized attacker to...",
+   "summary": "Incomplete list of disallowed inputs in Microsoft Edge (Chromium-based) allows an unauthorized attacker to bypass a security feature over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "edge chromium",
+     "toExcl": "156.0.4314.50"
+    }
+   ],
+   "epss": 0.00767
+  },
+  {
+   "id": "CVE-2026-96198",
+   "vendor": "Microsoft",
+   "product": "edge chromium",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-29",
+   "title": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code...",
+   "summary": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "edge chromium",
+     "toExcl": "154.0.4258.37"
+    }
+   ],
+   "epss": 0.00586
+  },
+  {
+   "id": "CVE-2026-96199",
+   "vendor": "Microsoft",
+   "product": "edge chromium",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-29",
+   "title": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code...",
+   "summary": "Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "edge chromium",
+     "toExcl": "154.0.4258.37"
+    }
+   ],
+   "epss": 0.00586
+  },
+  {
+   "id": "CVE-2026-96203",
+   "vendor": "Microsoft",
+   "product": "edge chromium",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-29",
+   "title": "Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over...",
+   "summary": "Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "edge chromium",
+     "toExcl": "155.0.4283.45"
+    }
+   ],
+   "epss": 0.00585
   },
   {
    "id": "CVE-2026-76418",
@@ -161,8 +332,8 @@
    "cvss": 9.6,
    "kev": false,
    "published": "2026-10-27",
-   "title": "Improper input validation in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote...",
-   "summary": "Improper input validation in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "title": "Use after free in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to...",
+   "summary": "Use after free in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
    "epss": 0.00307
   },
@@ -174,16 +345,16 @@
    "cvss": 8.8,
    "kev": false,
    "published": "2026-10-27",
-   "title": "Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to...",
-   "summary": "Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "title": "Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker...",
+   "summary": "Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
    "epss": 0.00334
   },
   {
    "id": "CVE-2026-83831",
    "vendor": "Microsoft",
-   "product": "edge",
-   "category": "Application Platforms",
+   "product": "edge chromium",
+   "category": "Windows & Endpoint",
    "cvss": 8.8,
    "kev": false,
    "published": "2026-10-27",
@@ -192,17 +363,17 @@
    "affects": [
     {
      "vendor": "Microsoft",
-     "product": "edge",
+     "product": "edge chromium",
      "toExcl": "154.0.4258.48"
     }
    ],
-   "epss": 0.00767
+   "epss": 0.00751
   },
   {
    "id": "CVE-2026-85898",
    "vendor": "Microsoft",
-   "product": "edge",
-   "category": "Application Platforms",
+   "product": "edge chromium",
+   "category": "Windows & Endpoint",
    "cvss": 8.8,
    "kev": false,
    "published": "2026-10-27",
@@ -211,17 +382,17 @@
    "affects": [
     {
      "vendor": "Microsoft",
-     "product": "edge",
+     "product": "edge chromium",
      "toExcl": "154.0.4258.48"
     }
    ],
-   "epss": 0.00767
+   "epss": 0.00751
   },
   {
    "id": "CVE-2026-62765",
    "vendor": "Microsoft",
-   "product": "edge",
-   "category": "Application Platforms",
+   "product": "edge chromium",
+   "category": "Windows & Endpoint",
    "cvss": 7.5,
    "kev": false,
    "published": "2026-10-27",
@@ -230,11 +401,11 @@
    "affects": [
     {
      "vendor": "Microsoft",
-     "product": "edge",
+     "product": "edge chromium",
      "toExcl": "149.0.4022.62"
     }
    ],
-   "epss": 0.00438
+   "epss": 0.00429
   },
   {
    "id": "CVE-2026-110264",
@@ -696,8 +867,8 @@
    "cvss": 8.8,
    "kev": false,
    "published": "2026-10-20",
-   "title": "Use after free in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...",
-   "summary": "Use after free in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+   "title": "Incorrect authorization in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a...",
+   "summary": "Incorrect authorization in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a local attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a local program. (Chromium security severity: Medium)",
    "affects": [],
    "epss": 0.00443
   },
@@ -709,8 +880,8 @@
    "cvss": 8.8,
    "kev": false,
    "published": "2026-10-20",
-   "title": "Use after free in Media in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...",
-   "summary": "Use after free in Media in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: Low)",
+   "title": "Incorrect authorization in Media in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...",
+   "summary": "Incorrect authorization in Media in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker who had compromised the renderer process to spoof UI elements via a crafted HTML page. (Chromium security severity: Low)",
    "affects": [],
    "epss": 0.00426
   },
@@ -722,8 +893,8 @@
    "cvss": 8.8,
    "kev": false,
    "published": "2026-10-20",
-   "title": "Use after free in Network in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...",
-   "summary": "Use after free in Network in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "title": "Improper certificate validation in Network in Google Chrome on on Windows prior to 156.0.8078.47 allowed a...",
+   "summary": "Improper certificate validation in Network in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to leak sensitive information via crafted network traffic. (Chromium security severity: High)",
    "affects": [],
    "epss": 0.00417
   },
@@ -735,8 +906,8 @@
    "cvss": 8.8,
    "kev": false,
    "published": "2026-10-20",
-   "title": "Memory corruption in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...",
-   "summary": "Memory corruption in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "title": "Out of bounds read in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker...",
+   "summary": "Out of bounds read in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
    "epss": 0.00417
   },
@@ -748,8 +919,8 @@
    "cvss": 8.8,
    "kev": false,
    "published": "2026-10-20",
-   "title": "Use after free in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...",
-   "summary": "Use after free in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "title": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...",
+   "summary": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
    "epss": 0.00443
   },
@@ -761,8 +932,8 @@
    "cvss": 8.8,
    "kev": false,
    "published": "2026-10-20",
-   "title": "Memory corruption in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...",
-   "summary": "Memory corruption in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "title": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...",
+   "summary": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
    "epss": 0.00443
   },
@@ -774,8 +945,8 @@
    "cvss": 9.6,
    "kev": false,
    "published": "2026-10-20",
-   "title": "Improper input validation in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...",
-   "summary": "Improper input validation in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "title": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...",
+   "summary": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker who had compromised the renderer process to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
    "epss": 0.00495
   },
@@ -787,8 +958,8 @@
    "cvss": 9.6,
    "kev": false,
    "published": "2026-10-20",
-   "title": "Memory corruption in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a...",
-   "summary": "Memory corruption in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium)",
+   "title": "Improper privilege management in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47...",
+   "summary": "Improper privilege management in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a local attacker to execute arbitrary code outside the sandbox via physical access. (Chromium security severity: Medium)",
    "affects": [],
    "epss": 0.00475
   },
@@ -800,8 +971,8 @@
    "cvss": 8.8,
    "kev": false,
    "published": "2026-10-20",
-   "title": "Memory corruption in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...",
-   "summary": "Memory corruption in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "title": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...",
+   "summary": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
    "epss": 0.00425
   },
@@ -813,8 +984,8 @@
    "cvss": 8.8,
    "kev": false,
    "published": "2026-10-20",
-   "title": "Use after free in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...",
-   "summary": "Use after free in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "title": "Out of bounds write in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker...",
+   "summary": "Out of bounds write in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
    "epss": 0.00443
   },
@@ -826,8 +997,8 @@
    "cvss": 8.8,
    "kev": false,
    "published": "2026-10-20",
-   "title": "Improper input validation in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...",
-   "summary": "Improper input validation in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to potentially execute arbitrary code inside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "title": "Buffer overflow in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...",
+   "summary": "Buffer overflow in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
    "epss": 0.00443
   },
@@ -2302,7 +2473,7 @@
      "to": "8.63"
     }
    ],
-   "epss": 0.00335
+   "epss": 0.00346
   },
   {
    "id": "CVE-2026-101431",
@@ -2322,7 +2493,7 @@
      "to": "8.63"
     }
    ],
-   "epss": 0.00321
+   "epss": 0.00332
   },
   {
    "id": "CVE-2026-91265",
@@ -2342,7 +2513,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.0042
+   "epss": 0.00441
   },
   {
    "id": "CVE-2026-91266",
@@ -2362,7 +2533,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00133
+   "epss": 0.00148
   },
   {
    "id": "CVE-2026-91267",
@@ -2382,7 +2553,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00287
+   "epss": 0.00307
   },
   {
    "id": "CVE-2026-91268",
@@ -2402,7 +2573,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00286
+   "epss": 0.00301
   },
   {
    "id": "CVE-2026-91269",
@@ -2422,7 +2593,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00326
+   "epss": 0.00337
   },
   {
    "id": "CVE-2026-91270",
@@ -2442,7 +2613,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-91271",
@@ -2462,7 +2633,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00248
+   "epss": 0.00261
   },
   {
    "id": "CVE-2026-91272",
@@ -2482,7 +2653,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00301
+   "epss": 0.00317
   },
   {
    "id": "CVE-2026-91273",
@@ -2502,7 +2673,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00377
+   "epss": 0.00396
   },
   {
    "id": "CVE-2026-91286",
@@ -2522,7 +2693,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00195
+   "epss": 0.00275
   },
   {
    "id": "CVE-2026-91287",
@@ -2542,7 +2713,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00225
+   "epss": 0.00317
   },
   {
    "id": "CVE-2026-91288",
@@ -2562,7 +2733,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00243
+   "epss": 0.00261
   },
   {
    "id": "CVE-2026-91295",
@@ -2582,7 +2753,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-91296",
@@ -2602,7 +2773,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00362
+   "epss": 0.00381
   },
   {
    "id": "CVE-2026-91299",
@@ -2622,7 +2793,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00461
+   "epss": 0.00494
   },
   {
    "id": "CVE-2026-91303",
@@ -2642,7 +2813,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00266
+   "epss": 0.00285
   },
   {
    "id": "CVE-2026-91304",
@@ -2662,7 +2833,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00118
+   "epss": 0.00136
   },
   {
    "id": "CVE-2026-91305",
@@ -2682,7 +2853,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.0042
+   "epss": 0.00441
   },
   {
    "id": "CVE-2026-91306",
@@ -2702,7 +2873,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00105
+   "epss": 0.00119
   },
   {
    "id": "CVE-2026-91307",
@@ -2722,7 +2893,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00303
+   "epss": 0.00324
   },
   {
    "id": "CVE-2026-91308",
@@ -2742,7 +2913,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00303
+   "epss": 0.00324
   },
   {
    "id": "CVE-2026-91310",
@@ -2762,7 +2933,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00286
+   "epss": 0.00301
   },
   {
    "id": "CVE-2026-91311",
@@ -2782,7 +2953,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00135
+   "epss": 0.0015
   },
   {
    "id": "CVE-2026-91313",
@@ -2802,7 +2973,7 @@
      "to": "9.2.26.4"
     }
    ],
-   "epss": 0.00348
+   "epss": 0.00366
   },
   {
    "id": "CVE-2026-91314",
@@ -2822,7 +2993,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00118
+   "epss": 0.00136
   },
   {
    "id": "CVE-2026-91315",
@@ -2842,7 +3013,685 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.0015
+   "epss": 0.0017
+  },
+  {
+   "id": "CVE-2026-101409",
+   "vendor": "Oracle",
+   "product": "peoplesoft enterprise peopletools",
+   "category": "ERP & Business Apps",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Report...",
+   "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Report Distribution).  Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise PeopleSoft Enterprise PeopleTools.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all PeopleSoft Enterprise PeopleTools accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "peoplesoft enterprise peopletools",
+     "from": "8.61",
+     "to": "8.63"
+    }
+   ],
+   "epss": 0.00398
+  },
+  {
+   "id": "CVE-2026-101422",
+   "vendor": "Oracle",
+   "product": "peoplesoft enterprise peopletools",
+   "category": "ERP & Business Apps",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Report...",
+   "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Report Distribution).  Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise PeopleSoft Enterprise PeopleTools.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all PeopleSoft Enterprise PeopleTools accessible data and unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of PeopleSoft Enterprise PeopleTools. CVSS 3.1 Base Score 8.1 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "peoplesoft enterprise peopletools",
+     "from": "8.61",
+     "to": "8.63"
+    }
+   ],
+   "epss": 0.00404
+  },
+  {
+   "id": "CVE-2026-101427",
+   "vendor": "Oracle",
+   "product": "peoplesoft enterprise peopletools",
+   "category": "ERP & Business Apps",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Report...",
+   "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Report Distribution).  Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise PeopleSoft Enterprise PeopleTools.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all PeopleSoft Enterprise PeopleTools accessible data and unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of PeopleSoft Enterprise PeopleTools. CVSS 3.1 Base Score 8.1 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "peoplesoft enterprise peopletools",
+     "from": "8.61",
+     "to": "8.63"
+    }
+   ],
+   "epss": 0.00343
+  },
+  {
+   "id": "CVE-2026-101434",
+   "vendor": "Oracle",
+   "product": "peoplesoft enterprise peopletools",
+   "category": "ERP & Business Apps",
+   "cvss": 7.6,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Database...",
+   "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Database Server).  Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise PeopleSoft Enterprise PeopleTools.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of PeopleSoft Enterprise PeopleTools as well as  unauthorized update, insert or delete access to some of PeopleSoft Enterprise PeopleTools accessible data and  unauthorized read access to a subset of PeopleSoft Enterprise PeopleTools accessible data. CVSS 3.1 Base Score 7.6 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:L/I:L/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "peoplesoft enterprise peopletools",
+     "from": "8.61",
+     "to": "8.63"
+    }
+   ],
+   "epss": 0.00264
+  },
+  {
+   "id": "CVE-2026-101438",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Cloud Applications product of Oracle Siebel CRM (component: Siebel Cloud...",
+   "summary": "Vulnerability in the Siebel CRM Cloud Applications product of Oracle Siebel CRM (component: Siebel Cloud Manager).  Supported versions that are affected are 22.3-26.9. Difficult to exploit vulnerability allows unauthenticated attacker with access to the physical communication segment attached to the hardware where the Siebel CRM Cloud Applications executes to compromise Siebel CRM Cloud Applications.  While the vulnerability is in Siebel CRM Cloud Applications, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Siebel CRM Cloud Applications accessible data as well as  unauthorized access to critical data or complete access to all Siebel CRM Cloud Applications accessible data. CVSS 3.1 Base Score 8.0 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:A/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "22.3",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00183
+  },
+  {
+   "id": "CVE-2026-101446",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 9.9,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Cloud Applications product of Oracle Siebel CRM (component: Siebel Cloud...",
+   "summary": "Vulnerability in the Siebel CRM Cloud Applications product of Oracle Siebel CRM (component: Siebel Cloud Manager).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Siebel CRM Cloud Applications.  While the vulnerability is in Siebel CRM Cloud Applications, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Siebel CRM Cloud Applications. CVSS 3.1 Base Score 9.9 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00447
+  },
+  {
+   "id": "CVE-2026-101544",
+   "vendor": "Oracle",
+   "product": "payroll",
+   "category": "Application Platforms",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal Operations).",
+   "summary": "Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with logon to the infrastructure where Oracle Payroll executes to compromise Oracle Payroll.  Successful attacks of this vulnerability can result in takeover of Oracle Payroll. CVSS 3.1 Base Score 7.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "payroll",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00101
+  },
+  {
+   "id": "CVE-2026-101708",
+   "vendor": "Oracle",
+   "product": "payroll",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal Operations).",
+   "summary": "Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Payroll.  Successful attacks of this vulnerability can result in takeover of Oracle Payroll. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "payroll",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00359
+  },
+  {
+   "id": "CVE-2026-101712",
+   "vendor": "Oracle",
+   "product": "payroll",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal Operations).",
+   "summary": "Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Payroll.  Successful attacks of this vulnerability can result in takeover of Oracle Payroll. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "payroll",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00359
+  },
+  {
+   "id": "CVE-2026-83402",
+   "vendor": "Oracle",
+   "product": "identity manager",
+   "category": "Identity & Directory",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: OIM Legacy UI).",
+   "summary": "Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: OIM Legacy UI).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTPS to compromise Oracle Identity Manager.  Successful attacks of this vulnerability can result in takeover of Oracle Identity Manager. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "identity manager",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "identity manager",
+     "version": "14.1.2.1.0"
+    }
+   ],
+   "epss": 0.004
+  },
+  {
+   "id": "CVE-2026-83403",
+   "vendor": "Oracle",
+   "product": "identity manager",
+   "category": "Identity & Directory",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: OIM Legacy UI).",
+   "summary": "Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: OIM Legacy UI).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Identity Manager.  Successful attacks of this vulnerability can result in takeover of Oracle Identity Manager. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "identity manager",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "identity manager",
+     "version": "14.1.2.1.0"
+    }
+   ],
+   "epss": 0.00389
+  },
+  {
+   "id": "CVE-2026-87363",
+   "vendor": "Oracle",
+   "product": "payroll",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal Operations).",
+   "summary": "Vulnerability in the Oracle Payroll product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Payroll.  Successful attacks of this vulnerability can result in takeover of Oracle Payroll. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "payroll",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00345
+  },
+  {
+   "id": "CVE-2026-91259",
+   "vendor": "Oracle",
+   "product": "identity manager",
+   "category": "Identity & Directory",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: OIM Legacy UI).",
+   "summary": "Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: OIM Legacy UI).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Identity Manager.  Successful attacks of this vulnerability can result in takeover of Oracle Identity Manager. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "identity manager",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "identity manager",
+     "version": "14.1.2.1.0"
+    }
+   ],
+   "epss": 0.00389
+  },
+  {
+   "id": "CVE-2026-91407",
+   "vendor": "Oracle",
+   "product": "identity manager",
+   "category": "Identity & Directory",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: REST...",
+   "summary": "Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: REST WebServices).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Identity Manager.  Successful attacks of this vulnerability can result in takeover of Oracle Identity Manager. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "identity manager",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "identity manager",
+     "version": "14.1.2.1.0"
+    }
+   ],
+   "epss": 0.00418
+  },
+  {
+   "id": "CVE-2026-91408",
+   "vendor": "Oracle",
+   "product": "identity manager",
+   "category": "Identity & Directory",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: End User Self...",
+   "summary": "Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: End User Self Service).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle Identity Manager.  Successful attacks of this vulnerability can result in takeover of Oracle Identity Manager. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "identity manager",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "identity manager",
+     "version": "14.1.2.1.0"
+    }
+   ],
+   "epss": 0.00355
+  },
+  {
+   "id": "CVE-2026-91437",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 8.7,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).",
+   "summary": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Siebel CRM Deployment.  While the vulnerability is in Siebel CRM Deployment, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Siebel CRM Deployment accessible data as well as  unauthorized access to critical data or complete access to all Siebel CRM Deployment accessible data. CVSS 3.1 Base Score 8.7 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-91438",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).",
+   "summary": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Siebel CRM Deployment.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Siebel CRM Deployment accessible data as well as  unauthorized update, insert or delete access to some of Siebel CRM Deployment accessible data. CVSS 3.1 Base Score 7.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00278
+  },
+  {
+   "id": "CVE-2026-91459",
+   "vendor": "Oracle",
+   "product": "outside in technology",
+   "category": "Application Platforms",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In...",
+   "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Image Export SDK).   The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle Outside In Technology executes to compromise Oracle Outside In Technology.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Oracle Outside In Technology. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "outside in technology",
+     "version": "8.5.8"
+    }
+   ],
+   "epss": 0.00242
+  },
+  {
+   "id": "CVE-2026-91460",
+   "vendor": "Oracle",
+   "product": "outside in technology",
+   "category": "Application Platforms",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In...",
+   "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Image Export SDK).   The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle Outside In Technology executes to compromise Oracle Outside In Technology.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Oracle Outside In Technology. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "outside in technology",
+     "version": "8.5.8"
+    }
+   ],
+   "epss": 0.00242
+  },
+  {
+   "id": "CVE-2026-91495",
+   "vendor": "Oracle",
+   "product": "webcenter content",
+   "category": "ERP & Business Apps",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle WebCenter Content product of Oracle Fusion Middleware (component: Content Server).",
+   "summary": "Vulnerability in the Oracle WebCenter Content product of Oracle Fusion Middleware (component: Content Server).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebCenter Content.  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Content. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "webcenter content",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "webcenter content",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.0045
+  },
+  {
+   "id": "CVE-2026-91504",
+   "vendor": "Oracle",
+   "product": "webcenter content",
+   "category": "ERP & Business Apps",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle WebCenter Content product of Oracle Fusion Middleware (component: Content Portal...",
+   "summary": "Vulnerability in the Oracle WebCenter Content product of Oracle Fusion Middleware (component: Content Portal Suite).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle WebCenter Content.  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Content. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "webcenter content",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "webcenter content",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00235
+  },
+  {
+   "id": "CVE-2026-91668",
+   "vendor": "Oracle",
+   "product": "data integrator",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Data Integrator product of Oracle Fusion Middleware (component: Dictionary...",
+   "summary": "Vulnerability in the Oracle Data Integrator product of Oracle Fusion Middleware (component: Dictionary Repository).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via SQL to compromise Oracle Data Integrator.  Successful attacks of this vulnerability can result in takeover of Oracle Data Integrator. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "data integrator",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "data integrator",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00249
+  },
+  {
+   "id": "CVE-2026-78162",
+   "vendor": "Apache",
+   "product": "camel",
+   "category": "Data & Messaging",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-19",
+   "title": "Deserialization of Untrusted Data vulnerability in Apache Camel.",
+   "summary": "Deserialization of Untrusted Data vulnerability in Apache Camel.\n\n\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\n\n\nThe camel-hazelcast component applies a default Hazelcast JavaSerializationFilterConfig to the instances it creates from its own configuration, a protection introduced by CVE-2026-43865. That change did not reach two of the configuration paths Camel builds itself, so those paths continued to create Hazelcast instances whose Java deserialization is unrestricted. ReplicatedHazelcastAggregationRepository extends HazelcastAggregationRepository but overrides doStart() without calling super.doStart(), keeping its own copy of the bootstrap block, and therefore never received the filter: a route using it without supplying a hazelcastInstance starts a Hazelcast member that deserializes values read from the backing ReplicatedMap with no class restriction. HazelcastDefaultComponent#getOrCreateHzClientInstance() builds its own ClientConfig when hazelcastMode=client is selected and neither a referenced ClientConfig nor hazelcastConfigUri is supplied, and likewise applied no filter, so client-mode endpoints behaved differently from node-mode endpoints for an otherwise identical configuration. In both cases an attacker able to publish into the Hazelcast cluster that the affected instance is attached to can cause a serialized Java object of their choosing to be deserialized inside Hazelcast's own serialization layer, before Camel processes the exchange, resulting in remote code execution. Hazelcast clusters have neither authentication nor TLS enabled by default. Selecting client mode is a topology choice rather than a security option, so neither path required the deployment to opt in to unsafe behaviour.\n\n\n\nUsers are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.1. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier reached end of life before this issue was resolved and will not receive a fix, so deployments on those lines must move to a supported release. For deployments that cannot upgrade immediately, supply an explicit Hazelcast configuration carrying a JavaSerializationFilterConfig, or inject a pre-built HazelcastInstance, since a user-supplied configuration is never overwritten by Camel. Alternatively set the JVM-wide filter -Djdk.serialFilter=!java.net.;java.;javax.;org.apache.camel.;!* and enable Hazelcast cluster authentication and TLS to restrict who can reach the cluster.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.0.0",
+     "toExcl": "4.18.5"
+    },
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.19.0",
+     "toExcl": "4.22.1"
+    }
+   ],
+   "epss": 0.00918
+  },
+  {
+   "id": "CVE-2026-79983",
+   "vendor": "Apache",
+   "product": "camel",
+   "category": "Data & Messaging",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-10-19",
+   "title": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache Camel...",
+   "summary": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache Camel FTP component.\n\n\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\n\n\nThe Camel remote-file consumers poll a directory on a remote server and build the absolute remote path of each file by concatenating the configured directory with the file name reported in the server's directory listing. That concatenation (FtpUtils.absoluteFilePath and GenericFileConsumer) applied no lexical normalization and no check that the result stayed inside the directory being polled, and the resulting path became the operand for every subsequent remote operation on the file: retrieval (FtpOperations.retrieveFile / SftpOperations, reached from GenericFileConsumer where the retrieve name is taken verbatim from GenericFile.getAbsoluteFilePath), deletion when delete=true (GenericFileDeleteProcessStrategy), and renaming when move, preMove, moveFailed or readLock=rename is configured (GenericFileProcessStrategySupport and GenericFileRenameExclusiveReadLockStrategy). Neither isValidFile nor isMatched performed any containment check. A listing entry that is not a single path segment therefore resolved to a path outside the configured polling directory, causing Camel to read, delete or rename files outside it using the endpoint's own credentials. A listing name is not route-controlled data. It is supplied by the remote server, and the FTP control channel carries no integrity protection at all, so an on-path attacker can rewrite a LIST response without holding any credentials; a compromised, malicious or multi-tenant server, or a server backed by a virtual filesystem, can emit such a name directly. Retrieval is reachable in a default consumer configuration, since the remote consumers download every listed file; deletion and renaming additionally require one of the disposition options above, all of which are common. Escape from the directory Camel was configured to poll is unconditional, while escape from the server's own account boundary additionally depends on whether that server confines the account. The jailStartingDirectory option, which is documented as restricting Camel to the starting directory and is enabled by default, governed producer writes and, since the localWorkDirectory containment work, consumer downloads to the local work directory - but it did not constrain this remote operand, so its name and description claimed a boundary that was not enforced here. The same entry point had already been recognised on the local side: the localWorkDirectory download path was constrained so that a remote file name containing parent-directory segments could not resolve outside the local work directory. The remote operand was the remaining half of that surface. This artifact provides the ftp, ftps and sftp schemes, all of which are affected. The reporter demonstrated the issue end to end against an ftp endpoint, driving a Camel route with a malicious server whose LIST response named a file outside the polled directory.\n\n\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.22.x releases stream should upgrade to 4.22.1. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. The 4.14.x stream reached end of life and does not receive this fix; users on it should move to a supported releases stream.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.0.0",
+     "toExcl": "4.18.5"
+    },
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.19.0",
+     "toExcl": "4.22.1"
+    }
+   ],
+   "epss": 0.00659
+  },
+  {
+   "id": "CVE-2026-79986",
+   "vendor": "Apache",
+   "product": "camel",
+   "category": "Data & Messaging",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-10-19",
+   "title": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache Camel...",
+   "summary": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Apache Camel Azure Files component.\n\n\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\n\n\nThe Camel remote-file consumers poll a directory on a remote server and build the absolute remote path of each file by concatenating the configured directory with the file name reported in the server's directory listing. That concatenation (FtpUtils.absoluteFilePath and GenericFileConsumer) applied no lexical normalization and no check that the result stayed inside the directory being polled, and the resulting path became the operand for every subsequent remote operation on the file: retrieval (FtpOperations.retrieveFile / SftpOperations, reached from GenericFileConsumer where the retrieve name is taken verbatim from GenericFile.getAbsoluteFilePath), deletion when delete=true (GenericFileDeleteProcessStrategy), and renaming when move, preMove, moveFailed or readLock=rename is configured (GenericFileProcessStrategySupport and GenericFileRenameExclusiveReadLockStrategy). Neither isValidFile nor isMatched performed any containment check. A listing entry that is not a single path segment therefore resolved to a path outside the configured polling directory, causing Camel to read, delete or rename files outside it using the endpoint's own credentials. A listing name is not route-controlled data. It is supplied by the remote server, and the FTP control channel carries no integrity protection at all, so an on-path attacker can rewrite a LIST response without holding any credentials; a compromised, malicious or multi-tenant server, or a server backed by a virtual filesystem, can emit such a name directly. Retrieval is reachable in a default consumer configuration, since the remote consumers download every listed file; deletion and renaming additionally require one of the disposition options above, all of which are common. Escape from the directory Camel was configured to poll is unconditional, while escape from the server's own account boundary additionally depends on whether that server confines the account. The jailStartingDirectory option, which is documented as restricting Camel to the starting directory and is enabled by default, governed producer writes and, since the localWorkDirectory containment work, consumer downloads to the local work directory - but it did not constrain this remote operand, so its name and description claimed a boundary that was not enforced here. The same entry point had already been recognised on the local side: the localWorkDirectory download path was constrained so that a remote file name containing parent-directory segments could not resolve outside the local work directory. The remote operand was the remaining half of that surface. This artifact provides the azure-files scheme. Its consumer derives from the same RemoteFileConsumer base class and composed the remote path through a plain concatenation helper, so it inherited the same unconstrained resolution. Reaching it requires a listing name that is not a single path segment, which the Azure Files REST service does not normally return; the exposure was corrected on the same basis as the other remote-file consumers rather than from a demonstrated proof of concept against this scheme.\n\n\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.22.x releases stream should upgrade to 4.22.1. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. The 4.14.x stream reached end of life and does not receive this fix; users on it should move to a supported releases stream.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.0.0",
+     "toExcl": "4.18.5"
+    },
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.19.0",
+     "toExcl": "4.22.1"
+    }
+   ],
+   "epss": 0.00645
+  },
+  {
+   "id": "CVE-2026-80343",
+   "vendor": "Apache",
+   "product": "camel",
+   "category": "Data & Messaging",
+   "cvss": 8.2,
+   "kev": false,
+   "published": "2026-10-19",
+   "title": "Improper Handling of Case Sensitivity vulnerability in Apache Camel Netty HTTP component.",
+   "summary": "Improper Handling of Case Sensitivity vulnerability in Apache Camel Netty HTTP component.\n\n\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\n\n\nThe camel-netty-http security constraint compared the request path against the configured context path using a case-sensitive match, while the routing that dispatches the request to the endpoint did not apply the same rule. The two comparisons therefore disagreed for any path whose case differed from the configured value. An external caller could alter the case of a character in a path segment so that the security constraint no longer recognised the path as protected, while the request still dispatched to the same endpoint. The result is that the constraint is skipped and the protected route is reached without satisfying it. No credential, prior access or special configuration is required beyond being able to send a request to the consumer.\n\n\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The constraint now matches the request path with the same case rules the dispatch uses, so the two can no longer disagree. For deployments that cannot upgrade immediately, place the authorization decision in front of the Camel consumer, for example in a reverse proxy that normalises the request path before forwarding.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.0.0",
+     "toExcl": "4.18.5"
+    },
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.19.0",
+     "toExcl": "4.22.1"
+    }
+   ],
+   "epss": 0.00516
+  },
+  {
+   "id": "CVE-2026-80344",
+   "vendor": "Apache",
+   "product": "camel",
+   "category": "Data & Messaging",
+   "cvss": 8.2,
+   "kev": false,
+   "published": "2026-10-19",
+   "title": "Server-Side Request Forgery (SSRF) vulnerability in Apache Camel AS2 component.",
+   "summary": "Server-Side Request Forgery (SSRF) vulnerability in Apache Camel AS2 component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nIn the AS2 protocol the sender of a message may request that the Message Disposition Notification be returned asynchronously to an address the sender supplies. camel-as2 took that address from the inbound message and used it as the destination for the outgoing receipt without constraining it to anything the deployment had configured. A remote partner therefore chose the host the Camel instance would connect to when delivering the MDN. That gives server-side request forgery from the position of the AS2 receiver, including reaching hosts that are only routable from inside the deployment's network, and where the outbound connection carries credentials configured for MDN delivery those credentials are presented to the attacker-chosen destination.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The asynchronous MDN destination is now constrained rather than taken verbatim from the inbound message. For deployments that cannot upgrade immediately, restrict outbound connectivity from the AS2 receiver to the partner endpoints it legitimately delivers receipts to, and do not attach credentials to MDN delivery that are valid for any host other than those partners.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.0.0",
+     "toExcl": "4.18.5"
+    },
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.19.0",
+     "toExcl": "4.22.1"
+    }
+   ],
+   "epss": 0.00489
+  },
+  {
+   "id": "CVE-2026-85250",
+   "vendor": "Apache",
+   "product": "camel",
+   "category": "Data & Messaging",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-19",
+   "title": "Improper Restriction of XML External Entity Reference vulnerability in Apache Camel XPath component.",
+   "summary": "Improper Restriction of XML External Entity Reference vulnerability in Apache Camel XPath component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nWith documentType set to InputSource, XPathBuilder handed the payload straight to javax.xml.xpath, which builds a DocumentBuilder of its own using the JDK defaults. The hardening applied to Camel's default document type was therefore bypassed: a DOCTYPE declaration that is refused on the default type was accepted here, and the external entity it declared was resolved and expanded into the evaluated document. An external sender whose XML reaches such an expression could read files readable by the Camel process and cause the process to issue requests to hosts it names. The two document types disagreeing on parser configuration is what made this reachable, since a deployment choosing InputSource for streaming reasons had no indication it was also choosing a weaker parser.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The InputSource document type now goes through the same hardened parser as the default type, so a DOCTYPE is refused. Note that it also shares that type's documented escape hatch: the same DocumentBuilderFactory system properties that relax the default type relax this one, so a deployment that has set them remains unprotected by design. For deployments that cannot upgrade immediately, do not use documentType=InputSource on expressions evaluated over untrusted XML; the default document type already refuses a DOCTYPE.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.0.0",
+     "toExcl": "4.18.5"
+    },
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.19.0",
+     "toExcl": "4.22.1"
+    }
+   ],
+   "epss": 0.00559
+  },
+  {
+   "id": "CVE-2026-85251",
+   "vendor": "Apache",
+   "product": "camel",
+   "category": "Data & Messaging",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-19",
+   "title": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Camel HTTP component.",
+   "summary": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Camel HTTP component.\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\nTwo paths handed credentials to a redirect target, which is a host chosen by the remote server rather than by the route, once followRedirects=true. OAuth2ClientConfigurer registers its interceptor with addRequestInterceptorFirst, and HttpClient runs protocol-level request interceptors inside ProtocolExec, which sits below RedirectExec in the exec chain; the interceptor therefore ran again for every redirect hop and re-attached Authorization: Bearer  to whatever host the Location header named. Separately, credentials were registered against an AuthScope matching any host, so basic and digest credentials were presented to a redirect target as well. A remote endpoint - or anyone who can influence its responses - could therefore collect the bearer token or the configured credentials simply by answering with a redirect to a host it controls.\n\nUpgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. Credentials are now sent only to the authority the endpoint was configured with, and are not re-attached when a redirect crosses to another host. For deployments that cannot upgrade immediately, set followRedirects=false on endpoints that carry credentials, and handle any redirect explicitly in the route so that the destination is chosen by the route rather than by the remote server.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.0.0",
+     "toExcl": "4.18.5"
+    },
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.19.0",
+     "toExcl": "4.22.1"
+    }
+   ],
+   "epss": 0.00502
+  },
+  {
+   "id": "CVE-2026-88900",
+   "vendor": "Apache",
+   "product": "camel",
+   "category": "Data & Messaging",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-19",
+   "title": "Deserialization of Untrusted Data vulnerability in Apache Camel Camel-Jgroups component.",
+   "summary": "Deserialization of Untrusted Data vulnerability in Apache Camel Camel-Jgroups component.\n\n\n\nThis issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.\n\n\n\nJGroupsEndpoint.createExchange(Message), which CamelJGroupsReceiver calls for every message the jgroups consumer receives before the exchange is routed, set the exchange body from org.jgroups.Message.getObject(). For an ObjectMessage, which is the message type the Camel jgroups producer sends, JGroups Java-deserializes the payload through an ObjectInputStream on its own receive thread as the message arrives, and getObject() returns the resulting object. No java.io.ObjectInputFilter was applied on that path unless the deployment had set a JVM-wide serialization filter: camel-jgroups installed none, and the JGroups versions shipped with the affected releases apply none of their own, so any serializable class on the application classpath could be instantiated and its deserialization callbacks run. Unless a channel or the channelProperties option is configured, the consumer creates its channel with new JChannel(), the stock JGroups protocol stack, which multicasts over UDP without the AUTH protocol and without encryption, so any host able to reach the cluster's multicast group or bind port can join the cluster and send messages to the consumer without credentials. Such a host could send a crafted serialized object that leads to remote code execution in the Camel process when a usable deserialization gadget chain is present on the classpath, and no non-default option was required on the consumer. Because JGroups materializes the object before Camel's receiver runs, a check performed by Camel can only inspect the deserialized result and cannot stop code that runs during deserialization, so closing the issue also requires a control that applies before the payload is read, as described in the mitigation. Exploitation requires network access to the cluster's multicast group or bind port, which with the default UDP multicast transport means a host on an adjacent network, and a usable gadget chain on the classpath, which is why the severity is assessed as high rather than critical.\n\n\n\nUsers are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.1. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier, and the 4.15.x to 4.17.x and 4.19.x to 4.21.x release lines, reached end of life before this issue was resolved and will not receive a fix, so deployments on those lines must move to a supported release.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.0.0",
+     "toExcl": "4.18.5"
+    },
+    {
+     "vendor": "Apache",
+     "product": "camel",
+     "from": "4.19.0",
+     "toExcl": "4.22.1"
+    }
+   ],
+   "epss": 0.00559
   },
   {
    "id": "CVE-2026-111094",
@@ -4393,7 +5242,7 @@
     }
    ],
    "kevAdded": "2026-10-13",
-   "epss": 0.86766
+   "epss": 0.88936
   },
   {
    "id": "CVE-2026-14814",
@@ -4584,7 +5433,7 @@
      "toExcl": "19.4.2"
     }
    ],
-   "epss": 0.273,
+   "epss": 0.27692,
    "kevAdded": "2026-10-29"
   },
   {
@@ -19650,7 +20499,7 @@
    "title": "Out-of-bounds write in Windows iSCSI allows an unauthorized attacker to execute code over a network.",
    "summary": "Out-of-bounds write in Windows iSCSI allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.0097
+   "epss": 0.00949
   },
   {
    "id": "CVE-2026-69736",
@@ -19663,7 +20512,7 @@
    "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows...",
    "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Credential Manager allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00235
+   "epss": 0.0023
   },
   {
    "id": "CVE-2026-69867",
@@ -19676,7 +20525,7 @@
    "title": "Out-of-bounds read in SQLite allows an authorized attacker to elevate privileges locally.",
    "summary": "Out-of-bounds read in SQLite allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00388
+   "epss": 0.00379
   },
   {
    "id": "CVE-2026-69963",
@@ -19689,7 +20538,7 @@
    "title": "Heap-based buffer overflow in Microsoft Streaming Service allows an authorized attacker to elevate privileges...",
    "summary": "Heap-based buffer overflow in Microsoft Streaming Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00348
+   "epss": 0.0034
   },
   {
    "id": "CVE-2026-69964",
@@ -19702,7 +20551,7 @@
    "title": "Use after free in Microsoft Streaming Service allows an authorized attacker to elevate privileges locally.",
    "summary": "Use after free in Microsoft Streaming Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00275
+   "epss": 0.00269
   },
   {
    "id": "CVE-2026-83770",
@@ -19715,7 +20564,7 @@
    "title": "Heap-based buffer overflow in Windows Text Shaping allows an unauthorized attacker to execute code over a...",
    "summary": "Heap-based buffer overflow in Windows Text Shaping allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.01127
+   "epss": 0.01103
   },
   {
    "id": "CVE-2026-83771",
@@ -19728,7 +20577,7 @@
    "title": "Use after free in Windows Camera Frame Server Monitor allows an unauthorized attacker to elevate privileges...",
    "summary": "Use after free in Windows Camera Frame Server Monitor allows an unauthorized attacker to elevate privileges over an adjacent network.",
    "affects": [],
-   "epss": 0.00621
+   "epss": 0.00608
   },
   {
    "id": "CVE-2026-83775",
@@ -19741,7 +20590,7 @@
    "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows...",
    "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00235
+   "epss": 0.0023
   },
   {
    "id": "CVE-2026-83777",
@@ -19754,7 +20603,7 @@
    "title": "Heap-based buffer overflow in Windows Bluetooth Service allows an unauthorized attacker to elevate privileges...",
    "summary": "Heap-based buffer overflow in Windows Bluetooth Service allows an unauthorized attacker to elevate privileges over an adjacent network.",
    "affects": [],
-   "epss": 0.00621
+   "epss": 0.00608
   },
   {
    "id": "CVE-2026-83779",
@@ -19767,7 +20616,7 @@
    "title": "Heap-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in Windows Installer allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83780",
@@ -19780,7 +20629,7 @@
    "title": "Use after free in Windows CCFFilter Driver allows an unauthorized attacker to execute code over a network.",
    "summary": "Use after free in Windows CCFFilter Driver allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.01084
+   "epss": 0.01061
   },
   {
    "id": "CVE-2026-83781",
@@ -19793,7 +20642,7 @@
    "title": "Improper null termination in Windows Program Compatibility Assistant Service allows an authorized attacker to...",
    "summary": "Improper null termination in Windows Program Compatibility Assistant Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-83782",
@@ -19806,7 +20655,7 @@
    "title": "Heap-based buffer overflow in Windows Shell allows an unauthorized attacker to execute code over a network.",
    "summary": "Heap-based buffer overflow in Windows Shell allows an unauthorized attacker to execute code over a network.",
    "affects": [],
-   "epss": 0.01011
+   "epss": 0.00989
   },
   {
    "id": "CVE-2026-83783",
@@ -19819,7 +20668,7 @@
    "title": "Heap-based buffer overflow in Windows Management Instrumentation allows an authorized attacker to elevate...",
    "summary": "Heap-based buffer overflow in Windows Management Instrumentation allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-65674",
@@ -19931,7 +20780,7 @@
      "toExcl": "17.0.5015.4"
     }
    ],
-   "epss": 0.00556
+   "epss": 0.00557
   },
   {
    "id": "CVE-2026-68883",
@@ -19993,7 +20842,7 @@
      "toExcl": "17.0.5015.4"
     }
    ],
-   "epss": 0.00556
+   "epss": 0.00557
   },
   {
    "id": "CVE-2026-85876",
@@ -20043,7 +20892,7 @@
      "toExcl": "17.0.5015.4"
     }
    ],
-   "epss": 0.00197
+   "epss": 0.00192
   },
   {
    "id": "CVE-2026-85886",
@@ -20155,7 +21004,7 @@
      "toExcl": "17.0.5015.4"
     }
    ],
-   "epss": 0.00237
+   "epss": 0.00231
   },
   {
    "id": "CVE-2026-88082",
@@ -20205,7 +21054,7 @@
      "toExcl": "17.0.5015.4"
     }
    ],
-   "epss": 0.00237
+   "epss": 0.00231
   },
   {
    "id": "CVE-2026-88083",
@@ -20243,7 +21092,7 @@
      "toExcl": "17.0.5015.4"
     }
    ],
-   "epss": 0.00497
+   "epss": 0.00487
   },
   {
    "id": "CVE-2026-88088",
@@ -20293,7 +21142,7 @@
      "toExcl": "17.0.5015.4"
     }
    ],
-   "epss": 0.00237
+   "epss": 0.00231
   },
   {
    "id": "CVE-2026-94512",
@@ -20417,7 +21266,50 @@
      "toExcl": "17.0.5015.4"
     }
    ],
-   "epss": 0.00604
+   "epss": 0.00591
+  },
+  {
+   "id": "CVE-2026-105725",
+   "vendor": "Microsoft",
+   "product": "windows security app",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Use after free in Windows Security App allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Security App allows an authorized attacker to elevate privileges locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "windows security app",
+     "toExcl": "1000.27840.0.1000"
+    }
+   ],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-88094",
+   "vendor": "Microsoft",
+   "product": "azure-storage-blob-batch",
+   "category": "Cloud & AI Services",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper neutralization of special elements in output used by a downstream component ('injection') in Azure...",
+   "summary": "Improper neutralization of special elements in output used by a downstream component ('injection') in Azure Storage Library allows an authorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "azure-storage-blob-batch",
+     "toExcl": "12.31.2"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "edge chromium",
+     "toExcl": "153.0.4234.46"
+    }
+   ],
+   "epss": 0.0082
   },
   {
    "id": "CVE-2026-100227",

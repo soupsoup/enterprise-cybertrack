@@ -13,7 +13,7 @@
 <p class="crumb"><a href="../../">Enterprise CyberTrack</a> / feeds</p>
 <h1>Enterprise CyberTrack: Apache</h1>
 <p class="tag">High and critical Apache vulnerabilities.</p>
-<p class="tag"><a href="apache.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 94.</p>
+<p class="tag"><a href="apache.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 100.</p>
 </div></header>
 <main class="wrap news">
 <article>
@@ -21,7 +21,7 @@
 <h2><a href="../../#cve=CVE-2026-64618">CVE-2026-64618: Improper Neutralization of Special Elements used in an SQL Command (&quot;SQL Injection&quot;) vulnerability exists in...</a></h2>
 <p class="who">Apache fineract</p>
 <p>Improper Neutralization of Special Elements used in an SQL Command (&quot;SQL Injection&quot;) vulnerability exists in Apache Fineract (through version 1.15.0). The vulnerability affects the outStandingAmountPercentageCondition parameter of the /fineract-provider/api/v1/search/advance HTTP API endpoint, allowing SQL injection due to insufficient input neutralization. Users are recommended to upgrade to version 1.16.1, which will fix the issue.</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-64618" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.6%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-64618" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-10-30">October 30, 2026</time>
@@ -30,7 +30,141 @@
 <p>This issue affects Apache Fineract versions up to and including 1.15.0. The Center read endpoint (GET /api/v1/centers) and the datatable entry read endpoints (GET /api/v1/datatables/{datatable}/{apptableId} and GET /api/v1/datatables/{datatable}/{apptableId}/{datatableId}) concatenate caller-supplied ordering parameters (orderBy, sortOrder, order) directly into the SQL ORDER BY clause. The existing regex-based input validation can be bypassed, allowing time-based blind SQL injection by any authenticated user with read access to centers or to the targeted datatable.
 
 Users are recommended to upgrade to 1.16.1 which fixes the issue.</p>
-<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.3%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-65874" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.6%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-65874" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-19">October 19, 2026</time>
+<h2><a href="../../#cve=CVE-2026-78162">CVE-2026-78162: Deserialization of Untrusted Data vulnerability in Apache Camel.</a></h2>
+<p class="who">Apache camel</p>
+<p>Deserialization of Untrusted Data vulnerability in Apache Camel.
+
+
+
+This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.
+
+
+
+The camel-hazelcast component applies a default Hazelcast JavaSerializationFilterConfig to the instances it creates from its own configuration, a protection introduced by CVE-2026-43865. That change did not reach two of the configuration paths Camel builds itself, so those paths continued to create Hazelcast instances whose Java deserialization is unrestricted. ReplicatedHazelcastAggregationRepository extends HazelcastAggregationRepository but overrides doStart() without calling super.doStart(), keeping its own copy of the bootstrap block, and therefore never received the filter: a route using it without supplying a hazelcastInstance starts a Hazelcast member that deserializes values read from the backing ReplicatedMap with no class restriction. HazelcastDefaultComponent#getOrCreateHzClientInstance() builds its own ClientConfig when hazelcastMode=client is selected and neither a referenced ClientConfig nor hazelcastConfigUri is supplied, and likewise applied no filter, so client-mode endpoints behaved differently from node-mode endpoints for an otherwise identical configuration. In both cases an attacker able to publish into the Hazelcast cluster that the affected instance is attached to can cause a serialized Java object of their choosing to be deserialized inside Hazelcast&apos;s own serialization layer, before Camel processes the exchange, resulting in remote code execution. Hazelcast clusters have neither authentication nor TLS enabled by default. Selecting client mode is a topology choice rather than a security option, so neither path required the deployment to opt in to unsafe behaviour.
+
+
+
+Users are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.1. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier reached end of life before this issue was resolved and will not receive a fix, so deployments on those lines must move to a supported release. For deployments that cannot upgrade immediately, supply an explicit Hazelcast configuration carrying a JavaSerializationFilterConfig, or inject a pre-built HazelcastInstance, since a user-supplied configuration is never overwritten by Camel. Alternatively set the JVM-wide filter -Djdk.serialFilter=!java.net.;java.;javax.;org.apache.camel.;!* and enable Hazelcast cluster authentication and TLS to restrict who can reach the cluster.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.9%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-78162" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-19">October 19, 2026</time>
+<h2><a href="../../#cve=CVE-2026-79983">CVE-2026-79983: Improper Limitation of a Pathname to a Restricted Directory (&apos;Path Traversal&apos;) vulnerability in Apache Camel...</a></h2>
+<p class="who">Apache camel</p>
+<p>Improper Limitation of a Pathname to a Restricted Directory (&apos;Path Traversal&apos;) vulnerability in Apache Camel FTP component.
+
+
+
+This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.
+
+
+
+The Camel remote-file consumers poll a directory on a remote server and build the absolute remote path of each file by concatenating the configured directory with the file name reported in the server&apos;s directory listing. That concatenation (FtpUtils.absoluteFilePath and GenericFileConsumer) applied no lexical normalization and no check that the result stayed inside the directory being polled, and the resulting path became the operand for every subsequent remote operation on the file: retrieval (FtpOperations.retrieveFile / SftpOperations, reached from GenericFileConsumer where the retrieve name is taken verbatim from GenericFile.getAbsoluteFilePath), deletion when delete=true (GenericFileDeleteProcessStrategy), and renaming when move, preMove, moveFailed or readLock=rename is configured (GenericFileProcessStrategySupport and GenericFileRenameExclusiveReadLockStrategy). Neither isValidFile nor isMatched performed any containment check. A listing entry that is not a single path segment therefore resolved to a path outside the configured polling directory, causing Camel to read, delete or rename files outside it using the endpoint&apos;s own credentials. A listing name is not route-controlled data. It is supplied by the remote server, and the FTP control channel carries no integrity protection at all, so an on-path attacker can rewrite a LIST response without holding any credentials; a compromised, malicious or multi-tenant server, or a server backed by a virtual filesystem, can emit such a name directly. Retrieval is reachable in a default consumer configuration, since the remote consumers download every listed file; deletion and renaming additionally require one of the disposition options above, all of which are common. Escape from the directory Camel was configured to poll is unconditional, while escape from the server&apos;s own account boundary additionally depends on whether that server confines the account. The jailStartingDirectory option, which is documented as restricting Camel to the starting directory and is enabled by default, governed producer writes and, since the localWorkDirectory containment work, consumer downloads to the local work directory - but it did not constrain this remote operand, so its name and description claimed a boundary that was not enforced here. The same entry point had already been recognised on the local side: the localWorkDirectory download path was constrained so that a remote file name containing parent-directory segments could not resolve outside the local work directory. The remote operand was the remaining half of that surface. This artifact provides the ftp, ftps and sftp schemes, all of which are affected. The reporter demonstrated the issue end to end against an ftp endpoint, driving a Camel route with a malicious server whose LIST response named a file outside the polled directory.
+
+
+
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.22.x releases stream should upgrade to 4.22.1. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. The 4.14.x stream reached end of life and does not receive this fix; users on it should move to a supported releases stream.</p>
+<div class="meta"><span class="pill">CVSS 7.4</span>  <span class="pill">EPSS 0.7%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-79983" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-19">October 19, 2026</time>
+<h2><a href="../../#cve=CVE-2026-79986">CVE-2026-79986: Improper Limitation of a Pathname to a Restricted Directory (&apos;Path Traversal&apos;) vulnerability in Apache Camel...</a></h2>
+<p class="who">Apache camel</p>
+<p>Improper Limitation of a Pathname to a Restricted Directory (&apos;Path Traversal&apos;) vulnerability in Apache Camel Azure Files component.
+
+
+
+This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.
+
+
+
+The Camel remote-file consumers poll a directory on a remote server and build the absolute remote path of each file by concatenating the configured directory with the file name reported in the server&apos;s directory listing. That concatenation (FtpUtils.absoluteFilePath and GenericFileConsumer) applied no lexical normalization and no check that the result stayed inside the directory being polled, and the resulting path became the operand for every subsequent remote operation on the file: retrieval (FtpOperations.retrieveFile / SftpOperations, reached from GenericFileConsumer where the retrieve name is taken verbatim from GenericFile.getAbsoluteFilePath), deletion when delete=true (GenericFileDeleteProcessStrategy), and renaming when move, preMove, moveFailed or readLock=rename is configured (GenericFileProcessStrategySupport and GenericFileRenameExclusiveReadLockStrategy). Neither isValidFile nor isMatched performed any containment check. A listing entry that is not a single path segment therefore resolved to a path outside the configured polling directory, causing Camel to read, delete or rename files outside it using the endpoint&apos;s own credentials. A listing name is not route-controlled data. It is supplied by the remote server, and the FTP control channel carries no integrity protection at all, so an on-path attacker can rewrite a LIST response without holding any credentials; a compromised, malicious or multi-tenant server, or a server backed by a virtual filesystem, can emit such a name directly. Retrieval is reachable in a default consumer configuration, since the remote consumers download every listed file; deletion and renaming additionally require one of the disposition options above, all of which are common. Escape from the directory Camel was configured to poll is unconditional, while escape from the server&apos;s own account boundary additionally depends on whether that server confines the account. The jailStartingDirectory option, which is documented as restricting Camel to the starting directory and is enabled by default, governed producer writes and, since the localWorkDirectory containment work, consumer downloads to the local work directory - but it did not constrain this remote operand, so its name and description claimed a boundary that was not enforced here. The same entry point had already been recognised on the local side: the localWorkDirectory download path was constrained so that a remote file name containing parent-directory segments could not resolve outside the local work directory. The remote operand was the remaining half of that surface. This artifact provides the azure-files scheme. Its consumer derives from the same RemoteFileConsumer base class and composed the remote path through a plain concatenation helper, so it inherited the same unconstrained resolution. Reaching it requires a listing name that is not a single path segment, which the Azure Files REST service does not normally return; the exposure was corrected on the same basis as the other remote-file consumers rather than from a demonstrated proof of concept against this scheme.
+
+
+
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.22.x releases stream should upgrade to 4.22.1. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. The 4.14.x stream reached end of life and does not receive this fix; users on it should move to a supported releases stream.</p>
+<div class="meta"><span class="pill">CVSS 7.4</span>  <span class="pill">EPSS 0.6%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-79986" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-19">October 19, 2026</time>
+<h2><a href="../../#cve=CVE-2026-80343">CVE-2026-80343: Improper Handling of Case Sensitivity vulnerability in Apache Camel Netty HTTP component.</a></h2>
+<p class="who">Apache camel</p>
+<p>Improper Handling of Case Sensitivity vulnerability in Apache Camel Netty HTTP component.
+
+
+
+This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.
+
+
+
+The camel-netty-http security constraint compared the request path against the configured context path using a case-sensitive match, while the routing that dispatches the request to the endpoint did not apply the same rule. The two comparisons therefore disagreed for any path whose case differed from the configured value. An external caller could alter the case of a character in a path segment so that the security constraint no longer recognised the path as protected, while the request still dispatched to the same endpoint. The result is that the constraint is skipped and the protected route is reached without satisfying it. No credential, prior access or special configuration is required beyond being able to send a request to the consumer.
+
+
+
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The constraint now matches the request path with the same case rules the dispatch uses, so the two can no longer disagree. For deployments that cannot upgrade immediately, place the authorization decision in front of the Camel consumer, for example in a reverse proxy that normalises the request path before forwarding.</p>
+<div class="meta"><span class="pill">CVSS 8.2</span>  <span class="pill">EPSS 0.5%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-80343" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-19">October 19, 2026</time>
+<h2><a href="../../#cve=CVE-2026-80344">CVE-2026-80344: Server-Side Request Forgery (SSRF) vulnerability in Apache Camel AS2 component.</a></h2>
+<p class="who">Apache camel</p>
+<p>Server-Side Request Forgery (SSRF) vulnerability in Apache Camel AS2 component.
+
+This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.
+
+In the AS2 protocol the sender of a message may request that the Message Disposition Notification be returned asynchronously to an address the sender supplies. camel-as2 took that address from the inbound message and used it as the destination for the outgoing receipt without constraining it to anything the deployment had configured. A remote partner therefore chose the host the Camel instance would connect to when delivering the MDN. That gives server-side request forgery from the position of the AS2 receiver, including reaching hosts that are only routable from inside the deployment&apos;s network, and where the outbound connection carries credentials configured for MDN delivery those credentials are presented to the attacker-chosen destination.
+
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The asynchronous MDN destination is now constrained rather than taken verbatim from the inbound message. For deployments that cannot upgrade immediately, restrict outbound connectivity from the AS2 receiver to the partner endpoints it legitimately delivers receipts to, and do not attach credentials to MDN delivery that are valid for any host other than those partners.</p>
+<div class="meta"><span class="pill">CVSS 8.2</span>  <span class="pill">EPSS 0.5%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-80344" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-19">October 19, 2026</time>
+<h2><a href="../../#cve=CVE-2026-85250">CVE-2026-85250: Improper Restriction of XML External Entity Reference vulnerability in Apache Camel XPath component.</a></h2>
+<p class="who">Apache camel</p>
+<p>Improper Restriction of XML External Entity Reference vulnerability in Apache Camel XPath component.
+
+This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.
+
+With documentType set to InputSource, XPathBuilder handed the payload straight to javax.xml.xpath, which builds a DocumentBuilder of its own using the JDK defaults. The hardening applied to Camel&apos;s default document type was therefore bypassed: a DOCTYPE declaration that is refused on the default type was accepted here, and the external entity it declared was resolved and expanded into the evaluated document. An external sender whose XML reaches such an expression could read files readable by the Camel process and cause the process to issue requests to hosts it names. The two document types disagreeing on parser configuration is what made this reachable, since a deployment choosing InputSource for streaming reasons had no indication it was also choosing a weaker parser.
+
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The InputSource document type now goes through the same hardened parser as the default type, so a DOCTYPE is refused. Note that it also shares that type&apos;s documented escape hatch: the same DocumentBuilderFactory system properties that relax the default type relax this one, so a deployment that has set them remains unprotected by design. For deployments that cannot upgrade immediately, do not use documentType=InputSource on expressions evaluated over untrusted XML; the default document type already refuses a DOCTYPE.</p>
+<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.6%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-85250" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-19">October 19, 2026</time>
+<h2><a href="../../#cve=CVE-2026-85251">CVE-2026-85251: Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Camel HTTP component.</a></h2>
+<p class="who">Apache camel</p>
+<p>Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Camel HTTP component.
+
+This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.
+
+Two paths handed credentials to a redirect target, which is a host chosen by the remote server rather than by the route, once followRedirects=true. OAuth2ClientConfigurer registers its interceptor with addRequestInterceptorFirst, and HttpClient runs protocol-level request interceptors inside ProtocolExec, which sits below RedirectExec in the exec chain; the interceptor therefore ran again for every redirect hop and re-attached Authorization: Bearer  to whatever host the Location header named. Separately, credentials were registered against an AuthScope matching any host, so basic and digest credentials were presented to a redirect target as well. A remote endpoint - or anyone who can influence its responses - could therefore collect the bearer token or the configured credentials simply by answering with a redirect to a host it controls.
+
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. Credentials are now sent only to the authority the endpoint was configured with, and are not re-attached when a redirect crosses to another host. For deployments that cannot upgrade immediately, set followRedirects=false on endpoints that carry credentials, and handle any redirect explicitly in the route so that the destination is chosen by the route rather than by the remote server.</p>
+<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.5%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-85251" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-10-19">October 19, 2026</time>
+<h2><a href="../../#cve=CVE-2026-88900">CVE-2026-88900: Deserialization of Untrusted Data vulnerability in Apache Camel Camel-Jgroups component.</a></h2>
+<p class="who">Apache camel</p>
+<p>Deserialization of Untrusted Data vulnerability in Apache Camel Camel-Jgroups component.
+
+
+
+This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.22.1.
+
+
+
+JGroupsEndpoint.createExchange(Message), which CamelJGroupsReceiver calls for every message the jgroups consumer receives before the exchange is routed, set the exchange body from org.jgroups.Message.getObject(). For an ObjectMessage, which is the message type the Camel jgroups producer sends, JGroups Java-deserializes the payload through an ObjectInputStream on its own receive thread as the message arrives, and getObject() returns the resulting object. No java.io.ObjectInputFilter was applied on that path unless the deployment had set a JVM-wide serialization filter: camel-jgroups installed none, and the JGroups versions shipped with the affected releases apply none of their own, so any serializable class on the application classpath could be instantiated and its deserialization callbacks run. Unless a channel or the channelProperties option is configured, the consumer creates its channel with new JChannel(), the stock JGroups protocol stack, which multicasts over UDP without the AUTH protocol and without encryption, so any host able to reach the cluster&apos;s multicast group or bind port can join the cluster and send messages to the consumer without credentials. Such a host could send a crafted serialized object that leads to remote code execution in the Camel process when a usable deserialization gadget chain is present on the classpath, and no non-default option was required on the consumer. Because JGroups materializes the object before Camel&apos;s receiver runs, a check performed by Camel can only inspect the deserialized result and cannot stop code that runs during deserialization, so closing the issue also requires a control that applies before the payload is read, as described in the mitigation. Exploitation requires network access to the cluster&apos;s multicast group or bind port, which with the default UDP multicast transport means a host on an adjacent network, and a usable gadget chain on the classpath, which is why the severity is assessed as high rather than critical.
+
+
+
+Users are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.1. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier, and the 4.15.x to 4.17.x and 4.19.x to 4.21.x release lines, reached end of life before this issue was resolved and will not receive a fix, so deployments on those lines must move to a supported release.</p>
+<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.6%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-88900" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-10-09">October 9, 2026</time>
@@ -1177,53 +1311,7 @@ This issue affects Apache ActiveMQ Broker: before 5.19.11, from 6.0.0 before 6.3
 Users are recommended to upgrade to version 6.3.2 or 5.19.11 which fixes the issue.</p>
 <div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.6%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-74761" rel="noopener">NVD record</a></div>
 </article>
-<article>
-<time datetime="2026-09-08">September 8, 2026</time>
-<h2><a href="../../#cve=CVE-2026-75156">CVE-2026-75156: Apache Airflow FAB provider versions 3.7.3 through 3.8.0 do not validate the issuer or audience of Azure AD...</a></h2>
-<p class="who">Apache apache-airflow-providers-fab</p>
-<p>Apache Airflow FAB provider versions 3.7.3 through 3.8.0 do not validate the issuer or audience of Azure AD `id_token`s during OAuth login. Deployments are affected only when the FAB auth manager is configured with Azure AD as an OAuth provider. Because the signing keys are fetched from Microsoft&apos;s **multi-tenant** JWKS endpoint, an `id_token` minted in *any* Azure tenant — including one the attacker creates — passes signature verification, and the username and role assignments are then read from that attacker-controlled token. Anyone able to register an Azure tenant can therefore authenticate to the Airflow UI with no prior access to the deployment.
-
-The fix for **CVE-2026-59243** was incomplete, and this advisory closes the remaining gap: that fix made the provider verify the `id_token` signature, but did not add issuer or audience checks. Operators who already applied the CVE-2026-59243 fix are **still affected and must upgrade again** — 3.7.3 is the release that shipped that fix, so every version containing it falls inside this affected range. Upgrade to apache-airflow-providers-fab `3.8.1` or later.</p>
-<div class="meta"><span class="pill">CVSS 9.1</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Developer Tools &amp; Libraries</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-75156" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-07">September 7, 2026</time>
-<h2><a href="../../#cve=CVE-2026-78254">CVE-2026-78254: The ftp and scp tasks of Apache Ant can download files from a remote server.</a></h2>
-<p class="who">Apache ant</p>
-<p>The ftp and scp tasks of Apache Ant can download files from a remote server. A malicious server can provide relative paths that allow it to write outside of the dedicated target directory for the download, making it possible to overwrite files of the attacker&apos;s choice using the permissions of the user running Ant in versions prior to Ant 1.10.18. 
-
-
-
-
-In order to exploit this vulnerability, the server would either have to be malicious or be subject to a machine-in-the-middle attack. Additionally in the case of scp or the ftp task using ftps the server must pass the server identity checks performed by the tasks.
-
-
-
-
-For ftp tasks not using ftps a malicious server could act as a machine-in-the-middle to provide malicious files.
-
-
-
-
-Starting with Ant 1.10.18 both tasks will prevent writing outside of the destination directory by default. An option is available to disable this behavior in the unlikely case that the  old behavior is required by existing build files.
-
-
-
-
-Mitigations:
-
-
-
-
-Users of scp and ftp (when using ftps) in any version of Ant should not bypass server identity checks. Users of ftp not using ftps should switch to ftps where possible.
-
-
-
-
-All users are recommended to upgrade to Apache Ant 1.10.18, which fixes this issue.</p>
-<div class="meta"><span class="pill">CVSS 7.4</span>  <span class="pill">EPSS 0.5%</span> <span class="pill">Developer Tools &amp; Libraries</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-78254" rel="noopener">NVD record</a></div>
-</article>
 </main>
-<footer class="wrap foot">Generated 2026-11-03 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-11-04 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>
