@@ -6,6 +6,43 @@
 <description>High and critical Apache vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/apache.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-90628 Apache openoffice: An uncontrolled memory access in the PDF export code of Apache OpenOffice versions through 4.1.16 allows a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-90628</link>
+<guid isPermaLink="false">CVE-2026-90628</guid>
+<pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>An uncontrolled memory access in the PDF export code of Apache OpenOffice versions through 4.1.16 allows a crafted CFF font to cause a stack overflow problem, causing program crash or memory corruption, or even running other code.
+
+Users are recommended to upgrade to version 4.1.17, which fixes this issue. | CVSS 7.3</description>
+</item>
+<item>
+<title>CVE-2026-90629 Apache openoffice: An uncontrolled memory access in the WMF import code of Apache OpenOffice versions through 4.1.16 allows a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-90629</link>
+<guid isPermaLink="false">CVE-2026-90629</guid>
+<pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>An uncontrolled memory access in the WMF import code of Apache OpenOffice versions through 4.1.16 allows a crafted WMF file to cause an invalid memory access, causing program crash or memory corruption.
+Users are recommended to upgrade to version 4.1.17, which fixes this issue. | CVSS 7.3</description>
+</item>
+<item>
+<title>CVE-2026-90634 Apache openoffice: An uncontrolled memory access in the PDF import code of Apache OpenOffice versions through 4.1.16 allows a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-90634</link>
+<guid isPermaLink="false">CVE-2026-90634</guid>
+<pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>An uncontrolled memory access in the PDF import code of Apache OpenOffice versions through 4.1.16 allows a crafted PDF to cause an out-of-bounds memory write, causing program crash or memory corruption.
+Users are recommended to upgrade to version 4.1.17, which fixes this issue. | CVSS 7.3</description>
+</item>
+<item>
+<title>CVE-2026-59267 Apache openoffice: A crafted DXF document causes a heap buffer overflow in Draw in Apache OpenOffice 4.1.16 and earlier.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-59267</link>
+<guid isPermaLink="false">CVE-2026-59267</guid>
+<pubDate>Wed, 04 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>A crafted DXF document causes a heap buffer overflow in Draw in Apache OpenOffice 4.1.16 and earlier. This could cause a crash or otherwise a corruption of memory areas.
+Users are recommended to upgrade to version 4.1.17, which fixes this issue. | CVSS 7.8</description>
+</item>
+<item>
 <title>CVE-2026-64618 Apache fineract: Improper Neutralization of Special Elements used in an SQL Command (&quot;SQL Injection&quot;) vulnerability exists in...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-64618</link>
 <guid isPermaLink="false">CVE-2026-64618</guid>
@@ -41,7 +78,7 @@ The camel-hazelcast component applies a default Hazelcast JavaSerializationFilte
 
 
 
-Users are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.1. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier reached end of life before this issue was resolved and will not receive a fix, so deployments on those lines must move to a supported release. For deployments that cannot upgrade immediately, supply an explicit Hazelcast configuration carrying a JavaSerializationFilterConfig, or inject a pre-built HazelcastInstance, since a user-supplied configuration is never overwritten by Camel. Alternatively set the JVM-wide filter -Djdk.serialFilter=!java.net.;java.;javax.;org.apache.camel.;!* and enable Hazelcast cluster authentication and TLS to restrict who can reach the cluster. | CVSS 9.8 | EPSS 0.9%</description>
+Users are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.1. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier reached end of life before this issue was resolved and will not receive a fix, so deployments on those lines must move to a supported release. For deployments that cannot upgrade immediately, supply an explicit Hazelcast configuration carrying a JavaSerializationFilterConfig, or inject a pre-built HazelcastInstance, since a user-supplied configuration is never overwritten by Camel. Alternatively set the JVM-wide filter -Djdk.serialFilter=!java.net.;java.;javax.;org.apache.camel.;!* and enable Hazelcast cluster authentication and TLS to restrict who can reach the cluster. | CVSS 9.8 | EPSS 1.1%</description>
 </item>
 <item>
 <title>CVE-2026-79983 Apache camel: Improper Limitation of a Pathname to a Restricted Directory (&apos;Path Traversal&apos;) vulnerability in Apache Camel...</title>
@@ -61,7 +98,7 @@ The Camel remote-file consumers poll a directory on a remote server and build th
 
 
 
-Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.22.x releases stream should upgrade to 4.22.1. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. The 4.14.x stream reached end of life and does not receive this fix; users on it should move to a supported releases stream. | CVSS 7.4 | EPSS 0.7%</description>
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.22.x releases stream should upgrade to 4.22.1. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. The 4.14.x stream reached end of life and does not receive this fix; users on it should move to a supported releases stream. | CVSS 7.4 | EPSS 1.0%</description>
 </item>
 <item>
 <title>CVE-2026-79986 Apache camel: Improper Limitation of a Pathname to a Restricted Directory (&apos;Path Traversal&apos;) vulnerability in Apache Camel...</title>
@@ -81,7 +118,7 @@ The Camel remote-file consumers poll a directory on a remote server and build th
 
 
 
-Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.22.x releases stream should upgrade to 4.22.1. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. The 4.14.x stream reached end of life and does not receive this fix; users on it should move to a supported releases stream. | CVSS 7.4 | EPSS 0.6%</description>
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.22.x releases stream should upgrade to 4.22.1. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. The 4.14.x stream reached end of life and does not receive this fix; users on it should move to a supported releases stream. | CVSS 7.4 | EPSS 1.0%</description>
 </item>
 <item>
 <title>CVE-2026-80343 Apache camel: Improper Handling of Case Sensitivity vulnerability in Apache Camel Netty HTTP component.</title>
@@ -101,7 +138,7 @@ The camel-netty-http security constraint compared the request path against the c
 
 
 
-Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The constraint now matches the request path with the same case rules the dispatch uses, so the two can no longer disagree. For deployments that cannot upgrade immediately, place the authorization decision in front of the Camel consumer, for example in a reverse proxy that normalises the request path before forwarding. | CVSS 8.2 | EPSS 0.5%</description>
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The constraint now matches the request path with the same case rules the dispatch uses, so the two can no longer disagree. For deployments that cannot upgrade immediately, place the authorization decision in front of the Camel consumer, for example in a reverse proxy that normalises the request path before forwarding. | CVSS 8.2 | EPSS 0.9%</description>
 </item>
 <item>
 <title>CVE-2026-80344 Apache camel: Server-Side Request Forgery (SSRF) vulnerability in Apache Camel AS2 component.</title>
@@ -115,7 +152,7 @@ This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.
 
 In the AS2 protocol the sender of a message may request that the Message Disposition Notification be returned asynchronously to an address the sender supplies. camel-as2 took that address from the inbound message and used it as the destination for the outgoing receipt without constraining it to anything the deployment had configured. A remote partner therefore chose the host the Camel instance would connect to when delivering the MDN. That gives server-side request forgery from the position of the AS2 receiver, including reaching hosts that are only routable from inside the deployment&apos;s network, and where the outbound connection carries credentials configured for MDN delivery those credentials are presented to the attacker-chosen destination.
 
-Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The asynchronous MDN destination is now constrained rather than taken verbatim from the inbound message. For deployments that cannot upgrade immediately, restrict outbound connectivity from the AS2 receiver to the partner endpoints it legitimately delivers receipts to, and do not attach credentials to MDN delivery that are valid for any host other than those partners. | CVSS 8.2 | EPSS 0.5%</description>
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The asynchronous MDN destination is now constrained rather than taken verbatim from the inbound message. For deployments that cannot upgrade immediately, restrict outbound connectivity from the AS2 receiver to the partner endpoints it legitimately delivers receipts to, and do not attach credentials to MDN delivery that are valid for any host other than those partners. | CVSS 8.2 | EPSS 0.9%</description>
 </item>
 <item>
 <title>CVE-2026-85250 Apache camel: Improper Restriction of XML External Entity Reference vulnerability in Apache Camel XPath component.</title>
@@ -129,7 +166,7 @@ This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.
 
 With documentType set to InputSource, XPathBuilder handed the payload straight to javax.xml.xpath, which builds a DocumentBuilder of its own using the JDK defaults. The hardening applied to Camel&apos;s default document type was therefore bypassed: a DOCTYPE declaration that is refused on the default type was accepted here, and the external entity it declared was resolved and expanded into the evaluated document. An external sender whose XML reaches such an expression could read files readable by the Camel process and cause the process to issue requests to hosts it names. The two document types disagreeing on parser configuration is what made this reachable, since a deployment choosing InputSource for streaming reasons had no indication it was also choosing a weaker parser.
 
-Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The InputSource document type now goes through the same hardened parser as the default type, so a DOCTYPE is refused. Note that it also shares that type&apos;s documented escape hatch: the same DocumentBuilderFactory system properties that relax the default type relax this one, so a deployment that has set them remains unprotected by design. For deployments that cannot upgrade immediately, do not use documentType=InputSource on expressions evaluated over untrusted XML; the default document type already refuses a DOCTYPE. | CVSS 7.5 | EPSS 0.6%</description>
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The InputSource document type now goes through the same hardened parser as the default type, so a DOCTYPE is refused. Note that it also shares that type&apos;s documented escape hatch: the same DocumentBuilderFactory system properties that relax the default type relax this one, so a deployment that has set them remains unprotected by design. For deployments that cannot upgrade immediately, do not use documentType=InputSource on expressions evaluated over untrusted XML; the default document type already refuses a DOCTYPE. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-85251 Apache camel: Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Camel HTTP component.</title>
@@ -143,7 +180,7 @@ This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.
 
 Two paths handed credentials to a redirect target, which is a host chosen by the remote server rather than by the route, once followRedirects=true. OAuth2ClientConfigurer registers its interceptor with addRequestInterceptorFirst, and HttpClient runs protocol-level request interceptors inside ProtocolExec, which sits below RedirectExec in the exec chain; the interceptor therefore ran again for every redirect hop and re-attached Authorization: Bearer  to whatever host the Location header named. Separately, credentials were registered against an AuthScope matching any host, so basic and digest credentials were presented to a redirect target as well. A remote endpoint - or anyone who can influence its responses - could therefore collect the bearer token or the configured credentials simply by answering with a redirect to a host it controls.
 
-Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. Credentials are now sent only to the authority the endpoint was configured with, and are not re-attached when a redirect crosses to another host. For deployments that cannot upgrade immediately, set followRedirects=false on endpoints that carry credentials, and handle any redirect explicitly in the route so that the destination is chosen by the route rather than by the remote server. | CVSS 7.5 | EPSS 0.5%</description>
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. Credentials are now sent only to the authority the endpoint was configured with, and are not re-attached when a redirect crosses to another host. For deployments that cannot upgrade immediately, set followRedirects=false on endpoints that carry credentials, and handle any redirect explicitly in the route so that the destination is chosen by the route rather than by the remote server. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-88900 Apache camel: Deserialization of Untrusted Data vulnerability in Apache Camel Camel-Jgroups component.</title>
@@ -163,7 +200,7 @@ JGroupsEndpoint.createExchange(Message), which CamelJGroupsReceiver calls for ev
 
 
 
-Users are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.1. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier, and the 4.15.x to 4.17.x and 4.19.x to 4.21.x release lines, reached end of life before this issue was resolved and will not receive a fix, so deployments on those lines must move to a supported release. | CVSS 8.8 | EPSS 0.6%</description>
+Users are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.1. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier, and the 4.15.x to 4.17.x and 4.19.x to 4.21.x release lines, reached end of life before this issue was resolved and will not receive a fix, so deployments on those lines must move to a supported release. | CVSS 8.8 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-100227 Apache cxf: Improper Verification of Cryptographic Signature vulnerability in Apache CXF&apos;s JAX-RS XML Security module.</title>
@@ -1344,61 +1381,6 @@ This issue affects Apache Impala: &gt;=4.0.0.
 
 
 Users are recommended to upgrade to version 4.5.2, which fixes this issue. | CVSS 9.8 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-57866 Apache impala: Server side request forgery in Apache Impala versions 4.4.x and 4.5.x.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-57866</link>
-<guid isPermaLink="false">CVE-2026-57866</guid>
-<pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-<category>Data &amp; Messaging</category>
-<description>Server side request forgery in Apache Impala versions 4.4.x and 4.5.x.  Authenticated Impala users with permissions to execute the ai_generate_text() function can exfiltrate secrets provided by the credential providers configured in the `hadoop.security.credential.provider.path` property of `core-site.xml`. The secret&apos;s key must be known to the user. | CVSS 8.8 | EPSS 0.6%</description>
-</item>
-<item>
-<title>CVE-2026-65181 Apache impala: Insufficient authorization of Data Source tables in Impala 2.7-4.5 allows a client with privileges to upload...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-65181</link>
-<guid isPermaLink="false">CVE-2026-65181</guid>
-<pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-<category>Data &amp; Messaging</category>
-<description>Insufficient authorization of Data Source tables in Impala 2.7-4.5 allows a client with privileges to upload a file to remote storage and create a table to execute arbitrary Java code.
-Users are recommended to upgrade to version 4.5.2, which fixes this issue. | CVSS 8.1 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-73334 Apache parquet: Potential problem for users of the org.apache.parquet.crypto.keytools package in Apache Parquet, versions...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-73334</link>
-<guid isPermaLink="false">CVE-2026-73334</guid>
-<pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-<category>Developer Tools &amp; Libraries</category>
-<description>Potential problem for users of the org.apache.parquet.crypto.keytools package in Apache Parquet, versions 1.12 to 1.18. 
-This package enables users to encrypt Parquet files via an envelope encryption mechanism that wraps (encrypts) data keys via a Key Management Service (KMS). 
-On the reader side, the KMS URL can be application-controlled or file-controlled.
-If the user does not leverage application control for this parameter, a file-controlled KMS URL is forwarded to a pluggable KmsClient implementation. 
-If the pluggable implementation does not perform host validation, a KMS token can be sent to a malicious host set by an attacker in the file.
-
-Before the problem is fixed, users are recommended to leverage application control for KMS URL parameter in readers (versions 1.12-1.18).
-After the problem is fixed (presumably in version 1.19), the upgrade will disable file-controlled KMS URL by default. Users of the KMS URL parameter 
-will have two options then: leverage application control for KMS URL parameter in readers, or enable file-controlled KMS URL (via a new app parameter).
-The latter option will explicitly require (in the new parameter documentation) to validate the KMS URL and use authentication in the custom implementation of the KMS client plug in. | CVSS 8.1 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-74761 Apache activemq: Improper input validation in TopicRegion in Apache ActiveMQ, Apache ActiveMQ Broker, and Apache ActiveMQ All...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-74761</link>
-<guid isPermaLink="false">CVE-2026-74761</guid>
-<pubDate>Wed, 09 Sep 2026 00:00:00 GMT</pubDate>
-<category>Data &amp; Messaging</category>
-<description>Improper input validation in TopicRegion in Apache ActiveMQ, Apache ActiveMQ Broker, and Apache ActiveMQ All on all platforms.
-
-
-
-
-An authenticated client can spoof clientId when removing a durable topic subscription.
-
-
-
-This issue affects Apache ActiveMQ Broker: before 5.19.11, from 6.0.0 before 6.3.2; Apache ActiveMQ All: before 5.19.11, from 6.0.0 before 6.3.2; Apache ActiveMQ: before 5.19.11, from 6.0.0 before 6.3.2.
-
-
-
-Users are recommended to upgrade to version 6.3.2 or 5.19.11 which fixes the issue. | CVSS 7.5 | EPSS 0.6%</description>
 </item>
 </channel>
 </rss>

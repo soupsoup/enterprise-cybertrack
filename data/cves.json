@@ -1,6 +1,78 @@
 {
- "generated": "2026-11-04T13:06:23.651Z",
+ "generated": "2026-11-05T13:26:20.813Z",
  "cves": [
+  {
+   "id": "CVE-2026-90628",
+   "vendor": "Apache",
+   "product": "openoffice",
+   "category": "Windows & Endpoint",
+   "cvss": 7.3,
+   "kev": false,
+   "published": "2026-11-04",
+   "title": "An uncontrolled memory access in the PDF export code of Apache OpenOffice versions through 4.1.16 allows a...",
+   "summary": "An uncontrolled memory access in the PDF export code of Apache OpenOffice versions through 4.1.16 allows a crafted CFF font to cause a stack overflow problem, causing program crash or memory corruption, or even running other code.\n\nUsers are recommended to upgrade to version 4.1.17, which fixes this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "openoffice",
+     "toExcl": "4.1.17"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-90629",
+   "vendor": "Apache",
+   "product": "openoffice",
+   "category": "Windows & Endpoint",
+   "cvss": 7.3,
+   "kev": false,
+   "published": "2026-11-04",
+   "title": "An uncontrolled memory access in the WMF import code of Apache OpenOffice versions through 4.1.16 allows a...",
+   "summary": "An uncontrolled memory access in the WMF import code of Apache OpenOffice versions through 4.1.16 allows a crafted WMF file to cause an invalid memory access, causing program crash or memory corruption.\nUsers are recommended to upgrade to version 4.1.17, which fixes this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "openoffice",
+     "toExcl": "4.1.17"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-90634",
+   "vendor": "Apache",
+   "product": "openoffice",
+   "category": "Windows & Endpoint",
+   "cvss": 7.3,
+   "kev": false,
+   "published": "2026-11-04",
+   "title": "An uncontrolled memory access in the PDF import code of Apache OpenOffice versions through 4.1.16 allows a...",
+   "summary": "An uncontrolled memory access in the PDF import code of Apache OpenOffice versions through 4.1.16 allows a crafted PDF to cause an out-of-bounds memory write, causing program crash or memory corruption.\nUsers are recommended to upgrade to version 4.1.17, which fixes this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "openoffice",
+     "toExcl": "4.1.17"
+    }
+   ]
+  },
+  {
+   "id": "CVE-2026-59267",
+   "vendor": "Apache",
+   "product": "openoffice",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-11-04",
+   "title": "A crafted DXF document causes a heap buffer overflow in Draw in Apache OpenOffice 4.1.16 and earlier.",
+   "summary": "A crafted DXF document causes a heap buffer overflow in Draw in Apache OpenOffice 4.1.16 and earlier. This could cause a crash or otherwise a corruption of memory areas.\nUsers are recommended to upgrade to version 4.1.17, which fixes this issue.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "openoffice",
+     "toExcl": "4.1.17"
+    }
+   ]
+  },
   {
    "id": "CVE-2026-64618",
    "vendor": "Apache",
@@ -75,7 +147,7 @@
      "toExcl": "154.0.4258.37"
     }
    ],
-   "epss": 0.00586
+   "epss": 0.00573
   },
   {
    "id": "CVE-2026-85897",
@@ -94,7 +166,7 @@
      "toExcl": "154.0.4258.37"
     }
    ],
-   "epss": 0.00586
+   "epss": 0.00573
   },
   {
    "id": "CVE-2026-85899",
@@ -113,7 +185,7 @@
      "toExcl": "155.0.4283.45"
     }
    ],
-   "epss": 0.00641
+   "epss": 0.00642
   },
   {
    "id": "CVE-2026-88077",
@@ -132,7 +204,7 @@
      "toExcl": "154.0.4258.62"
     }
    ],
-   "epss": 0.00638
+   "epss": 0.00625
   },
   {
    "id": "CVE-2026-96187",
@@ -151,7 +223,7 @@
      "toExcl": "155.0.4283.45"
     }
    ],
-   "epss": 0.00514
+   "epss": 0.00503
   },
   {
    "id": "CVE-2026-96196",
@@ -170,7 +242,7 @@
      "toExcl": "156.0.4314.50"
     }
    ],
-   "epss": 0.00767
+   "epss": 0.00751
   },
   {
    "id": "CVE-2026-96198",
@@ -189,7 +261,7 @@
      "toExcl": "154.0.4258.37"
     }
    ],
-   "epss": 0.00586
+   "epss": 0.00573
   },
   {
    "id": "CVE-2026-96199",
@@ -208,7 +280,7 @@
      "toExcl": "154.0.4258.37"
     }
    ],
-   "epss": 0.00586
+   "epss": 0.00573
   },
   {
    "id": "CVE-2026-96203",
@@ -227,7 +299,7 @@
      "toExcl": "155.0.4283.45"
     }
    ],
-   "epss": 0.00585
+   "epss": 0.00572
   },
   {
    "id": "CVE-2026-76418",
@@ -870,7 +942,7 @@
    "title": "Incorrect authorization in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a...",
    "summary": "Incorrect authorization in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a local attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a local program. (Chromium security severity: Medium)",
    "affects": [],
-   "epss": 0.00443
+   "epss": 0.00304
   },
   {
    "id": "CVE-2026-113074",
@@ -883,7 +955,7 @@
    "title": "Incorrect authorization in Media in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...",
    "summary": "Incorrect authorization in Media in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker who had compromised the renderer process to spoof UI elements via a crafted HTML page. (Chromium security severity: Low)",
    "affects": [],
-   "epss": 0.00426
+   "epss": 0.00342
   },
   {
    "id": "CVE-2026-113119",
@@ -896,7 +968,7 @@
    "title": "Improper certificate validation in Network in Google Chrome on on Windows prior to 156.0.8078.47 allowed a...",
    "summary": "Improper certificate validation in Network in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to leak sensitive information via crafted network traffic. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00417
+   "epss": 0.00234
   },
   {
    "id": "CVE-2026-113134",
@@ -909,7 +981,7 @@
    "title": "Out of bounds read in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker...",
    "summary": "Out of bounds read in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00417
+   "epss": 0.00348
   },
   {
    "id": "CVE-2026-113210",
@@ -922,7 +994,7 @@
    "title": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...",
    "summary": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00443
+   "epss": 0.00403
   },
   {
    "id": "CVE-2026-113242",
@@ -935,7 +1007,7 @@
    "title": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...",
    "summary": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00443
+   "epss": 0.00403
   },
   {
    "id": "CVE-2026-113252",
@@ -948,7 +1020,7 @@
    "title": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...",
    "summary": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker who had compromised the renderer process to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00495
+   "epss": 0.00403
   },
   {
    "id": "CVE-2026-113283",
@@ -961,7 +1033,7 @@
    "title": "Improper privilege management in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47...",
    "summary": "Improper privilege management in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a local attacker to execute arbitrary code outside the sandbox via physical access. (Chromium security severity: Medium)",
    "affects": [],
-   "epss": 0.00475
+   "epss": 0.00326
   },
   {
    "id": "CVE-2026-113285",
@@ -974,7 +1046,7 @@
    "title": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...",
    "summary": "Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00425
+   "epss": 0.00387
   },
   {
    "id": "CVE-2026-113293",
@@ -1000,7 +1072,7 @@
    "title": "Buffer overflow in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...",
    "summary": "Buffer overflow in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00443
+   "epss": 0.00486
   },
   {
    "id": "CVE-2026-91632",
@@ -3033,7 +3105,7 @@
      "to": "8.63"
     }
    ],
-   "epss": 0.00398
+   "epss": 0.00396
   },
   {
    "id": "CVE-2026-101422",
@@ -3053,7 +3125,7 @@
      "to": "8.63"
     }
    ],
-   "epss": 0.00404
+   "epss": 0.00416
   },
   {
    "id": "CVE-2026-101427",
@@ -3073,7 +3145,7 @@
      "to": "8.63"
     }
    ],
-   "epss": 0.00343
+   "epss": 0.00351
   },
   {
    "id": "CVE-2026-101434",
@@ -3093,7 +3165,7 @@
      "to": "8.63"
     }
    ],
-   "epss": 0.00264
+   "epss": 0.00269
   },
   {
    "id": "CVE-2026-101438",
@@ -3113,7 +3185,7 @@
      "to": "26.9"
     }
    ],
-   "epss": 0.00183
+   "epss": 0.00243
   },
   {
    "id": "CVE-2026-101446",
@@ -3133,7 +3205,7 @@
      "to": "26.9"
     }
    ],
-   "epss": 0.00447
+   "epss": 0.00473
   },
   {
    "id": "CVE-2026-101544",
@@ -3153,7 +3225,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00101
+   "epss": 0.00114
   },
   {
    "id": "CVE-2026-101708",
@@ -3173,7 +3245,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00359
+   "epss": 0.00372
   },
   {
    "id": "CVE-2026-101712",
@@ -3193,7 +3265,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00359
+   "epss": 0.00372
   },
   {
    "id": "CVE-2026-83402",
@@ -3217,7 +3289,7 @@
      "version": "14.1.2.1.0"
     }
    ],
-   "epss": 0.004
+   "epss": 0.00414
   },
   {
    "id": "CVE-2026-83403",
@@ -3241,7 +3313,7 @@
      "version": "14.1.2.1.0"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00403
   },
   {
    "id": "CVE-2026-87363",
@@ -3261,7 +3333,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00345
+   "epss": 0.00365
   },
   {
    "id": "CVE-2026-91259",
@@ -3285,7 +3357,7 @@
      "version": "14.1.2.1.0"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00403
   },
   {
    "id": "CVE-2026-91407",
@@ -3309,7 +3381,7 @@
      "version": "14.1.2.1.0"
     }
    ],
-   "epss": 0.00418
+   "epss": 0.00432
   },
   {
    "id": "CVE-2026-91408",
@@ -3333,7 +3405,7 @@
      "version": "14.1.2.1.0"
     }
    ],
-   "epss": 0.00355
+   "epss": 0.00381
   },
   {
    "id": "CVE-2026-91437",
@@ -3353,7 +3425,7 @@
      "to": "26.9"
     }
    ],
-   "epss": 0.00361
+   "epss": 0.0038
   },
   {
    "id": "CVE-2026-91438",
@@ -3373,7 +3445,7 @@
      "to": "26.9"
     }
    ],
-   "epss": 0.00278
+   "epss": 0.00288
   },
   {
    "id": "CVE-2026-91459",
@@ -3392,7 +3464,7 @@
      "version": "8.5.8"
     }
    ],
-   "epss": 0.00242
+   "epss": 0.0025
   },
   {
    "id": "CVE-2026-91460",
@@ -3411,7 +3483,7 @@
      "version": "8.5.8"
     }
    ],
-   "epss": 0.00242
+   "epss": 0.0025
   },
   {
    "id": "CVE-2026-91495",
@@ -3435,7 +3507,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.0045
+   "epss": 0.00474
   },
   {
    "id": "CVE-2026-91504",
@@ -3459,7 +3531,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00235
+   "epss": 0.00248
   },
   {
    "id": "CVE-2026-91668",
@@ -3483,7 +3555,1008 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00249
+   "epss": 0.00262
+  },
+  {
+   "id": "CVE-2026-101458",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 8.2,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).",
+   "summary": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Siebel CRM Deployment.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Siebel CRM Deployment accessible data as well as  unauthorized update, insert or delete access to some of Siebel CRM Deployment accessible data. CVSS 3.1 Base Score 8.2 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00321
+  },
+  {
+   "id": "CVE-2026-101459",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 8.3,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).",
+   "summary": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Siebel CRM Deployment.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Siebel CRM Deployment accessible data as well as  unauthorized access to critical data or complete access to all Siebel CRM Deployment accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Siebel CRM Deployment. CVSS 3.1 Base Score 8.3 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:L).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00391
+  },
+  {
+   "id": "CVE-2026-101460",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).",
+   "summary": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows unauthenticated attacker with network access via TLS to compromise Siebel CRM Deployment.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Siebel CRM Deployment accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.0042
+  },
+  {
+   "id": "CVE-2026-101461",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).",
+   "summary": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Siebel CRM Deployment.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Siebel CRM Deployment accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00443
+  },
+  {
+   "id": "CVE-2026-101463",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM End User product of Oracle Siebel CRM (component: UIF Open UI).",
+   "summary": "Vulnerability in the Siebel CRM End User product of Oracle Siebel CRM (component: UIF Open UI).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Siebel CRM End User.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Siebel CRM End User accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.0042
+  },
+  {
+   "id": "CVE-2026-101464",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).",
+   "summary": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Siebel CRM Deployment executes to compromise Siebel CRM Deployment.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Siebel CRM Deployment accessible data as well as  unauthorized access to critical data or complete access to all Siebel CRM Deployment accessible data. CVSS 3.1 Base Score 7.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00158
+  },
+  {
+   "id": "CVE-2026-101467",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM End User product of Oracle Siebel CRM (component: Portal Framework).",
+   "summary": "Vulnerability in the Siebel CRM End User product of Oracle Siebel CRM (component: Portal Framework).  Supported versions that are affected are 17.0-26.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTPS to compromise Siebel CRM End User.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Siebel CRM End User accessible data as well as  unauthorized access to critical data or complete access to all Siebel CRM End User accessible data. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00336
+  },
+  {
+   "id": "CVE-2026-101468",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Cloud Gateway).",
+   "summary": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Cloud Gateway).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Siebel CRM Deployment.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Siebel CRM Deployment accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00443
+  },
+  {
+   "id": "CVE-2026-101495",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Development product of Oracle Siebel CRM (component: Siebel Approval Manager).",
+   "summary": "Vulnerability in the Siebel CRM Development product of Oracle Siebel CRM (component: Siebel Approval Manager).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Siebel CRM Development.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Siebel CRM Development. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00201
+  },
+  {
+   "id": "CVE-2026-101508",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Integration product of Oracle Siebel CRM (component: EAI).",
+   "summary": "Vulnerability in the Siebel CRM Integration product of Oracle Siebel CRM (component: EAI).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Siebel CRM Integration.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Siebel CRM Integration. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00513
+  },
+  {
+   "id": "CVE-2026-83396",
+   "vendor": "Oracle",
+   "product": "data integrator",
+   "category": "Application Platforms",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Data Integrator product of Oracle Fusion Middleware (component: Console /...",
+   "summary": "Vulnerability in the Oracle Data Integrator product of Oracle Fusion Middleware (component: Console / Repository Explorer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via RMI to compromise Oracle Data Integrator.  Successful attacks of this vulnerability can result in takeover of Oracle Data Integrator. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "data integrator",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "data integrator",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.0045
+  },
+  {
+   "id": "CVE-2026-83397",
+   "vendor": "Oracle",
+   "product": "data integrator",
+   "category": "Application Platforms",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Data Integrator product of Oracle Fusion Middleware (component: Console /...",
+   "summary": "Vulnerability in the Oracle Data Integrator product of Oracle Fusion Middleware (component: Console / Repository Explorer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Data Integrator.  Successful attacks of this vulnerability can result in takeover of Oracle Data Integrator. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "data integrator",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "data integrator",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.0045
+  },
+  {
+   "id": "CVE-2026-83398",
+   "vendor": "Oracle",
+   "product": "data integrator",
+   "category": "Application Platforms",
+   "cvss": 8.2,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Data Integrator product of Oracle Fusion Middleware (component: Data Transforms).",
+   "summary": "Vulnerability in the Oracle Data Integrator product of Oracle Fusion Middleware (component: Data Transforms).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Data Integrator.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Data Integrator accessible data as well as  unauthorized update, insert or delete access to some of Oracle Data Integrator accessible data. CVSS 3.1 Base Score 8.2 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "data integrator",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "data integrator",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00321
+  },
+  {
+   "id": "CVE-2026-83426",
+   "vendor": "Oracle",
+   "product": "access manager",
+   "category": "Identity & Directory",
+   "cvss": 8.7,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication...",
+   "summary": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access Manager.  While the vulnerability is in Oracle Access Manager, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Access Manager accessible data as well as  unauthorized access to critical data or complete access to all Oracle Access Manager accessible data. CVSS 3.1 Base Score 8.7 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:C/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "access manager",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "access manager",
+     "version": "14.1.2.1.0"
+    }
+   ],
+   "epss": 0.0031
+  },
+  {
+   "id": "CVE-2026-87251",
+   "vendor": "Oracle",
+   "product": "access manager",
+   "category": "Identity & Directory",
+   "cvss": 9.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication...",
+   "summary": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via SAML to compromise Oracle Access Manager.  Successful attacks of this vulnerability can result in takeover of Oracle Access Manager. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "access manager",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "access manager",
+     "version": "14.1.2.1.0"
+    }
+   ],
+   "epss": 0.00463
+  },
+  {
+   "id": "CVE-2026-87296",
+   "vendor": "Oracle",
+   "product": "access manager",
+   "category": "Identity & Directory",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication...",
+   "summary": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access Manager.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Access Manager accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "access manager",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "access manager",
+     "version": "14.1.2.1.0"
+    }
+   ],
+   "epss": 0.00377
+  },
+  {
+   "id": "CVE-2026-87304",
+   "vendor": "Oracle",
+   "product": "outside in technology",
+   "category": "Application Platforms",
+   "cvss": 8.6,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In...",
+   "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Core).   The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Outside In Technology.  While the vulnerability is in Oracle Outside In Technology, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Outside In Technology accessible data. CVSS 3.1 Base Score 8.6 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "outside in technology",
+     "version": "8.5.8"
+    }
+   ],
+   "epss": 0.00377
+  },
+  {
+   "id": "CVE-2026-87337",
+   "vendor": "Oracle",
+   "product": "access manager",
+   "category": "Identity & Directory",
+   "cvss": 10,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication...",
+   "summary": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Access Manager.  While the vulnerability is in Oracle Access Manager, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Access Manager accessible data as well as  unauthorized access to critical data or complete access to all Oracle Access Manager accessible data. CVSS 3.1 Base Score 10.0 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "access manager",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "access manager",
+     "version": "14.1.2.1.0"
+    }
+   ],
+   "epss": 0.00439
+  },
+  {
+   "id": "CVE-2026-87394",
+   "vendor": "Oracle",
+   "product": "outside in technology",
+   "category": "Application Platforms",
+   "cvss": 8.2,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In...",
+   "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Core).   The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Outside In Technology.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Outside In Technology accessible data and unauthorized ability to cause a partial denial of service (partial DOS) of Oracle Outside In Technology. CVSS 3.1 Base Score 8.2 (Confidentiality and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:L).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "outside in technology",
+     "version": "8.5.8"
+    }
+   ],
+   "epss": 0.00403
+  },
+  {
+   "id": "CVE-2026-87395",
+   "vendor": "Oracle",
+   "product": "outside in technology",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In...",
+   "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Core).   The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Outside In Technology.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Outside In Technology. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "outside in technology",
+     "version": "8.5.8"
+    }
+   ],
+   "epss": 0.00441
+  },
+  {
+   "id": "CVE-2026-87397",
+   "vendor": "Oracle",
+   "product": "outside in technology",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In...",
+   "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Core).   The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Outside In Technology.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Oracle Outside In Technology. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "outside in technology",
+     "version": "8.5.8"
+    }
+   ],
+   "epss": 0.00362
+  },
+  {
+   "id": "CVE-2026-87398",
+   "vendor": "Oracle",
+   "product": "outside in technology",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In...",
+   "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Core).   The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Outside In Technology.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Outside In Technology. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "outside in technology",
+     "version": "8.5.8"
+    }
+   ],
+   "epss": 0.0049
+  },
+  {
+   "id": "CVE-2026-91215",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00389
+  },
+  {
+   "id": "CVE-2026-91221",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 10,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise Oracle SOA Suite.  While the vulnerability is in Oracle SOA Suite, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 10.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00483
+  },
+  {
+   "id": "CVE-2026-91223",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00389
+  },
+  {
+   "id": "CVE-2026-91224",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 9.9,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle SOA Suite.  While the vulnerability is in Oracle SOA Suite, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 9.9 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-91226",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00301
+  },
+  {
+   "id": "CVE-2026-91227",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00235
+  },
+  {
+   "id": "CVE-2026-91229",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle SOA Suite.  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00301
+  },
+  {
+   "id": "CVE-2026-91231",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 10,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle SOA Suite.  While the vulnerability is in Oracle SOA Suite, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 10.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00483
+  },
+  {
+   "id": "CVE-2026-91232",
+   "vendor": "Oracle",
+   "product": "soa suite",
+   "category": "Application Platforms",
+   "cvss": 9.9,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).",
+   "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle SOA Suite.  While the vulnerability is in Oracle SOA Suite, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 9.9 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "soa suite",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00389
+  },
+  {
+   "id": "CVE-2026-91405",
+   "vendor": "Oracle",
+   "product": "outside in technology",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In...",
+   "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In PDF Export SDK).   The supported version that is affected is 8.5.8. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Outside In Technology.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Oracle Outside In Technology. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "outside in technology",
+     "version": "8.5.8"
+    }
+   ],
+   "epss": 0.00281
+  },
+  {
+   "id": "CVE-2026-91406",
+   "vendor": "Oracle",
+   "product": "outside in technology",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In...",
+   "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In PDF Export SDK).   The supported version that is affected is 8.5.8. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Outside In Technology.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Oracle Outside In Technology. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "outside in technology",
+     "version": "8.5.8"
+    }
+   ],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-91433",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 7.2,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel Apps - Field Service product of Oracle Siebel CRM (component: Smart Answer).",
+   "summary": "Vulnerability in the Siebel Apps - Field Service product of Oracle Siebel CRM (component: Smart Answer).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Siebel Apps - Field Service.  Successful attacks of this vulnerability can result in takeover of Siebel Apps - Field Service. CVSS 3.1 Base Score 7.2 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00431
+  },
+  {
+   "id": "CVE-2026-91442",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).",
+   "summary": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Siebel CRM Deployment.  Successful attacks of this vulnerability can result in takeover of Siebel CRM Deployment. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00286
+  },
+  {
+   "id": "CVE-2026-91445",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 8.2,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM End User product of Oracle Siebel CRM (component: Communications...",
+   "summary": "Vulnerability in the Siebel CRM End User product of Oracle Siebel CRM (component: Communications Panel/Dashboard).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Siebel CRM End User.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Siebel CRM End User accessible data as well as  unauthorized update, insert or delete access to some of Siebel CRM End User accessible data. CVSS 3.1 Base Score 8.2 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00244
+  },
+  {
+   "id": "CVE-2026-91447",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).",
+   "summary": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Siebel CRM Deployment.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Siebel CRM Deployment accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00377
+  },
+  {
+   "id": "CVE-2026-91448",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).",
+   "summary": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Siebel CRM Deployment.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Siebel CRM Deployment accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00398
+  },
+  {
+   "id": "CVE-2026-91449",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).",
+   "summary": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).  Supported versions that are affected are 17.0-26.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Siebel CRM Deployment.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Siebel CRM Deployment accessible data as well as  unauthorized access to critical data or complete access to all Siebel CRM Deployment accessible data. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00244
+  },
+  {
+   "id": "CVE-2026-91450",
+   "vendor": "Oracle",
+   "product": "siebel crm",
+   "category": "ERP & Business Apps",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).",
+   "summary": "Vulnerability in the Siebel CRM Deployment product of Oracle Siebel CRM (component: Server Infrastructure).  Supported versions that are affected are 17.0-26.9. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Siebel CRM Deployment.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Siebel CRM Deployment accessible data as well as  unauthorized access to critical data or complete access to all Siebel CRM Deployment accessible data. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "siebel crm",
+     "from": "17.0",
+     "to": "26.9"
+    }
+   ],
+   "epss": 0.00302
+  },
+  {
+   "id": "CVE-2026-91457",
+   "vendor": "Oracle",
+   "product": "outside in technology",
+   "category": "Application Platforms",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In...",
+   "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Image Export SDK).   The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle Outside In Technology executes to compromise Oracle Outside In Technology.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Oracle Outside In Technology. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "outside in technology",
+     "version": "8.5.8"
+    }
+   ],
+   "epss": 0.00159
+  },
+  {
+   "id": "CVE-2026-91458",
+   "vendor": "Oracle",
+   "product": "outside in technology",
+   "category": "Application Platforms",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In...",
+   "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Core).   The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle Outside In Technology executes to compromise Oracle Outside In Technology.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Oracle Outside In Technology. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "outside in technology",
+     "version": "8.5.8"
+    }
+   ],
+   "epss": 0.00125
+  },
+  {
+   "id": "CVE-2026-91483",
+   "vendor": "Oracle",
+   "product": "outside in technology",
+   "category": "Application Platforms",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In...",
+   "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Core).   The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows unauthenticated attacker with logon to the infrastructure where Oracle Outside In Technology executes to compromise Oracle Outside In Technology.  Successful attacks require human interaction from a person other than the attacker. Successful attacks of this vulnerability can result in takeover of Oracle Outside In Technology. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "outside in technology",
+     "version": "8.5.8"
+    }
+   ],
+   "epss": 0.00242
+  },
+  {
+   "id": "CVE-2026-91532",
+   "vendor": "Oracle",
+   "product": "applications manager",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Applications Manager product of Oracle E-Business Suite (component: Internal...",
+   "summary": "Vulnerability in the Oracle Applications Manager product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Applications Manager.  Successful attacks of this vulnerability can result in takeover of Oracle Applications Manager. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "applications manager",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00389
+  },
+  {
+   "id": "CVE-2026-91537",
+   "vendor": "Oracle",
+   "product": "solaris",
+   "category": "Application Platforms",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Solaris product of Oracle Systems (component: Utility).",
+   "summary": "Vulnerability in the Oracle Solaris product of Oracle Systems (component: Utility).   The supported version that is affected is 11.4. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle Solaris executes to compromise Oracle Solaris.  Successful attacks of this vulnerability can result in takeover of Oracle Solaris. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "solaris",
+     "version": "11.4"
+    }
+   ],
+   "epss": 0.00105
+  },
+  {
+   "id": "CVE-2026-91542",
+   "vendor": "Oracle",
+   "product": "webcenter sites",
+   "category": "ERP & Business Apps",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle WebCenter Sites product of Oracle Fusion Middleware (component: WebCenter Sites).",
+   "summary": "Vulnerability in the Oracle WebCenter Sites product of Oracle Fusion Middleware (component: WebCenter Sites).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebCenter Sites.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebCenter Sites accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "webcenter sites",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "webcenter sites",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00409
+  },
+  {
+   "id": "CVE-2026-91552",
+   "vendor": "Oracle",
+   "product": "webcenter sites",
+   "category": "ERP & Business Apps",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle WebCenter Sites product of Oracle Fusion Middleware (component: WebCenter Sites).",
+   "summary": "Vulnerability in the Oracle WebCenter Sites product of Oracle Fusion Middleware (component: WebCenter Sites).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebCenter Sites.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle WebCenter Sites accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "webcenter sites",
+     "version": "12.2.1.4.0"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "webcenter sites",
+     "version": "14.1.2.0.0"
+    }
+   ],
+   "epss": 0.00409
   },
   {
    "id": "CVE-2026-78162",
@@ -3509,7 +4582,7 @@
      "toExcl": "4.22.1"
     }
    ],
-   "epss": 0.00918
+   "epss": 0.01076
   },
   {
    "id": "CVE-2026-79983",
@@ -3535,7 +4608,7 @@
      "toExcl": "4.22.1"
     }
    ],
-   "epss": 0.00659
+   "epss": 0.0102
   },
   {
    "id": "CVE-2026-79986",
@@ -3561,7 +4634,7 @@
      "toExcl": "4.22.1"
     }
    ],
-   "epss": 0.00645
+   "epss": 0.0102
   },
   {
    "id": "CVE-2026-80343",
@@ -3587,7 +4660,7 @@
      "toExcl": "4.22.1"
     }
    ],
-   "epss": 0.00516
+   "epss": 0.0093
   },
   {
    "id": "CVE-2026-80344",
@@ -3613,7 +4686,7 @@
      "toExcl": "4.22.1"
     }
    ],
-   "epss": 0.00489
+   "epss": 0.00881
   },
   {
    "id": "CVE-2026-85250",
@@ -3639,7 +4712,7 @@
      "toExcl": "4.22.1"
     }
    ],
-   "epss": 0.00559
+   "epss": 0.00703
   },
   {
    "id": "CVE-2026-85251",
@@ -3665,7 +4738,7 @@
      "toExcl": "4.22.1"
     }
    ],
-   "epss": 0.00502
+   "epss": 0.00665
   },
   {
    "id": "CVE-2026-88900",
@@ -3691,7 +4764,7 @@
      "toExcl": "4.22.1"
     }
    ],
-   "epss": 0.00559
+   "epss": 0.00689
   },
   {
    "id": "CVE-2026-111094",
@@ -5433,7 +6506,7 @@
      "toExcl": "19.4.2"
     }
    ],
-   "epss": 0.27692,
+   "epss": 0.6522,
    "kevAdded": "2026-10-29"
   },
   {
@@ -21285,7 +22358,7 @@
      "toExcl": "1000.27840.0.1000"
     }
    ],
-   "epss": 0.00286
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-88094",
@@ -22683,7 +23756,7 @@
     }
    ],
    "kevAdded": "2026-10-15",
-   "epss": 0.99477
+   "epss": 0.99664
   },
   {
    "id": "CVE-2026-88779",
@@ -23855,7 +24928,7 @@
    "published": "2026-09-27",
    "title": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
    "summary": "Improper input validation vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\n\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23 leading to an unauthenticated attacker to execute arbitrary commands.",
-   "epss": 0.8216,
+   "epss": 0.83203,
    "kevAdded": "2026-09-27",
    "affects": [
     {
