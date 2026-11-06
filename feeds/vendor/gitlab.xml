@@ -27,7 +27,7 @@
 <guid isPermaLink="false">CVE-2026-15723</guid>
 <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 10.1 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, when OmniAuth SAML and LDAP auto-linking were both enabled, an authenticated user could have taken over an existing LDAP-backed account without any interaction from the targeted user, due to improper input sanitization in the LDAP email lookup path used during OmniAuth identity linking. | CVSS 8.2 | EPSS 0.4%</description>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 10.1 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, when OmniAuth SAML and LDAP auto-linking were both enabled, an authenticated user could have taken over an existing LDAP-backed account without any interaction from the targeted user, due to improper input sanitization in the LDAP email lookup path used during OmniAuth identity linking. | CVSS 8.2 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-14814 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions before 19.2.8, 19.3 before 19.3.5, and...</title>
