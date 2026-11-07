@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-06T13:00:22.483Z",
+ "generated": "2026-11-07T11:46:46.696Z",
  "cves": [
   {
    "id": "CVE-2026-90628",
@@ -94,7 +94,7 @@
      "toExcl": "4.1.17"
     }
    ],
-   "epss": 0.00172
+   "epss": 0.00218
   },
   {
    "id": "CVE-2026-59268",
@@ -113,7 +113,7 @@
      "toExcl": "4.1.17"
     }
    ],
-   "epss": 0.00166
+   "epss": 0.0021
   },
   {
    "id": "CVE-2026-90624",
@@ -132,7 +132,7 @@
      "toExcl": "4.1.17"
     }
    ],
-   "epss": 0.00166
+   "epss": 0.0021
   },
   {
    "id": "CVE-2026-90626",
@@ -151,7 +151,7 @@
      "toExcl": "4.1.17"
     }
    ],
-   "epss": 0.00169
+   "epss": 0.00214
   },
   {
    "id": "CVE-2026-121037",
@@ -164,7 +164,7 @@
    "title": "Out of bounds write in ANGLE in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker...",
    "summary": "Out of bounds write in ANGLE in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00401
+   "epss": 0.00453
   },
   {
    "id": "CVE-2026-64618",
@@ -3298,7 +3298,7 @@
      "to": "26.9"
     }
    ],
-   "epss": 0.00473
+   "epss": 0.00403
   },
   {
    "id": "CVE-2026-101544",
@@ -3748,7 +3748,7 @@
      "to": "26.9"
     }
    ],
-   "epss": 0.0042
+   "epss": 0.00442
   },
   {
    "id": "CVE-2026-101464",
@@ -3788,7 +3788,7 @@
      "to": "26.9"
     }
    ],
-   "epss": 0.00336
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-101468",
@@ -3828,7 +3828,7 @@
      "to": "26.9"
     }
    ],
-   "epss": 0.00201
+   "epss": 0.00208
   },
   {
    "id": "CVE-2026-101508",
@@ -3848,7 +3848,7 @@
      "to": "26.9"
     }
    ],
-   "epss": 0.00513
+   "epss": 0.00524
   },
   {
    "id": "CVE-2026-83396",
@@ -4425,7 +4425,7 @@
      "to": "26.9"
     }
    ],
-   "epss": 0.00244
+   "epss": 0.00262
   },
   {
    "id": "CVE-2026-91447",
@@ -4669,7 +4669,7 @@
      "toExcl": "12.2.15"
     }
    ],
-   "epss": 0.00297
+   "epss": 0.00307
   },
   {
    "id": "CVE-2026-101499",
@@ -4693,7 +4693,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00538
+   "epss": 0.00565
   },
   {
    "id": "CVE-2026-101537",
@@ -4712,7 +4712,7 @@
      "version": "11.4"
     }
    ],
-   "epss": 0.0042
+   "epss": 0.0045
   },
   {
    "id": "CVE-2026-101551",
@@ -4732,7 +4732,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00398
+   "epss": 0.00396
   },
   {
    "id": "CVE-2026-101554",
@@ -4752,7 +4752,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00289
+   "epss": 0.00265
   },
   {
    "id": "CVE-2026-101555",
@@ -4772,7 +4772,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00289
+   "epss": 0.00265
   },
   {
    "id": "CVE-2026-101556",
@@ -4792,7 +4792,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00289
+   "epss": 0.00265
   },
   {
    "id": "CVE-2026-101557",
@@ -4812,7 +4812,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00464
+   "epss": 0.0048
   },
   {
    "id": "CVE-2026-101648",
@@ -4832,7 +4832,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00322
+   "epss": 0.00333
   },
   {
    "id": "CVE-2026-101649",
@@ -4852,7 +4852,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00377
+   "epss": 0.00379
   },
   {
    "id": "CVE-2026-101650",
@@ -4872,7 +4872,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00377
+   "epss": 0.00379
   },
   {
    "id": "CVE-2026-101742",
@@ -4892,7 +4892,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00433
+   "epss": 0.00448
   },
   {
    "id": "CVE-2026-83399",
@@ -4926,7 +4926,7 @@
      "version": "15.1.1.0.0"
     }
    ],
-   "epss": 0.00496
+   "epss": 0.00522
   },
   {
    "id": "CVE-2026-87300",
@@ -4955,7 +4955,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00301
+   "epss": 0.00317
   },
   {
    "id": "CVE-2026-87302",
@@ -4989,7 +4989,7 @@
      "version": "15.1.1.0.0"
     }
    ],
-   "epss": 0.00416
+   "epss": 0.00437
   },
   {
    "id": "CVE-2026-87347",
@@ -5013,7 +5013,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00376
+   "epss": 0.00397
   },
   {
    "id": "CVE-2026-87359",
@@ -5037,7 +5037,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00447
+   "epss": 0.00472
   },
   {
    "id": "CVE-2026-87364",
@@ -5061,7 +5061,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-87369",
@@ -5085,7 +5085,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00441
+   "epss": 0.0045
   },
   {
    "id": "CVE-2026-91511",
@@ -5105,7 +5105,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00222
+   "epss": 0.0023
   },
   {
    "id": "CVE-2026-78162",
@@ -6088,7 +6088,7 @@
     }
    ],
    "kevAdded": "2026-10-14",
-   "epss": 0.02152
+   "epss": 0.06227
   },
   {
    "id": "CVE-2026-0322",
@@ -22934,6 +22934,58 @@
    "epss": 0.0082
   },
   {
+   "id": "CVE-2026-85827",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Heap-based buffer overflow in WebDAV allows an authorized attacker to elevate privileges locally.",
+   "summary": "Heap-based buffer overflow in WebDAV allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00204
+  },
+  {
+   "id": "CVE-2026-88126",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Untrusted pointer dereference in WebDAV allows an authorized attacker to elevate privileges locally.",
+   "summary": "Untrusted pointer dereference in WebDAV allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00361
+  },
+  {
+   "id": "CVE-2026-88135",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper access control in WebDAV allows an authorized attacker to elevate privileges locally.",
+   "summary": "Improper access control in WebDAV allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00323
+  },
+  {
+   "id": "CVE-2026-88136",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-13",
+   "title": "Improper resolution of path equivalence in WebDAV allows an authorized attacker to execute code over a...",
+   "summary": "Improper resolution of path equivalence in WebDAV allows an authorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00954
+  },
+  {
    "id": "CVE-2026-100227",
    "vendor": "Apache",
    "product": "cxf",
@@ -34614,7 +34666,7 @@
    "published": "2026-09-14",
    "title": "A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an...",
    "summary": "A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.\r\n\r\nThis vulnerability is due to insufficient validation in the email parsing logic. An attacker could exploit this vulnerability by sending a crafted email message that contains malicious SQL statements through an affected device. A successful exploit could allow the attacker to execute arbitrary SQL statements, leading to command execution with root privileges on the underlying operating system.",
-   "epss": 0.29543,
+   "epss": 0.4016,
    "kevAdded": "2026-09-14",
    "affects": [
     {

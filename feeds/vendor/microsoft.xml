@@ -11,7 +11,7 @@
 <guid isPermaLink="false">CVE-2026-121037</guid>
 <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Out of bounds write in ANGLE in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.4%</description>
+<description>Out of bounds write in ANGLE in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-96192 Microsoft edge: Use after free in Microsoft Edge for iOS allows an unauthorized attacker to execute code over a network.</title>

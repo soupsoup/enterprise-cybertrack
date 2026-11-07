@@ -11,7 +11,7 @@
 <guid isPermaLink="false">CVE-2026-121037</guid>
 <pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Out of bounds write in ANGLE in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.4%</description>
+<description>Out of bounds write in ANGLE in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-64618 Apache fineract: Improper Neutralization of Special Elements used in an SQL Command (&quot;SQL Injection&quot;) vulnerability exists in...</title>
@@ -265,7 +265,7 @@ Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.
 <guid isPermaLink="false">CVE-2026-101446</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Siebel CRM Cloud Applications product of Oracle Siebel CRM (component: Siebel Cloud Manager).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Siebel CRM Cloud Applications.  While the vulnerability is in Siebel CRM Cloud Applications, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Siebel CRM Cloud Applications. CVSS 3.1 Base Score 9.9 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H). | CVSS 9.9 | EPSS 0.5%</description>
+<description>Vulnerability in the Siebel CRM Cloud Applications product of Oracle Siebel CRM (component: Siebel Cloud Manager).  Supported versions that are affected are 17.0-26.9. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Siebel CRM Cloud Applications.  While the vulnerability is in Siebel CRM Cloud Applications, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Siebel CRM Cloud Applications. CVSS 3.1 Base Score 9.9 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H). | CVSS 9.9 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-91408 Oracle identity manager: Vulnerability in the Oracle Identity Manager product of Oracle Fusion Middleware (component: End User Self...</title>
@@ -353,7 +353,7 @@ Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.
 <guid isPermaLink="false">CVE-2026-101499</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>ERP &amp; Business Apps</category>
-<description>Vulnerability in the Oracle WebCenter Sites product of Oracle Fusion Middleware (component: WebCenter Sites).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebCenter Sites.  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Sites. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
+<description>Vulnerability in the Oracle WebCenter Sites product of Oracle Fusion Middleware (component: WebCenter Sites).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebCenter Sites.  Successful attacks of this vulnerability can result in takeover of Oracle WebCenter Sites. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-101537 Oracle solaris: Vulnerability in the Oracle Solaris product of Oracle Systems (component: Utility).</title>
@@ -415,7 +415,7 @@ Users are recommended to upgrade to version 4.23.0, which fixes the issue. If us
 <category>Email &amp; Collaboration</category>
 <description>A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.
 
-This vulnerability is due to improper handling of email attachments when the file reputation service is enabled. An attacker could exploit this vulnerability by sending an email that contains a crafted attachment through an affected device. A successful exploit could allow the attacker to write arbitrary files and execute commands with&amp;nbsp;root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-14) | EPSS 2.2%</description>
+This vulnerability is due to improper handling of email attachments when the file reputation service is enabled. An attacker could exploit this vulnerability by sending an email that contains a crafted attachment through an affected device. A successful exploit could allow the attacker to write arbitrary files and execute commands with&amp;nbsp;root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-14) | EPSS 6.2%</description>
 </item>
 <item>
 <title>CVE-2026-101986 Juniper junos os evolved: An  Improper Authentication vulnerability in J-Web of Juniper Networks Junos OS and Junos OS Evolved allows...</title>

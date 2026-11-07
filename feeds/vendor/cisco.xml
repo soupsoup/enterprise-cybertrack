@@ -21,7 +21,7 @@
 <category>Email &amp; Collaboration</category>
 <description>A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.
 
-This vulnerability is due to improper handling of email attachments when the file reputation service is enabled. An attacker could exploit this vulnerability by sending an email that contains a crafted attachment through an affected device. A successful exploit could allow the attacker to write arbitrary files and execute commands with&amp;nbsp;root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-14) | EPSS 2.2%</description>
+This vulnerability is due to improper handling of email attachments when the file reputation service is enabled. An attacker could exploit this vulnerability by sending an email that contains a crafted attachment through an affected device. A successful exploit could allow the attacker to write arbitrary files and execute commands with&amp;nbsp;root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-14) | EPSS 6.2%</description>
 </item>
 <item>
 <title>CVE-2026-76504 Cisco catalyst sd-wan manager: A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could...</title>
@@ -101,7 +101,7 @@ This vulnerability is due to insufficient authentication control on an API endpo
 <category>Email &amp; Collaboration</category>
 <description>A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.
 
-This vulnerability is due to insufficient validation in the email parsing logic. An attacker could exploit this vulnerability by sending a crafted email message that contains malicious SQL statements through an affected device. A successful exploit could allow the attacker to execute arbitrary SQL statements, leading to command execution with root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-14) | EPSS 29.5%</description>
+This vulnerability is due to insufficient validation in the email parsing logic. An attacker could exploit this vulnerability by sending a crafted email message that contains malicious SQL statements through an affected device. A successful exploit could allow the attacker to execute arbitrary SQL statements, leading to command execution with root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-14) | EPSS 40.2%</description>
 </item>
 </channel>
 </rss>
