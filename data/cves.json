@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-07T11:46:46.696Z",
+ "generated": "2026-11-08T11:58:49.975Z",
  "cves": [
   {
    "id": "CVE-2026-90628",
@@ -3318,7 +3318,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00114
+   "epss": 0.00102
   },
   {
    "id": "CVE-2026-101708",
@@ -13816,7 +13816,7 @@
    "title": "Improper neutralization of argument delimiters in a command ('argument injection') in Windows Error Reporting...",
    "summary": "Improper neutralization of argument delimiters in a command ('argument injection') in Windows Error Reporting allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.0037
+   "epss": 0.00474
   },
   {
    "id": "CVE-2026-97799",
@@ -22944,7 +22944,7 @@
    "title": "Heap-based buffer overflow in WebDAV allows an authorized attacker to elevate privileges locally.",
    "summary": "Heap-based buffer overflow in WebDAV allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00204
+   "epss": 0.002
   },
   {
    "id": "CVE-2026-88126",
@@ -22957,7 +22957,7 @@
    "title": "Untrusted pointer dereference in WebDAV allows an authorized attacker to elevate privileges locally.",
    "summary": "Untrusted pointer dereference in WebDAV allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00361
+   "epss": 0.00353
   },
   {
    "id": "CVE-2026-88135",
@@ -22970,7 +22970,7 @@
    "title": "Improper access control in WebDAV allows an authorized attacker to elevate privileges locally.",
    "summary": "Improper access control in WebDAV allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00323
+   "epss": 0.00316
   },
   {
    "id": "CVE-2026-88136",
@@ -24514,7 +24514,7 @@
    "published": "2026-10-01",
    "title": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache HTTP Server's...",
    "summary": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache HTTP Server's mod_session_cookie module.\n\n\n\n   \nWhen SessionCookieRemove changes across internal redirects, the session cookie may still be passed to a backend server.\n\n\n\n\n\nThis issue affects Apache HTTP Server: from 2.4.0 through 2.4.68.",
-   "epss": 0.00372,
+   "epss": 0.00386,
    "affects": [
     {
      "vendor": "Apache",
@@ -24705,7 +24705,7 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.00572
+   "epss": 0.00594
   },
   {
    "id": "CVE-2026-59685",
@@ -24745,7 +24745,7 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.00486
+   "epss": 0.00504
   },
   {
    "id": "CVE-2026-63045",
@@ -25781,7 +25781,7 @@
    "published": "2026-09-27",
    "title": "Memory overflow vulnerability vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.",
    "summary": "Memory overflow vulnerability vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.\nThis issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23  leading to unpredictable or erroneous behavior or Denial of Service",
-   "epss": 0.00734,
+   "epss": 0.00834,
    "affects": [
     {
      "vendor": "Citrix",

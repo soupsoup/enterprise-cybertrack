@@ -72,7 +72,7 @@ This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 
 <pubDate>Sun, 27 Sep 2026 00:00:00 GMT</pubDate>
 <category>Edge / VPN</category>
 <description>Memory overflow vulnerability vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.
-This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23  leading to unpredictable or erroneous behavior or Denial of Service | CVSS 9.8 | EPSS 0.7%</description>
+This issue affects ADC: before 14.1-73.37, before 13.1-64.23, before 14.1-73.37 FIPS, and before 13.1.37.279 FIPS and NDcPP; Gateway: before 14.1-73.37 and before 13.1-64.23  leading to unpredictable or erroneous behavior or Denial of Service | CVSS 9.8 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-88777 Citrix netscaler application delivery controller: Memory overflow vulnerability vulnerability in Citrix NetScaler ADC and Citrix NetScaler Gateway.</title>
