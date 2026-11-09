@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-08T11:58:49.975Z",
+ "generated": "2026-11-09T13:58:04.570Z",
  "cves": [
   {
    "id": "CVE-2026-90628",
@@ -165,6 +165,19 @@
    "summary": "Out of bounds write in ANGLE in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
    "epss": 0.00453
+  },
+  {
+   "id": "CVE-2026-121034",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 9.6,
+   "kev": false,
+   "published": "2026-11-03",
+   "title": "Use after free in Views in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker...",
+   "summary": "Use after free in Views in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "affects": [],
+   "epss": 0.00375
   },
   {
    "id": "CVE-2026-64618",
@@ -24897,7 +24910,7 @@
    "title": "A missing authentication vulnerability in the Kernel Memory Access Driver (PSKMAD) used by WatchGuard...",
    "summary": "A missing authentication vulnerability in the Kernel Memory Access Driver (PSKMAD) used by WatchGuard endpoint security products allows a local, authenticated attacker to bypass the driver's access-control handshake and issue arbitrary privileged commands to the driver, resulting in disclosure of kernel and process memory.",
    "affects": [],
-   "epss": 0.00149
+   "epss": 0.002
   },
   {
    "id": "CVE-2026-85532",

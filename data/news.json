@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-08T11:58:50.047Z",
+ "generated": "2026-11-09T13:58:04.646Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 20
   },
   {
@@ -78,7 +78,7 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 5377
   },
   {
@@ -86,7 +86,7 @@
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,7 +224,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 716
   },
   {
@@ -232,11 +232,27 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-11-08T11:58:50.047Z",
+   "checked": "2026-11-09T13:58:04.646Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "The Expanding Attack Surface Demands a New Operating Model",
+   "link": "https://blog.qualys.com/qualys-insights/2026/11/09/the-expanding-attack-surface-demands-a-new-operating-model",
+   "date": "2026-11-09T13:45:00.000Z",
+   "summary": "Why the Risk Operations Center Is Becoming the System of Record for Proactive Enterprise Risk Reduction The cybersecurity industry has spent years improving how we discover vulnerabilities. The challenge now is no longer finding risk. It is reducing risk faster than adversaries..."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Two Ways In Before the Holiday Rush: Exploited Adobe Commerce Flaws Put Online Stores at Risk",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/two-commerce-flaws-put-online-stores-at-risk",
+   "date": "2026-11-09T00:00:00.000Z",
+   "summary": "Two actively exploited Adobe Commerce and Magento Open Source vulnerabilities (CVE-2026-48356 and CVE-2026-75650) are giving attackers code execution on ecommerce store servers just as holiday shopping season begins. This entry breaks down how each attack works and what store..."
+  },
   {
    "company": "microsoft",
    "feed": "Security advisories",
@@ -308,14 +324,6 @@
    "link": "https://www.sophos.com/en-us/blog/killing-ill-willed-skills-sophos-ai-at-bsides-sydney",
    "date": "2026-11-06T00:00:00.000Z",
    "summary": "The Sophos AI team presents new research at BSides Sydney"
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "Two Ways In Before the Holiday Rush: Exploited Adobe Commerce Flaws Put Online Stores at Risk",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/two-commerce-flaws-put-online-stores-at-risk",
-   "date": "2026-11-06T00:00:00.000Z",
-   "summary": "Two actively exploited Adobe Commerce and Magento Open Source vulnerabilities (CVE-2026-48356 and CVE-2026-75650) are giving attackers code execution on ecommerce store servers just as holiday shopping season begins. This entry breaks down how each attack works and what store..."
   },
   {
    "company": "microsoft",
@@ -422,6 +430,14 @@
    "summary": "Attackers are probing CVE-2026-119977, a WordPress Core flaw that opens only during a core update. Here’s how the race works, why the severity ratings disagree, and how to protect your sites."
   },
   {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "TrendAI Vision One™ extends Claude integration",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/trendai-vision-one-extends-claude-integration",
+   "date": "2026-11-05T00:00:00.000Z",
+   "summary": "AI agents are now acting on your endpoints. TrendAI Vision One™ ingests Claude Code and Cowork session records so your team can review what users asked Cowork to do, all in the same console."
+  },
+  {
    "company": "talos",
    "feed": "Security advisories",
    "title": "Cisco Identity Services Engine Authorization Bypass Vulnerability",
@@ -444,22 +460,6 @@
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20November%204,%202026,%20Security%20Advisories%26vs_k=1",
    "date": "2026-11-04T16:01:02.000Z",
    "summary": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco UCS Central Software Remote Code Execution Vulnerability CVE-2026-76506 High 7.6 Cisco..."
-  },
-  {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Cisco Unified Communications Manager Cross-Site Scripting Vulnerability",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-xss-5mQn2U5z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Manager%20Cross-Site%20Scripting%20Vulnerability%26vs_k=1",
-   "date": "2026-11-04T16:00:00.000Z",
-   "summary": "A vulnerability in the web-based management interface of Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS)..."
-  },
-  {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Cisco UCS Central Software Remote Code Execution Vulnerability",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucs-rce-LzHSFRDQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20Central%20Software%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
-   "date": "2026-11-04T16:00:00.000Z",
-   "summary": "A vulnerability in the web-based management interface of Cisco UCS Central Software could allow an authenticated, remote attacker to achieve remote code execution or conduct information disclosure attacks on an affected device. This vulnerability is due to insufficient..."
   },
   {
    "company": "microsoft",
@@ -654,6 +654,22 @@
    "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
   },
   {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Cisco Unified Communications Manager Cross-Site Scripting Vulnerability",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-xss-5mQn2U5z?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Unified%20Communications%20Manager%20Cross-Site%20Scripting%20Vulnerability%26vs_k=1",
+   "date": "2026-11-04T16:00:00.000Z",
+   "summary": "A vulnerability in the web-based management interface of Cisco Unified Communications Manager (Unified CM) and Cisco Unified Communications Manager Session Management Edition (Unified CM SME) could allow an unauthenticated, remote attacker to conduct a cross-site scripting (XSS)..."
+  },
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Cisco UCS Central Software Remote Code Execution Vulnerability",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucs-rce-LzHSFRDQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20Central%20Software%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
+   "date": "2026-11-04T16:00:00.000Z",
+   "summary": "A vulnerability in the web-based management interface of Cisco UCS Central Software could allow an authenticated, remote attacker to achieve remote code execution or conduct information disclosure attacks on an affected device. This vulnerability is due to insufficient..."
+  },
+  {
    "company": "qualys",
    "feed": "Blog",
    "title": "Cloud Agent, now in a Container: Host Security for Nodes You Can’t Touch",
@@ -764,14 +780,6 @@
    "link": "https://www.sophos.com/en-us/blog/fake-coding-test-reaches-security-company",
    "date": "2026-11-04T00:00:00.000Z",
    "summary": "Fake job interviews are an established way to target developers"
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "TrendAI Vision One™ extends Claude integration",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/trendai-vision-one-extends-claude-integration",
-   "date": "2026-11-04T00:00:00.000Z",
-   "summary": "AI agents are now acting on your endpoints. TrendAI Vision One™ ingests Claude Code and Cowork session records so your team can review what users asked Cowork to do, all in the same console."
   },
   {
    "company": "trendai",

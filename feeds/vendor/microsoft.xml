@@ -14,6 +14,14 @@
 <description>Out of bounds write in ANGLE in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.5%</description>
 </item>
 <item>
+<title>CVE-2026-121034 Microsoft windows: Use after free in Views in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-121034</link>
+<guid isPermaLink="false">CVE-2026-121034</guid>
+<pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Views in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.4%</description>
+</item>
+<item>
 <title>CVE-2026-96192 Microsoft edge: Use after free in Microsoft Edge for iOS allows an unauthorized attacker to execute code over a network.</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96192</link>
 <guid isPermaLink="false">CVE-2026-96192</guid>
@@ -799,14 +807,6 @@ Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.
 <title>CVE-2026-97004 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97004</link>
 <guid isPermaLink="false">CVE-2026-97004</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-97007 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97007</link>
-<guid isPermaLink="false">CVE-2026-97007</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
