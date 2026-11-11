@@ -17,6 +17,100 @@
 </div></header>
 <main class="wrap news">
 <article>
+<time datetime="2026-11-05">November 5, 2026</time>
+<h2><a href="../../#cve=CVE-2026-109928">CVE-2026-109928: Incorrect Implementation of Authentication Algorithm in the password-reset and login JWT validation in Apache...</a></h2>
+<p class="who">Apache ofbiz</p>
+<p>Incorrect Implementation of Authentication Algorithm in the password-reset and login JWT validation in Apache OFBiz 24.09 before 24.09.08 on all platforms allows an attacker who has obtained a user&apos;s password-reset token (via email interception, log exposure, or a man-in-the-middle on the mail transport) to authenticate as that user and obtain a full, unrestricted session, including administrative access if the targeted account is an administrator, by submitting the token directly to the login endpoint instead of the intended password-change flow. Users are recommended to upgrade to version 24.09.08, which fixes this issue.</p>
+<div class="meta"><span class="pill">CVSS 7.4</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-109928" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-05">November 5, 2026</time>
+<h2><a href="../../#cve=CVE-2026-114233">CVE-2026-114233: Incorrect Privilege Assignment in the Order Manager in Apache OFBiz 24.09 before 24.09.08 on all platforms...</a></h2>
+<p class="who">Apache ofbiz</p>
+<p>Incorrect Privilege Assignment in the Order Manager in Apache OFBiz 24.09 before 24.09.08 on all platforms allows an authenticated user who holds only order view permissions (ORDERMGR_VIEW), without ORDERMGR_UPDATE or any role on the order, to modify approved orders, changing a ship group&apos;s shipping address and shipment method or appending items with an overridden price, via the updateShipGroupShipInfo and appendOrderItem services. Users are recommended to upgrade to version 24.09.08, which fixes this issue.</p>
+<div class="meta"><span class="pill">CVSS 8.1</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-114233" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-05">November 5, 2026</time>
+<h2><a href="../../#cve=CVE-2026-82904">CVE-2026-82904: Uncontrolled Resource Consumption in ServiceMultiEventHandler in Apache OFBiz 24.09 before 24.09.08 on all...</a></h2>
+<p class="who">Apache ofbiz</p>
+<p>Uncontrolled Resource Consumption in ServiceMultiEventHandler in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to pin a server request thread for an attacker-chosen number of synchronous service dispatches, up to the signed-integer maximum, by submitting a single small HTTP request whose parameter names encode a row count via the &quot;o&quot; suffix used by multi-form submissions, because UtilHttp.getMultiFormRowCount derives that count from the largest such suffix with no upper bound and ServiceMultiEventHandler.invoke then loops that many times calling dispatcher.runSync, with the request-map for getFinAccountTransRunningTotalAndBalances reaching this handler with no authentication or CSRF requirement on a stock deployment. Users are recommended to upgrade to version 24.09.08, which fixes this issue.</p>
+<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.6%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-82904" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-05">November 5, 2026</time>
+<h2><a href="../../#cve=CVE-2026-82907">CVE-2026-82907: Authentication Bypass by Capture-replay in ExternalLoginKeysManager in Apache OFBiz 24.09 before 24.09.08 on...</a></h2>
+<p class="who">Apache ofbiz</p>
+<p>Authentication Bypass by Capture-replay in ExternalLoginKeysManager in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker who captures a live externalLoginKey value to obtain a complete, cookie-free, reusable session as the user who issued it, in every webapp that user can reach, because checkExternalLoginKey runs as a global preprocessor ahead of both the CSRF and authentication checks and accepts the key as a bearer credential that is never bound to a client, never expires, and is not invalidated after use, while the framework itself both appends live keys to every cross-webapp link it renders and, via WidgetWorker&apos;s unvalidated inter-app link target, lets an authenticated user&apos;s key be attached to an attacker-chosen absolute URL and delivered directly to the attacker&apos;s own server. Users are recommended to upgrade to version 24.09.08, which fixes this issue.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.8%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-82907" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-05">November 5, 2026</time>
+<h2><a href="../../#cve=CVE-2026-82910">CVE-2026-82910: Improper Neutralization of Special Elements Used in a Template Engine (&apos;Server-Side Template Injection&apos;) in...</a></h2>
+<p class="who">Apache ofbiz</p>
+<p>Improper Neutralization of Special Elements Used in a Template Engine (&apos;Server-Side Template Injection&apos;) in MacroScreenRenderer in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only the two view permissions of a control-servlet webapp (e.g. CATALOG_VIEW and OFBTOOLS_VIEW on /catalog, held by OFBiz&apos;s own shipped order-entry clerk role) to execute arbitrary operating system commands as the OFBiz service account with a single GET request, by placing an apostrophe followed by FreeMarker expression source in a screen link parameter value, because renderLink concatenates link parameter values verbatim between apostrophes into an unquoted, unescaped template-source string that is compiled and evaluated at render time, allowing the injected expression to reach the allow-listed FlexibleStringExpander.expandString call and, through a runtime-assembled Groovy interpolation, unsandboxed code execution. Users are recommended to upgrade to version 24.09.08, which fixes this issue.</p>
+<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.6%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-82910" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-05">November 5, 2026</time>
+<h2><a href="../../#cve=CVE-2026-82912">CVE-2026-82912: Improper Neutralization of Special Elements Used in an Expression Language Statement (&apos;Expression Language...</a></h2>
+<p class="who">Apache ofbiz</p>
+<p>Improper Neutralization of Special Elements Used in an Expression Language Statement (&apos;Expression Language Injection&apos;) in EmailServices in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only OFBTOOLS_VIEW and ACCOUNTING_VIEW, the two view-level permissions that open the Accounting application, to execute arbitrary operating system commands as the account running OFBiz, by submitting a ${groovy:...} expression as the bodyText or subject value to the shipped Send Per Email invoice form, because sendMailFromScreen passes those caller-supplied values through FlexibleStringExpander.expandString, which compiles and evaluates embedded Groovy on a class loader that carries none of the SecureASTCustomizer restrictions GroovyUtil.eval applies elsewhere, behind a service and request-map that declare no permission check beyond base authentication. Users are recommended to upgrade to version 24.09.08, which fixes this issue.</p>
+<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.7%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-82912" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-05">November 5, 2026</time>
+<h2><a href="../../#cve=CVE-2026-82916">CVE-2026-82916: Missing Authorization in XmlDsDump in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote...</a></h2>
+<p class="who">Apache ofbiz</p>
+<p>Missing Authorization in XmlDsDump in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only the webtools base permissions (OFBTOOLS_VIEW, WEBTOOLS_VIEW) — explicitly not the ENTITY_MAINT permission the export feature declares and visibly refuses to render for — to export the contents of any database entity, including UserLogin with its currentPassword hashes, to any filesystem path the OFBiz process can write, including a web-served docroot, and to create arbitrary directories or truncate arbitrary existing files at those paths, because the XmlDsDump screen action writes the requested entity data via new FileOutputStream on unvalidated outpath and filename request parameters before the screen&apos;s ENTITY_MAINT permission check runs, unlike the equivalent Java service entityExportAll, which enforces both a permission check and a file-path allow-list. Users are recommended to upgrade to version 24.09.08, which fixes this issue.</p>
+<div class="meta"><span class="pill">CVSS 7.1</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-82916" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-05">November 5, 2026</time>
+<h2><a href="../../#cve=CVE-2026-82960">CVE-2026-82960: Improper Control of Generation of Code (&apos;Code Injection&apos;) in ModelFormField in the Apache OFBiz cms plugin...</a></h2>
+<p class="who">Apache ofbiz</p>
+<p>Improper Control of Generation of Code (&apos;Code Injection&apos;) in ModelFormField in the Apache OFBiz cms plugin before 24.09.08 on all platforms allows a remote authenticated attacker holding only CMS content-editor access to execute arbitrary operating system commands as the OFBiz process user via a single HTTP POST request, by submitting a crafted caContentIdTo parameter to EditAddContent, because the CMS screen copies that parameter into a top-level context variable that is interpolated into a form field&apos;s use-when attribute and the resulting string is passed unvalidated to GroovyUtil.eval(), whose compile-time SecureASTCustomizer sandbox does not restrict runtime reflection, allowing a payload that closes the expanded string literal and invokes java.lang.Runtime via reflection. Users are recommended to upgrade to version 24.09.08, which fixes this issue.</p>
+<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.6%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-82960" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-05">November 5, 2026</time>
+<h2><a href="../../#cve=CVE-2026-83542">CVE-2026-83542: Improper Control of Generation of Code (&apos;Code Injection&apos;) in Apache OFBiz 24.09 before 24.09.08 on all...</a></h2>
+<p class="who">Apache ofbiz</p>
+<p>Improper Control of Generation of Code (&apos;Code Injection&apos;) in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to execute arbitrary code on the server by staging crafted widget XML in a multipart upload and overriding the mainDecoratorLocation used by a manager login route through an anonymous JSON request, causing OFBiz to load the staged XML through its live screen descriptor mechanism and evaluate an unsandboxed Groovy expression while rendering the authentication-failure page. Further validation established the following:
+
+-- The exploit does not require a malformed or incomplete multipart body: a well-formed multipart request that is kept in flight and then allowed to complete normally is sufficient.
+
+-- The screen loader reads the widget XML from a live process file descriptor while the upload is streaming, rather than from any file the attacker persists to disk.
+
+-- The same underlying issue is also reachable through the public, explicitly unauthenticated /sfa/control/editPortalPageColumnWidth route, returning command output directly in an HTTP 200 response — it is not limited to the login-failure rendering path used in the original report.
+
+Users are recommended to upgrade to version 24.09.08, which fixes this issue.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 1.1%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-83542" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-05">November 5, 2026</time>
+<h2><a href="../../#cve=CVE-2026-84183">CVE-2026-84183: Incorrect Authorization in the updateLayout simple-method in...</a></h2>
+<p class="who">Apache ofbiz</p>
+<p>Incorrect Authorization in the updateLayout simple-method in applications/content/minilang/layout/LayoutEvents.xml in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only OFBTOOLS_VIEW and CONTENTMGR_VIEW to execute arbitrary commands as the OFBiz process user, by using updateLayout&apos;s authorization check — which validates only the fixed CONTENT_CREATE operation rather than an update permission on the actual Content record and an independently selected DataResource — to relink an existing RESPONSE-purpose Content record and convert an arbitrary, independently selected DataResource into an OFBIZ_FILE/FTL resource pointed at the OFBiz access log, poisoned via a crafted User-Agent header and evaluated through the normal authenticated showContent route. Users are recommended to upgrade to version 24.09.08, which fixes this issue.</p>
+<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 1.0%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-84183" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-05">November 5, 2026</time>
+<h2><a href="../../#cve=CVE-2026-85627">CVE-2026-85627: Improper Neutralization of Special Elements Used in a Template Engine (&apos;Server-Side Template Injection&apos;) in...</a></h2>
+<p class="who">Apache ofbiz</p>
+<p>Improper Neutralization of Special Elements Used in a Template Engine (&apos;Server-Side Template Injection&apos;) in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only a stock non-administrative account to execute arbitrary operating system commands as the OFBiz process user, by using the updateLayoutImage event, which writes DataResource fields with no permission check, to retype an attacker-created DataResource as an FTL template evaluating its own primary key, then using the resulting FreeMarker evaluation to plant an OFBiz Form Widget whose use-when attribute runs unsandboxed Groovy. Users are recommended to upgrade to version 24.09.08, which fixes this issue.</p>
+<div class="meta"><span class="pill">CVSS 8.8</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-85627" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-05">November 5, 2026</time>
+<h2><a href="../../#cve=CVE-2026-92887">CVE-2026-92887: Incorrect default value in the REST API framework&apos;s .rest.xml definition parser (ModelApiReader) in Apache...</a></h2>
+<p class="who">Apache ofbiz</p>
+<p>Incorrect default value in the REST API framework&apos;s .rest.xml definition parser (ModelApiReader) in Apache OFBiz through 24.09.07 on all platforms allows a remote, unauthenticated attacker to invoke a REST API operation without providing valid credentials via a .rest.xml resource or operation definition that omits the auth attribute, which ModelApiReader incorrectly resolves to false instead of the true default declared by rest-api.xsd.
+
+Users are recommended to upgrade to version 24.09.08, which fixes this issue.</p>
+<div class="meta"><span class="pill">CVSS 7.3</span>  <span class="pill">EPSS 0.2%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-92887" rel="noopener">NVD record</a></div>
+</article>
+<article>
 <time datetime="2026-11-04">November 4, 2026</time>
 <h2><a href="../../#cve=CVE-2026-90628">CVE-2026-90628: An uncontrolled memory access in the PDF export code of Apache OpenOffice versions through 4.1.16 allows a...</a></h2>
 <p class="who">Apache openoffice</p>
@@ -1015,252 +1109,7 @@ Users of apache-airflow-providers-fab are recommended to upgrade to version 3.9.
 <p>Apache NiFi 2.11.0 supports migrating the contents of a version-controlled Process Group into a Connector using REST API methods that list eligible migration sources and submit migration requests. The framework authorized both methods against the target Connector alone, without evaluating access to the Process Groups involved. The absence of Process Group authorization allowed an authenticated user with read access to a Connector to enumerate the identifiers, names, and flow registry details of version-controlled Process Groups outside the scope of granted read policies. It also allowed a user with write access to a Connector to migrate a Process Group without write access to that Process Group, copying the flow definition, referenced assets, and component state into the Connector, and leaving the source Process Group disabled and renamed. Migration excludes sensitive property values and requires the source Process Group to be stopped with empty queues, which limits the scope of exposure. Apache NiFi installations that do not implement component-level authorization policies for Process Groups are not subject to this vulnerability, because the framework enforces Connector write permissions as the security boundary. Upgrading to Apache NiFi 2.12.0 is the recommended mitigation, which filters migration sources to Process Groups the requesting user is authorized to read, and requires write access to the source Process Group when submitting a migration request.</p>
 <div class="meta"><span class="pill">CVSS 7.1</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-86089" rel="noopener">NVD record</a></div>
 </article>
-<article>
-<time datetime="2026-09-16">September 16, 2026</time>
-<h2><a href="../../#cve=CVE-2026-87976">CVE-2026-87976: Apache NiFi Registry 0.4.0 through 2.11.0 are subject to path manipulation when storing extension bundle...</a></h2>
-<p class="who">Apache nifi</p>
-<p>Apache NiFi Registry 0.4.0 through 2.11.0 are subject to path manipulation when storing extension bundle content using group, artifact, and version coordinates from uploaded NAR manifests. The default file persistence provider used coordinates as filesystem path components without rejected parent-directory names, and the path-containment check compared an unnormalized resolved path. An authenticated user authorized to write and delete bundles in a bucket can upload a NAR with a crafted manifest resulting in file system operations outside of the file persistence directory. Upgrading to Apache NiFi Registry 2.12.0 is the recommended mitigation, which rejects parent-directory coordinates and requires a normalized path to remain a strict child of the storage root location.</p>
-<div class="meta"><span class="pill">CVSS 8.1</span>  <span class="pill">EPSS 0.8%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-87976" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-11">September 11, 2026</time>
-<h2><a href="../../#cve=CVE-2026-67211">CVE-2026-67211: OOM Denial of Service via Unbounded Map Pre-Sizing in Apache OpenNLP SymSpellModelSerializer
-
-Versions...</a></h2>
-<p class="who">Apache opennlp</p>
-<p>OOM Denial of Service via Unbounded Map Pre-Sizing in Apache OpenNLP SymSpellModelSerializer
-
-Versions Affected: 
-
-- 3.0.0-M4
-- 3.0.0-M5
-
-(The opennlp-spellcheck extension was introduced in 3.0.0-M4. Releases 1.x and 2.x do not contain the affected code.)
-
-Description:
-
-The SymSpellModelSerializer.create() method reads two 32-bit signed integer count fields (unigramCount and bigramCount) from a binary SymSpell model stream and passes each value directly to LinkedHashMap.newLinkedHashMap() after validating only that it is non-negative. No upper bound is applied, so the count is fully attacker-controlled when the model file originates from an untrusted source.
-
-A crafted .bin model file in which either count field is set to Integer.MAX_VALUE (or any value large enough to exhaust the available heap) causes the map to be pre-sized to a capacity of 2^30 entries. The oversized backing array is allocated on the first put() into that map, requesting 4–8 GB depending on whether compressed oops are in effect, and the load fails with an OutOfMemoryError. Because the count fields sit immediately after a fixed-size header (magic, format version, three UTF strings, the configuration fields, and the edit-distance identifier) the attacker pays no meaningful size cost to weaponize a payload: a file of well under 100 bytes plus a single real entry is sufficient to crash a JVM that loads it.
-
-Any code path that deserializes a SymSpell model is affected, including SymSpellModels.deserialize(InputStream), SymSpellModels.fromBytes(byte[]), classpath model loading via SymSpellModelResolver.resolveByLanguage(String), the CorrectTextTool command-line tool, and model-archive loading through the registered ArtifactSerializer. The opennlp-spellcheck extension ships in the official OpenNLP binary distribution.
-
-The practical impact is denial of service against processes that load SymSpell model files from untrusted or semi-trusted origins.
-
-Mitigation:
-
-- 3.x users should upgrade to 3.0.0-M6.
-
-Note: The fix applies an upper bound to both count fields, checked before the map is pre-sized; counts that are negative or exceed the bound cause an IOException to be thrown and the read to fail fast with no large allocation. The bound is the existing AbstractModelReader.MAX_ENTRIES limit introduced earlie, which the current change promotes to public visibility so that serializers implementing their own binary format can share it. The default bound is 10,000,000, which is well above the entry counts of legitimate SymSpell dictionaries but far below any value that would threaten heap exhaustion. Deployments that legitimately need to load larger dictionaries can raise the limit at JVM startup by setting the OPENNLP_MAX_ENTRIES system property to the desired positive integer (e.g. -DOPENNLP_MAX_ENTRIES=50000000); invalid or non-positive values fall back to the default. Note that this property is shared with the model-reader limit and raising it relaxes both.
-
-Users who cannot upgrade immediately should treat all SymSpell .bin model files as untrusted input unless their provenance is verified, and should avoid loading models supplied by end users or fetched from third-party repositories without integrity checks.</p>
-<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.7%</span> <span class="pill">Developer Tools &amp; Libraries</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-67211" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-11">September 11, 2026</time>
-<h2><a href="../../#cve=CVE-2026-82617">CVE-2026-82617: The two built-in name-finder patterns exposed by
-opennlp.tools.namefind.RegexNameFinderFactory -...</a></h2>
-<p class="who">Apache opennlp</p>
-<p>The two built-in name-finder patterns exposed by
-opennlp.tools.namefind.RegexNameFinderFactory - DEFAULT_REGEX_NAME_FINDER.EMAIL
-and DEFAULT_REGEX_NAME_FINDER.URL - contain ambiguous nested quantifiers. An
-application that obtains these finders through
-RegexNameFinderFactory.getDefaultRegexNameFinders(...) and then applies them to
-untrusted text through RegexNameFinder.find(String[]) or RegexNameFinder.find(String)
-can be driven into super-linear backtracking or into unbounded matcher recursion by a
-small crafted input.
-
-
-
-
-
-For the EMAIL pattern, a long run of local-part characters that is never followed by an
-@ forces the matcher to re-scan to end-of-input from every starting offset. Cost grows
-quadratically with input length: an input of approximately 32 KB consumes several seconds
-of CPU in a single find() call and returns no match, and each doubling of the input
-multiplies the cost roughly four-fold.
-
-
-
-
-
-For the URL pattern, the query-string sub-expression nests a capturing repetition inside
-an outer repetition. The JDK matcher recurses once per query token, so an input of
-approximately 4 KB containing many &amp;-separated tokens exhausts the thread stack and
-causes java.lang.StackOverflowError to propagate out of find(), terminating the
-calling thread. On a thread created with a smaller stack (for example -Xss512k, typical
-of server worker pools) approximately 1 KB is sufficient.
-
-
-
-
-
-In both cases an attacker who can supply text for analysis can convert a single request
-into seconds to minutes of pinned CPU, or into an abrupt thread death, denying service to
-the embedding application. No authentication, special configuration, or model file is
-required beyond the application having selected one of the two built-in finders.
-
-
-
-
-
-This issue affects Apache OpenNLP: from 2.0.0 through 2.5.11; from 3.0.0-M1 through
-3.0.0-M5.
-
-
-
-
-
-
-
-
-
-Users are recommended to upgrade to version 2.5.12, or to 3.0.0-M6 for users tracking the
-3.0.0 milestone line, which fix the issue.</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.8%</span> <span class="pill">Developer Tools &amp; Libraries</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-82617" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-10">September 10, 2026</time>
-<h2><a href="../../#cve=CVE-2026-49362">CVE-2026-49362: An unauthenticated remote attacker can create arbitrary durable queues via the CORE protocol, leading to...</a></h2>
-<p class="who">Apache artemis</p>
-<p>An unauthenticated remote attacker can create arbitrary durable queues via the CORE protocol, leading to unauthorized broker state manipulation and potential denial of service.
-
-This issue affects Apache Artemis: from 2.50.0 through 2.56.0; Apache ActiveMQ Artemis: from 1.0.0 through 2.44.0.
-
-
-
-Users are recommended to upgrade to version 2.57.0, which fixes the issue.</p>
-<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.8%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-49362" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-10">September 10, 2026</time>
-<h2><a href="../../#cve=CVE-2026-49363">CVE-2026-49363: An unauthenticated remote attacker connecting with the CORE protocol can discover cluster node details by...</a></h2>
-<p class="who">Apache artemis</p>
-<p>An unauthenticated remote attacker connecting with the CORE protocol can discover cluster node details by sending a SUBSCRIBE_TOPOLOGY request prior to authentication.
-
-
-
-This issue affects Apache Artemis: from 2.50.0 through 2.56.0; Apache ActiveMQ Artemis: from 1.0.0 through 2.44.0.
-
-
-
-Users are recommended to upgrade to version 2.57.0, which fixes the issue.</p>
-<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.8%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-49363" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-10">September 10, 2026</time>
-<h2><a href="../../#cve=CVE-2026-49364">CVE-2026-49364: An unauthenticated network-adjacent attacker can leverage discovery to capture cluster administrative...</a></h2>
-<p class="who">Apache artemis</p>
-<p>An unauthenticated network-adjacent attacker can leverage discovery to capture cluster administrative credentials during the initial cluster connection handshake.
-
-This issue affects Apache Artemis: from 2.50.0 through 2.56.0; Apache ActiveMQ Artemis: from 1.0.0 through 2.44.0.
-
-
-
-Users are recommended to upgrade to version 2.57.0, which fixes the issue.</p>
-<div class="meta"><span class="pill">CVSS 9.1</span>  <span class="pill">EPSS 0.6%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-49364" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-10">September 10, 2026</time>
-<h2><a href="../../#cve=CVE-2026-57967">CVE-2026-57967: An unauthenticated remote attacker can craft a CORE protocol SESSION_REATTACH packet to steal an existing...</a></h2>
-<p class="who">Apache artemis</p>
-<p>An unauthenticated remote attacker can craft a CORE protocol SESSION_REATTACH packet to steal an existing session and assume ongoing execution of the previously authenticated session.
-
-
-
-This issue affects Apache Artemis: from 2.50.0 through 2.56.0; Apache ActiveMQ Artemis: from 1.0.0 through 2.44.0.
-
-
-
-Users are recommended to upgrade to version 2.57.0, which fixes the issue.</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 1.5%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-57967" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-10">September 10, 2026</time>
-<h2><a href="../../#cve=CVE-2026-67593">CVE-2026-67593: A remote attacker can craft an Openwire RemoveSubscriptionInfo command to cause the deletion of a queue on...</a></h2>
-<p class="who">Apache artemis</p>
-<p>A remote attacker can craft an Openwire RemoveSubscriptionInfo command to cause the deletion of a queue on the Artemis broker before the connection authentication and authorization stage or at any time thereafter. 
-
-
-
-This issue affects Apache Artemis: from 2.50.0 through 2.56.0; Apache ActiveMQ Artemis: from 1.0.0 through 2.44.0.
-
-
-
-Users are recommended to upgrade to version 2.57.0, which fixes the issue.</p>
-<div class="meta"><span class="pill">CVSS 9.1</span>  <span class="pill">EPSS 0.9%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-67593" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-10">September 10, 2026</time>
-<h2><a href="../../#cve=CVE-2026-84939">CVE-2026-84939: Path traversal vulnerability in Apache FreeMarker template loading mechanism, if the attacker can specify an...</a></h2>
-<p class="who">Apache freemarker</p>
-<p>Path traversal vulnerability in Apache FreeMarker template loading mechanism, if the attacker can specify an arbitrary malformed locale identifier to FreeMarker, and the localized lookup configuration setting is enabled (it&apos;s by default enabled).
-
-This issue affects Apache FreeMarker from 2.2.0 through 2.3.34.
-
-Users are recommended to upgrade to version 2.3.35. Disabling localized lookup in previous versions also mitigates this.
-
-Note that even in versions affected by this vulnerability, the files that can be loaded remain restricted by the TemplateLoader that FreeMarker is configured to use. In particular, FileTemplateLoader prevents attempts to traverse outside the baseDir specified in its constructor. Other TemplateLoader implementations may allow access outside their designated base directory, but they are still constrained by the underlying storage mechanism—for example, a loader wrapping a Java class loader can only access resources that the class loader can load, while one wrapping a web application context can only access resources available through that context.</p>
-<div class="meta"><span class="pill">CVSS 9.1</span>  <span class="pill">EPSS 0.9%</span> <span class="pill">Developer Tools &amp; Libraries</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-84939" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-10">September 10, 2026</time>
-<h2><a href="../../#cve=CVE-2026-80351">CVE-2026-80351: Improper neutralization of directives in dynamically evaluated code (&apos;eval injection&apos;) vulnerability in...</a></h2>
-<p class="who">Apache camel</p>
-<p>Improper neutralization of directives in dynamically evaluated code (&apos;eval injection&apos;) vulnerability in Apache Camel K.
-
-
-
-An improper neutralization of directives in dynamically evaluated Maven configuration allows tenant-controlled repository content to influence code execution within the operator pod, potentially enabling tenants to execute arbitrary code with the privileges of the operator.
-
-
-
-This issue affects Apache Camel K: from 2.0.0 before 2.9.3, from 2.10.1 before 2.10.2.
-
-
-
-Users are recommended to upgrade to version 2.9.3, 2.10.2 or 2.11.0, which fixes the issue.</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 1.0%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-80351" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-10">September 10, 2026</time>
-<h2><a href="../../#cve=CVE-2026-80352">CVE-2026-80352: Improper Control of Generation of Code (&apos;Code Injection&apos;) vulnerability in Apache Camel K.</a></h2>
-<p class="who">Apache camel</p>
-<p>Improper Control of Generation of Code (&apos;Code Injection&apos;) vulnerability in Apache Camel K.
-
-
-
-A YAML injection vulnerability in custom resource configuration allows an authorized CR author to inject arbitrary Kubernetes objects, potentially enabling unauthorized resource creation with the privileges of the operator.
-
-
-
-This issue affects Apache Camel K: from 2.0.0 before 2.9.3, from 2.10.1 before 2.10.2.
-
-
-
-Users are recommended to upgrade to version 2.9.3, 2.10.2 or 2.11.0, which fixes the issue.</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.8%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-80352" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-09-10">September 10, 2026</time>
-<h2><a href="../../#cve=CVE-2026-80354">CVE-2026-80354: Authorization bypass through User-Controlled key vulnerability in Apache Camel K.</a></h2>
-<p class="who">Apache camel</p>
-<p>Authorization bypass through User-Controlled key vulnerability in Apache Camel K.
-
-
-
-An authorization vulnerability in custom resource resolution allows a tenant to reference secrets by name in the operator namespace, potentially exposing secrets belonging to other tenants or operator components.
-
-
-
-This issue affects Apache Camel K: from 2.0.0 before 2.9.3, from 2.10.1 before 2.10.2.
-
-
-
-Users are recommended to upgrade to version 2.9.3, 2.10.2 or 2.11.0, which fixes the issue.</p>
-<div class="meta"><span class="pill">CVSS 8.1</span>  <span class="pill">EPSS 0.5%</span> <span class="pill">Data &amp; Messaging</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-80354" rel="noopener">NVD record</a></div>
-</article>
 </main>
-<footer class="wrap foot">Generated 2026-11-10 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-11-11 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>

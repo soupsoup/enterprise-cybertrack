@@ -6,6 +6,112 @@
 <description>High and critical JetBrains vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/jetbrains.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-123293 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3, 
+2026.2.4 code execution was possible in untrusted projects  via...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123293</link>
+<guid isPermaLink="false">CVE-2026-123293</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>In JetBrains IntelliJ IDEA before 2026.3, 
+2026.2.4 code execution was possible in untrusted projects  via the Terraform tool path setting | CVSS 7.8 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-123301 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3 dOM-based XSS in the OpenAPI preview error view was possible</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123301</link>
+<guid isPermaLink="false">CVE-2026-123301</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>In JetBrains IntelliJ IDEA before 2026.3 dOM-based XSS in the OpenAPI preview error view was possible | CVSS 8.2 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-123302 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3, 
+2026.2.4, 
+2026.1.5.1, 
+2025.3.6.2 code execution was possible in...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123302</link>
+<guid isPermaLink="false">CVE-2026-123302</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>In JetBrains IntelliJ IDEA before 2026.3, 
+2026.2.4, 
+2026.1.5.1, 
+2025.3.6.2 code execution was possible in untrusted projects via script engine discovery | CVSS 7.8 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-123304 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3 code execution in untrusted projects via a configured ShellCheck path</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123304</link>
+<guid isPermaLink="false">CVE-2026-123304</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>In JetBrains IntelliJ IDEA before 2026.3 code execution in untrusted projects via a configured ShellCheck path | CVSS 7.8 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-123305 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3 path traversal was possible via unpacking Dev Container archives...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123305</link>
+<guid isPermaLink="false">CVE-2026-123305</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>In JetBrains IntelliJ IDEA before 2026.3 path traversal was possible via unpacking Dev Container archives from a remote host | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-123306 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3 improper checks allowed server certificates to be added to the trust...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123306</link>
+<guid isPermaLink="false">CVE-2026-123306</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>In JetBrains IntelliJ IDEA before 2026.3 improper checks allowed server certificates to be added to the trust store during headless runs | CVSS 7.4 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-123837 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3, 
+2026.2.1 command injection was possible in untrusted projects via...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123837</link>
+<guid isPermaLink="false">CVE-2026-123837</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>In JetBrains IntelliJ IDEA before 2026.3, 
+2026.2.1 command injection was possible in untrusted projects via Tomcat run configurations on WSL | CVSS 7.8 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-123838 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3 code execution was possible in Safe Mode via UI Designer form file</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123838</link>
+<guid isPermaLink="false">CVE-2026-123838</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>In JetBrains IntelliJ IDEA before 2026.3 code execution was possible in Safe Mode via UI Designer form file | CVSS 7.8 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-123841 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3 code execution was possible via symlinks in an imported settings...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123841</link>
+<guid isPermaLink="false">CVE-2026-123841</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>In JetBrains IntelliJ IDEA before 2026.3 code execution was possible via symlinks in an imported settings archive | CVSS 7.8 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-123842 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3 arbitrary file write was possible via symlinks when extracting...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123842</link>
+<guid isPermaLink="false">CVE-2026-123842</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>In JetBrains IntelliJ IDEA before 2026.3 arbitrary file write was possible via symlinks when extracting plugin archives | CVSS 7.1 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-123848 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3 host name verification was missing for server TLS certificates</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123848</link>
+<guid isPermaLink="false">CVE-2026-123848</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>In JetBrains IntelliJ IDEA before 2026.3 host name verification was missing for server TLS certificates | CVSS 7.4 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-123849 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3 code execution was possible in untrusted projects via the Terraform...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123849</link>
+<guid isPermaLink="false">CVE-2026-123849</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>Developer Tools &amp; Libraries</category>
+<description>In JetBrains IntelliJ IDEA before 2026.3 code execution was possible in untrusted projects via the Terraform File Watchers | CVSS 7 | EPSS 0.1%</description>
+</item>
+<item>
 <title>CVE-2026-111094 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 
 2026.1.4, 
 2025.11.8 remote code execution via a whitelist bypass in...</title>

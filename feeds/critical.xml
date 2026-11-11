@@ -11,7 +11,7 @@
 <guid isPermaLink="false">CVE-2026-109795</guid>
 <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>ERP &amp; Business Apps</category>
-<description>SAP NetWeaver does not perform necessary authorization checks and lacks sufficient input validation in certain remote-enabled functionality. An attacker with low privileges could send specially crafted input through a remote interface to inject and execute arbitrary code within the affected system. Successful exploitation could extend the attacker&apos;s reach beyond the vulnerable component, resulting in a high impact on confidentiality, integrity and availability. | CVSS 9.9</description>
+<description>SAP NetWeaver does not perform necessary authorization checks and lacks sufficient input validation in certain remote-enabled functionality. An attacker with low privileges could send specially crafted input through a remote interface to inject and execute arbitrary code within the affected system. Successful exploitation could extend the attacker&apos;s reach beyond the vulnerable component, resulting in a high impact on confidentiality, integrity and availability. | CVSS 9.9 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-109798 SAP businessobjects: SAP BusinessObjects Business Intelligence Platform (Web Intelligence) does not properly restrict external...</title>
@@ -19,7 +19,7 @@
 <guid isPermaLink="false">CVE-2026-109798</guid>
 <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>ERP &amp; Business Apps</category>
-<description>SAP BusinessObjects Business Intelligence Platform (Web Intelligence) does not properly restrict external entity resolution when processing OLAP connection requests. An authenticated attacker could exploit this vulnerability to access restricted resources, enabling them to read sensitive files on the server and reach internal systems that are not otherwise exposed, impacting resources beyond the vulnerable component, resulting in a high impact on confidentiality and a low impact on both integrity and availability. | CVSS 9.1</description>
+<description>SAP BusinessObjects Business Intelligence Platform (Web Intelligence) does not properly restrict external entity resolution when processing OLAP connection requests. An authenticated attacker could exploit this vulnerability to access restricted resources, enabling them to read sensitive files on the server and reach internal systems that are not otherwise exposed, impacting resources beyond the vulnerable component, resulting in a high impact on confidentiality and a low impact on both integrity and availability. | CVSS 9.1 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-109803 SAP netweaver: SAP NetWeaver Knowledge Management (XML Forms) does not sufficiently restrict the selection of XSL...</title>
@@ -27,7 +27,7 @@
 <guid isPermaLink="false">CVE-2026-109803</guid>
 <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>ERP &amp; Business Apps</category>
-<description>SAP NetWeaver Knowledge Management (XML Forms) does not sufficiently restrict the selection of XSL transformations processed by the affected functionality. Under certain conditions, an authenticated user with access to the affected functionality could cause an unauthorized XSL transformation to be processed, potentially leading to arbitrary code execution in the application context. Successful exploitation could impact the confidentiality, integrity, and availability of the application. | CVSS 9.9</description>
+<description>SAP NetWeaver Knowledge Management (XML Forms) does not sufficiently restrict the selection of XSL transformations processed by the affected functionality. Under certain conditions, an authenticated user with access to the affected functionality could cause an unauthorized XSL transformation to be processed, potentially leading to arbitrary code execution in the application context. Successful exploitation could impact the confidentiality, integrity, and availability of the application. | CVSS 9.9 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-120017 SAP netweaver: SAP NetWeaver AS ABAP and ABAP Platform does not perform sufficient verification of incoming authentication...</title>
@@ -35,7 +35,7 @@
 <guid isPermaLink="false">CVE-2026-120017</guid>
 <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>ERP &amp; Business Apps</category>
-<description>SAP NetWeaver AS ABAP and ABAP Platform does not perform sufficient verification of incoming authentication assertions under certain configurations. An unauthenticated attacker could submit specially crafted data to bypass authentication and impersonate arbitrary users, including privileged accounts. Successful exploitation could cause a full system compromise, with the impact potentially extending to connected components and systems beyond the affected system. This results in a high impact on confidentiality, integrity, and availability of the application. | CVSS 10</description>
+<description>SAP NetWeaver AS ABAP and ABAP Platform does not perform sufficient verification of incoming authentication assertions under certain configurations. An unauthenticated attacker could submit specially crafted data to bypass authentication and impersonate arbitrary users, including privileged accounts. Successful exploitation could cause a full system compromise, with the impact potentially extending to connected components and systems beyond the affected system. This results in a high impact on confidentiality, integrity, and availability of the application. | CVSS 10 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-76964 SAP netweaver: SAP NetWeaver Application Server ABAP does not sufficiently validate certain network input processed by an...</title>
@@ -43,7 +43,7 @@
 <guid isPermaLink="false">CVE-2026-76964</guid>
 <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>ERP &amp; Business Apps</category>
-<description>SAP NetWeaver Application Server ABAP does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successful exploitation could allow the attacker to execute arbitrary code and fully compromise the system, resulting in a high impact on confidentiality, integrity and availability of the system. | CVSS 10</description>
+<description>SAP NetWeaver Application Server ABAP does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successful exploitation could allow the attacker to execute arbitrary code and fully compromise the system, resulting in a high impact on confidentiality, integrity and availability of the system. | CVSS 10 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-76965 SAP netweaver: SAP NetWeaver Application Server ABAP and ABAP Platform does not perform necessary authorization checks for...</title>
@@ -51,7 +51,7 @@
 <guid isPermaLink="false">CVE-2026-76965</guid>
 <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>ERP &amp; Business Apps</category>
-<description>SAP NetWeaver Application Server ABAP and ABAP Platform does not perform necessary authorization checks for certain internal functionality. An attacker with low privileges could invoke affected functionality to execute arbitrary operating system commands on the underlying host. Successful exploitation could impact resources beyond the vulnerable component, resulting in a high impact on confidentiality, integrity and availability of the system. | CVSS 9.9</description>
+<description>SAP NetWeaver Application Server ABAP and ABAP Platform does not perform necessary authorization checks for certain internal functionality. An attacker with low privileges could invoke affected functionality to execute arbitrary operating system commands on the underlying host. Successful exploitation could impact resources beyond the vulnerable component, resulting in a high impact on confidentiality, integrity and availability of the system. | CVSS 9.9 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-89103 SAP gateway activates: SAP Gateway activates the default Access Control List with high privileges allowing categorization of...</title>
@@ -59,7 +59,7 @@
 <guid isPermaLink="false">CVE-2026-89103</guid>
 <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Edge / VPN</category>
-<description>SAP Gateway activates the default Access Control List with high privileges allowing categorization of external attacker as internal application server. As a result an unauthenticated attacker with network access to the SAP Gateway could exploit this weakness to potentially perform unauthorized actions within the application environment, resulting in a high impact on the confidentiality, integrity, and availability of the affected system. | CVSS 10</description>
+<description>SAP Gateway activates the default Access Control List with high privileges allowing categorization of external attacker as internal application server. As a result an unauthenticated attacker with network access to the SAP Gateway could exploit this weakness to potentially perform unauthorized actions within the application environment, resulting in a high impact on the confidentiality, integrity, and availability of the affected system. | CVSS 10 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-89119 SAP web dispatcher: SAP Web Dispatcher and SAP NetWeaver Application Server ABAP (Internet Communication Manager) do not perform...</title>
@@ -67,7 +67,7 @@
 <guid isPermaLink="false">CVE-2026-89119</guid>
 <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>ERP &amp; Business Apps</category>
-<description>SAP Web Dispatcher and SAP NetWeaver Application Server ABAP (Internet Communication Manager) do not perform sufficient request validation in certain administrative functionality. In the context of Application Server ABAP and SAP Web Dispatcher, an unauthenticated attacker could trick a logged-on administrator into visiting a malicious link. Visiting the link could cause unintended actions in the administrator&apos;s session. Successful exploitation could lead to a full compromise of the underlying operating system, resulting in a high impact on confidentiality, integrity, and availability. | CVSS 9.6</description>
+<description>SAP Web Dispatcher and SAP NetWeaver Application Server ABAP (Internet Communication Manager) do not perform sufficient request validation in certain administrative functionality. In the context of Application Server ABAP and SAP Web Dispatcher, an unauthenticated attacker could trick a logged-on administrator into visiting a malicious link. Visiting the link could cause unintended actions in the administrator&apos;s session. Successful exploitation could lead to a full compromise of the underlying operating system, resulting in a high impact on confidentiality, integrity, and availability. | CVSS 9.6 | EPSS 0.1%</description>
 </item>
 <item>
 <title>CVE-2026-89126 SAP web dispatcher: SAP Web Dispatcher does not sufficiently validate certain network input processed by an internal component.</title>
@@ -75,7 +75,31 @@
 <guid isPermaLink="false">CVE-2026-89126</guid>
 <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>ERP &amp; Business Apps</category>
-<description>SAP Web Dispatcher does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successful exploitation could allow the attacker to execute arbitrary code and fully compromise the system, resulting in a high impact on confidentiality, integrity and availability of the system. | CVSS 10</description>
+<description>SAP Web Dispatcher does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successful exploitation could allow the attacker to execute arbitrary code and fully compromise the system, resulting in a high impact on confidentiality, integrity and availability of the system. | CVSS 10 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-82907 Apache ofbiz: Authentication Bypass by Capture-replay in ExternalLoginKeysManager in Apache OFBiz 24.09 before 24.09.08 on...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-82907</link>
+<guid isPermaLink="false">CVE-2026-82907</guid>
+<pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Authentication Bypass by Capture-replay in ExternalLoginKeysManager in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker who captures a live externalLoginKey value to obtain a complete, cookie-free, reusable session as the user who issued it, in every webapp that user can reach, because checkExternalLoginKey runs as a global preprocessor ahead of both the CSRF and authentication checks and accepts the key as a bearer credential that is never bound to a client, never expires, and is not invalidated after use, while the framework itself both appends live keys to every cross-webapp link it renders and, via WidgetWorker&apos;s unvalidated inter-app link target, lets an authenticated user&apos;s key be attached to an attacker-chosen absolute URL and delivered directly to the attacker&apos;s own server. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 9.8 | EPSS 0.8%</description>
+</item>
+<item>
+<title>CVE-2026-83542 Apache ofbiz: Improper Control of Generation of Code (&apos;Code Injection&apos;) in Apache OFBiz 24.09 before 24.09.08 on all...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83542</link>
+<guid isPermaLink="false">CVE-2026-83542</guid>
+<pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Improper Control of Generation of Code (&apos;Code Injection&apos;) in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to execute arbitrary code on the server by staging crafted widget XML in a multipart upload and overriding the mainDecoratorLocation used by a manager login route through an anonymous JSON request, causing OFBiz to load the staged XML through its live screen descriptor mechanism and evaluate an unsandboxed Groovy expression while rendering the authentication-failure page. Further validation established the following:
+
+-- The exploit does not require a malformed or incomplete multipart body: a well-formed multipart request that is kept in flight and then allowed to complete normally is sufficient.
+
+-- The screen loader reads the widget XML from a live process file descriptor while the upload is streaming, rather than from any file the attacker persists to disk.
+
+-- The same underlying issue is also reachable through the public, explicitly unauthenticated /sfa/control/editPortalPageColumnWidth route, returning command output directly in an HTTP 200 response — it is not limited to the login-failure rendering path used in the original report.
+
+Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 9.8 | EPSS 1.1%</description>
 </item>
 <item>
 <title>CVE-2026-121037 Microsoft windows: Out of bounds write in ANGLE in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker...</title>
@@ -473,7 +497,103 @@ Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.
 <guid isPermaLink="false">CVE-2026-60432</guid>
 <pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>Vulnerability in the Oracle Solaris product of Oracle Systems (component: Image Packaging System).  Supported versions that are affected are 11.3 and  11.4. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Solaris.  Successful attacks of this vulnerability can result in takeover of Oracle Solaris. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.4%</description>
+<description>Vulnerability in the Oracle Solaris product of Oracle Systems (component: Image Packaging System).  Supported versions that are affected are 11.3 and  11.4. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Solaris.  Successful attacks of this vulnerability can result in takeover of Oracle Solaris. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-101763 Oracle communications billing and revenue management elastic charging engine: Vulnerability in the Oracle Communications BRM - Elastic Charging Engine product of Oracle Communications...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-101763</link>
+<guid isPermaLink="false">CVE-2026-101763</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the Oracle Communications BRM - Elastic Charging Engine product of Oracle Communications (component: Cloud native deployment).  Supported versions that are affected are 15.0.0.0.0, 15.0.1.0.0, 15.1.0.0.0 and  15.2.0.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via RMI to compromise Oracle Communications BRM - Elastic Charging Engine.  Successful attacks of this vulnerability can result in takeover of Oracle Communications BRM - Elastic Charging Engine. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-101765 Oracle communications billing and revenue management: Vulnerability in the Oracle Communications Billing and Revenue Management product of Oracle Communications...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-101765</link>
+<guid isPermaLink="false">CVE-2026-101765</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the Oracle Communications Billing and Revenue Management product of Oracle Communications (component: BRM Server).  Supported versions that are affected are 15.0.0.0.0, 15.0.1.0.0, 15.1.0.0.0 and  15.2.0.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Communications Billing and Revenue Management.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Communications Billing and Revenue Management accessible data as well as  unauthorized access to critical data or complete access to all Oracle Communications Billing and Revenue Management accessible data. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N). | CVSS 9.1 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-101809 Oracle workflow: Vulnerability in the Workflow product of Oracle E-Business Suite (component: Workflow Notification Mailer).</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-101809</link>
+<guid isPermaLink="false">CVE-2026-101809</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the Workflow product of Oracle E-Business Suite (component: Workflow Notification Mailer).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Workflow.  While the vulnerability is in Workflow, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Workflow. CVSS 3.1 Base Score 10.0 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H). | CVSS 10 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-91220 Oracle business process management suite: Vulnerability in the Oracle Business Process Management Suite product of Oracle Fusion Middleware (component:...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91220</link>
+<guid isPermaLink="false">CVE-2026-91220</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the Oracle Business Process Management Suite product of Oracle Fusion Middleware (component: Human Workflow).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Business Process Management Suite.  Successful attacks of this vulnerability can result in takeover of Oracle Business Process Management Suite. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-91222 Oracle business process management suite: Vulnerability in the Oracle Business Process Management Suite product of Oracle Fusion Middleware (component:...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91222</link>
+<guid isPermaLink="false">CVE-2026-91222</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the Oracle Business Process Management Suite product of Oracle Fusion Middleware (component: Human Workflow (11g+)).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via SOAP to compromise Oracle Business Process Management Suite.  While the vulnerability is in Oracle Business Process Management Suite, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle Business Process Management Suite. CVSS 3.1 Base Score 9.9 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H). | CVSS 9.9 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-91241 Oracle business intelligence: Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Analytics (component:...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91241</link>
+<guid isPermaLink="false">CVE-2026-91241</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Analytics (component: Analytics Web Administration).  Supported versions that are affected are 8.2.0.0.0, 12.2.1.4.0 and  26.01.0.0.0. Easily exploitable vulnerability allows high privileged attacker with network access via HTTP to compromise Oracle Business Intelligence Enterprise Edition.  While the vulnerability is in Oracle Business Intelligence Enterprise Edition, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle Business Intelligence Enterprise Edition. CVSS 3.1 Base Score 9.1 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H). | CVSS 9.1 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-91243 Oracle business process management suite: Vulnerability in the Oracle Business Process Management Suite product of Oracle Fusion Middleware (component:...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91243</link>
+<guid isPermaLink="false">CVE-2026-91243</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the Oracle Business Process Management Suite product of Oracle Fusion Middleware (component: Fabric Layer).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Business Process Management Suite.  While the vulnerability is in Oracle Business Process Management Suite, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Business Process Management Suite accessible data as well as  unauthorized access to critical data or complete access to all Oracle Business Process Management Suite accessible data. CVSS 3.1 Base Score 9.6 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:N). | CVSS 9.6 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-91250 Oracle soa suite: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters).</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91250</link>
+<guid isPermaLink="false">CVE-2026-91250</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compromise Oracle SOA Suite.  While the vulnerability is in Oracle SOA Suite, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 9.9 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H). | CVSS 9.9 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-91251 Oracle soa suite: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters).</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91251</link>
+<guid isPermaLink="false">CVE-2026-91251</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters).  Supported versions that are affected are 12.2.1.4.0 and  14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle SOA Suite.  While the vulnerability is in Oracle SOA Suite, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle SOA Suite. CVSS 3.1 Base Score 9.9 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H). | CVSS 9.9 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-91323 Oracle weblogic server: Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91323</link>
+<guid isPermaLink="false">CVE-2026-91323</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Databases &amp; Middleware</category>
+<description>Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core).  Supported versions that are affected are 12.2.1.4.0, 14.1.1.0.0, 14.1.2.0.0 and  15.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle WebLogic Server.  Successful attacks of this vulnerability can result in takeover of Oracle WebLogic Server. CVSS 3.1 Base Score 9.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H). | CVSS 9.8 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-91341 Oracle outside in technology: Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91341</link>
+<guid isPermaLink="false">CVE-2026-91341</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Clean Content SDK).   The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Outside In Technology.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Outside In Technology accessible data and unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Outside In Technology. CVSS 3.1 Base Score 9.1 (Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:H). | CVSS 9.1 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-91354 Oracle outside in technology: Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-91354</link>
+<guid isPermaLink="false">CVE-2026-91354</guid>
+<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Clean Content SDK).   The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Outside In Technology.  While the vulnerability is in Oracle Outside In Technology, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in takeover of Oracle Outside In Technology. CVSS 3.1 Base Score 9.9 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H). | CVSS 9.9 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-78162 Apache camel: Deserialization of Untrusted Data vulnerability in Apache Camel.</title>
@@ -712,118 +832,6 @@ This vulnerability is due to improper handling of email attachments when the fil
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Out-of-bounds write in Windows Local Security Authority Subsystem Service (LSASS) allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-96320 Microsoft windows: Heap-based buffer overflow in Windows DHCP Server allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96320</link>
-<guid isPermaLink="false">CVE-2026-96320</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Windows DHCP Server allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
-</item>
-<item>
-<title>CVE-2026-96909 Microsoft windows: Heap-based buffer overflow in Windows BitLocker allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96909</link>
-<guid isPermaLink="false">CVE-2026-96909</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Windows BitLocker allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
-</item>
-<item>
-<title>CVE-2026-96924 Microsoft windows: Untrusted pointer dereference in Windows OLE allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96924</link>
-<guid isPermaLink="false">CVE-2026-96924</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Untrusted pointer dereference in Windows OLE allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
-</item>
-<item>
-<title>CVE-2026-96934 Microsoft windows: Use after free in Windows DHCP Server allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96934</link>
-<guid isPermaLink="false">CVE-2026-96934</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Windows DHCP Server allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-97805 Microsoft windows: Out-of-bounds read in Windows Partition Management Driver allows an unauthorized attacker to execute code...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97805</link>
-<guid isPermaLink="false">CVE-2026-97805</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Out-of-bounds read in Windows Partition Management Driver allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
-</item>
-<item>
-<title>CVE-2026-97814 Microsoft windows: Heap-based buffer overflow in Windows Text Shaping allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97814</link>
-<guid isPermaLink="false">CVE-2026-97814</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Windows Text Shaping allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
-</item>
-<item>
-<title>CVE-2026-97815 Microsoft windows: Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97815</link>
-<guid isPermaLink="false">CVE-2026-97815</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-97816 Microsoft windows: Use after free in OpenSSH for Windows allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97816</link>
-<guid isPermaLink="false">CVE-2026-97816</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in OpenSSH for Windows allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
-</item>
-<item>
-<title>CVE-2026-69883 Microsoft windows: Use after free in Windows iSCSI allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-69883</link>
-<guid isPermaLink="false">CVE-2026-69883</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Windows iSCSI allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-83935 Microsoft windows: Heap-based buffer overflow in Microsoft XML allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83935</link>
-<guid isPermaLink="false">CVE-2026-83935</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft XML allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-84015 Microsoft windows: Heap-based buffer overflow in Remote Access Point-to-Point Protocol (PPP) EAP-TLS allows an unauthorized...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-84015</link>
-<guid isPermaLink="false">CVE-2026-84015</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Remote Access Point-to-Point Protocol (PPP) EAP-TLS allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-96252 Microsoft windows: Improper verification of cryptographic signature in Active Directory Federation Services (AD FS) allows an...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96252</link>
-<guid isPermaLink="false">CVE-2026-96252</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Improper verification of cryptographic signature in Active Directory Federation Services (AD FS) allows an unauthorized attacker to perform spoofing over a network. | CVSS 9.1 | EPSS 0.6%</description>
-</item>
-<item>
-<title>CVE-2026-100202 Microsoft windows: Use after free in Windows Message Queuing Queue Manager allows an unauthorized attacker to execute code over...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-100202</link>
-<guid isPermaLink="false">CVE-2026-100202</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Windows Message Queuing Queue Manager allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
-</item>
-<item>
-<title>CVE-2026-100219 Microsoft windows: Use after free in Microsoft QUIC allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-100219</link>
-<guid isPermaLink="false">CVE-2026-100219</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft QUIC allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
 </item>
 </channel>
 </rss>

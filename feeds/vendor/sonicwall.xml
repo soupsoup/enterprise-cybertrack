@@ -11,7 +11,7 @@
 <guid isPermaLink="false">CVE-2026-19868</guid>
 <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
 <category>Edge / VPN</category>
-<description>An authentication enforcement vulnerability in SonicOS SSLVPN service may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA). | CVSS 7.5 | Known exploited (CISA KEV, added 2026-11-06) | EPSS 0.6%</description>
+<description>An authentication enforcement vulnerability in SonicOS SSLVPN service may allow a user with valid credentials for an alternate authentication method to bypass SAML authentication controls. Successful exploitation may also bypass SAML-enforced multi-factor authentication (MFA). | CVSS 7.5 | Known exploited (CISA KEV, added 2026-11-06) | EPSS 0.5%</description>
 </item>
 </channel>
 </rss>
