@@ -83,6 +83,13 @@
 
 -- The same underlying issue is also reachable through the public, explicitly unauthenticated /sfa/control/editPortalPageColumnWidth route, returning command output directly in an HTTP 200 response — it is not limited to the login-failure rendering path used in the original report.
 
+
+
+The described vulnerability was discovered independantly twice, with each having a CVE assigned. See References.
+
+
+
+
 Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 9.8 | EPSS 1.1%</description>
 </item>
 <item>
