@@ -11,7 +11,7 @@
 <guid isPermaLink="false">CVE-2026-84869</guid>
 <pubDate>Tue, 08 Sep 2026 00:00:00 GMT</pubDate>
 <category>IT &amp; Remote Management</category>
-<description>A condition in the ScreenConnect client may allow files to be transferred and executed through an active remote session without authorization or Host confirmation in certain circumstances. ScreenConnect servers are not impacted. | CVSS 9.9 | Known exploited (CISA KEV, added 2026-09-11) | EPSS 0.9%</description>
+<description>A condition in the ScreenConnect client may allow files to be transferred and executed through an active remote session without authorization or Host confirmation in certain circumstances. ScreenConnect servers are not impacted. | CVSS 9.9 | Known exploited (CISA KEV, added 2026-09-11) | EPSS 1.2%</description>
 </item>
 </channel>
 </rss>

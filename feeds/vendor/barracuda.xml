@@ -11,7 +11,7 @@
 <guid isPermaLink="false">CVE-2026-111560</guid>
 <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
 <category>Email &amp; Collaboration</category>
-<description>Improper neutralization of shell metacharacters in the timezone configuration field in certain Barracuda appliance products using common Barracuda code allows an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. | CVSS 7.2 | Known exploited (CISA KEV, added 2026-11-10) | EPSS 1.1%</description>
+<description>Improper neutralization of shell metacharacters in the timezone configuration field in certain Barracuda appliance products using common Barracuda code allows an authenticated administrator to inject OS commands that execute with root privileges when the crafted timezone value is subsequently processed. | CVSS 7.2 | Known exploited (CISA KEV, added 2026-11-10) | EPSS 9.1%</description>
 </item>
 <item>
 <title>CVE-2026-116606 Barracuda email security gateway 300 firmware: An authentication bypass in Barracuda Email Security Gateway versions earlier than 9.4.0.030 allows an...</title>
@@ -19,7 +19,7 @@
 <guid isPermaLink="false">CVE-2026-116606</guid>
 <pubDate>Mon, 02 Nov 2026 00:00:00 GMT</pubDate>
 <category>Email &amp; Collaboration</category>
-<description>An authentication bypass in Barracuda Email Security Gateway versions earlier than 9.4.0.030 allows an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-10) | EPSS 1.6%</description>
+<description>An authentication bypass in Barracuda Email Security Gateway versions earlier than 9.4.0.030 allows an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauthorized modification of the appliance’s global configuration. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-10) | EPSS 10.9%</description>
 </item>
 </channel>
 </rss>

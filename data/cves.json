@@ -1,6 +1,78 @@
 {
- "generated": "2026-11-12T13:49:56.764Z",
+ "generated": "2026-11-14T12:17:13.006Z",
  "cves": [
+  {
+   "id": "CVE-2026-119618",
+   "vendor": "Apache",
+   "product": "http server",
+   "category": "Web & Application Servers",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-11-11",
+   "title": "Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP...",
+   "summary": "Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server's mod_http2 in assign_headers() can lead to RCE.\n\nThis issue affects Apache HTTP Server: from 2.4.55 through 2.4.70.\nAffected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42.",
+   "affects": [
+    {
+     "vendor": "Apache",
+     "product": "http server",
+     "from": "2.4.55",
+     "toExcl": "2.4.71"
+    }
+   ],
+   "epss": 0.00408
+  },
+  {
+   "id": "CVE-2026-126867",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-11",
+   "title": "Use after free in Browser in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker to...",
+   "summary": "Use after free in Browser in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "affects": [],
+   "epss": 0.00339
+  },
+  {
+   "id": "CVE-2026-126873",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-11",
+   "title": "Use after free in Extensions in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker...",
+   "summary": "Use after free in Extensions in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "affects": [],
+   "epss": 0.00359
+  },
+  {
+   "id": "CVE-2026-126883",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-11-11",
+   "title": "Use after free in Core in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker who...",
+   "summary": "Use after free in Core in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
+   "affects": [],
+   "epss": 0.00332
+  },
+  {
+   "id": "CVE-2026-126903",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-11-11",
+   "title": "Improper state validation in ANGLE in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote...",
+   "summary": "Improper state validation in ANGLE in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker to bypass web origin policy via a crafted HTML page. (Chromium security severity: High)",
+   "affects": [],
+   "epss": 0.00234
+  },
   {
    "id": "CVE-2026-109793",
    "vendor": "SAP",
@@ -288,6 +360,936 @@
    "epss": 0.0028
   },
   {
+   "id": "CVE-2026-116927",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00869
+  },
+  {
+   "id": "CVE-2026-118292",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.01079
+  },
+  {
+   "id": "CVE-2026-118293",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118294",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00869
+  },
+  {
+   "id": "CVE-2026-118295",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118296",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Double free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.01079
+  },
+  {
+   "id": "CVE-2026-118297",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00989
+  },
+  {
+   "id": "CVE-2026-118298",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00869
+  },
+  {
+   "id": "CVE-2026-118299",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00869
+  },
+  {
+   "id": "CVE-2026-118301",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use of uninitialized resource in Microsoft Office Excel allows an unauthorized attacker to execute code over...",
+   "summary": "Use of uninitialized resource in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00704
+  },
+  {
+   "id": "CVE-2026-118302",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00869
+  },
+  {
+   "id": "CVE-2026-118700",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118701",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.01079
+  },
+  {
+   "id": "CVE-2026-118702",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Double free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.01079
+  },
+  {
+   "id": "CVE-2026-118703",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-118704",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118705",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118706",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-118707",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118708",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Release of invalid pointer or reference in Microsoft Office Excel allows an unauthorized attacker to execute...",
+   "summary": "Release of invalid pointer or reference in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118709",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118710",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-118711",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.01079
+  },
+  {
+   "id": "CVE-2026-113551",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.7,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Audition is affected by a Violation of Secure Design Principles vulnerability that could result in privilege...",
+   "summary": "Audition is affected by a Violation of Secure Design Principles vulnerability that could result in privilege escalation. A low-privileged attacker could leverage this vulnerability to gain elevated access. Exploitation of this issue does not require user interaction. Scope is changed.",
+   "affects": [],
+   "epss": 0.00292
+  },
+  {
+   "id": "CVE-2026-113553",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Audition is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in...",
+   "summary": "Audition is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+   "affects": [],
+   "epss": 0.00285
+  },
+  {
+   "id": "CVE-2026-113555",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Audition is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in...",
+   "summary": "Audition is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+   "affects": [],
+   "epss": 0.00285
+  },
+  {
+   "id": "CVE-2026-113557",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.6,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Audition is affected by an Improper Input Validation vulnerability that could result in arbitrary code...",
+   "summary": "Audition is affected by an Improper Input Validation vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue requires user interaction in that a victim must open a malicious file. Scope is changed.",
+   "affects": [],
+   "epss": 0.00326
+  },
+  {
+   "id": "CVE-2026-113558",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.6,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Audition is affected by an Improper Input Validation vulnerability that could result in arbitrary code...",
+   "summary": "Audition is affected by an Improper Input Validation vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue requires user interaction in that a victim must open a malicious file. Scope is changed.",
+   "affects": [],
+   "epss": 0.00326
+  },
+  {
+   "id": "CVE-2026-113560",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.7,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Audition is affected by an Incorrect Authorization vulnerability that could result in arbitrary code...",
+   "summary": "Audition is affected by an Incorrect Authorization vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploit depends on conditions beyond the attacker's control. Exploitation of this issue requires user interaction in that a victim must open a malicious file. Scope is changed.",
+   "affects": [],
+   "epss": 0.00242
+  },
+  {
+   "id": "CVE-2026-113562",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.7,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Audition is affected by an Improper Input Validation vulnerability that could result in arbitrary code...",
+   "summary": "Audition is affected by an Improper Input Validation vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploit depends on conditions beyond the attacker's control. Exploitation of this issue requires user interaction in that a victim must open a malicious file. Scope is changed.",
+   "affects": [],
+   "epss": 0.0028
+  },
+  {
+   "id": "CVE-2026-113563",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.6,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Audition is affected by a Violation of Secure Design Principles vulnerability that could result in arbitrary...",
+   "summary": "Audition is affected by a Violation of Secure Design Principles vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue requires user interaction in that a victim must open a malicious file. Scope is changed.",
+   "affects": [],
+   "epss": 0.00311
+  },
+  {
+   "id": "CVE-2026-113565",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Audition is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in...",
+   "summary": "Audition is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+   "affects": [],
+   "epss": 0.00285
+  },
+  {
+   "id": "CVE-2026-113567",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Audition is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in...",
+   "summary": "Audition is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
+   "affects": [],
+   "epss": 0.00285
+  },
+  {
    "id": "CVE-2026-19868",
    "vendor": "SonicWall",
    "product": "sonicos",
@@ -455,7 +1457,7 @@
      "toExcl": "2026.2.1"
     }
    ],
-   "epss": 0.00566
+   "epss": 0.0053
   },
   {
    "id": "CVE-2026-123838",
@@ -553,6 +1555,120 @@
    "epss": 0.00145
   },
   {
+   "id": "CVE-2026-123279",
+   "vendor": "JetBrains",
+   "product": "datalore",
+   "category": "DevOps & Collaboration",
+   "cvss": 9,
+   "kev": false,
+   "published": "2026-11-06",
+   "title": "In JetBrains Datalore before 2026.4 code execution was possible in a notebook's computation by view-only...",
+   "summary": "In JetBrains Datalore before 2026.4 code execution was possible in a notebook's computation by view-only collaborators",
+   "affects": [
+    {
+     "vendor": "JetBrains",
+     "product": "datalore",
+     "toExcl": "2026.4"
+    }
+   ],
+   "epss": 0.00312
+  },
+  {
+   "id": "CVE-2026-123280",
+   "vendor": "JetBrains",
+   "product": "datalore",
+   "category": "DevOps & Collaboration",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-11-06",
+   "title": "In JetBrains Datalore before 2026.2.4 unauthenticated users could execute code via published interactive...",
+   "summary": "In JetBrains Datalore before 2026.2.4 unauthenticated users could execute code via published interactive reports",
+   "affects": [
+    {
+     "vendor": "JetBrains",
+     "product": "datalore",
+     "toExcl": "2026.2.4"
+    }
+   ],
+   "epss": 0.00391
+  },
+  {
+   "id": "CVE-2026-123281",
+   "vendor": "JetBrains",
+   "product": "datalore",
+   "category": "DevOps & Collaboration",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-11-06",
+   "title": "In JetBrains Datalore before 2026.4 notebook code could execute commands in the sidecar container via the...",
+   "summary": "In JetBrains Datalore before 2026.4 notebook code could execute commands in the sidecar container via the mount broker",
+   "affects": [
+    {
+     "vendor": "JetBrains",
+     "product": "datalore",
+     "toExcl": "2026.4"
+    }
+   ],
+   "epss": 0.00365
+  },
+  {
+   "id": "CVE-2026-123282",
+   "vendor": "JetBrains",
+   "product": "datalore",
+   "category": "DevOps & Collaboration",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-11-06",
+   "title": "In JetBrains Datalore before 2026.4 missing expiration validation of account tokens allowed a new...",
+   "summary": "In JetBrains Datalore before 2026.4 missing expiration validation of account tokens allowed a new authenticated session",
+   "affects": [
+    {
+     "vendor": "JetBrains",
+     "product": "datalore",
+     "toExcl": "2026.4"
+    }
+   ],
+   "epss": 0.00277
+  },
+  {
+   "id": "CVE-2026-123834",
+   "vendor": "JetBrains",
+   "product": "datalore",
+   "category": "DevOps & Collaboration",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-11-06",
+   "title": "In JetBrains Datalore before 2026.4 improper scope validation in database tasks allowed using another...",
+   "summary": "In JetBrains Datalore before 2026.4 improper scope validation in database tasks allowed using another workspace's service account",
+   "affects": [
+    {
+     "vendor": "JetBrains",
+     "product": "datalore",
+     "toExcl": "2026.4"
+    }
+   ],
+   "epss": 0.0029
+  },
+  {
+   "id": "CVE-2026-123836",
+   "vendor": "JetBrains",
+   "product": "datalore",
+   "category": "DevOps & Collaboration",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-06",
+   "title": "In JetBrains Datalore before 2026.4 workspace collaborators could obtain the owner's SSH private key via Git...",
+   "summary": "In JetBrains Datalore before 2026.4 workspace collaborators could obtain the owner's SSH private key via Git backup",
+   "affects": [
+    {
+     "vendor": "JetBrains",
+     "product": "datalore",
+     "toExcl": "2026.4"
+    }
+   ],
+   "epss": 0.00482
+  },
+  {
    "id": "CVE-2026-109928",
    "vendor": "Apache",
    "product": "ofbiz",
@@ -569,7 +1685,7 @@
      "toExcl": "24.09.08"
     }
    ],
-   "epss": 0.00195
+   "epss": 0.00382
   },
   {
    "id": "CVE-2026-114233",
@@ -588,7 +1704,7 @@
      "toExcl": "24.09.08"
     }
    ],
-   "epss": 0.0018
+   "epss": 0.0045
   },
   {
    "id": "CVE-2026-82904",
@@ -607,7 +1723,7 @@
      "toExcl": "24.09.08"
     }
    ],
-   "epss": 0.00563
+   "epss": 0.00693
   },
   {
    "id": "CVE-2026-82907",
@@ -626,7 +1742,7 @@
      "toExcl": "24.09.08"
     }
    ],
-   "epss": 0.00796
+   "epss": 0.00872
   },
   {
    "id": "CVE-2026-82910",
@@ -645,7 +1761,7 @@
      "toExcl": "24.09.08"
     }
    ],
-   "epss": 0.00648
+   "epss": 0.00805
   },
   {
    "id": "CVE-2026-82912",
@@ -664,7 +1780,7 @@
      "toExcl": "24.09.08"
     }
    ],
-   "epss": 0.00728
+   "epss": 0.0083
   },
   {
    "id": "CVE-2026-82916",
@@ -683,7 +1799,7 @@
      "toExcl": "24.09.08"
     }
    ],
-   "epss": 0.00384
+   "epss": 0.00652
   },
   {
    "id": "CVE-2026-82960",
@@ -702,7 +1818,7 @@
      "toExcl": "24.09.08"
     }
    ],
-   "epss": 0.00618
+   "epss": 0.00793
   },
   {
    "id": "CVE-2026-83542",
@@ -721,7 +1837,7 @@
      "toExcl": "24.09.08"
     }
    ],
-   "epss": 0.01069
+   "epss": 0.01369
   },
   {
    "id": "CVE-2026-84183",
@@ -740,7 +1856,7 @@
      "toExcl": "24.09.08"
     }
    ],
-   "epss": 0.00994
+   "epss": 0.01151
   },
   {
    "id": "CVE-2026-85627",
@@ -759,7 +1875,7 @@
      "toExcl": "24.09.08"
     }
    ],
-   "epss": 0.00418
+   "epss": 0.00508
   },
   {
    "id": "CVE-2026-92887",
@@ -778,7 +1894,7 @@
      "toExcl": "24.09.08"
     }
    ],
-   "epss": 0.00225
+   "epss": 0.00693
   },
   {
    "id": "CVE-2026-90628",
@@ -1016,7 +2132,7 @@
     }
    ],
    "kevAdded": "2026-11-10",
-   "epss": 0.0106
+   "epss": 0.09082
   },
   {
    "id": "CVE-2026-116606",
@@ -1056,7 +2172,7 @@
     }
    ],
    "kevAdded": "2026-11-10",
-   "epss": 0.01602
+   "epss": 0.10947
   },
   {
    "id": "CVE-2026-64618",
@@ -1380,6 +2496,101 @@
    ],
    "kevAdded": "2026-10-29",
    "epss": 0.00821
+  },
+  {
+   "id": "CVE-2026-118035",
+   "vendor": "Progress",
+   "product": "telerik document processing libraries",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-28",
+   "title": "In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, uncontrolled recursion,...",
+   "summary": "In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, uncontrolled recursion, inefficient algorithmic complexity and infinite loop vulnerabilities in RadWordsProcessing allow an unauthenticated attacker to terminate or hang the host process via a crafted DOCX, DOC, RTF or HTML document.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "telerik document processing libraries",
+     "toExcl": "2026.3.1027"
+    }
+   ],
+   "epss": 0.00313
+  },
+  {
+   "id": "CVE-2026-118036",
+   "vendor": "Progress",
+   "product": "telerik document processing libraries",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-28",
+   "title": "In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, uncontrolled recursion,...",
+   "summary": "In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, uncontrolled recursion, infinite loop, inefficient algorithmic complexity and resource allocation vulnerabilities in RadPdfProcessing and AI document summarization and question answering allow an unauthenticated attacker to terminate or hang the host process via a crafted PDF document or document text submitted for summarization or question answering.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "telerik document processing libraries",
+     "toExcl": "2026.3.1027"
+    }
+   ],
+   "epss": 0.00403
+  },
+  {
+   "id": "CVE-2026-118037",
+   "vendor": "Progress",
+   "product": "telerik document processing libraries",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-28",
+   "title": "In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, uncontrolled recursion,...",
+   "summary": "In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, uncontrolled recursion, infinite loop, unchecked loop condition and inefficient regular expression vulnerabilities in RadSpreadProcessing and RadSpreadStreamProcessing allow an unauthenticated attacker to terminate or hang the host process via a crafted XLSX or XLS workbook or formula.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "telerik document processing libraries",
+     "toExcl": "2026.3.1027"
+    }
+   ],
+   "epss": 0.00295
+  },
+  {
+   "id": "CVE-2026-118038",
+   "vendor": "Progress",
+   "product": "telerik document processing libraries",
+   "category": "Application Platforms",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-10-28",
+   "title": "In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, a path traversal...",
+   "summary": "In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, a path traversal vulnerability in the Convert and Merge AI agent tools allows an authenticated attacker with low privileges who can supply tool arguments to read files outside the configured output directory, and to overwrite such files where they are writable, via relative file paths that resolve against the process current working directory.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "telerik document processing libraries",
+     "toExcl": "2026.3.1027"
+    }
+   ],
+   "epss": 0.00276
+  },
+  {
+   "id": "CVE-2026-118039",
+   "vendor": "Progress",
+   "product": "telerik document processing libraries",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-28",
+   "title": "In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, an XML external entity...",
+   "summary": "In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, an XML external entity reference vulnerability in SVG image processing allows an unauthenticated attacker to read local files on the server via a crafted SVG image with a nested embedded SVG, when the image is processed or exported to PDF.",
+   "affects": [
+    {
+     "vendor": "Progress",
+     "product": "telerik document processing libraries",
+     "toExcl": "2026.3.1027"
+    }
+   ],
+   "epss": 0.00268
   },
   {
    "id": "CVE-2026-118310",
@@ -6314,7 +7525,7 @@
      "version": "15.2.0.0.0"
     }
    ],
-   "epss": 0.0042
+   "epss": 0.00441
   },
   {
    "id": "CVE-2026-101763",
@@ -6348,7 +7559,7 @@
      "version": "15.2.0.0.0"
     }
    ],
-   "epss": 0.00501
+   "epss": 0.00526
   },
   {
    "id": "CVE-2026-101765",
@@ -6382,7 +7593,7 @@
      "version": "15.2.0.0.0"
     }
    ],
-   "epss": 0.0042
+   "epss": 0.00441
   },
   {
    "id": "CVE-2026-101791",
@@ -6401,7 +7612,7 @@
      "version": "15.2.0.0.0"
     }
    ],
-   "epss": 0.00326
+   "epss": 0.00337
   },
   {
    "id": "CVE-2026-101809",
@@ -6421,7 +7632,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00538
+   "epss": 0.00565
   },
   {
    "id": "CVE-2026-101816",
@@ -6441,7 +7652,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.0043
+   "epss": 0.00453
   },
   {
    "id": "CVE-2026-101818",
@@ -6461,7 +7672,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00229
+   "epss": 0.00237
   },
   {
    "id": "CVE-2026-101834",
@@ -6479,7 +7690,7 @@
      "product": "shipping execution"
     }
    ],
-   "epss": 0.00348
+   "epss": 0.00366
   },
   {
    "id": "CVE-2026-101835",
@@ -6497,7 +7708,7 @@
      "product": "shipping execution"
     }
    ],
-   "epss": 0.00377
+   "epss": 0.00396
   },
   {
    "id": "CVE-2026-101837",
@@ -6515,7 +7726,7 @@
      "product": "shipping execution"
     }
    ],
-   "epss": 0.0022
+   "epss": 0.00221
   },
   {
    "id": "CVE-2026-101852",
@@ -6535,7 +7746,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-101853",
@@ -6555,7 +7766,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-101854",
@@ -6575,7 +7786,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-87263",
@@ -6599,7 +7810,7 @@
      "version": "26.01.0.0.0"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00403
   },
   {
    "id": "CVE-2026-87307",
@@ -6619,7 +7830,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.0038
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-87308",
@@ -6639,7 +7850,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00149
+   "epss": 0.00165
   },
   {
    "id": "CVE-2026-87309",
@@ -6659,7 +7870,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00352
+   "epss": 0.00354
   },
   {
    "id": "CVE-2026-87310",
@@ -6679,7 +7890,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-87312",
@@ -6699,7 +7910,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00301
+   "epss": 0.00311
   },
   {
    "id": "CVE-2026-87313",
@@ -6719,7 +7930,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-87314",
@@ -6739,7 +7950,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00301
+   "epss": 0.00317
   },
   {
    "id": "CVE-2026-87315",
@@ -6759,7 +7970,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00323
+   "epss": 0.0033
   },
   {
    "id": "CVE-2026-87316",
@@ -6779,7 +7990,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00135
+   "epss": 0.0015
   },
   {
    "id": "CVE-2026-87419",
@@ -6803,7 +8014,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-87420",
@@ -6822,7 +8033,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-91213",
@@ -6846,7 +8057,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-91220",
@@ -6870,7 +8081,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.0045
+   "epss": 0.00474
   },
   {
    "id": "CVE-2026-91222",
@@ -6894,7 +8105,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00403
   },
   {
    "id": "CVE-2026-91241",
@@ -6923,7 +8134,7 @@
      "version": "26.01.0.0.0"
     }
    ],
-   "epss": 0.00317
+   "epss": 0.00339
   },
   {
    "id": "CVE-2026-91243",
@@ -6947,7 +8158,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00326
+   "epss": 0.00337
   },
   {
    "id": "CVE-2026-91250",
@@ -6971,7 +8182,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-91251",
@@ -6995,7 +8206,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-91323",
@@ -7029,7 +8240,7 @@
      "version": "15.1.1.0.0"
     }
    ],
-   "epss": 0.00496
+   "epss": 0.00522
   },
   {
    "id": "CVE-2026-91325",
@@ -7049,7 +8260,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00398
+   "epss": 0.00418
   },
   {
    "id": "CVE-2026-91326",
@@ -7069,7 +8280,7 @@
      "to": "9.2.26.4"
     }
    ],
-   "epss": 0.00212
+   "epss": 0.00299
   },
   {
    "id": "CVE-2026-91327",
@@ -7089,7 +8300,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00199
+   "epss": 0.0028
   },
   {
    "id": "CVE-2026-91328",
@@ -7109,7 +8320,7 @@
      "to": "9.2.26.5"
     }
    ],
-   "epss": 0.00118
+   "epss": 0.00136
   },
   {
    "id": "CVE-2026-91340",
@@ -7128,7 +8339,7 @@
      "version": "8.5.8"
     }
    ],
-   "epss": 0.00389
+   "epss": 0.00402
   },
   {
    "id": "CVE-2026-91341",
@@ -7147,7 +8358,7 @@
      "version": "8.5.8"
     }
    ],
-   "epss": 0.00407
+   "epss": 0.00416
   },
   {
    "id": "CVE-2026-91342",
@@ -7166,7 +8377,7 @@
      "version": "8.5.8"
     }
    ],
-   "epss": 0.00265
+   "epss": 0.00271
   },
   {
    "id": "CVE-2026-91343",
@@ -7185,7 +8396,7 @@
      "version": "8.5.8"
     }
    ],
-   "epss": 0.00323
+   "epss": 0.0033
   },
   {
    "id": "CVE-2026-91344",
@@ -7204,7 +8415,7 @@
      "version": "8.5.8"
     }
    ],
-   "epss": 0.00441
+   "epss": 0.0045
   },
   {
    "id": "CVE-2026-91345",
@@ -7223,7 +8434,7 @@
      "version": "8.5.8"
     }
    ],
-   "epss": 0.00441
+   "epss": 0.0045
   },
   {
    "id": "CVE-2026-91346",
@@ -7242,7 +8453,7 @@
      "version": "8.5.8"
     }
    ],
-   "epss": 0.00228
+   "epss": 0.00244
   },
   {
    "id": "CVE-2026-91349",
@@ -7261,7 +8472,7 @@
      "version": "8.5.8"
     }
    ],
-   "epss": 0.00324
+   "epss": 0.00337
   },
   {
    "id": "CVE-2026-91350",
@@ -7280,7 +8491,7 @@
      "version": "8.5.8"
     }
    ],
-   "epss": 0.00441
+   "epss": 0.0045
   },
   {
    "id": "CVE-2026-91353",
@@ -7299,7 +8510,7 @@
      "version": "8.5.8"
     }
    ],
-   "epss": 0.00398
+   "epss": 0.00418
   },
   {
    "id": "CVE-2026-91354",
@@ -7318,7 +8529,7 @@
      "version": "8.5.8"
     }
    ],
-   "epss": 0.00286
+   "epss": 0.00301
   },
   {
    "id": "CVE-2026-91355",
@@ -7337,7 +8548,7 @@
      "version": "8.5.8"
     }
    ],
-   "epss": 0.00156
+   "epss": 0.00176
   },
   {
    "id": "CVE-2026-91358",
@@ -7361,7 +8572,7 @@
      "version": "14.1.2.0.0"
     }
    ],
-   "epss": 0.00321
+   "epss": 0.00338
   },
   {
    "id": "CVE-2026-91419",
@@ -7380,7 +8591,7 @@
      "version": "12.2.1.4.0"
     }
    ],
-   "epss": 0.00145
+   "epss": 0.00161
   },
   {
    "id": "CVE-2026-91473",
@@ -7399,7 +8610,7 @@
      "version": "12.2.1.4.0"
     }
    ],
-   "epss": 0.00135
+   "epss": 0.00151
   },
   {
    "id": "CVE-2026-91496",
@@ -7419,7 +8630,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00301
+   "epss": 0.00311
   },
   {
    "id": "CVE-2026-91502",
@@ -7453,7 +8664,7 @@
      "version": "15.1.1.0.0"
     }
    ],
-   "epss": 0.00288
+   "epss": 0.00316
   },
   {
    "id": "CVE-2026-91506",
@@ -7473,7 +8684,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00271
+   "epss": 0.00291
   },
   {
    "id": "CVE-2026-91534",
@@ -7502,7 +8713,7 @@
      "version": "26.01.0.0.0"
     }
    ],
-   "epss": 0.00237
+   "epss": 0.00246
   },
   {
    "id": "CVE-2026-91535",
@@ -7531,7 +8742,7 @@
      "version": "26.01.0.0.0"
     }
    ],
-   "epss": 0.00286
+   "epss": 0.00302
   },
   {
    "id": "CVE-2026-91539",
@@ -7550,7 +8761,7 @@
      "version": "12.2.1.4.0"
     }
    ],
-   "epss": 0.00135
+   "epss": 0.0015
   },
   {
    "id": "CVE-2026-91545",
@@ -7574,7 +8785,7 @@
      "version": "12.2.1.4.0"
     }
    ],
-   "epss": 0.00151
+   "epss": 0.0017
   },
   {
    "id": "CVE-2026-91546",
@@ -7593,7 +8804,7 @@
      "version": "12.2.1.4.0"
     }
    ],
-   "epss": 0.00272
+   "epss": 0.00291
   },
   {
    "id": "CVE-2026-91549",
@@ -7617,7 +8828,7 @@
      "version": "12.2.1.4.0"
     }
    ],
-   "epss": 0.00151
+   "epss": 0.0017
   },
   {
    "id": "CVE-2026-91557",
@@ -7636,7 +8847,7 @@
      "version": "12.2.1.4.0"
     }
    ],
-   "epss": 0.0009
+   "epss": 0.00101
   },
   {
    "id": "CVE-2026-91597",
@@ -7660,7 +8871,7 @@
      "version": "26.01.0.0.0"
     }
    ],
-   "epss": 0.00176
+   "epss": 0.00247
   },
   {
    "id": "CVE-2026-91627",
@@ -7694,7 +8905,219 @@
      "version": "15.2.0.0.0"
     }
    ],
-   "epss": 0.00144
+   "epss": 0.00161
+  },
+  {
+   "id": "CVE-2026-101534",
+   "vendor": "Oracle",
+   "product": "e-business suite",
+   "category": "ERP & Business Apps",
+   "cvss": 8.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle EDI Gateway product of Oracle E-Business Suite (component: EDI).",
+   "summary": "Vulnerability in the Oracle EDI Gateway product of Oracle E-Business Suite (component: EDI).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle EDI Gateway.  While the vulnerability is in Oracle EDI Gateway, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle EDI Gateway accessible data as well as  unauthorized update, insert or delete access to some of Oracle EDI Gateway accessible data. CVSS 3.1 Base Score 8.5 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:L/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "e-business suite",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00211
+  },
+  {
+   "id": "CVE-2026-101535",
+   "vendor": "Oracle",
+   "product": "e-business suite",
+   "category": "ERP & Business Apps",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Sales Foundation product of Oracle E-Business Suite (component: Security API).",
+   "summary": "Vulnerability in the Oracle Sales Foundation product of Oracle E-Business Suite (component: Security API).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Sales Foundation.  Successful attacks of this vulnerability can result in takeover of Oracle Sales Foundation. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "e-business suite",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00323
+  },
+  {
+   "id": "CVE-2026-101536",
+   "vendor": "Oracle",
+   "product": "cost management",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Cost Management product of Oracle E-Business Suite (component: Cost Maintenance).",
+   "summary": "Vulnerability in the Oracle Cost Management product of Oracle E-Business Suite (component: Cost Maintenance).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Cost Management.  Successful attacks of this vulnerability can result in takeover of Oracle Cost Management. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "cost management",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00323
+  },
+  {
+   "id": "CVE-2026-101540",
+   "vendor": "Oracle",
+   "product": "capacity",
+   "category": "Application Platforms",
+   "cvss": 7.7,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Capacity product of Oracle E-Business Suite (component: Internal Operations).",
+   "summary": "Vulnerability in the Oracle Capacity product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Capacity.  While the vulnerability is in Oracle Capacity, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Capacity accessible data. CVSS 3.1 Base Score 7.7 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "capacity"
+    }
+   ],
+   "epss": 0.00393
+  },
+  {
+   "id": "CVE-2026-101541",
+   "vendor": "Oracle",
+   "product": "capacity",
+   "category": "Application Platforms",
+   "cvss": 7.7,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Capacity product of Oracle E-Business Suite (component: Internal Operations).",
+   "summary": "Vulnerability in the Oracle Capacity product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Capacity.  While the vulnerability is in Oracle Capacity, attacks may significantly impact additional products (scope change).  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Capacity accessible data. CVSS 3.1 Base Score 7.7 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "capacity"
+    }
+   ],
+   "epss": 0.00393
+  },
+  {
+   "id": "CVE-2026-101542",
+   "vendor": "Oracle",
+   "product": "capacity",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Capacity product of Oracle E-Business Suite (component: Internal Operations).",
+   "summary": "Vulnerability in the Oracle Capacity product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Capacity.  Successful attacks of this vulnerability can result in takeover of Oracle Capacity. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "capacity"
+    }
+   ],
+   "epss": 0.00323
+  },
+  {
+   "id": "CVE-2026-101543",
+   "vendor": "Oracle",
+   "product": "capacity",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Capacity product of Oracle E-Business Suite (component: Internal Operations).",
+   "summary": "Vulnerability in the Oracle Capacity product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Capacity.  Successful attacks of this vulnerability can result in takeover of Oracle Capacity. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "capacity"
+    }
+   ],
+   "epss": 0.00265
+  },
+  {
+   "id": "CVE-2026-101546",
+   "vendor": "Oracle",
+   "product": "e-business suite",
+   "category": "ERP & Business Apps",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Materials Requirement Planning product of Oracle E-Business Suite (component:...",
+   "summary": "Vulnerability in the Oracle Materials Requirement Planning product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Materials Requirement Planning.  Successful attacks of this vulnerability can result in takeover of Oracle Materials Requirement Planning. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "e-business suite",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00323
+  },
+  {
+   "id": "CVE-2026-101552",
+   "vendor": "Oracle",
+   "product": "application object library",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Application Object Library product of Oracle E-Business Suite (component:...",
+   "summary": "Vulnerability in the Oracle Application Object Library product of Oracle E-Business Suite (component: Flexfields).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Application Object Library.  Successful attacks of this vulnerability can result in takeover of Oracle Application Object Library. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "application object library",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00323
+  },
+  {
+   "id": "CVE-2026-101566",
+   "vendor": "Oracle",
+   "product": "application object library",
+   "category": "Application Platforms",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Application Object Library product of Oracle E-Business Suite (component: DB...",
+   "summary": "Vulnerability in the Oracle Application Object Library product of Oracle E-Business Suite (component: DB Privileges).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with logon to the infrastructure where Oracle Application Object Library executes to compromise Oracle Application Object Library.  Successful attacks of this vulnerability can result in takeover of Oracle Application Object Library. CVSS 3.1 Base Score 7.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "application object library",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00106
+  },
+  {
+   "id": "CVE-2026-101567",
+   "vendor": "Oracle",
+   "product": "e-business suite",
+   "category": "ERP & Business Apps",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Cost Management product of Oracle E-Business Suite (component: Cost Planning).",
+   "summary": "Vulnerability in the Oracle Cost Management product of Oracle E-Business Suite (component: Cost Planning).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Cost Management.  Successful attacks of this vulnerability can result in takeover of Oracle Cost Management. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "e-business suite",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00464
   },
   {
    "id": "CVE-2026-78162",
@@ -8813,7 +10236,7 @@
     }
    ],
    "kevAdded": "2026-10-14",
-   "epss": 0.0174
+   "epss": 0.02147
   },
   {
    "id": "CVE-2026-87093",
@@ -9644,7 +11067,7 @@
      "toExcl": "19.4.2"
     }
    ],
-   "epss": 0.6522,
+   "epss": 0.69289,
    "kevAdded": "2026-10-29"
   },
   {
@@ -16418,7 +17841,7 @@
    "title": "Improper verification of cryptographic signature in Windows Audio Service allows an authorized attacker to...",
    "summary": "Improper verification of cryptographic signature in Windows Audio Service allows an authorized attacker to elevate privileges locally.",
    "affects": [],
-   "epss": 0.00325
+   "epss": 0.00416
   },
   {
    "id": "CVE-2026-97800",
@@ -25630,7 +27053,7 @@
      "toExcl": "1.141.1"
     }
    ],
-   "epss": 0.00822
+   "epss": 0.00805
   },
   {
    "id": "CVE-2026-102235",
@@ -25649,7 +27072,7 @@
      "toExcl": "1.141.3"
     }
    ],
-   "epss": 0.0072
+   "epss": 0.00704
   },
   {
    "id": "CVE-2026-102238",
@@ -25668,7 +27091,7 @@
      "toExcl": "1.141.3"
     }
    ],
-   "epss": 0.00817
+   "epss": 0.00799
   },
   {
    "id": "CVE-2026-103844",
@@ -25765,7 +27188,7 @@
      "toExcl": "1.141.3"
     }
    ],
-   "epss": 0.00584
+   "epss": 0.00571
   },
   {
    "id": "CVE-2026-100127",
@@ -26835,7 +28258,7 @@
      "toExcl": "2.23.6"
     }
    ],
-   "epss": 0.00725
+   "epss": 0.0083
   },
   {
    "id": "CVE-2026-106373",
@@ -26943,7 +28366,7 @@
      "toExcl": "7.4.0"
     }
    ],
-   "epss": 0.01394
+   "epss": 0.01655
   },
   {
    "id": "CVE-2026-104712",
@@ -27270,7 +28693,7 @@
    "published": "2026-10-01",
    "title": "In JetBrains YouTrack before 2026.2.19422 stored XSS via Mermaid and LaTeX content was possible",
    "summary": "In JetBrains YouTrack before 2026.2.19422 stored XSS via Mermaid and LaTeX content was possible",
-   "epss": 0.00221,
+   "epss": 0.0023,
    "affects": [
     {
      "vendor": "JetBrains",
@@ -27421,7 +28844,7 @@
      "toExcl": "2026.2.19422"
     }
    ],
-   "epss": 0.00211
+   "epss": 0.00219
   },
   {
    "id": "CVE-2026-103490",
@@ -27440,7 +28863,7 @@
      "toExcl": "2026.2.19422"
     }
    ],
-   "epss": 0.00257
+   "epss": 0.00267
   },
   {
    "id": "CVE-2026-56154",
@@ -30379,7 +31802,7 @@
    "published": "2026-09-21",
    "title": "A specially crafted WS-Policy document with deeply nested policy elements can bypass Neethi's nesting-depth...",
    "summary": "A specially crafted WS-Policy document with deeply nested policy elements can bypass Neethi's nesting-depth limit and exhaust the thread stack, crashing the parser (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
-   "epss": 0.00758,
+   "epss": 0.00454,
    "affects": [
     {
      "vendor": "Apache",
@@ -30398,7 +31821,7 @@
    "published": "2026-09-21",
    "title": "A specially crafted WS-Policy document can pack unlimited content inside a policy assertion, which Neethi...",
    "summary": "A specially crafted WS-Policy document can pack unlimited content inside a policy assertion, which Neethi copies into memory without counting it against its size limits, exhausting the heap (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
-   "epss": 0.0074,
+   "epss": 0.00485,
    "affects": [
     {
      "vendor": "Apache",
@@ -30417,7 +31840,7 @@
    "published": "2026-09-21",
    "title": "A small WS-Policy document using repeated policy references can force Neethi to re-expand the same references...",
    "summary": "A small WS-Policy document using repeated policy references can force Neethi to re-expand the same references exponentially during normalization, consuming huge amounts of CPU and memory (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
-   "epss": 0.0074,
+   "epss": 0.00604,
    "affects": [
     {
      "vendor": "Apache",
@@ -30436,7 +31859,7 @@
    "published": "2026-09-21",
    "title": "A specially crafted pair of WS-Policy documents can force Neethi's policy-intersection to do exponential...",
    "summary": "A specially crafted pair of WS-Policy documents can force Neethi's policy-intersection to do exponential amounts of work, pinning the CPU for a long time (denial of service).\nUsers are recommended to upgrade to version 3.2.4, which fixes this issue.",
-   "epss": 0.0074,
+   "epss": 0.00604,
    "affects": [
     {
      "vendor": "Apache",
@@ -37686,7 +39109,7 @@
    "published": "2026-09-10",
    "title": "An unauthenticated remote attacker can create arbitrary durable queues via the CORE protocol, leading to...",
    "summary": "An unauthenticated remote attacker can create arbitrary durable queues via the CORE protocol, leading to unauthorized broker state manipulation and potential denial of service.\n\nThis issue affects Apache Artemis: from 2.50.0 through 2.56.0; Apache ActiveMQ Artemis: from 1.0.0 through 2.44.0.\n\n\n\nUsers are recommended to upgrade to version 2.57.0, which fixes the issue.",
-   "epss": 0.00821,
+   "epss": 0.00611,
    "affects": [
     {
      "vendor": "Apache",
@@ -37738,7 +39161,7 @@
    "published": "2026-09-10",
    "title": "An unauthenticated network-adjacent attacker can leverage discovery to capture cluster administrative...",
    "summary": "An unauthenticated network-adjacent attacker can leverage discovery to capture cluster administrative credentials during the initial cluster connection handshake.\n\nThis issue affects Apache Artemis: from 2.50.0 through 2.56.0; Apache ActiveMQ Artemis: from 1.0.0 through 2.44.0.\n\n\n\nUsers are recommended to upgrade to version 2.57.0, which fixes the issue.",
-   "epss": 0.00566,
+   "epss": 0.00385,
    "affects": [
     {
      "vendor": "Apache",
@@ -37764,7 +39187,7 @@
    "published": "2026-09-10",
    "title": "An unauthenticated remote attacker can craft a CORE protocol SESSION_REATTACH packet to steal an existing...",
    "summary": "An unauthenticated remote attacker can craft a CORE protocol SESSION_REATTACH packet to steal an existing session and assume ongoing execution of the previously authenticated session.\n\n\n\nThis issue affects Apache Artemis: from 2.50.0 through 2.56.0; Apache ActiveMQ Artemis: from 1.0.0 through 2.44.0.\n\n\n\nUsers are recommended to upgrade to version 2.57.0, which fixes the issue.",
-   "epss": 0.01468,
+   "epss": 0.00943,
    "affects": [
     {
      "vendor": "Apache",
@@ -50845,7 +52268,7 @@
    "published": "2026-09-08",
    "title": "Improper link resolution before file access ('link following') in Windows Update Stack allows an authorized...",
    "summary": "Improper link resolution before file access ('link following') in Windows Update Stack allows an authorized attacker to elevate privileges locally.",
-   "epss": 0.00393,
+   "epss": 0.07115,
    "kevAdded": "2026-09-08",
    "affects": []
   },
@@ -51776,7 +53199,7 @@
    "published": "2026-09-08",
    "title": "A condition in the ScreenConnect client may allow files to be transferred and executed through an active...",
    "summary": "A condition in the ScreenConnect client may allow files to be transferred and executed through an active remote session without authorization or Host confirmation in certain circumstances. ScreenConnect servers are not impacted.",
-   "epss": 0.00924,
+   "epss": 0.01173,
    "kevAdded": "2026-09-11",
    "affects": [
     {

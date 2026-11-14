@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-12T13:49:56.828Z",
+ "generated": "2026-11-14T12:17:13.087Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 20
   },
   {
@@ -78,15 +78,15 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
-   "count": 5753
+   "checked": "2026-11-14T12:17:13.087Z",
+   "count": 5792
   },
   {
    "company": "microsoft",
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,19 +224,435 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
-   "count": 720
+   "checked": "2026-11-14T12:17:13.087Z",
+   "count": 722
   },
   {
    "company": "zscaler",
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-11-12T13:49:56.828Z",
+   "checked": "2026-11-14T12:17:13.087Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "SCKit abuses ScreenConnect to deploy remote access and target technician sessions",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/13/sckit-abuses-screenconnect-deploy-remote-access-target-technician-sessions/",
+   "date": "2026-11-13T21:31:44.000Z",
+   "summary": "SCKit abuses ScreenConnect to deploy unauthorized remote access and target technicians. Explore the attack chain, mitigations, and Microsoft Defender XDR hunting. The post SCKit abuses ScreenConnect to deploy remote access and target technician sessions appeared first on..."
+  },
+  {
+   "company": "sentinelone",
+   "feed": "Blog",
+   "title": "ARTEX Unmasked | The Rise of AI-Powered ARTEX in Cybercrime & Espionage",
+   "link": "https://www.sentinelone.com/blog/artex-unmasked-the-rise-of-ai-powered-artex-in-cybercrime-espionage/",
+   "date": "2026-11-13T21:23:19.000Z",
+   "summary": "Learn how SentinelOne Behavioral AI, Singularity AI SIEM, and Purple AI detect and stop autonomous ARTEX attacks across cloud, identity, and endpoints."
+  },
+  {
+   "company": "talos",
+   "feed": "Threat research",
+   "title": "ARTEX and beyond: AI-enabled penetration testing platforms",
+   "link": "https://blog.talosintelligence.com/artex-and-beyond/",
+   "date": "2026-11-13T20:57:13.000Z",
+   "summary": "AI-enabled penetration testing and red team frameworks can automate and chain reconnaissance, vulnerability testing, and follow-on actions, lowering the skill threshold for attackers and accelerating intrusions when the tools are misused."
+  },
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
+   "date": "2026-11-13T20:41:37.000Z",
+   "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate..."
+  },
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
+   "date": "2026-11-13T20:01:18.000Z",
+   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due..."
+  },
+  {
+   "company": "sentinelone",
+   "feed": "Blog",
+   "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 46 (2026)",
+   "link": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-46-8",
+   "date": "2026-11-13T17:46:55.000Z",
+   "summary": "Authorities dismantle crypto scams and seize malware ops, Turla deploys Cereal to spy on governments, and attackers breach Railway to steal AI secrets."
+  },
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20BroadWorks%20Out-of-Band%20Blind%20XML%20External%20Entity%20Injection%20Vulnerability%26vs_k=1",
+   "date": "2026-11-13T17:38:56.000Z",
+   "summary": "A vulnerability in the Open Client Interface (OCI) XML Parser of Cisco BroadWorks could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system. This vulnerability exists because XML entries are improperly parsed due to..."
+  },
+  {
+   "company": "wiz",
+   "feed": "Blog",
+   "title": "The Green Agent POV: Formulating the Fix for an Exposed Container with Sensitive Data Access",
+   "link": "https://www.wiz.io/blog/inside-green-agent-investigation",
+   "date": "2026-11-13T17:05:02.000Z",
+   "summary": "See how the Green Agent balanced security urgency with business continuity to turn a toxic combination into an executable remediation plan and ready-to-merge pull requests."
+  },
+  {
+   "company": "rapid7",
+   "feed": "Blog",
+   "title": "MDR Pricing: Comparing Asset-Based and Ingestion-Based Costs",
+   "link": "https://www.rapid7.com/blog/post/dr-mdr-pricing-comparing-asset-ingestion-based-ingestion-costs",
+   "date": "2026-11-13T16:37:29.000Z",
+   "summary": "When comparing MDR pricing, it helps to understand what the same annual budget would buy from each provider. Two proposals with similar prices may give analysts access to different evidence, retain it for different periods, or leave your team with different responsibilities...."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-94522 Windows Kernel Transaction Manager Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-94522",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-95922 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95922",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "Added Microsoft Office software to the Security Updates table. Customers that are running supported version of Microsoft Office are encouraged to update to the indicated version to be protected from this vulnerability."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-95942 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95942",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "Added Microsoft Office software to the Security Updates table. Customers that are running supported version of Microsoft Office are encouraged to update to the indicated version to be protected from this vulnerability."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-95953 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95953",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "Added Microsoft Office software to the Security Updates table. Customers that are running supported version of Microsoft Office are encouraged to update to the indicated version to be protected from this vulnerability."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-96126 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96126",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "Added Microsoft Office software to the Security Updates table. Customers that are running supported version of Microsoft Office are encouraged to update to the indicated version to be protected from this vulnerability."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-96144 Windows Graphics Kernel Information Disclosure Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96144",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "Added Microsoft Office software to the Security Updates table. Customers that are running supported version of Microsoft Office are encouraged to update to the indicated version to be protected from this vulnerability."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-96150 Microsoft Windows Codecs Library Information Disclosure Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-96150",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "Added Microsoft Office software to the Security Updates table. Customers that are running supported version of Microsoft Office are encouraged to update to the indicated version to be protected from this vulnerability."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-88217 Windows Graphics Kernel Information Disclosure Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-88217",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "Added Microsoft Office software to the Security Updates table. Customers that are running supported version of Microsoft Office are encouraged to update to the indicated version to be protected from this vulnerability."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-95932 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95932",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "Added Microsoft Office software to the Security Updates table. Customers that are running supported version of Microsoft Office are encouraged to update to the indicated version to be protected from this vulnerability."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-95948 Windows Graphics Kernel Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-95948",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "Added Microsoft Office software to the Security Updates table. Customers that are running supported version of Microsoft Office are encouraged to update to the indicated version to be protected from this vulnerability."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-112765 Windows Print Spooler Components Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-112765",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-113749 Microsoft Windows Codecs Library Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-113749",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "Added Microsoft Office software to the Security Updates table. Customers that are running supported version of Microsoft Office are encouraged to update to the indicated version to be protected from this vulnerability."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-108401 Remote Desktop Services Remote Code Execution Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-108401",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "CVE-2026-109473 Windows Kernel Elevation of Privilege Vulnerability",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-109473",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "Updated an acknowledgement. This is an informational change only."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-125342: Uninitialized resource",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-125342",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-125344: Type confusion",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-125344",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-125348: Out of bounds write",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-125348",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-126840: Out of bounds write",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126840",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-126841: Out of bounds read",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126841",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-126843: Type confusion",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126843",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-126844: Uninitialized resource",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126844",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-126845: Uninitialized resource",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126845",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-126847: Type confusion",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126847",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-126848: Uninitialized resource",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126848",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-126849: Type confusion",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126849",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-126851: Use after free",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126851",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-126852: Use after free",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126852",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-126853: Uninitialized resource",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126853",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-126854: Incorrect authorization",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126854",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security advisories",
+   "title": "Chromium CVE-2026-126856: Incomplete cleanup",
+   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-126856",
+   "date": "2026-11-13T16:00:00.000Z",
+   "summary": "This CVE was assigned by Chrome. Microsoft Edge (Chromium-based) ingests Chromium, which addresses this vulnerability. Please see [Google Chrome Releases](https://chromereleases.googleblog.com/2026) for more information."
+  },
+  {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "November Patch Tuesday: How to Sort Through the Patches",
+   "link": "https://blog.qualys.com/product-tech/2026/11/13/november-patch-tuesday-how-to-sort-through-the-patches",
+   "date": "2026-11-13T15:23:43.000Z",
+   "summary": "Key Takeaways At 1,252 CVEs this month, “patch everything now” isn’t a plan; teams need to decide what to patch first, what to test, and what to mitigate. Know your exposure early: Qualys InstaScan flagged affected assets about 40 minutes before Microsoft’s release notes page..."
+  },
+  {
+   "company": "eset",
+   "feed": "WeLiveSecurity",
+   "title": "GTA VI isn’t out yet – and the scams are already in full swing",
+   "link": "https://www.welivesecurity.com/en/cybersecurity/gta-vi-isnt-out-yet-scams-full-swing/",
+   "date": "2026-11-13T10:00:00.000Z",
+   "summary": "Cybercriminals attempt to cash in on the hype around the game, luring fans with malware-laced downloads and ‘early access’ that doesn’t exist"
+  },
+  {
+   "company": "crowdstrike",
+   "feed": "Blog",
+   "title": "Inside Falcon AI Gateway: One Control Point for AI Traffic",
+   "link": "https://www.crowdstrike.com/en-us/blog/falcon-ai-gateway-one-control-point-for-ai-traffic/",
+   "date": "2026-11-13T06:00:00.000Z",
+   "summary": ""
+  },
+  {
+   "company": "fortinet",
+   "feed": "Threat signals",
+   "title": "Apache HTTP/2 RCE",
+   "link": "https://fortiguard.fortinet.com/threat-signal-report/6665",
+   "date": "2026-11-13T05:40:09.000Z",
+   "summary": "What is the Vulnerability? CVE-2026-119618 is a race condition (CWE-362) in Apache HTTP Server's mod_http2 module. In assign_headers(), the module writes to a header table that is shared between the connection thread and worker threads without adequate synchronization...."
+  },
+  {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "AI Didn’t Create a New Kind of Risk. It Removed the Time You Had to Fix the Old One.",
+   "link": "https://blog.qualys.com/product-tech/2026/11/12/ai-didnt-create-a-new-kind-of-risk-it-removed-the-time-you-had-to-fix-the-old-one",
+   "date": "2026-11-13T01:37:30.000Z",
+   "summary": "Mandiant’s AI Risk and Resilience 2026 report shows attackers putting agentic AI to work across the intrusion. Vulnerability exploitation is still the leading way in, and the window to fix it is closing. Executive Summary Mandiant and Google Threat Intelligence Group (GTIG)..."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Minus One: Predictive Cyber Defense Before Zero Day",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/minus-one-predictive-cyber-defense",
+   "date": "2026-11-13T00:00:00.000Z",
+   "summary": "Discover Minus One, TrendAI's predictive cyber defense model. Anticipate attacks, test them in your environment, and prepare defenses before zero day."
+  },
+  {
+   "company": "talos",
+   "feed": "Threat research",
+   "title": "Never be afraid to ask questions",
+   "link": "https://blog.talosintelligence.com/never-be-afraid-to-ask-questions/",
+   "date": "2026-11-12T19:00:00.000Z",
+   "summary": "Amy reflects on a formative college anthropology course that taught her the power of asking questions to bridge cultural gaps."
+  },
+  {
+   "company": "wiz",
+   "feed": "Blog",
+   "title": "ASPM in the AI Era Part 3: Fixing Risk at the Speed of Code",
+   "link": "https://www.wiz.io/blog/aspm-ai-era-pt-3-fixing-risk-code-speed",
+   "date": "2026-11-12T18:32:24.000Z",
+   "summary": "Accelerate MTTR and eliminate remediation bottlenecks with simplified ownership mapping, code fixes, and automated workflows"
+  },
+  {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "Trained to betray: How post-training supply chain attacks hijack coding agents",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/12/trained-to-betray-how-post-training-supply-chain-attacks-hijack-coding-agents/",
+   "date": "2026-11-12T17:00:00.000Z",
+   "summary": "Microsoft Defender Research and the AI Red Team discuss how poisoned datasets and poisoned model checkpoints can trigger remote code execution and other malicious activities. The post Trained to betray: How post-training supply chain attacks hijack coding agents appeared first..."
+  },
+  {
+   "company": "paloalto",
+   "feed": "Unit 42 research",
+   "title": "Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors",
+   "link": "https://unit42.paloaltonetworks.com/cairn-framework-ai-autonomous-attacks/",
+   "date": "2026-11-12T15:00:31.000Z",
+   "summary": "Our analysis of how attackers used the open-source Cairn AI agent framework to autonomously breach semiconductor, defense and civic targets. The post Attackers Use Autonomous AI to Target Semiconductor, Defense and Civil Society Sectors appeared first on Unit 42 ."
+  },
+  {
+   "company": "sentinelone",
+   "feed": "SentinelLabs research",
+   "title": "LABScon26 Replay | Let’s Get Physical: Why Cybersecurity Needs Hardware-Based Security to Survive AI",
+   "link": "https://www.sentinelone.com/labs/labscon26-replay-let-s-get-physical-why-cybersecurity-needs-hardware-based-security-to-survive-ai/",
+   "date": "2026-11-12T14:00:02.000Z",
+   "summary": "Adyen’s Dino Dai Zovi shows how hardware security proven in payments can contain AI-driven attacks, even when vulnerabilities cannot be patched."
+  },
+  {
+   "company": "checkpoint",
+   "feed": "Research",
+   "title": "PHP2Shell Exploitation on Check Point Gateway",
+   "link": "https://research.checkpoint.com/2026/php2shell-exploitation-on-check-point-gateway/",
+   "date": "2026-11-12T13:56:37.000Z",
+   "summary": "Key findings Introduction We have now confirmed that, in late October 2026, approximately one week after a security fix became available, activity originating from 130.94.19[.]204 targeted Israeli organizations through vulnerable Mobile Access portals on Check Point Security..."
+  },
+  {
+   "company": "paloalto",
+   "feed": "Blog",
+   "title": "Europe Is Setting the Global Standard for Sovereignty. Here Is Where We Stand.",
+   "link": "https://www.paloaltonetworks.com/blog/2026/11/europe-is-setting-the-global-standard-for-sovereignty-here-is-where-we-stand/",
+   "date": "2026-11-12T12:48:08.000Z",
+   "summary": "It has been a few months since I last wrote about sovereignty. In that time, the conversations I have had with organizations across Europe have become more specific and more urgent. A … The post Europe Is Setting the Global Standard for Sovereignty. Here Is Where We Stand...."
+  },
   {
    "company": "qualys",
    "feed": "Blog",
@@ -256,26 +672,154 @@
   {
    "company": "trendai",
    "feed": "Security blog",
-   "title": "PaperWall 假新聞網路揭密：內容滲入 AI 搜尋結果｜TrendAI",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/paperwall-unmasked-disguised-news-network-ai-search-results",
-   "date": "2026-11-12T00:00:00.000Z",
-   "summary": "趨勢科技 TrendAI™ 最新研究揭露 PaperWall 假新聞網路持續擴張，新發現近 200 個相關網域，內容更已出現在 AI 搜尋結果中。深入解析其傳播模式與 AI 搜尋風險。"
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "Beyond Ransomware: Tracking the Underground Trade in Law Firm Access and Data",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/law-firm-access-underground-trade",
-   "date": "2026-11-12T00:00:00.000Z",
-   "summary": "TrendAI™ Research found that cybercriminals sell and resell access to law firms and their data on underground markets, often before an attack becomes public and long after an incident is considered closed."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
    "title": "From a Docker Ping to an AI Command Plane: Inside the Hermes Attack Workbench and Carbonato Model Gateway — Part 2: Operations",
    "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/docker-ping-ai-command-plane-carbonato-hermes-attack-workbench-part-2",
    "date": "2026-11-12T00:00:00.000Z",
    "summary": "In this second part of our research, we provide our analysis of the Hermes session records, revealing how the threat operation coordinated AI agents, updated attack methods, and targeted multiple services beyond Docker."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "When AI Agents Trust the Dead: More Than 900 MCP Servers Pointing to Hijackable GitHub Repositories",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/when-ai-agents-trust-the-dead-more-than-900-mcp-servers-hijackable-github-repositories",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "We examined more than 90,000 GitHub URLs across four major MCP directories and found links that point to deleted accounts; the usernames of these can be claimed by anyone, including attackers. AI agents serving as installers complicate the matter further, raising questions about..."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "The 90/10 Principle: Process First for AI Transformation",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/90-10-principle-ai-transformation-process",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "Learn why AI transformation starts with process, not technology. Explore the 90/10 Principle and four pillars for governing agentic AI safely."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "From a Docker Ping to an AI Command Plane: Inside the Hermes Attack Workbench and Carbonato Model Gateway — Part 1: Discovery",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/docker-ping-ai-command-plane-carbonato-hermes-attack-workbench-part-1-discovery",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "Attack attempts against our Docker honeypot led us to uncover AI-assisted attack infrastructure combining AI agents and other offensive tools. We examine its components, security implications, and how organizations can mitigate the risks."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "The Lone Wolf AI Attacker Won't Stay Alone",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/lone-wolf-ai-attacker-wont-stay-alone",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "One prompt breached 100+ companies. Tom Kellermann explains why state actors will take over AI-driven intrusions and how defenders can prepare now."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "An AI Wrote a Remote Root Exploit for Linux: What CVE-2026-98432 Means for Defenders",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/ai-wrote-remote-root-exploit-for-linux-cve-2026-98432",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "CVE-2026-98432 is a critical Linux kernel TCP flaw that Anthropic says its unreleased AI model turned into a working remote root exploit."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Two Ways In Before the Holiday Rush: Exploited Adobe Commerce Flaws Put Online Stores at Risk",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/two-commerce-flaws-put-online-stores-at-risk",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "Two actively exploited Adobe Commerce and Magento Open Source vulnerabilities (CVE-2026-48356 and CVE-2026-75650) are giving attackers code execution on ecommerce store servers just as holiday shopping season begins. This entry breaks down how each attack works and what store..."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Racing the Update: Attackers Probe a WordPress Core Flaw That Opens During Patching",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/wordpress-core-flaw-CVE-2026-119977",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "Attackers are probing CVE-2026-119977, a WordPress Core flaw that opens only during a core update. Here’s how the race works, why the severity ratings disagree, and how to protect your sites."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "TrendAI Vision One™ extends Claude integration",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/trendai-vision-one-extends-claude-integration",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "AI agents are now acting on your endpoints. TrendAI Vision One™ ingests Claude Code and Cowork session records so your team can review what users asked Cowork to do, all in the same console."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Matryoshka Returns, Targeting US Midterm Candidates With AI-Generated Fake Claims",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/matryoshka-targets-us-midterm-elections-disinformation",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "The page you requested could not be found."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "TrendAI™ Research Helps Disrupt Botnet of More Than 1.3 Million Pre-Infected Set-Top Boxes",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/trendaitm-research-helps-disrupt-android-tv-botnet-of-more-than-13-million-pre-infected-devices",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "TrendAI™ Research supplied intelligence over several months that helped disrupt a botnet of more than 1.3 million pre-infected set-top boxes. We look at how the operation worked, its impact, and what the disruption means for defenders."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Virtual Patching: Protect Sooner, Before the Patch Lands",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/virtual-patching-protect-sooner-before-the-patch-lands",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "The page you requested could not be found."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Brotli Flaw Behind 'Node2Shell': What to Patch and Where It Hides",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/brotli-flaw-behind-node2shell",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "The page you requested could not be found."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Two Critical PHP Flaws Leaked Before the Patch: What Organizations Should Do Now",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/two-critical-php-flaws-leaked-before-the-patch-what-organizations-should-do-now",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "On 20 October at 15:20 UTC, a Hacker News post leaked details of two critical PHP vulnerabilities that could allow remote code execution. The post was removed, but screenshots circulated on X and Mastodon."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "eMudhra CA Compromise: Weak Keys and Forged Certificates",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/eight-compromised-emudhra-ca-keys-what-happened-and-what-organizations-should-do-now",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "Eight eMudhra intermediate CA keys were compromised, some as weak as 3 bits. Learn the code-signing risk and the steps to hunt for misuse and close the gap from TrendAI™."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "What a Week for CISOs: PHP, eMudhra, and the Questions Your Board Will Ask",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/what-a-week-for-cisos-php-emudhra-and-the-questions-your-board-will-ask",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "Two critical PHP flaws leaked before patches shipped, and the same day Mozilla disclosed weak eMudhra certificate authority keys. In this post, TrendAI™ Global CISO Sundari Parekh gives security leaders a practical playbook."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Earth Sirrush: A Russia-Aligned Intrusion Set With 4 Years of Evolving Espionage Tooling",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/earth-sirrush-russia-aligned-intrusion-set-4-years-evolving-espionage-tooling",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "Earth Sirrush has repeatedly changed its tools and delivery methods, but TrendAI™ Research reveals how shared code, reused artifacts, and infrastructure patterns continue to expose the links between its campaigns."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "AI and the Evolving Threat Landscape: What Public Sector CISOs Need to Know Now",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/ai-evolving-threat-landscape-what-public-sector-cisos-need-to-know-now",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "Public sector CISOs need to grapple with challenges brought about by AI threats: up to 3,600 AI CVEs in 2026, autonomous ransomware, and critical infrastructure risk."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Assess Your AI Security Maturity Through Visibility, Observability, Ownership, and Governance",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/assess-ai-security-maturity-visibility-observability-ownership-governance",
+   "date": "2026-11-12T00:00:00.000Z",
+   "summary": "Three questions can help reveal your AI security maturity. Hear expert perspectives and explore the pathway to governance in a series of short video conversations."
   },
   {
    "company": "paloalto",
@@ -390,238 +934,6 @@
    "summary": "Microsoft FORGE Lab researchers used codename MDASH to investigate Linux kernel vulnerabilities, resulting in 59 upstream bug reports, 33 assigned CVEs, and 38 merged fixes. The research includes eight demonstrated local root privilege-escalation exploits and examines the..."
   },
   {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-105544 .NET Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-105544",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-109475 .NET Denial of Service Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-109475",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-109476 ASP.NET Core Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-109476",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-109478 ASP.NET Core Denial of Service Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-109478",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Updated the products listed in the Security Updates table. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-109481 ASP.NET Core Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-109481",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-114146 ASP.NET Core Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114146",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-114147 ASP.NET Core Denial of Service Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114147",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-114149 ASP.NET Core Denial of Service Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114149",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-114150 ASP.NET Core Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114150",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-114151 Visual Studio Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114151",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Updated the products listed in the Security Updates table. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-114152 Visual Studio Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114152",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Updated the products listed in the Security Updates table. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-114154 ASP.NET Core Denial of Service Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114154",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Updated the products listed in the Security Updates table. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-114155 .NET Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114155",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-114156 ASP.NET Core Security Feature Bypass Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114156",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-114157 ASP.NET Core Security Feature Bypass Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114157",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-114158 Visual Studio Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114158",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Updated the products listed in the Security Updates table. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-114159 Visual Studio Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-114159",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Updated the products listed in the Security Updates table. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-120006 Aspire Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-120006",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Updated the products listed in the Security Updates table. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-118745 Visual Studio Remote Code Execution Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118745",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Updated the products listed in the Security Updates table. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-118746 .NET Security Feature Bypass Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118746",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-118747 .NET Denial of Service Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118747",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-118748 ASP.NET Core Denial of Service Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118748",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-118749 ASP.NET Core Denial of Service Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118749",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-118750 ASP.NET Core Denial of Service Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118750",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Updated the products listed in the Security Updates table. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-120792 Aspire Information Disclosure Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-120792",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Updated the products listed in the Security Updates table. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-120778 Aspire Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-120778",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Updated the products listed in the Security Updates table. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-120796 .NET Denial of Service Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-120796",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-118740 Aspire Security Feature Bypass Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118740",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Corrected Download links in the Security Updates table. This is an informational change only."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-118741 ASP.NET Core Elevation of Privilege Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-118741",
-   "date": "2026-11-11T16:00:00.000Z",
-   "summary": "Changes made to the security updates links and information. This is an informational change only."
-  },
-  {
    "company": "paloalto",
    "feed": "Unit 42 research",
    "title": "The XG Files: Falcon C2 Flying Under The (Browser) Radar",
@@ -630,12 +942,20 @@
    "summary": "We uncover Falcon C2, a browser-based threat framework targeting governments via malicious scripts, extensions, and the Antino implant. The post The XG Files: Falcon C2 Flying Under The (Browser) Radar appeared first on Unit 42 ."
   },
   {
+   "company": "paloalto",
+   "feed": "Blog",
+   "title": "The SASE “Trilemma”: How Regulated Enterprises are Navigating Digital Sovereignty, Resilience, and Global Cyber Threat Intelligence",
+   "link": "https://www.paloaltonetworks.com/blog/2026/11/the-sase-trilemma-how-regulated-enterprises-are-navigating-digital-sovereignty-resilience-and-global-cyber-threat-intelligence/",
+   "date": "2026-11-11T08:01:01.000Z",
+   "summary": "Modern enterprise architecture faces a critical tension: architecting a Secure Access Service Edge (SASE) deployment where data sovereignty, operational resilience, and global cybersecurity are perceived to be fundamentally at odds. To address … The post The SASE “Trilemma”: How..."
+  },
+  {
    "company": "tenable",
    "feed": "Blog",
    "title": "Able2Shell: Frequently asked questions for reported N-able N-central zero-day vulnerabilities",
    "link": "https://www.tenable.com/blog/able2shell-frequently-asked-questions-for-reported-n-able-n-central-zero-day-vulnerabilities",
    "date": "2026-11-11T05:55:43.000Z",
-   "summary": "N-able released a hotfix for N-central that fixes seven CVEs after a researcher published proof-of-concept code for 33 alleged zero-day vulnerabilities. The researcher says one attack chain needs no credentials. Key Takeaways Able2Shell is a set of 33 alleged vulnerabilities in..."
+   "summary": "N-able released a hotfix for N-central that fixes seven CVEs after a researcher published proof-of-concept code for 33 alleged zero-day vulnerabilities. The researcher says one attack chain needs no credentials. Change log Update November 12: Added the researcher’s new exploit..."
   },
   {
    "company": "fortinet",
@@ -678,68 +998,12 @@
    "summary": ""
   },
   {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "When AI Agents Trust the Dead: More Than 900 MCP Servers Pointing to Hijackable GitHub Repositories",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/when-ai-agents-trust-the-dead-more-than-900-mcp-servers-hijackable-github-repositories",
-   "date": "2026-11-11T00:00:00.000Z",
-   "summary": "We examined more than 90,000 GitHub URLs across four major MCP directories and found links that point to deleted accounts; the usernames of these can be claimed by anyone, including attackers. AI agents serving as installers complicate the matter further, raising questions about..."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "The 90/10 Principle: Process First for AI Transformation",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/90-10-principle-ai-transformation-process",
-   "date": "2026-11-11T00:00:00.000Z",
-   "summary": "Learn why AI transformation starts with process, not technology. Explore the 90/10 Principle and four pillars for governing agentic AI safely."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "From a Docker Ping to an AI Command Plane: Inside the Hermes Attack Workbench and Carbonato Model Gateway — Part 1: Discovery",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/docker-ping-ai-command-plane-carbonato-hermes-attack-workbench-part-1-discovery",
-   "date": "2026-11-11T00:00:00.000Z",
-   "summary": "Attack attempts against our Docker honeypot led us to uncover AI-assisted attack infrastructure combining AI agents and other offensive tools. We examine its components, security implications, and how organizations can mitigate the risks."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "The Lone Wolf AI Attacker Won't Stay Alone",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/lone-wolf-ai-attacker-wont-stay-alone",
-   "date": "2026-11-11T00:00:00.000Z",
-   "summary": "One prompt breached 100+ companies. Tom Kellermann explains why state actors will take over AI-driven intrusions and how defenders can prepare now."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "An AI Wrote a Remote Root Exploit for Linux: What CVE-2026-98432 Means for Defenders",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/ai-wrote-remote-root-exploit-for-linux-cve-2026-98432",
-   "date": "2026-11-11T00:00:00.000Z",
-   "summary": "CVE-2026-98432 is a critical Linux kernel TCP flaw that Anthropic says its unreleased AI model turned into a working remote root exploit."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "Two Ways In Before the Holiday Rush: Exploited Adobe Commerce Flaws Put Online Stores at Risk",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/two-commerce-flaws-put-online-stores-at-risk",
-   "date": "2026-11-11T00:00:00.000Z",
-   "summary": "Two actively exploited Adobe Commerce and Magento Open Source vulnerabilities (CVE-2026-48356 and CVE-2026-75650) are giving attackers code execution on ecommerce store servers just as holiday shopping season begins. This entry breaks down how each attack works and what store..."
-  },
-  {
    "company": "microsoft",
    "feed": "Security blog",
    "title": "Detecting sleeper agents hiding in AI model neurons",
    "link": "https://www.microsoft.com/en-us/security/blog/2026/11/10/detecting-sleeper-agents-hiding-in-ai-model-neurons/",
    "date": "2026-11-10T23:00:00.000Z",
    "summary": "Microsoft Research has released new threat research detailing how a capable agent model could be turned into a sleeper agent by editing fewer than ten neurons to inject a short payload; Microsoft Research has also found that this threat is detectable by frontier agents, which..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security advisories",
-   "title": "CVE-2026-92707 MessagePack-CSharp Denial of Service Vulnerability",
-   "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-92707",
-   "date": "2026-11-10T22:50:30.000Z",
-   "summary": "Information published."
   },
   {
    "company": "talos",
@@ -755,23 +1019,15 @@
    "title": "Patch Tuesday - November 2026",
    "link": "https://www.rapid7.com/blog/post/em-patch-tuesday-november-2026",
    "date": "2026-11-10T21:55:37.000Z",
-   "summary": "Microsoft is publishing 1,092 own-product vulnerabilities on November 2026 Patch Tuesday, including 1,102 vulnerabilities in Windows. Until a few months ago, these volumes would have been unimaginable, but if anything, this month feels like a slight reprieve. The jury is still..."
+   "summary": "Microsoft is publishing 1,092 own-product vulnerabilities on November 2026 Patch Tuesday, including 745 vulnerabilities in Windows. Until a few months ago, these volumes would have been unimaginable, but if anything, this month feels like a slight reprieve. The jury is still out..."
   },
   {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Cisco Informational for Emergency Distrust of eMudhra Root and Intermediate Certificate Authorities",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Informational%20for%20Emergency%20Distrust%20of%20eMudhra%20Root%20and%20Intermediate%20Certificate%20Authorities%26vs_k=1",
-   "date": "2026-11-10T21:50:24.000Z",
-   "summary": "Between October 17 and October 20, 2026, a critical security compromise involving Certificate Authorities that are managed by eMudhra was uncovered. A security researcher demonstrated that the private keys for eight eMudhra intermediate certificates were fundamentally broken due..."
-  },
-  {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20Node.js%20and%20Brotli%20Affecting%20Cisco%20Products:%20October%202026%26vs_k=1",
-   "date": "2026-11-10T21:02:32.000Z",
-   "summary": "On October 21, 2026, Node.js announced the availability of fixes for multiple vulnerabilities across the following supported release lines: 22.x, 24.x, and 26.x. These vulnerabilities impact critical operations such as the Brotli decoder, DNS resolution, and TLS certificate..."
+   "company": "proofpoint",
+   "feed": "Blog",
+   "title": "18 Outdated Identity And Access Management Assumptions To Retire",
+   "link": "https://www.proofpoint.com/us/newsroom/news/18-outdated-identity-and-access-management-assumptions-retire",
+   "date": "2026-11-10T20:48:25.000Z",
+   "summary": ""
   },
   {
    "company": "qualys",
@@ -1142,6 +1398,14 @@
    "summary": ""
   },
   {
+   "company": "proofpoint",
+   "feed": "Blog",
+   "title": "French officials blame Iran for refrigerator hacks, vow retaliation",
+   "link": "https://www.proofpoint.com/us/newsroom/news/french-officials-blame-iran-refrigerator-hacks-vow-retaliation",
+   "date": "2026-11-09T20:49:53.000Z",
+   "summary": ""
+  },
+  {
    "company": "microsoft",
    "feed": "Security blog",
    "title": "FORGE Lab uses agentic tools to identify memory safety issues in Rust",
@@ -1164,6 +1428,14 @@
    "link": "https://research.checkpoint.com/2026/9th-november-threat-intelligence-report/",
    "date": "2026-11-09T16:15:41.000Z",
    "summary": "For the latest discoveries in cyber research for the week of 9th November, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Queens Public Library, a New York City public library system serving approximately 2.3 million residents, was struck by a..."
+  },
+  {
+   "company": "paloalto",
+   "feed": "Blog",
+   "title": "Digital Contagion: How AI Is Transforming Supply Chain Cyber Risk",
+   "link": "https://www.paloaltonetworks.com/blog/2026/11/digital-contagion-how-ai-is-transforming-supply-chain-cyber-risk/",
+   "date": "2026-11-09T15:19:01.000Z",
+   "summary": "Six hours of total operational paralysis. Over 700 supermarket stores in France plunged into chaos. Tonnes of fresh produce discarded, yielding estimated losses in the hundreds of millions of Euros. Beyond the … The post Digital Contagion: How AI Is Transforming Supply Chain..."
   },
   {
    "company": "wiz",
@@ -1204,6 +1476,14 @@
    "link": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-45-8",
    "date": "2026-11-06T18:30:54.000Z",
    "summary": "Authorities dismantle investment scams and cybercrime networks, scammers abuse Teams and AD CS, and cyberattacks disrupt European refrigeration systems."
+  },
+  {
+   "company": "paloalto",
+   "feed": "Blog",
+   "title": "Checkmate for Checkboxes",
+   "link": "https://www.paloaltonetworks.com/blog/2026/11/checkmate-for-checkboxes/",
+   "date": "2026-11-06T16:31:20.000Z",
+   "summary": "Autonomous AI demands real-time operational governance, not checkbox security. If anyone in policy or corporate governance still harboured the belief that autonomous artificial intelligence could be neatly kept behind digital glass, recent … The post Checkmate for Checkboxes..."
   },
   {
    "company": "talos",
@@ -1318,30 +1598,6 @@
    "summary": "Same logs, two places, overlapping outcomes. It's time to rethink the SIEM vs. XDR question."
   },
   {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "Racing the Update: Attackers Probe a WordPress Core Flaw That Opens During Patching",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/wordpress-core-flaw-CVE-2026-119977",
-   "date": "2026-11-05T00:00:00.000Z",
-   "summary": "Attackers are probing CVE-2026-119977, a WordPress Core flaw that opens only during a core update. Here’s how the race works, why the severity ratings disagree, and how to protect your sites."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "TrendAI Vision One™ extends Claude integration",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/trendai-vision-one-extends-claude-integration",
-   "date": "2026-11-05T00:00:00.000Z",
-   "summary": "AI agents are now acting on your endpoints. TrendAI Vision One™ ingests Claude Code and Cowork session records so your team can review what users asked Cowork to do, all in the same console."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "Matryoshka Returns, Targeting US Midterm Candidates With AI-Generated Fake Claims",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/matryoshka-targets-us-midterm-elections-disinformation",
-   "date": "2026-11-05T00:00:00.000Z",
-   "summary": "The page you requested could not be found."
-  },
-  {
    "company": "talos",
    "feed": "Security advisories",
    "title": "Cisco Identity Services Engine Authorization Bypass Vulnerability",
@@ -1366,6 +1622,14 @@
    "summary": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco UCS Central Software Remote Code Execution Vulnerability CVE-2026-76506 High 7.6 Cisco..."
   },
   {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "Cloud Agent, now in a Container: Host Security for Nodes You Can’t Touch",
+   "link": "https://blog.qualys.com/product-tech/2026/11/04/cloud-agent-now-in-a-container-host-security-for-nodes-you-cant-touch",
+   "date": "2026-11-04T16:00:00.000Z",
+   "summary": "A single container image that brings Vulnerability Management and Policy Audit to every Kubernetes node, on immutable and mutable Linux alike, deployed the way your container workloads already are. Key Takeaways The Qualys Cloud Agent is now available as a container image on..."
+  },
+  {
    "company": "talos",
    "feed": "Security advisories",
    "title": "Cisco Unified Communications Manager Cross-Site Scripting Vulnerability",
@@ -1380,14 +1644,6 @@
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucs-rce-LzHSFRDQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20Central%20Software%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
    "date": "2026-11-04T16:00:00.000Z",
    "summary": "A vulnerability in the web-based management interface of Cisco UCS Central Software could allow an authenticated, remote attacker to achieve remote code execution or conduct information disclosure attacks on an affected device. This vulnerability is due to insufficient..."
-  },
-  {
-   "company": "qualys",
-   "feed": "Blog",
-   "title": "Cloud Agent, now in a Container: Host Security for Nodes You Can’t Touch",
-   "link": "https://blog.qualys.com/product-tech/2026/11/04/cloud-agent-now-in-a-container-host-security-for-nodes-you-cant-touch",
-   "date": "2026-11-04T16:00:00.000Z",
-   "summary": "A single container image that brings Vulnerability Management and Policy Audit to every Kubernetes node, on immutable and mutable Linux alike, deployed the way your container workloads already are. Key Takeaways The Qualys Cloud Agent is now available as a container image on..."
   },
   {
    "company": "rapid7",
@@ -1492,38 +1748,6 @@
    "link": "https://www.sophos.com/en-us/blog/fake-coding-test-reaches-security-company",
    "date": "2026-11-04T00:00:00.000Z",
    "summary": "Fake job interviews are an established way to target developers"
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "TrendAI™ Research Helps Disrupt Botnet of More Than 1.3 Million Pre-Infected Set-Top Boxes",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/trendaitm-research-helps-disrupt-android-tv-botnet-of-more-than-13-million-pre-infected-devices",
-   "date": "2026-11-04T00:00:00.000Z",
-   "summary": "TrendAI™ Research supplied intelligence over several months that helped disrupt a botnet of more than 1.3 million pre-infected set-top boxes. We look at how the operation worked, its impact, and what the disruption means for defenders."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "Virtual Patching: Protect Sooner, Before the Patch Lands",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/virtual-patching-protect-sooner-before-the-patch-lands",
-   "date": "2026-11-04T00:00:00.000Z",
-   "summary": "The page you requested could not be found."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "Brotli Flaw Behind 'Node2Shell': What to Patch and Where It Hides",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/brotli-flaw-behind-node2shell",
-   "date": "2026-11-04T00:00:00.000Z",
-   "summary": "The page you requested could not be found."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "Two Critical PHP Flaws Leaked Before the Patch: What Organizations Should Do Now",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/two-critical-php-flaws-leaked-before-the-patch-what-organizations-should-do-now",
-   "date": "2026-11-04T00:00:00.000Z",
-   "summary": "On 20 October at 15:20 UTC, a Hacker News post leaked details of two critical PHP vulnerabilities that could allow remote code execution. The post was removed, but screenshots circulated on X and Mastodon."
   },
   {
    "company": "microsoft",
@@ -1734,6 +1958,14 @@
    "summary": ""
   },
   {
+   "company": "proofpoint",
+   "feed": "Blog",
+   "title": "Proofpoint CEO Sumit Dhawan Speaks to $6.3 Billion Varonis Systems Acquisition",
+   "link": "https://www.proofpoint.com/us/newsroom/news/proofpoint-ceo-sumit-dhawan-speaks-63-billion-varonis-systems-acquisition",
+   "date": "2026-11-01T20:41:01.000Z",
+   "summary": ""
+  },
+  {
    "company": "darktrace",
    "feed": "Blog",
    "title": "Kubernetes Security Monitoring & Threat Detection with Behavioral AI",
@@ -1900,30 +2132,6 @@
    "link": "https://www.sophos.com/en-us/blog/malicious-claude-code-extension-distributed-through-cursor-marketplace",
    "date": "2026-10-30T00:00:00.000Z",
    "summary": ""
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "eMudhra CA Compromise: Weak Keys and Forged Certificates",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/eight-compromised-emudhra-ca-keys-what-happened-and-what-organizations-should-do-now",
-   "date": "2026-10-30T00:00:00.000Z",
-   "summary": "Eight eMudhra intermediate CA keys were compromised, some as weak as 3 bits. Learn the code-signing risk and the steps to hunt for misuse and close the gap from TrendAI™."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "What a Week for CISOs: PHP, eMudhra, and the Questions Your Board Will Ask",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/what-a-week-for-cisos-php-emudhra-and-the-questions-your-board-will-ask",
-   "date": "2026-10-30T00:00:00.000Z",
-   "summary": "Two critical PHP flaws leaked before patches shipped, and the same day Mozilla disclosed weak eMudhra certificate authority keys. In this post, TrendAI™ Global CISO Sundari Parekh gives security leaders a practical playbook."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "Earth Sirrush: A Russia-Aligned Intrusion Set With 4 Years of Evolving Espionage Tooling",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/earth-sirrush-russia-aligned-intrusion-set-4-years-evolving-espionage-tooling",
-   "date": "2026-10-30T00:00:00.000Z",
-   "summary": "Earth Sirrush has repeatedly changed its tools and delivery methods, but TrendAI™ Research reveals how shared code, reused artifacts, and infrastructure patterns continue to expose the links between its campaigns."
   },
   {
    "company": "paloalto",
@@ -2390,6 +2598,14 @@
    "summary": "What is the Attack? Trimble Cityworks contains a deserialization vulnerability. This could allow an authenticated user to perform a remote code execution attack against a customer's Microsoft Internet Information Services (IIS) web server, potentially resulting in downtime and..."
   },
   {
+   "company": "proofpoint",
+   "feed": "Blog",
+   "title": "How Proofpoint, Varonis Hope to Secure AI Data Life Cycle",
+   "link": "https://www.proofpoint.com/us/newsroom/news/how-proofpoint-varonis-hope-secure-ai-data-life-cycle",
+   "date": "2026-10-23T20:46:52.000Z",
+   "summary": ""
+  },
+  {
    "company": "microsoft",
    "feed": "Security blog",
    "title": "Inside the LiteLLM 1.107.0 supply chain compromise: Credential theft through Python startup hooks",
@@ -2468,14 +2684,6 @@
    "link": "https://www.sophos.com/en-us/blog/is-siem-less-really-what-it-sounds-like",
    "date": "2026-10-23T00:00:00.000Z",
    "summary": "SIEM-less security may sound like an escape from traditional SIEM complexity and costs, but the underlying capabilities still have to exist somewhere."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "AI and the Evolving Threat Landscape: What Public Sector CISOs Need to Know Now",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/ai-evolving-threat-landscape-what-public-sector-cisos-need-to-know-now",
-   "date": "2026-10-23T00:00:00.000Z",
-   "summary": "Public sector CISOs need to grapple with challenges brought about by AI threats: up to 3,600 AI CVEs in 2026, autonomous ransomware, and critical infrastructure risk."
   },
   {
    "company": "wiz",
@@ -2678,14 +2886,6 @@
    "summary": "A vulnerability in the database service feature of Cisco Expressway Series could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as root . This vulnerability is due to the use of persistent..."
   },
   {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Open Source Snort 3 Control Channel Socket Arbitrary Command Execution Vulnerability",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-opensrc-snort3-2fXGJPfe?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Open%20Source%20Snort%203%20Control%20Channel%20Socket%20Arbitrary%20Command%20Execution%20Vulnerability%26vs_k=1",
-   "date": "2026-10-21T16:00:00.000Z",
-   "summary": "A vulnerability in the control channel socket implementation of Open Source Snort 3 could allow an authenticated, local attacker with low privileges to execute arbitrary commands as the Snort 3 process user. This vulnerability is due to a lack of authentication when a local user..."
-  },
-  {
    "company": "paloalto",
    "feed": "Blog",
    "title": "Millions of PHP Instances Exposed - What Organizations Need To Do Right Now",
@@ -2734,6 +2934,14 @@
    "summary": "In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability."
   },
   {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "The Science of Exploitability: Decoding BlueHammer",
+   "link": "https://blog.qualys.com/product-tech/2026/10/21/bluehammer-cve-2026-33825-windows-defender-privilege-escalation",
+   "date": "2026-10-21T13:00:00.000Z",
+   "summary": "Executive Summary BlueHammer (CVE-2026-33825) is an eight-stage local privilege-escalation chain targeting the Windows Defender Antimalware Platform before 4.18.26030.3011. It does not grant initial access; an attacker needs standard-user code execution first. Still, in the lab,..."
+  },
+  {
    "company": "tenable",
    "feed": "Blog",
    "title": "How Tenable brought multi-language support to security detectors with agentic translation",
@@ -2748,14 +2956,6 @@
    "link": "https://www.rapid7.com/blog/post/tr-q3-2026-threat-update-attackers-exploiting-vulnerabilities-within-3-days",
    "date": "2026-10-21T13:00:00.000Z",
    "summary": "Three days is the average time between a high-severity vulnerability becoming public and its exploitation, according to the latest Quarterly Threat Landscape Report from Rapid7. And 71% of the exploitation tracked in Q3 occurred within the first seven days. For security teams..."
-  },
-  {
-   "company": "qualys",
-   "feed": "Blog",
-   "title": "The Science of Exploitability: Decoding BlueHammer",
-   "link": "https://blog.qualys.com/product-tech/2026/10/21/bluehammer-cve-2026-33825-windows-defender-privilege-escalation",
-   "date": "2026-10-21T13:00:00.000Z",
-   "summary": "Executive Summary BlueHammer (CVE-2026-33825) is an eight-stage local privilege-escalation chain targeting the Windows Defender Antimalware Platform before 4.18.26030.3011. It does not grant initial access; an attacker needs standard-user code execution first. Still, in the lab,..."
   },
   {
    "company": "paloalto",
@@ -3766,14 +3966,6 @@
    "summary": "Traditional DSPM and classification tools scan from the inside out. Thinking like an attacker, the Red Agent found a public page exposing sensitive data in minutes."
   },
   {
-   "company": "rapid7",
-   "feed": "Blog",
-   "title": "CVE-2026-21589: Critical unauthenticated arbitrary file access in Atlassian products",
-   "link": "https://www.rapid7.com/blog/post/etr-cve-2026-21589-critical-unauthenticated-arbitrary-file-access-in-atlassian-products",
-   "date": "2026-10-07T12:11:26.000Z",
-   "summary": "Overview On October 5, 2026, Atlassian published a security advisory for CVE-2026-21589 , a critical arbitrary file access vulnerability affecting eight products: Bitbucket Data Center, Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center,..."
-  },
-  {
    "company": "talos",
    "feed": "Threat research",
    "title": "One breach, please, and make no mistakes",
@@ -3788,14 +3980,6 @@
    "link": "https://www.welivesecurity.com/en/social-media/brand-deal-scam-targeting-youtube-creators/",
    "date": "2026-10-07T09:00:00.000Z",
    "summary": "A plausible-sounding sponsorship offer could mask an attempt to compromise your Google account"
-  },
-  {
-   "company": "crowdstrike",
-   "feed": "Blog",
-   "title": "Unknown Threat Actor Uses AI-Driven ARTEX to Target South Korean Finance",
-   "link": "https://www.crowdstrike.com/en-us/blog/unknown-threat-actor-uses-artex-to-target-south-korean-finance/",
-   "date": "2026-10-07T05:00:00.000Z",
-   "summary": ""
   },
   {
    "company": "microsoft",
@@ -3958,14 +4142,6 @@
    "summary": "IntroductionIn August 2026, Zscaler ThreatLabz identified a new loader, which we track as 2CLoader. ThreatLabz has observed the loader being used to distribute information stealers including Vidar and Remus in addition to XWorm RAT. 2CLoader has the ability to perform a wide..."
   },
   {
-   "company": "microsoft",
-   "feed": "Security blog",
-   "title": "Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/30/unauthenticated-command-injection-on-internet-facing-mail-servers-tracking-cve-2026-73570/",
-   "date": "2026-09-30T14:00:00.000Z",
-   "summary": "Microsoft Threat Intelligence examines CVE-2026-73570 exploitation in Zimbra, including observed attack paths, detection opportunities, and mitigation guidance. The post Unauthenticated command injection on internet-facing mail servers: tracking CVE-2026-73570 appeared first on..."
-  },
-  {
    "company": "google",
    "feed": "Threat intelligence blog",
    "title": "Vulnerability Discovery and Exploitation Trends in the AI Era",
@@ -4004,14 +4180,6 @@
    "link": "https://www.paloaltonetworks.com/blog/2026/09/sase-gateway-provided-by-kddi-how-sp-interconnect-simplifies-closed-network-zero-trust/",
    "date": "2026-09-30T02:12:34.000Z",
    "summary": "We are thrilled to announce that KDDI Corporation, a long-standing NextWave partner of Palo Alto Networks and a Managed Security Service Provider (MSSP) with whom we have built a strong partnership, has … The post “SASE Gateway” provided by KDDI : How SP Interconnect Simplifies..."
-  },
-  {
-   "company": "microsoft",
-   "feed": "Security blog",
-   "title": "Phishing Abuses RMM Tools for Persistent Access",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/09/29/phishing-abuses-rmm-tools-persistent-access/",
-   "date": "2026-09-29T21:39:27.000Z",
-   "summary": "Microsoft observed phishing campaigns that abused MSP360 RMM to deploy ScreenConnect, creating redundant remote-access channels for follow-on activity The post Phishing Abuses RMM Tools for Persistent Access appeared first on Microsoft Security Blog ."
   },
   {
    "company": "paloalto",
@@ -4126,14 +4294,6 @@
    "summary": "For the latest discoveries in cyber research for the week of 28th September, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The FBI has confirmed unauthorized activity affecting FBIjobs.gov after the ShinyHunters group defaced the website. The group..."
   },
   {
-   "company": "wiz",
-   "feed": "Blog",
-   "title": "Introducing the Wiz Partner Alliance Managed Service Provider Program",
-   "link": "https://www.wiz.io/blog/introducing-wiz-partner-alliance-managed-service-provider-program",
-   "date": "2026-09-28T12:58:02.000Z",
-   "summary": "Empowering managed services partners to deliver world-class cloud and AI security at scale"
-  },
-  {
    "company": "paloalto",
    "feed": "Blog",
    "title": "Securing AI Agents at Scale with NVIDIA",
@@ -4204,14 +4364,6 @@
    "link": "https://www.zscaler.com/blogs/security-research/threat-actors-use-google-ads-target-ledger-users",
    "date": "2026-09-25T20:42:00.000Z",
    "summary": "IntroductionIn August 2026, Zscaler ThreatLabz analyzed a phishing campaign that used fraudulent Google ads to target Ledger hardware wallet users. The ads redirected users through Google Cloud Storage and Vercel to a Google Sites page containing a phishing page impersonating..."
-  },
-  {
-   "company": "wiz",
-   "feed": "Blog",
-   "title": "The Infostealer Incursion: How Stolen Credentials Breach Cloud, Code, and AI Environments",
-   "link": "https://www.wiz.io/blog/infostealer-incursion-cloud-ai-credentials",
-   "date": "2026-09-25T14:51:15.000Z",
-   "summary": "Wiz Research analyzes NordStellar data to map the credentials targeted by infostealer families and assess their potential impact across cloud, code, and AI environments."
   },
   {
    "company": "google",
@@ -4502,28 +4654,12 @@
    "summary": "Executive Summary Vulnerability exploitation now happens at a speed that manual, ticket-based remediation can’t match. Qualys’s Enterprise TruRisk Management Platform closes that gap with autonomous remediation: exposures are prioritized by threat, business, and environmental..."
   },
   {
-   "company": "talos",
-   "feed": "Threat research",
-   "title": "Should you care about an “AI slowdown?”",
-   "link": "https://blog.talosintelligence.com/should-you-care-about-an-ai-slowdown/",
-   "date": "2026-09-17T18:00:23.000Z",
-   "summary": "In this week's Threat Source, David talks about why focusing on your security basics is still your best bet, even in a world with rapid AI advancements."
-  },
-  {
    "company": "checkpoint",
    "feed": "Research",
    "title": "AI Threat Landscape Digest: July–August 2026",
    "link": "https://research.checkpoint.com/2026/ai-threat-landscape-digest-july-august-2026/",
    "date": "2026-09-17T14:41:15.000Z",
    "summary": "The defining development of the period came not from attackers but from the AI labs themselves, whose models broke out of controlled evaluations and reached real systems. In the wild, the criminal and state use of AI continued to mature along the lines tracked in earlier..."
-  },
-  {
-   "company": "talos",
-   "feed": "Threat research",
-   "title": "Ransomware incidents in Japan in the first half of 2026: Investigation of The Gentlemen’s infrastructure and evidence of Qilin's AI use",
-   "link": "https://blog.talosintelligence.com/ransomware-incidents-in-japan-in-the-first-half-of-2026/",
-   "date": "2026-09-17T10:00:43.000Z",
-   "summary": "Ransomware incidents in Japan rose 4.7% year over year. The Gentlemen was the most active group, with leak-site listings more than doubling from January to July. Qilin ranked second and appeared to use AI, while SMEs with capital under JPY 1 billion represented 80% of victims."
   },
   {
    "company": "eset",
@@ -4886,14 +5022,6 @@
    "summary": "Explore how attackers targeting Latin American entities use AI for data exfiltration and how basic OpSec errors allow defenders to disrupt operations. The post Attackers Expose Ongoing AI Tool Use Targeting Organizations in Latin America appeared first on Unit 42 ."
   },
   {
-   "company": "eset",
-   "feed": "WeLiveSecurity",
-   "title": "I’ve been deepfaked: What do I do?",
-   "link": "https://www.welivesecurity.com/en/how-to/ive-been-deepfaked-what-do/",
-   "date": "2026-09-02T11:48:09.000Z",
-   "summary": "Don’t panic if you spot an illegally created image or video of you online – there are ways to request its removal"
-  },
-  {
    "company": "checkpoint",
    "feed": "Research",
    "title": "Gaming the system: how a Chinese-speaking actor turned Brazilian government sites into an SEO weapon",
@@ -4956,14 +5084,6 @@
    "link": "https://fortiguard.fortinet.com/threat-signal-report/6509",
    "date": "2026-08-29T01:01:36.000Z",
    "summary": "What is the Attack? U.S. cybersecurity agencies, including CISA, NSA, FBI, DOE, and EPA, have warned of an active cyber threat targeting Siemens S7 Series PLCs that are Internet-exposed, running outdated software, or otherwise inadequately protected. The advisory highlights..."
-  },
-  {
-   "company": "paloalto",
-   "feed": "Unit 42 research",
-   "title": "Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety",
-   "link": "https://unit42.paloaltonetworks.com/perturbation-probing-llm-safety/",
-   "date": "2026-08-28T22:00:07.000Z",
-   "summary": "New research reveals that AI safety refusal lives in a thin neural layer, highlighting the critical need for external, multi-layered security. The post Perturbation Probing: A New Diagnostic for the Fragility of LLM Safety appeared first on Unit 42 ."
   },
   {
    "company": "sentinelone",
@@ -5116,14 +5236,6 @@
    "link": "https://www.sentinelone.com/labs/the-model-is-the-malware-what-four-agentic-intrusions-tell-defenders/",
    "date": "2026-08-13T13:00:40.000Z",
    "summary": "OpenAI, Anthropic and Meta disclosed agents reaching external systems. The tools didn't matter, and that changes the playbook for investigating intrusions."
-  },
-  {
-   "company": "checkpoint",
-   "feed": "Research",
-   "title": "The State of Ransomware Q2 2026",
-   "link": "https://research.checkpoint.com/2026/the-state-of-ransomware-q2-2026/",
-   "date": "2026-08-13T12:54:35.000Z",
-   "summary": "For the past year, the ransomware conversation has centered on concentration: a handful of dominant RaaS operations controlling most of the damage, and a shrinking pool of active groups fighting over the same territory. The State of Ransomware Q2 2026 report from Check Point..."
   },
   {
    "company": "zscaler",

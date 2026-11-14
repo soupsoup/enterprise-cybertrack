@@ -69,7 +69,7 @@
 <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
 <description>In JetBrains IntelliJ IDEA before 2026.3, 
-2026.2.1 command injection was possible in untrusted projects via Tomcat run configurations on WSL | CVSS 7.8 | EPSS 0.6%</description>
+2026.2.1 command injection was possible in untrusted projects via Tomcat run configurations on WSL | CVSS 7.8 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-123838 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3 code execution was possible in Safe Mode via UI Designer form file</title>
@@ -110,6 +110,54 @@
 <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
 <description>In JetBrains IntelliJ IDEA before 2026.3 code execution was possible in untrusted projects via the Terraform File Watchers | CVSS 7 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-123279 JetBrains datalore: In JetBrains Datalore before 2026.4 code execution was possible in a notebook&apos;s computation by view-only...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123279</link>
+<guid isPermaLink="false">CVE-2026-123279</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains Datalore before 2026.4 code execution was possible in a notebook&apos;s computation by view-only collaborators | CVSS 9 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-123280 JetBrains datalore: In JetBrains Datalore before 2026.2.4 unauthenticated users could execute code via published interactive...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123280</link>
+<guid isPermaLink="false">CVE-2026-123280</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains Datalore before 2026.2.4 unauthenticated users could execute code via published interactive reports | CVSS 8.1 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-123281 JetBrains datalore: In JetBrains Datalore before 2026.4 notebook code could execute commands in the sidecar container via the...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123281</link>
+<guid isPermaLink="false">CVE-2026-123281</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains Datalore before 2026.4 notebook code could execute commands in the sidecar container via the mount broker | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-123282 JetBrains datalore: In JetBrains Datalore before 2026.4 missing expiration validation of account tokens allowed a new...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123282</link>
+<guid isPermaLink="false">CVE-2026-123282</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains Datalore before 2026.4 missing expiration validation of account tokens allowed a new authenticated session | CVSS 7.4 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-123834 JetBrains datalore: In JetBrains Datalore before 2026.4 improper scope validation in database tasks allowed using another...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123834</link>
+<guid isPermaLink="false">CVE-2026-123834</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains Datalore before 2026.4 improper scope validation in database tasks allowed using another workspace&apos;s service account | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-123836 JetBrains datalore: In JetBrains Datalore before 2026.4 workspace collaborators could obtain the owner&apos;s SSH private key via Git...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123836</link>
+<guid isPermaLink="false">CVE-2026-123836</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains Datalore before 2026.4 workspace collaborators could obtain the owner&apos;s SSH private key via Git backup | CVSS 8.8 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-111094 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 

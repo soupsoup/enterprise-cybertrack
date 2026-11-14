@@ -6,6 +6,46 @@
 <description>High and critical Progress vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/progress.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-118035 Progress telerik document processing libraries: In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, uncontrolled recursion,...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118035</link>
+<guid isPermaLink="false">CVE-2026-118035</guid>
+<pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, uncontrolled recursion, inefficient algorithmic complexity and infinite loop vulnerabilities in RadWordsProcessing allow an unauthenticated attacker to terminate or hang the host process via a crafted DOCX, DOC, RTF or HTML document. | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-118036 Progress telerik document processing libraries: In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, uncontrolled recursion,...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118036</link>
+<guid isPermaLink="false">CVE-2026-118036</guid>
+<pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, uncontrolled recursion, infinite loop, inefficient algorithmic complexity and resource allocation vulnerabilities in RadPdfProcessing and AI document summarization and question answering allow an unauthenticated attacker to terminate or hang the host process via a crafted PDF document or document text submitted for summarization or question answering. | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-118037 Progress telerik document processing libraries: In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, uncontrolled recursion,...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118037</link>
+<guid isPermaLink="false">CVE-2026-118037</guid>
+<pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, uncontrolled recursion, infinite loop, unchecked loop condition and inefficient regular expression vulnerabilities in RadSpreadProcessing and RadSpreadStreamProcessing allow an unauthenticated attacker to terminate or hang the host process via a crafted XLSX or XLS workbook or formula. | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-118038 Progress telerik document processing libraries: In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, a path traversal...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118038</link>
+<guid isPermaLink="false">CVE-2026-118038</guid>
+<pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, a path traversal vulnerability in the Convert and Merge AI agent tools allows an authenticated attacker with low privileges who can supply tool arguments to read files outside the configured output directory, and to overwrite such files where they are writable, via relative file paths that resolve against the process current working directory. | CVSS 7.1 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-118039 Progress telerik document processing libraries: In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, an XML external entity...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118039</link>
+<guid isPermaLink="false">CVE-2026-118039</guid>
+<pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, an XML external entity reference vulnerability in SVG image processing allows an unauthenticated attacker to read local files on the server via a crafted SVG image with a nested embedded SVG, when the image is processed or exported to PDF. | CVSS 7.5 | EPSS 0.3%</description>
+</item>
+<item>
 <title>CVE-2026-108116 Progress kendo ui: In Progress Kendo UI for jQuery prior to v2026.3.1015, specially crafted filter values in the PivotGrid XMLA...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108116</link>
 <guid isPermaLink="false">CVE-2026-108116</guid>
