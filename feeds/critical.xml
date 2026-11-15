@@ -822,7 +822,7 @@ This vulnerability is due to improper handling of email attachments when the fil
 <guid isPermaLink="false">CVE-2026-88092</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
-<description>Inconsistent interpretation of http requests (&apos;http request/response smuggling&apos;) in ASP.NET Core allows an unauthorized attacker to perform tampering over a network. | CVSS 9.4 | EPSS 0.9%</description>
+<description>Inconsistent interpretation of http requests (&apos;http request/response smuggling&apos;) in ASP.NET Core allows an unauthorized attacker to perform tampering over a network. | CVSS 9.4 | EPSS 1.0%</description>
 </item>
 <item>
 <title>CVE-2026-88102 Microsoft windows server: Use after free in Windows Failover Cluster allows an unauthorized attacker to execute code over a network.</title>

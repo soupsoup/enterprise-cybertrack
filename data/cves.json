@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-14T12:17:13.006Z",
+ "generated": "2026-11-15T12:50:00.649Z",
  "cves": [
   {
    "id": "CVE-2026-119618",
@@ -19,7 +19,7 @@
      "toExcl": "2.4.71"
     }
    ],
-   "epss": 0.00408
+   "epss": 0.0133
   },
   {
    "id": "CVE-2026-126867",
@@ -32,7 +32,7 @@
    "title": "Use after free in Browser in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker to...",
    "summary": "Use after free in Browser in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00339
+   "epss": 0.00383
   },
   {
    "id": "CVE-2026-126873",
@@ -45,7 +45,7 @@
    "title": "Use after free in Extensions in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker...",
    "summary": "Use after free in Extensions in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00359
+   "epss": 0.00406
   },
   {
    "id": "CVE-2026-126883",
@@ -71,7 +71,7 @@
    "title": "Improper state validation in ANGLE in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote...",
    "summary": "Improper state validation in ANGLE in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker to bypass web origin policy via a crafted HTML page. (Chromium security severity: High)",
    "affects": [],
-   "epss": 0.00234
+   "epss": 0.00251
   },
   {
    "id": "CVE-2026-109793",
@@ -392,7 +392,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00869
+   "epss": 0.0085
   },
   {
    "id": "CVE-2026-118292",
@@ -427,7 +427,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.01079
+   "epss": 0.01056
   },
   {
    "id": "CVE-2026-118293",
@@ -462,7 +462,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00948
+   "epss": 0.00928
   },
   {
    "id": "CVE-2026-118294",
@@ -497,7 +497,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00869
+   "epss": 0.0085
   },
   {
    "id": "CVE-2026-118295",
@@ -532,7 +532,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00948
+   "epss": 0.00928
   },
   {
    "id": "CVE-2026-118296",
@@ -567,7 +567,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.01079
+   "epss": 0.01056
   },
   {
    "id": "CVE-2026-118297",
@@ -602,7 +602,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00989
+   "epss": 0.00968
   },
   {
    "id": "CVE-2026-118298",
@@ -637,7 +637,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00869
+   "epss": 0.0085
   },
   {
    "id": "CVE-2026-118299",
@@ -672,7 +672,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00869
+   "epss": 0.0085
   },
   {
    "id": "CVE-2026-118301",
@@ -707,7 +707,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00704
+   "epss": 0.00689
   },
   {
    "id": "CVE-2026-118302",
@@ -742,7 +742,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00869
+   "epss": 0.0085
   },
   {
    "id": "CVE-2026-118700",
@@ -777,7 +777,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00948
+   "epss": 0.00928
   },
   {
    "id": "CVE-2026-118701",
@@ -812,7 +812,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.01079
+   "epss": 0.01056
   },
   {
    "id": "CVE-2026-118702",
@@ -842,7 +842,7 @@
      "product": "office 2024"
     }
    ],
-   "epss": 0.01079
+   "epss": 0.01056
   },
   {
    "id": "CVE-2026-118703",
@@ -877,7 +877,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00949
+   "epss": 0.00929
   },
   {
    "id": "CVE-2026-118704",
@@ -912,7 +912,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00948
+   "epss": 0.00928
   },
   {
    "id": "CVE-2026-118705",
@@ -947,7 +947,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00948
+   "epss": 0.00928
   },
   {
    "id": "CVE-2026-118706",
@@ -982,7 +982,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00949
+   "epss": 0.00929
   },
   {
    "id": "CVE-2026-118707",
@@ -1017,7 +1017,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00948
+   "epss": 0.00928
   },
   {
    "id": "CVE-2026-118708",
@@ -1052,7 +1052,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00948
+   "epss": 0.00928
   },
   {
    "id": "CVE-2026-118709",
@@ -1087,7 +1087,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00948
+   "epss": 0.00928
   },
   {
    "id": "CVE-2026-118710",
@@ -1122,7 +1122,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.00949
+   "epss": 0.00929
   },
   {
    "id": "CVE-2026-118711",
@@ -1157,7 +1157,7 @@
      "toExcl": "16.0.10417.20236"
     }
    ],
-   "epss": 0.01079
+   "epss": 0.01056
   },
   {
    "id": "CVE-2026-113551",
@@ -1170,7 +1170,7 @@
    "title": "Audition is affected by a Violation of Secure Design Principles vulnerability that could result in privilege...",
    "summary": "Audition is affected by a Violation of Secure Design Principles vulnerability that could result in privilege escalation. A low-privileged attacker could leverage this vulnerability to gain elevated access. Exploitation of this issue does not require user interaction. Scope is changed.",
    "affects": [],
-   "epss": 0.00292
+   "epss": 0.00297
   },
   {
    "id": "CVE-2026-113553",
@@ -1590,7 +1590,7 @@
      "toExcl": "2026.2.4"
     }
    ],
-   "epss": 0.00391
+   "epss": 0.00413
   },
   {
    "id": "CVE-2026-123281",
@@ -1609,7 +1609,7 @@
      "toExcl": "2026.4"
     }
    ],
-   "epss": 0.00365
+   "epss": 0.00412
   },
   {
    "id": "CVE-2026-123282",
@@ -1628,7 +1628,7 @@
      "toExcl": "2026.4"
     }
    ],
-   "epss": 0.00277
+   "epss": 0.00279
   },
   {
    "id": "CVE-2026-123834",
@@ -8925,7 +8925,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00211
+   "epss": 0.00222
   },
   {
    "id": "CVE-2026-101535",
@@ -8945,7 +8945,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00323
+   "epss": 0.00334
   },
   {
    "id": "CVE-2026-101536",
@@ -8965,7 +8965,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00323
+   "epss": 0.00334
   },
   {
    "id": "CVE-2026-101540",
@@ -9057,7 +9057,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00323
+   "epss": 0.00334
   },
   {
    "id": "CVE-2026-101552",
@@ -9077,7 +9077,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00323
+   "epss": 0.00334
   },
   {
    "id": "CVE-2026-101566",
@@ -9097,7 +9097,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00106
+   "epss": 0.0012
   },
   {
    "id": "CVE-2026-101567",
@@ -9117,7 +9117,7 @@
      "to": "12.2.15"
     }
    ],
-   "epss": 0.00464
+   "epss": 0.0048
   },
   {
    "id": "CVE-2026-78162",
@@ -16345,7 +16345,7 @@
      "toExcl": "18.10.4"
     }
    ],
-   "epss": 0.00934
+   "epss": 0.01045
   },
   {
    "id": "CVE-2026-88093",
@@ -28903,7 +28903,7 @@
      "toExcl": "2.4.69"
     }
    ],
-   "epss": 0.00571
+   "epss": 0.00657
   },
   {
    "id": "CVE-2026-57941",
