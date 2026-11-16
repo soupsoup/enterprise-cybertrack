@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-15T12:50:00.738Z",
+ "generated": "2026-11-16T13:43:58.103Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 20
   },
   {
@@ -78,7 +78,7 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 5792
   },
   {
@@ -86,7 +86,7 @@
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,7 +224,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 722
   },
   {
@@ -232,11 +232,43 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-11-15T12:50:00.738Z",
+   "checked": "2026-11-16T13:43:58.103Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "tenable",
+   "feed": "Blog",
+   "title": "Tenable One Adversary View brings Claude Mythos’ adversarial reasoning to your environment",
+   "link": "https://www.tenable.com/blog/tenable-one-adversary-view-claude-mythos-break-attack-paths",
+   "date": "2026-11-16T13:30:00.000Z",
+   "summary": "Tenable One Adversary View is now generally available. Powered by Claude Mythos, it reads your scan data like an attacker would and tells you what to fix first. Key takeaways Adversary View is generally available. Tenable One customers with Tenable Hexa AI can run it today, with..."
+  },
+  {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "The Hidden Cost of Identity Technical Debt",
+   "link": "https://blog.qualys.com/product-tech/2026/11/16/identity-technical-debt-hidden-costs-and-fixes",
+   "date": "2026-11-16T08:25:34.000Z",
+   "summary": "Key Takeaways Identity technical debt is the accumulated security, governance, and operational burden created by unmanaged identities, excessive permissions, outdated access, and fragmented controls. It’s caused by identity sprawl, privilege creep, dormant and orphaned accounts,..."
+  },
+  {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "ARTEX Moves at Machine Speed: What Risk Owners Need to Change",
+   "link": "https://blog.qualys.com/misc/2026/11/15/artex-moves-at-machine-speed-what-risk-owners-need-to-change",
+   "date": "2026-11-16T05:56:27.000Z",
+   "summary": "Key Takeaways ARTEX, an AI-driven penetration-testing framework released in July 2026, doesn’t exploit new kinds of vulnerabilities. It automates the discovery, chaining, and retrying of existing weaknesses, often across many targets at once. In observed campaigns, attackers..."
+  },
+  {
+   "company": "trendai",
+   "feed": "Security blog",
+   "title": "Minus One: Predictive Cyber Defense Before Zero Day",
+   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/minus-one-predictive-cyber-defense",
+   "date": "2026-11-14T00:00:00.000Z",
+   "summary": "Discover Minus One, TrendAI's predictive cyber defense model. Anticipate attacks, test them in your environment, and prepare defenses before zero day."
+  },
   {
    "company": "microsoft",
    "feed": "Security blog",
@@ -588,14 +620,6 @@
    "link": "https://blog.qualys.com/product-tech/2026/11/12/ai-didnt-create-a-new-kind-of-risk-it-removed-the-time-you-had-to-fix-the-old-one",
    "date": "2026-11-13T01:37:30.000Z",
    "summary": "Mandiant’s AI Risk and Resilience 2026 report shows attackers putting agentic AI to work across the intrusion. Vulnerability exploitation is still the leading way in, and the window to fix it is closing. Executive Summary Mandiant and Google Threat Intelligence Group (GTIG)..."
-  },
-  {
-   "company": "trendai",
-   "feed": "Security blog",
-   "title": "Minus One: Predictive Cyber Defense Before Zero Day",
-   "link": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog/minus-one-predictive-cyber-defense",
-   "date": "2026-11-13T00:00:00.000Z",
-   "summary": "Discover Minus One, TrendAI's predictive cyber defense model. Anticipate attacks, test them in your environment, and prepare defenses before zero day."
   },
   {
    "company": "talos",
@@ -4726,14 +4750,6 @@
    "summary": "Executive Summary Microsoft’s September 2026 security updates – KB5124008, KB5124012, and KB5123099 have been linked to significant issues, underscoring the operational risks associated with security patching. Five known problems emerged after deployment: domain-joined devices..."
   },
   {
-   "company": "qualys",
-   "feed": "Blog",
-   "title": "Automate Asset Isolation: Your Last Resort to Meet Remediation Deadlines",
-   "link": "https://blog.qualys.com/product-tech/2026/09/15/automate-asset-isolation-cisa-kev-deadlines",
-   "date": "2026-09-15T15:00:00.000Z",
-   "summary": "Executive Summary Remediation deadlines slip for reasons outside your control: a patch does not exist yet, a patch is delayed, or a remediation attempt fails. The outcome is the same either way: the host stays unpatched and stays on the network. TruRisk Eliminate closes that..."
-  },
-  {
    "company": "tenable",
    "feed": "Blog",
    "title": "Australia is replacing the Essential Eight with a new cyber framework. Here’s how exposure management can help you get ahead of it.",
@@ -4876,14 +4892,6 @@
    "link": "https://www.welivesecurity.com/en/business-security/guardbreaker-derailing-ai-assisted-malware-analysis-code-comment/",
    "date": "2026-09-10T09:00:00.000Z",
    "summary": "LLM-based code scanners won’t help attackers build a nuclear weapon, but that refusal could work in their favor"
-  },
-  {
-   "company": "qualys",
-   "feed": "Blog",
-   "title": "What Is ISPM? How It Differs from IAM, PAM, IGA, and IDaaS",
-   "link": "https://blog.qualys.com/product-tech/2026/09/10/what-is-ispm-vs-iam-pam-iga-idaas",
-   "date": "2026-09-10T08:54:26.000Z",
-   "summary": "Key Takeaways Identity Security Posture Management (ISPM) is the continuous risk and posture layer of the identity stack not a replacement for Identity and Access Management (IAM), Privileged Access Management (PAM), Identity Governance and Administration (IGA), or..."
   },
   {
    "company": "fortinet",

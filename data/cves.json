@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-15T12:50:00.649Z",
+ "generated": "2026-11-16T13:43:58.048Z",
  "cves": [
   {
    "id": "CVE-2026-119618",
@@ -19,7 +19,7 @@
      "toExcl": "2.4.71"
     }
    ],
-   "epss": 0.0133
+   "epss": 0.01527
   },
   {
    "id": "CVE-2026-126867",
@@ -17485,7 +17485,7 @@
      "toExcl": "18.10.4"
     }
    ],
-   "epss": 0.00534
+   "epss": 0.0059
   },
   {
    "id": "CVE-2026-96958",
@@ -29320,7 +29320,7 @@
    "published": "2026-09-30",
    "title": "In JetBrains YouTrack before 2026.2.19197 project administrators could read comments from other projects via...",
    "summary": "In JetBrains YouTrack before 2026.2.19197 project administrators could read comments from other projects via notification templates",
-   "epss": 0.00229,
+   "epss": 0.00235,
    "affects": [
     {
      "vendor": "JetBrains",
