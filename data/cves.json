@@ -1,6 +1,99 @@
 {
- "generated": "2026-11-16T13:43:58.048Z",
+ "generated": "2026-11-17T14:30:47.572Z",
  "cves": [
+  {
+   "id": "CVE-2026-123039",
+   "vendor": "Check Point",
+   "product": "gaia os",
+   "category": "Edge / VPN",
+   "cvss": 7.8,
+   "kev": true,
+   "published": "2026-11-12",
+   "title": "The Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket (/tmp/dynamic_socket)...",
+   "summary": "The Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket (/tmp/dynamic_socket) without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root.",
+   "affects": [
+    {
+     "vendor": "Check Point",
+     "product": "gaia os",
+     "from": "r81",
+     "toExcl": "r81.20"
+    },
+    {
+     "vendor": "Check Point",
+     "product": "gaia os",
+     "version": "r81.20"
+    },
+    {
+     "vendor": "Check Point",
+     "product": "gaia os",
+     "version": "r82"
+    },
+    {
+     "vendor": "Check Point",
+     "product": "gaia os",
+     "version": "r82.10"
+    },
+    {
+     "vendor": "Check Point",
+     "product": "gaia os",
+     "version": "r82.20"
+    },
+    {
+     "vendor": "Check Point",
+     "product": "multi-domain security management",
+     "from": "r81",
+     "toExcl": "r81.20"
+    },
+    {
+     "vendor": "Check Point",
+     "product": "multi-domain security management",
+     "version": "r81.20"
+    },
+    {
+     "vendor": "Check Point",
+     "product": "multi-domain security management",
+     "version": "r82"
+    },
+    {
+     "vendor": "Check Point",
+     "product": "multi-domain security management",
+     "version": "r82.10"
+    },
+    {
+     "vendor": "Check Point",
+     "product": "multi-domain security management",
+     "version": "r82.20"
+    },
+    {
+     "vendor": "Check Point",
+     "product": "quantum security management",
+     "from": "r81",
+     "toExcl": "r81.20"
+    },
+    {
+     "vendor": "Check Point",
+     "product": "quantum security management",
+     "version": "r81.20"
+    },
+    {
+     "vendor": "Check Point",
+     "product": "quantum security management",
+     "version": "r82"
+    },
+    {
+     "vendor": "Check Point",
+     "product": "quantum security management",
+     "version": "r82.10"
+    },
+    {
+     "vendor": "Check Point",
+     "product": "quantum security management",
+     "version": "r82.20"
+    }
+   ],
+   "kevAdded": "2026-11-13",
+   "epss": 0.02191
+  },
   {
    "id": "CVE-2026-119618",
    "vendor": "Apache",
@@ -19,7 +112,7 @@
      "toExcl": "2.4.71"
     }
    ],
-   "epss": 0.01527
+   "epss": 0.01583
   },
   {
    "id": "CVE-2026-126867",
@@ -1288,6 +1381,2805 @@
    "summary": "Audition is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file.",
    "affects": [],
    "epss": 0.00285
+  },
+  {
+   "id": "CVE-2026-109491",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00704
+  },
+  {
+   "id": "CVE-2026-109500",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00704
+  },
+  {
+   "id": "CVE-2026-109501",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Out-of-bounds read in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "summary": "Out-of-bounds read in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-109503",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Double free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-109505",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-110047",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.01079
+  },
+  {
+   "id": "CVE-2026-110048",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-110049",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00542
+  },
+  {
+   "id": "CVE-2026-110050",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-110052",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00704
+  },
+  {
+   "id": "CVE-2026-110053",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00704
+  },
+  {
+   "id": "CVE-2026-110054",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-110055",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-110056",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00542
+  },
+  {
+   "id": "CVE-2026-110061",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-110062",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-110064",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-110067",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.01079
+  },
+  {
+   "id": "CVE-2026-111285",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.01081
+  },
+  {
+   "id": "CVE-2026-111287",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00704
+  },
+  {
+   "id": "CVE-2026-111290",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-111294",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-111295",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-111298",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Out-of-bounds read in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "summary": "Out-of-bounds read in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-111299",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-111302",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00542
+  },
+  {
+   "id": "CVE-2026-111304",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00785
+  },
+  {
+   "id": "CVE-2026-111306",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-111307",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-111308",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Numeric truncation error in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Numeric truncation error in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-111310",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-112714",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-112715",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-112716",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-112717",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00785
+  },
+  {
+   "id": "CVE-2026-112718",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-112719",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-112721",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-112722",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-112723",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00785
+  },
+  {
+   "id": "CVE-2026-112724",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-112726",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-112728",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00785
+  },
+  {
+   "id": "CVE-2026-112729",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-112730",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-112733",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-112735",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-112739",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-112741",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-113759",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+   "summary": "Use after free in Microsoft Office Word allows an unauthorized attacker to execute code locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00542
+  },
+  {
+   "id": "CVE-2026-116718",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00567
+  },
+  {
+   "id": "CVE-2026-116719",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.0072
+  },
+  {
+   "id": "CVE-2026-116720",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.0087
+  },
+  {
+   "id": "CVE-2026-116722",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.0087
+  },
+  {
+   "id": "CVE-2026-116923",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.0087
+  },
+  {
+   "id": "CVE-2026-116925",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00676
+  },
+  {
+   "id": "CVE-2026-118712",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute...",
+   "summary": "Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118713",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.01081
+  },
+  {
+   "id": "CVE-2026-118714",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118715",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to elevate privileges...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118716",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-118717",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118718",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118719",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Double free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118720",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118721",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118722",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118723",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Untrusted pointer dereference in Microsoft Office Excel allows an unauthorized attacker to execute code...",
+   "summary": "Untrusted pointer dereference in Microsoft Office Excel allows an unauthorized attacker to execute code locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00542
+  },
+  {
+   "id": "CVE-2026-118724",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Untrusted pointer dereference in Microsoft Office Excel allows an unauthorized attacker to execute code over...",
+   "summary": "Untrusted pointer dereference in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118725",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to elevate privileges over a...",
+   "summary": "Out-of-bounds read in Microsoft Office Excel allows an unauthorized attacker to elevate privileges over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118726",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118729",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-118730",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.01081
+  },
+  {
+   "id": "CVE-2026-118731",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00948
+  },
+  {
+   "id": "CVE-2026-118732",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00949
+  },
+  {
+   "id": "CVE-2026-119986",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00837
+  },
+  {
+   "id": "CVE-2026-120785",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00607
+  },
+  {
+   "id": "CVE-2026-120786",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00953
+  },
+  {
+   "id": "CVE-2026-120788",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00953
+  },
+  {
+   "id": "CVE-2026-120789",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00789
+  },
+  {
+   "id": "CVE-2026-120790",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00837
+  },
+  {
+   "id": "CVE-2026-120791",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00607
+  },
+  {
+   "id": "CVE-2026-123385",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00607
+  },
+  {
+   "id": "CVE-2026-123394",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00837
+  },
+  {
+   "id": "CVE-2026-124170",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00599
+  },
+  {
+   "id": "CVE-2026-124174",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00607
+  },
+  {
+   "id": "CVE-2026-124176",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...",
+   "summary": "Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office online server",
+     "toExcl": "16.0.10417.20236"
+    }
+   ],
+   "epss": 0.00607
+  },
+  {
+   "id": "CVE-2026-124185",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use of uninitialized resource in Microsoft Office Word allows an unauthorized attacker to execute code over a...",
+   "summary": "Use of uninitialized resource in Microsoft Office Word allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00599
+  },
+  {
+   "id": "CVE-2026-124187",
+   "vendor": "Microsoft",
+   "product": "365 apps",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "summary": "Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 apps"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00838
   },
   {
    "id": "CVE-2026-19868",
@@ -9118,6 +12010,351 @@
     }
    ],
    "epss": 0.0048
+  },
+  {
+   "id": "CVE-2026-101572",
+   "vendor": "Oracle",
+   "product": "helidon",
+   "category": "Databases & Middleware",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Helidon product of Oracle Fusion Middleware (component: helidon-webclient-http2).",
+   "summary": "Vulnerability in the Helidon product of Oracle Fusion Middleware (component: helidon-webclient-http2).  Supported versions that are affected are 4.0.0-4.5.5 and 27.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP/2 to compromise Helidon.  Successful attacks of this vulnerability can result in unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Helidon. CVSS 3.1 Base Score 7.5 (Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "helidon",
+     "from": "4.0.0",
+     "to": "4.5.5"
+    },
+    {
+     "vendor": "Oracle",
+     "product": "helidon",
+     "version": "27.0.0"
+    }
+   ],
+   "epss": 0.0049
+  },
+  {
+   "id": "CVE-2026-101590",
+   "vendor": "Oracle",
+   "product": "helidon",
+   "category": "Databases & Middleware",
+   "cvss": 9.1,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Helidon product of Oracle Fusion Middleware (component: helidon-microprofile-security).",
+   "summary": "Vulnerability in the Helidon product of Oracle Fusion Middleware (component: helidon-microprofile-security).  Supported versions that are affected are 4.0.0-4.5.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Helidon.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Helidon accessible data as well as  unauthorized access to critical data or complete access to all Helidon accessible data. CVSS 3.1 Base Score 9.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "helidon",
+     "from": "4.0.0",
+     "to": "4.5.5"
+    }
+   ],
+   "epss": 0.0042
+  },
+  {
+   "id": "CVE-2026-101634",
+   "vendor": "Oracle",
+   "product": "mobile field service",
+   "category": "Application Platforms",
+   "cvss": 9.1,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Internal...",
+   "summary": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Mobile Field Service.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Mobile Field Service accessible data and unauthorized ability to cause a hang or frequently repeatable crash (complete DOS) of Oracle Mobile Field Service. CVSS 3.1 Base Score 9.1 (Confidentiality and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mobile field service",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00561
+  },
+  {
+   "id": "CVE-2026-101635",
+   "vendor": "Oracle",
+   "product": "mobile field service",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Internal...",
+   "summary": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Mobile Field Service.  Successful attacks of this vulnerability can result in takeover of Oracle Mobile Field Service. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mobile field service",
+     "from": "12.2.3",
+     "toExcl": "12.2.15"
+    }
+   ],
+   "epss": 0.00433
+  },
+  {
+   "id": "CVE-2026-101636",
+   "vendor": "Oracle",
+   "product": "mobile field service",
+   "category": "Application Platforms",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI).",
+   "summary": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Mobile Field Service.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Mobile Field Service accessible data as well as  unauthorized access to critical data or complete access to all Oracle Mobile Field Service accessible data. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mobile field service",
+     "from": "12.2.3",
+     "toExcl": "12.2.15"
+    }
+   ],
+   "epss": 0.0036
+  },
+  {
+   "id": "CVE-2026-101653",
+   "vendor": "Oracle",
+   "product": "mobile field service",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Internal...",
+   "summary": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTPS to compromise Oracle Mobile Field Service.  Successful attacks of this vulnerability can result in takeover of Oracle Mobile Field Service. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mobile field service",
+     "from": "12.2.3",
+     "toExcl": "12.2.15"
+    }
+   ],
+   "epss": 0.00433
+  },
+  {
+   "id": "CVE-2026-101654",
+   "vendor": "Oracle",
+   "product": "mobile field service",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Internal...",
+   "summary": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTPS to compromise Oracle Mobile Field Service.  Successful attacks of this vulnerability can result in takeover of Oracle Mobile Field Service. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mobile field service",
+     "from": "12.2.3",
+     "toExcl": "12.2.15"
+    }
+   ],
+   "epss": 0.00433
+  },
+  {
+   "id": "CVE-2026-101655",
+   "vendor": "Oracle",
+   "product": "mobile field service",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Internal...",
+   "summary": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Mobile Field Service.  Successful attacks of this vulnerability can result in takeover of Oracle Mobile Field Service. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mobile field service",
+     "from": "12.2.3",
+     "toExcl": "12.2.15"
+    }
+   ],
+   "epss": 0.00433
+  },
+  {
+   "id": "CVE-2026-101656",
+   "vendor": "Oracle",
+   "product": "mobile field service",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Internal...",
+   "summary": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTPS to compromise Oracle Mobile Field Service.  Successful attacks of this vulnerability can result in takeover of Oracle Mobile Field Service. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mobile field service",
+     "from": "12.2.3",
+     "toExcl": "12.2.15"
+    }
+   ],
+   "epss": 0.00433
+  },
+  {
+   "id": "CVE-2026-101658",
+   "vendor": "Oracle",
+   "product": "mobile field service",
+   "category": "Application Platforms",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI).",
+   "summary": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Mobile Field Service.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Mobile Field Service accessible data as well as  unauthorized access to critical data or complete access to all Oracle Mobile Field Service accessible data. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mobile field service",
+     "from": "12.2.3",
+     "toExcl": "12.2.15"
+    }
+   ],
+   "epss": 0.0036
+  },
+  {
+   "id": "CVE-2026-101660",
+   "vendor": "Oracle",
+   "product": "mobile field service",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI).",
+   "summary": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Mobile Field Service.  Successful attacks of this vulnerability can result in  unauthorized access to critical data or complete access to all Oracle Mobile Field Service accessible data. CVSS 3.1 Base Score 7.5 (Confidentiality impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mobile field service",
+     "from": "12.2.3",
+     "toExcl": "12.2.15"
+    }
+   ],
+   "epss": 0.00438
+  },
+  {
+   "id": "CVE-2026-101661",
+   "vendor": "Oracle",
+   "product": "mobile field service",
+   "category": "Application Platforms",
+   "cvss": 7.4,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI).",
+   "summary": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Mobile Field Service.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Mobile Field Service accessible data as well as  unauthorized access to critical data or complete access to all Oracle Mobile Field Service accessible data. CVSS 3.1 Base Score 7.4 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mobile field service",
+     "from": "12.2.3",
+     "toExcl": "12.2.15"
+    }
+   ],
+   "epss": 0.0036
+  },
+  {
+   "id": "CVE-2026-101662",
+   "vendor": "Oracle",
+   "product": "mobile field service",
+   "category": "Application Platforms",
+   "cvss": 7.1,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI).",
+   "summary": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Mobile Field Service.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Mobile Field Service accessible data as well as  unauthorized read access to a subset of Oracle Mobile Field Service accessible data. CVSS 3.1 Base Score 7.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mobile field service",
+     "from": "12.2.3",
+     "toExcl": "12.2.15"
+    }
+   ],
+   "epss": 0.00309
+  },
+  {
+   "id": "CVE-2026-101664",
+   "vendor": "Oracle",
+   "product": "mobile field service",
+   "category": "Application Platforms",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Internal...",
+   "summary": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Internal Operations).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Mobile Field Service.  Successful attacks of this vulnerability can result in takeover of Oracle Mobile Field Service. CVSS 3.1 Base Score 8.8 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mobile field service",
+     "from": "12.2.3",
+     "toExcl": "12.2.15"
+    }
+   ],
+   "epss": 0.00433
+  },
+  {
+   "id": "CVE-2026-101665",
+   "vendor": "Oracle",
+   "product": "mobile field service",
+   "category": "Application Platforms",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI).",
+   "summary": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI).  Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Mobile Field Service.  Successful attacks of this vulnerability can result in  unauthorized creation, deletion or modification access to critical data or all Oracle Mobile Field Service accessible data as well as  unauthorized access to critical data or complete access to all Oracle Mobile Field Service accessible data. CVSS 3.1 Base Score 8.1 (Confidentiality and Integrity impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "mobile field service",
+     "from": "12.2.3",
+     "toExcl": "12.2.15"
+    }
+   ],
+   "epss": 0.00389
+  },
+  {
+   "id": "CVE-2026-101698",
+   "vendor": "Oracle",
+   "product": "one-to-one fulfillment",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle One-to-One Fulfillment product of Oracle E-Business Suite (component: Java Server...",
+   "summary": "Vulnerability in the Oracle One-to-One Fulfillment product of Oracle E-Business Suite (component: Java Server Issues).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle One-to-One Fulfillment.  Successful attacks of this vulnerability can result in takeover of Oracle One-to-One Fulfillment. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "one-to-one fulfillment",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00335
+  },
+  {
+   "id": "CVE-2026-101699",
+   "vendor": "Oracle",
+   "product": "one-to-one fulfillment",
+   "category": "Application Platforms",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-10-20",
+   "title": "Vulnerability in the Oracle One-to-One Fulfillment product of Oracle E-Business Suite (component: Documents).",
+   "summary": "Vulnerability in the Oracle One-to-One Fulfillment product of Oracle E-Business Suite (component: Documents).  Supported versions that are affected are 12.2.3-12.2.15. Difficult to exploit vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle One-to-One Fulfillment.  Successful attacks of this vulnerability can result in takeover of Oracle One-to-One Fulfillment. CVSS 3.1 Base Score 7.5 (Confidentiality, Integrity and Availability impacts).  CVSS Vector: (CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H).",
+   "affects": [
+    {
+     "vendor": "Oracle",
+     "product": "one-to-one fulfillment",
+     "from": "12.2.3",
+     "to": "12.2.15"
+    }
+   ],
+   "epss": 0.00359
   },
   {
    "id": "CVE-2026-78162",
@@ -17485,7 +20722,7 @@
      "toExcl": "18.10.4"
     }
    ],
-   "epss": 0.0059
+   "epss": 0.00534
   },
   {
    "id": "CVE-2026-96958",

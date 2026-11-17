@@ -302,514 +302,508 @@
 <description>Audition is affected by an out-of-bounds write vulnerability that could result in arbitrary code execution in the context of the current user. Exploitation of this issue requires user interaction in that a victim must open a malicious file. | CVSS 7.8 | EPSS 0.3%</description>
 </item>
 <item>
-<title>CVE-2026-121037 Microsoft windows: Out of bounds write in ANGLE in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-121037</link>
-<guid isPermaLink="false">CVE-2026-121037</guid>
-<pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-109491 Microsoft 365 apps: Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-109491</link>
+<guid isPermaLink="false">CVE-2026-109491</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Out of bounds write in ANGLE in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.5%</description>
+<description>Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
-<title>CVE-2026-121034 Microsoft windows: Use after free in Views in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-121034</link>
-<guid isPermaLink="false">CVE-2026-121034</guid>
-<pubDate>Tue, 03 Nov 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-109500 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-109500</link>
+<guid isPermaLink="false">CVE-2026-109500</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Views in Google Chrome on on Windows prior to 157.0.8103.38 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.4%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
-<title>CVE-2026-96192 Microsoft edge: Use after free in Microsoft Edge for iOS allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96192</link>
-<guid isPermaLink="false">CVE-2026-96192</guid>
-<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
-<category>Application Platforms</category>
-<description>Use after free in Microsoft Edge for iOS allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
-</item>
-<item>
-<title>CVE-2026-85890 Microsoft edge chromium: Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85890</link>
-<guid isPermaLink="false">CVE-2026-85890</guid>
-<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-109501 Microsoft 365 apps: Out-of-bounds read in Microsoft Office Word allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-109501</link>
+<guid isPermaLink="false">CVE-2026-109501</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Out-of-bounds read in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-85897 Microsoft edge chromium: Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85897</link>
-<guid isPermaLink="false">CVE-2026-85897</guid>
-<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-109503 Microsoft 365 apps: Double free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-109503</link>
+<guid isPermaLink="false">CVE-2026-109503</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Double free in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-85899 Microsoft edge chromium: Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85899</link>
-<guid isPermaLink="false">CVE-2026-85899</guid>
-<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-109505 Microsoft 365 apps: Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-109505</link>
+<guid isPermaLink="false">CVE-2026-109505</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Edge (Chromium-based) allows an authorized attacker to elevate privileges over a network. | CVSS 8.1 | EPSS 0.6%</description>
+<description>Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-88077 Microsoft edge chromium: Integer overflow or wraparound in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88077</link>
-<guid isPermaLink="false">CVE-2026-88077</guid>
-<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-110047 Microsoft 365 apps: Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110047</link>
+<guid isPermaLink="false">CVE-2026-110047</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Integer overflow or wraparound in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 1.1%</description>
 </item>
 <item>
-<title>CVE-2026-96187 Microsoft edge chromium: Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96187</link>
-<guid isPermaLink="false">CVE-2026-96187</guid>
-<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-110048 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110048</link>
+<guid isPermaLink="false">CVE-2026-110048</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an unauthorized attacker to disclose information over a network. | CVSS 7.4 | EPSS 0.5%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-96196 Microsoft edge chromium: Incomplete list of disallowed inputs in Microsoft Edge (Chromium-based) allows an unauthorized attacker to...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96196</link>
-<guid isPermaLink="false">CVE-2026-96196</guid>
-<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-110049 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110049</link>
+<guid isPermaLink="false">CVE-2026-110049</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Incomplete list of disallowed inputs in Microsoft Edge (Chromium-based) allows an unauthorized attacker to bypass a security feature over a network. | CVSS 8.8 | EPSS 0.8%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally. | CVSS 7.8 | EPSS 0.5%</description>
 </item>
 <item>
-<title>CVE-2026-96198 Microsoft edge chromium: Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96198</link>
-<guid isPermaLink="false">CVE-2026-96198</guid>
-<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-110050 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110050</link>
+<guid isPermaLink="false">CVE-2026-110050</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-96199 Microsoft edge chromium: Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96199</link>
-<guid isPermaLink="false">CVE-2026-96199</guid>
-<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-110052 Microsoft 365 apps: Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110052</link>
+<guid isPermaLink="false">CVE-2026-110052</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
-<title>CVE-2026-96203 Microsoft edge chromium: Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96203</link>
-<guid isPermaLink="false">CVE-2026-96203</guid>
-<pubDate>Thu, 29 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-110053 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110053</link>
+<guid isPermaLink="false">CVE-2026-110053</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
-<title>CVE-2026-118310 Microsoft windows: Use after free in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118310</link>
-<guid isPermaLink="false">CVE-2026-118310</guid>
-<pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-110054 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110054</link>
+<guid isPermaLink="false">CVE-2026-110054</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.3%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-118330 Microsoft windows: Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118330</link>
-<guid isPermaLink="false">CVE-2026-118330</guid>
-<pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-110055 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110055</link>
+<guid isPermaLink="false">CVE-2026-110055</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Browser in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.3%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-83831 Microsoft edge chromium: Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83831</link>
-<guid isPermaLink="false">CVE-2026-83831</guid>
-<pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-110056 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110056</link>
+<guid isPermaLink="false">CVE-2026-110056</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Double free in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally. | CVSS 7.8 | EPSS 0.5%</description>
 </item>
 <item>
-<title>CVE-2026-85898 Microsoft edge chromium: Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85898</link>
-<guid isPermaLink="false">CVE-2026-85898</guid>
-<pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-110061 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110061</link>
+<guid isPermaLink="false">CVE-2026-110061</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-62765 Microsoft edge chromium: Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-62765</link>
-<guid isPermaLink="false">CVE-2026-62765</guid>
-<pubDate>Tue, 27 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-110062 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110062</link>
+<guid isPermaLink="false">CVE-2026-110062</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Access of resource using incompatible type (&apos;type confusion&apos;) in Microsoft Edge (Chromium-based) allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.4%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-111497 Microsoft .net: A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111497</link>
-<guid isPermaLink="false">CVE-2026-111497</guid>
-<pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
-<category>Developer Tools &amp; Libraries</category>
-<description>A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3 through 1.2.0 on all platforms allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compressed stream.
-
-
-
-
-
-Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-27) | EPSS 82.6%</description>
-</item>
-<item>
-<title>CVE-2026-96644 Microsoft windows: Pillow is a Python imaging library.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96644</link>
-<guid isPermaLink="false">CVE-2026-96644</guid>
-<pubDate>Wed, 21 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-110064 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110064</link>
+<guid isPermaLink="false">CVE-2026-110064</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Pillow is a Python imaging library. Prior to 13.0.0 on Windows, src/PIL/WmfImagePlugin.py passes unchecked 32-bit WMF or EMF dimensions to the native drawwmf handler in src/display.c. The handler sizes a DIB allocation from 16-bit-truncated bcWidth and bcHeight fields but copies pixel data using the original full dimensions. A crafted wide, short metafile can pass the pixel-count decompression-bomb check and make the Windows-only renderer read beyond the heap buffer, potentially disclosing memory or crashing the process. This issue is fixed in version 13.0.0. | CVSS 8.1 | EPSS 0.4%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-113011 Microsoft windows: Incorrect authorization in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113011</link>
-<guid isPermaLink="false">CVE-2026-113011</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-110067 Microsoft 365 apps: Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-110067</link>
+<guid isPermaLink="false">CVE-2026-110067</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Incorrect authorization in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a local attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a local program. (Chromium security severity: Medium) | CVSS 8.8 | EPSS 0.3%</description>
+<description>Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 1.1%</description>
 </item>
 <item>
-<title>CVE-2026-113074 Microsoft windows: Incorrect authorization in Media in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113074</link>
-<guid isPermaLink="false">CVE-2026-113074</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-111285 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111285</link>
+<guid isPermaLink="false">CVE-2026-111285</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Incorrect authorization in Media in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker who had compromised the renderer process to spoof UI elements via a crafted HTML page. (Chromium security severity: Low) | CVSS 8.8 | EPSS 0.3%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 1.1%</description>
 </item>
 <item>
-<title>CVE-2026-113119 Microsoft windows: Improper certificate validation in Network in Google Chrome on on Windows prior to 156.0.8078.47 allowed a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113119</link>
-<guid isPermaLink="false">CVE-2026-113119</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-111287 Microsoft 365 apps: Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111287</link>
+<guid isPermaLink="false">CVE-2026-111287</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Improper certificate validation in Network in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to leak sensitive information via crafted network traffic. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.2%</description>
+<description>Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
-<title>CVE-2026-113134 Microsoft windows: Out of bounds read in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113134</link>
-<guid isPermaLink="false">CVE-2026-113134</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-111290 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111290</link>
+<guid isPermaLink="false">CVE-2026-111290</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Out of bounds read in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.3%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-113210 Microsoft windows: Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113210</link>
-<guid isPermaLink="false">CVE-2026-113210</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-111294 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111294</link>
+<guid isPermaLink="false">CVE-2026-111294</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-113242 Microsoft windows: Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113242</link>
-<guid isPermaLink="false">CVE-2026-113242</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-111295 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111295</link>
+<guid isPermaLink="false">CVE-2026-111295</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-113252 Microsoft windows: Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113252</link>
-<guid isPermaLink="false">CVE-2026-113252</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-111298 Microsoft 365 apps: Out-of-bounds read in Microsoft Office Word allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111298</link>
+<guid isPermaLink="false">CVE-2026-111298</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker who had compromised the renderer process to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.4%</description>
+<description>Out-of-bounds read in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-113283 Microsoft windows: Improper privilege management in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113283</link>
-<guid isPermaLink="false">CVE-2026-113283</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-111299 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111299</link>
+<guid isPermaLink="false">CVE-2026-111299</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Improper privilege management in CredentialProvider in Google Chrome on on Windows prior to 156.0.8078.47 allowed a local attacker to execute arbitrary code outside the sandbox via physical access. (Chromium security severity: Medium) | CVSS 9.6 | EPSS 0.3%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-113285 Microsoft windows: Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113285</link>
-<guid isPermaLink="false">CVE-2026-113285</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-111302 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111302</link>
+<guid isPermaLink="false">CVE-2026-111302</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Uninitialized resource in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to read memory outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code locally. | CVSS 7.8 | EPSS 0.5%</description>
 </item>
 <item>
-<title>CVE-2026-113293 Microsoft windows: Out of bounds write in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113293</link>
-<guid isPermaLink="false">CVE-2026-113293</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-111304 Microsoft 365 apps: Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111304</link>
+<guid isPermaLink="false">CVE-2026-111304</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Out of bounds write in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
+<description>Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
 </item>
 <item>
-<title>CVE-2026-113334 Microsoft windows: Buffer overflow in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113334</link>
-<guid isPermaLink="false">CVE-2026-113334</guid>
-<pubDate>Tue, 20 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-111306 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111306</link>
+<guid isPermaLink="false">CVE-2026-111306</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Buffer overflow in ANGLE in Google Chrome on on Windows prior to 156.0.8078.47 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.5%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108443 Microsoft 365 apps: Off-by-one error in Microsoft Office Word allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108443</link>
-<guid isPermaLink="false">CVE-2026-108443</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-111307 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111307</link>
+<guid isPermaLink="false">CVE-2026-111307</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Off-by-one error in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108444 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108444</link>
-<guid isPermaLink="false">CVE-2026-108444</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-111308 Microsoft 365 apps: Numeric truncation error in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111308</link>
+<guid isPermaLink="false">CVE-2026-111308</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Numeric truncation error in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108445 Microsoft 365 apps: Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108445</link>
-<guid isPermaLink="false">CVE-2026-108445</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-111310 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-111310</link>
+<guid isPermaLink="false">CVE-2026-111310</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108446 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108446</link>
-<guid isPermaLink="false">CVE-2026-108446</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112714 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112714</link>
+<guid isPermaLink="false">CVE-2026-112714</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108447 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108447</link>
-<guid isPermaLink="false">CVE-2026-108447</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112715 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112715</link>
+<guid isPermaLink="false">CVE-2026-112715</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108448 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108448</link>
-<guid isPermaLink="false">CVE-2026-108448</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112716 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112716</link>
+<guid isPermaLink="false">CVE-2026-112716</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.5%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108449 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108449</link>
-<guid isPermaLink="false">CVE-2026-108449</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112717 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112717</link>
+<guid isPermaLink="false">CVE-2026-112717</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
 </item>
 <item>
-<title>CVE-2026-108450 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108450</link>
-<guid isPermaLink="false">CVE-2026-108450</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112718 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112718</link>
+<guid isPermaLink="false">CVE-2026-112718</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108451 Microsoft 365 apps: Numeric truncation error in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108451</link>
-<guid isPermaLink="false">CVE-2026-108451</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112719 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112719</link>
+<guid isPermaLink="false">CVE-2026-112719</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Numeric truncation error in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108452 Microsoft sharepoint server: Improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) in Microsoft Office SharePoint...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108452</link>
-<guid isPermaLink="false">CVE-2026-108452</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
-<category>Email &amp; Collaboration</category>
-<description>Improper limitation of a pathname to a restricted directory (&apos;path traversal&apos;) in Microsoft Office SharePoint allows an authorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-108426 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108426</link>
-<guid isPermaLink="false">CVE-2026-108426</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112721 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112721</link>
+<guid isPermaLink="false">CVE-2026-112721</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108427 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108427</link>
-<guid isPermaLink="false">CVE-2026-108427</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112722 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112722</link>
+<guid isPermaLink="false">CVE-2026-112722</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108428 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108428</link>
-<guid isPermaLink="false">CVE-2026-108428</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112723 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112723</link>
+<guid isPermaLink="false">CVE-2026-112723</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
 </item>
 <item>
-<title>CVE-2026-108429 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108429</link>
-<guid isPermaLink="false">CVE-2026-108429</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112724 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112724</link>
+<guid isPermaLink="false">CVE-2026-112724</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108430 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108430</link>
-<guid isPermaLink="false">CVE-2026-108430</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112726 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112726</link>
+<guid isPermaLink="false">CVE-2026-112726</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108431 Microsoft 365 apps: Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108431</link>
-<guid isPermaLink="false">CVE-2026-108431</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112728 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112728</link>
+<guid isPermaLink="false">CVE-2026-112728</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
 </item>
 <item>
-<title>CVE-2026-108432 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108432</link>
-<guid isPermaLink="false">CVE-2026-108432</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112729 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112729</link>
+<guid isPermaLink="false">CVE-2026-112729</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108433 Microsoft 365 apps: Reliance on untrusted inputs in a security decision in Microsoft Office Word allows an unauthorized attacker...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108433</link>
-<guid isPermaLink="false">CVE-2026-108433</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112730 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112730</link>
+<guid isPermaLink="false">CVE-2026-112730</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Reliance on untrusted inputs in a security decision in Microsoft Office Word allows an unauthorized attacker to bypass a security feature locally. | CVSS 7.8 | EPSS 0.4%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108437 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108437</link>
-<guid isPermaLink="false">CVE-2026-108437</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112733 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112733</link>
+<guid isPermaLink="false">CVE-2026-112733</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108439 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108439</link>
-<guid isPermaLink="false">CVE-2026-108439</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112735 Microsoft 365 apps: Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112735</link>
+<guid isPermaLink="false">CVE-2026-112735</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108440 Microsoft 365 apps: Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108440</link>
-<guid isPermaLink="false">CVE-2026-108440</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112739 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112739</link>
+<guid isPermaLink="false">CVE-2026-112739</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Stack-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108441 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108441</link>
-<guid isPermaLink="false">CVE-2026-108441</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-112741 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112741</link>
+<guid isPermaLink="false">CVE-2026-112741</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-108442 Microsoft 365 apps: Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-108442</link>
-<guid isPermaLink="false">CVE-2026-108442</guid>
-<pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-113759 Microsoft 365 apps: Use after free in Microsoft Office Word allows an unauthorized attacker to execute code locally.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113759</link>
+<guid isPermaLink="false">CVE-2026-113759</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.6%</description>
+<description>Use after free in Microsoft Office Word allows an unauthorized attacker to execute code locally. | CVSS 7.8 | EPSS 0.5%</description>
 </item>
 <item>
-<title>CVE-2026-88164 Microsoft sharepoint server: Missing authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88164</link>
-<guid isPermaLink="false">CVE-2026-88164</guid>
-<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-<category>Email &amp; Collaboration</category>
-<description>Missing authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-100209 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-100209</link>
-<guid isPermaLink="false">CVE-2026-100209</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-116718 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-116718</link>
+<guid isPermaLink="false">CVE-2026-116718</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.6%</description>
 </item>
 <item>
-<title>CVE-2026-100210 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-100210</link>
-<guid isPermaLink="false">CVE-2026-100210</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-116719 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-116719</link>
+<guid isPermaLink="false">CVE-2026-116719</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
+</item>
+<item>
+<title>CVE-2026-116720 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-116720</link>
+<guid isPermaLink="false">CVE-2026-116720</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
+</item>
+<item>
+<title>CVE-2026-116722 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-116722</link>
+<guid isPermaLink="false">CVE-2026-116722</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
+</item>
+<item>
+<title>CVE-2026-116923 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-116923</link>
+<guid isPermaLink="false">CVE-2026-116923</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
+</item>
+<item>
+<title>CVE-2026-116925 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-116925</link>
+<guid isPermaLink="false">CVE-2026-116925</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
+</item>
+<item>
+<title>CVE-2026-118712 Microsoft 365 apps: Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118712</link>
+<guid isPermaLink="false">CVE-2026-118712</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
+</item>
+<item>
+<title>CVE-2026-118713 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118713</link>
+<guid isPermaLink="false">CVE-2026-118713</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 1.1%</description>
+</item>
+<item>
+<title>CVE-2026-118714 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118714</link>
+<guid isPermaLink="false">CVE-2026-118714</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-100211 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-100211</link>
-<guid isPermaLink="false">CVE-2026-100211</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-118715 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to elevate privileges...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118715</link>
+<guid isPermaLink="false">CVE-2026-118715</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.9%</description>
+</item>
+<item>
+<title>CVE-2026-118716 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118716</link>
+<guid isPermaLink="false">CVE-2026-118716</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-100212 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-100212</link>
-<guid isPermaLink="false">CVE-2026-100212</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
+<title>CVE-2026-118717 Microsoft 365 apps: Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118717</link>
+<guid isPermaLink="false">CVE-2026-118717</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
+<description>Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
-<title>CVE-2026-102860 Microsoft sharepoint server: Improper access control in Microsoft Office SharePoint allows an authorized attacker to elevate privileges...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102860</link>
-<guid isPermaLink="false">CVE-2026-102860</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Email &amp; Collaboration</category>
-<description>Improper access control in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-102861 Microsoft sharepoint server: Missing authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102861</link>
-<guid isPermaLink="false">CVE-2026-102861</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Email &amp; Collaboration</category>
-<description>Missing authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-102862 Microsoft sharepoint server: Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102862</link>
-<guid isPermaLink="false">CVE-2026-102862</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Email &amp; Collaboration</category>
-<description>Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-102863 Microsoft sharepoint server: Improper control of generation of code (&apos;code injection&apos;) in Microsoft Office SharePoint allows an authorized...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102863</link>
-<guid isPermaLink="false">CVE-2026-102863</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Email &amp; Collaboration</category>
-<description>Improper control of generation of code (&apos;code injection&apos;) in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 1.0%</description>
-</item>
-<item>
-<title>CVE-2026-102866 Microsoft sharepoint server: Improper verification of cryptographic signature in Microsoft Office SharePoint allows an unauthorized...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-102866</link>
-<guid isPermaLink="false">CVE-2026-102866</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Email &amp; Collaboration</category>
-<description>Improper verification of cryptographic signature in Microsoft Office SharePoint allows an unauthorized attacker to elevate privileges over a network. | CVSS 8.1 | EPSS 0.7%</description>
+<title>CVE-2026-118718 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118718</link>
+<guid isPermaLink="false">CVE-2026-118718</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 </channel>
 </rss>

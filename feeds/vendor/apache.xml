@@ -14,7 +14,7 @@
 <description>Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server&apos;s mod_http2 in assign_headers() can lead to RCE.
 
 This issue affects Apache HTTP Server: from 2.4.55 through 2.4.70.
-Affected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42. | CVSS 8.1 | EPSS 1.5%</description>
+Affected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42. | CVSS 8.1 | EPSS 1.6%</description>
 </item>
 <item>
 <title>CVE-2026-109928 Apache ofbiz: Incorrect Implementation of Authentication Algorithm in the password-reset and login JWT validation in Apache...</title>
