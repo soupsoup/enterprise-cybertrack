@@ -6,6 +6,78 @@
 <description>High and critical Microsoft vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/microsoft.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-130938 Microsoft windows: Use after free in Accessibility in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-130938</link>
+<guid isPermaLink="false">CVE-2026-130938</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Accessibility in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium) | CVSS 8.3 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-130944 Microsoft windows: Use after free in Omnibox in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker who...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-130944</link>
+<guid isPermaLink="false">CVE-2026-130944</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Omnibox in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.3 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-130969 Microsoft windows: Incorrect authorization in Omnibox in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-130969</link>
+<guid isPermaLink="false">CVE-2026-130969</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Incorrect authorization in Omnibox in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer process and leveraged social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium) | CVSS 8.3 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-130987 Microsoft windows: Race condition in Downloads in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-130987</link>
+<guid isPermaLink="false">CVE-2026-130987</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Race condition in Downloads in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer process and leveraged social engineering to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: Medium) | CVSS 8.3 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-130999 Microsoft windows: Use after free in Downloads in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-130999</link>
+<guid isPermaLink="false">CVE-2026-130999</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Downloads in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.3 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-131050 Microsoft windows: Use after free in Mojo in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker who...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-131050</link>
+<guid isPermaLink="false">CVE-2026-131050</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Mojo in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.3 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-131063 Microsoft windows: Use after free in CameraCapture in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-131063</link>
+<guid isPermaLink="false">CVE-2026-131063</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in CameraCapture in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.3 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-131092 Microsoft windows: Use after free in Mojo in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker who...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-131092</link>
+<guid isPermaLink="false">CVE-2026-131092</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Mojo in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.3 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-126526 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office OneNote allows an unauthorized attacker to execute code over a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-126526</link>
+<guid isPermaLink="false">CVE-2026-126526</guid>
+<pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Office OneNote allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
+</item>
+<item>
 <title>CVE-2026-126867 Microsoft windows: Use after free in Browser in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker to...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-126867</link>
 <guid isPermaLink="false">CVE-2026-126867</guid>
@@ -307,7 +379,7 @@
 <guid isPermaLink="false">CVE-2026-109491</guid>
 <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.7%</description>
+<description>Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-109500 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
@@ -732,78 +804,6 @@
 <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-116923 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-116923</link>
-<guid isPermaLink="false">CVE-2026-116923</guid>
-<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-116925 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-116925</link>
-<guid isPermaLink="false">CVE-2026-116925</guid>
-<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.7%</description>
-</item>
-<item>
-<title>CVE-2026-118712 Microsoft 365 apps: Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118712</link>
-<guid isPermaLink="false">CVE-2026-118712</guid>
-<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Integer underflow (wrap or wraparound) in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-118713 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118713</link>
-<guid isPermaLink="false">CVE-2026-118713</guid>
-<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 1.1%</description>
-</item>
-<item>
-<title>CVE-2026-118714 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118714</link>
-<guid isPermaLink="false">CVE-2026-118714</guid>
-<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-118715 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to elevate privileges...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118715</link>
-<guid isPermaLink="false">CVE-2026-118715</guid>
-<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to elevate privileges over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-118716 Microsoft 365 apps: Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118716</link>
-<guid isPermaLink="false">CVE-2026-118716</guid>
-<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-118717 Microsoft 365 apps: Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118717</link>
-<guid isPermaLink="false">CVE-2026-118717</guid>
-<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Stack-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-118718 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118718</link>
-<guid isPermaLink="false">CVE-2026-118718</guid>
-<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office Excel allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 </channel>
 </rss>

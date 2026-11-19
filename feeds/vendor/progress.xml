@@ -6,6 +6,38 @@
 <description>High and critical Progress vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/progress.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-115338 Progress ws ftp server: Insufficient protection of communications in Progress WS_FTP Server versions prior to 2025.0.5 could allow a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-115338</link>
+<guid isPermaLink="false">CVE-2026-115338</guid>
+<pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Insufficient protection of communications in Progress WS_FTP Server versions prior to 2025.0.5 could allow a network attacker to intercept sensitive information or modify requests when unencrypted connections are used. | CVSS 8.1 | EPSS 0.2%</description>
+</item>
+<item>
+<title>CVE-2026-115339 Progress ws ftp server: Insufficient resource limits in Progress Software WS_FTP Server releases prior to 2025.0.5 on Windows could...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-115339</link>
+<guid isPermaLink="false">CVE-2026-115339</guid>
+<pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Insufficient resource limits in Progress Software WS_FTP Server releases prior to 2025.0.5 on Windows could allow an unauthenticated remote attacker to cause denial of service. | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-115340 Progress ws ftp server: Progress Software WS_FTP Server versions prior to 2025.0.5 on Windows may write sensitive user credential and...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-115340</link>
+<guid isPermaLink="false">CVE-2026-115340</guid>
+<pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Progress Software WS_FTP Server versions prior to 2025.0.5 on Windows may write sensitive user credential and session data to a temporary file during file transfer operations. | CVSS 7.1 | EPSS 0.1%</description>
+</item>
+<item>
+<title>CVE-2026-115341 Progress ws ftp server: Improper access restrictions in the Thin Client Web Transfer component of Progress Software WS_FTP Server...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-115341</link>
+<guid isPermaLink="false">CVE-2026-115341</guid>
+<pubDate>Mon, 09 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Improper access restrictions in the Thin Client Web Transfer component of Progress Software WS_FTP Server versions prior to 2025.0.5 on Windows could allow an authenticated FTP user to access files outside their intended scope. | CVSS 7.7 | EPSS 0.4%</description>
+</item>
+<item>
 <title>CVE-2026-118035 Progress telerik document processing libraries: In Progress® Telerik® Document Processing Libraries prior to version 2026.3.1027, uncontrolled recursion,...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118035</link>
 <guid isPermaLink="false">CVE-2026-118035</guid>

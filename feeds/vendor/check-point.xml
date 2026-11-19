@@ -11,7 +11,7 @@
 <guid isPermaLink="false">CVE-2026-123039</guid>
 <pubDate>Thu, 12 Nov 2026 00:00:00 GMT</pubDate>
 <category>Edge / VPN</category>
-<description>The Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket (/tmp/dynamic_socket) without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root. | CVSS 7.8 | Known exploited (CISA KEV, added 2026-11-13) | EPSS 2.2%</description>
+<description>The Gaia OS DynamicCLI daemon runs as root and listens on a world-writable local socket (/tmp/dynamic_socket) without authenticating connecting processes. An authenticated local user can send a command to the socket and have it executed as root. | CVSS 7.8 | Known exploited (CISA KEV, added 2026-11-13) | EPSS 1.9%</description>
 </item>
 <item>
 <title>CVE-2026-93616 Check Point multi-domain security management: A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute...</title>
