@@ -17,6 +17,35 @@
 </div></header>
 <main class="wrap news">
 <article>
+<time datetime="2026-11-19">November 19, 2026</time>
+<h2><a href="../#cve=CVE-2026-123890">CVE-2026-123890: VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.</a></h2>
+<p class="who">VMware cloud foundation</p>
+<p>VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.
+Affected versions: 9.1.x (fixed in 9.1.1.0200); 9.0.x (fixed in 9.0.2.0200); 8.0 (fixed in 8.0 U3m); 5.x (fixed in 5.2.5).
+Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 and Telco Cloud Infrastructure 3.0 are also affected (see KB463116).</p>
+<div class="meta"><span class="pill">CVSS 9.8</span> <span class="pill kev">Known exploited 2026-11-20</span> <span class="pill">EPSS 0.8%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-123890" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-17">November 17, 2026</time>
+<h2><a href="../#cve=CVE-2026-129448">CVE-2026-129448: Deserialization of Untrusted Data in Apache Roller versions 4.0.0 through 6.1.4 allows an unauthenticated...</a></h2>
+<p class="who">Apache roller</p>
+<p>Deserialization of Untrusted Data in Apache Roller versions 4.0.0 through 6.1.4 allows an unauthenticated remote attacker to execute arbitrary code. The XML-RPC endpoint accepts vendor extension types and deserializes them before authenticating the requester.
+
+This is the same vulnerability as CVE-2026-82384, which listed only Apache Roller 6.1.5 as affected. This issue is being actively exploited.
+
+Users are recommended to upgrade to Apache Roller 6.1.6 or later, which disables the extension types and rejects XML-RPC requests when the XML-RPC feature is disabled.
+
+Users who cannot upgrade right away should set &quot;enabledForExtensions&quot; to &quot;false&quot; in WEB-INF/web.xml, or remove the &quot;/roller-services/xmlrpc&quot; servlet mapping, and restart Roller. Disabling XML-RPC in the administration UI is not enough, because older versions deserialize the request before checking that setting.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span> <span class="pill kev">Known exploited 2026-11-20</span> <span class="pill">EPSS 1.2%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-129448" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-17">November 17, 2026</time>
+<h2><a href="../#cve=CVE-2026-130968">CVE-2026-130968: Use after free in Views in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker...</a></h2>
+<p class="who">Microsoft windows</p>
+<p>Use after free in Views in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted Chrome extension. (Chromium security severity: High)</p>
+<div class="meta"><span class="pill">CVSS 9.6</span>  <span class="pill">EPSS 0.3%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-130968" rel="noopener">NVD record</a></div>
+</article>
+<article>
 <time datetime="2026-11-10">November 10, 2026</time>
 <h2><a href="../#cve=CVE-2026-109795">CVE-2026-109795: SAP NetWeaver does not perform necessary authorization checks and lacks sufficient input validation in...</a></h2>
 <p class="who">SAP netweaver</p>
@@ -80,11 +109,43 @@
 <div class="meta"><span class="pill">CVSS 10</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">ERP &amp; Business Apps</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-89126" rel="noopener">NVD record</a></div>
 </article>
 <article>
+<time datetime="2026-11-10">November 10, 2026</time>
+<h2><a href="../#cve=CVE-2026-88218">CVE-2026-88218: Double free in Windows DNS allows an unauthorized attacker to execute code over a network.</a></h2>
+<p class="who">Microsoft windows</p>
+<p>Double free in Windows DNS allows an unauthorized attacker to execute code over a network.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 1.1%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-88218" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-10">November 10, 2026</time>
+<h2><a href="../#cve=CVE-2026-88243">CVE-2026-88243: Out-of-bounds read in Windows DHCP Server allows an unauthorized attacker to execute code over a network.</a></h2>
+<p class="who">Microsoft windows server</p>
+<p>Out-of-bounds read in Windows DHCP Server allows an unauthorized attacker to execute code over a network.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 1.0%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-88243" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-10">November 10, 2026</time>
+<h2><a href="../#cve=CVE-2026-96157">CVE-2026-96157: Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute...</a></h2>
+<p class="who">Microsoft windows</p>
+<p>Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.9%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-96157" rel="noopener">NVD record</a></div>
+</article>
+<article>
 <time datetime="2026-11-06">November 6, 2026</time>
 <h2><a href="../#cve=CVE-2026-123279">CVE-2026-123279: In JetBrains Datalore before 2026.4 code execution was possible in a notebook&apos;s computation by view-only...</a></h2>
 <p class="who">JetBrains datalore</p>
 <p>In JetBrains Datalore before 2026.4 code execution was possible in a notebook&apos;s computation by view-only collaborators</p>
 <div class="meta"><span class="pill">CVSS 9</span>  <span class="pill">EPSS 0.3%</span> <span class="pill">DevOps &amp; Collaboration</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-123279" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-06">November 6, 2026</time>
+<h2><a href="../#cve=CVE-2026-90436">CVE-2026-90436: ** UNSUPPORTED WHEN ASSIGNED ** Deserialization of an inbound SOAP fault in Apache Axis 1.x allows...</a></h2>
+<p class="who">Apache axis</p>
+<p>** UNSUPPORTED WHEN ASSIGNED ** Deserialization of an inbound SOAP fault in Apache Axis 1.x allows unauthenticated remote class instantiation. When a SOAP &lt;Fault&gt; carries a &lt;detail&gt;&lt;exceptionName&gt; element, Axis loads the named class and, if a String &lt;data&gt; element is also present, instantiates it through its String constructor before checking that it is an AxisFault. Loading alone runs the class&apos;s static initializer. With a suitable class on the application&apos;s classpath this leads to remote code execution. The fault is parsed while the engine resolves the target service, before any per-service handler chain runs, so authentication handlers configured on a service do not protect against it. This affects all Apache Axis 1.x versions through 1.4.
+
+
+
+As Axis 1 has been EOL we recommend you migrate to a different SOAP engine, such as Apache Axis 2/Java. Alternatively you could use a build of Axis with the patch from https://github.com/apache/axis-axis1-java/commit/41f3b4e8d04e310ca81f86b92630ab2c11d608bd applied. The Apache Axis project does not expect to create an Axis 1.x release fixing this problem.</p>
+<div class="meta"><span class="pill">CVSS 9.8</span> <span class="pill kev">Known exploited 2026-11-18</span> <span class="pill">EPSS 1.8%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-90436" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-11-05">November 5, 2026</time>
@@ -168,7 +229,7 @@ Users are recommended to upgrade to version 24.09.08, which fixes this issue.</p
 
 
 Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1.</p>
-<div class="meta"><span class="pill">CVSS 9.8</span> <span class="pill kev">Known exploited 2026-10-27</span> <span class="pill">EPSS 82.6%</span> <span class="pill">Developer Tools &amp; Libraries</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-111497" rel="noopener">NVD record</a></div>
+<div class="meta"><span class="pill">CVSS 9.8</span> <span class="pill kev">Known exploited 2026-10-27</span> <span class="pill">EPSS 82.4%</span> <span class="pill">Developer Tools &amp; Libraries</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-111497" rel="noopener">NVD record</a></div>
 </article>
 <article>
 <time datetime="2026-10-21">October 21, 2026</time>
@@ -702,56 +763,7 @@ This vulnerability is due to improper handling of email attachments when the fil
 <p>Stack-based buffer overflow in Windows Internet Information Services allows an unauthorized attacker to execute code over a network.</p>
 <div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 1.0%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-70024" rel="noopener">NVD record</a></div>
 </article>
-<article>
-<time datetime="2026-10-13">October 13, 2026</time>
-<h2><a href="../#cve=CVE-2026-83869">CVE-2026-83869: Integer underflow (wrap or wraparound) in DNS Server allows an unauthorized attacker to execute code over a...</a></h2>
-<p class="who">Microsoft windows</p>
-<p>Integer underflow (wrap or wraparound) in DNS Server allows an unauthorized attacker to execute code over a network.</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.8%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-83869" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-10-13">October 13, 2026</time>
-<h2><a href="../#cve=CVE-2026-85792">CVE-2026-85792: Remote Code Execution in Windows Routing and Remote Access Service (RRAS) allows attacker to gain an...</a></h2>
-<p class="who">Microsoft windows</p>
-<p>Remote Code Execution in Windows Routing and Remote Access Service (RRAS) allows attacker to gain an unauthorized access to victim&apos;s machine</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.9%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-85792" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-10-13">October 13, 2026</time>
-<h2><a href="../#cve=CVE-2026-85806">CVE-2026-85806: Integer underflow (wrap or wraparound) in Network Policy Server (NPS) allows an unauthorized attacker to...</a></h2>
-<p class="who">Microsoft windows</p>
-<p>Integer underflow (wrap or wraparound) in Network Policy Server (NPS) allows an unauthorized attacker to execute code over a network.</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.9%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-85806" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-10-13">October 13, 2026</time>
-<h2><a href="../#cve=CVE-2026-85809">CVE-2026-85809: Remote Code Execution in Windows Routing and Remote Access Service (RRAS) allows attacker to gain an...</a></h2>
-<p class="who">Microsoft windows</p>
-<p>Remote Code Execution in Windows Routing and Remote Access Service (RRAS) allows attacker to gain an unauthorized access to victim&apos;s machine</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.9%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-85809" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-10-13">October 13, 2026</time>
-<h2><a href="../#cve=CVE-2026-85814">CVE-2026-85814: Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute...</a></h2>
-<p class="who">Microsoft windows</p>
-<p>Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network.</p>
-<div class="meta"><span class="pill">CVSS 9.8</span>  <span class="pill">EPSS 0.9%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-85814" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-10-13">October 13, 2026</time>
-<h2><a href="../#cve=CVE-2026-85818">CVE-2026-85818: Improper verification of cryptographic signature in Windows Schannel allows an unauthorized attacker to...</a></h2>
-<p class="who">Microsoft windows</p>
-<p>Improper verification of cryptographic signature in Windows Schannel allows an unauthorized attacker to perform spoofing over a network.</p>
-<div class="meta"><span class="pill">CVSS 9</span>  <span class="pill">EPSS 0.4%</span> <span class="pill">Windows &amp; Endpoint</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-85818" rel="noopener">NVD record</a></div>
-</article>
-<article>
-<time datetime="2026-10-13">October 13, 2026</time>
-<h2><a href="../#cve=CVE-2026-88092">CVE-2026-88092: Inconsistent interpretation of http requests (&apos;http request/response smuggling&apos;) in ASP.NET Core allows an...</a></h2>
-<p class="who">Microsoft asp.net core</p>
-<p>Inconsistent interpretation of http requests (&apos;http request/response smuggling&apos;) in ASP.NET Core allows an unauthorized attacker to perform tampering over a network.</p>
-<div class="meta"><span class="pill">CVSS 9.4</span>  <span class="pill">EPSS 1.0%</span> <span class="pill">Developer Tools &amp; Libraries</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-88092" rel="noopener">NVD record</a></div>
-</article>
 </main>
-<footer class="wrap foot">Generated 2026-11-19 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-11-21 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>

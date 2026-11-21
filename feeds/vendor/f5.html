@@ -13,9 +13,99 @@
 <p class="crumb"><a href="../../">Enterprise CyberTrack</a> / feeds</p>
 <h1>Enterprise CyberTrack: F5</h1>
 <p class="tag">High and critical F5 vulnerabilities.</p>
-<p class="tag"><a href="f5.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 1.</p>
+<p class="tag"><a href="f5.xml">Subscribe with RSS</a> (paste the link into a feed reader). Showing the latest 7.</p>
 </div></header>
 <main class="wrap news">
+<article>
+<time datetime="2026-11-18">November 18, 2026</time>
+<h2><a href="../../#cve=CVE-2026-113425">CVE-2026-113425: When NGINX Plus or NGINX Open Source is configured as a mail proxy, undisclosed traffic can cause a...</a></h2>
+<p class="who">F5 dos</p>
+<p>When NGINX Plus or NGINX Open Source is configured as a mail proxy, undisclosed traffic can cause a use-after-free in an nginx worker process. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.
+
+Impact:
+A remote unauthenticated attacker may crash an nginx worker process or corrupt its memory, disrupting service. Remote code execution is a potential impact. There is no control plane exposure; this is a data plane issue only.
+
+
+
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.</p>
+<div class="meta"><span class="pill">CVSS 8.1</span>  <span class="pill">EPSS 1.5%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-113425" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-18">November 18, 2026</time>
+<h2><a href="../../#cve=CVE-2026-118899">CVE-2026-118899: When using the listen directive with the ssl parameter in the http block with TLSv1.3 enabled, an attacker...</a></h2>
+<p class="who">F5 dos</p>
+<p>When using the listen directive with the ssl parameter in the http block with TLSv1.3 enabled, an attacker can use a specially crafted TLS connection to cause an infinite loop in the NGINX worker process while reading the HTTP request body. As a result, the worker process stops accepting new connections and processing existing connections. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+
+Impact: This vulnerability allows a remote, unauthenticated attacker to cause a denial-of-service (DoS) of NGINX. There is no control plane exposure; this is a data plane issue only.
+
+
+
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.</p>
+<div class="meta"><span class="pill">CVSS 7.5</span>  <span class="pill">EPSS 0.9%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-118899" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-18">November 18, 2026</time>
+<h2><a href="../../#cve=CVE-2026-121810">CVE-2026-121810: Description:
+This issue affects NGINX Plus and NGINX Open Source configurations that use HTTP/3.</a></h2>
+<p class="who">F5 dos</p>
+<p>Description:
+This issue affects NGINX Plus and NGINX Open Source configurations that use HTTP/3. A remote, unauthenticated attacker can cause a use-after-free condition in the NGINX worker process, leading to a restart. Exploitation also depends on conditions beyond the attacker’s control. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.
+
+Impact:
+This vulnerability may allow remote attackers to cause a denial-of-service (DoS) on the NGINX system or to possibly trigger a code execution. There is no control plane exposure; this is a data plane issue only.
+
+
+
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.</p>
+<div class="meta"><span class="pill">CVSS 8.1</span>  <span class="pill">EPSS 1.7%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-121810" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-18">November 18, 2026</time>
+<h2><a href="../../#cve=CVE-2026-123007">CVE-2026-123007: This issue affects NGINX Plus or NGINX Open Source configurations that use HTTP/2.</a></h2>
+<p class="who">F5 dos</p>
+<p>This issue affects NGINX Plus or NGINX Open Source configurations that use HTTP/2. When NGINX processes undisclosed traffic, the flow control window can exceed the allowed threshold, potentially resulting in a heap buffer overflow typically followed by an NGINX worker segmentation fault. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.
+
+Impact: An attacker could leverage this vulnerability to crash the NGINX worker process, corrupt its memory, or potentially execute code remotely. There is no control plane exposure; this is a data plane issue only.
+
+
+
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.</p>
+<div class="meta"><span class="pill">CVSS 8.1</span>  <span class="pill">EPSS 6.0%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-123007" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-18">November 18, 2026</time>
+<h2><a href="../../#cve=CVE-2026-123633">CVE-2026-123633: When NGINX Plus or NGINX Open Source is configured to use HTTP/2 for client connections and proxy client...</a></h2>
+<p class="who">F5 dos</p>
+<p>When NGINX Plus or NGINX Open Source is configured to use HTTP/2 for client connections and proxy client requests to a backend, a specially crafted request can result in use-after-free in the worker process, if this process is running low on worker_connections. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.
+
+
+
+
+Impact:
+
+
+
+This vulnerability may allow remote attackers to cause a denial-of-service (DoS) on the NGINX system or may allow a code execution. There is no control plane exposure; this is a data plane issue only.
+
+
+
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.</p>
+<div class="meta"><span class="pill">CVSS 8.1</span>  <span class="pill">EPSS 6.1%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-123633" rel="noopener">NVD record</a></div>
+</article>
+<article>
+<time datetime="2026-11-18">November 18, 2026</time>
+<h2><a href="../../#cve=CVE-2026-123634">CVE-2026-123634: This issue occurs when NGINX Plus or NGINX Open Source is configured as a proxy, the proxied server name...</a></h2>
+<p class="who">F5 dos</p>
+<p>This issue occurs when NGINX Plus or NGINX Open Source is configured as a proxy, the proxied server name includes variables, and a Server Side Includes (SSI) or mirror directive sends a subrequest to a location that resolves the same server name. Under these conditions, a specially crafted HTTP request may cause a use-after-free condition in a worker process. An attacker may also be able to execute code if Address Space Layout Randomization (ASLR) is disabled or the attacker can bypass ASLR.
+
+Impact: 
+An attacker could leverage this vulnerability to crash the NGINX worker process, corrupt its memory, or perform remote code execution (RCE)
+
+
+
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.</p>
+<div class="meta"><span class="pill">CVSS 8.1</span>  <span class="pill">EPSS 1.5%</span> <span class="pill">Application Platforms</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-123634" rel="noopener">NVD record</a></div>
+</article>
 <article>
 <time datetime="2026-09-22">September 22, 2026</time>
 <h2><a href="../../#cve=CVE-2026-94127">CVE-2026-94127: When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious...</a></h2>
@@ -32,6 +122,6 @@ Note: Software versions which have reached End of Technical Support (EoTS) are n
 <div class="meta"><span class="pill">CVSS 9.8</span> <span class="pill kev">Known exploited 2026-09-22</span> <span class="pill">EPSS 26.6%</span> <span class="pill">Edge / VPN</span> <a href="https://nvd.nist.gov/vuln/detail/CVE-2026-94127" rel="noopener">NVD record</a></div>
 </article>
 </main>
-<footer class="wrap foot">Generated 2026-11-19 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
+<footer class="wrap foot">Generated 2026-11-21 from NVD, CISA KEV and FIRST EPSS. Check the vendor advisory before acting.</footer>
 </body>
 </html>

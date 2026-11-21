@@ -6,6 +6,38 @@
 <description>Newly published critical (CVSS 9.0+) enterprise vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/critical.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-123890 VMware cloud foundation: VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123890</link>
+<guid isPermaLink="false">CVE-2026-123890</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.
+Affected versions: 9.1.x (fixed in 9.1.1.0200); 9.0.x (fixed in 9.0.2.0200); 8.0 (fixed in 8.0 U3m); 5.x (fixed in 5.2.5).
+Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 and Telco Cloud Infrastructure 3.0 are also affected (see KB463116). | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 0.8%</description>
+</item>
+<item>
+<title>CVE-2026-129448 Apache roller: Deserialization of Untrusted Data in Apache Roller versions 4.0.0 through 6.1.4 allows an unauthenticated...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-129448</link>
+<guid isPermaLink="false">CVE-2026-129448</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Deserialization of Untrusted Data in Apache Roller versions 4.0.0 through 6.1.4 allows an unauthenticated remote attacker to execute arbitrary code. The XML-RPC endpoint accepts vendor extension types and deserializes them before authenticating the requester.
+
+This is the same vulnerability as CVE-2026-82384, which listed only Apache Roller 6.1.5 as affected. This issue is being actively exploited.
+
+Users are recommended to upgrade to Apache Roller 6.1.6 or later, which disables the extension types and rejects XML-RPC requests when the XML-RPC feature is disabled.
+
+Users who cannot upgrade right away should set &quot;enabledForExtensions&quot; to &quot;false&quot; in WEB-INF/web.xml, or remove the &quot;/roller-services/xmlrpc&quot; servlet mapping, and restart Roller. Disabling XML-RPC in the administration UI is not enough, because older versions deserialize the request before checking that setting. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 1.2%</description>
+</item>
+<item>
+<title>CVE-2026-130968 Microsoft windows: Use after free in Views in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-130968</link>
+<guid isPermaLink="false">CVE-2026-130968</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Use after free in Views in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted Chrome extension. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.3%</description>
+</item>
+<item>
 <title>CVE-2026-109795 SAP netweaver: SAP NetWeaver does not perform necessary authorization checks and lacks sufficient input validation in...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-109795</link>
 <guid isPermaLink="false">CVE-2026-109795</guid>
@@ -78,12 +110,48 @@
 <description>SAP Web Dispatcher does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successful exploitation could allow the attacker to execute arbitrary code and fully compromise the system, resulting in a high impact on confidentiality, integrity and availability of the system. | CVSS 10 | EPSS 0.4%</description>
 </item>
 <item>
+<title>CVE-2026-88218 Microsoft windows: Double free in Windows DNS allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88218</link>
+<guid isPermaLink="false">CVE-2026-88218</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Double free in Windows DNS allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.1%</description>
+</item>
+<item>
+<title>CVE-2026-88243 Microsoft windows server: Out-of-bounds read in Windows DHCP Server allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88243</link>
+<guid isPermaLink="false">CVE-2026-88243</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Out-of-bounds read in Windows DHCP Server allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
+</item>
+<item>
+<title>CVE-2026-96157 Microsoft windows: Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96157</link>
+<guid isPermaLink="false">CVE-2026-96157</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
+</item>
+<item>
 <title>CVE-2026-123279 JetBrains datalore: In JetBrains Datalore before 2026.4 code execution was possible in a notebook&apos;s computation by view-only...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123279</link>
 <guid isPermaLink="false">CVE-2026-123279</guid>
 <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
 <description>In JetBrains Datalore before 2026.4 code execution was possible in a notebook&apos;s computation by view-only collaborators | CVSS 9 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-90436 Apache axis: ** UNSUPPORTED WHEN ASSIGNED ** Deserialization of an inbound SOAP fault in Apache Axis 1.x allows...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-90436</link>
+<guid isPermaLink="false">CVE-2026-90436</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>** UNSUPPORTED WHEN ASSIGNED ** Deserialization of an inbound SOAP fault in Apache Axis 1.x allows unauthenticated remote class instantiation. When a SOAP &lt;Fault&gt; carries a &lt;detail&gt;&lt;exceptionName&gt; element, Axis loads the named class and, if a String &lt;data&gt; element is also present, instantiates it through its String constructor before checking that it is an AxisFault. Loading alone runs the class&apos;s static initializer. With a suitable class on the application&apos;s classpath this leads to remote code execution. The fault is parsed while the engine resolves the target service, before any per-service handler chain runs, so authentication handlers configured on a service do not protect against it. This affects all Apache Axis 1.x versions through 1.4.
+
+
+
+As Axis 1 has been EOL we recommend you migrate to a different SOAP engine, such as Apache Axis 2/Java. Alternatively you could use a build of Axis with the patch from https://github.com/apache/axis-axis1-java/commit/41f3b4e8d04e310ca81f86b92630ab2c11d608bd applied. The Apache Axis project does not expect to create an Axis 1.x release fixing this problem. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-18) | EPSS 1.8%</description>
 </item>
 <item>
 <title>CVE-2026-82907 Apache ofbiz: Authentication Bypass by Capture-replay in ExternalLoginKeysManager in Apache OFBiz 24.09 before 24.09.08 on...</title>
@@ -176,7 +244,7 @@ Users are recommended to upgrade to version 24.09.08, which fixes this issue. | 
 
 
 
-Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-27) | EPSS 82.6%</description>
+Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-27) | EPSS 82.4%</description>
 </item>
 <item>
 <title>CVE-2026-109618 Palo Alto Networks pan-os: PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the...</title>
@@ -783,62 +851,6 @@ This vulnerability is due to improper handling of email attachments when the fil
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Stack-based buffer overflow in Windows Internet Information Services allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
-</item>
-<item>
-<title>CVE-2026-83869 Microsoft windows: Integer underflow (wrap or wraparound) in DNS Server allows an unauthorized attacker to execute code over a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-83869</link>
-<guid isPermaLink="false">CVE-2026-83869</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Integer underflow (wrap or wraparound) in DNS Server allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.8%</description>
-</item>
-<item>
-<title>CVE-2026-85792 Microsoft windows: Remote Code Execution in Windows Routing and Remote Access Service (RRAS) allows attacker to gain an...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85792</link>
-<guid isPermaLink="false">CVE-2026-85792</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Remote Code Execution in Windows Routing and Remote Access Service (RRAS) allows attacker to gain an unauthorized access to victim&apos;s machine | CVSS 9.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-85806 Microsoft windows: Integer underflow (wrap or wraparound) in Network Policy Server (NPS) allows an unauthorized attacker to...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85806</link>
-<guid isPermaLink="false">CVE-2026-85806</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Integer underflow (wrap or wraparound) in Network Policy Server (NPS) allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-85809 Microsoft windows: Remote Code Execution in Windows Routing and Remote Access Service (RRAS) allows attacker to gain an...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85809</link>
-<guid isPermaLink="false">CVE-2026-85809</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Remote Code Execution in Windows Routing and Remote Access Service (RRAS) allows attacker to gain an unauthorized access to victim&apos;s machine | CVSS 9.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-85814 Microsoft windows: Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85814</link>
-<guid isPermaLink="false">CVE-2026-85814</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-85818 Microsoft windows: Improper verification of cryptographic signature in Windows Schannel allows an unauthorized attacker to...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-85818</link>
-<guid isPermaLink="false">CVE-2026-85818</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Improper verification of cryptographic signature in Windows Schannel allows an unauthorized attacker to perform spoofing over a network. | CVSS 9 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-88092 Microsoft asp.net core: Inconsistent interpretation of http requests (&apos;http request/response smuggling&apos;) in ASP.NET Core allows an...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88092</link>
-<guid isPermaLink="false">CVE-2026-88092</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Developer Tools &amp; Libraries</category>
-<description>Inconsistent interpretation of http requests (&apos;http request/response smuggling&apos;) in ASP.NET Core allows an unauthorized attacker to perform tampering over a network. | CVSS 9.4 | EPSS 1.0%</description>
 </item>
 </channel>
 </rss>

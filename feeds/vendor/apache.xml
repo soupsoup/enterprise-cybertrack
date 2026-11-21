@@ -6,6 +6,20 @@
 <description>High and critical Apache vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/apache.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-129448 Apache roller: Deserialization of Untrusted Data in Apache Roller versions 4.0.0 through 6.1.4 allows an unauthenticated...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-129448</link>
+<guid isPermaLink="false">CVE-2026-129448</guid>
+<pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Deserialization of Untrusted Data in Apache Roller versions 4.0.0 through 6.1.4 allows an unauthenticated remote attacker to execute arbitrary code. The XML-RPC endpoint accepts vendor extension types and deserializes them before authenticating the requester.
+
+This is the same vulnerability as CVE-2026-82384, which listed only Apache Roller 6.1.5 as affected. This issue is being actively exploited.
+
+Users are recommended to upgrade to Apache Roller 6.1.6 or later, which disables the extension types and rejects XML-RPC requests when the XML-RPC feature is disabled.
+
+Users who cannot upgrade right away should set &quot;enabledForExtensions&quot; to &quot;false&quot; in WEB-INF/web.xml, or remove the &quot;/roller-services/xmlrpc&quot; servlet mapping, and restart Roller. Disabling XML-RPC in the administration UI is not enough, because older versions deserialize the request before checking that setting. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 1.2%</description>
+</item>
+<item>
 <title>CVE-2026-119618 Apache http server: Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-119618</link>
 <guid isPermaLink="false">CVE-2026-119618</guid>
@@ -15,6 +29,18 @@
 
 This issue affects Apache HTTP Server: from 2.4.55 through 2.4.70.
 Affected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42. | CVSS 8.1 | EPSS 1.6%</description>
+</item>
+<item>
+<title>CVE-2026-90436 Apache axis: ** UNSUPPORTED WHEN ASSIGNED ** Deserialization of an inbound SOAP fault in Apache Axis 1.x allows...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-90436</link>
+<guid isPermaLink="false">CVE-2026-90436</guid>
+<pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>** UNSUPPORTED WHEN ASSIGNED ** Deserialization of an inbound SOAP fault in Apache Axis 1.x allows unauthenticated remote class instantiation. When a SOAP &lt;Fault&gt; carries a &lt;detail&gt;&lt;exceptionName&gt; element, Axis loads the named class and, if a String &lt;data&gt; element is also present, instantiates it through its String constructor before checking that it is an AxisFault. Loading alone runs the class&apos;s static initializer. With a suitable class on the application&apos;s classpath this leads to remote code execution. The fault is parsed while the engine resolves the target service, before any per-service handler chain runs, so authentication handlers configured on a service do not protect against it. This affects all Apache Axis 1.x versions through 1.4.
+
+
+
+As Axis 1 has been EOL we recommend you migrate to a different SOAP engine, such as Apache Axis 2/Java. Alternatively you could use a build of Axis with the patch from https://github.com/apache/axis-axis1-java/commit/41f3b4e8d04e310ca81f86b92630ab2c11d608bd applied. The Apache Axis project does not expect to create an Axis 1.x release fixing this problem. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-18) | EPSS 1.8%</description>
 </item>
 <item>
 <title>CVE-2026-109928 Apache ofbiz: Incorrect Implementation of Authentication Algorithm in the password-reset and login JWT validation in Apache...</title>
@@ -1191,22 +1217,6 @@ Users of apache-airflow-providers-fab are recommended to upgrade to version 3.9.
 CVE-2026-75156 corrected the same missing validation on the Azure AD path in this file; the Authentik path was left unchanged and is fixed here. Deployments that applied the CVE-2026-75156 fix and use Authentik must also upgrade for this one.
 
 Users of apache-airflow-providers-fab are recommended to upgrade to version 3.9.0 or later, which fixes the issue. | CVSS 8.1 | EPSS 0.4%</description>
-</item>
-<item>
-<title>CVE-2026-86792 Apache apache-airflow-providers-apache-kafka: Apache Airflow Apache Kafka provider versions 1.15.0 before 2.0.0 resolve dotted-path strings found in a...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-86792</link>
-<guid isPermaLink="false">CVE-2026-86792</guid>
-<pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-<category>Developer Tools &amp; Libraries</category>
-<description>Apache Airflow Apache Kafka provider versions 1.15.0 before 2.0.0 resolve dotted-path strings found in a Kafka connection&apos;s `extra` field into Python callables via `import_string`, with no allowlist, and hand them to the confluent-kafka client which invokes them. Deployments that have enabled the Kafka event producer — `dag_run_events_enabled` or `task_instance_events_enabled`, both disabled by default — build that client inside the scheduler process, so a user whose only privilege is editing Airflow connections gains arbitrary code execution in the control plane; the Airflow security model limits connection-configuration users to code execution on workers, not the scheduler. Deployments using Google Managed Kafka are not affected, because that code path overwrites any user-supplied `oauth_cb`; plain brokers and Amazon MSK are exposed. Users are recommended to upgrade to apache-airflow-providers-apache-kafka 2.0.0 or later, which adds an allowlist configuration option for connection-string callbacks. | CVSS 8.8 | EPSS 1.2%</description>
-</item>
-<item>
-<title>CVE-2026-70469 Apache nifi: Apache NiFi 2.11.0 disabled support for gzip-encoded HTTP requests for the application REST API and rejected...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-70469</link>
-<guid isPermaLink="false">CVE-2026-70469</guid>
-<pubDate>Wed, 16 Sep 2026 00:00:00 GMT</pubDate>
-<category>Data &amp; Messaging</category>
-<description>Apache NiFi 2.11.0 disabled support for gzip-encoded HTTP requests for the application REST API and rejected requests that included the standard Content-Encoding header indicating gzip encoding. The framework enforcement filter did not check multiple instances of the Content-Encoding header and did not reject non-standard identifiers for gzip encoding, allowing a malicious client to send crafted requests that could consume excessive amounts of memory. Upgrading to Apache NiFi 2.12.0 is the recommended mitigation, which disables decompression of gzip-encoded HTTP requests regardless of header number or encoding identifiers. | CVSS 7.5 | EPSS 0.6%</description>
 </item>
 </channel>
 </rss>

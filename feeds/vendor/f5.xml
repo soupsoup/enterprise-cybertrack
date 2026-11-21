@@ -6,6 +6,102 @@
 <description>High and critical F5 vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/f5.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-113425 F5 dos: When NGINX Plus or NGINX Open Source is configured as a mail proxy, undisclosed traffic can cause a...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-113425</link>
+<guid isPermaLink="false">CVE-2026-113425</guid>
+<pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>When NGINX Plus or NGINX Open Source is configured as a mail proxy, undisclosed traffic can cause a use-after-free in an nginx worker process. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.
+
+Impact:
+A remote unauthenticated attacker may crash an nginx worker process or corrupt its memory, disrupting service. Remote code execution is a potential impact. There is no control plane exposure; this is a data plane issue only.
+
+
+
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 1.5%</description>
+</item>
+<item>
+<title>CVE-2026-118899 F5 dos: When using the listen directive with the ssl parameter in the http block with TLSv1.3 enabled, an attacker...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118899</link>
+<guid isPermaLink="false">CVE-2026-118899</guid>
+<pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>When using the listen directive with the ssl parameter in the http block with TLSv1.3 enabled, an attacker can use a specially crafted TLS connection to cause an infinite loop in the NGINX worker process while reading the HTTP request body. As a result, the worker process stops accepting new connections and processing existing connections. Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated.
+
+Impact: This vulnerability allows a remote, unauthenticated attacker to cause a denial-of-service (DoS) of NGINX. There is no control plane exposure; this is a data plane issue only.
+
+
+
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 7.5 | EPSS 0.9%</description>
+</item>
+<item>
+<title>CVE-2026-121810 F5 dos: Description:
+This issue affects NGINX Plus and NGINX Open Source configurations that use HTTP/3.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-121810</link>
+<guid isPermaLink="false">CVE-2026-121810</guid>
+<pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>Description:
+This issue affects NGINX Plus and NGINX Open Source configurations that use HTTP/3. A remote, unauthenticated attacker can cause a use-after-free condition in the NGINX worker process, leading to a restart. Exploitation also depends on conditions beyond the attacker’s control. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.
+
+Impact:
+This vulnerability may allow remote attackers to cause a denial-of-service (DoS) on the NGINX system or to possibly trigger a code execution. There is no control plane exposure; this is a data plane issue only.
+
+
+
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 1.7%</description>
+</item>
+<item>
+<title>CVE-2026-123007 F5 dos: This issue affects NGINX Plus or NGINX Open Source configurations that use HTTP/2.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123007</link>
+<guid isPermaLink="false">CVE-2026-123007</guid>
+<pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>This issue affects NGINX Plus or NGINX Open Source configurations that use HTTP/2. When NGINX processes undisclosed traffic, the flow control window can exceed the allowed threshold, potentially resulting in a heap buffer overflow typically followed by an NGINX worker segmentation fault. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.
+
+Impact: An attacker could leverage this vulnerability to crash the NGINX worker process, corrupt its memory, or potentially execute code remotely. There is no control plane exposure; this is a data plane issue only.
+
+
+
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 6.0%</description>
+</item>
+<item>
+<title>CVE-2026-123633 F5 dos: When NGINX Plus or NGINX Open Source is configured to use HTTP/2 for client connections and proxy client...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123633</link>
+<guid isPermaLink="false">CVE-2026-123633</guid>
+<pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>When NGINX Plus or NGINX Open Source is configured to use HTTP/2 for client connections and proxy client requests to a backend, a specially crafted request can result in use-after-free in the worker process, if this process is running low on worker_connections. Additionally, attackers can execute code on systems with Address Space Layout Randomization (ASLR) disabled or when the attacker can bypass ASLR.
+
+
+
+
+Impact:
+
+
+
+This vulnerability may allow remote attackers to cause a denial-of-service (DoS) on the NGINX system or may allow a code execution. There is no control plane exposure; this is a data plane issue only.
+
+
+
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 6.1%</description>
+</item>
+<item>
+<title>CVE-2026-123634 F5 dos: This issue occurs when NGINX Plus or NGINX Open Source is configured as a proxy, the proxied server name...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123634</link>
+<guid isPermaLink="false">CVE-2026-123634</guid>
+<pubDate>Wed, 18 Nov 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>This issue occurs when NGINX Plus or NGINX Open Source is configured as a proxy, the proxied server name includes variables, and a Server Side Includes (SSI) or mirror directive sends a subrequest to a location that resolves the same server name. Under these conditions, a specially crafted HTTP request may cause a use-after-free condition in a worker process. An attacker may also be able to execute code if Address Space Layout Randomization (ASLR) is disabled or the attacker can bypass ASLR.
+
+Impact: 
+An attacker could leverage this vulnerability to crash the NGINX worker process, corrupt its memory, or perform remote code execution (RCE)
+
+
+
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 1.5%</description>
+</item>
+<item>
 <title>CVE-2026-94127 F5 big-ip access policy manager: When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-94127</link>
 <guid isPermaLink="false">CVE-2026-94127</guid>
