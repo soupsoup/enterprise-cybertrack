@@ -75,7 +75,7 @@
 <guid isPermaLink="false">CVE-2026-130968</guid>
 <pubDate>Tue, 17 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Views in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted Chrome extension. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.3%</description>
+<description>Use after free in Views in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker leveraging social engineering to execute arbitrary code outside the sandbox via a crafted Chrome extension. (Chromium security severity: High) | CVSS 9.6 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-131006 Microsoft windows: Race condition in CredentialProvider in Google Chrome on on Windows prior to 158.0.8127.36 allowed a local...</title>
@@ -115,7 +115,7 @@
 <guid isPermaLink="false">CVE-2026-126526</guid>
 <pubDate>Mon, 16 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Microsoft Office OneNote allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.8%</description>
+<description>Heap-based buffer overflow in Microsoft Office OneNote allows an unauthorized attacker to execute code over a network. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
 <title>CVE-2026-126867 Microsoft windows: Use after free in Browser in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker to...</title>
@@ -123,7 +123,7 @@
 <guid isPermaLink="false">CVE-2026-126867</guid>
 <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Browser in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.4%</description>
+<description>Use after free in Browser in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker to potentially execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 8.8 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-126873 Microsoft windows: Use after free in Extensions in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker...</title>
@@ -139,7 +139,7 @@
 <guid isPermaLink="false">CVE-2026-126883</guid>
 <pubDate>Wed, 11 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Core in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 7.5 | EPSS 0.3%</description>
+<description>Use after free in Core in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote attacker who had compromised the renderer process to execute arbitrary code outside the sandbox via a crafted HTML page. (Chromium security severity: High) | CVSS 7.5 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-126903 Microsoft windows: Improper state validation in ANGLE in Google Chrome on on Windows prior to 157.0.8103.78 allowed a remote...</title>
@@ -419,7 +419,7 @@
 <guid isPermaLink="false">CVE-2026-109491</guid>
 <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.8%</description>
+<description>Use after free in Microsoft Office Word allows an unauthorized attacker to execute code over a network. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-109500 Microsoft 365 apps: Heap-based buffer overflow in Microsoft Office Word allows an unauthorized attacker to execute code over a...</title>

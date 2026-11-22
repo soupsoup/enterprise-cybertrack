@@ -13,7 +13,7 @@
 <category>Application Platforms</category>
 <description>VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.
 Affected versions: 9.1.x (fixed in 9.1.1.0200); 9.0.x (fixed in 9.0.2.0200); 8.0 (fixed in 8.0 U3m); 5.x (fixed in 5.2.5).
-Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 and Telco Cloud Infrastructure 3.0 are also affected (see KB463116). | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 0.8%</description>
+Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 and Telco Cloud Infrastructure 3.0 are also affected (see KB463116). | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 3.0%</description>
 </item>
 <item>
 <title>CVE-2026-106122 VMware rabbitmq java client: The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact with...</title>

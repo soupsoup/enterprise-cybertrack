@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-21T13:31:08.516Z",
+ "generated": "2026-11-22T13:25:41.759Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 20
   },
   {
@@ -78,7 +78,7 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 5781
   },
   {
@@ -86,7 +86,7 @@
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,7 +224,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 727
   },
   {
@@ -232,11 +232,19 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-11-21T13:31:08.516Z",
+   "checked": "2026-11-22T13:25:41.759Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+   "date": "2026-11-21T17:52:10.000Z",
+   "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7..."
+  },
   {
    "company": "fortinet",
    "feed": "Threat signals",
@@ -286,14 +294,6 @@
    "summary": "Executive Summary Java4Shell (CVE-2026-114938) is a heap out-of-bounds write in HotSpot’s AVX-512 Base64 decoder on x86-64. Calif reported it and showed pre-auth RCE in Keycloak, Jira, Confluence, Artifactory, Jenkins, and PingFederate. Nobody has reported exploitation in the..."
   },
   {
-   "company": "microsoft",
-   "feed": "Security blog",
-   "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
-   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/20/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
-   "date": "2026-11-20T17:00:00.000Z",
-   "summary": "We're honored that Microsoft has once again been recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Security Information and Event Management (SIEM). The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM appeared first on Microsoft Security..."
-  },
-  {
    "company": "paloalto",
    "feed": "Security advisories",
    "title": "CVE-2026-114938 Portfolio Status: Impact of Java Vulnerability (CVE-2026-114938) on Palo Alto Networks Products (Severity: CRITICAL)",
@@ -302,20 +302,20 @@
    "summary": ""
   },
   {
+   "company": "microsoft",
+   "feed": "Security blog",
+   "title": "Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM",
+   "link": "https://www.microsoft.com/en-us/security/blog/2026/11/20/microsoft-named-a-leader-in-the-2026-gartner-magic-quadrant-for-siem/",
+   "date": "2026-11-20T17:00:00.000Z",
+   "summary": "We're honored that Microsoft has once again been recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Security Information and Event Management (SIEM). The post Microsoft named a Leader in the 2026 Gartner® Magic Quadrant™ for SIEM appeared first on Microsoft Security..."
+  },
+  {
    "company": "sentinelone",
    "feed": "Blog",
    "title": "The Good, the Bad and the Ugly in Cybersecurity - Week 47 (2026)",
    "link": "https://www.sentinelone.com/blog/the-good-the-bad-and-the-ugly-in-cybersecurity-week-47-8",
    "date": "2026-11-20T16:14:03.000Z",
    "summary": "Alleged 8-Digits Team affiliate faces 27 years, FBI warns of AI-driven ARTEX intrusions, and Java4Shell flaw opens Java apps to pre-auth RCE."
-  },
-  {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-   "date": "2026-11-20T16:00:00.000Z",
-   "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7..."
   },
   {
    "company": "talos",
@@ -2310,14 +2310,6 @@
    "summary": "On November 4, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories: Cisco Security Advisory CVE ID Security Impact Rating CVSS Base Score Cisco UCS Central Software Remote Code Execution Vulnerability CVE-2026-76506 High 7.6 Cisco..."
   },
   {
-   "company": "qualys",
-   "feed": "Blog",
-   "title": "Cloud Agent, now in a Container: Host Security for Nodes You Can’t Touch",
-   "link": "https://blog.qualys.com/product-tech/2026/11/04/cloud-agent-now-in-a-container-host-security-for-nodes-you-cant-touch",
-   "date": "2026-11-04T16:00:00.000Z",
-   "summary": "A single container image that brings Vulnerability Management and Policy Audit to every Kubernetes node, on immutable and mutable Linux alike, deployed the way your container workloads already are. Key Takeaways The Qualys Cloud Agent is now available as a container image on..."
-  },
-  {
    "company": "talos",
    "feed": "Security advisories",
    "title": "Cisco Unified Communications Manager Cross-Site Scripting Vulnerability",
@@ -2332,6 +2324,14 @@
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucs-rce-LzHSFRDQ?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20UCS%20Central%20Software%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
    "date": "2026-11-04T16:00:00.000Z",
    "summary": "A vulnerability in the web-based management interface of Cisco UCS Central Software could allow an authenticated, remote attacker to achieve remote code execution or conduct information disclosure attacks on an affected device. This vulnerability is due to insufficient..."
+  },
+  {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "Cloud Agent, now in a Container: Host Security for Nodes You Can’t Touch",
+   "link": "https://blog.qualys.com/product-tech/2026/11/04/cloud-agent-now-in-a-container-host-security-for-nodes-you-cant-touch",
+   "date": "2026-11-04T16:00:00.000Z",
+   "summary": "A single container image that brings Vulnerability Management and Policy Audit to every Kubernetes node, on immutable and mutable Linux alike, deployed the way your container workloads already are. Key Takeaways The Qualys Cloud Agent is now available as a container image on..."
   },
   {
    "company": "rapid7",
@@ -3582,20 +3582,20 @@
    "summary": "In a new incident, a malicious version (1.107.0) of the LiteLLM package was uploaded to PyPI and Docker on October 21. The malicious version includes a credential stealer targeting browser, cloud and AI secrets as well as a dormant C2 capability."
   },
   {
-   "company": "tenable",
-   "feed": "Blog",
-   "title": "How Tenable brought multi-language support to security detectors with agentic translation",
-   "link": "https://www.tenable.com/blog/how-tenable-brought-multi-language-support-to-security-detectors-with-agentic-translation",
-   "date": "2026-10-21T13:00:00.000Z",
-   "summary": "AI security tools that can only detect threats in English offer limited protection. Here’s how Tenable trained our threat detectors to process nine additional languages and understand thousands more, without the need for a translation model, which increases costs and slows down..."
-  },
-  {
    "company": "qualys",
    "feed": "Blog",
    "title": "The Science of Exploitability: Decoding BlueHammer",
    "link": "https://blog.qualys.com/product-tech/2026/10/21/bluehammer-cve-2026-33825-windows-defender-privilege-escalation",
    "date": "2026-10-21T13:00:00.000Z",
    "summary": "Executive Summary BlueHammer (CVE-2026-33825) is an eight-stage local privilege-escalation chain targeting the Windows Defender Antimalware Platform before 4.18.26030.3011. It does not grant initial access; an attacker needs standard-user code execution first. Still, in the lab,..."
+  },
+  {
+   "company": "tenable",
+   "feed": "Blog",
+   "title": "How Tenable brought multi-language support to security detectors with agentic translation",
+   "link": "https://www.tenable.com/blog/how-tenable-brought-multi-language-support-to-security-detectors-with-agentic-translation",
+   "date": "2026-10-21T13:00:00.000Z",
+   "summary": "AI security tools that can only detect threats in English offer limited protection. Here’s how Tenable trained our threat detectors to process nine additional languages and understand thousands more, without the need for a translation model, which increases costs and slows down..."
   },
   {
    "company": "rapid7",
