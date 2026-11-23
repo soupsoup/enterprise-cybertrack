@@ -13,7 +13,7 @@
 <category>Application Platforms</category>
 <description>VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.
 Affected versions: 9.1.x (fixed in 9.1.1.0200); 9.0.x (fixed in 9.0.2.0200); 8.0 (fixed in 8.0 U3m); 5.x (fixed in 5.2.5).
-Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 and Telco Cloud Infrastructure 3.0 are also affected (see KB463116). | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 3.0%</description>
+Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 and Telco Cloud Infrastructure 3.0 are also affected (see KB463116). | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 3.5%</description>
 </item>
 <item>
 <title>CVE-2026-129448 Apache roller: Deserialization of Untrusted Data in Apache Roller versions 4.0.0 through 6.1.4 allows an unauthenticated...</title>
@@ -134,6 +134,14 @@ Users who cannot upgrade right away should set &quot;enabledForExtensions&quot; 
 <description>Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
 </item>
 <item>
+<title>CVE-2026-88234 Microsoft windows server: Release of invalid pointer or reference in Windows iSCSI allows an unauthorized attacker to execute code over...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-88234</link>
+<guid isPermaLink="false">CVE-2026-88234</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Release of invalid pointer or reference in Windows iSCSI allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
+</item>
+<item>
 <title>CVE-2026-123279 JetBrains datalore: In JetBrains Datalore before 2026.4 code execution was possible in a notebook&apos;s computation by view-only...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123279</link>
 <guid isPermaLink="false">CVE-2026-123279</guid>
@@ -151,7 +159,7 @@ Users who cannot upgrade right away should set &quot;enabledForExtensions&quot; 
 
 
 
-As Axis 1 has been EOL we recommend you migrate to a different SOAP engine, such as Apache Axis 2/Java. Alternatively you could use a build of Axis with the patch from https://github.com/apache/axis-axis1-java/commit/41f3b4e8d04e310ca81f86b92630ab2c11d608bd applied. The Apache Axis project does not expect to create an Axis 1.x release fixing this problem. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-18) | EPSS 3.8%</description>
+As Axis 1 has been EOL we recommend you migrate to a different SOAP engine, such as Apache Axis 2/Java. Alternatively you could use a build of Axis with the patch from https://github.com/apache/axis-axis1-java/commit/41f3b4e8d04e310ca81f86b92630ab2c11d608bd applied. The Apache Axis project does not expect to create an Axis 1.x release fixing this problem. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-18) | EPSS 5.9%</description>
 </item>
 <item>
 <title>CVE-2026-82907 Apache ofbiz: Authentication Bypass by Capture-replay in ExternalLoginKeysManager in Apache OFBiz 24.09 before 24.09.08 on...</title>
@@ -730,7 +738,7 @@ Users are recommended to upgrade to version 4.23.0, which fixes the issue. If us
 <category>Email &amp; Collaboration</category>
 <description>A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.
 
-This vulnerability is due to improper handling of email attachments when the file reputation service is enabled. An attacker could exploit this vulnerability by sending an email that contains a crafted attachment through an affected device. A successful exploit could allow the attacker to write arbitrary files and execute commands with&amp;nbsp;root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-14) | EPSS 6.2%</description>
+This vulnerability is due to improper handling of email attachments when the file reputation service is enabled. An attacker could exploit this vulnerability by sending an email that contains a crafted attachment through an affected device. A successful exploit could allow the attacker to write arbitrary files and execute commands with&amp;nbsp;root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-14) | EPSS 5.7%</description>
 </item>
 <item>
 <title>CVE-2026-101986 Juniper junos os evolved: An  Improper Authentication vulnerability in J-Web of Juniper Networks Junos OS and Junos OS Evolved allows...</title>
@@ -843,14 +851,6 @@ This vulnerability is due to improper handling of email attachments when the fil
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Heap-based buffer overflow in Windows Imaging Component allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
-</item>
-<item>
-<title>CVE-2026-70024 Microsoft windows: Stack-based buffer overflow in Windows Internet Information Services allows an unauthorized attacker to...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-70024</link>
-<guid isPermaLink="false">CVE-2026-70024</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Stack-based buffer overflow in Windows Internet Information Services allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
 </item>
 </channel>
 </rss>

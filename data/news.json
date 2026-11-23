@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-22T13:25:41.759Z",
+ "generated": "2026-11-23T16:03:20.692Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 20
   },
   {
@@ -78,7 +78,7 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 5781
   },
   {
@@ -86,7 +86,7 @@
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,19 +224,67 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
-   "count": 727
+   "checked": "2026-11-23T16:03:20.692Z",
+   "count": 728
   },
   {
    "company": "zscaler",
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-11-22T13:25:41.759Z",
+   "checked": "2026-11-23T16:03:20.692Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Cisco Expressway Series Remote Code Execution Vulnerability",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Expressway%20Series%20Remote%20Code%20Execution%20Vulnerability%26vs_k=1",
+   "date": "2026-11-23T15:51:28.000Z",
+   "summary": "A vulnerability in the database service feature of Cisco Expressway Series could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as root . This vulnerability is due to the use of persistent..."
+  },
+  {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "LiteLLM 1.107.0 Supply Chain Attack: How to Secure AI Gateways Beyond Code Signatures",
+   "link": "https://blog.qualys.com/product-tech/2026/11/23/litellm-1-107-0-supply-chain-attack-ai-gateway-security-primary-keyword-litellm-1-107-0-supply-chain-attack-litellm-1-10",
+   "date": "2026-11-23T15:27:20.000Z",
+   "summary": "On October 21, 2026, LiteLLM’s official release pipeline built, signed, and published version 1.107.0 from an attacker-controlled lookalike fork. The v1.107.0 source tag on GitHub was clean, and the compromised images carried a valid signature. The maintainers have since..."
+  },
+  {
+   "company": "checkpoint",
+   "feed": "Research",
+   "title": "23rd November – Threat Intelligence Report",
+   "link": "https://research.checkpoint.com/2026/23rd-november-threat-intelligence-report/",
+   "date": "2026-11-23T15:16:27.000Z",
+   "summary": "For the latest discoveries in cyber research for the week of 23rd November, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES The FBI has reportedly experienced a second cyber incident in recent months, this time targeting its National Crime Information..."
+  },
+  {
+   "company": "wiz",
+   "feed": "Blog",
+   "title": "Agentic Attacks: In The Wild",
+   "link": "https://www.wiz.io/blog/agentic-attacks-artex-offensive-ai-frameworks",
+   "date": "2026-11-23T14:46:19.000Z",
+   "summary": "Agentic offensive frameworks like ARTEX are driving a surge in cloud intrusions. Wiz Research shares cases from the wild, including both sides of one attack via the operator's leaked logs, an update on Black October, and the detections that catch these noisy, machine-speed..."
+  },
+  {
+   "company": "qualys",
+   "feed": "Blog",
+   "title": "Upgrade to Qualys’ Learning Management System (LMS)",
+   "link": "https://blog.qualys.com/product-tech/2026/11/23/upgrade-to-qualys-learning-management-system-lms",
+   "date": "2026-11-23T13:49:28.000Z",
+   "summary": ""
+  },
+  {
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "Proof-of-concept exploit code available for Ghostscript ‘Upload2Shell’ vulnerability (CVE-2026-125396)",
+   "link": "https://www.sophos.com/en-us/blog/proof-of-concept-available-for-ghostscript-upload2shell",
+   "date": "2026-11-23T00:00:00.000Z",
+   "summary": ""
+  },
   {
    "company": "talos",
    "feed": "Security advisories",
@@ -3246,14 +3294,6 @@
    "summary": "Executive Summary PHP2Shell’s fix is to update PHP, but patching at scale is slow. Only 199,000 of 156 million PHP installations were patched in the first 12 hours after disclosure. In the meantime, Qualys’s configuration-level mitigation reduces exposure to the confirmed attack..."
   },
   {
-   "company": "sophos",
-   "feed": "Blog",
-   "title": "The breachpocalypse is here",
-   "link": "https://www.sophos.com/en-us/blog/the-breachpocalypse-is-here",
-   "date": "2026-10-26T00:00:00.000Z",
-   "summary": "It's just hard to measure"
-  },
-  {
    "company": "wiz",
    "feed": "Blog",
    "title": "Gheist: Attempted Scaled Abuse of Stolen GitHub Tokens Stumbles",
@@ -3524,14 +3564,6 @@
    "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-QGwHnJ6k?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Advance%20Notification%20for%20Publication%20of%20October%2021,%202026,%20Security%20Advisories%26vs_k=1",
    "date": "2026-10-21T16:09:19.000Z",
    "summary": "On October 21, 2026, the Cisco Product Security Incident Response Team (PSIRT) published the following advisories. To remediate the vulnerabilities that were disclosed on October 21, 2026, Cisco strongly recommends that customers upgrade to the fixed software that is indicated..."
-  },
-  {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Cisco Expressway Series Information Disclosure Vulnerability",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-expressway-inf-disc-vvYqgSTS?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Cisco%20Expressway%20Series%20Information%20Disclosure%20Vulnerability%26vs_k=1",
-   "date": "2026-10-21T16:00:00.000Z",
-   "summary": "A vulnerability in Cisco Expressway Series could allow an unauthenticated, remote attacker to obtain sensitive information from an affected device. This vulnerability is due to insufficient authorization checks of HTTP requests during Mobile and Remote Access (MRA) provisioning...."
   },
   {
    "company": "paloalto",
@@ -4126,22 +4158,6 @@
    "summary": "Microsoft uncovered a Chinese-language cybercriminal ecosystem, an interconnected network of phishing kit operators (tracked as Storm-2990), and an illicit marketplace (tracked as Storm-3119) selling tools and infrastructure for large-scale phishing. In collaboration with law..."
   },
   {
-   "company": "qualys",
-   "feed": "Blog",
-   "title": "TruConfidence: Why Your Patch Automation Can Finally Be Autonomous",
-   "link": "https://blog.qualys.com/product-tech/2026/10/14/truconfidence-why-your-patch-automation-can-finally-be-autonomous",
-   "date": "2026-10-14T12:46:46.000Z",
-   "summary": "TruConfidence: The AI-Powered Remediation Intelligence & Orchestration engine powering TruRisk Eliminate 2.0 delivers autonomous remediation at scale with proof at every step. Executive Summary Vulnerabilities are now discovered faster than enterprises can remediate them. Patch..."
-  },
-  {
-   "company": "wiz",
-   "feed": "Blog",
-   "title": "Securing the Mission at Machine Speed: Wiz AI Agents Arrive in Wiz for Gov",
-   "link": "https://www.wiz.io/blog/wiz-for-gov-agents-fedramp",
-   "date": "2026-10-14T11:00:02.000Z",
-   "summary": "Wiz AI Agents elevate traditional CNAPP, empowering public sector security teams to accelerate security and innovation."
-  },
-  {
    "company": "eset",
    "feed": "WeLiveSecurity",
    "title": "Medicare scam calls, texts and ads: What to watch for this Open Enrollment",
@@ -4172,14 +4188,6 @@
    "link": "https://www.tenable.com/blog/microsofts-october-2026-patch-tuesday-addresses-1407-cves-cve-2026-96951",
    "date": "2026-10-13T21:49:11.000Z",
    "summary": "69 Critical 1337 Important 0 Moderate 1 Low Microsoft addresses 1407 CVEs in the tenth Patch Tuesday of 2026, marking the second consecutive month to reset the bar as the largest Patch Tuesday release. This month’s updates include patches for two zero days, including one that..."
-  },
-  {
-   "company": "qualys",
-   "feed": "Blog",
-   "title": "Microsoft Patch Tuesday, October 2026 Security Update Review",
-   "link": "https://blog.qualys.com/vulnerabilities-threat-research/2026/10/13/microsoft-patch-tuesday-october-2026-security-update-review",
-   "date": "2026-10-13T21:32:08.000Z",
-   "summary": "Microsoft has released its October 2026 Patch Tuesday security updates, addressing vulnerabilities across its products and services. As organizations continue to navigate an evolving threat landscape, applying security patches promptly remains critical to reducing exposure and..."
   },
   {
    "company": "talos",
@@ -5284,14 +5292,6 @@
    "link": "https://fortiguard.fortinet.com/threat-signal-report/6508",
    "date": "2026-08-25T03:31:08.000Z",
    "summary": "What is the Vulnerability? FortiGuard Labs is tracking an exploitation risk associated with CVE-2026-42533, a heap-based buffer overflow vulnerability affecting NGINX Open Source and NGINX Plus. The flaw occurs when the map directive uses regex matching and capture variables in..."
-  },
-  {
-   "company": "checkpoint",
-   "feed": "Research",
-   "title": "24th August – Threat Intelligence Report",
-   "link": "https://research.checkpoint.com/2026/24th-august-threat-intelligence-report/",
-   "date": "2026-08-24T14:07:53.000Z",
-   "summary": "For the latest discoveries in cyber research for the week of 24th August, please download our Threat Intelligence Bulletin. TOP ATTACKS AND BREACHES Latvia’s Road Traffic Safety Directorate (CSDD) has confirmed a breach affecting payment records of more than 1.2 million people –..."
   },
   {
    "company": "darktrace",

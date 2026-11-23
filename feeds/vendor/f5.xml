@@ -63,7 +63,7 @@ Impact: An attacker could leverage this vulnerability to crash the NGINX worker 
 
 
 
-Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 29.9%</description>
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 27.8%</description>
 </item>
 <item>
 <title>CVE-2026-123633 F5 dos: When NGINX Plus or NGINX Open Source is configured to use HTTP/2 for client connections and proxy client...</title>
