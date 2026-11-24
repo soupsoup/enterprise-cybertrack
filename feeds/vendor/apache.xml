@@ -17,7 +17,7 @@ This is the same vulnerability as CVE-2026-82384, which listed only Apache Rolle
 
 Users are recommended to upgrade to Apache Roller 6.1.6 or later, which disables the extension types and rejects XML-RPC requests when the XML-RPC feature is disabled.
 
-Users who cannot upgrade right away should set &quot;enabledForExtensions&quot; to &quot;false&quot; in WEB-INF/web.xml, or remove the &quot;/roller-services/xmlrpc&quot; servlet mapping, and restart Roller. Disabling XML-RPC in the administration UI is not enough, because older versions deserialize the request before checking that setting. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 5.5%</description>
+Users who cannot upgrade right away should set &quot;enabledForExtensions&quot; to &quot;false&quot; in WEB-INF/web.xml, or remove the &quot;/roller-services/xmlrpc&quot; servlet mapping, and restart Roller. Disabling XML-RPC in the administration UI is not enough, because older versions deserialize the request before checking that setting. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 40.1%</description>
 </item>
 <item>
 <title>CVE-2026-119618 Apache http server: Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP...</title>

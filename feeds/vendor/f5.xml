@@ -18,7 +18,7 @@ A remote unauthenticated attacker may crash an nginx worker process or corrupt i
 
 
 
-Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 13.9%</description>
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 15.3%</description>
 </item>
 <item>
 <title>CVE-2026-118899 F5 dos: When using the listen directive with the ssl parameter in the http block with TLSv1.3 enabled, an attacker...</title>
@@ -49,7 +49,7 @@ This vulnerability may allow remote attackers to cause a denial-of-service (DoS)
 
 
 
-Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 16.4%</description>
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 18.1%</description>
 </item>
 <item>
 <title>CVE-2026-123007 F5 dos: This issue affects NGINX Plus or NGINX Open Source configurations that use HTTP/2.</title>
@@ -63,7 +63,7 @@ Impact: An attacker could leverage this vulnerability to crash the NGINX worker 
 
 
 
-Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 27.8%</description>
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 44.7%</description>
 </item>
 <item>
 <title>CVE-2026-123633 F5 dos: When NGINX Plus or NGINX Open Source is configured to use HTTP/2 for client connections and proxy client...</title>
@@ -84,7 +84,7 @@ This vulnerability may allow remote attackers to cause a denial-of-service (DoS)
 
 
 
-Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 17.5%</description>
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 22.1%</description>
 </item>
 <item>
 <title>CVE-2026-123634 F5 dos: This issue occurs when NGINX Plus or NGINX Open Source is configured as a proxy, the proxied server name...</title>
@@ -99,7 +99,7 @@ An attacker could leverage this vulnerability to crash the NGINX worker process,
 
 
 
-Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 17.1%</description>
+Note: Software versions which have reached End of Technical Support (EoTS) are not evaluated. | CVSS 8.1 | EPSS 18.8%</description>
 </item>
 <item>
 <title>CVE-2026-94127 F5 big-ip access policy manager: When a BIG-IP APM access policy and an OAuth profile are configured on a virtual server, specific malicious...</title>

@@ -27,7 +27,7 @@ This is the same vulnerability as CVE-2026-82384, which listed only Apache Rolle
 
 Users are recommended to upgrade to Apache Roller 6.1.6 or later, which disables the extension types and rejects XML-RPC requests when the XML-RPC feature is disabled.
 
-Users who cannot upgrade right away should set &quot;enabledForExtensions&quot; to &quot;false&quot; in WEB-INF/web.xml, or remove the &quot;/roller-services/xmlrpc&quot; servlet mapping, and restart Roller. Disabling XML-RPC in the administration UI is not enough, because older versions deserialize the request before checking that setting. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 5.5%</description>
+Users who cannot upgrade right away should set &quot;enabledForExtensions&quot; to &quot;false&quot; in WEB-INF/web.xml, or remove the &quot;/roller-services/xmlrpc&quot; servlet mapping, and restart Roller. Disabling XML-RPC in the administration UI is not enough, because older versions deserialize the request before checking that setting. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 40.1%</description>
 </item>
 <item>
 <title>CVE-2026-130968 Microsoft windows: Use after free in Views in Google Chrome on on Windows prior to 158.0.8127.36 allowed a remote attacker...</title>
@@ -139,7 +139,23 @@ Users who cannot upgrade right away should set &quot;enabledForExtensions&quot; 
 <guid isPermaLink="false">CVE-2026-88234</guid>
 <pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
-<description>Release of invalid pointer or reference in Windows iSCSI allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
+<description>Release of invalid pointer or reference in Windows iSCSI allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.8%</description>
+</item>
+<item>
+<title>CVE-2026-96067 Microsoft windows: Integer overflow or wraparound in Microsoft Color Management allows an unauthorized attacker to execute code...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96067</link>
+<guid isPermaLink="false">CVE-2026-96067</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Integer overflow or wraparound in Microsoft Color Management allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
+</item>
+<item>
+<title>CVE-2026-96078 Microsoft windows: Heap-based buffer overflow in Microsoft Color Management allows an unauthorized attacker to execute code over...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-96078</link>
+<guid isPermaLink="false">CVE-2026-96078</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Microsoft Color Management allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
 </item>
 <item>
 <title>CVE-2026-123279 JetBrains datalore: In JetBrains Datalore before 2026.4 code execution was possible in a notebook&apos;s computation by view-only...</title>
@@ -252,7 +268,7 @@ Users are recommended to upgrade to version 24.09.08, which fixes this issue. | 
 
 
 
-Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-27) | EPSS 99.9%</description>
+Users need to update any Brotli libraries or binaries between 1.0.3 through 1.2.0 to the latest available version: 1.0.10 or 1.1.1 or 1.2.1. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-27) | EPSS 100.0%</description>
 </item>
 <item>
 <title>CVE-2026-109618 Palo Alto Networks pan-os: PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the...</title>
@@ -835,22 +851,6 @@ This vulnerability is due to improper handling of email attachments when the fil
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>Windows &amp; Endpoint</category>
 <description>Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.2%</description>
-</item>
-<item>
-<title>CVE-2026-97749 Microsoft 365 apps: Double free in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-97749</link>
-<guid isPermaLink="false">CVE-2026-97749</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Double free in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.2%</description>
-</item>
-<item>
-<title>CVE-2026-69886 Microsoft windows: Heap-based buffer overflow in Windows Imaging Component allows an unauthorized attacker to execute code over...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-69886</link>
-<guid isPermaLink="false">CVE-2026-69886</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>Windows &amp; Endpoint</category>
-<description>Heap-based buffer overflow in Windows Imaging Component allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 0.9%</description>
 </item>
 </channel>
 </rss>
