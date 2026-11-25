@@ -17,7 +17,7 @@ This is the same vulnerability as CVE-2026-82384, which listed only Apache Rolle
 
 Users are recommended to upgrade to Apache Roller 6.1.6 or later, which disables the extension types and rejects XML-RPC requests when the XML-RPC feature is disabled.
 
-Users who cannot upgrade right away should set &quot;enabledForExtensions&quot; to &quot;false&quot; in WEB-INF/web.xml, or remove the &quot;/roller-services/xmlrpc&quot; servlet mapping, and restart Roller. Disabling XML-RPC in the administration UI is not enough, because older versions deserialize the request before checking that setting. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 40.1%</description>
+Users who cannot upgrade right away should set &quot;enabledForExtensions&quot; to &quot;false&quot; in WEB-INF/web.xml, or remove the &quot;/roller-services/xmlrpc&quot; servlet mapping, and restart Roller. Disabling XML-RPC in the administration UI is not enough, because older versions deserialize the request before checking that setting. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 24.2%</description>
 </item>
 <item>
 <title>CVE-2026-119618 Apache http server: Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP...</title>
@@ -40,7 +40,7 @@ Affected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42. | CVSS 8.1 |
 
 
 
-As Axis 1 has been EOL we recommend you migrate to a different SOAP engine, such as Apache Axis 2/Java. Alternatively you could use a build of Axis with the patch from https://github.com/apache/axis-axis1-java/commit/41f3b4e8d04e310ca81f86b92630ab2c11d608bd applied. The Apache Axis project does not expect to create an Axis 1.x release fixing this problem. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-18) | EPSS 5.9%</description>
+As Axis 1 has been EOL we recommend you migrate to a different SOAP engine, such as Apache Axis 2/Java. Alternatively you could use a build of Axis with the patch from https://github.com/apache/axis-axis1-java/commit/41f3b4e8d04e310ca81f86b92630ab2c11d608bd applied. The Apache Axis project does not expect to create an Axis 1.x release fixing this problem. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-18) | EPSS 2.7%</description>
 </item>
 <item>
 <title>CVE-2026-109928 Apache ofbiz: Incorrect Implementation of Authentication Algorithm in the password-reset and login JWT validation in Apache...</title>
@@ -48,7 +48,7 @@ As Axis 1 has been EOL we recommend you migrate to a different SOAP engine, such
 <guid isPermaLink="false">CVE-2026-109928</guid>
 <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>Incorrect Implementation of Authentication Algorithm in the password-reset and login JWT validation in Apache OFBiz 24.09 before 24.09.08 on all platforms allows an attacker who has obtained a user&apos;s password-reset token (via email interception, log exposure, or a man-in-the-middle on the mail transport) to authenticate as that user and obtain a full, unrestricted session, including administrative access if the targeted account is an administrator, by submitting the token directly to the login endpoint instead of the intended password-change flow. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 7.4 | EPSS 0.5%</description>
+<description>Incorrect Implementation of Authentication Algorithm in the password-reset and login JWT validation in Apache OFBiz 24.09 before 24.09.08 on all platforms allows an attacker who has obtained a user&apos;s password-reset token (via email interception, log exposure, or a man-in-the-middle on the mail transport) to authenticate as that user and obtain a full, unrestricted session, including administrative access if the targeted account is an administrator, by submitting the token directly to the login endpoint instead of the intended password-change flow. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 7.4 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-114233 Apache ofbiz: Incorrect Privilege Assignment in the Order Manager in Apache OFBiz 24.09 before 24.09.08 on all platforms...</title>
@@ -64,7 +64,7 @@ As Axis 1 has been EOL we recommend you migrate to a different SOAP engine, such
 <guid isPermaLink="false">CVE-2026-82904</guid>
 <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>Uncontrolled Resource Consumption in ServiceMultiEventHandler in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to pin a server request thread for an attacker-chosen number of synchronous service dispatches, up to the signed-integer maximum, by submitting a single small HTTP request whose parameter names encode a row count via the &quot;o&quot; suffix used by multi-form submissions, because UtilHttp.getMultiFormRowCount derives that count from the largest such suffix with no upper bound and ServiceMultiEventHandler.invoke then loops that many times calling dispatcher.runSync, with the request-map for getFinAccountTransRunningTotalAndBalances reaching this handler with no authentication or CSRF requirement on a stock deployment. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 7.5 | EPSS 0.7%</description>
+<description>Uncontrolled Resource Consumption in ServiceMultiEventHandler in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker to pin a server request thread for an attacker-chosen number of synchronous service dispatches, up to the signed-integer maximum, by submitting a single small HTTP request whose parameter names encode a row count via the &quot;o&quot; suffix used by multi-form submissions, because UtilHttp.getMultiFormRowCount derives that count from the largest such suffix with no upper bound and ServiceMultiEventHandler.invoke then loops that many times calling dispatcher.runSync, with the request-map for getFinAccountTransRunningTotalAndBalances reaching this handler with no authentication or CSRF requirement on a stock deployment. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 7.5 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-82907 Apache ofbiz: Authentication Bypass by Capture-replay in ExternalLoginKeysManager in Apache OFBiz 24.09 before 24.09.08 on...</title>
@@ -72,7 +72,7 @@ As Axis 1 has been EOL we recommend you migrate to a different SOAP engine, such
 <guid isPermaLink="false">CVE-2026-82907</guid>
 <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>Authentication Bypass by Capture-replay in ExternalLoginKeysManager in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker who captures a live externalLoginKey value to obtain a complete, cookie-free, reusable session as the user who issued it, in every webapp that user can reach, because checkExternalLoginKey runs as a global preprocessor ahead of both the CSRF and authentication checks and accepts the key as a bearer credential that is never bound to a client, never expires, and is not invalidated after use, while the framework itself both appends live keys to every cross-webapp link it renders and, via WidgetWorker&apos;s unvalidated inter-app link target, lets an authenticated user&apos;s key be attached to an attacker-chosen absolute URL and delivered directly to the attacker&apos;s own server. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 9.8 | EPSS 0.7%</description>
+<description>Authentication Bypass by Capture-replay in ExternalLoginKeysManager in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote unauthenticated attacker who captures a live externalLoginKey value to obtain a complete, cookie-free, reusable session as the user who issued it, in every webapp that user can reach, because checkExternalLoginKey runs as a global preprocessor ahead of both the CSRF and authentication checks and accepts the key as a bearer credential that is never bound to a client, never expires, and is not invalidated after use, while the framework itself both appends live keys to every cross-webapp link it renders and, via WidgetWorker&apos;s unvalidated inter-app link target, lets an authenticated user&apos;s key be attached to an attacker-chosen absolute URL and delivered directly to the attacker&apos;s own server. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 9.8 | EPSS 0.9%</description>
 </item>
 <item>
 <title>CVE-2026-82910 Apache ofbiz: Improper Neutralization of Special Elements Used in a Template Engine (&apos;Server-Side Template Injection&apos;) in...</title>
@@ -80,7 +80,7 @@ As Axis 1 has been EOL we recommend you migrate to a different SOAP engine, such
 <guid isPermaLink="false">CVE-2026-82910</guid>
 <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>Improper Neutralization of Special Elements Used in a Template Engine (&apos;Server-Side Template Injection&apos;) in MacroScreenRenderer in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only the two view permissions of a control-servlet webapp (e.g. CATALOG_VIEW and OFBTOOLS_VIEW on /catalog, held by OFBiz&apos;s own shipped order-entry clerk role) to execute arbitrary operating system commands as the OFBiz service account with a single GET request, by placing an apostrophe followed by FreeMarker expression source in a screen link parameter value, because renderLink concatenates link parameter values verbatim between apostrophes into an unquoted, unescaped template-source string that is compiled and evaluated at render time, allowing the injected expression to reach the allow-listed FlexibleStringExpander.expandString call and, through a runtime-assembled Groovy interpolation, unsandboxed code execution. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 8.8 | EPSS 0.8%</description>
+<description>Improper Neutralization of Special Elements Used in a Template Engine (&apos;Server-Side Template Injection&apos;) in MacroScreenRenderer in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only the two view permissions of a control-servlet webapp (e.g. CATALOG_VIEW and OFBTOOLS_VIEW on /catalog, held by OFBiz&apos;s own shipped order-entry clerk role) to execute arbitrary operating system commands as the OFBiz service account with a single GET request, by placing an apostrophe followed by FreeMarker expression source in a screen link parameter value, because renderLink concatenates link parameter values verbatim between apostrophes into an unquoted, unescaped template-source string that is compiled and evaluated at render time, allowing the injected expression to reach the allow-listed FlexibleStringExpander.expandString call and, through a runtime-assembled Groovy interpolation, unsandboxed code execution. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 8.8 | EPSS 1.0%</description>
 </item>
 <item>
 <title>CVE-2026-82912 Apache ofbiz: Improper Neutralization of Special Elements Used in an Expression Language Statement (&apos;Expression Language...</title>
@@ -88,7 +88,7 @@ As Axis 1 has been EOL we recommend you migrate to a different SOAP engine, such
 <guid isPermaLink="false">CVE-2026-82912</guid>
 <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>Improper Neutralization of Special Elements Used in an Expression Language Statement (&apos;Expression Language Injection&apos;) in EmailServices in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only OFBTOOLS_VIEW and ACCOUNTING_VIEW, the two view-level permissions that open the Accounting application, to execute arbitrary operating system commands as the account running OFBiz, by submitting a ${groovy:...} expression as the bodyText or subject value to the shipped Send Per Email invoice form, because sendMailFromScreen passes those caller-supplied values through FlexibleStringExpander.expandString, which compiles and evaluates embedded Groovy on a class loader that carries none of the SecureASTCustomizer restrictions GroovyUtil.eval applies elsewhere, behind a service and request-map that declare no permission check beyond base authentication. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 8.8 | EPSS 0.7%</description>
+<description>Improper Neutralization of Special Elements Used in an Expression Language Statement (&apos;Expression Language Injection&apos;) in EmailServices in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only OFBTOOLS_VIEW and ACCOUNTING_VIEW, the two view-level permissions that open the Accounting application, to execute arbitrary operating system commands as the account running OFBiz, by submitting a ${groovy:...} expression as the bodyText or subject value to the shipped Send Per Email invoice form, because sendMailFromScreen passes those caller-supplied values through FlexibleStringExpander.expandString, which compiles and evaluates embedded Groovy on a class loader that carries none of the SecureASTCustomizer restrictions GroovyUtil.eval applies elsewhere, behind a service and request-map that declare no permission check beyond base authentication. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 8.8 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-82916 Apache ofbiz: Missing Authorization in XmlDsDump in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote...</title>
@@ -96,7 +96,7 @@ As Axis 1 has been EOL we recommend you migrate to a different SOAP engine, such
 <guid isPermaLink="false">CVE-2026-82916</guid>
 <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>Missing Authorization in XmlDsDump in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only the webtools base permissions (OFBTOOLS_VIEW, WEBTOOLS_VIEW) — explicitly not the ENTITY_MAINT permission the export feature declares and visibly refuses to render for — to export the contents of any database entity, including UserLogin with its currentPassword hashes, to any filesystem path the OFBiz process can write, including a web-served docroot, and to create arbitrary directories or truncate arbitrary existing files at those paths, because the XmlDsDump screen action writes the requested entity data via new FileOutputStream on unvalidated outpath and filename request parameters before the screen&apos;s ENTITY_MAINT permission check runs, unlike the equivalent Java service entityExportAll, which enforces both a permission check and a file-path allow-list. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 7.1 | EPSS 0.6%</description>
+<description>Missing Authorization in XmlDsDump in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only the webtools base permissions (OFBTOOLS_VIEW, WEBTOOLS_VIEW) — explicitly not the ENTITY_MAINT permission the export feature declares and visibly refuses to render for — to export the contents of any database entity, including UserLogin with its currentPassword hashes, to any filesystem path the OFBiz process can write, including a web-served docroot, and to create arbitrary directories or truncate arbitrary existing files at those paths, because the XmlDsDump screen action writes the requested entity data via new FileOutputStream on unvalidated outpath and filename request parameters before the screen&apos;s ENTITY_MAINT permission check runs, unlike the equivalent Java service entityExportAll, which enforces both a permission check and a file-path allow-list. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 7.1 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-82960 Apache ofbiz: Improper Control of Generation of Code (&apos;Code Injection&apos;) in ModelFormField in the Apache OFBiz cms plugin...</title>
@@ -104,7 +104,7 @@ As Axis 1 has been EOL we recommend you migrate to a different SOAP engine, such
 <guid isPermaLink="false">CVE-2026-82960</guid>
 <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>Improper Control of Generation of Code (&apos;Code Injection&apos;) in ModelFormField in the Apache OFBiz cms plugin before 24.09.08 on all platforms allows a remote authenticated attacker holding only CMS content-editor access to execute arbitrary operating system commands as the OFBiz process user via a single HTTP POST request, by submitting a crafted caContentIdTo parameter to EditAddContent, because the CMS screen copies that parameter into a top-level context variable that is interpolated into a form field&apos;s use-when attribute and the resulting string is passed unvalidated to GroovyUtil.eval(), whose compile-time SecureASTCustomizer sandbox does not restrict runtime reflection, allowing a payload that closes the expanded string literal and invokes java.lang.Runtime via reflection. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 8.8 | EPSS 0.7%</description>
+<description>Improper Control of Generation of Code (&apos;Code Injection&apos;) in ModelFormField in the Apache OFBiz cms plugin before 24.09.08 on all platforms allows a remote authenticated attacker holding only CMS content-editor access to execute arbitrary operating system commands as the OFBiz process user via a single HTTP POST request, by submitting a crafted caContentIdTo parameter to EditAddContent, because the CMS screen copies that parameter into a top-level context variable that is interpolated into a form field&apos;s use-when attribute and the resulting string is passed unvalidated to GroovyUtil.eval(), whose compile-time SecureASTCustomizer sandbox does not restrict runtime reflection, allowing a payload that closes the expanded string literal and invokes java.lang.Runtime via reflection. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 8.8 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-83542 Apache ofbiz: Improper Control of Generation of Code (&apos;Code Injection&apos;) in Apache OFBiz 24.09 before 24.09.08 on all...</title>
@@ -135,7 +135,7 @@ Users are recommended to upgrade to version 24.09.08, which fixes this issue. | 
 <guid isPermaLink="false">CVE-2026-84183</guid>
 <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>Incorrect Authorization in the updateLayout simple-method in applications/content/minilang/layout/LayoutEvents.xml in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only OFBTOOLS_VIEW and CONTENTMGR_VIEW to execute arbitrary commands as the OFBiz process user, by using updateLayout&apos;s authorization check — which validates only the fixed CONTENT_CREATE operation rather than an update permission on the actual Content record and an independently selected DataResource — to relink an existing RESPONSE-purpose Content record and convert an arbitrary, independently selected DataResource into an OFBIZ_FILE/FTL resource pointed at the OFBiz access log, poisoned via a crafted User-Agent header and evaluated through the normal authenticated showContent route. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 8.8 | EPSS 1.2%</description>
+<description>Incorrect Authorization in the updateLayout simple-method in applications/content/minilang/layout/LayoutEvents.xml in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only OFBTOOLS_VIEW and CONTENTMGR_VIEW to execute arbitrary commands as the OFBiz process user, by using updateLayout&apos;s authorization check — which validates only the fixed CONTENT_CREATE operation rather than an update permission on the actual Content record and an independently selected DataResource — to relink an existing RESPONSE-purpose Content record and convert an arbitrary, independently selected DataResource into an OFBIZ_FILE/FTL resource pointed at the OFBiz access log, poisoned via a crafted User-Agent header and evaluated through the normal authenticated showContent route. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 8.8 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-85627 Apache ofbiz: Improper Neutralization of Special Elements Used in a Template Engine (&apos;Server-Side Template Injection&apos;) in...</title>
@@ -143,7 +143,7 @@ Users are recommended to upgrade to version 24.09.08, which fixes this issue. | 
 <guid isPermaLink="false">CVE-2026-85627</guid>
 <pubDate>Thu, 05 Nov 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>Improper Neutralization of Special Elements Used in a Template Engine (&apos;Server-Side Template Injection&apos;) in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only a stock non-administrative account to execute arbitrary operating system commands as the OFBiz process user, by using the updateLayoutImage event, which writes DataResource fields with no permission check, to retype an attacker-created DataResource as an FTL template evaluating its own primary key, then using the resulting FreeMarker evaluation to plant an OFBiz Form Widget whose use-when attribute runs unsandboxed Groovy. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 8.8 | EPSS 0.5%</description>
+<description>Improper Neutralization of Special Elements Used in a Template Engine (&apos;Server-Side Template Injection&apos;) in Apache OFBiz 24.09 before 24.09.08 on all platforms allows a remote authenticated attacker holding only a stock non-administrative account to execute arbitrary operating system commands as the OFBiz process user, by using the updateLayoutImage event, which writes DataResource fields with no permission check, to retype an attacker-created DataResource as an FTL template evaluating its own primary key, then using the resulting FreeMarker evaluation to plant an OFBiz Form Widget whose use-when attribute runs unsandboxed Groovy. Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 8.8 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-92887 Apache ofbiz: Incorrect default value in the REST API framework&apos;s .rest.xml definition parser (ModelApiReader) in Apache...</title>
@@ -153,7 +153,7 @@ Users are recommended to upgrade to version 24.09.08, which fixes this issue. | 
 <category>Application Platforms</category>
 <description>Incorrect default value in the REST API framework&apos;s .rest.xml definition parser (ModelApiReader) in Apache OFBiz through 24.09.07 on all platforms allows a remote, unauthenticated attacker to invoke a REST API operation without providing valid credentials via a .rest.xml resource or operation definition that omits the auth attribute, which ModelApiReader incorrectly resolves to false instead of the true default declared by rest-api.xsd.
 
-Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 7.3 | EPSS 0.6%</description>
+Users are recommended to upgrade to version 24.09.08, which fixes this issue. | CVSS 7.3 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-90628 Apache openoffice: An uncontrolled memory access in the PDF export code of Apache OpenOffice versions through 4.1.16 allows a...</title>
@@ -163,7 +163,7 @@ Users are recommended to upgrade to version 24.09.08, which fixes this issue. | 
 <category>Windows &amp; Endpoint</category>
 <description>An uncontrolled memory access in the PDF export code of Apache OpenOffice versions through 4.1.16 allows a crafted CFF font to cause a stack overflow problem, causing program crash or memory corruption, or even running other code.
 
-Users are recommended to upgrade to version 4.1.17, which fixes this issue. | CVSS 7.3 | EPSS 0.3%</description>
+Users are recommended to upgrade to version 4.1.17, which fixes this issue. | CVSS 7.3 | EPSS 0.2%</description>
 </item>
 <item>
 <title>CVE-2026-90629 Apache openoffice: An uncontrolled memory access in the WMF import code of Apache OpenOffice versions through 4.1.16 allows a...</title>
@@ -235,7 +235,7 @@ Users are recommended to upgrade to version 4.1.17, which fixes this issue. | CV
 <guid isPermaLink="false">CVE-2026-64618</guid>
 <pubDate>Fri, 30 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>Improper Neutralization of Special Elements used in an SQL Command (&quot;SQL Injection&quot;) vulnerability exists in Apache Fineract (through version 1.15.0). The vulnerability affects the outStandingAmountPercentageCondition parameter of the /fineract-provider/api/v1/search/advance HTTP API endpoint, allowing SQL injection due to insufficient input neutralization. Users are recommended to upgrade to version 1.16.1, which will fix the issue. | CVSS 9.8 | EPSS 0.7%</description>
+<description>Improper Neutralization of Special Elements used in an SQL Command (&quot;SQL Injection&quot;) vulnerability exists in Apache Fineract (through version 1.15.0). The vulnerability affects the outStandingAmountPercentageCondition parameter of the /fineract-provider/api/v1/search/advance HTTP API endpoint, allowing SQL injection due to insufficient input neutralization. Users are recommended to upgrade to version 1.16.1, which will fix the issue. | CVSS 9.8 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-65874 Apache fineract: This issue affects Apache Fineract versions up to and including 1.15.0.</title>
@@ -245,7 +245,7 @@ Users are recommended to upgrade to version 4.1.17, which fixes this issue. | CV
 <category>Application Platforms</category>
 <description>This issue affects Apache Fineract versions up to and including 1.15.0. The Center read endpoint (GET /api/v1/centers) and the datatable entry read endpoints (GET /api/v1/datatables/{datatable}/{apptableId} and GET /api/v1/datatables/{datatable}/{apptableId}/{datatableId}) concatenate caller-supplied ordering parameters (orderBy, sortOrder, order) directly into the SQL ORDER BY clause. The existing regex-based input validation can be bypassed, allowing time-based blind SQL injection by any authenticated user with read access to centers or to the targeted datatable.
 
-Users are recommended to upgrade to 1.16.1 which fixes the issue. | CVSS 8.8 | EPSS 0.6%</description>
+Users are recommended to upgrade to 1.16.1 which fixes the issue. | CVSS 8.8 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-78162 Apache camel: Deserialization of Untrusted Data vulnerability in Apache Camel.</title>
@@ -265,7 +265,7 @@ The camel-hazelcast component applies a default Hazelcast JavaSerializationFilte
 
 
 
-Users are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.1. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier reached end of life before this issue was resolved and will not receive a fix, so deployments on those lines must move to a supported release. For deployments that cannot upgrade immediately, supply an explicit Hazelcast configuration carrying a JavaSerializationFilterConfig, or inject a pre-built HazelcastInstance, since a user-supplied configuration is never overwritten by Camel. Alternatively set the JVM-wide filter -Djdk.serialFilter=!java.net.;java.;javax.;org.apache.camel.;!* and enable Hazelcast cluster authentication and TLS to restrict who can reach the cluster. | CVSS 9.8 | EPSS 1.1%</description>
+Users are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.1. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier reached end of life before this issue was resolved and will not receive a fix, so deployments on those lines must move to a supported release. For deployments that cannot upgrade immediately, supply an explicit Hazelcast configuration carrying a JavaSerializationFilterConfig, or inject a pre-built HazelcastInstance, since a user-supplied configuration is never overwritten by Camel. Alternatively set the JVM-wide filter -Djdk.serialFilter=!java.net.;java.;javax.;org.apache.camel.;!* and enable Hazelcast cluster authentication and TLS to restrict who can reach the cluster. | CVSS 9.8 | EPSS 1.8%</description>
 </item>
 <item>
 <title>CVE-2026-79983 Apache camel: Improper Limitation of a Pathname to a Restricted Directory (&apos;Path Traversal&apos;) vulnerability in Apache Camel...</title>
@@ -285,7 +285,7 @@ The Camel remote-file consumers poll a directory on a remote server and build th
 
 
 
-Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.22.x releases stream should upgrade to 4.22.1. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. The 4.14.x stream reached end of life and does not receive this fix; users on it should move to a supported releases stream. | CVSS 7.4 | EPSS 1.0%</description>
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.22.x releases stream should upgrade to 4.22.1. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. The 4.14.x stream reached end of life and does not receive this fix; users on it should move to a supported releases stream. | CVSS 7.4 | EPSS 0.9%</description>
 </item>
 <item>
 <title>CVE-2026-79986 Apache camel: Improper Limitation of a Pathname to a Restricted Directory (&apos;Path Traversal&apos;) vulnerability in Apache Camel...</title>
@@ -305,7 +305,7 @@ The Camel remote-file consumers poll a directory on a remote server and build th
 
 
 
-Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.22.x releases stream should upgrade to 4.22.1. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. The 4.14.x stream reached end of life and does not receive this fix; users on it should move to a supported releases stream. | CVSS 7.4 | EPSS 1.0%</description>
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.22.x releases stream should upgrade to 4.22.1. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. The 4.14.x stream reached end of life and does not receive this fix; users on it should move to a supported releases stream. | CVSS 7.4 | EPSS 0.9%</description>
 </item>
 <item>
 <title>CVE-2026-80343 Apache camel: Improper Handling of Case Sensitivity vulnerability in Apache Camel Netty HTTP component.</title>
@@ -353,7 +353,7 @@ This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.
 
 With documentType set to InputSource, XPathBuilder handed the payload straight to javax.xml.xpath, which builds a DocumentBuilder of its own using the JDK defaults. The hardening applied to Camel&apos;s default document type was therefore bypassed: a DOCTYPE declaration that is refused on the default type was accepted here, and the external entity it declared was resolved and expanded into the evaluated document. An external sender whose XML reaches such an expression could read files readable by the Camel process and cause the process to issue requests to hosts it names. The two document types disagreeing on parser configuration is what made this reachable, since a deployment choosing InputSource for streaming reasons had no indication it was also choosing a weaker parser.
 
-Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The InputSource document type now goes through the same hardened parser as the default type, so a DOCTYPE is refused. Note that it also shares that type&apos;s documented escape hatch: the same DocumentBuilderFactory system properties that relax the default type relax this one, so a deployment that has set them remains unprotected by design. For deployments that cannot upgrade immediately, do not use documentType=InputSource on expressions evaluated over untrusted XML; the default document type already refuses a DOCTYPE. | CVSS 7.5 | EPSS 0.7%</description>
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. The InputSource document type now goes through the same hardened parser as the default type, so a DOCTYPE is refused. Note that it also shares that type&apos;s documented escape hatch: the same DocumentBuilderFactory system properties that relax the default type relax this one, so a deployment that has set them remains unprotected by design. For deployments that cannot upgrade immediately, do not use documentType=InputSource on expressions evaluated over untrusted XML; the default document type already refuses a DOCTYPE. | CVSS 7.5 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-85251 Apache camel: Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Apache Camel HTTP component.</title>
@@ -367,7 +367,7 @@ This issue affects Apache Camel: from 4.0.0 before 4.18.5, from 4.19.0 before 4.
 
 Two paths handed credentials to a redirect target, which is a host chosen by the remote server rather than by the route, once followRedirects=true. OAuth2ClientConfigurer registers its interceptor with addRequestInterceptorFirst, and HttpClient runs protocol-level request interceptors inside ProtocolExec, which sits below RedirectExec in the exec chain; the interceptor therefore ran again for every redirect hop and re-attached Authorization: Bearer  to whatever host the Location header named. Separately, credentials were registered against an AuthScope matching any host, so basic and digest credentials were presented to a redirect target as well. A remote endpoint - or anyone who can influence its responses - could therefore collect the bearer token or the configured credentials simply by answering with a redirect to a host it controls.
 
-Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. Credentials are now sent only to the authority the endpoint was configured with, and are not re-attached when a redirect crosses to another host. For deployments that cannot upgrade immediately, set followRedirects=false on endpoints that carry credentials, and handle any redirect explicitly in the route so that the destination is chosen by the route rather than by the remote server. | CVSS 7.5 | EPSS 0.7%</description>
+Upgrade to Apache Camel 4.23.0, which fixes the issue. Users on the 4.18.x LTS releases stream should upgrade to 4.18.5. Users on the 4.22.x LTS releases stream should upgrade to 4.22.1. Credentials are now sent only to the authority the endpoint was configured with, and are not re-attached when a redirect crosses to another host. For deployments that cannot upgrade immediately, set followRedirects=false on endpoints that carry credentials, and handle any redirect explicitly in the route so that the destination is chosen by the route rather than by the remote server. | CVSS 7.5 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-88900 Apache camel: Deserialization of Untrusted Data vulnerability in Apache Camel Camel-Jgroups component.</title>
@@ -387,7 +387,7 @@ JGroupsEndpoint.createExchange(Message), which CamelJGroupsReceiver calls for ev
 
 
 
-Users are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.1. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier, and the 4.15.x to 4.17.x and 4.19.x to 4.21.x release lines, reached end of life before this issue was resolved and will not receive a fix, so deployments on those lines must move to a supported release. | CVSS 8.8 | EPSS 0.7%</description>
+Users are recommended to upgrade to version 4.23.0, which fixes the issue. If users are on the 4.22.x releases stream, then they are suggested to upgrade to 4.22.1. If users are on the 4.18.x releases stream, then they are suggested to upgrade to 4.18.5. The 4.14.x releases stream and earlier, and the 4.15.x to 4.17.x and 4.19.x to 4.21.x release lines, reached end of life before this issue was resolved and will not receive a fix, so deployments on those lines must move to a supported release. | CVSS 8.8 | EPSS 1.0%</description>
 </item>
 <item>
 <title>CVE-2026-100227 Apache cxf: Improper Verification of Cryptographic Signature vulnerability in Apache CXF&apos;s JAX-RS XML Security module.</title>
@@ -396,7 +396,7 @@ Users are recommended to upgrade to version 4.23.0, which fixes the issue. If us
 <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
 <description>Improper Verification of Cryptographic Signature vulnerability in Apache CXF&apos;s JAX-RS XML Security module. The JAX-RS XML Signature interceptors (XmlSigInHandler, XmlSigInInterceptor and the streaming XmlSecInInterceptor) did not ensure that the XML passed to the application was covered by the signature. An attacker with any document signed by a trusted key could wrap it in unsigned content, which the application would then treat as signed.
-Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.3%</description>
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-107937 Apache cxf: In Apache CXF, the parser for multipart/MTOM attachment part headers did not fully enforce the configured...</title>
@@ -405,7 +405,7 @@ Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix
 <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
 <description>In Apache CXF, the parser for multipart/MTOM attachment part headers did not fully enforce the configured attachment-max-header-size (default 300 characters) and attachment-headers-max-count (default 500) limits. The size limit was applied only to each physical line, not to a header value built from continuation lines or to the combined values of a repeated header. The count limit was checked against the number of distinct header names, not the total number of header lines. A remote, unauthenticated attacker could send a multipart request with very large folded or repeated part headers. The server would then allocate memory without bound, causing a denial of service. 
-Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.6%</description>
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.9%</description>
 </item>
 <item>
 <title>CVE-2026-107938 Apache cxf: In Apache CXF, the Netty-based HTTP client transport (cxf-rt-transports-http-netty-client) did not verify...</title>
@@ -414,7 +414,7 @@ Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix
 <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
 <description>In Apache CXF, the Netty-based HTTP client transport (cxf-rt-transports-http-netty-client) did not verify that the hostname in the server’s TLS certificate matched the host being called. This applied over both HTTP/1.1 and HTTP/2, even when disableCNCheck was left at its default value of false. The certificate chain was validated against the configured trust store, but the endpoint’s identity was not. A network attacker able to intercept traffic could present any certificate trusted by the client, such as a publicly issued certificate for a domain they control, and impersonate the target service. They could then read or modify the exchanged messages, including credentials. 
-Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 9.1 | EPSS 0.2%</description>
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 9.1 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-108039 Apache cxf: By default, StaxUtils placed no limit on the total number of elements or the total number of characters in an...</title>
@@ -423,7 +423,7 @@ Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix
 <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
 <description>By default, StaxUtils placed no limit on the total number of elements or the total number of characters in an XML document. A very large request could therefore use a lot of memory and CPU during parsing, especially where CXF builds a DOM from the input (for example SAAJ or WS-Security), and could cause a denial of service when no request size limit was configured. Both limits now have defaults: the maximum element count is 100 × maxChildElements (5,000,000 by default), and the maximum document size is 256M characters. Applications that process larger documents can raise the limits with the org.apache.cxf.stax.maxElementCount and org.apache.cxf.stax.maxXMLCharacters properties.
-Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.5%</description>
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-71575 Apache cxf: The max_age authentication-freshness check in OidcClientCodeRequestFilter was inoperative due to a...</title>
@@ -431,7 +431,7 @@ Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix
 <guid isPermaLink="false">CVE-2026-71575</guid>
 <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>The max_age authentication-freshness check in OidcClientCodeRequestFilter was inoperative due to a milliseconds/seconds unit mismatch and an inverted comparison polarity. Any relying party using setMaxAgeOffset to enforce re-authentication would silently accept sessions of any age, bypassing step-up authentication policies. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 9.1 | EPSS 0.4%</description>
+<description>The max_age authentication-freshness check in OidcClientCodeRequestFilter was inoperative due to a milliseconds/seconds unit mismatch and an inverted comparison polarity. Any relying party using setMaxAgeOffset to enforce re-authentication would silently accept sessions of any age, bypassing step-up authentication policies. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 9.1 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-73179 Apache cxf: Improper enforcement of single-use authorization code semantics in the JPA OAuth2 authorization code grant...</title>
@@ -439,7 +439,7 @@ Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix
 <guid isPermaLink="false">CVE-2026-73179</guid>
 <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>Improper enforcement of single-use authorization code semantics in the JPA OAuth2 authorization code grant provider in Apache CXFallows a remote attacker to obtain multiple valid access tokens from a single authorization code via concurrent token exchange requests that race the non-atomic find-then-delete operation against a shared relational database under READ_COMMITTED isolation. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fixes this issue. | CVSS 8.1 | EPSS 0.4%</description>
+<description>Improper enforcement of single-use authorization code semantics in the JPA OAuth2 authorization code grant provider in Apache CXFallows a remote attacker to obtain multiple valid access tokens from a single authorization code via concurrent token exchange requests that race the non-atomic find-then-delete operation against a shared relational database under READ_COMMITTED isolation. Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fixes this issue. | CVSS 8.1 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-78384 Apache cxf: CompressionUtils.inflate() decompressed attacker-controlled DEFLATE data with no output-size cap.</title>
@@ -450,7 +450,7 @@ Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix
 <description>CompressionUtils.inflate() decompressed attacker-controlled DEFLATE data with no output-size cap. A small (~KB) crafted payload could expand to gigabytes on the heap. Reachable via JWE decryption when zip=DEF (e.g. JoseSessionTokenProvider with RSA-OAEP key wrap) and via SAML redirect/POST binding token inflation — in both cases decompression happens before/independent of trust validation.
 
 Fix: Added a configurable maximum inflated-size cap (default 10 MiB, org.apache.cxf.compression-max-inflated-size system property) to CompressionUtils.inflate(); aborts with DataFormatException once exceeded.
-Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.4%</description>
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-86463 Apache cxf: Apache CXF&apos;s FIQL query parser has a vulnerability in how it searches for operators in query expressions.</title>
@@ -460,7 +460,7 @@ Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix
 <category>Application Platforms</category>
 <description>Apache CXF&apos;s FIQL query parser has a vulnerability in how it searches for operators in query expressions. The search pattern can get stuck trying many combinations when it encounters a long string without an operator, causing the parser to consume excessive CPU time. An attacker can send a crafted query to make the server use up CPU resources, potentially slowing down or stopping other requests. The fix was to limit FIQL expressions to 4 KiB by default, preventing attackers from sending extremely long inputs while still allowing normal queries.
 
-Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.4%</description>
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-97468 Apache cxf: Apache CXF&apos;s STSTokenValidator and Security Token Service (STS) cached validated security tokens under a...</title>
@@ -469,7 +469,7 @@ Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix
 <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
 <description>Apache CXF&apos;s STSTokenValidator and Security Token Service (STS) cached validated security tokens under a non-cryptographic 32-bit hash of the token (Java Arrays.hashCode/hashCode()), and treated a cache hit as proof that the presented token had already been validated. An attacker could craft a token (for example a UsernameToken or a self-signed SAML Assertion) whose hash collides with a cached entry. The token would then be accepted without password validation, signature trust verification or a call to the STS. This could let the attacker authenticate as another user and, through STS token validation or renewal, obtain STS-signed tokens for that identity.
-Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 9.1 | EPSS 0.2%</description>
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 9.1 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-97791 Apache cxf: In Apache CXF, STSTokenValidator checks whether a SAML assertion is signed by a trusted certificate before...</title>
@@ -478,7 +478,7 @@ Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix
 <pubDate>Fri, 09 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
 <description>In Apache CXF, STSTokenValidator checks whether a SAML assertion is signed by a trusted certificate before deciding to send it to the STS. That result was stored in one object shared by all requests, so one request could read another&apos;s result. A remote, unauthenticated attacker could send a forged assertion signed with an untrusted certificate while legitimate requests were being processed, and it could be accepted as trusted without ever reaching the STS. Only services that use STSTokenValidator to validate SAML tokens without alwaysValidateToSts set are affected. 
-Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.3%</description>
+Users are recommended to upgrade to versions 4.2.4 or 4.1.9 or 3.6.13, which fix this issue. | CVSS 7.5 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-92414 Apache jackrabbit: : Session Fixation / Session Reuse across Users vulnerability in Apache Jackrabbit.</title>
@@ -509,7 +509,7 @@ This issue affects Apache Jackrabbit: from 2.23.0 through 2.23.5, from 2.22.0 th
 
 
 
-Users are recommended to upgrade to versions 2.23.6, 2.22.5, or 2.20.18 which fix the issue. | CVSS 9.1 | EPSS 0.8%</description>
+Users are recommended to upgrade to versions 2.23.6, 2.22.5, or 2.20.18 which fix the issue. | CVSS 9.1 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-104711 Apache struts: Improper neutralization of special elements used in an expression language statement (&apos;Expression Language...</title>
@@ -521,7 +521,7 @@ Users are recommended to upgrade to versions 2.23.6, 2.22.5, or 2.20.18 which fi
 
 This issue affects Apache Struts: from 2.0.0 through 2.3.37, from 2.5.0 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.
 
-Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 9.8 | EPSS 1.7%</description>
+Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 9.8 | EPSS 1.3%</description>
 </item>
 <item>
 <title>CVE-2026-104712 Apache struts: Asymmetric resource consumption (amplification) vulnerability in Apache Struts.</title>
@@ -533,7 +533,7 @@ Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the iss
 
 This issue affects Apache Struts: from 2.5.14 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.
 
-Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 7.5 | EPSS 0.8%</description>
+Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 7.5 | EPSS 1.0%</description>
 </item>
 <item>
 <title>CVE-2026-104714 Apache struts: Concurrent execution using shared resource with improper synchronization (&apos;race condition&apos;) vulnerability in...</title>
@@ -545,7 +545,7 @@ Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the iss
 
 This issue affects Apache Struts: from 2.0.0 through 2.3.37, from 2.5.0 through 2.5.33, from 6.0.0 through 6.11.0, from 7.0.0 through 7.3.0.
 
-Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 8.8 | EPSS 0.5%</description>
+Users are recommended to upgrade to version 6.12.0 or 7.4.0, which fixes the issue. | CVSS 8.8 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-46729 Apache http server: NULL Pointer Dereference vulnerability in Apache HTTP Servers mod_heartmonitor over unicast listener.</title>
@@ -576,7 +576,7 @@ When SessionCookieRemove changes across internal redirects, the session cookie m
 
 
 
-This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 7.5 | EPSS 0.4%</description>
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 7.5 | EPSS 1.0%</description>
 </item>
 <item>
 <title>CVE-2026-48005 Apache http server: Missing authentication checks in mod_auth_digest in Apache Software Foundation Apache HTTP Server before...</title>
@@ -622,7 +622,7 @@ This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | E
 
 
 
-This issue affects Apache HTTP Server version 2.4.68. | CVSS 7.5 | EPSS 0.7%</description>
+This issue affects Apache HTTP Server version 2.4.68. | CVSS 7.5 | EPSS 1.2%</description>
 </item>
 <item>
 <title>CVE-2026-57941 Apache http server: Use After Free vulnerability in Apache HTTP Server&apos;s mod_http2 via shared session-&gt;bbtmp re-entrancy
@@ -638,7 +638,7 @@ This...</title>
 
 
 
-This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.6%</description>
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-59685 Apache http server: Out-of-bounds Write vulnerability in Apache HTTP Server on Windows while processing paths with 8.3 names that...</title>
@@ -650,7 +650,7 @@ This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | E
 
 
 
-This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 7.5 | EPSS 0.5%</description>
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 7.5 | EPSS 1.0%</description>
 </item>
 <item>
 <title>CVE-2026-59797 Apache http server: Improper Privilege Management vulnerability in Apache HTTP Server&apos;s mod_ssl via SSLRequire and file-related...</title>
@@ -662,7 +662,7 @@ This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 7.5 | E
 
 
 
-This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.5%</description>
+This issue affects Apache HTTP Server: from 2.4.0 through 2.4.68. | CVSS 9.8 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-63045 Apache http server: Improper validation of FTP PASV reply address in mod_proxy_ftp in Apache Software Foundation Apache HTTP...</title>
@@ -741,7 +741,7 @@ This issue affects Apache HTTP Server: from 2.4.30 through 2.4.68. | CVSS 7.5 | 
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
 <description>Apache WSS4J accepted attacker-controlled derived-key lengths and offsets without adequate bounds. This could permit cryptographically weak keys or excessive CPU and memory consumption when processing crafted WS-Security messages. The fixes enforce a minimum key length of 16 bytes, a maximum length of 512 bytes, and a maximum offset of 4096 bytes.
-Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue. | CVSS 7.5 | EPSS 0.5%</description>
+Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue. | CVSS 7.5 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-88920 Apache wss4j: An authentication bypass in the DOM security processor in Apache WSS4J allows unauthenticated remote...</title>
@@ -751,7 +751,7 @@ Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix 
 <category>Developer Tools &amp; Libraries</category>
 <description>An authentication bypass in the DOM security processor in Apache WSS4J allows unauthenticated remote attackers to forge authenticated SOAP messages via a crafted unsigned SAML sender-vouches assertion containing an attacker-controlled key.
 
-Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue. | CVSS 9.8 | EPSS 0.6%</description>
+Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue. | CVSS 9.8 | EPSS 0.9%</description>
 </item>
 <item>
 <title>CVE-2026-87830 Apache wss4j: In the StAX streaming WS-SecurityPolicy validator, certain relative or unsupported XPath expressions can be...</title>
@@ -760,7 +760,7 @@ Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix 
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
 <description>In the StAX streaming WS-SecurityPolicy validator, certain relative or unsupported XPath expressions can be converted into paths that never match the actual XML element path. A remote SOAP peer may therefore send a required element without the expected signature or encryption.
-Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue. | CVSS 9.1 | EPSS 0.2%</description>
+Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix this issue. | CVSS 9.1 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-89238 Apache wss4j: WSS4J EncryptedHeader child confusion could promote an attacker-controlled plaintext element as the decrypted...</title>
@@ -778,7 +778,7 @@ Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix 
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
 <description>In the WSS4J streaming (StAX) code, a signature reference using the WS-Security STR-Transform leaves an internal &quot;inside signed content&quot; flag permanently set. The WS-SecurityPolicy enforcer uses that flag to decide whether an element needs checking, so it stops evaluating SignedParts and SignedElements for the rest of the message. A policy requiring the SOAP Body to be signed is then satisfied even when the Body carries no signature, removing the protection against XML Signature Wrapping. Signature verification itself is unaffected. The DOM code is not affected. 
-Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4 which fix this issue. | CVSS 7.5 | EPSS 0.5%</description>
+Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4 which fix this issue. | CVSS 7.5 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-95616 Apache wss4j: An integer overflow in WSS4J&apos;s DER bounds check lets an oversized allocation pass validation.</title>
@@ -796,7 +796,7 @@ Users are recommended to upgrade to versions 4.0.2 or 3.0.6 or 2.4.4, which fix 
 <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
 <description>Apache XmlSchema doesn&apos;t limit how deeply schema imports and includes can be nested, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.
-Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVSS 7.5 | EPSS 0.5%</description>
+Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVSS 7.5 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-102496 Apache xmlschema: Apache XmlSchema doesn&apos;t limit how deeply schema structures can be nested when it builds its schema model, so...</title>
@@ -805,7 +805,7 @@ Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVS
 <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
 <description>Apache XmlSchema doesn&apos;t limit how deeply schema structures can be nested when it builds its schema model, so a malicious schema can make parsing recurse until the stack overflows. This causes a denial of service.
-Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVSS 7.5 | EPSS 0.5%</description>
+Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVSS 7.5 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-102497 Apache xmlschema: The Apache XmlSchema walker (xmlschema-walker) doesn&apos;t detect cycles in type derivation, substitution groups,...</title>
@@ -815,7 +815,7 @@ Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVS
 <category>Application Platforms</category>
 <description>The Apache XmlSchema walker (xmlschema-walker) doesn&apos;t detect cycles in type derivation, substitution groups, model groups or attribute groups. A malicious schema with such a cycle can make the walker recurse until the stack overflows, causing a denial of service.
 
-Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVSS 7.5 | EPSS 0.5%</description>
+Users are recommended to upgrade to version 2.3.3, which fixes this issue. | CVSS 7.5 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-91012 Apache karaf: org.apache.karaf.config.core.impl.ConfigRepositoryImpl#update(pid, properties),
@@ -840,7 +840,7 @@ Both code paths are reachable by any caller holding the &quot;manager&quot; role
 
 
 
-ConfigMBeanImpl.install() and the config:install shell command already guarded the equivalent risk on their own code path with a finalname.contains(&quot;..&quot;) string check, but that check does not stop absolute paths or symlink-based escapes, and it was never applied to ConfigRepositoryImpl.update() / createFactoryConfiguration() at all. | CVSS 9.8 | EPSS 0.6%</description>
+ConfigMBeanImpl.install() and the config:install shell command already guarded the equivalent risk on their own code path with a finalname.contains(&quot;..&quot;) string check, but that check does not stop absolute paths or symlink-based escapes, and it was never applied to ConfigRepositoryImpl.update() / createFactoryConfiguration() at all. | CVSS 9.8 | EPSS 0.9%</description>
 </item>
 <item>
 <title>CVE-2026-91048 Apache karaf: The jdbc shell command scope shipped no org.apache.karaf.command.acl.jdbc.cfg.</title>
@@ -851,7 +851,7 @@ ConfigMBeanImpl.install() and the config:install shell command already guarde
 <description>The jdbc shell command scope shipped no org.apache.karaf.command.acl.jdbc.cfg. Karaf&apos;s command guard (SecuredSessionFactoryImpl) treats a command with no matching ACL rule as allowed, so any authenticated shell session (including one holding only the viewer role) could run every jdbc:* command. jdbc:ds-create stores a fully attacker-controlled JDBC URL into a pax-jdbc-config factory Configuration with no validation. pax-jdbc-config reactively turns that into a live DataSource. Several JDBC drivers run code or SQL at connection time based on URL parameters (e.g. H2 INIT=RUNSCRIPT), so a viewer-level shell user could reach arbitrary code execution, bypassing the admin-role gate that already protects shell:exec. This is a privilege-escalation-to-RCE chain, not merely an &quot;admin misconfiguration&quot;.
 
 
-The same applies to jms:* shell commands. | CVSS 9.8 | EPSS 0.5%</description>
+The same applies to jms:* shell commands. | CVSS 9.8 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-92142 Apache karaf: Apache Karaf exposes a JMX MBeanServer guarded by KarafMBeanServerGuard, which enforces role-based access...</title>
@@ -896,7 +896,7 @@ createMBean(java.lang.String)[/javax\.management\.loading\..*/] = admin
 
 
 
-Apache Karaf users should upgrade to 4.4.12 or 4.5.0 or later, once released, as soon as possible. Until an upgrade is available, restrict network access to the JMX RMI registry/server ports (1099/44444) to trusted hosts, or avoid issuing any non-&quot;admin&quot; JMX credentiels. | CVSS 8.8 | EPSS 0.6%</description>
+Apache Karaf users should upgrade to 4.4.12 or 4.5.0 or later, once released, as soon as possible. Until an upgrade is available, restrict network access to the JMX RMI registry/server ports (1099/44444) to trusted hosts, or avoid issuing any non-&quot;admin&quot; JMX credentiels. | CVSS 8.8 | EPSS 0.9%</description>
 </item>
 <item>
 <title>CVE-2026-90979 Apache karaf: LDAPCache and LDAPBackingEngine build LDAP search filters for user lookup and role lookup by textually...</title>
@@ -921,7 +921,7 @@ This does not escape the other characters RFC 4515 requires escaping in an LDAP 
 It&apos;s not exploitable through every entry points: LDAPLoginModule and LDAPPubkeyLoginModule both called Util.doRFC2254Encoding() (correct RFC 4515 escaping) on the login name before handing it to LDAPCache, which masked the missing escaping in LDAPCache for those two call paths. Using LDAPCache directly (bypassing the login modules) does not reproduce through the normal LDAPLoginModule/LDAPPubkeyLoginModule authentication flow for this reason. It does reproduce through two other call paths that reach LDAPCache/LDAPBackingEngine without any prior escaping:
 
   *  GSSAPILdapLoginModule passes the NameCallback name straight through, unescaped.
-  *  LDAPBackingEngine (listRoles) passes principal.getName() straight through, unescaped. | CVSS 7.3 | EPSS 0.4%</description>
+  *  LDAPBackingEngine (listRoles) passes principal.getName() straight through, unescaped. | CVSS 7.3 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-91006 Apache karaf: Apache Karaf&apos;s instance-management service (InstanceServiceImpl) builds the command line used to launch a...</title>
@@ -948,7 +948,7 @@ Mitigation   *  Set karaf.secured.command.compulsory.roles=admin in etc/syst
 
 This issue affects Apache Qpid Broker-J: through 10.1.0.
 
-Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 7.5 | EPSS 0.5%</description>
+Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-92609 Apache qpid broker-j: Session fixation in HTTP management authentication allows remote attackers to gain unauthorized access to an...</title>
@@ -960,7 +960,7 @@ Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVS
 
 This issue affects Apache Qpid Broker-J: through 10.1.0.
 
-Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 9.8 | EPSS 0.5%</description>
+Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 9.8 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-92550 Apache qpid broker-j: A pre-authentication attacker could leverage type size/count handling to cause excessive allocation leading...</title>
@@ -972,7 +972,7 @@ Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVS
 
 This issue affects Apache Qpid Broker-J: through 10.1.0.
 
-Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 7.5 | EPSS 0.5%</description>
+Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 7.5 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-92560 Apache qpid broker-j: A pre-authentication attacker could leverage type size/count handling to cause excessive allocation leading...</title>
@@ -984,7 +984,7 @@ Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVS
 
 This issue affects Apache Qpid Broker-J: through 10.1.0.
 
-Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 7.5 | EPSS 0.5%</description>
+Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 7.5 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-92564 Apache qpid broker-j: A pre-authentication attacker could leverage type nesting to cause a StackOverflowError potentially leading...</title>
@@ -996,7 +996,7 @@ Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVS
 
 This issue affects Apache Qpid Broker-J: through 10.1.0.
 
-Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 7.5 | EPSS 0.5%</description>
+Users are recommended to upgrade to version 10.1.1, which fixes the issue. | CVSS 7.5 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-94243 Apache sling security: A vulnerability in Apache Sling Security Bundle: the ReferrerFilter accepts weaker-than-orgin evidence.</title>
@@ -1028,7 +1028,7 @@ This issue affects Apache Tomcat Native: from 2.0.0 through 2.0.15, from 1.3.0 t
 
 
 
-Users are recommended to upgrade to version 1.3.9 or 2.0.16, which fix the issue. | CVSS 7.5 | EPSS 0.6%</description>
+Users are recommended to upgrade to version 1.3.9 or 2.0.16, which fix the issue. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-86246 Apache tomcat native: Initialization of a resource with an insecure default vulnerability in Apache Tomcat Native enabled insecure...</title>
@@ -1044,7 +1044,7 @@ This issue affects Apache Tomcat Native: from 2.0.0 through 2.0.15, from 1.3.0 t
 
 
 
-Users are recommended to upgrade to version 2.0.16 or 1.3.9, which fix the issue. | CVSS 9.1 | EPSS 0.3%</description>
+Users are recommended to upgrade to version 2.0.16 or 1.3.9, which fix the issue. | CVSS 9.1 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-86247 Apache tomcat native: Race condition within a thread vulnerability in Apache Tomcat Native allowed client certificate verification...</title>
@@ -1069,7 +1069,7 @@ Users are recommended to upgrade to version 2.0.16 or 1.3.9, which fixes the iss
 <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
 <description>A specially crafted WS-Policy document with deeply nested policy elements can bypass Neethi&apos;s nesting-depth limit and exhaust the thread stack, crashing the parser (denial of service).
-Users are recommended to upgrade to version 3.2.4, which fixes this issue. | CVSS 7.5 | EPSS 0.5%</description>
+Users are recommended to upgrade to version 3.2.4, which fixes this issue. | CVSS 7.5 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-91864 Apache neethi: A specially crafted WS-Policy document can pack unlimited content inside a policy assertion, which Neethi...</title>
@@ -1078,7 +1078,7 @@ Users are recommended to upgrade to version 3.2.4, which fixes this issue. | CVS
 <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
 <description>A specially crafted WS-Policy document can pack unlimited content inside a policy assertion, which Neethi copies into memory without counting it against its size limits, exhausting the heap (denial of service).
-Users are recommended to upgrade to version 3.2.4, which fixes this issue. | CVSS 7.5 | EPSS 0.5%</description>
+Users are recommended to upgrade to version 3.2.4, which fixes this issue. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-91865 Apache neethi: A small WS-Policy document using repeated policy references can force Neethi to re-expand the same references...</title>
@@ -1087,7 +1087,7 @@ Users are recommended to upgrade to version 3.2.4, which fixes this issue. | CVS
 <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
 <description>A small WS-Policy document using repeated policy references can force Neethi to re-expand the same references exponentially during normalization, consuming huge amounts of CPU and memory (denial of service).
-Users are recommended to upgrade to version 3.2.4, which fixes this issue. | CVSS 7.5 | EPSS 0.6%</description>
+Users are recommended to upgrade to version 3.2.4, which fixes this issue. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-91866 Apache neethi: A specially crafted pair of WS-Policy documents can force Neethi&apos;s policy-intersection to do exponential...</title>
@@ -1096,7 +1096,7 @@ Users are recommended to upgrade to version 3.2.4, which fixes this issue. | CVS
 <pubDate>Mon, 21 Sep 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
 <description>A specially crafted pair of WS-Policy documents can force Neethi&apos;s policy-intersection to do exponential amounts of work, pinning the CPU for a long time (denial of service).
-Users are recommended to upgrade to version 3.2.4, which fixes this issue. | CVSS 7.5 | EPSS 0.6%</description>
+Users are recommended to upgrade to version 3.2.4, which fixes this issue. | CVSS 7.5 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-86473 Apache airflow: Apache Airflow: the Core API logout endpoint revokes only a session token presented as the _token cookie.</title>

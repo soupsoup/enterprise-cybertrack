@@ -11,7 +11,7 @@
 <guid isPermaLink="false">CVE-2026-76418</guid>
 <pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. This vulnerability is due to logic errors when secondary authentication is configured on a tunnel group. An attacker could exploit this vulnerability by sending a crafted request when connecting to the SSL remote access VPN. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition. | CVSS 8.6 | Known exploited (CISA KEV, added 2026-10-29) | EPSS 8.5%</description>
+<description>A vulnerability in the Remote Access SSL VPN service of Cisco Secure Firewall Adaptive Security Appliance (ASA) Software and Cisco Secure Firewall Threat Defense (FTD) Software could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) condition. This vulnerability is due to logic errors when secondary authentication is configured on a tunnel group. An attacker could exploit this vulnerability by sending a crafted request when connecting to the SSL remote access VPN. A successful exploit could allow the attacker to cause the affected device to reload, resulting in a DoS condition. | CVSS 8.6 | Known exploited (CISA KEV, added 2026-10-29) | EPSS 1.0%</description>
 </item>
 <item>
 <title>CVE-2026-76519 Cisco asyncos: A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an...</title>
@@ -21,7 +21,7 @@
 <category>Email &amp; Collaboration</category>
 <description>A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.
 
-This vulnerability is due to improper handling of email attachments when the file reputation service is enabled. An attacker could exploit this vulnerability by sending an email that contains a crafted attachment through an affected device. A successful exploit could allow the attacker to write arbitrary files and execute commands with&amp;nbsp;root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-14) | EPSS 5.7%</description>
+This vulnerability is due to improper handling of email attachments when the file reputation service is enabled. An attacker could exploit this vulnerability by sending an email that contains a crafted attachment through an affected device. A successful exploit could allow the attacker to write arbitrary files and execute commands with&amp;nbsp;root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-10-14) | EPSS 2.7%</description>
 </item>
 <item>
 <title>CVE-2026-76504 Cisco catalyst sd-wan manager: A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could...</title>
@@ -31,7 +31,7 @@ This vulnerability is due to improper handling of email attachments when the fil
 <category>Network Infrastructure</category>
 <description>A vulnerability in the API session-based authentication management of Cisco Catalyst SD-WAN Manager could allow an unauthenticated, remote attacker to access an affected system with privileges of the admin user.
 
-This vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of the affected system. A successful exploit could allow the attacker to bypass authentication and gain access to the API as the admin user. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-30) | EPSS 38.9%</description>
+This vulnerability is due to improper handling of URI encoding in an HTTP request, which allows the request to bypass an authentication rule that is intended to restrict access to a specific API endpoint. An attacker could exploit this vulnerability by sending a crafted HTTP request to the API of the affected system. A successful exploit could allow the attacker to bypass authentication and gain access to the API as the admin user. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-30) | EPSS 1.3%</description>
 </item>
 <item>
 <title>CVE-2026-20234 Cisco identity services engine: As part of Cisco&apos;s ongoing commitment to proactive security and product quality, the Cisco Identity Services...</title>
@@ -91,7 +91,7 @@ This vulnerability is due to insufficient validation of certain parameters that 
 <category>Identity &amp; Directory</category>
 <description>A vulnerability in an API of Cisco Identity Services Engine (ISE) could allow an unauthenticated, remote attacker to bypass authentication.
 
-This vulnerability is due to insufficient authentication control on an API endpoint. An attacker could exploit this vulnerability by sending a crafted request to an affected API endpoint. A successful exploit could allow the attacker to gain unauthorized access to the affected device by bypassing the web-based management interface. | CVSS 10 | Known exploited (CISA KEV, added 2026-09-16) | EPSS 75.6%</description>
+This vulnerability is due to insufficient authentication control on an API endpoint. An attacker could exploit this vulnerability by sending a crafted request to an affected API endpoint. A successful exploit could allow the attacker to gain unauthorized access to the affected device by bypassing the web-based management interface. | CVSS 10 | Known exploited (CISA KEV, added 2026-09-16) | EPSS 11.8%</description>
 </item>
 <item>
 <title>CVE-2026-76461 Cisco asyncos: A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an...</title>
@@ -101,7 +101,7 @@ This vulnerability is due to insufficient authentication control on an API endpo
 <category>Email &amp; Collaboration</category>
 <description>A vulnerability in the email parsing of Cisco AsyncOS Software for Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to execute arbitrary commands with root privileges on the underlying operating system.
 
-This vulnerability is due to insufficient validation in the email parsing logic. An attacker could exploit this vulnerability by sending a crafted email message that contains malicious SQL statements through an affected device. A successful exploit could allow the attacker to execute arbitrary SQL statements, leading to command execution with root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-14) | EPSS 40.2%</description>
+This vulnerability is due to insufficient validation in the email parsing logic. An attacker could exploit this vulnerability by sending a crafted email message that contains malicious SQL statements through an affected device. A successful exploit could allow the attacker to execute arbitrary SQL statements, leading to command execution with root privileges on the underlying operating system. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-09-14) | EPSS 3.3%</description>
 </item>
 </channel>
 </rss>

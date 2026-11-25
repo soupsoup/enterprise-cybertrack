@@ -13,7 +13,7 @@
 <category>Application Platforms</category>
 <description>VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.
 Affected versions: 9.1.x (fixed in 9.1.1.0200); 9.0.x (fixed in 9.0.2.0200); 8.0 (fixed in 8.0 U3m); 5.x (fixed in 5.2.5).
-Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 and Telco Cloud Infrastructure 3.0 are also affected (see KB463116). | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 3.5%</description>
+Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 and Telco Cloud Infrastructure 3.0 are also affected (see KB463116). | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-20) | EPSS 5.0%</description>
 </item>
 <item>
 <title>CVE-2026-106122 VMware rabbitmq java client: The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact with...</title>
@@ -21,7 +21,7 @@ Telco Cloud Platform 3.0, 4.x, 5.0.x, 5.1.x, 5.2 and Telco Cloud Infrastructure 
 <guid isPermaLink="false">CVE-2026-106122</guid>
 <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
 <category>Application Platforms</category>
-<description>The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact with RabbitMQ nodes. Prior to 5.36.0, ValueReader.readShortstr decodes malformed UTF-8 bytes into replacement characters that can re-encode beyond the AMQP shortstr limit enforced by ValueWriter.writeShortstr. An attacker who can submit an RPC message with a malformed echoed property can cause reply publication in RpcServer.mainloop() or tutorial-style consumers to throw an unchecked exception before acknowledgement. The broker requeues the message, allowing the same message to disable replacement consumers until the queue is purged. This issue is fixed in version 5.36.0. | CVSS 7.5 | EPSS 0.5%</description>
+<description>The RabbitMQ Java client library allows Java and JVM-based applications to connect to and interact with RabbitMQ nodes. Prior to 5.36.0, ValueReader.readShortstr decodes malformed UTF-8 bytes into replacement characters that can re-encode beyond the AMQP shortstr limit enforced by ValueWriter.writeShortstr. An attacker who can submit an RPC message with a malformed echoed property can cause reply publication in RpcServer.mainloop() or tutorial-style consumers to throw an unchecked exception before acknowledgement. The broker requeues the message, allowing the same message to disable replacement consumers until the queue is purged. This issue is fixed in version 5.36.0. | CVSS 7.5 | EPSS 0.6%</description>
 </item>
 </channel>
 </rss>

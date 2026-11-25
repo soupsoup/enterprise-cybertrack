@@ -6,6 +6,214 @@
 <description>High and critical JetBrains vulnerabilities.</description>
 <atom:link href="https://soupsoup.github.io/enterprise-cybertrack/feeds/vendor/jetbrains.xml" rel="self" type="application/rss+xml"/>
 <item>
+<title>CVE-2026-132891 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via external pull...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132891</link>
+<guid isPermaLink="false">CVE-2026-132891</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via external pull requests | CVSS 9.8 | EPSS 0.8%</description>
+</item>
+<item>
+<title>CVE-2026-132893 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an SSRF via pipeline repository branch listing was...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132893</link>
+<guid isPermaLink="false">CVE-2026-132893</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an SSRF via pipeline repository branch listing was possible | CVSS 7.7 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-132894 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an SSRF in AWS connection settings could expose...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132894</link>
+<guid isPermaLink="false">CVE-2026-132894</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an SSRF in AWS connection settings could expose server credentials | CVSS 7.7 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-132895 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via Subversion...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132895</link>
+<guid isPermaLink="false">CVE-2026-132895</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via Subversion VCS root settings | CVSS 7.5 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-132897 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 improper authorization allowed access to credentials...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132897</link>
+<guid isPermaLink="false">CVE-2026-132897</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 improper authorization allowed access to credentials of other projects via build configuration settings | CVSS 7.7 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-132898 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 arbitrary file write on the server was possible via...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132898</link>
+<guid isPermaLink="false">CVE-2026-132898</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 arbitrary file write on the server was possible via Kotlin DSL settings | CVSS 7.2 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-132899 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS in the NPM Registry build feature was...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132899</link>
+<guid isPermaLink="false">CVE-2026-132899</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS in the NPM Registry build feature was possible | CVSS 7.6 | EPSS 0.8%</description>
+</item>
+<item>
+<title>CVE-2026-132900 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 secure parameter values were disclosed to project...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132900</link>
+<guid isPermaLink="false">CVE-2026-132900</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 secure parameter values were disclosed to project viewers in pipelines | CVSS 7.5 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-132901 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 improper authorization allowed publishing packages...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132901</link>
+<guid isPermaLink="false">CVE-2026-132901</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 improper authorization allowed publishing packages to NuGet feeds of other projects | CVSS 7.7 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-132902 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 access keys of parent project AWS connections could...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132902</link>
+<guid isPermaLink="false">CVE-2026-132902</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 access keys of parent project AWS connections could be disclosed | CVSS 7.7 | EPSS 1.1%</description>
+</item>
+<item>
+<title>CVE-2026-132903 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 missing authorization allowed any authenticated user...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132903</link>
+<guid isPermaLink="false">CVE-2026-132903</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 missing authorization allowed any authenticated user to start and stop cloud agent instances | CVSS 8.1 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-132904 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 missing authorization allowed project viewers to...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132904</link>
+<guid isPermaLink="false">CVE-2026-132904</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 missing authorization allowed project viewers to remove VCS roots | CVSS 8.1 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-132905 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS in the AWS Credentials build feature was...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132905</link>
+<guid isPermaLink="false">CVE-2026-132905</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS in the AWS Credentials build feature was possible | CVSS 7.6 | EPSS 0.8%</description>
+</item>
+<item>
+<title>CVE-2026-132906 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via native code...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132906</link>
+<guid isPermaLink="false">CVE-2026-132906</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via native code loading in the Kotlin DSL sandbox | CVSS 8.8 | EPSS 0.7%</description>
+</item>
+<item>
+<title>CVE-2026-132907 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 project viewers could redirect GitHub App connection...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132907</link>
+<guid isPermaLink="false">CVE-2026-132907</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 project viewers could redirect GitHub App connection credentials of parent projects | CVSS 8.1 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-132908 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via Mercurial VCS...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132908</link>
+<guid isPermaLink="false">CVE-2026-132908</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via Mercurial VCS root settings | CVSS 7.5 | EPSS 0.6%</description>
+</item>
+<item>
+<title>CVE-2026-132909 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via Mercurial...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132909</link>
+<guid isPermaLink="false">CVE-2026-132909</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via Mercurial repository contents | CVSS 8.8 | EPSS 0.8%</description>
+</item>
+<item>
+<title>CVE-2026-132910 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 unauthenticated DoS via the agent protocol was...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132910</link>
+<guid isPermaLink="false">CVE-2026-132910</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 unauthenticated DoS via the agent protocol was possible | CVSS 7.5 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-132911 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via build access...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132911</link>
+<guid isPermaLink="false">CVE-2026-132911</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via build access codes disclosed to project users | CVSS 7.5 | EPSS 0.5%</description>
+</item>
+<item>
+<title>CVE-2026-132912 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via class...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132912</link>
+<guid isPermaLink="false">CVE-2026-132912</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via class injection in the Kotlin DSL sandbox | CVSS 7.2 | EPSS 0.8%</description>
+</item>
+<item>
+<title>CVE-2026-132913 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on the P4 Code Review build tab was...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132913</link>
+<guid isPermaLink="false">CVE-2026-132913</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on the P4 Code Review build tab was possible | CVSS 8.4 | EPSS 0.4%</description>
+</item>
+<item>
+<title>CVE-2026-132914 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on the Issue Log tab was possible</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132914</link>
+<guid isPermaLink="false">CVE-2026-132914</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on the Issue Log tab was possible | CVSS 8 | EPSS 0.3%</description>
+</item>
+<item>
+<title>CVE-2026-132915 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an LDAP injection allowed bypassing login...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132915</link>
+<guid isPermaLink="false">CVE-2026-132915</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 an LDAP injection allowed bypassing login restrictions | CVSS 7.1 | EPSS 0.9%</description>
+</item>
+<item>
+<title>CVE-2026-132916 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 arbitrary file deletion on the server was possible...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132916</link>
+<guid isPermaLink="false">CVE-2026-132916</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 arbitrary file deletion on the server was possible via the Kotlin DSL sandbox | CVSS 7.1 | EPSS 1.0%</description>
+</item>
+<item>
+<title>CVE-2026-132917 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via a file write...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132917</link>
+<guid isPermaLink="false">CVE-2026-132917</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution was possible via a file write bypass in the Kotlin DSL sandbox | CVSS 8.8 | EPSS 1.0%</description>
+</item>
+<item>
+<title>CVE-2026-132918 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on build and queue pages was possible</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-132918</link>
+<guid isPermaLink="false">CVE-2026-132918</guid>
+<pubDate>Thu, 19 Nov 2026 00:00:00 GMT</pubDate>
+<category>DevOps &amp; Collaboration</category>
+<description>In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 stored XSS on build and queue pages was possible | CVSS 7.6 | EPSS 0.8%</description>
+</item>
+<item>
 <title>CVE-2026-123293 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3, 
 2026.2.4 code execution was possible in untrusted projects  via...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123293</link>
@@ -51,7 +259,7 @@
 <guid isPermaLink="false">CVE-2026-123305</guid>
 <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
-<description>In JetBrains IntelliJ IDEA before 2026.3 path traversal was possible via unpacking Dev Container archives from a remote host | CVSS 7.5 | EPSS 0.3%</description>
+<description>In JetBrains IntelliJ IDEA before 2026.3 path traversal was possible via unpacking Dev Container archives from a remote host | CVSS 7.5 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-123306 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3 improper checks allowed server certificates to be added to the trust...</title>
@@ -69,7 +277,7 @@
 <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
 <description>In JetBrains IntelliJ IDEA before 2026.3, 
-2026.2.1 command injection was possible in untrusted projects via Tomcat run configurations on WSL | CVSS 7.8 | EPSS 0.5%</description>
+2026.2.1 command injection was possible in untrusted projects via Tomcat run configurations on WSL | CVSS 7.8 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-123838 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.3 code execution was possible in Safe Mode via UI Designer form file</title>
@@ -133,7 +341,7 @@
 <guid isPermaLink="false">CVE-2026-123281</guid>
 <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>In JetBrains Datalore before 2026.4 notebook code could execute commands in the sidecar container via the mount broker | CVSS 7.5 | EPSS 0.5%</description>
+<description>In JetBrains Datalore before 2026.4 notebook code could execute commands in the sidecar container via the mount broker | CVSS 7.5 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-123282 JetBrains datalore: In JetBrains Datalore before 2026.4 missing expiration validation of account tokens allowed a new...</title>
@@ -157,7 +365,7 @@
 <guid isPermaLink="false">CVE-2026-123836</guid>
 <pubDate>Fri, 06 Nov 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>In JetBrains Datalore before 2026.4 workspace collaborators could obtain the owner&apos;s SSH private key via Git backup | CVSS 8.8 | EPSS 0.5%</description>
+<description>In JetBrains Datalore before 2026.4 workspace collaborators could obtain the owner&apos;s SSH private key via Git backup | CVSS 8.8 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-111094 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 
@@ -169,7 +377,7 @@
 <category>DevOps &amp; Collaboration</category>
 <description>In JetBrains TeamCity before 2026.2, 
 2026.1.4, 
-2025.11.8 remote code execution via a whitelist bypass in the build messages protocol was possible | CVSS 8.1 | EPSS 0.4%</description>
+2025.11.8 remote code execution via a whitelist bypass in the build messages protocol was possible | CVSS 8.1 | EPSS 0.7%</description>
 </item>
 <item>
 <title>CVE-2026-111095 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 
@@ -181,7 +389,7 @@
 <category>DevOps &amp; Collaboration</category>
 <description>In JetBrains TeamCity before 2026.2, 
 2026.1.4, 
-2025.11.8 stored XSS in the classic project overview was possible | CVSS 8 | EPSS 0.2%</description>
+2025.11.8 stored XSS in the classic project overview was possible | CVSS 8 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-106218 JetBrains teamcity: In JetBrains TeamCity before 2026.1.3
@@ -191,7 +399,7 @@
 <pubDate>Tue, 06 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
 <description>In JetBrains TeamCity before 2026.1.3
-2025.11.7 kotlin DSL sandbox escape leading to RCE on the server was possible | CVSS 8.8 | EPSS 0.3%</description>
+2025.11.7 kotlin DSL sandbox escape leading to RCE on the server was possible | CVSS 8.8 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-103493 JetBrains youtrack: In JetBrains YouTrack before 2026.2.19422 stored XSS via Mermaid and LaTeX content was possible</title>
@@ -199,7 +407,7 @@
 <guid isPermaLink="false">CVE-2026-103493</guid>
 <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>In JetBrains YouTrack before 2026.2.19422 stored XSS via Mermaid and LaTeX content was possible | CVSS 8.1 | EPSS 0.2%</description>
+<description>In JetBrains YouTrack before 2026.2.19422 stored XSS via Mermaid and LaTeX content was possible | CVSS 8.1 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-103488 JetBrains youtrack: In JetBrains YouTrack before 2026.2.19422 missing authorisation allowed authenticated users to add themselves...</title>
@@ -207,7 +415,7 @@
 <guid isPermaLink="false">CVE-2026-103488</guid>
 <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>In JetBrains YouTrack before 2026.2.19422 missing authorisation allowed authenticated users to add themselves to project teams and access restricted issues | CVSS 7.1 | EPSS 0.2%</description>
+<description>In JetBrains YouTrack before 2026.2.19422 missing authorisation allowed authenticated users to add themselves to project teams and access restricted issues | CVSS 7.1 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-103490 JetBrains youtrack: In JetBrains YouTrack before 2026.2.19422 privilege escalation was possible via user group links</title>
@@ -215,7 +423,7 @@
 <guid isPermaLink="false">CVE-2026-103490</guid>
 <pubDate>Thu, 01 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>In JetBrains YouTrack before 2026.2.19422 privilege escalation was possible via user group links | CVSS 7.2 | EPSS 0.3%</description>
+<description>In JetBrains YouTrack before 2026.2.19422 privilege escalation was possible via user group links | CVSS 7.2 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-100255 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 
@@ -227,7 +435,7 @@
 <category>DevOps &amp; Collaboration</category>
 <description>In JetBrains TeamCity before 2026.2, 
 2026.1.4, 
-2025.11.8 administrator account takeover was possible via password reset | CVSS 8.1 | EPSS 0.4%</description>
+2025.11.8 administrator account takeover was possible via password reset | CVSS 8.1 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-100256 JetBrains intellij idea: In JetBrains IntelliJ IDEA before 2026.2.3 rCE via Structural Search script constraints was possible in...</title>
@@ -235,7 +443,7 @@
 <guid isPermaLink="false">CVE-2026-100256</guid>
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
 <category>Developer Tools &amp; Libraries</category>
-<description>In JetBrains IntelliJ IDEA before 2026.2.3 rCE via Structural Search script constraints was possible in untrusted projects | CVSS 7.8 | EPSS 0.1%</description>
+<description>In JetBrains IntelliJ IDEA before 2026.2.3 rCE via Structural Search script constraints was possible in untrusted projects | CVSS 7.8 | EPSS 0.2%</description>
 </item>
 <item>
 <title>CVE-2026-100262 JetBrains youtrack: In JetBrains YouTrack before 2026.2.18991 missing authorisation allowed users with read-only project access...</title>
@@ -243,7 +451,7 @@
 <guid isPermaLink="false">CVE-2026-100262</guid>
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>In JetBrains YouTrack before 2026.2.18991 missing authorisation allowed users with read-only project access to overwrite project notification templates | CVSS 7.6 | EPSS 0.2%</description>
+<description>In JetBrains YouTrack before 2026.2.18991 missing authorisation allowed users with read-only project access to overwrite project notification templates | CVSS 7.6 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-100266 JetBrains hub: In JetBrains Hub before 2026.2.52366 missing authorisation allowed authenticated users to send arbitrary...</title>
@@ -251,7 +459,7 @@
 <guid isPermaLink="false">CVE-2026-100266</guid>
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>In JetBrains Hub before 2026.2.52366 missing authorisation allowed authenticated users to send arbitrary emails from the server&apos;s trusted address | CVSS 7.7 | EPSS 0.2%</description>
+<description>In JetBrains Hub before 2026.2.52366 missing authorisation allowed authenticated users to send arbitrary emails from the server&apos;s trusted address | CVSS 7.7 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-100268 JetBrains youtrack: In JetBrains YouTrack before 2026.2.19197 project administrators could read comments from other projects via...</title>
@@ -259,7 +467,7 @@
 <guid isPermaLink="false">CVE-2026-100268</guid>
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>In JetBrains YouTrack before 2026.2.19197 project administrators could read comments from other projects via notification templates | CVSS 7.7 | EPSS 0.2%</description>
+<description>In JetBrains YouTrack before 2026.2.19197 project administrators could read comments from other projects via notification templates | CVSS 7.7 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-100273 JetBrains youtrack: In JetBrains YouTrack before 2026.2.19197 authorisation bypass in the scripts debugger allowed arbitrary code...</title>
@@ -267,7 +475,7 @@
 <guid isPermaLink="false">CVE-2026-100273</guid>
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>In JetBrains YouTrack before 2026.2.19197 authorisation bypass in the scripts debugger allowed arbitrary code execution | CVSS 8.2 | EPSS 0.3%</description>
+<description>In JetBrains YouTrack before 2026.2.19197 authorisation bypass in the scripts debugger allowed arbitrary code execution | CVSS 8.2 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-100277 JetBrains youtrack: In JetBrains YouTrack before 2026.2.19197 account takeover was possible by replaying a notification signature</title>
@@ -275,7 +483,7 @@
 <guid isPermaLink="false">CVE-2026-100277</guid>
 <pubDate>Wed, 30 Sep 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>In JetBrains YouTrack before 2026.2.19197 account takeover was possible by replaying a notification signature | CVSS 8.9 | EPSS 0.3%</description>
+<description>In JetBrains YouTrack before 2026.2.19197 account takeover was possible by replaying a notification signature | CVSS 8.9 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-100253 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 
@@ -287,7 +495,7 @@
 <category>DevOps &amp; Collaboration</category>
 <description>In JetBrains TeamCity before 2026.2, 
 2026.1.4, 
-2025.11.8 sandbox escape leading to code execution was possible via the versioned settings Kotlin DSL | CVSS 8.8 | EPSS 0.4%</description>
+2025.11.8 sandbox escape leading to code execution was possible via the versioned settings Kotlin DSL | CVSS 8.8 | EPSS 0.6%</description>
 </item>
 <item>
 <title>CVE-2026-100254 JetBrains teamcity: In JetBrains TeamCity before 2026.2, 
@@ -299,7 +507,7 @@
 <category>DevOps &amp; Collaboration</category>
 <description>In JetBrains TeamCity before 2026.2, 
 2026.1.4, 
-2025.11.8 authenticated users could execute commands on Windows servers via CRLF injection in Pipeline Git connection settings | CVSS 8.8 | EPSS 0.5%</description>
+2025.11.8 authenticated users could execute commands on Windows servers via CRLF injection in Pipeline Git connection settings | CVSS 8.8 | EPSS 0.7%</description>
 </item>
 </channel>
 </rss>

@@ -11,7 +11,7 @@
 <guid isPermaLink="false">CVE-2026-110264</guid>
 <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before 19.0.10, 19.1 before 19.1.9, 19.2 before 19.2.9, 19.3 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server due to integer overflow when compiling a specially crafted regular expression. | CVSS 10 | EPSS 54.0%</description>
+<description>An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before 19.0.10, 19.1 before 19.1.9, 19.2 before 19.2.9, 19.3 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server due to integer overflow when compiling a specially crafted regular expression. | CVSS 10 | EPSS 1.1%</description>
 </item>
 <item>
 <title>CVE-2026-112212 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.3 before 19.3.6, 19.4 before...</title>
@@ -19,7 +19,7 @@
 <guid isPermaLink="false">CVE-2026-112212</guid>
 <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.3 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, an unauthenticated user could have poisoned a shared cache&apos;s OAuth/OIDC discovery document to redirect certain flows to an externally controlled server, due to improper trust of user-supplied values when constructing endpoint URLs in cached discovery responses. | CVSS 7.5 | EPSS 0.2%</description>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.3 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, an unauthenticated user could have poisoned a shared cache&apos;s OAuth/OIDC discovery document to redirect certain flows to an externally controlled server, due to improper trust of user-supplied values when constructing endpoint URLs in cached discovery responses. | CVSS 7.5 | EPSS 0.3%</description>
 </item>
 <item>
 <title>CVE-2026-15723 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 10.1 before 19.3.6, 19.4 before...</title>
@@ -51,7 +51,7 @@
 <guid isPermaLink="false">CVE-2026-81839</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>GitLab has remediated an issue in GitLab EE affecting all versions from 18.1 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an authenticated user to execute arbitrary CI/CD pipelines in a transferred project with the new group&apos;s privileges due to improper cleanup of scheduled pipeline execution policy records. | CVSS 7.7 | EPSS 0.3%</description>
+<description>GitLab has remediated an issue in GitLab EE affecting all versions from 18.1 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an authenticated user to execute arbitrary CI/CD pipelines in a transferred project with the new group&apos;s privileges due to improper cleanup of scheduled pipeline execution policy records. | CVSS 7.7 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-92883 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.1 before 19.2.8, 19.3 before...</title>
@@ -59,7 +59,7 @@
 <guid isPermaLink="false">CVE-2026-92883</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.1 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2  that, under certain conditions, could have allowed an authenticated user to execute arbitrary JavaScript in the context of other users&apos; browser sessions via a specially crafted repository, due to improper sanitization of HTML attributes in syntax-highlighted output. | CVSS 8.7 | EPSS 0.5%</description>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.1 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2  that, under certain conditions, could have allowed an authenticated user to execute arbitrary JavaScript in the context of other users&apos; browser sessions via a specially crafted repository, due to improper sanitization of HTML attributes in syntax-highlighted output. | CVSS 8.7 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-96893 GitLab gitlab: GitLab has remediated an issue in GitLab EE affecting all versions from 19.1 before 19.2.8, 19.3 before...</title>
@@ -67,7 +67,7 @@
 <guid isPermaLink="false">CVE-2026-96893</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>GitLab has remediated an issue in GitLab EE affecting all versions from 19.1 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an authenticated user to inject specially crafted content into AI agent instructions, potentially causing unintended command execution attributed to other users, due to improper neutralization of special elements in AI conversation context construction. | CVSS 7.3 | EPSS 0.6%</description>
+<description>GitLab has remediated an issue in GitLab EE affecting all versions from 19.1 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an authenticated user to inject specially crafted content into AI agent instructions, potentially causing unintended command execution attributed to other users, due to improper neutralization of special elements in AI conversation context construction. | CVSS 7.3 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-97229 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before...</title>
@@ -75,7 +75,7 @@
 <guid isPermaLink="false">CVE-2026-97229</guid>
 <pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation. | CVSS 10 | Known exploited (CISA KEV, added 2026-10-29) | EPSS 74.3%</description>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.8, 19.3 before 19.3.5, and 19.4 before 19.4.2 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient regular expression validation. | CVSS 10 | Known exploited (CISA KEV, added 2026-10-29) | EPSS 11.8%</description>
 </item>
 <item>
 <title>CVE-2026-84739 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 13.11 before 19.2.7, 19.3 before...</title>
@@ -83,7 +83,7 @@
 <guid isPermaLink="false">CVE-2026-84739</guid>
 <pubDate>Tue, 29 Sep 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 13.11 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to execute arbitrary JavaScript in the context of another user&apos;s browser session due to improper sanitization of path components in the merge request diff viewer. | CVSS 8.7 | EPSS 0.3%</description>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 13.11 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to execute arbitrary JavaScript in the context of another user&apos;s browser session due to improper sanitization of path components in the merge request diff viewer. | CVSS 8.7 | EPSS 0.5%</description>
 </item>
 <item>
 <title>CVE-2026-89078 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before...</title>
@@ -91,7 +91,7 @@
 <guid isPermaLink="false">CVE-2026-89078</guid>
 <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to execute arbitrary code on the GitLab server due to a double free issue when parsing a specially crafted regular expression in a CI/CD configuration. | CVSS 9.9 | EPSS 1.2%</description>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to execute arbitrary code on the GitLab server due to a double free issue when parsing a specially crafted regular expression in a CI/CD configuration. | CVSS 9.9 | EPSS 0.8%</description>
 </item>
 <item>
 <title>CVE-2026-92470 GitLab gitlab: GitLab has remediated an issue in GitLab EE affecting all versions from 18.7 before 19.2.7, 19.3 before...</title>
@@ -99,7 +99,7 @@
 <guid isPermaLink="false">CVE-2026-92470</guid>
 <pubDate>Thu, 24 Sep 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>GitLab has remediated an issue in GitLab EE affecting all versions from 18.7 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to access sensitive CI/CD variable values from debug-mode job traces through the Duo AI troubleshooting feature due to missing authorization checks. | CVSS 7.7 | EPSS 0.2%</description>
+<description>GitLab has remediated an issue in GitLab EE affecting all versions from 18.7 before 19.2.7, 19.3 before 19.3.3, and 19.4 before 19.4.1 that under certain conditions could have allowed an authenticated user to access sensitive CI/CD variable values from debug-mode job traces through the Duo AI troubleshooting feature due to missing authorization checks. | CVSS 7.7 | EPSS 0.4%</description>
 </item>
 <item>
 <title>CVE-2026-93577 GitLab gitlab: GitLab has remediated an issue in GitLab CE/EE affecting all versions from 19.2 before 19.2.7, 19.3 before...</title>
@@ -163,7 +163,7 @@
 <guid isPermaLink="false">CVE-2026-85706</guid>
 <pubDate>Sat, 12 Sep 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 18.11.12, 19.0 before 19.0.9, 19.1 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that, under certain conditions, an unauthenticated user could have read arbitrary files from the GitLab server due to improper path confinement and missing authentication enforcement in the repository commits API. | CVSS 10 | Known exploited (CISA KEV, added 2026-09-11) | EPSS 97.4%</description>
+<description>GitLab has remediated an issue in GitLab CE/EE affecting all versions from 18.7 before 18.11.12, 19.0 before 19.0.9, 19.1 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that, under certain conditions, an unauthenticated user could have read arbitrary files from the GitLab server due to improper path confinement and missing authentication enforcement in the repository commits API. | CVSS 10 | Known exploited (CISA KEV, added 2026-09-11) | EPSS 8.7%</description>
 </item>
 <item>
 <title>CVE-2026-87719 GitLab gitlab: GitLab has remediated an issue in GitLab EE affecting all versions from 18.3 before 18.11.12, 19.0 before...</title>
