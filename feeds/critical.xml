@@ -19,7 +19,7 @@
 <guid isPermaLink="false">CVE-2026-62841</guid>
 <pubDate>Mon, 23 Nov 2026 00:00:00 GMT</pubDate>
 <category>Cloud &amp; AI Services</category>
-<description>Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 1.4%</description>
+<description>Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network. | CVSS 10 | EPSS 1.3%</description>
 </item>
 <item>
 <title>CVE-2026-123890 VMware cloud foundation: VMware vCenter contains an authentication bypass vulnerability in the VMware Directory Service.</title>
@@ -214,6 +214,30 @@ Users who cannot upgrade right away should set &quot;enabledForExtensions&quot; 
 <description>Use after free in Windows Virtual Filtering Platform (VFP) allows an unauthorized attacker to execute code over a network. | CVSS 9 | EPSS 0.7%</description>
 </item>
 <item>
+<title>CVE-2026-112967 Microsoft windows: Heap-based buffer overflow in Windows Xbox Live Networking Service allows an unauthorized attacker to execute...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-112967</link>
+<guid isPermaLink="false">CVE-2026-112967</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Heap-based buffer overflow in Windows Xbox Live Networking Service allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
+</item>
+<item>
+<title>CVE-2026-95882 Microsoft windows: Stack-based buffer overflow in Windows Microsoft DirectMusic allows an unauthorized attacker to execute code...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-95882</link>
+<guid isPermaLink="false">CVE-2026-95882</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Stack-based buffer overflow in Windows Microsoft DirectMusic allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
+</item>
+<item>
+<title>CVE-2026-95901 Microsoft windows: Double free in Windows Microsoft DirectMusic allows an unauthorized attacker to execute code over a network.</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-95901</link>
+<guid isPermaLink="false">CVE-2026-95901</guid>
+<pubDate>Tue, 10 Nov 2026 00:00:00 GMT</pubDate>
+<category>Windows &amp; Endpoint</category>
+<description>Double free in Windows Microsoft DirectMusic allows an unauthorized attacker to execute code over a network. | CVSS 9.8 | EPSS 1.0%</description>
+</item>
+<item>
 <title>CVE-2026-123279 JetBrains datalore: In JetBrains Datalore before 2026.4 code execution was possible in a notebook&apos;s computation by view-only...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-123279</link>
 <guid isPermaLink="false">CVE-2026-123279</guid>
@@ -297,6 +321,14 @@ Users are recommended to upgrade to version 24.09.08, which fixes this issue. | 
 <description>Improper Neutralization of Special Elements used in an SQL Command (&quot;SQL Injection&quot;) vulnerability exists in Apache Fineract (through version 1.15.0). The vulnerability affects the outStandingAmountPercentageCondition parameter of the /fineract-provider/api/v1/search/advance HTTP API endpoint, allowing SQL injection due to insufficient input neutralization. Users are recommended to upgrade to version 1.16.1, which will fix the issue. | CVSS 9.8 | EPSS 0.8%</description>
 </item>
 <item>
+<title>CVE-2026-103406 Juniper session smart conductor: An Improper Neutralization of Special Elements used in an OS Command vulnerability in the...</title>
+<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-103406</link>
+<guid isPermaLink="false">CVE-2026-103406</guid>
+<pubDate>Wed, 28 Oct 2026 00:00:00 GMT</pubDate>
+<category>Application Platforms</category>
+<description>An Improper Neutralization of Special Elements used in an OS Command vulnerability in the AutomatedProvisioner in Juniper Networks Session Smart Conductor allows a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID. | CVSS 9.8 | Known exploited (CISA KEV, added 2026-11-25) | EPSS 1.5%</description>
+</item>
+<item>
 <title>CVE-2026-118310 Microsoft windows: Use after free in Views in Google Chrome on on Windows prior to 156.0.8078.73 allowed a remote attacker to...</title>
 <link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-118310</link>
 <guid isPermaLink="false">CVE-2026-118310</guid>
@@ -310,7 +342,7 @@ Users are recommended to upgrade to version 24.09.08, which fixes this issue. | 
 <guid isPermaLink="false">CVE-2026-110264</guid>
 <pubDate>Thu, 22 Oct 2026 00:00:00 GMT</pubDate>
 <category>DevOps &amp; Collaboration</category>
-<description>An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before 19.0.10, 19.1 before 19.1.9, 19.2 before 19.2.9, 19.3 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server due to integer overflow when compiling a specially crafted regular expression. | CVSS 10 | EPSS 1.1%</description>
+<description>An issue has been discovered in GitLab CE/EE affecting all versions from 7.0 before 18.11.13, 19.0 before 19.0.10, 19.1 before 19.1.9, 19.2 before 19.2.9, 19.3 before 19.3.6, 19.4 before 19.4.3, and 19.5 before 19.5.1 that, under certain conditions, could have allowed an unauthenticated user to execute arbitrary code on the GitLab server due to integer overflow when compiling a specially crafted regular expression. | CVSS 10 | EPSS 54.0%</description>
 </item>
 <item>
 <title>CVE-2026-111497 Microsoft .net: A buffer overflow vulnerability in the Brotli decoder (c/dec/decode.c) in Google Brotli versions 1.0.3...</title>
@@ -819,38 +851,6 @@ This vulnerability is due to improper handling of email attachments when the fil
 <pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
 <category>Network Infrastructure</category>
 <description>An  Improper Authentication vulnerability in J-Web of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated network attacker to bypass J-Web authentication and execute CGI content with elevated privileges via a crafted HTTP request. | CVSS 9.8 | EPSS 0.7%</description>
-</item>
-<item>
-<title>CVE-2026-101990 Juniper junos os evolved: A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-101990</link>
-<guid isPermaLink="false">CVE-2026-101990</guid>
-<pubDate>Wed, 14 Oct 2026 00:00:00 GMT</pubDate>
-<category>Network Infrastructure</category>
-<description>A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows a remote configured BGP peer to cause an rpd crash, or on Junos OS remote code-execution, via sending a flow-spec update which is selected for re-advertisement. | CVSS 9.8 | EPSS 0.6%</description>
-</item>
-<item>
-<title>CVE-2026-89107 SAP s/4hana: SAP S/4HANA (Manage Substitution/Validation Rules) does not sufficiently validate input processed by rule...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89107</link>
-<guid isPermaLink="false">CVE-2026-89107</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>SAP S/4HANA (Manage Substitution/Validation Rules) does not sufficiently validate input processed by rule definition functionality that utilizes a domain-specific scripting language. An authenticated attacker with specific business privileges could submit specially crafted input, which is interpreted as executable ABAP code by the rule processing logic. Successful exploitation could allow the attacker to execute ABAP arbitrary code into the system, resulting in full compromise of the affected system and high impact on confidentiality, integrity, and availability of the system. | CVSS 9.9 | EPSS 0.6%</description>
-</item>
-<item>
-<title>CVE-2026-89108 SAP manufacturing integration and intelligence: SAP Manufacturing Integration and Intelligence does not sufficiently enforce authorization boundaries within...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89108</link>
-<guid isPermaLink="false">CVE-2026-89108</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>SAP Manufacturing Integration and Intelligence does not sufficiently enforce authorization boundaries within certain administrative functionality. An attacker with MII administrator privileges could submit a specially crafted request to provision an account with elevated privileges on the underlying Java application server. Successful exploitation could allow the attacker to gain administrative control over the underlying system, extending the impact beyond the vulnerable application. This results in a high impact on confidentiality, integrity and availability. | CVSS 9.1 | EPSS 0.5%</description>
-</item>
-<item>
-<title>CVE-2026-89110 SAP netweaver: SAP NetWeaver Visual Composer does not perform sufficient authorization checks in certain portal...</title>
-<link>https://soupsoup.github.io/enterprise-cybertrack/#cve=CVE-2026-89110</link>
-<guid isPermaLink="false">CVE-2026-89110</guid>
-<pubDate>Tue, 13 Oct 2026 00:00:00 GMT</pubDate>
-<category>ERP &amp; Business Apps</category>
-<description>SAP NetWeaver Visual Composer does not perform sufficient authorization checks in certain portal functionality. An attacker with low privileges could invoke internal operations on a preconfigured remote system. Depending on the remote connection configuration, this could lead to a full compromise of the remote system. This results in a high impact on confidentiality, integrity and availability. | CVSS 9.9 | EPSS 0.5%</description>
 </item>
 </channel>
 </rss>

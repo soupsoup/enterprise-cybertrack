@@ -28,7 +28,7 @@ Users who cannot upgrade right away should set &quot;enabledForExtensions&quot; 
 <description>Concurrent Execution using Shared Resource with Improper Synchronization vulnerability in Apache HTTP Server&apos;s mod_http2 in assign_headers() can lead to RCE.
 
 This issue affects Apache HTTP Server: from 2.4.55 through 2.4.70.
-Affected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42. | CVSS 8.1 | EPSS 15.8%</description>
+Affected releases of mod_h2 from GitHub: from 2.0.8 through 2.0.42. | CVSS 8.1 | EPSS 24.9%</description>
 </item>
 <item>
 <title>CVE-2026-90436 Apache axis: ** UNSUPPORTED WHEN ASSIGNED ** Deserialization of an inbound SOAP fault in Apache Axis 1.x allows...</title>
