@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-26T15:23:03.722Z",
+ "generated": "2026-11-27T15:10:43.724Z",
  "cves": [
   {
    "id": "CVE-2026-50691",
@@ -300,7 +300,7 @@
      "toExcl": "2026.1.4"
     }
    ],
-   "epss": 0.00828
+   "epss": 0.00915
   },
   {
    "id": "CVE-2026-132900",
@@ -450,7 +450,7 @@
      "toExcl": "2026.1.4"
     }
    ],
-   "epss": 0.00828
+   "epss": 0.00915
   },
   {
    "id": "CVE-2026-132906",
@@ -1033,7 +1033,7 @@
      "toExcl": "5.16.2"
     }
    ],
-   "epss": 0.15289
+   "epss": 0.14872
   },
   {
    "id": "CVE-2026-118899",
@@ -1279,7 +1279,7 @@
      "toExcl": "5.16.2"
     }
    ],
-   "epss": 0.18075
+   "epss": 0.1637
   },
   {
    "id": "CVE-2026-123007",
@@ -1406,7 +1406,7 @@
      "toExcl": "5.16.2"
     }
    ],
-   "epss": 0.45588
+   "epss": 0.46134
   },
   {
    "id": "CVE-2026-123633",
@@ -1539,7 +1539,7 @@
      "toExcl": "5.16.2"
     }
    ],
-   "epss": 0.2211
+   "epss": 0.22445
   },
   {
    "id": "CVE-2026-123634",
@@ -1684,7 +1684,7 @@
      "toExcl": "5.16.2"
     }
    ],
-   "epss": 0.18839
+   "epss": 0.18333
   },
   {
    "id": "CVE-2026-130938",
@@ -1891,7 +1891,7 @@
      "to": "27.0.1.0.3"
     }
    ],
-   "epss": 0.59265
+   "epss": 0.72539
   },
   {
    "id": "CVE-2026-129448",
@@ -11490,6 +11490,94 @@
    "epss": 0.00264
   },
   {
+   "id": "CVE-2026-119925",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Out-of-bounds read in Windows Text Services Framework allows an authorized attacker to elevate privileges...",
+   "summary": "Out-of-bounds read in Windows Text Services Framework allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00341
+  },
+  {
+   "id": "CVE-2026-119929",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use after free in Windows Installer allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00341
+  },
+  {
+   "id": "CVE-2026-95942",
+   "vendor": "Microsoft",
+   "product": "365 copilot",
+   "category": "Cloud & AI Services",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Out-of-bounds read in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
+   "summary": "Out-of-bounds read in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 copilot",
+     "toExcl": "16.0.20625.20014"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00341
+  },
+  {
+   "id": "CVE-2026-95953",
+   "vendor": "Microsoft",
+   "product": "365 copilot",
+   "category": "Cloud & AI Services",
+   "cvss": 7.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Out-of-bounds read in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
+   "summary": "Out-of-bounds read in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
+   "affects": [
+    {
+     "vendor": "Microsoft",
+     "product": "365 copilot",
+     "toExcl": "16.0.20625.20014"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "microsoft 365"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2021"
+    },
+    {
+     "vendor": "Microsoft",
+     "product": "office 2024"
+    }
+   ],
+   "epss": 0.00341
+  },
+  {
    "id": "CVE-2026-115338",
    "vendor": "Progress",
    "product": "ws ftp server",
@@ -13107,7 +13195,7 @@
      "version": "19.5.0"
     }
    ],
-   "epss": 0.00277
+   "epss": 0.00293
   },
   {
    "id": "CVE-2026-15723",
@@ -13138,7 +13226,7 @@
      "version": "19.5.0"
     }
    ],
-   "epss": 0.00521
+   "epss": 0.00649
   },
   {
    "id": "CVE-2026-111497",
@@ -13186,7 +13274,7 @@
     }
    ],
    "kevAdded": "2026-10-27",
-   "epss": 0.32976
+   "epss": 0.99987
   },
   {
    "id": "CVE-2026-109618",
@@ -21734,7 +21822,7 @@
      "toExcl": "19.4.2"
     }
    ],
-   "epss": 0.0041
+   "epss": 0.00517
   },
   {
    "id": "CVE-2026-16301",
@@ -28312,7 +28400,7 @@
      "toExcl": "18.10.4"
     }
    ],
-   "epss": 0.00563
+   "epss": 0.0051
   },
   {
    "id": "CVE-2026-96958",
@@ -42195,7 +42283,7 @@
    "published": "2026-09-22",
    "title": "A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute...",
    "summary": "A directory traversal and file upload vulnerability allows an unauthenticated attacker to upload and execute arbitrary scripts on Check Point Management Server.",
-   "epss": 0.20905,
+   "epss": 0.91605,
    "kevAdded": "2026-09-22",
    "affects": [
     {
@@ -43140,7 +43228,7 @@
    "published": "2026-09-16",
    "title": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 15.3 before 19.1.8, 19.2 before...",
    "summary": "GitLab has remediated an issue in GitLab CE/EE affecting all versions from 15.3 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that, under certain conditions, an authenticated user could have induced a targeted user to perform unintended state-changing HTTP requests due to improper sanitization of user-controlled data in the Markdown JSON table renderer.",
-   "epss": 0.00349,
+   "epss": 0.0028,
    "affects": [
     {
      "vendor": "GitLab",
@@ -49820,7 +49908,7 @@
    "published": "2026-09-12",
    "title": "GitLab has remediated an issue in GitLab EE affecting all versions from 18.3 before 18.11.12, 19.0 before...",
    "summary": "GitLab has remediated an issue in GitLab EE affecting all versions from 18.3 before 18.11.12, 19.0 before 19.0.9, 19.1 before 19.1.8, 19.2 before 19.2.6, and 19.3 before 19.3.2 that under certain conditions could allow an authenticated user with Duo Chat access to obtain Advanced Search instance configurations and sensitive credentials using a specially crafted GraphQL subscription argument to bypass serialization and perform server object lookup.",
-   "epss": 0.00571,
+   "epss": 0.00629,
    "affects": [
     {
      "vendor": "GitLab",
