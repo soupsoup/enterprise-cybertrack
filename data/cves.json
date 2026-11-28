@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-27T15:10:43.724Z",
+ "generated": "2026-11-28T14:16:56.088Z",
  "cves": [
   {
    "id": "CVE-2026-50691",
@@ -11576,6 +11576,110 @@
     }
    ],
    "epss": 0.00341
+  },
+  {
+   "id": "CVE-2026-119960",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use of uninitialized resource in Windows Hyper-V allows an authorized attacker to elevate privileges locally.",
+   "summary": "Use of uninitialized resource in Windows Hyper-V allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00282
+  },
+  {
+   "id": "CVE-2026-119961",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows...",
+   "summary": "Concurrent execution using shared resource with improper synchronization ('race condition') in Windows Internet Information Services allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00554
+  },
+  {
+   "id": "CVE-2026-119962",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Double free in Windows Cred SSProvider Protocol allows an unauthorized attacker to execute code over a...",
+   "summary": "Double free in Windows Cred SSProvider Protocol allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00723
+  },
+  {
+   "id": "CVE-2026-119963",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Double free in Windows Message Queuing allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Windows Message Queuing allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00723
+  },
+  {
+   "id": "CVE-2026-119964",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Double free in Windows Message Queuing allows an unauthorized attacker to execute code over a network.",
+   "summary": "Double free in Windows Message Queuing allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00723
+  },
+  {
+   "id": "CVE-2026-119966",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 7.5,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Integer overflow or wraparound in Windows Graphics Kernel allows an authorized attacker to elevate privileges...",
+   "summary": "Integer overflow or wraparound in Windows Graphics Kernel allows an authorized attacker to elevate privileges locally.",
+   "affects": [],
+   "epss": 0.00282
+  },
+  {
+   "id": "CVE-2026-119967",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.1,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Use after free in Windows Message Queuing Queue Manager allows an unauthorized attacker to execute code over...",
+   "summary": "Use after free in Windows Message Queuing Queue Manager allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00723
+  },
+  {
+   "id": "CVE-2026-119969",
+   "vendor": "Microsoft",
+   "product": "windows",
+   "category": "Windows & Endpoint",
+   "cvss": 8.8,
+   "kev": false,
+   "published": "2026-11-10",
+   "title": "Heap-based buffer overflow in Graphic Fonts allows an unauthorized attacker to execute code over a network.",
+   "summary": "Heap-based buffer overflow in Graphic Fonts allows an unauthorized attacker to execute code over a network.",
+   "affects": [],
+   "epss": 0.00837
   },
   {
    "id": "CVE-2026-115338",

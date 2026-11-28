@@ -1,12 +1,12 @@
 {
- "generated": "2026-11-27T15:10:43.791Z",
+ "generated": "2026-11-28T14:16:56.149Z",
  "status": [
   {
    "company": "checkpoint",
    "label": "Research",
    "url": "https://research.checkpoint.com/feed/",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 15
   },
   {
@@ -14,7 +14,7 @@
    "label": "Blog",
    "url": "https://www.crowdstrike.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 10
   },
   {
@@ -22,7 +22,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 10
   },
   {
@@ -30,7 +30,7 @@
    "label": "Blog",
    "url": "https://www.darktrace.com/blog/rss.xml",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 100
   },
   {
@@ -38,7 +38,7 @@
    "label": "WeLiveSecurity",
    "url": "https://www.welivesecurity.com/en/rss/feed/",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 100
   },
   {
@@ -46,7 +46,7 @@
    "label": "Outbreak alerts",
    "url": "https://filestore.fortinet.com/fortiguard/rss/outbreakalert.xml",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 20
   },
   {
@@ -54,7 +54,7 @@
    "label": "Security advisories",
    "url": "https://filestore.fortinet.com/fortiguard/rss/ir.xml",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 50
   },
   {
@@ -62,7 +62,7 @@
    "label": "Threat signals",
    "url": "https://filestore.fortinet.com/fortiguard/rss/threatsignal.xml",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 10
   },
   {
@@ -70,7 +70,7 @@
    "label": "Threat intelligence blog",
    "url": "https://cloudblog.withgoogle.com/topics/threat-intelligence/rss/",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 20
   },
   {
@@ -78,7 +78,7 @@
    "label": "Security advisories",
    "url": "https://api.msrc.microsoft.com/update-guide/rss",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 5460
   },
   {
@@ -86,7 +86,7 @@
    "label": "Security blog",
    "url": "https://www.microsoft.com/en-us/security/blog/feed/",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 10
   },
   {
@@ -94,7 +94,7 @@
    "label": "Blog",
    "url": "https://www.paloaltonetworks.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 10
   },
   {
@@ -102,7 +102,7 @@
    "label": "Security advisories",
    "url": "https://security.paloaltonetworks.com/rss.xml",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 25
   },
   {
@@ -110,7 +110,7 @@
    "label": "Unit 42 research",
    "url": "https://unit42.paloaltonetworks.com/feed/",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 15
   },
   {
@@ -118,7 +118,7 @@
    "label": "Blog",
    "url": "https://www.proofpoint.com/us/rss.xml",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 10
   },
   {
@@ -126,7 +126,7 @@
    "label": "Blog",
    "url": "https://blog.qualys.com/feed",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 10
   },
   {
@@ -134,7 +134,7 @@
    "label": "Blog",
    "url": "https://www.rapid7.com/blog/rss/",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 20
   },
   {
@@ -142,7 +142,7 @@
    "label": "Blog",
    "url": "https://www.sentinelone.com/blog/feed/",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 10
   },
   {
@@ -150,7 +150,7 @@
    "label": "SentinelLabs research",
    "url": "https://www.sentinelone.com/labs/feed/",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 10
   },
   {
@@ -158,7 +158,7 @@
    "label": "Blog",
    "url": "https://www.sophos.com/en-us/blog/feed",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 9
   },
   {
@@ -166,7 +166,7 @@
    "label": "Security advisories",
    "url": "https://sec.cloudapps.cisco.com/security/center/psirtrss20/CiscoSecurityAdvisory.xml",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 50
   },
   {
@@ -174,7 +174,7 @@
    "label": "Threat research",
    "url": "https://blog.talosintelligence.com/rss/",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 15
   },
   {
@@ -182,7 +182,7 @@
    "label": "Blog",
    "url": "https://www.tenable.com/blog/feed",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 10
   },
   {
@@ -190,7 +190,7 @@
    "label": "Cyberthreat news",
    "url": "https://newsroom.trendmicro.com/cyberthreat?pagetemplate=rss",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 25
   },
   {
@@ -198,7 +198,7 @@
    "label": "News releases",
    "url": "https://newsroom.trendmicro.com/news-releases?pagetemplate=rss&category=787",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 25
   },
   {
@@ -206,7 +206,7 @@
    "label": "Research",
    "url": "https://feeds.feedburner.com/TrendMicroResearch",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 100
   },
   {
@@ -214,7 +214,7 @@
    "label": "Security blog",
    "url": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "page": "https://www.trendaisecurity.com/en-us/resources-insights/trendai-security-blog",
    "note": "This site shows no publication dates. Dates are estimated from its sitemap and may be later than the real date.",
    "count": 20
@@ -224,7 +224,7 @@
    "label": "Blog",
    "url": "https://www.wiz.io/feed/rss.xml",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 733
   },
   {
@@ -232,11 +232,19 @@
    "label": "ThreatLabz research",
    "url": "https://www.zscaler.com/blogs/feeds/security-research",
    "ok": true,
-   "checked": "2026-11-27T15:10:43.791Z",
+   "checked": "2026-11-28T14:16:56.149Z",
    "count": 50
   }
  ],
  "items": [
+  {
+   "company": "talos",
+   "feed": "Security advisories",
+   "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
+   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
+   "date": "2026-11-27T20:04:26.000Z",
+   "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7..."
+  },
   {
    "company": "sentinelone",
    "feed": "Blog",
@@ -252,6 +260,14 @@
    "link": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-62840",
    "date": "2026-11-27T09:10:39.000Z",
    "summary": "Information published."
+  },
+  {
+   "company": "sophos",
+   "feed": "Blog",
+   "title": "The network is back: Four questions for the AI era",
+   "link": "https://www.sophos.com/en-us/blog/the-network-is-back-four-questions-for-the-ai-era",
+   "date": "2026-11-27T00:00:00.000Z",
+   "summary": "Sophos’ recent roundtable “Securing the AI-Era Network” examined the forces reshaping network security. Here are four key takeaways to help you start important conversations about your organization’s security strategy."
   },
   {
    "company": "qualys",
@@ -276,14 +292,6 @@
    "link": "https://www.wiz.io/blog/what-wiz-agents-are-thankful-for",
    "date": "2026-11-26T02:10:58.000Z",
    "summary": "Grab a slice of Data Pie and pull up a chair. Here’s how Wiz’s Red, Green, and Blue Agents celebrate a quieter, smarter security season."
-  },
-  {
-   "company": "talos",
-   "feed": "Security advisories",
-   "title": "Vulnerabilities in nginx Affecting Cisco Products: November 2026",
-   "link": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-nginx-nov-2026-e8jska2s?vs_f=Cisco%20Security%20Advisory%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=Vulnerabilities%20in%20nginx%20Affecting%20Cisco%20Products:%20November%202026%26vs_k=1",
-   "date": "2026-11-26T01:48:13.000Z",
-   "summary": "On November 18, 2026, nginx announced the availability of a fix for multiple critical vulnerabilities in nginx that could lead to remote code execution. These vulnerabilities affect nginx releases 1.9.5 through 1.31.8 and is fixed in releases 1.31.9 (mainline) and 1.30.7..."
   },
   {
    "company": "fortinet",
@@ -3276,14 +3284,6 @@
    "link": "https://www.crowdstrike.com/en-us/blog/vapor-panda-uses-artex-to-scale-global-campaign/",
    "date": "2026-10-29T05:00:00.000Z",
    "summary": ""
-  },
-  {
-   "company": "sophos",
-   "feed": "Blog",
-   "title": "Physical Penetration Testing: When Human Trust Bypasses Layers of Security with a Simple Pretext",
-   "link": "https://www.sophos.com/en-us/blog/physical-penetration-testing-when-human-trust-bypasses-layers-of-security-with-a-simple-pretext",
-   "date": "2026-10-29T00:00:00.000Z",
-   "summary": "A physical penetration test reveals how social engineering, badge security gaps, exposed network access, and everyday human behavior can undermine layers of physical security."
   },
   {
    "company": "talos",
